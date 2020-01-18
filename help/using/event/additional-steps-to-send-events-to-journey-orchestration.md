@@ -1,0 +1,98 @@
+---
+title: Pasos adicionales para enviar eventos a la orquestación de viajes
+description: Obtenga información sobre los pasos adicionales para enviar eventos a la orquestación de viajes
+page-status-flag: never-activated
+uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
+contentOwner: sauviat
+audience: rns
+content-type: reference
+topic-tags: journeys
+discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+
+---
+
+
+
+# Pasos adicionales para enviar eventos a la orquestación de viajes {#concept_xrz_n1q_y2b}
+
+>[!NOTE]
+>
+>Al crear un evento, la orquestación de viajes genera automáticamente un ID para este evento. El sistema que impulsa el evento no debe generar un ID, debe utilizar el disponible en la vista previa de la carga útil. Consulte [](../event/previewing-the-payload.md).
+
+Para configurar los eventos a los que se enviarán **[!UICONTROL Streaming Ingestion APIs]**y que se utilizarán en la orquestación de viajes, debe seguir estos pasos:
+
+1. Obtenga la URL de entrada de las API de plataforma de datos (consulte API [de](https://www.adobe.io/apis/cloudplatform/dataservices/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/getting_started_with_platform_streaming_ingestion.md)inserción de flujo).
+1. Copie la carga útil de la vista previa de la carga útil en el **[!UICONTROL Event]**menú. Consulte[](../event/defining-the-payload-fields.md).
+
+A continuación, debe configurar el sistema de datos que envía eventos a las API de inserción de flujo mediante la carga útil copiada:
+
+1. Configure una llamada de API de POST en la URL de API de inserción de flujo (denominada entrada).
+1. Utilice la carga útil que copió de la orquestación de viajes en el cuerpo (&quot;sección de datos&quot;) de la llamada de API a las API de inserción de flujo. Vea a continuación un ejemplo
+1. Determine dónde obtener todas las variables presentes en la carga útil. Ejemplo: si se supone que el evento transmite la dirección, la carga útil pegada mostrará &quot;address&quot; (dirección): &quot;string&quot;. &quot;string&quot; debe reemplazarse por la variable que rellenará automáticamente el valor correcto, el correo electrónico de la persona a la que se enviará un mensaje. Tenga en cuenta que en la vista previa de carga útil, en la **[!UICONTROL Header]**sección, rellenamos automáticamente muchos valores que se espera que faciliten el trabajo.
+1. Seleccione &quot;application/json&quot; como tipo de cuerpo.
+1. Pase su ID de ORG de IMS en el encabezado utilizando la clave &quot;x-gw-ims-org-id&quot;. Para el valor, utilice su ID de ORG de IMS (&quot;XXX@AdobeOrg&quot;).
+
+Este es un ejemplo de un evento de API de inserción de flujo:
+
+```
+{
+    "header": {
+        "msgType": "xdmEntityCreate",
+        "msgId": "c25585b9-252e-431d-b562-e73da70c04e7",
+        "msgVersion": "1.0",
+        "xactionId": "f5995abe-c49d-4848-9577-a7a4fc2996fb",
+        "datasetId": "string - required if you want the data to land in a specific dataset - not mandatory",
+        "imsOrgId": "XXX@AdobeOrg",
+        "schemaRef": {
+            "id": "XXX",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        },
+        "source": {
+            "name": "Journeys"
+        }
+    },
+    "body": {
+        "xdmMeta": {
+            "schemaRef": {
+                "id": "XXX",
+                "contentType": "application/vnd.adobe.xed-full+json;version=1"
+            }
+        },
+        "xdmEntity": {
+            "_instance_name": {
+                "person": {
+                    "firstName": "string",
+                    "lastName": "string",
+                    "gender": "string",
+                    "birthYear": 10,
+                    "emailAddress": "string"
+                }
+            },
+            "identityMap": {
+                "Email": [
+                {
+                    "id": "string"
+                    }
+                ]
+            },
+            "_id": "string",
+            "timestamp": "2018-05-29T00:00:00.000Z",
+            "_experience": {
+                "campaign": {
+                    "orchestration": {
+                    "eventID": "XXX"
+                    }
+                }
+            }
+        }
+    }
+}
+```
+
+Para facilitar la identificación del lugar donde pegar la parte &quot;datos&quot;, puede utilizar una herramienta de visualización JSON como [https://jsonformatter.curiousconcept.com](https://jsonformatter.curiousconcept.com)
+
+Para solucionar problemas con las API de inserción de flujo, consulte esta [página](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/streaming_ingestion_FAQ.md).
