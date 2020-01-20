@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 70a71d920502a40186e32d5d876a9703e844bf3f
+source-git-commit: 6e7d89f4a9cb56b7b87cfc73ad7a9c7c4dc323a3
 
 ---
 
@@ -20,6 +20,11 @@ source-git-commit: 70a71d920502a40186e32d5d876a9703e844bf3f
 
 Esta página enumera todas las actualizaciones de documentación para la orquestación de viajes.
 También puede consultar las Notas de [revisión de la orquestación de viajes](../release-notes/release-notes.md).
+
+## January 2020 {#january-2020}
+
+* Se han agregado limitaciones de captura para eventos [de](../datasource/adobe-experience-platform-data-source.md) experiencia y [segmentos](../functions/functioninsegment.md).
+* Se ha actualizado la documentación [](../functions/functiongetbestsendtime.md) getBestSendTime.
 
 ## December 2019 {#december-2019}
 
@@ -32,4 +37,3 @@ También puede consultar las Notas de [revisión de la orquestación de viajes](
 * [Se han movido y actualizado las secciones de instrucciones](../expression/conditional-instruction.md) condicionales y administración [de](../expression/collection-management-functions.md) colecciones.
 * La sección de [funciones](../expression/functions.md) se ha actualizado con nuevos ejemplos.
 * La documentación [de la función](../functions/functiontodatetime.md) toDateTime se ha actualizado para reflejar los cambios de sintaxis de zona horaria.
-
