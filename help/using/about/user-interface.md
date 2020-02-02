@@ -9,12 +9,20 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
 
 ---
 
 
 # Interfaz de usuario {#concept_rcq_lqt_52b}
+
+
+>[!CONTEXTUALHELP]
+>id=&quot;jo_home&quot;
+>title=&quot;Acerca de la lista de viajes&quot;
+>abstract=&quot;La lista de viajes le permite ver todos sus viajes a la vez, ver su estado y realizar acciones básicas. Puede duplicar, detener o eliminar sus viajes. Según el viaje, es posible que algunas acciones no estén disponibles. Por ejemplo, no puede detener o eliminar un viaje detenido. También puede utilizar la barra de búsqueda para buscar un viaje&quot;.
+>extra-url=&quot;https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4&quot; text=&quot;Ver vídeo de demostración&quot;
+
 
 >[!NOTE]
 >
