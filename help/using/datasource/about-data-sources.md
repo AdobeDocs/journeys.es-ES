@@ -11,12 +11,17 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
 
 ---
 
 
 # Acerca de las fuentes de datos {#concept_s1s_dqt_52b}
+
+>[!CONTEXTUALHELP]
+>id=&quot;jo_datasources&quot;
+>title=&quot;Acerca de las fuentes de datos&quot;
+>abstract=&quot;La configuración del origen de datos siempre la realiza un usuario técnico. La configuración del origen de datos permite definir una conexión con un sistema para recuperar información adicional que se utilizará en los viajes, para: definición de condición, parámetro y datos de personalización en acciones, definición de espera personalizada, definición de zona horaria personalizada.&quot;
 
 La configuración del origen de datos siempre la realiza un usuario **** técnico.
 
