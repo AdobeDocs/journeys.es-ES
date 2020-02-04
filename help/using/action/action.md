@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fed9033310bf37535796638eda3b0846f1ed52c6
+source-git-commit: 4ba4259a31a6f71e842d59bdbccf07c3edf3fafd
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: fed9033310bf37535796638eda3b0846f1ed52c6
 
 La configuración de las acciones personalizadas siempre la realiza un usuario **** técnico.
 
-Aquí es donde se define la conexión con el sistema que enviará los mensajes. Las acciones definidas aquí estarán disponibles en la paleta izquierda del viaje, en la **[!UICONTROL Action]**categoría (consulte[](../building-journeys/about-action-activities.md).
+Aquí es donde se define la conexión con el sistema que enviará los mensajes. Las acciones definidas aquí estarán disponibles en la paleta izquierda del viaje, en la **[!UICONTROL Action]**categoría (véase[](../building-journeys/about-action-activities.md)).
 
 Para ver la lista de acciones o configurar una nueva acción, haga clic en **[!UICONTROL Actions]**en los menús superiores. Se muestra la lista de acciones. Consulte[](../about/user-interface.md)para obtener más información sobre la interfaz.
 
@@ -34,5 +34,3 @@ Para ver la lista de acciones o configurar una nueva acción, haga clic en **[!U
 Si tiene Adobe Campaign Standard, debe configurar la acción predeterminada. Consulte [](../action/working-with-adobe-campaign.md).
 
 Si utiliza un sistema de terceros para enviar mensajes, debe agregar y configurar una acción personalizada. Consulte [](../action/about-custom-action-configuration.md).
-
-Esta es una prueba.
