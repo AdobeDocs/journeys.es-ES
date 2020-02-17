@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cdede8bc301203d88b551a5cb4dcdbe4e7fe49a7
+source-git-commit: 8023d7780d43f1de4447c63568f641ce204722c7
 
 ---
 
@@ -20,6 +20,22 @@ source-git-commit: cdede8bc301203d88b551a5cb4dcdbe4e7fe49a7
 
 Esta página enumera todas las nuevas funciones y mejoras para la orquestación de viajes.
 También puede consultar las Actualizaciones [de](../release-notes/documentation-updates.md)documentación.
+
+## Versión del primer trimestre de 2019 {#q1-release---february-2019}
+
+* Ahora hay una función de ayuda contextual disponible en las distintas pantallas de orquestación de viajes. Esto significa que, con un solo clic, puede acceder directamente a la documentación sobre la funcionalidad que está utilizando actualmente. Para mostrar la ayuda contextual, haga clic en el icono ‘i’ en la esquina superior derecha de la pantalla. Por ahora, esta función está disponible en las pantallas de lista Inicio, Fuentes de datos, Eventos y Acciones.
+
+* API
+
+* Copiar/pegar
+
+* Filtrar eventos en los viajes.
+
+* ¿Varias regiones?
+
+* Temporizador en modo de prueba
+
+* Probar evento múltiple
 
 ## Versión de GA - Diciembre de 2019 {#ga-release---december-2019}
 
