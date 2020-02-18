@@ -23,19 +23,53 @@ También puede consultar las Actualizaciones [de](../release-notes/documentation
 
 ## Versión del primer trimestre de 2019 {#q1-release---february-2019}
 
-* Ahora hay una función de ayuda contextual disponible en las distintas pantallas de orquestación de viajes. Esto significa que, con un solo clic, puede acceder directamente a la documentación sobre la funcionalidad que está utilizando actualmente. Para mostrar la ayuda contextual, haga clic en el icono ‘i’ en la esquina superior derecha de la pantalla. Por ahora, esta función está disponible en las pantallas de lista Inicio, Fuentes de datos, Eventos y Acciones.
+**Gestión de zonas horarias**
 
-* En el modo de prueba, todas las actividades de espera ahora se establecen automáticamente en 5 segundos. Esto le permite acceder rápidamente a los resultados de la prueba.
+Las zonas horarias ahora se gestionan a nivel de viaje. Se han añadido dos parámetros en las propiedades del viaje:
 
-* API
+![](../assets/rn-timezone.png)
 
-* ¿Copiar/pegar actividades en viajes?
+* La lista desplegable **Zona horaria** le permite seleccionar una zona horaria específica. De forma predeterminada, se utiliza la zona horaria del explorador.
 
-* Filtrar eventos en viajes
+* La casilla **Perfil Zona horaria** le permite utilizar la zona horaria Perfil de la plataforma de experiencia de la persona que entra en el viaje, si está disponible. De lo contrario, se utilizará la zona horaria definida en la lista desplegable. Esta función no es compatible con viajes sin espacio de nombres.
 
-* ¿Varias regiones?
+**Ayuda contextual**
 
-* Probar evento múltiple
+Ahora hay una función de ayuda contextual disponible en las distintas pantallas de orquestación de viajes. Esto significa que, con un solo clic, puede acceder directamente a la documentación sobre la funcionalidad que está utilizando actualmente.
+
+Para mostrar la ayuda contextual, haga clic en el icono ‘i’ en la esquina superior derecha de la pantalla.
+
+Por ahora, esta función está disponible en las pantallas de lista Inicio, Fuentes de datos, Eventos y Acciones.
+
+**Otros cambios**
+
+* En el modo de prueba, un nuevo parámetro permite definir el parámetro time peafiner.  las actividades de espera de tiempo pueden durar. Esto le permite acceder rápidamente a los resultados de la prueba.
+
+* En el modo de prueba, ahora puede activar todos los eventos del viaje.
+
+
+* un nuevo parámetro le permite definir el parámetro time peafiner.  las actividades de espera de tiempo pueden durar. Esto le permite acceder rápidamente a los resultados de la prueba.
+
+* La orquestación de travesías ya está disponible en EMEA.
+
+* Nuevo icono en la paleta para mostrar o no elementos disponibles. sans namespace. por defecto .
+
+* lienzo, desconexión, icono petite, qui dit desconectado nodo.
+
+* corto C ttes les listes
+
+* IU de paleta, resultados de búsqueda de icono
+
+* Pouvoir capper les llama a des APIS externes (fuentes de datos u acciones). marque n&#39;acepte que 500 llamadas por segundo, elle pourra mettre un topping a 500 llamadas segundos qui evite de surcharger system de lealtad
+
+* registros del registro de pruebas. Avant status = error. Cuand en los sistemas appalle. Posibilityé de voir code erreur frase qu&#39;à renvoyé le systeme. -> ds un test en cas d&#39;erreur, niveles del sistema, código de error, respuesta de error.
+
+* se detuvo la eliminación del viaje
+
+* viaje: versión 1 il te met si es la última
+
+1er mes.
+
 
 ## Versión de GA - Diciembre de 2019 {#ga-release---december-2019}
 
