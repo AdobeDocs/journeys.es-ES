@@ -25,6 +25,8 @@ También puede consultar las Actualizaciones [de](../release-notes/documentation
 
 * Ahora hay una función de ayuda contextual disponible en las distintas pantallas de orquestación de viajes. Esto significa que, con un solo clic, puede acceder directamente a la documentación sobre la funcionalidad que está utilizando actualmente. Para mostrar la ayuda contextual, haga clic en el icono ‘i’ en la esquina superior derecha de la pantalla. Por ahora, esta función está disponible en las pantallas de lista Inicio, Fuentes de datos, Eventos y Acciones.
 
+* En el modo de prueba, todas las actividades de espera ahora se establecen automáticamente en 5 segundos. Esto le permite acceder rápidamente a los resultados de la prueba.
+
 * API
 
 * ¿Copiar/pegar actividades en viajes?
@@ -32,8 +34,6 @@ También puede consultar las Actualizaciones [de](../release-notes/documentation
 * Filtrar eventos en viajes
 
 * ¿Varias regiones?
-
-* Temporizador en modo de prueba
 
 * Probar evento múltiple
 
