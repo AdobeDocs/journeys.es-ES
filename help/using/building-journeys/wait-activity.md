@@ -37,7 +37,7 @@ Puede definir una condición si desea restringir la espera a una determinada pob
 >
 >La duración máxima de espera es de 30 días.
 >
->En el modo de prueba, el parámetro Tiempo de **espera en la prueba** permite definir el tiempo que durará cada actividad de espera. El tiempo predeterminado es de 10 segundos. Esto garantizará que los resultados de la prueba se obtengan rápidamente. Consulte [](../building-journeys/testing-the-journey.md).
+>En el modo de prueba, todas las actividades de espera se establecen automáticamente en 5 segundos. Esto le permite acceder rápidamente a los resultados de la prueba.
 
 ## Duración de espera{#duration}
 
