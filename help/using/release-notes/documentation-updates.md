@@ -21,20 +21,6 @@ source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 Esta página enumera todas las actualizaciones de documentación para la orquestación de viajes.
 También puede consultar las Notas de [revisión de la orquestación de viajes](../release-notes/release-notes.md).
 
-## Marzo de 2020 {#march-2020}
-
-* Se ha añadido la activación de varios eventos a la sección Modo de prueba [Más información](../building-journeys/testing-the-journey.md#firing_events)
-* La sección Modo de prueba se ha actualizado con respecto al nuevo parámetro **Tiempo de espera en el parámetro de prueba** . [Más información](../building-journeys/testing-the-journey.md)
-* La sección Registro de pruebas se ha actualizado con códigos de error de llamada externa y respuestas. [Más información](../building-journeys/testing-the-journey.md#viewing_logs)
-* La administración de zonas horarias ahora está centralizada en el panel de propiedades del viaje. Lea más [aquí](../building-journeys/changing-properties.md#timezone) y [aquí](../building-journeys/timezone-management.md)
-* La sección Diseñador de viajes se ha actualizado para reflejar las mejoras recientes. [Más información](../building-journeys/using-the-journey-designer.md)
-* La descripción de la interfaz se ha actualizado con información sobre la ayuda contextual. [Más información](../about/user-interface.md#section_ksq_zr1_ffb)
-* Al examinar los campos **** XDM, ahora se muestra el nombre descriptivo. Se han actualizado las secciones relacionadas. [Más información](../event/defining-the-payload-fields.md)
-
-## Febrero de 2020 {#february-2020}
-
-* Se ha actualizado la sección de accesos directos. La combinación de teclas **C** le permite crear un nuevo elemento en todas las pantallas de lista. [Más información](../about/user-interface.md#section_ksq_zr1_ffb)
-
 ## January 2020 {#january-2020}
 
 * Se han agregado limitaciones de captura para eventos [de](../datasource/adobe-experience-platform-data-source.md) experiencia y [segmentos](../functions/functioninsegment.md).
