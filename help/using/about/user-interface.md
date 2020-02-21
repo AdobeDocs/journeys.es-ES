@@ -20,7 +20,7 @@ source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 >[!CONTEXTUALHELP]
 >id=&quot;jo_home&quot;
 >title=&quot;Acerca de la lista de viajes&quot;
->abstract=&quot;La lista de viajes le permite ver todos sus viajes a la vez, ver su estado y realizar acciones básicas. Puede duplicar, detener o eliminar sus viajes. Según el viaje, es posible que algunas acciones no estén disponibles. Por ejemplo, no se puede detener ni eliminar un viaje terminado. También puede utilizar la barra de búsqueda para buscar un viaje&quot;.
+>abstract=&quot;La lista de viajes le permite ver todos sus viajes a la vez, ver su estado y realizar acciones básicas. Puede duplicar, detener o eliminar sus viajes. Según el viaje, es posible que algunas acciones no estén disponibles. Por ejemplo, no puede detener o eliminar un viaje detenido. También puede utilizar la barra de búsqueda para buscar un viaje&quot;.
 >extra-url=&quot;https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4&quot; text=&quot;Ver vídeo de demostración&quot;
 
 
@@ -43,10 +43,6 @@ También puede acceder a Orquestación de viajes desde la página de inicio de E
 Los menús superiores le permiten navegar por las diferentes funcionalidades de la orquestación de viajes: **[!UICONTROL Home]**(los viajes),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
 
 ![](../assets/journey2.png)
-
-Haga clic en el ![](../assets/icon-context.png) icono en la esquina superior derecha de la pantalla para mostrar la ayuda contextual. Está disponible en las distintas pantallas de la lista de orquestaciones de viajes (viajes, eventos, acciones y fuentes de datos). Esto le permite ver una descripción rápida de la funcionalidad actual y acceder a los artículos y vídeos relacionados.
-
-![](../assets/journey2bis.png)
 
 ## Búsqueda y filtrado{#section_lgm_hpz_pgb}
 
