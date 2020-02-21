@@ -22,6 +22,10 @@ Antes de poder probar el viaje, debe resolver todos los errores, si los hay. Con
 
 Usted tiene la posibilidad de probar su viaje antes de su publicación, utilizando perfiles de prueba. Esto le permite analizar cómo fluyen los individuos en el viaje y solucionar los problemas antes de la publicación.
 
+>[!NOTE]
+>
+>En el modo de prueba, todas las actividades de espera se establecen automáticamente en 5 segundos. Esto le permite acceder rápidamente a los resultados de la prueba.
+
 Para utilizar el modo de prueba, siga estos pasos:
 
 1. Antes de probar el viaje, verifique que sea válido y que no haya ningún error. No podrá iniciar una prueba de un viaje con errores. Consulte [](../about/troubleshooting.md#section_h3q_kqk_fhb). Se muestra un símbolo de advertencia cuando hay errores.
@@ -29,10 +33,6 @@ Para utilizar el modo de prueba, siga estos pasos:
 1. Para activar el modo de prueba, haga clic en el **[!UICONTROL Test]** botón de alternancia, situado en la esquina superior derecha.
 
    ![](../assets/journeytest1.png)
-
-1. Utilice el parámetro de tiempo de **espera en la prueba** , en la esquina inferior izquierda, para definir el tiempo que durará cada actividad de espera en el modo de prueba. El tiempo predeterminado es de 10 segundos. Esto garantizará que los resultados de la prueba se obtengan rápidamente. Este parámetro solo aparece si ha omitido una o varias actividades de espera en el viaje.
-
-   ![](../assets/journeytest_wait.png)
 
 1. Haga clic en **[!UICONTROL Trigger an event]** para configurar y enviar eventos al viaje. Asegúrese de enviar eventos relacionados con perfiles de prueba. Consulte [Activación de eventos](#firing_events).
 
@@ -60,7 +60,7 @@ El **[!UICONTROL Trigger an event]** botón permite configurar un evento que har
 
 Como requisito previo, debe saber qué perfiles están marcados como perfiles de prueba en la plataforma de datos. De hecho, el modo de prueba solo permite estos perfiles en el viaje y el evento debe contener una ID. El ID esperado depende de la configuración del evento. Puede ser un ECID, por ejemplo.
 
-Si el viaje contiene varios eventos, utilice la lista desplegable para seleccionar un evento. A continuación, configure para cada evento los campos pasados y la ejecución del envío del evento. La interfaz le ayuda a pasar la información correcta en la carga útil del evento y a asegurarse de que el tipo de información es correcto. El modo de prueba guarda los últimos parámetros utilizados en una sesión de prueba para su uso posterior.
+Esta pantalla le permite configurar los campos pasados en el evento y la ejecución del envío del evento. La interfaz le ayuda a pasar la información correcta en la carga útil del evento y a asegurarse de que el tipo de información es correcto. El modo de prueba guarda los últimos parámetros utilizados en una sesión de prueba para su uso posterior.
 
 ![](../assets/journeytest4.png)
 
@@ -75,10 +75,6 @@ Un usuario técnico también puede utilizar esta interfaz para componer cargas d
 El **[!UICONTROL Show log]** botón permite ver los resultados de la prueba. Esta página muestra la información actual del viaje en formato JSON. Un botón permite copiar nodos completos. Debe actualizar manualmente la página para actualizar los resultados de la prueba del viaje.
 
 ![](../assets/journeytest3.png)
-
->[!NOTE]
->
->En los registros de prueba, en caso de error al llamar a un sistema de terceros (fuente de datos o acción), se muestran el código de error y la respuesta de error.
 
 Se muestra el número de individuos (técnicamente, se denominan instancias) que se encuentran dentro del viaje. Esta es una información útil que se muestra para cada individuo:
 
