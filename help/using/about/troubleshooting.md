@@ -26,10 +26,6 @@ Los errores aparecen con un símbolo de advertencia en las propias actividades d
 
 ![](../assets/journey63.png)
 
-Por ejemplo, en el lienzo, cuando se desconectan dos actividades, se muestra una advertencia.
-
-![](../assets/canvas-disconnected.png)
-
 Al lado del **[!UICONTROL Test]** botón de alternancia y del **[!UICONTROL Publish]** botón, se puede mostrar un signo de advertencia. Este signo de advertencia muestra los errores detectados por el sistema y evita la activación del modo de prueba o la publicación del viaje. La mayoría de las veces, los errores detectados por el sistema están vinculados a errores visibles en las actividades, pero a veces están vinculados a otros problemas. En este caso, puede mostrarlos e intentar identificar el problema mediante la descripción del error. Si no puede identificar el problema, puede copiar los detalles y enviarlos al administrador o a la asistencia técnica. Tenga en cuenta que los errores que bloquean la prueba y los errores que bloquean la publicación son similares.
 
 El sistema detecta dos tipos de problemas: errores y advertencias. Los errores bloquean la publicación y prueban la activación. Las advertencias indican posibles problemas que no bloquean la activación o publicación de pruebas. Verá una descripción de la publicación y un ID de registro de la publicación del tipo ERR_XXX_XXX. Esto ayudará al soporte técnico a identificar el problema.
