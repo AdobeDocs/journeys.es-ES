@@ -20,7 +20,7 @@ Comience por archivar un problema. Los comités existentes en este proyecto trab
 
 ## Contrato de licencia de colaborador
 
-Todas las contribuciones de terceros a este proyecto deben ir acompañadas de un acuerdo de licencia de contribuyente firmado. Esto otorga permiso a Adobe para redistribuir sus contribuciones como parte del proyecto. [Firme nuestro CLA](https://opensource.adobe.com/cla.html). Solo tiene que enviar un CLA de Adobe una vez, por lo que si lo ha enviado anteriormente, ¡ya está listo!
+Todas las contribuciones de terceros a este proyecto deben ir acompañadas de un acuerdo de licencia de contribuyente firmado. Esto otorga permiso a Adobe para redistribuir sus contribuciones como parte del proyecto. [Firme nuestro CLA](http://opensource.adobe.com/cla.html). Solo tiene que enviar un CLA de Adobe una vez, por lo que si lo ha enviado anteriormente, ¡ya está listo!
 
 ## Reseñas de código
 
