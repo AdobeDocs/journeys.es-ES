@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4871550d1608f4ffdee3b56d38b08f808eb2281c
+source-git-commit: 538b350165365479caef499a74346381643033d5
 
 ---
 
@@ -29,7 +29,7 @@ Existen cuatro tipos de condiciones:
 
 ## Acerca de la actividad Condition {#about_condition}
 
-Haga clic **[!UICONTROL Add a path]**si desea definir varias condiciones. Para cada condición, se agrega una nueva ruta en el lienzo después de la actividad.
+Haga clic **[!UICONTROL Add a path]** si desea definir varias condiciones. Para cada condición, se agrega una nueva ruta en el lienzo después de la actividad.
 
 ![](../assets/journey47.png)
 
@@ -37,7 +37,7 @@ Tenga en cuenta que el diseño de los viajes tiene un impacto funcional. Cuando 
 
 ![](../assets/journey48.png)
 
-Puede crear otra ruta para las audiencias que no cumplen las condiciones definidas marcando **[!UICONTROL Show path for other cases than the one(s) above]**. Tenga en cuenta que esta opción no está disponible en condiciones de división. Consulte[Porcentaje dividido](#percentage_split).
+Puede crear otra ruta para las audiencias que no cumplen las condiciones definidas marcando **[!UICONTROL Show path for other cases than the one(s) above]**. Tenga en cuenta que esta opción no está disponible en condiciones de división. Consulte [Porcentaje dividido](#percentage_split).
 
 El modo simple permite realizar consultas sencillas basadas en una combinación de campos. Todos los campos disponibles se muestran en la parte izquierda de la pantalla. Arrastre y suelte los campos en la zona principal. Para combinar los distintos elementos, interactívelos entre sí para crear diferentes grupos o niveles de grupo. A continuación, puede seleccionar un operador lógico para combinar elementos en el mismo nivel:
 
@@ -58,7 +58,11 @@ Esto le permite definir una condición en función de los campos de las fuentes 
 
 ## Condición de tiempo{#time_condition}
 
-Esto le permite realizar diferentes acciones según la hora del día y/o el día de la semana. Por ejemplo, puede decidir enviar mensajes SMS durante el día y mensajes de correo electrónico por la noche durante los días de semana. Puede definir una zona horaria específica para esta condición. Consulte [](../building-journeys/timezone-management.md).
+Esto le permite realizar diferentes acciones según la hora del día y/o el día de la semana. Por ejemplo, puede decidir enviar mensajes SMS durante el día y mensajes de correo electrónico por la noche durante los días de semana.
+
+>[!NOTE]
+>
+>El huso horario ya no es específico de una condición y ahora se define en el nivel de viaje en las propiedades del viaje. Consulte [](../building-journeys/timezone-management.md).
 
 ![](../assets/journey51.png)
 
@@ -75,6 +79,10 @@ Esta opción le permite dividir aleatoriamente la audiencia para definir una acc
 
 ## Condición de fecha {#date_condition}
 
-Esto le permite definir un flujo diferente en función de la fecha. Por ejemplo, si la persona entra en el paso durante el período de &quot;ventas&quot;, le enviará un mensaje específico. El resto del año, enviarás otro mensaje. Al definir una condición de fecha, debe especificar una zona horaria. Consulte [](../building-journeys/timezone-management.md).
+Esto le permite definir un flujo diferente en función de la fecha. Por ejemplo, si la persona entra en el paso durante el período de &quot;ventas&quot;, le enviará un mensaje específico. El resto del año, enviarás otro mensaje.
+
+>[!NOTE]
+>
+>El huso horario ya no es específico de una condición y ahora se define en el nivel de viaje en las propiedades del viaje. Consulte [](../building-journeys/timezone-management.md).
 
 ![](../assets/journey53.png)
