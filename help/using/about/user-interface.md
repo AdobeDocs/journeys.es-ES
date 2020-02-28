@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 3efe73dbfee331e2cc42ec737f0258f482171998
+source-git-commit: 891216a489b79fe4b168ecdb6120f5d9f3e107d0
 
 ---
 
@@ -73,18 +73,15 @@ En las distintas listas, puede realizar acciones básicas en cada elemento. Por 
 
 ![](../assets/journey4.png)
 
-## Se muestran los nombres de campo XDM{#friendly-names-display}
+## Navegación a través de los campos de la plataforma de datos {#friendly-names-display}
 
-Los nombres de los campos XDM se definen en esquemas bajo nombres de campo y nombres para mostrar al definir la carga útil [del](../event/defining-the-payload-fields.md)evento, la carga útil [del grupo de](../datasource/field-groups.md) campos y al seleccionar los campos en el editor [de](../expression/expressionadvanced.md)expresiones.
-Al seleccionar un campo, se muestra su nombre técnico, así como un nombre más sencillo para el usuario.
+Al definir la carga útil [del](../event/defining-the-payload-fields.md)evento, la carga útil [del grupo de](../datasource/field-groups.md) campos y seleccionar los campos en el editor [de](../expression/expressionadvanced.md)expresiones, se muestra el nombre para mostrar además del nombre del campo. Esta información se recupera de la definición del esquema en el modelo de datos de experiencia.
 
-Puede proporcionar descriptores como &quot;xdm:alterneDisplayInfo&quot; al configurar esquemas para definir nombres descriptivos que reemplazarán a los nombres para mostrar. También permite modificar los valores &quot;title&quot; y &quot;description&quot; de los campos de esquema.
-
-Si hay un nombre descriptivo disponible, el campo se mostrará como `<friendly-name>(<name>)`. Si no hay ningún nombre descriptivo disponible, aparecerá el nombre para mostrar, por ejemplo `<display-name>(<name>)`. Si no se define ninguno de ellos, solo se mostrará el nombre técnico del campo `<name>`.
-
-Puede configurar descriptores de nombres descriptivos mediante una llamada de API. Para obtener más información, consulte la guía para desarrolladores de [Schema Registry](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md).
+Si se proporcionan descriptores como &quot;xdm:alternativoDisplayInfo&quot; al configurar esquemas, los nombres descriptivos reemplazarán a los nombres para mostrar. Resulta especialmente útil cuando se trabaja con &quot;eVars&quot; y campos genéricos.Puede configurar descriptores de nombres prácticos mediante una llamada de API. Para obtener más información, consulte la guía para desarrolladores de [Schema Registry](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md).
 
 ![](../assets/xdm-from-descriptors.png)
+
+Si hay un nombre descriptivo disponible, el campo se mostrará como `<friendly-name>(<name>)`. Si no hay ningún nombre descriptivo disponible, aparecerá el nombre para mostrar, por ejemplo `<display-name>(<name>)`. Si no se define ninguno de ellos, solo se mostrará el nombre técnico del campo `<name>`.
 
 >[!NOTE]
 >
