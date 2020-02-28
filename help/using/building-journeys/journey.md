@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+source-git-commit: d5c013ed6031e8138a8e2c099fc28af82966d3ec
 
 ---
 
@@ -29,13 +29,13 @@ Solo se permite un espacio de nombres por viaje. Al soltar el primer evento, los
 
 Estos son los pasos principales para crear y publicar un viaje.
 
-1. En el menú superior, haga clic en la **[!UICONTROL Home]**ficha.
+1. En el menú superior, haga clic en la **[!UICONTROL Home]** ficha.
 
    Se muestra la lista de viajes. Consulte [](../building-journeys/using-the-journey-designer.md) para obtener más información sobre la interfaz.
 
    ![](../assets/journey30.png)
 
-1. Haga clic **[!UICONTROL Create]**para crear un nuevo viaje.
+1. Haga clic **[!UICONTROL Create]** para crear un nuevo viaje.
 
    ![](../assets/journey31.png)
 
@@ -44,7 +44,6 @@ Estos son los pasos principales para crear y publicar un viaje.
    ![](../assets/journey32.png)
 
 1. Comience por arrastrar y soltar una actividad de evento desde la paleta en el lienzo. También puede hacer doble clic en una actividad para agregarla al lienzo.
-
 
    ![](../assets/journey33.png)
 
@@ -56,7 +55,7 @@ Estos son los pasos principales para crear y publicar un viaje.
 
    ![](../assets/journey36.png)
 
-## Finalización de un viaje{#ending_a_journey}
+## Finalización de un viaje {#ending_a_journey}
 
 Existen dos maneras de terminar un viaje:
 
@@ -64,4 +63,3 @@ Existen dos maneras de terminar un viaje:
 * La persona llega a una actividad de condición (o a una actividad de espera con una condición) y no cumple ninguna de las condiciones.
 
 La persona puede volver a entrar en el viaje si se permite la reentrada. Consulte [](../building-journeys/changing-properties.md).
-
