@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: 411ecf0ec4dc6a87c4e129b40f2918799bef54bf
 
 ---
 
@@ -22,7 +22,12 @@ El espacio de nombres permite definir el tipo de clave utilizada para identifica
 
 Puede utilizar uno de los predefinidos o crear uno nuevo con el servicio Espacio de nombres de identidad. Consulte [esta página](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/identity_namespace_overview/identity_namespace_overview.md).
 
-Si selecciona un esquema que tiene una identidad principal, los campos **[!UICONTROL Key]**y**[!UICONTROL Namespace]** se rellenan previamente. Si no hay ninguna identidad definida, seleccionamos _identityMap > id_ como clave principal. A continuación, debe seleccionar un espacio de nombres y la clave se rellenará previamente (debajo del **[!UICONTROL Namespace]**campo) mediante _identityMap > id_.
+Si selecciona un esquema que tiene una identidad principal, los campos **[!UICONTROL Key]** y **[!UICONTROL Namespace]** se rellenan previamente. Si no hay ninguna identidad definida, seleccionamos _identityMap > id_ como clave principal. A continuación, debe seleccionar un espacio de nombres y la clave se rellenará previamente (debajo del **[!UICONTROL Namespace]** campo) mediante _identityMap > id_.
+
+Al seleccionar campos, los campos de identidad principales se etiquetan.
+
+![](../assets/primary-identity.png)
+
 
 Seleccione un espacio de nombres en la lista desplegable.
 
