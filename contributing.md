@@ -1,5 +1,5 @@
 ---
-source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
+source-git-commit: 25715e66b5495347e0c5ee2b1d75d44aa9cd3125
 translation-type: tm+mt
 
 ---
@@ -20,7 +20,7 @@ Comience por archivar un problema. Los comités existentes en este proyecto trab
 
 ## Contrato de licencia de colaborador
 
-Todas las contribuciones de terceros a este proyecto deben ir acompañadas de un acuerdo de licencia de contribuyente firmado. Esto otorga permiso a Adobe para redistribuir sus contribuciones como parte del proyecto. [Firme nuestro CLA](http://opensource.adobe.com/cla.html). Solo tiene que enviar un CLA de Adobe una vez, por lo que si lo ha enviado anteriormente, ¡ya está listo!
+Todas las contribuciones de terceros a este proyecto deben ir acompañadas de un acuerdo de licencia de contribuyente firmado. Esto otorga permiso a Adobe para redistribuir sus contribuciones como parte del proyecto. [Firme nuestro CLA](https://opensource.adobe.com/cla.html). Solo tiene que enviar un CLA de Adobe una vez, por lo que si lo ha enviado anteriormente, ¡ya está listo!
 
 ## Reseñas de código
 
