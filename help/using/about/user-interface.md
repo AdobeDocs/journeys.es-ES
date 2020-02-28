@@ -9,20 +9,19 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
+source-git-commit: 3efe73dbfee331e2cc42ec737f0258f482171998
 
 ---
 
 
-# Interfaz de usuario {#concept_rcq_lqt_52b}
+# Interfaz de usuario{#concept_rcq_lqt_52b}
 
 
 >[!CONTEXTUALHELP]
 >id=&quot;jo_home&quot;
 >title=&quot;Acerca de la lista de viajes&quot;
->abstract=&quot;La lista de viajes le permite ver todos sus viajes a la vez, ver su estado y realizar acciones básicas. Puede duplicar, detener o eliminar sus viajes. Según el viaje, es posible que algunas acciones no estén disponibles. Por ejemplo, no puede detener o eliminar un viaje detenido. También puede utilizar la barra de búsqueda para buscar un viaje&quot;.
+>abstract=&quot;La lista de viajes le permite ver todos sus viajes a la vez, ver su estado y realizar acciones básicas. Puede duplicar, detener o eliminar sus viajes. Según el viaje, es posible que algunas acciones no estén disponibles. Por ejemplo, no se puede detener ni eliminar un viaje terminado. También puede utilizar la barra de búsqueda para buscar un viaje&quot;.
 >extra-url=&quot;https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4&quot; text=&quot;Ver vídeo de demostración&quot;
-
 
 >[!NOTE]
 >
@@ -44,6 +43,10 @@ Los menús superiores le permiten navegar por las diferentes funcionalidades de 
 
 ![](../assets/journey2.png)
 
+Haga clic en el ![](../assets/icon-context.png) icono en la esquina superior derecha de la pantalla para mostrar la ayuda contextual. Está disponible en las distintas pantallas de la lista de orquestaciones de viajes (viajes, eventos, acciones y fuentes de datos). Esto le permite ver una descripción rápida de la funcionalidad actual y acceder a los artículos y vídeos relacionados.
+
+![](../assets/journey2bis.png)
+
 ## Búsqueda y filtrado{#section_lgm_hpz_pgb}
 
 En las **[!UICONTROL Home]** listas,**[!UICONTROL Data Sources]****[!UICONTROL Events]** y **[!UICONTROL Actions]** , una barra de búsqueda permite buscar un elemento.
@@ -52,11 +55,13 @@ Se **[!UICONTROL Filters]** puede acceder al mismo haciendo clic en el icono de 
 
 En las listas **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** y **[!UICONTROL Actions]** , utilice los filtros **** Creación para filtrar la fecha de creación y el usuario. Puede elegir, por ejemplo, mostrar solo los eventos que creó en los últimos 30 días.
 
-En la lista de viajes (debajo **[!UICONTROL Home]**), además del **[!UICONTROL Creation filters]**, también puede filtrar los viajes mostrados según su estado y versión (**[!UICONTROL Status and version filters]**). También puede elegir mostrar únicamente los viajes que utilizan un evento, un grupo de campos o una acción (**[!UICONTROL Activity filters]** y **[!UICONTROL Data filters]**) concretos. Permite **[!UICONTROL Publication filters]** seleccionar una fecha de publicación o un usuario. Puede elegir, por ejemplo, mostrar solo las versiones más recientes de viajes en directo que se publicaron ayer. Consulte [](../building-journeys/using-the-journey-designer.md).
+En la lista de viajes (debajo **[!UICONTROL Home]**), además del **[!UICONTROL Creation filters]**, también puede filtrar los viajes mostrados según su estado y versión (**[!UICONTROL Status and version filters]**). También puede elegir mostrar únicamente los viajes que utilizan un evento, un grupo de campos o una acción (**[!UICONTROL Activity filters]** y **[!UICONTROL Data filters]**) concretos.El **[!UICONTROL Publication filters]** permite seleccionar una fecha de publicación o un usuario. Puede elegir, por ejemplo, mostrar solo las versiones más recientes de viajes en directo que se publicaron ayer. Consulte [](../building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
 >Tenga en cuenta que las columnas mostradas se pueden personalizar mediante el botón de configuración en la parte superior derecha de las listas. La personalización se guarda para cada usuario.
+
+Las **[!UICONTROL Last update]** columnas y **[!UICONTROL Last update by]** permiten mostrar cuándo se ha producido la última actualización de los viajes y qué usuario lo ha hecho.
 
 ![](../assets/journey74.png)
 
@@ -67,6 +72,23 @@ En los paneles de configuración de evento, origen de datos y acción, el **[!UI
 En las distintas listas, puede realizar acciones básicas en cada elemento. Por ejemplo, puede duplicar o eliminar un elemento.
 
 ![](../assets/journey4.png)
+
+## Se muestran los nombres de campo XDM{#friendly-names-display}
+
+Los nombres de los campos XDM se definen en esquemas bajo nombres de campo y nombres para mostrar al definir la carga útil [del](../event/defining-the-payload-fields.md)evento, la carga útil [del grupo de](../datasource/field-groups.md) campos y al seleccionar los campos en el editor [de](../expression/expressionadvanced.md)expresiones.
+Al seleccionar un campo, se muestra su nombre técnico, así como un nombre más sencillo para el usuario.
+
+Puede proporcionar descriptores como &quot;xdm:alterneDisplayInfo&quot; al configurar esquemas para definir nombres descriptivos que reemplazarán a los nombres para mostrar. También permite modificar los valores &quot;title&quot; y &quot;description&quot; de los campos de esquema.
+
+Si hay un nombre descriptivo disponible, el campo se mostrará como `<friendly-name>(<name>)`. Si no hay ningún nombre descriptivo disponible, aparecerá el nombre para mostrar, por ejemplo `<display-name>(<name>)`. Si no se define ninguno de ellos, solo se mostrará el nombre técnico del campo `<name>`.
+
+Puede configurar descriptores de nombres descriptivos mediante una llamada de API. Para obtener más información, consulte la guía para desarrolladores de [Schema Registry](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md).
+
+![](../assets/xdm-from-descriptors.png)
+
+>[!NOTE]
+>
+>Los nombres descriptivos no se recuperan al seleccionar campos de una unión de esquemas.
 
 ## Uso de los distintos métodos abreviados{#section_ksq_zr1_ffb}
 
