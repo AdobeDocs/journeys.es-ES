@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
+source-git-commit: 25715e66b5495347e0c5ee2b1d75d44aa9cd3125
 
 ---
 
@@ -22,7 +22,7 @@ El menú Inicio del viaje le permite ver la **lista de viajes**. Cree un nuevo v
 
 ## La lista de viajes {#journey_list}
 
-La lista **de** viajes le permite ver todos sus viajes a la vez, ver su estado y realizar acciones básicas. Puede duplicar, detener o eliminar sus viajes. Según el viaje, es posible que algunas acciones no estén disponibles. Por ejemplo, no se puede detener un viaje. También puede utilizar la barra de búsqueda para buscar un viaje.
+La lista **de** viajes le permite ver todos sus viajes a la vez, ver su estado y realizar acciones básicas. Puede duplicar, detener o eliminar sus viajes. Según el viaje, es posible que algunas acciones no estén disponibles. Por ejemplo, no se puede detener ni eliminar un viaje terminado. También puede utilizar la barra de búsqueda para buscar un viaje.
 
 Se **[!UICONTROL Filters]** puede acceder al mismo haciendo clic en el icono de filtro en la parte superior izquierda de la lista. El menú de filtros le permite filtrar los viajes mostrados según diferentes criterios (estado, los creados, los modificados en los últimos 30 días, versiones más recientes, etc.). También puede elegir mostrar únicamente los viajes que utilizan un evento, un grupo de campos o una acción concretos. Se pueden configurar las columnas que se muestran en la lista. Todos los filtros y columnas se guardan por usuario.
 
@@ -45,6 +45,12 @@ La **paleta** se encuentra en el lado izquierdo de la pantalla. Todas las activi
 >Tenga en cuenta que existen reglas al configurar un viaje. Se descartará la configuración no permitida. Por ejemplo, no puede colocar acciones en paralelo, vincular una actividad a un paso anterior para crear un bucle, iniciar un viaje con algo distinto a un evento, etc.
 
 ![](../assets/journey38.png)
+
+El icono **Mostrar elementos** desactivados en la esquina superior izquierda permite ocultar o mostrar elementos no disponibles en la paleta, por ejemplo, los eventos que utilizan un espacio de nombres diferente de los utilizados en el viaje. De forma predeterminada, los elementos no disponibles están ocultos. Si elige mostrarlos, aparecerán atenuados.
+
+Al utilizar el campo **Buscar** , se muestra el número de resultados para cada categoría de actividad de lienzo.
+
+![](../assets/palette-filter.png)
 
 ## El lienzo {#canvas}
 
@@ -79,3 +85,7 @@ Al escuchar un evento, le recomendamos que no lo espere indefinidamente. No es o
 Para eliminar la ruta, coloque el cursor sobre ella y haga clic en el **[!UICONTROL Delete arrow]** icono .
 
 ![](../assets/journey42ter.png)
+
+En el lienzo, cuando se desconectan dos actividades, se muestra una advertencia. Coloque el cursor en el icono de advertencia para mostrar el mensaje de error. Para solucionar el problema, simplemente mueva la actividad desconectada y conéctela a la actividad anterior.
+
+![](../assets/canvas-disconnected.png)
