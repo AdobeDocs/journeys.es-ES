@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 73f1a503ea2c8b3494460c666a05078ed914e58b
+source-git-commit: d331454b0ad351a1967ec57d0b3f24a675f10f2a
 
 ---
 
@@ -79,7 +79,7 @@ También puede consultar las Actualizaciones [de](../release-notes/documentation
 <td>
 <p>Se ha mejorado la <strong>paleta</strong>de viaje, situada en la parte izquierda del diseñador del viaje:</p>
 <ul>
-<li>Un nuevo icono, junto a la barra **Buscar**, permite ocultar o mostrar elementos no disponibles en la paleta, por ejemplo, los eventos que utilizan un espacio de nombres distinto al utilizado en el viaje. De forma predeterminada, los elementos no disponibles están ocultos.</li>
+<li>Un nuevo icono, junto a la barra de <strong>búsqueda</strong> , le permite ocultar o mostrar elementos no disponibles en la paleta, por ejemplo, los eventos que utilizan un espacio de nombres diferente de los utilizados en el viaje. De forma predeterminada, los elementos no disponibles están ocultos.</li>
 <li>Al utilizar el campo <strong>Buscar</strong> , ahora se muestra el número de resultados para cada categoría de actividad de lienzo.</li>
 <li>Se ha mejorado la navegación entre las distintas categorías de actividades.</li>
 </ul>
