@@ -4,7 +4,7 @@ solution: Journeys
 title: Documentación del producto de orquestación de viajes
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 39e3ad1fe9f846b63cc210c809d4cdc9594fe3f2
+source-git-commit: 94826cde0d8de196f9f8dfcece417df8d593b40e
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 39e3ad1fe9f846b63cc210c809d4cdc9594fe3f2
 
 ## Introducción
 
-* **[¿Qué es la Orquestación de Viaje?](using/action/working-with-adobe-campaign.md)**<br/>Obtenga más información sobre la orquestación de viajes.
+* **[¿Qué es la Orquestación de Viaje?](using/about/about-journey-orchestration.md)**<br/>Obtenga más información sobre la orquestación de viajes.
 
 * **[Cree su primer viaje](using/about/get-started.md)**<br/>Descubrir los pasos principales para configurar la orquestación de viajes y construir su primer viaje.
 
@@ -34,7 +34,7 @@ source-git-commit: 39e3ad1fe9f846b63cc210c809d4cdc9594fe3f2
     <div>
     <a href="using/about/troubleshooting.md"><strong>Resolución de problemas</strong></a>
     </div>
-    <em></em>Averigüe las distintas herramientas que puede utilizar para solucionar los problemas de sus viajes.
+    <em>Averigüe las distintas herramientas que puede utilizar para solucionar los problemas de sus viajes.</em>
     <br>
   </td>
   <td valign="top">
@@ -44,7 +44,7 @@ source-git-commit: 39e3ad1fe9f846b63cc210c809d4cdc9594fe3f2
     <div>
     <a href="using/usecase/building-the-journey.md"><strong>Ejemplo de uso</strong></a>
     </div>
-    <em></em>Aprenda a crear un viaje avanzado paso a paso.
+    <em>Aprenda a crear un viaje avanzado paso a paso.</em>
     <br>
   </td>
   <td valign="top">
