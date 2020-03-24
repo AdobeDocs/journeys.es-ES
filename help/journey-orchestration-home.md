@@ -1,9 +1,9 @@
 ---
 keywords: Journeys;home;popular topics
 solution: Journeys
-title: Documentación del producto de orquestación de viajes
+title: Documentación del producto de Journey Orchestration
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 94826cde0d8de196f9f8dfcece417df8d593b40e
 
 ---
@@ -15,13 +15,13 @@ source-git-commit: 94826cde0d8de196f9f8dfcece417df8d593b40e
 
 ## Introducción
 
-* **[¿Qué es la Orquestación de Viaje?](using/about/about-journey-orchestration.md)**<br/>Obtenga más información sobre la orquestación de viajes.
+* **[¿Qué es Journey Orchestration?](using/about/about-journey-orchestration.md)**<br/>Obtenga más información sobre Journey Orchestration.
 
-* **[Cree su primer viaje](using/about/get-started.md)**<br/>Descubrir los pasos principales para configurar la orquestación de viajes y construir su primer viaje.
+* **[Cree su primer recorrido](using/about/get-started.md)**<br/>Descubra los pasos principales para configurar Journey Orchestration y construir su primer recorrido.
 
-* **[Configuración de un evento](using/event/about-events.md#section_tbk_5qt_pgb)**<br/>Obtenga información sobre cómo configurar los eventos que se van a escuchar en los viajes.
+* **[Configure un evento](using/event/about-events.md#section_tbk_5qt_pgb)**<br/>Obtenga información sobre cómo configurar los eventos que van a escuchar los recorridos.
 
-* **[Conceder acceso a Orquestación](using/about/access-management.md)**<br/>de viajes Descubra cómo administrar el acceso de los usuarios con perfiles y derechos de producto.
+* **[Conceda acceso a Journey Orchestration](using/about/access-management.md)**<br/>Descubra cómo administrar el acceso de los usuarios con perfiles y derechos de producto.
 
 ## Páginas principales
 
@@ -34,17 +34,17 @@ source-git-commit: 94826cde0d8de196f9f8dfcece417df8d593b40e
     <div>
     <a href="using/about/troubleshooting.md"><strong>Resolución de problemas</strong></a>
     </div>
-    <em>Averigüe las distintas herramientas que puede utilizar para solucionar los problemas de sus viajes.</em>
+    <em>Descubra las distintas herramientas que puede utilizar para solucionar los problemas de sus recorridos.</em>
     <br>
   </td>
   <td valign="top">
     <a href="using/usecase/building-the-journey.md">
-      <img alt="generar" src="using/assets/do-not-localize/design.png"/>
+      <img alt="crear" src="using/assets/do-not-localize/design.png"/>
     </a>
     <div>
     <a href="using/usecase/building-the-journey.md"><strong>Ejemplo de uso</strong></a>
     </div>
-    <em>Aprenda a crear un viaje avanzado paso a paso.</em>
+    <em>Aprenda a crear un recorrido avanzado paso a paso.</em>
     <br>
   </td>
   <td valign="top">
@@ -62,9 +62,9 @@ source-git-commit: 94826cde0d8de196f9f8dfcece417df8d593b40e
 
 ## Recursos adicionales
 
-* [Plataforma de experiencia](https://www.adobe.com/experience-platform/documentation-and-developer-resources.html)
+* [Experience Platform](https://www.adobe.com/es/experience-platform/documentation-and-developer-resources.html)
 * [Perfil del cliente en tiempo real](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/unified_profile_architectural_overview/unified_profile_architectural_overview.md)
 * [Definición de campo XDM de Experience Cloud](https://www.adobe.io/apis/cloudplatform/dataservices/xdm.html)
-* [Espacio de nombres de identidad](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/identity_namespace_overview/identity_namespace_overview.md)
-* [API de inserción de flujo continuo](https://www.adobe.io/apis/cloudplatform/dataservices/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/getting_started_with_platform_streaming_ingestion.md)
-* [Mensajería transaccional de Adobe Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)
+* [Área de nombres de identidad](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/identity_namespace_overview/identity_namespace_overview.md)
+* [API de ingesta de flujos](https://www.adobe.io/apis/cloudplatform/dataservices/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/getting_started_with_platform_streaming_ingestion.md)
+* [Mensajería transaccional de Adobe Campaign Standard](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.translate.html)
