@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0c34ce9723168db3a35e3c5de122eae3462b83c0
+source-git-commit: e53ecd96bbb308fe109843de6f64cde4cba5e246
 
 ---
 
@@ -44,4 +44,4 @@ Estos son los pasos principales necesarios para configurar una acción personali
 
    >[!NOTE]
    >
-   >Cuando se utiliza una acción personalizada en una versión de viaje, la mayoría de los parámetros son de solo lectura. Sólo puede modificar los campos **[!UICONTROL Name]**, **[!UICONTROL Description]**, **[!UICONTROL URL]** y la **[!UICONTROL Authentication]** sección.
+   >Cuando se utiliza una acción personalizada en un viaje, la mayoría de los parámetros son de solo lectura. Sólo puede modificar los campos **[!UICONTROL Name]**, **[!UICONTROL Description]**, **[!UICONTROL URL]** y la **[!UICONTROL Authentication]** sección.
