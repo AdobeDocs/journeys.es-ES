@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 18f5d56e77958fc33c8e5e7e9d450943207a6017
+source-git-commit: e53ecd96bbb308fe109843de6f64cde4cba5e246
 
 ---
 
@@ -21,12 +21,6 @@ source-git-commit: 18f5d56e77958fc33c8e5e7e9d450943207a6017
 El menú Inicio del viaje le permite vista de la **lista de los viajes**. Cree un nuevo viaje o haga clic en uno existente para abrir la interfaz **del diseñador del** viaje. El diseñador se compone de las siguientes zonas: la paleta, el lienzo y el panel de configuración de la actividad.
 
 ## La lista del viaje {#journey_list}
-
->[!CONTEXTUALHELP]
->id=&quot;jo_home&quot;
->title=&quot;Acerca de la lista del viaje&quot;
->abstract=&quot;La lista de viaje le permite realizar vistas de todos sus viajes a la vez, ver su estado y realizar acciones básicas. Puede duplicado, detener o eliminar sus viajes. Según el viaje, es posible que algunas acciones no estén disponibles. Por ejemplo, no se puede eliminar ni reiniciar un viaje terminado. Puede crear una nueva versión a partir de ella o duplicado la misma. También puede utilizar la barra de búsqueda para buscar un viaje&quot;.
->extra-url=&quot;https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4&quot; text=&quot;Ver vídeo de demostración&quot;
 
 La lista **de** viaje le permite realizar vistas de todos sus viajes a la vez, ver su estado y realizar acciones básicas. Puede duplicado, detener o eliminar sus viajes. Según el viaje, es posible que algunas acciones no estén disponibles. Por ejemplo, no se puede eliminar ni reiniciar un viaje terminado. Puede crear una nueva versión a partir de ella o duplicado la misma. También puede utilizar la barra de búsqueda para buscar un viaje.
 
