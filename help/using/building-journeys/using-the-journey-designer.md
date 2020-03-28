@@ -22,7 +22,7 @@ El menú Inicio del viaje le permite vista de la **lista de los viajes**. Cree u
 
 ## La lista del viaje {#journey_list}
 
-La lista **de** viaje le permite realizar vistas de todos sus viajes a la vez, ver su estado y realizar acciones básicas. Puede duplicado, detener o eliminar sus viajes. Según el viaje, es posible que algunas acciones no estén disponibles. Por ejemplo, no se puede eliminar ni reiniciar un viaje terminado. Puede crear una nueva versión a partir de ella o duplicado la misma. También puede utilizar la barra de búsqueda para buscar un viaje.
+La lista **de** viaje le permite realizar vistas de todos sus viajes a la vez, ver su estado y realizar acciones básicas. Puede duplicado, detener o eliminar sus viajes. Según el viaje, es posible que algunas acciones no estén disponibles. Por ejemplo, no se puede eliminar ni reiniciar un viaje terminado. Puede crear una nueva versión a partir de ella, duplicado o deteniéndola. También puede utilizar la barra de búsqueda para buscar un viaje.
 
 Se **[!UICONTROL Filters]** puede acceder al mismo haciendo clic en el icono de filtro en la parte superior izquierda de la lista. El menú filtros le permite filtrar los viajes mostrados según diferentes criterios (estado, los que ha creado, los modificados en los últimos 30 días, versiones más recientes, etc.). También puede elegir mostrar únicamente los viajes que utilizan un evento, un grupo de campos o una acción concretos. Se pueden configurar las columnas que se muestran en la lista. Todos los filtros y columnas se guardan por usuario.
 
