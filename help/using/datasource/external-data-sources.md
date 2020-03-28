@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a0db4d65218861b71d35f83ccf2d15e25a1597e8
+source-git-commit: a1c4eed8360efcbfcaa5e54c8831e1a4b2ecc02e
 
 ---
 
@@ -34,7 +34,7 @@ La llamada se compone de una dirección URL principal (_https://api.adobeweather
 
 Estos son los pasos principales para crear y configurar una nueva fuente de datos externa:
 
-1. En la lista de fuentes de datos, haga clic en **[!UICONTROL Add]** para crear una nueva fuente de datos externa.
+1. Desde la lista de fuentes de datos, haga clic en **[!UICONTROL Add]** para crear una nueva fuente de datos externa.
 
    ![](../assets/journey25.png)
 
@@ -48,8 +48,8 @@ Estos son los pasos principales para crear y configurar una nueva fuente de dato
    >
    >No utilice espacios ni caracteres especiales. No utilice más de 30 caracteres.
 
-1. Agregue una descripción al origen de datos. Este paso es opcional.
-1. Agregue la dirección URL del servicio externo. En nuestro ejemplo: _https://api.adobeweather.org/weather_.
+1. Añada una descripción al origen de datos. Este paso es opcional.
+1. Añada la dirección URL del servicio externo. En nuestro ejemplo: _https://api.adobeweather.org/weather_.
 
    >[!CAUTION]
    >
@@ -63,14 +63,14 @@ Estos son los pasos principales para crear y configurar una nueva fuente de dato
    * **[!UICONTROL Type]**:: &quot;Clave de API&quot;
    * **[!UICONTROL Value]**:: &quot;1234&quot; (este es el valor de nuestra clave de API)
    * **[!UICONTROL Name]**:: &quot;appid&quot; (es el nombre del parámetro de clave de API)
-   * **[!UICONTROL Location]**:: &quot;Parámetro de consulta&quot; (la clave de API se encuentra en la dirección URL)
+   * **[!UICONTROL Location]**:: &quot;Parámetro de Consulta&quot; (la clave de API se encuentra en la dirección URL)
    ![](../assets/journey28.png)
 
-1. Agregue un nuevo grupo de campos para cada conjunto de parámetros de API haciendo clic en **[!UICONTROL Add a New Field Group]**. No utilice espacios ni caracteres especiales en el nombre del grupo de campos. En nuestro ejemplo, necesitamos crear dos grupos de campos, uno para cada conjunto de parámetros (city y long/lat).
+1. Añada un nuevo grupo de campos para cada conjunto de parámetros de API haciendo clic en **[!UICONTROL Add a New Field Group]**. No utilice espacios ni caracteres especiales en el nombre del grupo de campos. En nuestro ejemplo, necesitamos crear dos grupos de campos, uno para cada conjunto de parámetros (city y long/lat).
 
 Para el conjunto de parámetros &quot;long/lat&quot;, creamos un grupo de campos con la siguiente información:
 
-* **[!UICONTROL Used in]**:: muestra el número de viajes que utilizan un grupo de campos. Puede hacer clic en el icono **[!UICONTROL View journeys]** para mostrar la lista de viajes con este grupo de campos.
+* **[!UICONTROL Used in]**:: muestra el número de viajes que utilizan un grupo de campos. Puede hacer clic en el **[!UICONTROL View journeys]** icono para mostrar la lista de los viajes mediante este grupo de campos.
 * **[!UICONTROL Method]**:: seleccione el método POST o GET. En nuestro caso, seleccionamos el método GET.
 * **[!UICONTROL Cache duration]**:: en nuestro caso, queremos que el clima se almacene en caché durante 10 minutos.
 * **[!UICONTROL Response Payload]**:: haga clic dentro del **[!UICONTROL Payload]** campo y pegue un ejemplo de la carga útil devuelta por la llamada. Para nuestro ejemplo, hemos utilizado una carga útil encontrada en un sitio web de la API meteorológica. Compruebe que los tipos de campo son correctos. Cada vez que se llama a la API, el sistema recupera todos los campos incluidos en el ejemplo de carga útil. Tenga en cuenta que puede hacer clic en **[!UICONTROL Paste a new payload]** si desea cambiar la carga útil que se pasa actualmente.
@@ -79,7 +79,7 @@ Para el conjunto de parámetros &quot;long/lat&quot;, creamos un grupo de campos
 
 En el caso de una llamada GET que requiera parámetros, introduzca los parámetros en el **[!UICONTROL Parameters]** campo y se añadirán automáticamente al final de la llamada. En caso de una llamada POST, debe:
 
-* enumere los parámetros que se pasarán en el momento de la llamada en el **[!UICONTROL Parameter]** campo (en el ejemplo siguiente: &quot;identificador&quot;).
+* lista los parámetros que se pasarán en tiempo de llamada en el **[!UICONTROL Parameter]** campo (en el ejemplo siguiente: &quot;identificador&quot;).
 * especifíquelas también con la misma sintaxis en el cuerpo de la carga útil enviada. Para ello, debe agregar: &quot;param&quot;: &quot;nombre del parámetro&quot; (en el ejemplo siguiente: &quot;identificador&quot;). Siga la sintaxis siguiente:
 
    ```
@@ -94,7 +94,12 @@ La fuente de datos ahora está configurada y lista para utilizarse en sus viajes
 
 ## Modo de autenticación personalizado{#section_wjp_nl5_nhb}
 
-Este modo de autenticación se utiliza para la autenticación compleja, utilizada frecuentemente para llamar a protocolos de ajuste de API como OAuth2, para recuperar un autentificador de acceso que se va a insertar en la solicitud HTTP real de la acción.
+>[!CONTEXTUALHELP]
+>id=&quot;jo_authentication_payload&quot;
+>title=&quot;Acerca de la autenticación personalizada&quot;
+>abstract=&quot;El modo de autenticación personalizado se utiliza para la autenticación compleja para llamar a protocolos de ajuste de API como OAuth2. La ejecución de la acción es un proceso de dos pasos. En primer lugar, se realiza una llamada al extremo para generar el token de acceso. A continuación, el token de acceso se inyecta en la solicitud HTTP de la acción.&quot;
+
+Este modo de autenticación se utiliza para la autenticación compleja, utilizada frecuentemente para llamar a protocolos de ajuste de API como OAuth2, para recuperar un token de acceso que se va a insertar en la solicitud HTTP real de la acción.
 
 Al configurar la autenticación personalizada, puede hacer clic en el botón de abajo para comprobar si la carga de autenticación personalizada está configurada correctamente.
 
@@ -106,12 +111,12 @@ Si la prueba se realiza correctamente, el botón se vuelve verde.
 
 Con esta autenticación, la ejecución de la acción es un proceso de dos pasos:
 
-1. Llame al extremo para generar el autentificador de acceso.
-1. Llame a la API de REST mediante la inyección correcta del autentificador de acceso.
+1. Llame al extremo para generar el token de acceso.
+1. Llame a la API de REST mediante la inyección adecuada del token de acceso.
 
 Esta autenticación consta de dos partes.
 
-Definición del punto final al que se va a llamar para generar el autentificador de acceso:
+Definición del punto final al que se va a llamar para generar el token de acceso:
 
 * extremo: Dirección URL que se utilizará para generar el extremo
 * método de la solicitud HTTP en el extremo (GET o POST)
@@ -120,17 +125,17 @@ Definición del punto final al que se va a llamar para generar el autentificador
    * &#39;form&#39;: lo que significa que el tipo de contenido será application/x-www-form-urlencoded (charset UTF-8) y que los pares clave/valor se serializarán tal cual: key1=value1&amp;key2=value2&amp;...
    * &#39;json&#39;: lo que significa que el tipo de contenido será application/json (charset UTF-8) y que los pares de valor clave se serializarán como un objeto json tal y como está: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
 
-Definición de la forma en que se debe insertar el autentificador de acceso en la solicitud HTTP de la acción:
+Definición de la forma en que se debe insertar el token de acceso en la solicitud HTTP de la acción:
 
-* authorizedType: define cómo se debe insertar el autentificador de acceso generado en la llamada HTTP para la acción. Los valores posibles son:
+* authorizedType: define cómo se debe insertar el token de acceso generado en la llamada HTTP para la acción. Los valores posibles son:
 
-   * portador: indica que el autentificador de acceso debe insertarse en el encabezado Autorización, como: _Autorización: Portador &lt;autentificador de acceso>_
-   * header: indica que el autentificador de acceso debe insertarse como encabezado, el nombre del encabezado definido por la propiedad tokenTarget. Por ejemplo, si tokenTarget es myHeader, el autentificador de acceso se insertará como encabezado como: _myHeader: &lt;autentificador de acceso>_
-   * queryParam: indica que el autentificador de acceso debe insertarse como queryParam, el nombre del parámetro de consulta definido por la propiedad tokenTarget. Por ejemplo, si tokenTarget es myQueryParam, la dirección URL de la llamada de acción será: _&lt;url>?myQueryParam=&lt;autentificador de acceso>_
+   * portador: indica que el token de acceso debe inyectarse en el encabezado Autorización, como: _Autorización: Portador &lt;token de acceso>_
+   * header: indica que el token de acceso debe insertarse como encabezado, el nombre del encabezado definido por la propiedad tokenTarget. Por ejemplo, si el tokenTarget es myHeader, el token de acceso se insertará como un encabezado como: _myHeader: &lt;token de acceso>_
+   * queryParam: indica que el token de acceso debe insertarse como queryParam, el nombre del parámetro de consulta definido por la propiedad tokenTarget. Por ejemplo, si tokenTarget es myQueryParam, la dirección URL de la llamada de acción será: _&lt;url>?myQueryParam=&lt;token de acceso>_
 
-* tokenInResponse: indica cómo extraer el autentificador de acceso de la llamada de autenticación. Esta propiedad puede ser:
-   * &#39;response&#39;: indica que la respuesta HTTP es el autentificador de acceso
-   * un selector en un json (suponiendo que la respuesta es un json, no se admiten otros formatos como XML). El formato de este selector es _json://&lt;ruta a la propiedad del autentificador de acceso>_. Por ejemplo, si la respuesta de la llamada es: _{ &quot;access_token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_, tokenInResponse será: _json: //access_token_
+* tokenInResponse: indica cómo extraer el token de acceso de la llamada de autenticación. Esta propiedad puede ser:
+   * &#39;response&#39;: indica que la respuesta HTTP es el token de acceso
+   * un selector en un json (suponiendo que la respuesta es un json, no se admiten otros formatos como XML). El formato de este selector es _json://&lt;ruta a la propiedad token de acceso>_. Por ejemplo, si la respuesta de la llamada es: _{ &quot;access_token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_, tokenInResponse será: _json: //access_token_
 
 El formato de esta autenticación es:
 
