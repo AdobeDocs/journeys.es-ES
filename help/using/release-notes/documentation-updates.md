@@ -23,6 +23,7 @@ También puede consultar las Notas de [revisión de la orquestación de viajes](
 
 ## Marzo de 2020 {#march-2020}
 
+* Descripciones de parámetros Añadidos para _actionExecutionErrors_ y _fetchErrors_ en la sección de registros de pruebas. [Más información](../action/testing-the-journey.md#viewing_logs)
 * Se han actualizado las limitaciones de las acciones personalizadas utilizadas en un viaje. También puede modificar el campo **URL** y los parámetros **Autenticación** . [Más información](../action/about-custom-action-configuration.md)
 * Se han agregado nuevas entradas de ayuda contextual. El panel de carga útil de autenticación personalizada (en acciones y fuentes de datos) ahora incluye un icono de ayuda que se vincula a esta [sección](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
 * Ahora se pueden detener los viajes finalizados. [Más información](../building-journeys/using-the-journey-designer.md)
