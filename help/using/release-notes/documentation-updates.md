@@ -11,18 +11,22 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 73f1a503ea2c8b3494460c666a05078ed914e58b
+source-git-commit: 6f196f22d4f5b03973bead78d3fe5454f109734d
 
 ---
 
 
 # Actualizaciones de documentación
 
-Esta página enumera todas las actualizaciones de documentación para la orquestación de viajes.
+Esta página lista todas las actualizaciones de documentación para la orquestación de viajes.
 También puede consultar las Notas de [revisión de la orquestación de viajes](../release-notes/release-notes.md).
 
 ## Marzo de 2020 {#march-2020}
 
+* Se han actualizado las limitaciones de las acciones personalizadas utilizadas en un viaje. También puede modificar el campo **URL** y los parámetros **Autenticación** . [Más información](../action/about-custom-action-configuration.md)
+* Se han agregado nuevas entradas de ayuda contextual. El panel de carga útil de autenticación personalizada (en acciones y fuentes de datos) ahora incluye un icono de ayuda que se vincula a esta [sección](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
+* Ahora se pueden detener los viajes finalizados. [Más información](../building-journeys/using-the-journey-designer.md)
+* Se ha reorganizado la sección de descripción de la interfaz. [Más información](../about/user-interface.md)
 * Se ha añadido la activación de varios eventos a la sección Modo de prueba [Más información](../building-journeys/testing-the-journey.md#firing_events)
 * La sección Modo de prueba se ha actualizado con respecto al nuevo parámetro **Tiempo de espera en el parámetro de prueba** . [Más información](../building-journeys/testing-the-journey.md)
 * La sección Registro de pruebas se ha actualizado con códigos de error de llamada externa y respuestas. [Más información](../building-journeys/testing-the-journey.md#viewing_logs)
@@ -34,7 +38,7 @@ También puede consultar las Notas de [revisión de la orquestación de viajes](
 
 ## Febrero de 2020 {#february-2020}
 
-* Se ha actualizado la sección de accesos directos. La combinación de teclas **C** le permite crear un nuevo elemento en todas las pantallas de lista. [Más información](../about/user-interface.md#section_ksq_zr1_ffb)
+* Se ha actualizado la sección de accesos directos. El método abreviado de teclado **C** le permite crear un nuevo elemento en todas las pantallas de lista. [Más información](../about/user-interface.md#section_ksq_zr1_ffb)
 
 ## January 2020 {#january-2020}
 
