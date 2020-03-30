@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6f196f22d4f5b03973bead78d3fe5454f109734d
+source-git-commit: 0bf8ce5974b7be684a156d5c5445dca122213237
 
 ---
 
@@ -23,7 +23,7 @@ También puede consultar las Notas de [revisión de la orquestación de viajes](
 
 ## Marzo de 2020 {#march-2020}
 
-* Descripciones de parámetros Añadidos para _actionExecutionErrors_ y _fetchErrors_ en la sección de registros de pruebas. [Más información](../action/testing-the-journey.md#viewing_logs)
+* Descripciones de parámetros Añadidos para _actionExecutionErrors_ y _fetchErrors_ en la sección de registros de pruebas. [Más información](../building-journeys/testing-the-journey.md#viewing_logs)
 * Se han actualizado las limitaciones de las acciones personalizadas utilizadas en un viaje. También puede modificar el campo **URL** y los parámetros **Autenticación** . [Más información](../action/about-custom-action-configuration.md)
 * Se han agregado nuevas entradas de ayuda contextual. El panel de carga útil de autenticación personalizada (en acciones y fuentes de datos) ahora incluye un icono de ayuda que se vincula a esta [sección](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
 * Ahora se pueden detener los viajes finalizados. [Más información](../building-journeys/using-the-journey-designer.md)
@@ -41,12 +41,12 @@ También puede consultar las Notas de [revisión de la orquestación de viajes](
 
 * Se ha actualizado la sección de accesos directos. El método abreviado de teclado **C** le permite crear un nuevo elemento en todas las pantallas de lista. [Más información](../about/user-interface.md#section_ksq_zr1_ffb)
 
-## January 2020 {#january-2020}
+## Enero de 2020 {#january-2020}
 
 * Se han agregado limitaciones de captura para eventos [de](../datasource/adobe-experience-platform-data-source.md) experiencia y [segmentos](../functions/functioninsegment.md).
-* Se ha actualizado la documentación [](../functions/functiongetbestsendtime.md) getBestSendTime.
+* The [getBestSendTime documentation](../functions/functiongetbestsendtime.md) has been updated.
 
-## December 2019 {#december-2019}
+## Diciembre de 2019 {#december-2019}
 
 * Todas las capturas de pantalla se han actualizado para reflejar los cambios en la interfaz.
 * Se ha actualizado la sección del modo de prueba. [Más información](../building-journeys/testing-the-journey.md)
