@@ -3,8 +3,8 @@ keywords: Journeys;home;popular topics
 solution: Journeys
 title: Documentación del producto de Journey Orchestration
 topic: Premium
-translation-type: ht
-source-git-commit: 94826cde0d8de196f9f8dfcece417df8d593b40e
+translation-type: tm+mt
+source-git-commit: 504d19f151863378ea8d0a84978d7df4304d6614
 
 ---
 
@@ -22,6 +22,8 @@ source-git-commit: 94826cde0d8de196f9f8dfcece417df8d593b40e
 * **[Configure un evento](using/event/about-events.md#section_tbk_5qt_pgb)**<br/>Obtenga información sobre cómo configurar los eventos que van a escuchar los recorridos.
 
 * **[Conceda acceso a Journey Orchestration](using/about/access-management.md)**<br/>Descubra cómo administrar el acceso de los usuarios con perfiles y derechos de producto.
+
+* **[Descubra las novedades](using/release-notes/release-notes.md)**<br/>Obtenga más información sobre las últimas versiones.
 
 ## Páginas principales
 
@@ -62,9 +64,9 @@ source-git-commit: 94826cde0d8de196f9f8dfcece417df8d593b40e
 
 ## Recursos adicionales
 
-* [Experience Platform](https://www.adobe.com/es/experience-platform/documentation-and-developer-resources.html)
-* [Perfil del cliente en tiempo real](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/unified_profile_architectural_overview/unified_profile_architectural_overview.md)
-* [Definición de campo XDM de Experience Cloud](https://www.adobe.io/apis/cloudplatform/dataservices/xdm.html)
-* [Área de nombres de identidad](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/identity_namespace_overview/identity_namespace_overview.md)
-* [API de ingesta de flujos](https://www.adobe.io/apis/cloudplatform/dataservices/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/getting_started_with_platform_streaming_ingestion.md)
-* [Mensajería transaccional de Adobe Campaign Standard](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.translate.html)
+* [Documentación de la plataforma de experiencia](https://www.adobe.com/es/experience-platform/documentation-and-developer-resources.html)
+* [Documentación de Perfiles de clientes en tiempo real](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
+* [Definición de campo XDM de Experience Cloud](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html)
+* [Documentación de Área de nombres de identidad](https://docs.adobe.com/content/help/en/experience-platform/identity/home.html)
+* [API de ingesta de flujos](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/overview.html)
+* [Documentación de mensajería transaccional de Campaign Standard](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.translate.html)
