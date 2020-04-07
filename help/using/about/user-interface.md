@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: bc5b29eefa4d787cd448352252823a616489d8c8
+source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
 
 ---
 
@@ -35,10 +35,10 @@ También puede acceder a la orquestación de viajes desde la página de inicio d
 ## Descubrimiento de la interfaz{#section_jsq_zr1_ffb}
 
 >[!CONTEXTUALHELP]
->id=&quot;jo_home&quot;
->title=&quot;Acerca de la lista del viaje&quot;
->abstract=&quot;La lista de viaje le permite realizar vistas de todos sus viajes a la vez, ver su estado y realizar acciones básicas. Puede duplicado, detener o eliminar sus viajes. Según el viaje, es posible que algunas acciones no estén disponibles. Por ejemplo, no se puede eliminar ni reiniciar un viaje terminado. Puede crear una nueva versión a partir de ella o duplicado la misma. También puede utilizar la barra de búsqueda para buscar un viaje&quot;.
->extra-url=&quot;https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4&quot; text=&quot;Ver vídeo de demostración&quot;
+>id="jo_home"
+>title="Acerca de la lista de viajes"
+>abstract="La lista de viaje le permite realizar vistas de todos sus viajes a la vez, ver su estado y realizar acciones básicas. Puede duplicado, detener o eliminar sus viajes. Según el viaje, es posible que algunas acciones no estén disponibles. Por ejemplo, no se puede eliminar ni reiniciar un viaje terminado. Puede crear una nueva versión a partir de ella o duplicado la misma. También puede utilizar la barra de búsqueda para buscar un viaje."
+>additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="Ver vídeo de demostración"
 
 Los menús superiores le permiten navegar por las diferentes funcionalidades de la orquestación de viajes: **[!UICONTROL Home]**(los viajes),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
 
@@ -78,7 +78,7 @@ En las diferentes listas, puede realizar acciones básicas en cada elemento. Por
 
 Al definir la carga útil [de](../event/defining-the-payload-fields.md)evento, la carga útil [de grupo de](../datasource/field-groups.md) campos y seleccionar los campos en el editor [de](../expression/expressionadvanced.md)expresiones, se muestra el nombre para mostrar además del nombre del campo. Esta información se recupera de la definición de esquema del modelo de datos de experiencia.
 
-Si se proporcionan descriptores como &quot;xdm:alternativoDisplayInfo&quot; al configurar esquemas, los nombres descriptivos reemplazarán a los nombres para mostrar. Resulta especialmente útil cuando se trabaja con &quot;eVars&quot; y campos genéricos.Puede configurar descriptores de nombres prácticos mediante una llamada de API. Para obtener más información, consulte la guía para desarrolladores de [Esquema Registry](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md).
+Si se proporcionan descriptores como &quot;xdm:alternativoDisplayInfo&quot; al configurar esquemas, los nombres descriptivos reemplazarán a los nombres para mostrar. Resulta especialmente útil cuando se trabaja con &quot;eVars&quot; y campos genéricos.Puede configurar descriptores de nombres prácticos mediante una llamada de API. Para obtener más información, consulte la guía para desarrolladores de [Esquema Registry](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html).
 
 ![](../assets/xdm-from-descriptors.png)
 
