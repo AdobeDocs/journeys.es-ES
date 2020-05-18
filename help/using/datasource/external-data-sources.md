@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: a1c4eed8360efcbfcaa5e54c8831e1a4b2ecc02e
+workflow-type: tm+mt
+source-wordcount: '1214'
+ht-degree: 0%
 
 ---
 
@@ -95,9 +98,9 @@ La fuente de datos ahora está configurada y lista para utilizarse en sus viajes
 ## Modo de autenticación personalizado{#section_wjp_nl5_nhb}
 
 >[!CONTEXTUALHELP]
->id=&quot;jo_authentication_payload&quot;
->title=&quot;Acerca de la autenticación personalizada&quot;
->abstract=&quot;El modo de autenticación personalizado se utiliza para la autenticación compleja para llamar a protocolos de ajuste de API como OAuth2. La ejecución de la acción es un proceso de dos pasos. En primer lugar, se realiza una llamada al extremo para generar el token de acceso. A continuación, el token de acceso se inyecta en la solicitud HTTP de la acción.&quot;
+>id="jo_authentication_payload"
+>title="Acerca de la autenticación personalizada"
+>abstract="El modo de autenticación personalizado se utiliza para la autenticación compleja para llamar a protocolos de ajuste de API como OAuth2. La ejecución de la acción es un proceso de dos pasos. En primer lugar, se realiza una llamada al extremo para generar el token de acceso. A continuación, el token de acceso se inserta en la solicitud HTTP de la acción."
 
 Este modo de autenticación se utiliza para la autenticación compleja, utilizada frecuentemente para llamar a protocolos de ajuste de API como OAuth2, para recuperar un token de acceso que se va a insertar en la solicitud HTTP real de la acción.
 
