@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 87910a9f3dbf2c34776a8d2ab1f00426e8b0704c
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 3%
 
 ---
 
@@ -19,15 +22,15 @@ source-git-commit: 87910a9f3dbf2c34776a8d2ab1f00426e8b0704c
 # Acerca de las acciones {#about_actions}
 
 >[!CONTEXTUALHELP]
->id=&quot;jo_actions&quot;
->title=&quot;Acerca de las acciones&quot;
->abstract=&quot;Aquí es donde se define la conexión al sistema que enviará mensajes. Las acciones definidas aquí estarán disponibles en la paleta izquierda del viaje, en la categoría Acción. &quot;
+>id="jo_actions"
+>title="Acerca de las acciones"
+>abstract="Aquí es donde se define la conexión con el sistema que enviará los mensajes. Las acciones definidas aquí estarán disponibles en la paleta izquierda del viaje, en la categoría Acción. "
 
 Las acciones son conexiones a través de las cuales se ofrecen experiencias personalizadas en tiempo real a clientes como notificaciones push, correo electrónico, SMS o cualquier otro medio de participación digital que se utilice en su negocio.
 
 Las acciones personalizadas le permiten configurar la conexión de un sistema de terceros para enviar mensajes o llamadas de API. Se puede configurar una acción con cualquier servicio de cualquier proveedor al que se pueda llamar mediante una API REST con una carga útil con formato JSON.
 
-Las acciones están disponibles en la paleta izquierda del viaje, en la **[!UICONTROL Action]** categoría (consulte [](../building-journeys/about-action-activities.md) ).
+Las acciones están disponibles en la paleta izquierda del viaje, en la **[!UICONTROL Action]** categoría (véase [](../building-journeys/about-action-activities.md) ).
 
 >[!NOTE]
 >
@@ -35,7 +38,7 @@ Las acciones están disponibles en la paleta izquierda del viaje, en la **[!UICO
 
 En la lista de **acciones**, puede pulsar c para crear un nuevo viaje, acción, fuente de datos o evento. Para obtener más información sobre los métodos abreviados de teclado en Orquestación de viajes, consulte [](../about/user-interface.md#section_ksq_zr1_ffb).
 
-Para ver la lista de acciones o configurar una nueva acción, haga clic en **[!UICONTROL Actions]** en los menús superiores. Se muestra la lista de acciones. Consulte [](../about/user-interface.md) para obtener más información sobre la interfaz.
+Para vista de la lista de acción o configurar una nueva acción, haga clic en **[!UICONTROL Actions]** en los menús superiores. Se muestra la lista de acciones. Consulte [](../about/user-interface.md) para obtener más información sobre la interfaz.
 
 ![](../assets/custom1.png)
 
