@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 690f8c1732c7d54c234e9ba633a2cf014492f423
+workflow-type: tm+mt
+source-wordcount: '356'
+ht-degree: 3%
 
 ---
 
@@ -19,9 +22,9 @@ source-git-commit: 690f8c1732c7d54c234e9ba633a2cf014492f423
 # Acerca de las fuentes de datos {#concept_s1s_dqt_52b}
 
 >[!CONTEXTUALHELP]
->id=&quot;jo_datasources&quot;
->title=&quot;Acerca de las fuentes de datos&quot;
->abstract=&quot;La configuración del origen de datos siempre la realiza un usuario técnico. La configuración del origen de datos permite definir una conexión con un sistema para recuperar información adicional que se utilizará en los viajes, para: definición de condición, parámetro y datos de personalización en acciones, definición de espera personalizada, definición de zona horaria personalizada.&quot;
+>id="jo_datasources"
+>title="Acerca de las fuentes de datos"
+>abstract="La configuración del origen de datos siempre la realiza un usuario técnico. La configuración del origen de datos permite definir una conexión con un sistema para recuperar información adicional que se utilizará en los viajes, para: definición de condición, parámetro y datos de personalización en acciones, definición de espera personalizada, definición de zona horaria personalizada."
 
 La configuración del origen de datos permite definir una conexión con un sistema para recuperar información adicional que se utilizará en los viajes, para:
 
@@ -34,7 +37,7 @@ Esta configuración no es necesaria si los viajes solo aprovechan los datos loca
 
 Existen dos tipos de fuentes de datos:
 
-* Origen de datos preconfigurado de la plataforma de experiencia que define la conexión con el servicio de perfiles de cliente en tiempo real. Constituye una fuente de datos integrada. Consulte [](../datasource/adobe-experience-platform-data-source.md).
+* Origen de datos preconfigurado de la plataforma de experiencia que define la conexión al servicio de Perfil al cliente en tiempo real. Constituye una fuente de datos integrada. Consulte [](../datasource/adobe-experience-platform-data-source.md).
 * Las fuentes de datos externas que permiten definir una conexión con sistemas externos. Estos son los que puede crear. Consulte [](../datasource/external-data-sources.md).
 
 Para cada origen de datos, se define la información que se recuperará mediante grupos de campos. Los grupos de campos son conjuntos de campos que se pueden recuperar desde un origen de datos. Consulte [](../datasource/field-groups.md).
@@ -49,7 +52,7 @@ Estos son los pasos principales de la configuración del origen de datos:
 
 1. En el menú superior, haga clic en la **[!UICONTROL Data Sources]** ficha.
 
-   Se muestra la lista de fuentes de datos. Consulte [](../about/user-interface.md) para obtener más información sobre la interfaz.
+   Se muestra la lista de las fuentes de datos. Consulte [](../about/user-interface.md) para obtener más información sobre la interfaz.
 
    ![](../assets/journey18.png)
 
