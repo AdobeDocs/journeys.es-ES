@@ -3,8 +3,11 @@ keywords: Journeys;home;popular topics
 solution: Journeys
 title: Documentación del producto de Journey Orchestration
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 504d19f151863378ea8d0a84978d7df4304d6614
+workflow-type: ht
+source-wordcount: '195'
+ht-degree: 100%
 
 ---
 
@@ -64,9 +67,9 @@ source-git-commit: 504d19f151863378ea8d0a84978d7df4304d6614
 
 ## Recursos adicionales
 
-* [Documentación de la plataforma de experiencia](https://www.adobe.com/es/experience-platform/documentation-and-developer-resources.html)
-* [Documentación de Perfiles de clientes en tiempo real](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
-* [Definición de campo XDM de Experience Cloud](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html)
-* [Documentación de Área de nombres de identidad](https://docs.adobe.com/content/help/en/experience-platform/identity/home.html)
-* [API de ingesta de flujos](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/overview.html)
+* [Documentación de Experience Platform](https://www.adobe.com/es/experience-platform/documentation-and-developer-resources.html)
+* [Documentación del perfil del cliente en tiempo real](https://docs.adobe.com/content/help/es-ES/experience-platform/profile/home.html)
+* [Definición de campo XDM de Experience Cloud](https://docs.adobe.com/content/help/es-ES/experience-platform/xdm/home.html)
+* [Documentación del área de nombres de identidad](https://docs.adobe.com/content/help/es-ES/experience-platform/identity/home.html)
+* [API de ingesta de flujos](https://docs.adobe.com/content/help/es-ES/experience-platform/ingestion/streaming/overview.html)
 * [Documentación de mensajería transaccional de Campaign Standard](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.translate.html)
