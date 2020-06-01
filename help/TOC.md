@@ -3,8 +3,11 @@ product: Journeys
 audience: end-user
 user-guide-title: Ayuda de Journey Orchestration
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ea891b40633378843a00a3ac56c6703f792d39e1
+workflow-type: ht
+source-wordcount: '307'
+ht-degree: 100%
 
 ---
 
@@ -152,7 +155,7 @@ source-git-commit: ea891b40633378843a00a3ac56c6703f792d39e1
    + Caso de uso simple{#use-case-simple}
       + [Acerca del caso de uso simple](using/usecase/about-the-simple-use-case.md)
       + [Configuración del evento](using/usecase/configuring-the-event.md)
-      + [Configuración del origen de datos](using/usecase/configuring-the-data-source.md)
+      + [Configuración de la fuente de datos](using/usecase/configuring-the-data-source.md)
       + [Construcción del recorrido](using/usecase/simple-uc-building-the-journey.md)
    + Caso de uso avanzado{#use-case-advanced}
       + [Acerca del caso de uso avanzado](using/usecase/about-the-advanced-use-case.md)
