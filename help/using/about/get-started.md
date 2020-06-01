@@ -1,6 +1,6 @@
 ---
 title: Introducción
-description: Introducción a la orquestación de viajes
+description: Introducción a Journey Orchestration
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -8,63 +8,66 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fed6fd8d8ee497ec47727f7297dc72f319fabe27
+workflow-type: ht
+source-wordcount: '296'
+ht-degree: 100%
 
 ---
 
 
 # Introducción{#concept_y4b_4qt_52b}
 
-En la orquestación de viajes, hay dos tipos de usuarios, cada uno de los cuales realiza tareas específicas: el usuario **** técnico y el usuario **** comercial. El acceso de los usuarios se administra mediante perfiles de producto y derechos. Consulte [](../about/access-management.md) para obtener información sobre cómo configurar el acceso de los usuarios.
+En Journey Orchestration, hay dos tipos de usuarios, cada uno de los cuales realiza tareas específicas: el **usuario técnico** y el **usuario empresarial**. El acceso de los usuarios se administra mediante perfiles y derechos del producto. Consulte [](../about/access-management.md) para obtener información sobre cómo configurar el acceso de los usuarios.
 
-Estos son los pasos principales para configurar y utilizar la orquestación de viajes:
+Estos son los pasos principales para configurar y utilizar Journey Orchestration:
 
 1. **Configurar un evento**
 
-   Debe definir la información esperada y cómo procesarla. Esta configuración es obligatoria. Este paso lo realiza un usuario **** técnico.
+   Debe definir la información esperada y cómo procesarla. Esta configuración es obligatoria. Este paso lo realiza un **usuario técnico**.
 
    Para obtener más información, consulte [](../event/about-events.md).
 
    ![](../assets/journey7.png)
 
-1. **Configurar el origen de datos**
+1. **Configuración de la fuente de datos**
 
-   Debe definir una conexión a un sistema para recuperar información adicional que se utilizará en los viajes, por ejemplo en las condiciones. También se configura un origen de datos integrado de la plataforma de experiencias en el momento del aprovisionamiento. Este paso no es necesario si solo aprovecha los datos de los eventos del viaje. Este paso lo realiza un usuario **** técnico.
+   Debe definir una conexión a un sistema para recuperar información adicional que se utilizará en los recorridos como, por ejemplo, en las condiciones. También se configura una fuente de datos integrada de la Experience Platform en el momento del aprovisionamiento. Este paso no es necesario si solo se aprovechan los datos de los eventos durante el recorrido. Este paso lo realiza un **usuario técnico**.
 
    Para obtener más información, consulte [](../datasource/about-data-sources.md).
 
    ![](../assets/journey22.png)
 
-1. **Configurar una acción**
+1. **Configuración de una acción**
 
-   Si está utilizando un sistema de terceros para enviar sus mensajes, debe configurar su conexión con la orquestación de viajes. Consulte [](../action/about-custom-action-configuration.md).
+   Si usa un sistema de terceros para enviar mensajes, debe configurar su conexión con Journey Orchestration. Consulte [](../action/about-custom-action-configuration.md).
 
-   Si utiliza Adobe Campaign Standard para enviar mensajes, debe configurar la acción integrada. Consulte [](../action/working-with-adobe-campaign.md).
+   Si usa Adobe Campaign Standard para enviar mensajes, debe configurar la acción integrada. Consulte [](../action/working-with-adobe-campaign.md).
 
-   Estos pasos los realiza un usuario **** técnico.
+   Estos pasos los realiza un **usuario técnico**.
 
    ![](../assets/custom2.png)
 
-1. **Diseñe su viaje**
+1. **Diseño de un recorrido**
 
-   Combine las diferentes actividades de evento, orquestación y acción para crear los escenarios de varios pasos entre canales. Este paso lo realiza un usuario **** comercial.
+   Combine las distintas actividades de evento, orquestación y acción para crear sus escenarios de canal cruzado de varios pasos. Este paso lo realiza un **usuario empresarial**.
 
    Para obtener más información, consulte [](../building-journeys/journey.md).
 
    ![](../assets/journeyuc2_24.png)
 
-1. **Probar y publicar el viaje**
+1. **Prueba y publicación del recorrido**
 
-   Debe validar y activar el viaje. Este paso lo realiza un usuario **** comercial.
+   Debe validar y activar el recorrido. Este paso lo realiza un **usuario empresarial**.
 
-   For more on this, see [](../building-journeys/testing-the-journey.md) and [](../building-journeys/publishing-the-journey.md).
+   Para obtener más información, consulte [](../building-journeys/testing-the-journey.md) y [](../building-journeys/publishing-the-journey.md).
 
    ![](../assets/journeyuc2_32bis.png)
 
-1. **Monitoree su viaje**
+1. **Monitorización del recorrido**
 
-   Utilice las herramientas de informes dedicadas para medir la eficacia de su viaje. Este paso lo realiza un usuario **** comercial.
+   Utilice las herramientas de sistema de informes dedicadas para medir la eficacia de su recorrido. Este paso lo realiza un **usuario empresarial**.
 
    Para obtener más información, consulte [](../reporting/about-journey-reports.md).
 
