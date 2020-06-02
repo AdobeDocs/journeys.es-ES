@@ -1,6 +1,6 @@
 ---
 title: Generalidades
-description: Obtenga información sobre las generalidades de expresiones avanzadas
+description: Obtenga información sobre las generalidades de expresión avanzada
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
+source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 3%
 
 ---
 
@@ -39,13 +42,12 @@ Estas son las distintas reglas de distinción de mayúsculas y minúsculas:
 * Todos los nombres de funciones distinguen entre mayúsculas y minúsculas. Por ejemplo, _getBestSendTime()_ es válido, mientras que la función _GETBESTSENDTIME()_ no lo es.
 * Las referencias de campo y los valores constantes distinguen entre mayúsculas y minúsculas: no son elementos integrados del idioma (a diferencia de los operadores y las funciones), son creados por el usuario final.
 
-## Tipo de expresión devuelto{#section_gyc_435_53b}
+## Tipo de expresión devuelta{#section_gyc_435_53b}
 
 Según el contexto de uso, el editor de expresiones puede devolver valores diferentes.
 
-| Uso del editor de expresiones avanzado | Tipo de expresión devuelto esperado |
+| Uso avanzado del editor de expresiones | Tipo de expresión devuelto esperado |
 |--- |--- |
 | Condición (condición de fuente de datos, condición de fecha) | booleano |
 | Temporizador personalizado | dateTimeOnly |
-| Huso horario personalizado | timeZone o cadena (por ejemplo, Europa/París) |
 | Asignación de parámetros de acción | Cualquiera |
