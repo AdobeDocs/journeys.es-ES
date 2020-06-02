@@ -9,7 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: fed6fd8d8ee497ec47727f7297dc72f319fabe27
+source-git-commit: 2a53413c79f0213434f9ca6a7847bd7f20fbf41e
+workflow-type: tm+mt
+source-wordcount: '830'
+ht-degree: 3%
 
 ---
 
@@ -18,31 +21,87 @@ source-git-commit: fed6fd8d8ee497ec47727f7297dc72f319fabe27
 
 ## Acerca de la administración de acceso {#about-access-management}
 
-Los perfiles de producto se asignan a un conjunto de usuarios que comparten los mismos derechos dentro de la organización.
+La orquestación de viajes permite asignar un conjunto de derechos y entornos limitados a los usuarios para definir a qué parte de la interfaz pueden acceder.
 
-En la Consola de administración, puede asignar uno de los siguientes perfiles de producto predeterminados a los usuarios:
+Pueden ser administrados por administradores que tengan acceso a la consola de administración. Para obtener más información sobre la Consola de administración, consulte esta [documentación](https://helpx.adobe.com/es/enterprise/managing/user-guide.html).
 
-* **[!UICONTROL Limited Access User]**:: usuario con acceso de solo lectura a viajes e informes. Este perfil de producto incluye los siguientes derechos:
+En la Consola de administración, puede asignar a los usuarios uno de los siguientes perfiles de producto predeterminados:
+
+* **[!UICONTROL Limited Access User]**:: usuario con acceso de solo lectura a viajes e informes. Este perfil del producto incluye los siguientes derechos:
    * Leer viajes
    * Leer informes
 
-* **[!UICONTROL Administrators]**:: usuario con acceso a los menús de administración con la posibilidad de administrar viajes, eventos e informes. Este perfil de producto incluye los siguientes derechos:
-   * Administrar y ejecutar viajes
+* **[!UICONTROL Administrators]**:: usuario con acceso a los menús de administración con la posibilidad de administrar viajes, eventos e informes. Este perfil del producto incluye los siguientes derechos:
+   * Administrar viajes
+   * Publicar viajes
    * Administrar eventos, fuentes de datos y acciones
    * Administrar informes
    >[!NOTE]
    >
-   >**[!UICONTROL Administrators]**es el único perfil de producto que permite crear, editar y publicar mensajes transaccionales (o plantillas de mensajería) en Adobe Campaign Standard. Este perfil de producto es necesario si utiliza Adobe Campaign Standard para enviar mensajes durante sus viajes.
+   >**[!UICONTROL Administrators]** es el único perfil de productos que permite crear, editar y publicar mensajes transaccionales (o plantillas de mensajería) en Adobe Campaign Standard. Este perfil de producto es necesario si usa Adobe Campaign Standard para enviar mensajes en sus viajes.
 
-* **[!UICONTROL Standard User]**:: usuario con acceso básico, como administración de viajes. Este perfil de producto incluye los siguientes derechos:
-   * Administrar y ejecutar viajes
+* **[!UICONTROL Standard User]**:: usuario con acceso básico, como administración de viajes. Este perfil del producto incluye los siguientes derechos:
+   * Administrar viajes
+   * Publicar viajes
    * Administrar informes
 
-Puede encontrar [aquí](../assets/do-not-localize/acs_rights_journeys.pdf) la compatibilidad entre los derechos y las diferentes funcionalidades de Journey Orquestation.
+También puede crear sus propios perfiles de producto si los perfiles predeterminados no son suficientes para administrar a los usuarios.
+Los usuarios siempre deben estar vinculados a un perfil de producto que le permita asignarles derechos de integración específicos como:
+
+* **[!UICONTROL Read journeys]**
+* **[!UICONTROL Read reports]**
+* **[!UICONTROL Manage events, data sources and actions]**
+* **[!UICONTROL Read events, data sources and actions]**
+* **[!UICONTROL Manage journeys]**
+* **[!UICONTROL Publish journeys]**
+* **[!UICONTROL Manage reports]**
+
+A continuación se puede encontrar la compatibilidad entre los derechos y las diferentes funcionalidades de la Orquestación de Viaje.
+
+![](../assets/journey_permission.png)
+
+## Creación de un perfil de producto {#create-product-profile}
+
+La orquestación de viajes le permite crear sus propios perfiles de productos y asignar un conjunto de derechos y entornos limitados a los usuarios. Con los perfiles del producto, puede autorizar o denegar el acceso a determinadas funcionalidades u objetos de la interfaz.
+
+Para obtener más información sobre cómo crear y administrar entornos limitados, consulte la documentación [de](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html)Adobe Experience Platform.
+
+Para crear un perfil de producto y asignar un conjunto de derechos y entornos limitados:
+
+1. En la Consola de administración, seleccione **[!UICONTROL Journey orchestration]**. From the **[!UICONTROL Product profile]** tab, click **[!UICONTROL New Profile]**.
+
+1. Añada un **[!UICONTROL Profile Name]** y **[!UICONTROL Description]** para el nuevo perfil de productos. Si desea que el perfil **[!UICONTROL Display name]** sea diferente, desmarque **[!UICONTROL Same as Profile Name]** y escriba su **[!UICONTROL Display name]**.
+
+1. En la **[!UICONTROL User Notifications]** categoría, elija si se notificará por correo electrónico a los usuarios cuando se agreguen o eliminen de este perfil de productos.
+
+1. Cuando termine, haga clic en **[!UICONTROL Done]**. Se ha creado el nuevo perfil de productos.
+
+1. Seleccione el nuevo perfil de productos para administrar los permisos de inicio. En la **[!UICONTROL Users]** ficha, agregue usuarios al perfil del producto. Para obtener más información, consulte [esta página](../about/access-management.md#assigning-product-profile).
+
+1. Lleve a cabo los mismos pasos que se detallan arriba para agregar **[!UICONTROL Admin]** a su perfil de productos.
+
+1. En la **[!UICONTROL Permissions]** ficha, seleccione una de las dos categorías **[!UICONTROL Sandbox]** o **[!UICONTROL Authoring]** para abrir la **[!UICONTROL Edit Permissions]** página y agregar o quitar permisos para el perfil del producto.
+
+1. En la categoría de permisos, elija qué simulador de pruebas desea asignar al perfil del producto. **[!UICONTROL Sandbox]** En **[!UICONTROL Available Permissions Items]**, haga clic en el icono de signo más (+) para asignar entornos limitados al perfil.
+
+   >[!NOTE]
+   >
+   >La orquestación de viajes ahora se puede conectar al Simulador para pruebas de la plataforma de producción y no de producción. Disponibilidad efectiva: 15 de junio de 2020.
+   <br>Para obtener más información sobre los entornos limitados, consulte esta [sección](../about/access-management.md#sandboxes).
+
+1. Si es necesario, haga clic en **[!UICONTROL Included Permission Items]** el icono X situado junto a para eliminar los permisos del perfil del producto.
+
+1. Desde la categoría de permisos, lleve a cabo los mismos pasos que se mencionan arriba para agregar derechos al perfil del producto. **[!UICONTROL Authoring]**
+   <br>Para obtener más información sobre los derechos y la compatibilidad entre los derechos y las diferentes funcionalidades de la Orquestación de Viaje, consulte esta [sección](../about/access-management.md#about-access-management).
+
+1. Cuando termine, haga clic en **[!UICONTROL Save]**.
+
+El perfil del producto se ha creado y configurado. Los usuarios vinculados a este perfil ahora pueden conectarse a la orquestación de Journey.
 
 ## Asignación de un perfil de producto {#assigning-product-profile}
 
-Los perfiles de producto se administran en Admin Console. For more on this, refer to the [Admin Console documentation](https://helpx.adobe.com/enterprise/managing/user-guide.html).
+Los perfiles de producto se asignan a un conjunto de usuarios que comparten los mismos derechos dentro de la organización.
+La lista de todos los perfiles de productos listos para usar con derechos asignados se encuentra en esta sección.
 
 Para asignar un perfil de producto para que un usuario tenga acceso a la orquestación de viajes:
 
@@ -50,7 +109,7 @@ Para asignar un perfil de producto para que un usuario tenga acceso a la orquest
 
    ![](../assets/user_management.png)
 
-1. Seleccione el perfil de producto al que estará vinculado el nuevo usuario.
+1. Seleccione el perfil de producto al que estará vinculado su nuevo usuario.
 
    ![](../assets/user_management_2.png)
 
@@ -65,3 +124,17 @@ Para asignar un perfil de producto para que un usuario tenga acceso a la orquest
    ![](../assets/user_management_4.png)
 
 El usuario debe recibir un correo electrónico que le redirija a la instancia de orquestación de viajes.
+
+## Uso de entornos limitados {#sandboxes}
+
+>[!NOTE]
+>
+>La orquestación de viajes ahora se puede conectar al Simulador para pruebas de la plataforma de producción y no de producción. Disponibilidad efectiva: 15 de junio de 2020.
+
+La orquestación de viajes le permite dividir la instancia en entornos virtuales separados llamados entornos limitados.
+Los Simuladores para pruebas se asignan mediante perfiles de producto en la Consola de administración. Para obtener más información sobre cómo asignar entornos limitados, consulte esta [sección](../about/access-management.md#create-product-profile).
+
+La orquestación de viajes refleja los entornos limitados de plataforma que se crearon para una organización determinada.
+Los entornos limitados de plataforma se pueden crear o restablecer desde la instancia de Adobe Experience Platform. Consulte la guía [del usuario del](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html) Simulador para pruebas para conocer los pasos detallados.
+
+Encontrará el control del conmutador de simulador de pruebas en la parte superior izquierda de la pantalla. Para cambiar de un simulador de pruebas a otro, haga clic en el simulador de pruebas activo y seleccione otro simulador de pruebas en la lista desplegable.
