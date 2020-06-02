@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e53ecd96bbb308fe109843de6f64cde4cba5e246
+source-git-commit: 7bdba1be0b5fe95417038c0d6788e76b155104aa
+workflow-type: tm+mt
+source-wordcount: '1341'
+ht-degree: 4%
 
 ---
 
@@ -22,9 +25,9 @@ El menú Inicio del viaje le permite vista de la **lista de los viajes**. Cree u
 
 ## La lista del viaje {#journey_list}
 
-La lista **de** viaje le permite realizar vistas de todos sus viajes a la vez, ver su estado y realizar acciones básicas. Puede duplicado, detener o eliminar sus viajes. Según el viaje, es posible que algunas acciones no estén disponibles. Por ejemplo, no se puede eliminar ni reiniciar un viaje terminado. Puede crear una nueva versión a partir de ella, duplicado o deteniéndola. También puede utilizar la barra de búsqueda para buscar un viaje.
+The **journey list** allows you to view all your journeys at once, see their status and perform basic actions. Puede duplicar, detener o eliminar recorridos. Según el recorrido, es posible que algunas acciones no estén disponibles. Por ejemplo, no puede eliminar ni reiniciar un viaje que esté cerrado. Puede crear una nueva versión a partir de ella, duplicado o deteniéndola. También puede utilizar la barra de búsqueda para buscar un recorrido.
 
-Se **[!UICONTROL Filters]** puede acceder al mismo haciendo clic en el icono de filtro en la parte superior izquierda de la lista. El menú filtros le permite filtrar los viajes mostrados según diferentes criterios (estado, los que ha creado, los modificados en los últimos 30 días, versiones más recientes, etc.). También puede elegir mostrar únicamente los viajes que utilizan un evento, un grupo de campos o una acción concretos. Se pueden configurar las columnas que se muestran en la lista. Todos los filtros y columnas se guardan por usuario.
+Se puede acceder a **[!UICONTROL Filters]** haciendo clic en el icono de filtro en la parte superior izquierda de la lista. El menú filtros le permite filtrar los viajes mostrados según diferentes criterios (estado, los que ha creado, los modificados en los últimos 30 días, versiones más recientes, etc.). También puede elegir mostrar únicamente los viajes que utilizan un evento, un grupo de campos o una acción concretos. Se pueden configurar las columnas que se muestran en la lista. Todos los filtros y columnas se guardan por usuario.
 
 ![](../assets/journey74.png)
 
@@ -68,7 +71,7 @@ En el lienzo, las actividades de acción y evento se representan con un icono co
 
 ## Acciones de la barra superior {#top_actions}
 
-Según el estado del viaje, puede realizar diferentes acciones en el viaje con los botones disponibles en la esquina superior derecha: **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**.. Estos botones aparecen cuando no hay ninguna actividad seleccionada. Algunos botones aparecerán contextualmente. El botón de registro del modo de prueba aparece cuando se activa el modo de prueba (consulte [](../building-journeys/testing-the-journey.md)). El botón de sistema de informes aparece cuando el viaje está activo, detenido o terminado.
+Según el estado del viaje, puede realizar diferentes acciones en el viaje con los botones disponibles en la esquina superior derecha: **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**. Estos botones aparecen cuando no hay ninguna actividad seleccionada. Algunos botones aparecerán contextualmente. El botón de registro del modo de prueba aparece cuando se activa el modo de prueba (consulte [](../building-journeys/testing-the-journey.md)). El botón de sistema de informes aparece cuando el viaje está activo, detenido o cerrado.
 
 ![](../assets/journey41.png)
 
@@ -89,3 +92,28 @@ Para eliminar la ruta, coloque el cursor sobre ella y haga clic en el **[!UICONT
 En el lienzo, cuando se desconectan dos actividades, se muestra una advertencia. Coloque el cursor en el icono de advertencia para mostrar el mensaje de error. Para solucionar el problema, simplemente mueva la actividad desconectada y conéctela a la actividad anterior.
 
 ![](../assets/canvas-disconnected.png)
+
+## Copia y pegado de actividades {#copy-paste}
+
+Puede copiar una o varias actividades de un viaje y pegarlas en el mismo viaje o en otro. Esto le permite ahorrar tiempo si desea reutilizar numerosas actividades que ya se han configurado en un viaje anterior.
+
+**Notas importantes**
+
+* Puede copiar/pegar en diferentes fichas y navegadores. Solo puede copiar/pegar actividades en la misma instancia.
+* No puede copiar/pegar un evento si el viaje de destino tiene un evento que utilice una Área de nombres diferente.
+* Las actividades pegadas pueden hacer referencia a datos que no existen en el viaje de destino, por ejemplo, si copia o pega en distintos entornos limitados. Compruebe siempre la existencia de errores y realice los ajustes necesarios.
+* Tenga en cuenta que no se puede deshacer una acción. Para eliminar actividades pegadas, deberá seleccionarlas y eliminarlas. Por lo tanto, asegúrese de seleccionar solo las actividades que necesita antes de copiarlas.
+* Puede copiar actividades de cualquier viaje, incluso las que están en sólo lectura.
+* Puede seleccionar cualquier actividad, incluso aquellas que no estén vinculadas. Las actividades vinculadas permanecerán vinculadas después de pegarlas.
+
+A continuación se indican los pasos para copiar/pegar actividades:
+
+1. Abra un viaje.
+1. Para seleccionar las actividades que desea copiar, mueva el ratón mientras hace clic. También puede hacer clic en cada actividad mientras pulsa la tecla **Ctrl/Comando** . Utilice **Ctrl/Comando + A** si desea seleccionar todas las actividades.
+   ![](../assets/copy-paste1.png)
+1. Pulse **Ctrl/Comando + C**.
+Si solo desea copiar una actividad, puede hacer clic en ella y utilizar el icono **Copiar** en la parte superior izquierda del panel de configuración de la actividad.
+   ![](../assets/copy-paste2.png)
+1. En cualquier viaje, pulse **Ctrl/Comando + V** para pegar las actividades sin vincularlas a un nodo existente. Las actividades pegadas se colocan en el mismo orden. Después de pegarlas, las actividades permanecen seleccionadas para que pueda moverlas fácilmente. También puede colocar el cursor en un marcador de posición vacío y pulsar **Ctrl/Comando + V**. Las actividades pegadas se vincularán al nodo.
+   ![](../assets/copy-paste3.png)
+
