@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f4f41428b19f611da15b20a1788b240fadfd49fa
+source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
+workflow-type: tm+mt
+source-wordcount: '250'
+ht-degree: 2%
 
 ---
 
@@ -23,14 +26,14 @@ Puede definir una zona horaria en las [propiedades](../building-journeys/changin
 
 Para acceder a Propiedades, haga clic en el icono del lápiz en la parte superior derecha de la pantalla.
 
-Esta zona horaria se utilizará para cada actividad del viaje que contenga un elemento de tiempo como:
+Este huso horario se utilizará para cada actividad del viaje que contenga un elemento de tiempo como:
 
 * [](../building-journeys/condition-activity.md#time_condition)
 * [](../building-journeys/condition-activity.md#date_condition)
 * [](../building-journeys/wait-activity.md#custom)
 * [](../building-journeys/wait-activity.md#fixed_date)
 
-Puede seleccionar una zona horaria o elegir utilizar la zona horaria definida en el perfil de usuario.
+Puede seleccionar una zona horaria o elegir utilizar la zona horaria definida en el perfil del usuario.
 
 ## Definición de una zona horaria fija {#fixed-timezone}
 
@@ -42,9 +45,9 @@ Para ello, en **[!UICONTROL Properties]**, seleccione un huso horario.
 
 ## Uso de perfiles para definir la zona horaria del viaje {#timezone-from-profiles}
 
-Si el evento de entrada del viaje tiene un espacio de nombres, lo que significa que el viaje puede alcanzar el servicio Perfil del cliente en tiempo real de la plataforma de datos, el huso horario se define previamente con el especificado en el perfil del individuo que fluye en el viaje.
+Si el evento de entrada del viaje tiene una Área de nombres, lo que significa que el viaje puede llegar al servicio de Perfil del cliente en tiempo real de la plataforma de datos, el huso horario se define previamente con el especificado en el perfil del individuo que fluye en el viaje.
 
-Si se define una zona horaria en el perfil de la plataforma de experiencias, se puede recuperar en el viaje.
+Si se define una zona horaria en el perfil de la plataforma de experiencia, se puede recuperar durante el viaje.
 
 Si el perfil del individuo no contiene una zona horaria, la zona horaria recuperada será la definida en el campo de zona horaria.
 
@@ -52,8 +55,6 @@ Para hacerlo, en **[!UICONTROL Properties]**, verifique **[!UICONTROL Use Profil
 
 ![](../assets/journey72.png)
 
-## Uso de zonas horarias en expresiones {#timezone-in-expressions}
+## Uso de husos horarios en expresiones {#timezone-in-expressions}
 
-Los husos horarios se utilizan para generar expresiones con el editor de expresiones avanzado. En este caso, utilizará el editor de expresiones para seleccionar dónde desea que el sistema obtenga esta información. Consulte [](../expression/expressionadvanced.md).
-
-Las fechas de inicio y finalización de un viaje no se pueden vincular a un huso horario específico. Se asocian automáticamente al huso horario de la instancia.
+Las fechas de inicio y finalización de un viaje no pueden vincularse a un huso horario específico. Se asocian automáticamente al huso horario de la instancia.
