@@ -8,11 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: ht
-source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
-workflow-type: ht
-source-wordcount: '995'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 817df02d78c4b9d213895cd7201ab1c2c883b188
+workflow-type: tm+mt
+source-wordcount: '1021'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Para sacar el máximo partido a Journey Orchestration, recomendamos utilizar Chrome como navegador de Internet.
+>Para sacar el máximo partido a Journey Orchestration, recomendamos utilizar Chrome como navegador de Internet. La interfaz se muestra en el idioma definido en IMS. Si el idioma de IMS no es compatible con la orquestación de viajes, la interfaz se muestra en inglés.
 >
 >Esta documentación se actualiza con frecuencia para reflejar los cambios recientes en el producto. Sin embargo, algunas capturas de pantalla pueden diferir ligeramente de la interfaz del producto.
 
@@ -40,7 +40,7 @@ También puede acceder a Journey Orchestration desde la página de inicio de Exp
 >[!CONTEXTUALHELP]
 >id="jo_home"
 >title="Acerca de la lista de recorridos"
->abstract="La lista de recorridos le permite realizar vistas de todos sus recorridos a la vez, ver su estado y realizar acciones básicas. Puede duplicar, detener o eliminar recorridos. Según el recorrido, es posible que algunas acciones no estén disponibles. Por ejemplo, no se puede eliminar ni reiniciar un recorrido terminado. Puede crear una nueva versión a partir de ella o duplicándola. También puede utilizar la barra de búsqueda para buscar un recorrido."
+>abstract="La lista de recorridos le permite realizar vistas de todos sus recorridos a la vez, ver su estado y realizar acciones básicas. Puede duplicar, detener o eliminar recorridos. Según el recorrido, es posible que algunas acciones no estén disponibles. Por ejemplo, no puede eliminar ni reiniciar un viaje que esté cerrado. Puede crear una nueva versión a partir de ella o duplicándola. También puede utilizar la barra de búsqueda para buscar un recorrido."
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="Ver vídeo de demostración"
 
 Los menús superiores le permiten navegar por las diferentes funcionalidades de Journey Orchestration: **[!UICONTROL Home]**(los recorridos),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
