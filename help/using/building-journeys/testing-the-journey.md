@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e53ecd96bbb308fe109843de6f64cde4cba5e246
+source-git-commit: 83e0476b8efd779256549788ff73f32531e08934
+workflow-type: tm+mt
+source-wordcount: '1108'
+ht-degree: 1%
 
 ---
 
@@ -30,7 +33,7 @@ Para utilizar el modo de prueba, siga estos pasos:
 
    ![](../assets/journeytest1.png)
 
-1. Utilice el parámetro de tiempo de **espera en la prueba** , en la esquina inferior izquierda, para definir el tiempo que durará cada actividad de espera en el modo de prueba. El tiempo predeterminado es de 10 segundos. Esto garantizará que los resultados de la prueba se obtengan rápidamente. Este parámetro solo aparece si ha soltado una o más actividades de espera en el viaje.
+1. Utilice el parámetro de tiempo de **espera en la prueba** , en la esquina inferior izquierda, para definir el tiempo que durará cada actividad de espera en el modo de prueba. El valor del tiempo predeterminado es de 10 segundos. Esto garantizará que los resultados de la prueba se obtengan rápidamente. Este parámetro solo aparece si ha soltado una o más actividades de espera en el viaje.
 
    ![](../assets/journeytest_wait.png)
 
@@ -70,6 +73,16 @@ La interfaz le permite pasar parámetros de evento sencillos. Si desea pasar col
 
 Un usuario técnico también puede utilizar esta interfaz para componer cargas de evento y activar eventos sin tener que utilizar una herramienta de terceros.
 
+Al hacer clic en el botón **Enviar** , se inicia la prueba. La progresión del individuo en el viaje se representa mediante un flujo visual. El camino se vuelve progresivamente verde a medida que el individuo se mueve a lo largo del viaje. Si se produce un error, se muestra un símbolo de advertencia en el paso correspondiente. Puede colocar el cursor sobre él para mostrar más información sobre el error y acceder a todos los detalles (cuando esté disponible).
+
+![](../assets/journeytest6.png)
+
+Cuando selecciona un perfil de prueba diferente en la pantalla de configuración de evento y vuelve a ejecutar la prueba, el flujo visual se borra y muestra la ruta del nuevo individuo.
+
+Al abrir un viaje en la prueba, la ruta mostrada corresponde a la última prueba ejecutada.
+
+El flujo visual solo se muestra cuando el evento enviado al viaje se define en la pantalla de configuración del evento. Si el evento se define externamente, por ejemplo, con Postman, no se muestra el flujo visual.
+
 ## Visualización de los registros {#viewing_logs}
 
 El **[!UICONTROL Show log]** botón permite realizar vistas de los resultados de la prueba. Esta página muestra la información actual del viaje en formato JSON. Un botón permite copiar nodos completos. Debe actualizar manualmente la página para actualizar los resultados de la prueba del viaje.
@@ -92,3 +105,9 @@ Se muestra el número de individuos (técnicamente, se denominan instancias) que
 * _transiciónHistory_: la lista de los pasos que siguió el individuo. Para eventos, se muestra la carga útil.
 * _actionExecutionErrors_ : información sobre los errores que se produjeron.
 
+Estos son los diferentes estados del viaje de una persona:
+
+* _Ejecutando_: la persona está en el viaje.
+* _Finalizó_: la persona está al final del viaje.
+* _Error_: el individuo se detiene en el viaje debido a un error.
+* _Se agotó_ el tiempo de espera: el individuo es detenido en el viaje debido a un paso que tomó demasiado tiempo.
