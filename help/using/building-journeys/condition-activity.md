@@ -1,6 +1,6 @@
 ---
 title: Actividad de condición
-description: Información sobre las actividades de condición
+description: Información sobre actividades de condición
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 538b350165365479caef499a74346381643033d5
+source-git-commit: 11c266b035bc1bb83cccf4e3958e54e1eb00e9f4
+workflow-type: tm+mt
+source-wordcount: '677'
+ht-degree: 1%
 
 ---
 
@@ -37,7 +40,7 @@ Tenga en cuenta que el diseño de los viajes tiene un impacto funcional. Cuando 
 
 ![](../assets/journey48.png)
 
-Puede crear otra ruta para las audiencias que no cumplen las condiciones definidas marcando **[!UICONTROL Show path for other cases than the one(s) above]**. Tenga en cuenta que esta opción no está disponible en condiciones de división. Consulte [Porcentaje dividido](#percentage_split).
+Puede crear otra ruta para audiencias que no cumplan las condiciones definidas marcando **[!UICONTROL Show path for other cases than the one(s) above]**. Tenga en cuenta que esta opción no está disponible en condiciones de división. Consulte [Porcentaje dividido](#percentage_split).
 
 El modo simple permite realizar consultas sencillas basadas en una combinación de campos. Todos los campos disponibles se muestran en la parte izquierda de la pantalla. Arrastre y suelte los campos en la zona principal. Para combinar los distintos elementos, interactívelos entre sí para crear diferentes grupos o niveles de grupo. A continuación, puede seleccionar un operador lógico para combinar elementos en el mismo nivel:
 
@@ -46,13 +49,16 @@ El modo simple permite realizar consultas sencillas basadas en una combinación 
 
 ![](../assets/journey64.png)
 
+Si utiliza el servicio [de segmentación de](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) plataformas para crear sus segmentos, puede aprovecharlos en las condiciones de su viaje. Consulte [Uso de segmentos en condiciones](../segment/using-a-segment.md).
+
+
 >[!NOTE]
 >
 >No puede realizar consultas en series temporales (por ejemplo, una lista de compras, clics anteriores en mensajes) con el editor simple. Para ello, deberá utilizar el editor avanzado. Consulte [](../expression/expressionadvanced.md).
 
 ## Condición de fuente de datos {#data_source_condition}
 
-Esto le permite definir una condición en función de los campos de las fuentes de datos o de los eventos que se colocaron anteriormente en el viaje. Para obtener información sobre cómo utilizar el editor de expresiones, consulte [](../expression/expressionadvanced.md). Con el editor de expresiones avanzadas, puede configurar condiciones más avanzadas para manipular colecciones o utilizar orígenes de datos que requieran pasar parámetros. Consulte [](../datasource/external-data-sources.md).
+Esto le permite definir una condición en función de los campos de los orígenes de datos o los eventos colocados anteriormente en el viaje. Para obtener información sobre cómo utilizar el editor de expresiones, consulte [](../expression/expressionadvanced.md). Con el editor de expresiones avanzado, puede configurar condiciones más avanzadas para manipular colecciones o utilizar orígenes de datos que requieran pasar parámetros. Consulte [](../datasource/external-data-sources.md).
 
 ![](../assets/journey50.png)
 
@@ -83,6 +89,6 @@ Esto le permite definir un flujo diferente en función de la fecha. Por ejemplo,
 
 >[!NOTE]
 >
->El huso horario ya no es específico de una condición y ahora se define en el nivel de viaje en las propiedades del viaje. Consulte [](../building-journeys/timezone-management.md).
+>The time zone is no longer specific to a condition and is now defined at the journey level in the journey properties. Consulte [](../building-journeys/timezone-management.md).
 
 ![](../assets/journey53.png)
