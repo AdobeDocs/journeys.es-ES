@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 690f8c1732c7d54c234e9ba633a2cf014492f423
-workflow-type: ht
-source-wordcount: '356'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
+workflow-type: tm+mt
+source-wordcount: '354'
+ht-degree: 88%
 
 ---
 
@@ -24,14 +24,14 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="jo_datasources"
 >title="Acerca de las fuentes de datos"
->abstract="La configuración de la fuente de datos siempre la realiza un usuario técnico. La configuración de la fuente de datos permite definir una conexión con un sistema para recuperar información adicional que se utilizará en los recorridos para definición de condición, parámetro y datos de personalización en acciones, definición de espera personalizada, definición de zona horaria personalizada."
+>abstract="La configuración de la fuente de datos siempre la realiza un usuario técnico. La configuración del origen de datos permite definir una conexión con un sistema para recuperar información adicional que se utilizará en los viajes, para: definición de condición, parámetro y datos de personalización en acciones, definición de espera personalizada, definición de zona horaria."
 
 La configuración de la fuente de datos permite definir una conexión con un sistema para recuperar información adicional que se utilizará en los viajes, para:
 
 * [definición de condición](../building-journeys/condition-activity.md)
 * datos de parámetros y personalización en [acciones](../action/action.md)
 * [definición de espera personalizada](../building-journeys/wait-activity.md#custom)
-* [definición de zona horaria personalizada](../building-journeys/timezone-management.md)
+* [definición de zona horaria](../building-journeys/timezone-management.md)
 
 Esta configuración no es necesaria si los recorridos solo aprovechan los datos locales procedentes de una carga útil de evento. Por ejemplo, si el recorrido está compuesto por un evento seguido de una actividad de correo electrónico que solo utiliza datos del evento, no es necesario configurar ninguna fuente de datos.
 
