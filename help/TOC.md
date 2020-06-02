@@ -3,11 +3,11 @@ product: Journeys
 audience: end-user
 user-guide-title: Ayuda de Journey Orchestration
 index: true
-translation-type: ht
-source-git-commit: ea891b40633378843a00a3ac56c6703f792d39e1
-workflow-type: ht
-source-wordcount: '307'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b199c8c2d0940b5ba3b0093cf8a654739249263d
+workflow-type: tm+mt
+source-wordcount: '354'
+ht-degree: 87%
 
 ---
 
@@ -46,6 +46,10 @@ ht-degree: 100%
       + [Limitaciones de acciones personalizadas](using/action/custom-action-limitations.md)
       + [Configuración de URL](using/action/url-configuration.md)
       + [Definición de los parámetros del mensaje](using/action/defining-the-message-parameters.md)
++ Uso de segmentos de plataforma {#configuring-segment}
+   + [Acerca de los segmentos de plataforma](using/segment/about-segments.md)
+   + [Creación de un segmento](using/segment/creating-a-segment.md)
+   + [Uso de segmentos en condiciones](using/segment/using-a-segment.md)
 + Crear un recorrido {#building-journeys}
    + Acerca de la creación de un recorrido {#about-journey-building}
       + [Creación de un recorrido](using/building-journeys/journey.md)
@@ -67,6 +71,13 @@ ht-degree: 100%
          + [Uso de acciones personalizadas](using/building-journeys/using-custom-actions.md)
    + [Prueba del recorrido](using/building-journeys/testing-the-journey.md)
    + [Publicación del recorrido](using/building-journeys/publishing-the-journey.md)
+   + Compartir los pasos del viaje con la plataforma {#sharing-journey-steps}
+      + [Información general sobre el uso compartido de los pasos del viaje](using/building-journeys/sharing-overview.md)
+      + [campos comunes de los eventos de los pasos del viaje](using/building-journeys/sharing-common-fields.md)
+      + [Campos de ejecución de la acción eventos de la travesíaPaso](using/building-journeys/sharing-execution-fields.md)
+      + [campos de captura de datos de eventos de travesía](using/building-journeys/sharing-fetch-fields.md)
+      + [Campos de identidad del evento de travesíaPaso](using/building-journeys/sharing-identity-fields.md)
+      + [campos de viaje](using/building-journeys/sharing-journey-fields.md)
 + Uso del editor de expresiones avanzadas {#building-advanced-conditions-journeys}
    + [Acerca del editor de expresiones avanzadas](using/expression/expressionadvanced.md)
    + Sintaxis {#syntax}
@@ -163,4 +174,6 @@ ht-degree: 100%
       + [Configuración de las fuentes de datos](using/usecase/configuring-the-data-sources.md)
       + [Construcción del recorrido](using/usecase/building-the-journey.md)
    + [Uso de las puntuaciones de fatiga](using/usecase/leveraging-fatigue-scores.md)
++ Uso de API{#working-with-apis}
+   + [Captar API](using/api/capping.md)
 
