@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 87910a9f3dbf2c34776a8d2ab1f00426e8b0704c
-workflow-type: ht
-source-wordcount: '289'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 89%
 
 ---
 
@@ -36,7 +36,7 @@ Las acciones están disponibles en la paleta izquierda del recorrido, en la cate
 >
 >La configuración de las acciones personalizadas siempre la realiza un **usuario técnico**.
 
-En la lista de **acciones**, puede pulsar c para crear un nuevo recorrido, acción, fuente de datos o evento. Para obtener más información sobre los métodos abreviados de teclado en Journey Orchestration, consulte [](../about/user-interface.md#section_ksq_zr1_ffb).
+En la lista de **acciones**, puede pulsar c para crear un nuevo recorrido, acción, fuente de datos o evento. For more information on shortcuts in [!DNL Journey Orchestration], see [](../about/user-interface.md#section_ksq_zr1_ffb).
 
 Para ver la lista de acciones o configurar una nueva acción, haga clic en **[!UICONTROL Actions]** en los menús superiores. Se muestra la lista de acciones. Consulte [](../about/user-interface.md) para obtener más información sobre la interfaz.
 
@@ -46,4 +46,4 @@ Si tiene Adobe Campaign Standard, debe configurar la acción predeterminada para
 
 Si utiliza un sistema de terceros para enviar mensajes como Epsilon, Facebook, Adobe.io, Firebase, etc., debe agregar y configurar una acción personalizada. Consulte [](../action/about-custom-action-configuration.md).
 
-Para obtener más información sobre cómo configurar una acción para Journey Orchestration y cómo utilizarla en un recorrido, vea este [vídeo tutorial](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-actions.html).
+For more information on how to configure an Action for [!DNL Journey Orchestration] and how to use it in a journey, watch this [video tutorial](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-actions.html).
