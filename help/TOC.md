@@ -4,22 +4,22 @@ audience: end-user
 user-guide-title: Ayuda de Journey Orchestration
 index: true
 translation-type: tm+mt
-source-git-commit: b199c8c2d0940b5ba3b0093cf8a654739249263d
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 87%
+source-wordcount: '351'
+ht-degree: 85%
 
 ---
 
 
-# Ayuda de Journey Orchestration {#using}
+# [!DNL Journey Orchestration] Ayuda {#using}
 
 + [Documentación del producto](journey-orchestration-home.md)
 + Novedades {#release-notes}
    + [Notas de la versión](using/release-notes/release-notes.md)
    + [Actualizaciones de documentación](using/release-notes/documentation-updates.md)
-+ Introducción a Journey Orchestration {#starting-with-journeys}
-   + [Acerca de Journey Orchestration](using/about/about-journey-orchestration.md)
++ Starting with [!DNL Journey Orchestration] {#starting-with-journeys}
+   + [About [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [Introducción](using/about/get-started.md)
    + [Interfaz de usuario](using/about/user-interface.md)
    + [Gestión de acceso](using/about/access-management.md)
