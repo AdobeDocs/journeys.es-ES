@@ -11,14 +11,17 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '345'
+ht-degree: 10%
 
 ---
 
 
 # Fuentes de datos de Adobe Experience Platform {#concept_zrb_nqt_52b}
 
-El origen de datos de la plataforma de experiencia define la conexión con el servicio de Perfil al cliente en tiempo real. Esta fuente de datos está integrada y preconfigurada. No se puede eliminar. Esta fuente de datos está diseñada para recuperar y utilizar datos del servicio de Perfil del cliente en tiempo real (por ejemplo, para comprobar si la persona que ha realizado un viaje es una mujer). Permite utilizar datos de Perfil y datos de Eventos de experiencia. Para obtener más información sobre el servicio de Perfil de clientes en tiempo real, consulte esta [página](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html).
+El origen de datos de la plataforma de experiencia define la conexión con el servicio de Perfil al cliente en tiempo real. Esta fuente de datos está integrada y preconfigurada. No se puede eliminar. Esta fuente de datos está diseñada para recuperar y utilizar datos del servicio de Perfil del cliente en tiempo real (por ejemplo, para comprobar si la persona que ha realizado un viaje es una mujer). Permite utilizar datos de Perfil y datos de Eventos de experiencia. Para obtener más información sobre el servicio de Perfil de clientes en tiempo real, consulte esta [página](https://docs.adobe.com/content/help/es-ES/experience-platform/profile/home.html).
 
 >[!NOTE]
 >
@@ -32,7 +35,7 @@ Estos son los pasos principales para agregar grupos de campos al origen de datos
 
 1. En la lista de fuentes de datos, seleccione el origen de datos integrado de la plataforma de experiencias.
 
-   Se abre el panel de configuración del origen de datos en el lado derecho de la pantalla.
+   Se abre el panel de configuración de la fuente de datos en el lado derecho de la pantalla.
 
    ![](../assets/journey23.png)
 
@@ -40,7 +43,7 @@ Estos son los pasos principales para agregar grupos de campos al origen de datos
 
    ![](../assets/journey24.png)
 
-1. Seleccione un esquema en la **[!UICONTROL Schema]** lista desplegable. Este campo lista los esquemas de Perfiles y Eventos de experiencias disponibles en la plataforma. La creación de Esquemas no se realiza en la orquestación de viajes. Se realiza en la plataforma de datos.
+1. Seleccione un esquema en la **[!UICONTROL Schema]** lista desplegable. Este campo lista los esquemas de Perfiles y Eventos de experiencias disponibles en la plataforma. La creación de Esquemas no se realiza en [!DNL Journey Orchestration]. Se realiza en la plataforma de datos.
 1. Seleccione los campos que desee utilizar.
 1. Defina la duración de la caché.
 1. Haga clic en **[!UICONTROL Save]**.
