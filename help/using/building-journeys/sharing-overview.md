@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a6a98eca551bf5fc46ebd3a6d0d11486e3fbe06b
+source-git-commit: 4e850db61aa55c9bff448a0280f79810928cb6ec
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 # Información general sobre el uso compartido de los pasos del viaje{#sharing-overview}
 
-La orquestación de viajes envía automáticamente los datos de rendimiento del viaje a Adobe Experience Platform para que se puedan combinar con otros datos con fines de análisis.
+[!DNL Journey Orchestration] envía automáticamente datos de rendimiento del viaje a Adobe Experience Platform para que se puedan combinar con otros datos con fines de análisis.
 
-Por ejemplo, ha configurado un viaje que envía varios correos electrónicos. Esta capacidad le permite combinar datos de orquestación de viajes con datos de eventos descendentes, como cuántas conversiones se produjeron, cuánta participación se produjo en el sitio web o cuántas transacciones se produjeron en el almacén. La información del viaje se puede combinar con los datos de la Plataforma, ya sea de otras propiedades digitales o de propiedades sin conexión, para ofrecer una vista más completa del rendimiento.
+Por ejemplo, ha configurado un viaje que envía varios correos electrónicos. Esta capacidad le permite combinar [!DNL Journey Orchestration] datos con datos de eventos descendentes, como cuántas conversiones se produjeron, cuánta participación se produjo en el sitio web o cuántas transacciones se produjeron en el almacén. La información del viaje se puede combinar con los datos de la Plataforma, ya sea de otras propiedades digitales o de propiedades sin conexión, para ofrecer una vista más completa del rendimiento.
 
-La orquestación de viajes crea automáticamente los esquemas y secuencias necesarios en conjuntos de datos a la Plataforma para cada paso que un individuo realiza en un viaje. Un evento de paso corresponde a un individuo que se mueve de un nodo a otro en un viaje. Por ejemplo, en un viaje que tiene un evento, una condición y una acción, se envían tres eventos a la Plataforma.
+[!DNL Journey Orchestration] crea automáticamente los esquemas y flujos necesarios en conjuntos de datos a la Plataforma para cada paso que un individuo realiza en un viaje. Un evento de paso corresponde a un individuo que se mueve de un nodo a otro en un viaje. Por ejemplo, en un viaje que tiene un evento, una condición y una acción, se envían tres eventos a la Plataforma.
 
 La lista de los campos XDM que se pasan es exhaustiva. Algunos contienen códigos generados por el sistema y otros tienen nombres descriptivos legibles por el hombre. Algunos ejemplos son la etiqueta de la actividad del viaje o el estado del paso: cuántas veces se agotó el tiempo de espera de una acción o terminó en error.
 
@@ -45,9 +45,9 @@ Los viajes envían datos a medida que se producen, de forma continua. Puede cons
 
 Se crean los siguientes esquemas:
 
-* esquema de Evento de Perfil de paso de viaje para orquestación de viajes - Eventos de experiencia para los pasos realizados en un viaje junto con un mapa de identidad que se utilizará para asignar a un participante de viaje individual.
-* esquema de Evento de paso de viaje para orquestación de viajes: evento de paso de viaje que está vinculado a los metadatos de viaje.
-* esquema de Viaje con Campos de Viaje para Orquestación de Viaje - Metadatos de Viaje para describir Viajes.
+* esquema de Evento de Perfil de la etapa de viaje para [!DNL Journey Orchestration] - Eventos de experiencia para los pasos realizados en un viaje junto con un mapa de identidad que se utilizará para asignar a un participante de viaje individual.
+* esquema de Evento de paso de viaje para [!DNL Journey Orchestration] - evento de paso de viaje que está vinculado a los metadatos de viaje.
+* esquema de Viaje con Campos de Viaje para [!DNL Journey Orchestration] - Metadatos de Viaje para describir Viajes.
 
 ![](../assets/sharing1.png)
 
@@ -55,7 +55,7 @@ Se crean los siguientes esquemas:
 
 Se pasan los siguientes conjuntos de datos:
 
-* esquema de Evento de Perfil de paso de viaje para orquestación de viajes
+* esquema de Evento del Perfil de la etapa de viaje para [!DNL Journey Orchestration]
 * Eventos de la etapa de viaje
 * Viajes
 
