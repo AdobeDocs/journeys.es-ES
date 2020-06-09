@@ -11,14 +11,17 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '275'
+ht-degree: 6%
 
 ---
 
 
 # Definición de los campos de carga útil {#concept_yrw_3qt_52b}
 
-La definición de carga útil le permite elegir la información que el sistema espera recibir del evento en su viaje y la clave para identificar qué persona está asociada al evento. La carga útil se basa en la definición del campo XDM de Experience Cloud. For more information on XDM, refer to this [page](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html).
+La definición de carga útil le permite elegir la información que el sistema espera recibir del evento en su viaje y la clave para identificar qué persona está asociada al evento. La carga útil se basa en la definición del campo XDM de Experience Cloud. For more information on XDM, refer to this [page](https://docs.adobe.com/content/help/es-ES/experience-platform/xdm/home.html).
 
 1. Seleccione un esquema XDM en la lista y haga clic en el **[!UICONTROL Payload]** campo o en el **[!UICONTROL Edit]** icono.
 
@@ -28,7 +31,7 @@ La definición de carga útil le permite elegir la información que el sistema e
 
    >[!NOTE]
    >
-   >Asegúrese de haber agregado la mezcla de &quot;orquestación&quot; al esquema XDM. Esto garantizará que su esquema contenga toda la información necesaria para trabajar con la orquestación de viajes.
+   >Asegúrese de haber agregado la mezcla de &quot;orquestación&quot; al esquema XDM. Esto garantizará que su esquema contenga toda la información necesaria para trabajar con [!DNL Journey Orchestration].
 
    ![](../assets/journey9.png)
 
@@ -38,7 +41,7 @@ La definición de carga útil le permite elegir la información que el sistema e
 
    >[!NOTE]
    >
-   >El **[!UICONTROL eventID]** campo se agrega automáticamente en la lista de los campos seleccionados para que la orquestación de viajes pueda identificar el evento. El sistema que empuja el evento no debe generar un ID, debe utilizar el disponible en la previsualización de carga útil. Consulte [](../event/previewing-the-payload.md).
+   >El **[!UICONTROL eventID]** campo se agrega automáticamente en la lista de los campos seleccionados para que [!DNL Journey Orchestration] pueda identificar el evento. El sistema que empuja el evento no debe generar un ID, debe utilizar el disponible en la previsualización de carga útil. Consulte [](../event/previewing-the-payload.md).
 
 1. Cuando haya terminado de seleccionar los campos necesarios, haga clic en **[!UICONTROL Save]** o presione **[!UICONTROL Enter]**.
 
