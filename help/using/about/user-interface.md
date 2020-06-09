@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 817df02d78c4b9d213895cd7201ab1c2c883b188
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 96%
+source-wordcount: '1007'
+ht-degree: 88%
 
 ---
 
@@ -21,17 +21,17 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->Para sacar el máximo partido a Journey Orchestration, recomendamos utilizar Chrome como navegador de Internet. La interfaz se muestra en el idioma definido en IMS. Si el idioma de IMS no es compatible con la orquestación de viajes, la interfaz se muestra en inglés.
+>To get the best out of [!DNL Journey Orchestration], we recommend using Chrome as your Internet browser. La interfaz se muestra en el idioma definido en IMS. Si el idioma de IMS no es compatible con [!DNL Journey Orchestration], la interfaz se muestra en inglés.
 >
 >Esta documentación se actualiza con frecuencia para reflejar los cambios recientes en el producto. Sin embargo, algunas capturas de pantalla pueden diferir ligeramente de la interfaz del producto.
 
-## Acceso a Journey Orchestration{#accessing_journey_orchestration}
+## Acceso [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-Para acceder a la interfaz de Journey Orchestration, haga clic en el icono **[!UICONTROL App Selector]**, en la parte superior derecha. A continuación, haga clic **[!UICONTROL Journey Orchestration]**, en la parte derecha, debajo de Experience Platform.
+To access the [!DNL Journey Orchestration]&#39;s interface, click the **[!UICONTROL App Selector]** icon, in the top right. A continuación, haga clic **[!UICONTROL Journey Orchestration]**, en la parte derecha, debajo de Experience Platform.
 
 ![](../assets/journey1.png)
 
-También puede acceder a Journey Orchestration desde la página de inicio de Experience Cloud, en **[!UICONTROL Quick access]**.
+You can also access [!DNL Journey Orchestration] from the Experience Cloud home page, in the **[!UICONTROL Quick access]** section.
 
 ![](../assets/journey1bis.png)
 
@@ -43,11 +43,11 @@ También puede acceder a Journey Orchestration desde la página de inicio de Exp
 >abstract="La lista de recorridos le permite realizar vistas de todos sus recorridos a la vez, ver su estado y realizar acciones básicas. Puede duplicar, detener o eliminar recorridos. Según el recorrido, es posible que algunas acciones no estén disponibles. Por ejemplo, no puede eliminar ni reiniciar un viaje que esté cerrado. Puede crear una nueva versión a partir de ella o duplicándola. También puede utilizar la barra de búsqueda para buscar un recorrido."
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="Ver vídeo de demostración"
 
-Los menús superiores le permiten navegar por las diferentes funcionalidades de Journey Orchestration: **[!UICONTROL Home]**(los recorridos),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
+The top menus allow you to navigate through the different functionalities of [!DNL Journey Orchestration]: **[!UICONTROL Home]**(the journeys),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
 
 ![](../assets/journey2.png)
 
-Haga clic en ![](../assets/icon-context.png), en la esquina superior derecha de la pantalla para mostrar la ayuda contextual. Está disponible en las distintas pantallas de lista de Journey Orchestration (recorridos, eventos, acciones y fuentes de datos). Esto le permite realizar una vista rápida de la funcionalidad actual y acceder a los artículos y vídeos relacionados.
+Haga clic en ![](../assets/icon-context.png), en la esquina superior derecha de la pantalla para mostrar la ayuda contextual. It is available across the different [!DNL Journey Orchestration] list screens (journeys, events, actions and data sources). Esto le permite realizar una vista rápida de la funcionalidad actual y acceder a los artículos y vídeos relacionados.
 
 ![](../assets/journey2bis.png)
 
@@ -93,7 +93,7 @@ Si hay un nombre descriptivo disponible, el campo se mostrará como `<friendly-n
 
 ## Uso de los distintos métodos abreviados{#section_ksq_zr1_ffb}
 
-Estos son los diferentes métodos abreviados disponibles en la interfaz de Journey Orchestration.
+Here are the different shortcuts available in the [!DNL Journey Orchestration]&#39;s interface.
 
 _En lista de recorridos, acciones, fuentes de datos o eventos:_
 
