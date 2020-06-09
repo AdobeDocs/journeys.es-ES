@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 20ffc07586ba34d94b2b2369b23be867d8488363
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Los valores autorizados están entre 1 y 30 segundos.
 
 Le recomendamos que defina un valor muy corto **[!UICONTROL Timeout and error]** si el viaje depende del tiempo (por ejemplo: reaccionar a la ubicación en tiempo real de una persona) porque no puede retrasar la acción durante más de unos segundos. Si su viaje es menos sensible al tiempo, puede utilizar un valor más largo para dar más tiempo al sistema llamado para enviar una respuesta válida.
 
-La orquestación de viajes también utiliza un tiempo de espera global. Consulte la [siguiente sección](#global_timeout).
+[!DNL Journey Orchestration] también utiliza un tiempo de espera global. Consulte la [siguiente sección](#global_timeout).
 
 ## Tiempo de espera del viaje global {#global_timeout}
 
@@ -50,7 +50,7 @@ Además del [tiempo de espera](#timeout_and_error) utilizado en las actividades 
 
 >[!NOTE]
 >
->La orquestación de viajes no reacciona directamente a las solicitudes de exclusión, acceso o eliminación de privacidad. Sin embargo, el tiempo de espera global garantiza que los individuos nunca permanezcan más de 30 días en ningún viaje.
+>[!DNL Journey Orchestration] no reacciona directamente a las solicitudes de exclusión, acceso o eliminación de privacidad. Sin embargo, el tiempo de espera global garantiza que los individuos nunca permanezcan más de 30 días en ningún viaje.
 
 Debido al tiempo de espera de viaje de 30 días, cuando no se permite la reentrada del viaje, no podemos asegurarnos de que el bloqueo de reentrada funcione más de 30 días. De hecho, al retirar toda la información sobre las personas que entraron 30 días después de su entrada, no podemos conocer a la persona que entró anteriormente, hace más de 30 días.
 
