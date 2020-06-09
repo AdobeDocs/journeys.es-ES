@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7bdba1be0b5fe95417038c0d6788e76b155104aa
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1339'
 ht-degree: 4%
 
 ---
@@ -65,7 +65,7 @@ El **lienzo** es la zona central del diseñador de viajes. Es en esta zona donde
 
 El panel **de configuración de la** actividad aparece al hacer clic en una actividad de la paleta. Rellene los campos obligatorios. Haga clic en el **[!UICONTROL Delete]** icono para eliminar la actividad. Haga clic en **[!UICONTROL Cancel]** para cancelar las modificaciones o **[!UICONTROL Ok]** confirmar. Para eliminar actividades, también puede seleccionar una actividad (o varias) y pulsar la tecla de retroceso. Al pulsar la tecla de escape se cerrará el panel de configuración de la actividad.
 
-En el lienzo, las actividades de acción y evento se representan con un icono con el nombre del evento o la acción que se muestra debajo. En el panel de configuración de actividad, puede utilizar el **[!UICONTROL Label]** campo para agregar un sufijo al nombre de la actividad. Estas etiquetas le ayudarán a contextualizar el uso de eventos y acciones, especialmente cuando utiliza el mismo evento o acción varias veces en el viaje. También podrá ver las etiquetas agregadas en el sistema de informes de orquestación de viajes.
+En el lienzo, las actividades de acción y evento se representan con un icono con el nombre del evento o la acción que se muestra debajo. En el panel de configuración de actividad, puede utilizar el **[!UICONTROL Label]** campo para agregar un sufijo al nombre de la actividad. Estas etiquetas le ayudarán a contextualizar el uso de eventos y acciones, especialmente cuando utiliza el mismo evento o acción varias veces en el viaje. También podrá ver las etiquetas agregadas en el [!DNL Journey Orchestration] sistema de informes.
 
 ![](../assets/journey59bis.png)
 
