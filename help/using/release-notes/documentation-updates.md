@@ -11,18 +11,18 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3b19e771b6fa3a679a36398c12417b190ee7ff18
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 77%
+source-wordcount: '494'
+ht-degree: 75%
 
 ---
 
 
 # Actualizaciones de documentación
 
-Esta página lista todas las actualizaciones de documentación de Journey Orchestration.
-También puede consultar las [Notas de la versión](../release-notes/release-notes.md) de Journey Orchestration.
+Esta página lista todas las actualizaciones de documentación de [!DNL Journey Orchestration].
+You can also consult the [!DNL Journey Orchestration] [Release Notes](../release-notes/release-notes.md).
 
 ## June 2020 {#june-2020}
 
@@ -34,7 +34,7 @@ También puede consultar las [Notas de la versión](../release-notes/release-not
 ## de abril de 2020 {#april-2020}
 
 * Se ha Añadido una nueva sección sobre la definición de esquema de evento de experiencias para ayudar a los usuarios a configurar su primer evento. [Más información](../event/experience-event-schema.md)
-* La documentación de la página de inicio de orquestación de viajes se ha actualizado con vínculos útiles adicionales. [Más información](../../journey-orchestration-home.md)
+* La página de inicio de [!DNL Journey Orchestration] documentación se ha actualizado con vínculos útiles adicionales. [Más información](../../journey-orchestration-home.md)
 
 ## Marzo de 2020 {#march-2020}
 
