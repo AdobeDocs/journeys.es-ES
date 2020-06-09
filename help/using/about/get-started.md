@@ -8,20 +8,20 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: ht
-source-git-commit: fed6fd8d8ee497ec47727f7297dc72f319fabe27
-workflow-type: ht
-source-wordcount: '296'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '290'
+ht-degree: 93%
 
 ---
 
 
 # Introducción{#concept_y4b_4qt_52b}
 
-En Journey Orchestration, hay dos tipos de usuarios, cada uno de los cuales realiza tareas específicas: el **usuario técnico** y el **usuario empresarial**. El acceso de los usuarios se administra mediante perfiles y derechos del producto. Consulte [](../about/access-management.md) para obtener información sobre cómo configurar el acceso de los usuarios.
+In [!DNL Journey Orchestration], there are two types of users, each of them performing specific tasks: the **technical user** and the **business user**. El acceso de los usuarios se administra mediante perfiles y derechos del producto. Consulte [](../about/access-management.md) para obtener información sobre cómo configurar el acceso de los usuarios.
 
-Estos son los pasos principales para configurar y utilizar Journey Orchestration:
+Estos son los pasos principales para configurar y utilizar [!DNL Journey Orchestration]:
 
 1. **Configurar un evento**
 
@@ -41,7 +41,7 @@ Estos son los pasos principales para configurar y utilizar Journey Orchestration
 
 1. **Configuración de una acción**
 
-   Si usa un sistema de terceros para enviar mensajes, debe configurar su conexión con Journey Orchestration. Consulte [](../action/about-custom-action-configuration.md).
+   Si usa un sistema de terceros para enviar mensajes, debe configurar su conexión con [!DNL Journey Orchestration]. Consulte [](../action/about-custom-action-configuration.md).
 
    Si usa Adobe Campaign Standard para enviar mensajes, debe configurar la acción integrada. Consulte [](../action/working-with-adobe-campaign.md).
 
