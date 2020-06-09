@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 796eff7751941720fc069dd8c7bed5c1f0e4a8fe
+source-git-commit: a4e2e5737e5d22775e45038f296be2131ac9f54f
 workflow-type: tm+mt
-source-wordcount: '1080'
-ht-degree: 72%
+source-wordcount: '1094'
+ht-degree: 71%
 
 ---
 
@@ -46,8 +46,8 @@ También puede consultar las [Actualizaciones de documentación](../release-note
 <li><p>En el editor de expresiones sencillo, los segmentos de plataforma ahora se enumeran directamente en el árbol de navegación para permitir una configuración sencilla de condiciones como "¿Pertenece esta persona al segmento A?". <a href="../segment/using-a-segment.md">Más información</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>La orquestación de viajes ahora pasa automáticamente, a la plataforma de datos de Adobe, los pasos que siguen las personas en los viajes. Esto incluye los posibles errores encontrados. Esta información puede utilizarse con fines de análisis o segmentación. <a href="../building-journeys/sharing-overview.md">Más información</a></p>
-<img src="../assets/rn-sharing.png"/>
+<li><p>La orquestación de viajes ahora pasa automáticamente, a la plataforma de datos de Adobe, los pasos que se ejecutan en los viajes. Esto incluye los posibles errores encontrados. Esta información se puede utilizar para lograr sistemas de informes y solucionar problemas mediante la ejecución de consultas en los eventos de la Etapa del Viaje para un viaje determinado o para todos los viajes. <a href="../building-journeys/sharing-overview.md">Más información</a></p>
+<img src="../assets/rn-journeystepevent.png"/>
 </li>
 <li><p>La orquestación de viajes ahora se puede conectar al Simulador para pruebas de la plataforma de producción y no de producción. Disponibilidad efectiva: 15 de junio de 2020. <a href="../about/access-management.md#sandboxes">Más información</a></p>
 </li>
