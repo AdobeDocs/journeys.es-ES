@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 10402a774bda66629f30869102d5e6ceca267535
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -23,35 +23,35 @@ ht-degree: 0%
 
 Esta mezcla se compartirá con los eventos travelStepEvent y travelStepProfileEvent.
 
-Estos son los campos comunes de XDM que la orquestación de viajes envía a la plataforma de datos de Adobe. Los campos comunes se enviarán para cada paso que se procese en un viaje. Se utilizan campos más específicos para acciones y enriquecimientos personalizados.
+Estos son los campos XDM comunes que [!DNL Journey Orchestration] se envían a la plataforma de datos de Adobe. Los campos comunes se enviarán para cada paso que se procese en un viaje. Se utilizan campos más específicos para acciones y enriquecimientos personalizados.
 
 Algunos de estos campos solo están disponibles en patrones de procesamiento específicos (ejecución de acciones, captura de datos, etc.) para limitar el tamaño de los eventos.
 
 ## entrada
 
-Indica si el usuario ha entrado en el viaje. Si no está presente, suponemos que el valor es false.
+Indica si el usuario ha entrado en el viaje. If not present, we assume that the value is false.
 
 Tipo: booleano
 
-Valores: true/false
+Values: true/false
 
 ## reingreso
 
 Indica si el usuario ha vuelto a entrar en el viaje con la misma instancia. Si no está presente, suponemos que el valor es false.
 
-Tipo: booleano
+Type: boolean
 
 Valores: true/false
 
 ## instanceEnded
 
-Indica si la instancia ha finalizado (correctamente o no).
+Indicates if the instance has ended (successfully or not).
 
-Tipo: booleano
+Type: boolean
 
 ## eventID
 
-ID de Evento en proceso para el procesamiento de pasos. Si el evento es externo, el valor es eventId. Si el evento es interno, el valor es el eventId interno (como scheduleNotificationReceived, executeAction, etc.).
+Event id in processing, for the step processing. Si el evento es externo, el valor es eventId. Si el evento es interno, el valor es el eventId interno (como scheduleNotificationReceived, executeAction, etc.).
 
 Tipo: string
 
@@ -69,39 +69,39 @@ Tipo: string
 
 ## stepName
 
-Name of the step that is currently being processed.
+Nombre del paso que se está procesando.
 
 Tipo: string
 
 ## stepType
 
-Type of the step.
+Tipo del paso.
 
 Tipo: string
 
 Valores posibles:
 
-* Condition
+* Condición
 * Acción
 * Planificador
 * Temporizador
 
 ## stepStatus
 
-Status of the step, representing the status of the step, when its processing has been done (and the step event fired).
+Estado del paso, que representa el estado del paso, cuando se ha procesado (y se ha activado el evento de paso).
 
 Tipo: string
 
 El estado puede ser:
 
 * finalizó: el paso no tiene transición y su procesamiento ha finalizado correctamente.
-* error: the step processing has raised an error.
+* error: el procesamiento de pasos ha generado un error.
 * transiciones: el paso está esperando un evento para la transición a otro paso.
 * capped: el paso ha fallado en un error de límite, generado durante una acción o enriquecimiento.
 * timedout: el paso falló en un error de tiempo de espera, generado durante una acción o enriquecimiento.
 * instanceTimedout: el paso ha detenido su procesamiento porque la instancia ha alcanzado su tiempo de espera.
 
-## travelID
+## journeyID
 
 ID del viaje.
 
@@ -109,13 +109,13 @@ Tipo: string
 
 ## travelVersionID
 
-ID de la versión del viaje. Esta identificación representa la referencia de identidad del viaje, en el caso de la función travelStepEvent.
+ID de la versión del viaje. This id represents the identity reference to the journey, in the case of the journeyStepEvent.
 
 Tipo: string
 
-## travelVersionName
+## journeyVersionName
 
-Nombre de la versión del viaje.
+Name of the journey version.
 
 Tipo: string
 
@@ -139,19 +139,19 @@ Tipo: string
 
 ## parentStepID
 
-Step ID of the parent of the current processed step in the instance.
+ID de paso del elemento principal del paso procesado actual en la instancia.
 
 Tipo: string
 
 ## parentStepName
 
-Step name of the parent of the current step.
+Nombre del paso principal del paso actual.
 
 Tipo: string
 
 ## parentTransitionID
 
-Id of the transition which has brought the instance to the processed step.
+Id. de la transición que ha llevado la instancia al paso procesado.
 
 Tipo: string
 
@@ -207,6 +207,6 @@ Tipo: string
 
 ## batchUnitaryBranchID
 
-if the instance has been triggered from a batch instance, unitary branch ID.
+si la instancia se ha activado desde una instancia de lote, ID de rama unitaria.
 
 Tipo: string
