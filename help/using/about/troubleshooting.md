@@ -9,7 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '1004'
+ht-degree: 0%
 
 ---
 
@@ -46,11 +49,11 @@ El punto de partida de un viaje es siempre un evento. Puede realizar pruebas con
 
 Puede comprobar si la llamada de API que envía a través de estas herramientas se envía correctamente o no. Si vuelve a recibir un error, significa que la llamada tiene un problema. Vuelva a comprobar la carga útil, el encabezado (y especialmente el ID de organización) y la dirección URL de destino. Puede preguntar a su administrador cuál es la dirección URL correcta para visitar.
 
-Los Eventos no se insertan directamente de la fuente a la orquestación de viajes. De hecho, la orquestación de viajes se basa en las API de transmisión de flujo continuo de la plataforma de experiencia. Como resultado, en caso de problemas relacionados con el evento, puede consultar esta [página](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html) para la solución de problemas de las API de inserción de flujo continuo.
+Los Eventos no se insertan directamente de la fuente a [!DNL Journey Orchestration]. De hecho, [!DNL Journey Orchestration] se basa en las API de inserción de flujo continuo de la plataforma de experiencia. Como resultado, en caso de problemas relacionados con el evento, puede consultar esta [página](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html) para la solución de problemas de las API de inserción de flujo continuo.
 
 ## Comprobando si las personas entran en el viaje{#section_x4v_zzs_dgb}
 
-El sistema de informes de orquestación de viajes mide las entradas de la gente en un viaje en tiempo real.
+[!DNL Journey Orchestration] El sistema de informes mide las entradas de la gente en un viaje en tiempo real.
 
 Si se consigue enviar el evento pero no se ve ninguna entrada en el trayecto, hay un problema entre el envío del evento y la recepción del evento en el trayecto.
 
@@ -70,7 +73,7 @@ A continuación se indican algunas cosas que el administrador debe comprobar:
 
 ## Comprobar cómo navegan las personas a través del viaje{#section_l5y_yzs_dgb}
 
-El sistema de informes de orquestación de viajes mide el progreso de los individuos dentro de un viaje. Es fácil identificar dónde y por qué detuvieron a una persona.
+[!DNL Journey Orchestration] El sistema de informes mide el progreso de las personas dentro de un viaje. Es fácil identificar dónde y por qué detuvieron a una persona.
 
 A continuación se presentan algunas cosas para comprobar:
 
