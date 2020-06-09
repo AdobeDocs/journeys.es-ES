@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b238c1851ae640b3146b8457931e1c416387c76a
+source-git-commit: 2f0d235ce1808f632b731fc2077b10a31a178e4b
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,6 @@ ht-degree: 0%
 
 
 # Uso de segmentos en condiciones {#using-a-segment}
-
->La ficha Segmento y la creación/modificación de segmentos en Orquestación de Viaje estarán disponibles el 15 de junio.
 
 En esta sección se explica cómo utilizar un segmento en una condición de viaje.
 Para aprender a utilizar un evento **de calificación** de segmentos en su viaje, consulte actividades [de](../building-journeys/event-activities.md#segment-qualification)Eventos.
