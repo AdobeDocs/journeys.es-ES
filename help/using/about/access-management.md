@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 2a53413c79f0213434f9ca6a7847bd7f20fbf41e
+source-git-commit: a3114ffe7c087645e97caf3a77e7649d922945eb
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '794'
 ht-degree: 3%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 3%
 
 ## Acerca de la administración de acceso {#about-access-management}
 
-La orquestación de viajes permite asignar un conjunto de derechos y entornos limitados a los usuarios para definir a qué parte de la interfaz pueden acceder.
+[!DNL Journey Orchestration] permite asignar un conjunto de derechos a los usuarios para definir a qué parte de la interfaz pueden acceder.
 
 Pueden ser administrados por administradores que tengan acceso a la consola de administración. Para obtener más información sobre la Consola de administración, consulte esta [documentación](https://helpx.adobe.com/es/enterprise/managing/user-guide.html).
 
@@ -56,19 +56,19 @@ Los usuarios siempre deben estar vinculados a un perfil de producto que le permi
 * **[!UICONTROL Publish journeys]**
 * **[!UICONTROL Manage reports]**
 
-A continuación se puede encontrar la compatibilidad entre los derechos y las diferentes funcionalidades de la Orquestación de Viaje.
+A continuación se puede encontrar la compatibilidad entre derechos y diferentes funcionalidades [!DNL Journey Orchestration]de.
 
 ![](../assets/journey_permission.png)
 
 ## Creación de un perfil de producto {#create-product-profile}
 
-La orquestación de viajes le permite crear sus propios perfiles de productos y asignar un conjunto de derechos y entornos limitados a los usuarios. Con los perfiles del producto, puede autorizar o denegar el acceso a determinadas funcionalidades u objetos de la interfaz.
+[!DNL Journey Orchestration] le permite crear sus propios perfiles de productos y asignar un conjunto de derechos y entornos limitados a los usuarios. Con los perfiles del producto, puede autorizar o denegar el acceso a determinadas funcionalidades u objetos de la interfaz.
 
 Para obtener más información sobre cómo crear y administrar entornos limitados, consulte la documentación [de](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html)Adobe Experience Platform.
 
 Para crear un perfil de producto y asignar un conjunto de derechos y entornos limitados:
 
-1. En la Consola de administración, seleccione **[!UICONTROL Journey orchestration]**. From the **[!UICONTROL Product profile]** tab, click **[!UICONTROL New Profile]**.
+1. En la Consola de administración, seleccione **[!UICONTROL Journey Orchestration]**. From the **[!UICONTROL Product profile]** tab, click **[!UICONTROL New Profile]**.
 
 1. Añada un **[!UICONTROL Profile Name]** y **[!UICONTROL Description]** para el nuevo perfil de productos. Si desea que el perfil **[!UICONTROL Display name]** sea diferente, desmarque **[!UICONTROL Same as Profile Name]** y escriba su **[!UICONTROL Display name]**.
 
@@ -86,26 +86,26 @@ Para crear un perfil de producto y asignar un conjunto de derechos y entornos li
 
    >[!NOTE]
    >
-   >La orquestación de viajes ahora se puede conectar al Simulador para pruebas de la plataforma de producción y no de producción. Disponibilidad efectiva: 15 de junio de 2020.
+   >El Simulador para pruebas de plataforma es una función beta.
    <br>Para obtener más información sobre los entornos limitados, consulte esta [sección](../about/access-management.md#sandboxes).
 
 1. Si es necesario, haga clic en **[!UICONTROL Included Permission Items]** el icono X situado junto a para eliminar los permisos del perfil del producto.
 
 1. Desde la categoría de permisos, lleve a cabo los mismos pasos que se mencionan arriba para agregar derechos al perfil del producto. **[!UICONTROL Authoring]**
-   <br>Para obtener más información sobre los derechos y la compatibilidad entre los derechos y las diferentes funcionalidades de la Orquestación de Viaje, consulte esta [sección](../about/access-management.md#about-access-management).
+   <br>Para obtener más información sobre los derechos y la compatibilidad entre los derechos y las diferentes funciones [!DNL Journey Orchestration]de los usuarios, consulte esta [sección](../about/access-management.md#about-access-management).
 
 1. Cuando termine, haga clic en **[!UICONTROL Save]**.
 
-El perfil del producto se ha creado y configurado. Los usuarios vinculados a este perfil ahora pueden conectarse a la orquestación de Journey.
+El perfil del producto se ha creado y configurado. Los usuarios vinculados a este perfil ahora pueden conectarse a [!DNL Journey Orchestration].
 
 ## Asignación de un perfil de producto {#assigning-product-profile}
 
 Los perfiles de producto se asignan a un conjunto de usuarios que comparten los mismos derechos dentro de la organización.
 La lista de todos los perfiles de productos listos para usar con derechos asignados se encuentra en esta sección.
 
-Para asignar un perfil de producto para que un usuario tenga acceso a la orquestación de viajes:
+Para asignar un perfil de producto para que un usuario tenga acceso [!DNL Journey Orchestration]:
 
-1. En la Consola de administración, seleccione **[!UICONTROL Journey orchestration]**.
+1. En la Consola de administración, seleccione **[!UICONTROL Journey Orchestration]**.
 
    ![](../assets/user_management.png)
 
@@ -123,18 +123,18 @@ Para asignar un perfil de producto para que un usuario tenga acceso a la orquest
 
    ![](../assets/user_management_4.png)
 
-El usuario debe recibir un correo electrónico que le redirija a la instancia de orquestación de viajes.
+El usuario debe recibir un correo electrónico que le redirija a su [!DNL Journey Orchestration] instancia.
 
 ## Uso de entornos limitados {#sandboxes}
 
 >[!NOTE]
 >
->La orquestación de viajes ahora se puede conectar al Simulador para pruebas de la plataforma de producción y no de producción. Disponibilidad efectiva: 15 de junio de 2020.
+>El Simulador para pruebas de plataforma es una función beta.
 
-La orquestación de viajes le permite dividir la instancia en entornos virtuales separados llamados entornos limitados.
+[!DNL Journey Orchestration] le permite particionar la instancia en entornos virtuales separados, llamados entornos limitados.
 Los Simuladores para pruebas se asignan mediante perfiles de producto en la Consola de administración. Para obtener más información sobre cómo asignar entornos limitados, consulte esta [sección](../about/access-management.md#create-product-profile).
 
-La orquestación de viajes refleja los entornos limitados de plataforma que se crearon para una organización determinada.
+[!DNL Journey Orchestration] refleja los entornos limitados de la plataforma que se crearon para una organización determinada.
 Los entornos limitados de plataforma se pueden crear o restablecer desde la instancia de Adobe Experience Platform. Consulte la guía [del usuario del](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html) Simulador para pruebas para conocer los pasos detallados.
 
 Encontrará el control del conmutador de simulador de pruebas en la parte superior izquierda de la pantalla. Para cambiar de un simulador de pruebas a otro, haga clic en el simulador de pruebas activo y seleccione otro simulador de pruebas en la lista desplegable.
