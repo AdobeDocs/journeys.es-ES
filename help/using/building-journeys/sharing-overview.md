@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4e850db61aa55c9bff448a0280f79810928cb6ec
+source-git-commit: 96c84047952eed8835879b1375bce6326c55fd35
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 0%
@@ -35,9 +35,9 @@ La lista de los campos XDM que se pasan es exhaustiva. Algunos contienen código
 >
 >![](../assets/sharing4.png)
 
->[!]
+>[!NOTE]
 >
->Los viajes también tienen la capacidad de enviar el evento de Perfil Journey Step a la plataforma o no.  Viajes mantiene una tecnología para decidir esto.
+>Los viajes también tienen la capacidad de enviar el evento de Perfil Paso de Viaje a la Plataforma o no. Viajes mantiene una tecnología para decidir esto.
 >
 >![](../assets/techtoggle.png)
 
