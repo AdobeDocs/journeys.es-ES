@@ -9,9 +9,9 @@ topic-tags: journeys
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: 58495028d41d1d18739a8ea9c7f0622a0cf6ca4d
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1084'
 ht-degree: 2%
 
 ---
@@ -30,11 +30,13 @@ Para obtener más información sobre la acción o la configuración de orígenes
 
 ## Recursos
 
-La API de [!DNL Journey Orchestration] límite se describe en un archivo Swagger disponible [aquí](https://adobedocs.github.io/JourneyAPI/docs/).
+>[!NOTE]
+>
+>La API de [!DNL Journey Orchestration] límite se describe en un archivo Swagger disponible [aquí](https://adobedocs.github.io/JourneyAPI/docs/).
 
 Para utilizar esta API con su [!DNL Journey Orchestration] instancia, debe utilizar la consola de AdobeIO. Puede realizar inicios siguiendo esta [Introducción a Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) y, a continuación, utilizar las secciones de esta página.
 
-Para probar y preparar la integración, hay una colección Postman disponible [aquí](https://github.com/AdobeDocs/JourneyAPI/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
+Para probar y preparar la integración, hay una colección Postman disponible [aquí](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
 ## Autentificación
 
@@ -44,7 +46,7 @@ Para probar y preparar la integración, hay una colección Postman disponible [a
 
 >[!CAUTION]
 >
->Para administrar certificados en la E/S de Adobe, asegúrese de que tiene derechos de administrador <b></b> del sistema en la organización o una cuenta <a href="https://helpx.adobe.com/enterprise/using/manage-developers.html">de</a> desarrollador en la consola de administración.
+>Para administrar certificados en la E/S de Adobe, asegúrese de que tiene derechos de administrador <b></b> del sistema en la organización o una cuenta [de](https://helpx.adobe.com/enterprise/using/manage-developers.html) desarrollador en la consola de administración.
 
 1. **Compruebe que dispone de un certificado** digital o cree uno si es necesario. Las claves pública y privada que se proporcionan con el certificado son necesarias en los pasos siguientes.
 1. **Cree una nueva integración en[!DNL Journey Orchestration]Servicio** en la E/S de Adobe y configúrela. Se necesita el acceso al perfil del producto para [!DNL Journey Orchestration] y Adobe Experience Platform. Se generarán las credenciales (clave de API, secreto de cliente...).
@@ -166,7 +168,7 @@ La advertencia potencial es:
 
 En esta sección, encontrará los cinco casos de uso principales que puede realizar para administrar la configuración de límite en [!DNL Journey Orchestration].
 
-Para ayudarle en las pruebas y la configuración, [aquí](https://github.com/AdobeDocs/JourneyAPI/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)encontrará una colección Postman.
+Para ayudarle en las pruebas y la configuración, [aquí](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)encontrará una colección Postman.
 
 Esta colección Postman se ha configurado para compartir la colección Variable Postman generada a través de las integraciones __[de la consola de](https://console.adobe.io/integrations)Adobe I/O > Pruébelo > Descargar para Postman__, que genera un archivo Entorno Postman con los valores de integraciones seleccionados.
 
@@ -174,7 +176,7 @@ Una vez descargado y cargado en Postman, debe agregar dos variables: `{JO_HOST}`
 * `{JO_HOST}` :: [!DNL Journey Orchestration] URL de puerta de enlace
 * `{BASE_PATH}` :: punto de entrada para la API. El valor es &#39;/authoring&#39;
 
-
+En la siguiente sección, encontrará la lista ordenada de las llamadas al resto de API para realizar el caso de uso.
 
 Caso de uso n°1: **Creación e implementación de una nueva configuración de límite**
 
