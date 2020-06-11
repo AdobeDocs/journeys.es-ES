@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 83e0476b8efd779256549788ff73f32531e08934
+source-git-commit: be21573973600758cbf13bd25bc3b44ab4cd08ca
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1090'
 ht-degree: 1%
 
 ---
@@ -81,7 +81,7 @@ Cuando selecciona un perfil de prueba diferente en la pantalla de configuración
 
 Al abrir un viaje en la prueba, la ruta mostrada corresponde a la última prueba ejecutada.
 
-El flujo visual solo se muestra cuando el evento enviado al viaje se define en la pantalla de configuración del evento. Si el evento se define externamente, por ejemplo, con Postman, no se muestra el flujo visual.
+El flujo visual funciona tanto si el evento se activa a través de la interfaz como externamente (por ejemplo, mediante Postman).
 
 ## Visualización de los registros {#viewing_logs}
 
