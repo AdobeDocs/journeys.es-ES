@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 96c84047952eed8835879b1375bce6326c55fd35
+source-git-commit: c4335cf1f94172fabed1099d3772bc539adb02ef
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -31,15 +31,7 @@ La lista de los campos XDM que se pasan es exhaustiva. Algunos contienen código
 
 >[!CAUTION]
 >
->De forma predeterminada, los conjuntos de datos no están activados para el servicio de perfil en tiempo real. Si desea un conjunto de datos en el servicio de perfil, debe activarlo (alternancia de **Perfil** ). Tenga en cuenta que un gran volumen de eventos tomará almacenamientos en su cuota. Proceda con cuidado antes de activar un conjunto de datos para perfiles
->
->![](../assets/sharing4.png)
-
->[!NOTE]
->
->Los viajes también tienen la capacidad de enviar el evento de Perfil Paso de Viaje a la Plataforma o no. Viajes mantiene una tecnología para decidir esto.
->
->![](../assets/techtoggle.png)
+>Los conjuntos de datos no se pueden activar para el servicio de perfil en tiempo real. Asegúrese de que la alternancia de **Perfil** está desactivada
 
 Los viajes envían datos a medida que se producen, de forma continua. Puede consulta de estos datos mediante el servicio de Consulta. Puede conectarse a Análisis del viaje del cliente u otras herramientas de BI para vista de datos relacionados con estos pasos.
 
