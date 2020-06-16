@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: c6e7c27865eb34961f8901c9bde2c09527f67f15
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '820'
 ht-degree: 4%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 4%
 
 # Uso de acciones de Adobe Campaign {#using_campaign_action}
 
-Si tiene Adobe Campaign Standard, están disponibles las siguientes actividades de acciones predeterminadas: **[!UICONTROL Email]**, **[!UICONTROL Push]** y **[!UICONTROL SMS]**.
+Si tiene Adobes Campaign Standard, se encuentran disponibles las siguientes actividades de acciones predeterminadas: **[!UICONTROL Email]**, **[!UICONTROL Push]** y **[!UICONTROL SMS]**.
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ Puede utilizar una plantilla de mensajería transaccional de evento (también co
 
 >[!NOTE]
 >
->Cuando enviamos mensajes transaccionales en tiempo real (rtEvent) o cuando enrutamos mensajes con un sistema de terceros gracias a una acción personalizada, se requiere una configuración específica para la fatiga, la lista negra o la administración baja. Por ejemplo, si un atributo &quot;blacklist&quot; o &quot;unsubscription&quot; se almacena en la Plataforma o en un sistema de terceros, se deberá agregar una condición antes de que el mensaje se envíe para comprobar esta condición.
+>Cuando enviamos mensajes transaccionales en tiempo real (rtEvent) o cuando enrutamos mensajes con un sistema de terceros gracias a una acción personalizada, se requiere una configuración específica para la fatiga, la lista de bloques o la administración baja. Por ejemplo, si se almacena un atributo de &quot;cancelación de suscripción&quot; en el Platform o en un sistema de terceros, deberá agregarse una condición antes de que se envíe el mensaje para comprobar esta condición.
 
 Cuando selecciona una plantilla, todos los campos esperados en la carga útil del mensaje se muestran en el panel de configuración de actividad debajo **[!UICONTROL Address]** y **[!UICONTROL Personalization Data]**. Debe asignar cada uno de estos campos al campo que desee utilizar, ya sea desde el evento o desde el origen de datos. También puede utilizar el editor de expresiones avanzado para pasar un valor manualmente, realizar una manipulación de datos en la información recuperada (por ejemplo, convertir una cadena en mayúsculas) o utilizar funciones como &quot;if, then, else&quot;. Consulte [](../expression/expressionadvanced.md).
 
@@ -59,7 +59,7 @@ Puede definir fácilmente dónde recuperar el **[!UICONTROL Address]** o el **[!
 
 >[!NOTE]
 >
->Esta categoría solo está visible si selecciona un mensaje transaccional &quot;evento&quot;. Para los mensajes &quot;perfil&quot;, el sistema recupera automáticamente el **[!UICONTROL Address]** campo de Adobe Campaign Standard.
+>Esta categoría solo está visible si selecciona un mensaje transaccional &quot;evento&quot;. Para los mensajes &quot;perfil&quot;, el sistema recupera automáticamente el **[!UICONTROL Address]** campo del Adobe Campaign Standard.
 
 Estos son los campos que el sistema necesita para saber dónde enviar el mensaje. Para una plantilla de correo electrónico, es la dirección de correo electrónico. Para un SMS, es el número de teléfono móvil.
 
@@ -89,7 +89,7 @@ Hay dos categorías disponibles: **[!UICONTROL Target]** y **[!UICONTROL Persona
 
 >[!NOTE]
 >
->Esta categoría solo está visible si selecciona un mensaje de evento. Para los mensajes de perfil, el sistema recupera automáticamente los **[!UICONTROL Target]** campos mediante la conciliación realizada por Adobe Campaign Standard.
+>Esta categoría solo está visible si selecciona un mensaje de evento. En el caso de los mensajes de perfil, el sistema recupera automáticamente los **[!UICONTROL Target]** campos mediante la conciliación realizada por Adobe Campaign Standard.
 
 En esta sección, debe definir el **[!UICONTROL Push platform]**. La lista desplegable le permite seleccionar **[!UICONTROL Apple Push Notification Server]** (iOS) o **[!UICONTROL Firebase Cloud Messaging]** (Android). También puede seleccionar un campo específico de un evento o un origen de datos, o definir una expresión avanzada.
 
@@ -105,4 +105,4 @@ También debe definir el **[!UICONTROL Registration Token]**. La expresión depe
 >
 >No se puede pasar una colección en los datos de personalización. Si la notificación push transaccional espera colecciones, no funcionará. Tenga en cuenta también que los datos de personalización tienen un formato esperado (ejemplo: cadena, decimal, etc.). Debe tener cuidado de respetar estos formatos esperados.
 
-Estos son los campos esperados por la plantilla de transacción utilizada en el mensaje de Adobe Campaign Standard. Estos campos se pueden utilizar para personalizar el mensaje, aplicar formato condicional o elegir una variante de mensaje específica.
+Estos son los campos esperados por la plantilla transaccional utilizada en el mensaje de Adobe Campaign Standard. Estos campos se pueden utilizar para personalizar el mensaje, aplicar formato condicional o elegir una variante de mensaje específica.
