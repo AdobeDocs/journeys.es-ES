@@ -9,10 +9,10 @@ topic-tags: journeys
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 58495028d41d1d18739a8ea9c7f0622a0cf6ca4d
+source-git-commit: ca4dc447d8ae4ee18e50d7e9a18faf3fa47ae223
 workflow-type: tm+mt
-source-wordcount: '1084'
-ht-degree: 2%
+source-wordcount: '1114'
+ht-degree: 1%
 
 ---
 
@@ -34,7 +34,7 @@ Para obtener más información sobre la acción o la configuración de orígenes
 >
 >La API de [!DNL Journey Orchestration] límite se describe en un archivo Swagger disponible [aquí](https://adobedocs.github.io/JourneyAPI/docs/).
 
-Para utilizar esta API con su [!DNL Journey Orchestration] instancia, debe utilizar la consola de AdobeIO. Puede realizar inicios siguiendo esta [Introducción a Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) y, a continuación, utilizar las secciones de esta página.
+Para utilizar esta API con su [!DNL Journey Orchestration] instancia, debe utilizar la consola de AdobeI/O. Puede realizar inicios siguiendo esta [Introducción a Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) y, a continuación, utilizar las secciones de esta página.
 
 Para probar y preparar la integración, hay una colección Postman disponible [aquí](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
@@ -42,14 +42,14 @@ Para probar y preparar la integración, hay una colección Postman disponible [a
 
 ### Configuración del acceso a API
 
-[!DNL Journey Orchestration] El acceso a la API se configura a través de los pasos a continuación. Cada uno de estos pasos se detalla en la documentación [de E/S de](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)Adobe.
+[!DNL Journey Orchestration] El acceso a la API se configura a través de los pasos a continuación. Cada uno de estos pasos se detalla en la documentación [de](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)Adobe I/O.
 
 >[!CAUTION]
 >
->Para administrar certificados en la E/S de Adobe, asegúrese de que tiene derechos de administrador <b></b> del sistema en la organización o una cuenta [de](https://helpx.adobe.com/enterprise/using/manage-developers.html) desarrollador en la consola de administración.
+>Para administrar certificados en Adobe I/O, asegúrese de que tiene derechos de administrador <b></b> del sistema en la organización o una cuenta [de](https://helpx.adobe.com/enterprise/using/manage-developers.html) desarrollador en la consola de administración.
 
 1. **Compruebe que dispone de un certificado** digital o cree uno si es necesario. Las claves pública y privada que se proporcionan con el certificado son necesarias en los pasos siguientes.
-1. **Cree una nueva integración en[!DNL Journey Orchestration]Servicio** en la E/S de Adobe y configúrela. Se necesita el acceso al perfil del producto para [!DNL Journey Orchestration] y Adobe Experience Platform. Se generarán las credenciales (clave de API, secreto de cliente...).
+1. **Cree una nueva integración en[!DNL Journey Orchestration]Servicio** en Adobe I/O y configúrela. Se necesita el acceso al perfil del producto [!DNL Journey Orchestration] y el Adobe Experience Platform. Se generarán las credenciales (clave de API, secreto de cliente...).
 1. **Cree un token web JSON (JWT)** a partir de las credenciales generadas anteriormente y fírmelo con su clave privada. JWT codifica toda la información de identidad y seguridad que Adobe necesita para verificar su identidad y permitirle acceder a la API. Este paso se detalla en esta [sección](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
 1. **Intercambie su JWT por un Token de acceso** a través de una solicitud POST o a través de la interfaz de la consola de desarrollador. Este Token de acceso deberá utilizarse en cada encabezado de las solicitudes de API.
 
@@ -65,7 +65,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 * **&lt;ORGANIZACIÓN>**: Este es su ID de organización personal; Adobe proporciona un ID de organización para cada una de sus instancias:
 
    * &lt;ORGANIZACIÓN> : su instancia de producción
-   Para obtener el valor de ID de organización, consulte a su administrador o al contacto técnico de Adobe. También puede recuperarla en Adobe I/O al crear una nueva integración, en la lista de licencias (consulte la documentación <a href="https://www.adobe.io/authentication.html">de E/S de</a>Adobe).
+   Para obtener el valor de ID de organización, consulte a su administrador o al contacto técnico de Adobe. También puede recuperarla en Adobe I/O al crear una nueva integración, en la lista de licencias (consulte la documentación <a href="https://www.adobe.io/authentication.html">de</a>Adobe I/O).
 
 * **&lt;ACCESS_TOKEN>**: Su token de acceso personal, que se recuperó al intercambiar su JWT a través de una solicitud POST.
 
@@ -79,14 +79,14 @@ La API de límite le ayuda a crear, configurar y supervisar sus configuraciones 
 
 | Método | Ruta | Descripción |
 |---|---|---|
-| POST | lista/valores extremosConfiguraciones | Obtener una lista de las configuraciones de límite de extremo |
-| POST | /endConfigs | Crear una configuración de límite de extremo |
-| POST | /endConfigs/{uid}/deploy | Implementar una configuración de límite de extremo |
-| POST | /endConfigs/{uid}/undeploy | Desimplementar una configuración de límite de extremo |
-| POST | /endConfigs/{uid}/canDeploy | Compruebe si se puede implementar o no una configuración de límite de extremo |
-| PUT | /endConfigs/{uid} | Actualizar una configuración de límite de extremo |
-| OBTENER | /endConfigs/{uid} | Recuperar una configuración de límite de extremo |
-| ELIMINAR | /endConfigs/{uid} | Eliminar una configuración de límite de puntos |
+| [!DNL POST] | lista/valores extremosConfiguraciones | Obtener una lista de las configuraciones de límite de extremo |
+| [!DNL POST] | /endConfigs | Crear una configuración de límite de extremo |
+| [!DNL POST] | /endConfigs/{uid}/deploy | Implementar una configuración de límite de extremo |
+| [!DNL POST] | /endConfigs/{uid}/undeploy | Desimplementar una configuración de límite de extremo |
+| [!DNL POST] | /endConfigs/{uid}/canDeploy | Compruebe si se puede implementar o no una configuración de límite de extremo |
+| [!DNL PUT] | /endConfigs/{uid} | Actualizar una configuración de límite de extremo |
+| [!DNL GET] | /endConfigs/{uid} | Recuperar una configuración de límite de extremo |
+| [!DNL DELETE] | /endConfigs/{uid} | Eliminar una configuración de límite de puntos |
 
 Cuando se crea o actualiza una configuración, se realiza automáticamente una comprobación para garantizar la sintaxis y la integridad de la carga útil.
 Si se producen algunos problemas, la operación devuelve advertencias o errores para ayudarle a corregir la configuración.
@@ -172,9 +172,10 @@ Para ayudarle en las pruebas y la configuración, [aquí](https://raw.githubuser
 
 Esta colección Postman se ha configurado para compartir la colección Variable Postman generada a través de las integraciones __[de la consola de](https://console.adobe.io/integrations)Adobe I/O > Pruébelo > Descargar para Postman__, que genera un archivo Entorno Postman con los valores de integraciones seleccionados.
 
-Una vez descargado y cargado en Postman, debe agregar dos variables: `{JO_HOST}` y `{Base_Path}`.
+Una vez descargado y cargado en Postman, debe agregar tres variables: `{JO_HOST}`,`{Base_Path}` y `{SANDBOX_NAME}`.
 * `{JO_HOST}` :: [!DNL Journey Orchestration] URL de puerta de enlace
 * `{BASE_PATH}` :: punto de entrada para la API. El valor es &#39;/authoring&#39;
+* `{SANDBOX_NAME}` :: el encabezado **x-sandbox-name** (por ejemplo, &#39;prod&#39;) correspondiente al nombre del simulador para pruebas en el que se realizarán las operaciones de API. Consulte la descripción general [de los](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) entornos limitados para obtener más información.
 
 En la siguiente sección, encontrará la lista ordenada de las llamadas al resto de API para realizar el caso de uso.
 
