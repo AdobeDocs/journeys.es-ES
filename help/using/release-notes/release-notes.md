@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 556dbe88d2717a387e5f0ce8795c9fa02a45ac6f
+source-git-commit: eed82450d3fab279add87d0bee7e0efa824d1e8e
 workflow-type: tm+mt
-source-wordcount: '1098'
-ht-degree: 70%
+source-wordcount: '1095'
+ht-degree: 71%
 
 ---
 
@@ -35,22 +35,22 @@ También puede consultar las [Actualizaciones de documentación](../release-note
 <tbody>
 <tr>
 <td>
-<p>Se han realizado las siguientes mejoras en la integración de la plataforma:</p>
+<p>Se han realizado las siguientes mejoras en la integración de Platform:</p>
 <ul>
-<li><p>Una nueva actividad permite escuchar las entradas y salidas de segmentos de plataforma para hacer que las personas entren o avancen en un viaje. <a href="../building-journeys/event-activities.md#segment-qualification">Más información</a></p>
+<li><p>Una nueva actividad permite escuchar las entradas y salidas de segmentos de Platform para hacer que las personas entren o avancen en un viaje. <a href="../building-journeys/event-activities.md#segment-qualification">Más información</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>Los segmentos de plataforma ahora se pueden crear y editar sin salir de la interfaz de orquestación de viajes, gracias a una nueva ficha <strong>Segmentos</strong> .<a href="../segment/about-segments.md">Más información</a></p>
+<li><p>Los segmentos de Platform ahora se pueden crear y editar sin salir de la interfaz de Journey Orchestration, gracias a una nueva ficha <strong>Segmentos</strong> .<a href="../segment/about-segments.md">Más información</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>En el editor de expresiones sencillo, los segmentos de plataforma ahora se enumeran directamente en el árbol de navegación para permitir una configuración sencilla de condiciones como "¿Pertenece esta persona al segmento A?".<a href="../segment/using-a-segment.md">Más información</a></p>
+<li><p>En el editor de expresiones sencillo, los segmentos de Platform ahora se muestran directamente en el árbol de navegación para permitir una configuración sencilla de condiciones como "¿Pertenece esta persona al segmento A?".<a href="../segment/using-a-segment.md">Más información</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>La orquestación de viajes ahora pasa automáticamente, a la plataforma de datos de Adobe, los pasos que se ejecutan en los viajes. Esto incluye los posibles errores encontrados. Esta información se puede utilizar para lograr sistemas de informes y solucionar problemas mediante la ejecución de consultas en los eventos de la Etapa del Viaje para un viaje determinado o para todos los viajes. <a href="../building-journeys/sharing-overview.md">Más información</a></p>
+<li><p>Ahora el Journey Orchestration pasa automáticamente, al Platform de datos de Adobe, los pasos que se ejecutan en los viajes. Esto incluye los posibles errores encontrados. Esta información se puede utilizar para lograr sistemas de informes y solucionar problemas mediante la ejecución de consultas en los eventos de la Etapa del Viaje para un viaje determinado o para todos los viajes. <a href="../building-journeys/sharing-overview.md">Más información</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
 </li>
-<li><p>La orquestación de viajes ahora se puede conectar a los entornos limitados de la plataforma de producción y a los que no son de producción. Tenga en cuenta que los entornos limitados son una función beta. Disponibilidad efectiva: 30 de junio de 2020. <a href="../about/access-management.md#sandboxes">Más información</a></p>
+<li><p>Ahora, el Journey Orchestration puede conectarse a los entornos limitados Platform de producción y sin producción. Tenga en cuenta que los entornos limitados son una función beta. <a href="../about/access-management.md#sandboxes">Más información</a></p>
 </li>
 </td>
 </tr>
@@ -87,9 +87,9 @@ Para evitar el envío de demasiadas llamadas de API a sistemas de terceros, esta
 
 Control de acceso ahora permite una mayor granularidad en la administración del acceso de los usuarios. Disponibilidad efectiva: 30 de junio de 2020. [Más información](../about/access-management.md#create-product-profile)
 
-La orquestación de viajes está ahora disponible en APAC (centro de datos australiano). Disponibilidad efectiva: 30 de junio de 2020
+Journey Orchestration ahora está disponible en APAC (centro de datos australiano). Disponibilidad efectiva: 30 de junio de 2020
 
-La interfaz de orquestación de viajes está disponible en japonés.
+La interfaz de Journey Orchestration está disponible en japonés.
 
 ## Versión del primer trimestre de 2020 {#q1-release---march-2020}
 
