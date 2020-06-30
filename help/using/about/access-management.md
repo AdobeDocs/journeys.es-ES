@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: a3114ffe7c087645e97caf3a77e7649d922945eb
+source-git-commit: eed82450d3fab279add87d0bee7e0efa824d1e8e
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '782'
 ht-degree: 3%
 
 ---
@@ -38,7 +38,7 @@ En la Consola de administración, puede asignar a los usuarios uno de los siguie
    * Administrar informes
    >[!NOTE]
    >
-   >**[!UICONTROL Administrators]** es el único perfil de productos que permite crear, editar y publicar mensajes transaccionales (o plantillas de mensajería) en Adobe Campaign Standard. Este perfil de producto es necesario si usa Adobe Campaign Standard para enviar mensajes en sus viajes.
+   >**[!UICONTROL Administrators]** es el único perfil de productos que permite crear, editar y publicar mensajes transaccionales (o plantillas de mensajería) en Adobe Campaign Standard. Este perfil de producto es necesario si utiliza Adobe Campaign Standard para enviar mensajes en sus viajes.
 
 * **[!UICONTROL Standard User]**:: usuario con acceso básico, como administración de viajes. Este perfil del producto incluye los siguientes derechos:
    * Administrar viajes
@@ -64,11 +64,13 @@ A continuación se puede encontrar la compatibilidad entre derechos y diferentes
 
 [!DNL Journey Orchestration] le permite crear sus propios perfiles de productos y asignar un conjunto de derechos y entornos limitados a los usuarios. Con los perfiles del producto, puede autorizar o denegar el acceso a determinadas funcionalidades u objetos de la interfaz.
 
-Para obtener más información sobre cómo crear y administrar entornos limitados, consulte la documentación [de](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html)Adobe Experience Platform.
+Para obtener más información sobre cómo crear y administrar entornos limitados, consulte la documentación de [Adobe Experience Platform](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html).
 
 Para crear un perfil de producto y asignar un conjunto de derechos y entornos limitados:
 
-1. En la Consola de administración, seleccione **[!UICONTROL Journey Orchestration]**. From the **[!UICONTROL Product profile]** tab, click **[!UICONTROL New Profile]**.
+1. En el Admin Console, seleccione **[!UICONTROL Journey Orchestration]**. From the **[!UICONTROL Product profile]** tab, click **[!UICONTROL New Profile]**.
+
+   ![](../assets/user_management_5.png)
 
 1. Añada un **[!UICONTROL Profile Name]** y **[!UICONTROL Description]** para el nuevo perfil de productos. Si desea que el perfil **[!UICONTROL Display name]** sea diferente, desmarque **[!UICONTROL Same as Profile Name]** y escriba su **[!UICONTROL Display name]**.
 
@@ -76,23 +78,28 @@ Para crear un perfil de producto y asignar un conjunto de derechos y entornos li
 
 1. Cuando termine, haga clic en **[!UICONTROL Done]**. Se ha creado el nuevo perfil de productos.
 
+   ![](../assets/user_management_6.png)
+
 1. Seleccione el nuevo perfil de productos para administrar los permisos de inicio. En la **[!UICONTROL Users]** ficha, agregue usuarios al perfil del producto. Para obtener más información, consulte [esta página](../about/access-management.md#assigning-product-profile).
 
 1. Lleve a cabo los mismos pasos que se detallan arriba para agregar **[!UICONTROL Admin]** a su perfil de productos.
 
 1. En la **[!UICONTROL Permissions]** ficha, seleccione una de las dos categorías **[!UICONTROL Sandbox]** o **[!UICONTROL Authoring]** para abrir la **[!UICONTROL Edit Permissions]** página y agregar o quitar permisos para el perfil del producto.
 
-1. En la categoría de permisos, elija qué simulador de pruebas desea asignar al perfil del producto. **[!UICONTROL Sandbox]** En **[!UICONTROL Available Permissions Items]**, haga clic en el icono de signo más (+) para asignar entornos limitados al perfil.
+   ![](../assets/user_management_7.png)
 
-   >[!NOTE]
-   >
-   >El Simulador para pruebas de plataforma es una función beta.
-   <br>Para obtener más información sobre los entornos limitados, consulte esta [sección](../about/access-management.md#sandboxes).
+1. En la categoría de permisos, elija qué simulador de pruebas desea asignar al perfil del producto. **[!UICONTROL Sandbox]** En **[!UICONTROL Available Permissions Items]**, haga clic en el icono de signo más (+) para asignar entornos limitados al perfil. For more information on sandboxes, refer to this [section](../about/access-management.md#sandboxes).
+
+   ![](../assets/user_management_8.png)
 
 1. Si es necesario, haga clic en **[!UICONTROL Included Permission Items]** el icono X situado junto a para eliminar los permisos del perfil del producto.
 
+   ![](../assets/user_management_9.png)
+
 1. Desde la categoría de permisos, lleve a cabo los mismos pasos que se mencionan arriba para agregar derechos al perfil del producto. **[!UICONTROL Authoring]**
    <br>Para obtener más información sobre los derechos y la compatibilidad entre los derechos y las diferentes funciones [!DNL Journey Orchestration]de los usuarios, consulte esta [sección](../about/access-management.md#about-access-management).
+
+   ![](../assets/user_management_10.png)
 
 1. Cuando termine, haga clic en **[!UICONTROL Save]**.
 
@@ -105,7 +112,7 @@ La lista de todos los perfiles de productos listos para usar con derechos asigna
 
 Para asignar un perfil de producto para que un usuario tenga acceso [!DNL Journey Orchestration]:
 
-1. En la Consola de administración, seleccione **[!UICONTROL Journey Orchestration]**.
+1. En el Admin Console, seleccione **[!UICONTROL Journey Orchestration]**.
 
    ![](../assets/user_management.png)
 
@@ -127,14 +134,10 @@ El usuario debe recibir un correo electrónico que le redirija a su [!DNL Journe
 
 ## Uso de entornos limitados {#sandboxes}
 
->[!NOTE]
->
->El Simulador para pruebas de plataforma es una función beta.
-
 [!DNL Journey Orchestration] le permite particionar la instancia en entornos virtuales separados, llamados entornos limitados.
 Los Simuladores para pruebas se asignan mediante perfiles de producto en la Consola de administración. Para obtener más información sobre cómo asignar entornos limitados, consulte esta [sección](../about/access-management.md#create-product-profile).
 
-[!DNL Journey Orchestration] refleja los entornos limitados de la plataforma que se crearon para una organización determinada.
-Los entornos limitados de plataforma se pueden crear o restablecer desde la instancia de Adobe Experience Platform. Consulte la guía [del usuario del](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html) Simulador para pruebas para conocer los pasos detallados.
+[!DNL Journey Orchestration] refleja los entornos limitados de Platform creados para una organización determinada.
+Los entornos limitados de Platform se pueden crear o restablecer desde la instancia de Adobe Experience Platform. Consulte la guía [del usuario del](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html) Simulador para pruebas para conocer los pasos detallados.
 
 Encontrará el control del conmutador de simulador de pruebas en la parte superior izquierda de la pantalla. Para cambiar de un simulador de pruebas a otro, haga clic en el simulador de pruebas activo y seleccione otro simulador de pruebas en la lista desplegable.
