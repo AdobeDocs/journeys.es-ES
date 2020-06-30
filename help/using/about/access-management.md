@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: eed82450d3fab279add87d0bee7e0efa824d1e8e
+source-git-commit: c99ff0755a75c9262bf6ebe73172fe76d3f78f48
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 3%
@@ -78,7 +78,7 @@ Para crear un perfil de producto y asignar un conjunto de derechos y entornos li
 
 1. Cuando termine, haga clic en **[!UICONTROL Done]**. Se ha creado el nuevo perfil de productos.
 
-   ![](../assets/user_management_6.png)
+   ![](../assets/user_management_1.png)
 
 1. Seleccione el nuevo perfil de productos para administrar los permisos de inicio. En la **[!UICONTROL Users]** ficha, agregue usuarios al perfil del producto. Para obtener más información, consulte [esta página](../about/access-management.md#assigning-product-profile).
 
@@ -88,7 +88,7 @@ Para crear un perfil de producto y asignar un conjunto de derechos y entornos li
 
    ![](../assets/user_management_7.png)
 
-1. En la categoría de permisos, elija qué simulador de pruebas desea asignar al perfil del producto. **[!UICONTROL Sandbox]** En **[!UICONTROL Available Permissions Items]**, haga clic en el icono de signo más (+) para asignar entornos limitados al perfil. For more information on sandboxes, refer to this [section](../about/access-management.md#sandboxes).
+1. En la categoría de permisos, elija qué simulador de pruebas desea asignar al perfil del producto. **[!UICONTROL Sandboxes]** En **[!UICONTROL Available Permissions Items]**, haga clic en el icono de signo más (+) para asignar entornos limitados al perfil. For more information on sandboxes, refer to this [section](../about/access-management.md#sandboxes).
 
    ![](../assets/user_management_8.png)
 
