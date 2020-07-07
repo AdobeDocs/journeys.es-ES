@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: 5d92b9d70a70700026a4715c6cb6a6c4ba565ba5
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 75%
+source-wordcount: '649'
+ht-degree: 60%
 
 ---
 
@@ -24,7 +24,19 @@ ht-degree: 75%
 Esta página lista todas las actualizaciones de documentación de [!DNL Journey Orchestration].
 You can also consult the [!DNL Journey Orchestration] [Release Notes](../release-notes/release-notes.md).
 
-## June 2020 {#june-2020}
+## Julio de 2020 {#july-2020}
+
+* Se Añadió una nueva sección sobre las características Alpha que se prueban entre un conjunto limitado de clientes. [Más información](../alpha/alpha-overview.md)
+* Añadió una nueva sección sobre la integración con Servicios inteligentes. [Más información](../ai-services/ai-services-overview.md)
+* Se Añadió una nueva sección sobre la creación del perfil de prueba. [Más información](../building-journeys/testing-the-journey.md#create-test-profile).
+* Información Añadida sobre cómo utilizar el nodo **SegmentQualification** en una condición de viaje o acción. [Más información](../building-journeys/event-activities.md#segment-qualification).
+* Se ha añadido una nota al mensaje transaccional de Campaña y a la publicación de eventos. Consulte [](../action/working-with-adobe-campaign.md) y [](../building-journeys/using-adobe-campaign-actions.md).
+* Se ha añadido información sobre las comprobaciones que se realizan al probar la URL de la instancia de Campaign Standard. [Más información](../action/working-with-adobe-campaign.md)
+* Se ha añadido información sobre la compatibilidad de eventos de reacción con instancias de Campaign Standard alojadas en servidores AWS o Azure. [Más información](../building-journeys/event-activities.md#section_dhx_gss_dgb)
+* Se ha agregado una nota sobre la necesidad de configurar una regla de límite al trabajar con mensajes transaccionales de Campaign Standard. [Más información](../action/working-with-adobe-campaign.md)
+* Se ha añadido una nota a la generación de eventos reales al activar eventos mediante el modo de prueba. [Más información](../building-journeys/testing-the-journey.md#firing_events)
+
+## Junio de 2020 {#june-2020}
 
 * Información Añadida sobre cómo cambiar la duración de la caché del token para un origen de datos de autenticación personalizada. [Más información](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
 * Capturas de pantalla y texto actualizados para reflejar el cambio de nombre del estado del viaje **finalizado** , que se ha cambiado a **Cerrado (sin entrada)**.
@@ -65,7 +77,7 @@ You can also consult the [!DNL Journey Orchestration] [Release Notes](../release
 
 * Todas las capturas de pantalla se han actualizado para reflejar los cambios en la interfaz.
 * Se ha actualizado la sección del modo de prueba. [Más información](../building-journeys/testing-the-journey.md)
-* Se ha añadido una advertencia en las secciones de [optimización del tiempo de envío de correo electrónico](../building-journeys/wait-activity.md) y [puntuaciones de fatiga predictiva](../usecase/leveraging-fatigue-scores.md). Estas funciones solo están disponibles para los clientes que utilizan la función de servicio de datos de Adobe Campaign Standard.
+* Se ha añadido una advertencia en las secciones de [optimización del tiempo de envío de correo electrónico](../building-journeys/wait-activity.md) y [puntuaciones de fatiga predictiva](../ai-services/leveraging-fatigue-scores.md). Estas funciones solo están disponibles para los clientes que utilizan la función de servicio de datos de Adobe Campaign Standard.
 * Ahora se pueden eliminar los recorridos interrumpidos. Se han actualizado las páginas de documentación relacionadas.
 * Ahora se muestran dos colores cuando se detectan problemas en un recorrido. Rojo para errores y naranja para advertencias. [Más información](../about/troubleshooting.md)
 * Se ha actualizado la sección del editor de expresiones avanzado. [Más información](../expression/expressionadvanced.md).
