@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: be21573973600758cbf13bd25bc3b44ab4cd08ca
+source-git-commit: 0c7a9d679e2bf20c58aaea81e134c41b401e11ac
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 1%
+source-wordcount: '1151'
+ht-degree: 2%
 
 ---
 
@@ -50,18 +50,76 @@ Para utilizar el modo de prueba, siga estos pasos:
 ## Notas importantes {#important_notes}
 
 * Se proporciona una interfaz para activar eventos en el viaje probado, pero también se pueden enviar eventos mediante sistemas de terceros como Postman.
-* Sólo los individuos marcados como &quot;perfiles de prueba&quot; en el servicio de Perfil de clientes en tiempo real podrán participar en el viaje comprobado. El proceso para crear un perfil de prueba es el mismo que el proceso para crear un Perfil en la plataforma de datos. Solo tiene que asegurarse de que el indicador de perfil de prueba sea verdadero. Puede utilizar la sección Segmentos de la interfaz de la plataforma de datos para crear un segmento de perfiles de prueba en la plataforma de datos y ver una lista no exhaustiva. La lista exhaustiva no se puede mostrar por ahora.
-* El modo de prueba solo está disponible en los desplazamientos de borrador que utilizan una Área de nombres. De hecho, el modo de prueba debe comprobar si una persona que entra en el viaje es un perfil de prueba o no y, por lo tanto, debe poder llegar a la plataforma de datos.
+* Sólo los individuos marcados como &quot;perfiles de prueba&quot; en el servicio de Perfil de clientes en tiempo real podrán participar en el viaje comprobado. Consulte [](../building-journeys/testing-the-journey.md#create-test-profile).
+* El modo de prueba solo está disponible en los desplazamientos de borrador que utilizan una Área de nombres. De hecho, el modo de prueba debe comprobar si una persona que entra en el viaje es un perfil de prueba o no y, por lo tanto, debe poder llegar al Platform de datos.
 * El número máximo de perfiles de prueba que pueden entrar en un viaje durante una sesión de prueba es de 100.
 * Al desactivar el modo de prueba, se vacía el trayecto de todas las personas que lo hayan introducido en el pasado o que se encuentren en él.
 * Puede habilitar/deshabilitar el modo de prueba tantas veces como sea necesario.
 * No se puede modificar el viaje cuando se activa el modo de prueba. En el modo de prueba, puede publicar directamente el viaje, sin necesidad de desactivar antes el modo de prueba.
 
+## Creating a test profile{#create-test-profile}
+
+El proceso para crear un perfil de prueba es el mismo que cuando se crea un perfil en el Experience Platform. Se realiza a través de llamadas de API. See this [page](https://docs.adobe.com/content/help/es-ES/experience-platform/profile/home.html)
+
+Debe utilizar un esquema de Perfil que contenga la combinación &quot;detalles de la prueba de perfil&quot;. De hecho, el indicador testProfile forma parte de esta mezcla.
+
+Al crear un perfil, asegúrese de pasar el valor: testprofile = true.
+
+Tenga en cuenta que también puede actualizar un perfil existente para cambiar su indicador testProfile a &quot;true&quot;.
+
+Este es un ejemplo de una llamada de API para crear un perfil de prueba:
+
+```
+curl -X POST \
+'https://example.adobe.com/collection/xxxxxxxxxxxxxx' \
+-H 'Cache-Control: no-cache' \
+-H 'Content-Type: application/json' \
+-H 'Postman-Token: xxxxx' \
+-H 'cache-control: no-cache' \
+-H 'x-api-key: xxxxx' \
+-H 'x-gw-ims-org-id: xxxxx' \
+-d '{
+"header": {
+"msgType": "xdmEntityCreate",
+"msgId": "xxxxx",
+"msgVersion": "xxxxx",
+"xactionid":"xxxxx",
+"datasetId": "xxxxx",
+"imsOrgId": "xxxxx",
+"source": {
+"name": "Postman"
+},
+"schemaRef": {
+"id": "https://example.adobe.com/mobile/schemas/xxxxx",
+"contentType": "application/vnd.adobe.xed-full+json;version=1"
+}
+},
+"body": {
+"xdmMeta": {
+"schemaRef": {
+"contentType": "application/vnd.adobe.xed-full+json;version=1"
+}
+},
+"xdmEntity": {
+"_id": "xxxxx",
+"_mobile":{
+"ECID": "xxxxx"
+},
+"testProfile":true
+}
+}
+}'
+```
+
 ## Disparando sus eventos {#firing_events}
 
 El **[!UICONTROL Trigger an event]** botón permite configurar un evento que hará que una persona entre en el viaje.
 
-Como requisito previo, debe saber qué perfiles están marcados como perfiles de prueba en la plataforma de datos. De hecho, el modo de prueba sólo permite estos perfiles en el viaje y el evento debe contener una identificación. El ID esperado depende de la configuración de evento. Puede ser un ECID, por ejemplo.
+>[!NOTE]
+>
+>Cuando se activa un evento en el modo de prueba, se genera un evento real, lo que significa que también se producirá otro viaje escuchando este evento.
+
+Como requisito previo, debe saber qué perfiles están marcados como perfiles de prueba en el Platform de datos. De hecho, el modo de prueba sólo permite estos perfiles en el viaje y el evento debe contener una identificación. El ID esperado depende de la configuración de evento. Puede ser un ECID, por ejemplo.
 
 Si el viaje contiene varios eventos, utilice la lista desplegable para seleccionar un evento. A continuación, configure para cada evento los campos pasados y la ejecución del envío de eventos. La interfaz le ayuda a pasar la información correcta en la carga útil de evento y a asegurarse de que el tipo de información es correcto. El modo de prueba guarda los últimos parámetros utilizados en una sesión de prueba para su uso posterior.
 
