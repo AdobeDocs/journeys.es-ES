@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Ayuda de Journey Orchestration
 index: true
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: 18cc34f4c2f8f75ec42c70ec9a92784aed4358d9
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 85%
+source-wordcount: '373'
+ht-degree: 80%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 85%
    + [Notas de la versión](using/release-notes/release-notes.md)
    + [Actualizaciones de documentación](using/release-notes/documentation-updates.md)
 + Starting with [!DNL Journey Orchestration] {#starting-with-journeys}
-   + [About [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
+   + [Acerca de [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [Introducción](using/about/get-started.md)
    + [Interfaz de usuario](using/about/user-interface.md)
    + [Gestión de acceso](using/about/access-management.md)
@@ -71,7 +71,7 @@ ht-degree: 85%
          + [Uso de acciones personalizadas](using/building-journeys/using-custom-actions.md)
    + [Prueba del recorrido](using/building-journeys/testing-the-journey.md)
    + [Publicación del recorrido](using/building-journeys/publishing-the-journey.md)
-   + Compartir los pasos del viaje con la plataforma {#sharing-journey-steps}
+   + Uso compartido de los pasos del viaje con Platform {#sharing-journey-steps}
       + [Información general sobre el uso compartido de los pasos del viaje](using/building-journeys/sharing-overview.md)
       + [campos comunes de los eventos de los pasos del viaje](using/building-journeys/sharing-common-fields.md)
       + [Campos de ejecución de la acción eventos de la travesíaPaso](using/building-journeys/sharing-execution-fields.md)
@@ -162,6 +162,10 @@ ht-degree: 85%
    + [Acerca de los informes de recorrido](using/reporting/about-journey-reports.md)
    + [Creación de informes de recorrido](using/reporting/creating-your-journey-reports.md)
    + [Métricas y dimensiones](using/reporting/metrics-and-dimensions.md)
++ Integración con Servicios Inteligentes{#use-case-advanced}
+   + [Acerca de la integración de AI](using/ai-services/ai-services-overview.md)
+   + [Aprovechamiento de Journey AI](using/ai-services/leveraging-fatigue-scores.md)
+   + [Aprovechamiento de la AI del cliente](using/ai-services/leveraging-customer-ai.md)
 + Ejemplos de uso{#use-cases-journeys}
    + Caso de uso simple{#use-case-simple}
       + [Acerca del caso de uso simple](using/usecase/about-the-simple-use-case.md)
@@ -173,7 +177,11 @@ ht-degree: 85%
       + [Configuración de los eventos](using/usecase/configuring-the-events.md)
       + [Configuración de las fuentes de datos](using/usecase/configuring-the-data-sources.md)
       + [Construcción del recorrido](using/usecase/building-the-journey.md)
-   + [Uso de las puntuaciones de fatiga](using/usecase/leveraging-fatigue-scores.md)
 + Uso de API{#working-with-apis}
    + [Captar API](using/api/capping.md)
++ Características alfa {#alpha}
+   + [Descripción general de las características Alpha](using/alpha/alpha-overview.md)
+   + [Interfaz de usuario](using/alpha/alpha-interface.md)
+   + [actividad del activador de segmentos](using/alpha/alpha-segment-trigger.md)
+   + [eventos basados en reglas](using/alpha/alpha-events.md)
 
