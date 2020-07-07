@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c6e7c27865eb34961f8901c9bde2c09527f67f15
+source-git-commit: d0630be5b82d681a94eebe2e9a7196081717ec9d
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 4%
+source-wordcount: '886'
+ht-degree: 3%
 
 ---
 
@@ -29,13 +29,17 @@ Si tiene Adobes Campaign Standard, se encuentran disponibles las siguientes acti
 
 Para cada uno de estos canales, seleccione una **plantilla** de Adobe Campaign Standard Transactional Messaging. De hecho, no [!DNL Journey Orchestration] es una solución de envío de mensajes. Para los canales integrados de correo electrónico, SMS y push, confiamos en la mensajería transaccional para ejecutar el envío de mensajes. Significa que si desea utilizar una plantilla de mensaje determinada en sus viajes, debe publicarla en Adobe Campaign Standard. Consulte esta [página](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.translate.html) para obtener información sobre cómo utilizar esta función.
 
+>[!NOTE]
+>
+>El mensaje transaccional del Campaign Standard y su evento asociado deben publicarse para su uso en Journey Orchestration. Si el evento se publica pero el mensaje no, no será visible en la interfaz del Journey Orchestration. Si el mensaje se publica pero su evento asociado no, será visible en la interfaz del Journey Orchestration pero no se podrá utilizar.
+
 ![](../assets/journey59.png)
 
 Puede utilizar una plantilla de mensajería transaccional de evento (también conocida como en tiempo real) o de perfil.
 
 >[!NOTE]
 >
->Cuando enviamos mensajes transaccionales en tiempo real (rtEvent) o cuando enrutamos mensajes con un sistema de terceros gracias a una acción personalizada, se requiere una configuración específica para la fatiga, la lista de bloques o la administración baja. Por ejemplo, si se almacena un atributo de &quot;cancelación de suscripción&quot; en el Platform o en un sistema de terceros, deberá agregarse una condición antes de que se envíe el mensaje para comprobar esta condición.
+>Cuando enviamos mensajes transaccionales en tiempo real (rtEvent) o cuando enrutamos mensajes con un sistema de terceros gracias a una acción personalizada, se requiere una configuración específica para la fatiga, la lista de bloqueados o la administración baja. Por ejemplo, si se almacena un atributo de &quot;cancelación de suscripción&quot; en el Platform o en un sistema de terceros, deberá agregarse una condición antes de que se envíe el mensaje para comprobar esta condición.
 
 Cuando selecciona una plantilla, todos los campos esperados en la carga útil del mensaje se muestran en el panel de configuración de actividad debajo **[!UICONTROL Address]** y **[!UICONTROL Personalization Data]**. Debe asignar cada uno de estos campos al campo que desee utilizar, ya sea desde el evento o desde el origen de datos. También puede utilizar el editor de expresiones avanzado para pasar un valor manualmente, realizar una manipulación de datos en la información recuperada (por ejemplo, convertir una cadena en mayúsculas) o utilizar funciones como &quot;if, then, else&quot;. Consulte [](../expression/expressionadvanced.md).
 
