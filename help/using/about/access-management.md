@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: c99ff0755a75c9262bf6ebe73172fe76d3f78f48
+source-git-commit: 94ef4e30d16b7d23dc029863fcd2d9f34173c433
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 3%
+source-wordcount: '841'
+ht-degree: 4%
 
 ---
 
@@ -21,32 +21,38 @@ ht-degree: 3%
 
 ## Acerca de la administración de acceso {#about-access-management}
 
-[!DNL Journey Orchestration] permite asignar un conjunto de derechos a los usuarios para definir a qué parte de la interfaz pueden acceder.
+[!DNL Journey Orchestration] permite asignar un conjunto de permisos a los usuarios para definir a qué parte de la interfaz pueden acceder.
 
 Pueden ser administrados por administradores que tengan acceso a la consola de administración. Para obtener más información sobre la Consola de administración, consulte esta [documentación](https://helpx.adobe.com/es/enterprise/managing/user-guide.html).
 
+Para poder acceder a [!DNL Journey Orchestration], un usuario debe:
+
+* parte de un [!DNL Journey Orchestration] elemento **[!UICONTROL product profile]** asociado a [!DNL Journey Orchestration] permisos.
+* parte de un [!DNL Adobe Experience Platform]**[!UICONTROL product profile]**. No hay permiso obligatorio para tener. El usuario debe tener el **[!UICONTROL profile management]** permiso para poder crear y editar segmentos de plataforma desde la [!DNL Journey Orchestration] interfaz. Para obtener más información, consulte [esta página](https://docs.adobe.com/content/help/en/experience-platform/access-control/home.html#adobe-admin-console).
+
 En la Consola de administración, puede asignar a los usuarios uno de los siguientes perfiles de producto predeterminados:
 
-* **[!UICONTROL Limited Access User]**:: usuario con acceso de solo lectura a viajes e informes. Este perfil del producto incluye los siguientes derechos:
+* **[!UICONTROL Limited Access User]**:: usuario con acceso de solo lectura a viajes e informes. Este perfil de productos incluye los siguientes permisos:
    * Leer viajes
    * Leer informes
 
-* **[!UICONTROL Administrators]**:: usuario con acceso a los menús de administración con la posibilidad de administrar viajes, eventos e informes. Este perfil del producto incluye los siguientes derechos:
+* **[!UICONTROL Administrators]**:: usuario con acceso a los menús de administración con la posibilidad de administrar viajes, eventos e informes. Este perfil de productos incluye los siguientes permisos:
    * Administrar viajes
    * Publicar viajes
    * Administrar eventos, fuentes de datos y acciones
    * Administrar informes
+
    >[!NOTE]
    >
    >**[!UICONTROL Administrators]** es el único perfil de productos que permite crear, editar y publicar mensajes transaccionales (o plantillas de mensajería) en Adobe Campaign Standard. Este perfil de producto es necesario si utiliza Adobe Campaign Standard para enviar mensajes en sus viajes.
 
-* **[!UICONTROL Standard User]**:: usuario con acceso básico, como administración de viajes. Este perfil del producto incluye los siguientes derechos:
+* **[!UICONTROL Standard User]**:: usuario con acceso básico, como administración de viajes. Este perfil de productos incluye los siguientes permisos:
    * Administrar viajes
    * Publicar viajes
    * Administrar informes
 
 También puede crear sus propios perfiles de producto si los perfiles predeterminados no son suficientes para administrar a los usuarios.
-Los usuarios siempre deben estar vinculados a un perfil de producto que le permita asignarles derechos de integración específicos como:
+Los usuarios siempre deben estar vinculados a un perfil de producto que le permita asignarles permisos de integración específicos como:
 
 * **[!UICONTROL Read journeys]**
 * **[!UICONTROL Read reports]**
@@ -56,17 +62,17 @@ Los usuarios siempre deben estar vinculados a un perfil de producto que le permi
 * **[!UICONTROL Publish journeys]**
 * **[!UICONTROL Manage reports]**
 
-A continuación se puede encontrar la compatibilidad entre derechos y diferentes funcionalidades [!DNL Journey Orchestration]de.
+A continuación se muestra la compatibilidad entre los permisos y las diferentes funcionalidades [!DNL Journey Orchestration]de la aplicación.
 
 ![](../assets/journey_permission.png)
 
 ## Creación de un perfil de producto {#create-product-profile}
 
-[!DNL Journey Orchestration] le permite crear sus propios perfiles de productos y asignar un conjunto de derechos y entornos limitados a los usuarios. Con los perfiles del producto, puede autorizar o denegar el acceso a determinadas funcionalidades u objetos de la interfaz.
+[!DNL Journey Orchestration] le permite crear sus propios perfiles de productos y asignar un conjunto de permisos y entornos limitados a los usuarios. Con los perfiles del producto, puede autorizar o denegar el acceso a determinadas funcionalidades u objetos de la interfaz.
 
 Para obtener más información sobre cómo crear y administrar entornos limitados, consulte la documentación de [Adobe Experience Platform](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html).
 
-Para crear un perfil de producto y asignar un conjunto de derechos y entornos limitados:
+Para crear un perfil de producto y asignar un conjunto de permisos y entornos limitados:
 
 1. En el Admin Console, seleccione **[!UICONTROL Journey Orchestration]**. From the **[!UICONTROL Product profile]** tab, click **[!UICONTROL New Profile]**.
 
@@ -96,8 +102,8 @@ Para crear un perfil de producto y asignar un conjunto de derechos y entornos li
 
    ![](../assets/user_management_9.png)
 
-1. Desde la categoría de permisos, lleve a cabo los mismos pasos que se mencionan arriba para agregar derechos al perfil del producto. **[!UICONTROL Authoring]**
-   <br>Para obtener más información sobre los derechos y la compatibilidad entre los derechos y las diferentes funciones [!DNL Journey Orchestration]de los usuarios, consulte esta [sección](../about/access-management.md#about-access-management).
+1. Desde la categoría de **[!UICONTROL Authoring]** permisos, realice los mismos pasos que se describen arriba para agregar permisos al perfil del producto.
+   <br>Para obtener más información sobre los permisos y la compatibilidad entre los permisos y las diferentes funciones [!DNL Journey Orchestration]de, consulte esta [sección](../about/access-management.md#about-access-management).
 
    ![](../assets/user_management_10.png)
 
@@ -107,8 +113,8 @@ El perfil del producto se ha creado y configurado. Los usuarios vinculados a est
 
 ## Asignación de un perfil de producto {#assigning-product-profile}
 
-Los perfiles de producto se asignan a un conjunto de usuarios que comparten los mismos derechos dentro de la organización.
-La lista de todos los perfiles de productos listos para usar con derechos asignados se encuentra en esta sección.
+Los perfiles de producto se asignan a un conjunto de usuarios que comparten los mismos permisos dentro de la organización.
+La lista de todos los perfiles de productos listos para usar con permisos asignados se encuentra en esta sección.
 
 Para asignar un perfil de producto para que un usuario tenga acceso [!DNL Journey Orchestration]:
 
