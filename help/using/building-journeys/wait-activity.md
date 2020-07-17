@@ -1,6 +1,6 @@
 ---
 title: Actividad de espera
-description: Información sobre la actividad de espera
+description: Obtenga información sobre la actividad de espera
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -11,14 +11,17 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3f8f7eb34a11f0ff87ed3c55e7294b5bdbfb9383
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
+workflow-type: tm+mt
+source-wordcount: '581'
+ht-degree: 2%
 
 ---
 
 
 # Actividad de espera{#section_rlm_nft_dgb}
 
-Si desea esperar antes de ejecutar la siguiente actividad en la ruta, puede utilizar una **[!UICONTROL Wait]** actividad. Le permite definir el momento en el que se ejecutará la siguiente actividad. Hay cuatro opciones disponibles:
+Si desea esperar antes de ejecutar la siguiente actividad en la ruta, puede utilizar una **[!UICONTROL Wait]** actividad. Permite definir el momento en que se ejecutará la siguiente actividad. Hay cuatro opciones disponibles:
 
 * [Duración](#duration)
 * [Fecha fija](#fixed_date)
@@ -37,7 +40,7 @@ Puede definir una condición si desea restringir la espera a una determinada pob
 >
 >La duración máxima de espera es de 30 días.
 >
->En el modo de prueba, el parámetro Tiempo de **espera en la prueba** permite definir el tiempo que durará cada actividad de espera. El tiempo predeterminado es de 10 segundos. Esto garantizará que los resultados de la prueba se obtengan rápidamente. Consulte [](../building-journeys/testing-the-journey.md).
+>En el modo de prueba, el **[!UICONTROL Wait time in test]** parámetro le permite definir el tiempo que durará cada actividad de espera. El valor del tiempo predeterminado es de 10 segundos. Esto garantizará que los resultados de la prueba se obtengan rápidamente. Consulte [](../building-journeys/testing-the-journey.md)
 
 ## Duración de espera{#duration}
 
@@ -47,7 +50,7 @@ Seleccione la duración de la espera antes de la ejecución de la siguiente acti
 
 ## Espera de fecha fija{#fixed_date}
 
-Seleccione la fecha para la ejecución de la siguiente actividad.
+Seleccione la fecha de ejecución de la siguiente actividad.
 
 ![](../assets/journey56.png)
 
@@ -57,7 +60,7 @@ Esta opción le permite definir una fecha personalizada, por ejemplo, el 12 de j
 
 >[!NOTE]
 >
->Puede aprovechar una expresión dateTimeOnly o utilizar una función para convertir a dateTimeOnly. Por ejemplo: toDateTimeOnly(@{Event.offerOpened.activity.endTime}), el campo en el caso de que tenga el formato 2016-08-12T09:46:06.
+>Puede aprovechar una expresión dateTimeOnly o utilizar una función para convertir a dateTimeOnly. Por ejemplo: toDateTimeOnly(@{Evento.offerOpened.actividad.endTime}), siendo el campo del evento el formulario 2016-08-12T09:46:06.
 >
 >El **huso** horario se espera en las propiedades del viaje. Como resultado, hoy no es posible desde la interfaz apuntar directamente a una marca de tiempo ISO-8601 completa, mezclando el tiempo y el huso horario como 2016-08-12T09:46:06.982-05. Consulte [](../building-journeys/timezone-management.md).
 
@@ -67,19 +70,19 @@ Esta opción le permite definir una fecha personalizada, por ejemplo, el 12 de j
 
 >[!CAUTION]
 >
->La capacidad de optimización del tiempo de envío de correo electrónico solo está disponible para los clientes que utilicen la función de servicio de datos estándar de Adobe Campaign.
+>La función de optimización del tiempo de envío de correo electrónico solo está disponible para los clientes que utilizan la función de servicio de datos de Adobe Campaign Standard.
 
-Este tipo de espera utiliza una puntuación calculada en la plataforma. La puntuación calcula la tendencia a hacer clic o abrir un correo electrónico en el futuro en función del comportamiento anterior. Tenga en cuenta que el algoritmo que calcula la puntuación necesita una cierta cantidad de datos para funcionar. Como resultado, cuando no tiene datos suficientes, se aplicará el tiempo de espera predeterminado. En el momento de la publicación, se le notificará que se aplica la hora predeterminada.
+Este tipo de espera utiliza una puntuación calculada en el Adobe Experience Platform. La puntuación calcula la tendencia a hacer clic o abrir un correo electrónico en el futuro en función del comportamiento anterior. Tenga en cuenta que el algoritmo que calcula la puntuación necesita una cierta cantidad de datos para funcionar. Como resultado, cuando no tiene datos suficientes, se aplicará el tiempo de espera predeterminado. En el momento de la publicación, se le notificará que se aplica la hora predeterminada.
 
 >[!NOTE]
 >
->El primer evento del viaje debe tener un espacio de nombres.
+>El primer evento de tu viaje debe tener una Área de nombres.
 >
->Esta capacidad solo está disponible después de una **[!UICONTROL Email]** actividad. Debe tener Adobe Campaign Standard.
+>Esta capacidad solo está disponible después de una **[!UICONTROL Email]** actividad. Tienes que tener Adobe Campaign Standard.
 
 1. En el **[!UICONTROL Amount of time]** campo, defina el número de horas que se deben considerar para optimizar el envío de correo electrónico.
 1. En el **[!UICONTROL Optimization type]** campo, elija si la optimización debe aumentar los clics o abrir.
-1. En el campo Tiempo **** predeterminado, defina el tiempo predeterminado de espera si la puntuación de tiempo de envío predictiva no está disponible.
+1. En el **[!UICONTROL Default time]** campo, defina el tiempo predeterminado de espera si la puntuación de tiempo de envío predictiva no está disponible.
 
    >[!NOTE]
    >
