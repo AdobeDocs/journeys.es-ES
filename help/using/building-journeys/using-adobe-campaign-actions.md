@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0630be5b82d681a94eebe2e9a7196081717ec9d
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '888'
 ht-degree: 3%
 
 ---
@@ -39,7 +39,7 @@ Puede utilizar una plantilla de mensajería transaccional de evento (también co
 
 >[!NOTE]
 >
->Cuando enviamos mensajes transaccionales en tiempo real (rtEvent) o cuando enrutamos mensajes con un sistema de terceros gracias a una acción personalizada, se requiere una configuración específica para la fatiga, la lista de bloqueados o la administración baja. Por ejemplo, si se almacena un atributo de &quot;cancelación de suscripción&quot; en el Platform o en un sistema de terceros, deberá agregarse una condición antes de que se envíe el mensaje para comprobar esta condición.
+>Cuando enviamos mensajes transaccionales en tiempo real (rtEvent) o cuando enrutamos mensajes con un sistema de terceros gracias a una acción personalizada, se requiere una configuración específica para la fatiga, la lista de bloqueados o la administración baja. Por ejemplo, si se almacena un atributo de &quot;cancelación de suscripción&quot; en el Adobe Experience Platform o en un sistema de terceros, deberá agregarse una condición antes de que se envíe el mensaje para comprobar esta condición.
 
 Cuando selecciona una plantilla, todos los campos esperados en la carga útil del mensaje se muestran en el panel de configuración de actividad debajo **[!UICONTROL Address]** y **[!UICONTROL Personalization Data]**. Debe asignar cada uno de estos campos al campo que desee utilizar, ya sea desde el evento o desde el origen de datos. También puede utilizar el editor de expresiones avanzado para pasar un valor manualmente, realizar una manipulación de datos en la información recuperada (por ejemplo, convertir una cadena en mayúsculas) o utilizar funciones como &quot;if, then, else&quot;. Consulte [](../expression/expressionadvanced.md).
 
