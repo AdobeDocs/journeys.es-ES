@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 28cb56e5f631acd8e2a49cf0bce55e7226892595
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+workflow-type: tm+mt
+source-wordcount: '541'
+ht-degree: 1%
 
 ---
 
@@ -28,7 +31,7 @@ El editor de expresión avanzada puede utilizarse para crear condiciones que le 
 
 El editor de expresiones avanzado es obligatorio para realizar consultas en series temporales, como una lista de compras o clics anteriores en mensajes. Estas consultas no pueden realizarse con el editor simple.
 
-Los eventos de experiencia se recuperan de la plataforma de experiencias como una colección en orden cronológico inverso, por lo que:
+Los eventos de experiencia se recuperan del Adobe Experience Platform como una colección en orden cronológico inverso, por lo que:
 
 * la primera función devolverá el evento más reciente
 * la última función devolverá la más antigua.
