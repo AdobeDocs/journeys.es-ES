@@ -1,6 +1,6 @@
 ---
-title: Pasos adicionales para enviar eventos al Journey Orchestration
-description: Obtenga información sobre los pasos adicionales para enviar eventos al Journey Orchestration
+title: Additional steps to send events to Journey Orchestration
+description: Learn about additional steps to send events to Journey Orchestration
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a71378264e6cd8a13c616bb867723f827d6dca69
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '319'
 ht-degree: 3%
 
 ---
@@ -28,14 +28,14 @@ ht-degree: 3%
 
 Para configurar los eventos que se enviarán **[!UICONTROL Streaming Ingestion APIs]** y se utilizarán en [!DNL Journey Orchestration], debe seguir estos pasos:
 
-1. Obtenga la URL de entrada de las API de Platform de datos (consulte API [de](https://docs.adobe.com/content/help/es-ES/experience-platform/ingestion/streaming/overview.html)transmisión por secuencias de entrada).
-1. Copie la carga útil de la previsualización de carga útil en el **[!UICONTROL Event]** menú. Consulte [](../event/defining-the-payload-fields.md).
+1. Get the inlet URL from the Adobe Experience Platform APIs (see [Streaming Ingestion APIs](https://docs.adobe.com/content/help/es-ES/experience-platform/ingestion/streaming/overview.html)).
+1. Copy the payload from the payload preview in the **[!UICONTROL Event]** menu. Consulte [](../event/defining-the-payload-fields.md).
 
-A continuación, debe configurar el sistema de datos que envía eventos a las API de inserción de flujo mediante la carga útil copiada:
+You then need to configure the data system that pushes events to Streaming Ingestion APIs using the payload you copied:
 
-1. Configure una llamada de API de POST en la URL de API de inserción de flujo (denominada entrada).
-1. Utilice la carga útil que copió [!DNL Journey Orchestration] en el cuerpo (&quot;sección de datos&quot;) de la llamada de API a las API de inserción de flujo. Vea a continuación un ejemplo
-1. Determine dónde obtener todas las variables presentes en la carga útil. Ejemplo: si se supone que el evento debe transmitir la dirección, la carga útil pegada mostrará &quot;dirección&quot;: &quot;string&quot;. &quot;string&quot; debe reemplazarse por la variable que rellenará automáticamente el valor correcto, el correo electrónico de la persona a la que se enviará un mensaje. Tenga en cuenta que en la previsualización de carga útil, en la **[!UICONTROL Header]** sección, rellenamos automáticamente muchos valores que se espera que faciliten su trabajo.
+1. Set up a POST API call to the Streaming Ingestion APIs URL (called an inlet).
+1. Use the payload you copied from [!DNL Journey Orchestration] in the body (&quot;data section&quot;) of the API call to Streaming Ingestion APIs. See below for an example
+1. Determine where to get all the variables present in the payload. Ejemplo: si se supone que el evento debe transmitir la dirección, la carga útil pegada mostrará &quot;dirección&quot;: &quot;string&quot;. &quot;string&quot; should be replaced by the variable that will automatically populate the right value, the email of the person to send a message to. Tenga en cuenta que en la previsualización de carga útil, en la **[!UICONTROL Header]** sección, rellenamos automáticamente muchos valores que se espera que faciliten su trabajo.
 1. Seleccione &quot;application/json&quot; como tipo de cuerpo.
 1. Pase el identificador de organización de IMS en el encabezado utilizando la clave &quot;x-gw-ims-org-id&quot;. Para el valor, utilice su identificador de organización de IMS (&quot;XXX@AdobeOrg&quot;).
 
