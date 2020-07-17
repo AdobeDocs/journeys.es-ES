@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Tipo: long
 
 ## fetchTypeInError
 
-Define si el error de recuperación se encuentra en la plataforma o en un origen de datos personalizado.
+Define si el error de recuperación está en el Adobe Experience Platform o en un origen de datos personalizado.
 
 Tipo: string
 
@@ -93,13 +93,13 @@ Tipo: long
 
 ## fetchPlatformTotalTime
 
-Cantidad total de tiempo que se tarda en recuperar los datos de la plataforma de datos en millones. Comentario: esta cantidad de tiempo se calcula a partir del momento en que el motor envía el evento de enriquecimiento al servicio de enriquecimiento y recibe la respuesta.
+Tiempo total que se tarda en recuperar los datos del Adobe Experience Platform en milisegundos. Comentario: esta cantidad de tiempo se calcula a partir del momento en que el motor envía el evento de enriquecimiento al servicio de enriquecimiento y recibe la respuesta.
 
 Tipo: long
 
 ## fetchPlatformCount
 
-Cuántas veces se obtienen los datos desde Plataforma.
+La cantidad de veces que se recuperan los datos desde el Adobe Experience Platform.
 
 Tipo: long
 
