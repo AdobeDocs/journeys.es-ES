@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 0%
@@ -23,35 +23,35 @@ ht-degree: 0%
 
 Esta mezcla se compartirá con los eventos travelStepEvent y travelStepProfileEvent.
 
-Estos son los campos XDM comunes que [!DNL Journey Orchestration] se envían a la plataforma de datos de Adobe. Los campos comunes se enviarán para cada paso que se procese en un viaje. Se utilizan campos más específicos para acciones y enriquecimientos personalizados.
+Estos son los campos XDM comunes que [!DNL Journey Orchestration] se envían a Adobe Experience Platform. Los campos comunes se enviarán para cada paso que se procese en un viaje. Se utilizan campos más específicos para acciones y enriquecimientos personalizados.
 
 Algunos de estos campos solo están disponibles en patrones de procesamiento específicos (ejecución de acciones, captura de datos, etc.) para limitar el tamaño de los eventos.
 
 ## entrada
 
-Indica si el usuario ha entrado en el viaje. If not present, we assume that the value is false.
+Indica si el usuario ha entrado en el viaje. Si no está presente, suponemos que el valor es false.
 
 Tipo: booleano
 
-Values: true/false
+Valores: true/false
 
 ## reingreso
 
 Indica si el usuario ha vuelto a entrar en el viaje con la misma instancia. Si no está presente, suponemos que el valor es false.
 
-Type: boolean
+Tipo: booleano
 
 Valores: true/false
 
 ## instanceEnded
 
-Indicates if the instance has ended (successfully or not).
+Indica si la instancia ha finalizado (correctamente o no).
 
-Type: boolean
+Tipo: booleano
 
 ## eventID
 
-Event id in processing, for the step processing. Si el evento es externo, el valor es eventId. Si el evento es interno, el valor es el eventId interno (como scheduleNotificationReceived, executeAction, etc.).
+ID de Evento en proceso para el procesamiento de pasos. Si el evento es externo, el valor es eventId. Si el evento es interno, el valor es el eventId interno (como scheduleNotificationReceived, executeAction, etc.).
 
 Tipo: string
 
@@ -81,27 +81,27 @@ Tipo: string
 
 Valores posibles:
 
-* Condición
+* Condition
 * Acción
 * Planificador
 * Temporizador
 
 ## stepStatus
 
-Estado del paso, que representa el estado del paso, cuando se ha procesado (y se ha activado el evento de paso).
+Status of the step, representing the status of the step, when its processing has been done (and the step event fired).
 
 Tipo: string
 
 El estado puede ser:
 
-* finalizó: el paso no tiene transición y su procesamiento ha finalizado correctamente.
-* error: el procesamiento de pasos ha generado un error.
-* transiciones: el paso está esperando un evento para la transición a otro paso.
+* ended: the step has no transition and its processing has ended successfully.
+* error: the step processing has raised an error.
+* transitions: the step is waiting for an event to transition to another step.
 * capped: el paso ha fallado en un error de límite, generado durante una acción o enriquecimiento.
-* timedout: el paso falló en un error de tiempo de espera, generado durante una acción o enriquecimiento.
+* timedout: the step has failed on a timeout error, raised during an action or enrichment.
 * instanceTimedout: el paso ha detenido su procesamiento porque la instancia ha alcanzado su tiempo de espera.
 
-## journeyID
+## travelID
 
 ID del viaje.
 
@@ -109,13 +109,13 @@ Tipo: string
 
 ## travelVersionID
 
-ID de la versión del viaje. This id represents the identity reference to the journey, in the case of the journeyStepEvent.
+ID de la versión del viaje. Esta identificación representa la referencia de identidad del viaje, en el caso de la función travelStepEvent.
 
 Tipo: string
 
-## journeyVersionName
+## travelVersionName
 
-Name of the journey version.
+Nombre de la versión del viaje.
 
 Tipo: string
 
