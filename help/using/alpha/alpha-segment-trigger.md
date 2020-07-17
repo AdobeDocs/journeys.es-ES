@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c8d28b51f14ba511a860874e45d341a6977c58fa
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 0%
 
 ## Acerca de la actividad Activador de segmentos {#about-segment-trigger-actvitiy}
 
-La actividad Activador de segmentos le permite hacer que todas las personas que pertenecen a un segmento de Experience Platform entren en un viaje. La entrada en un viaje puede realizarse una vez o de forma regular.
+La actividad Activador de segmentos le permite hacer que todas las personas que pertenecen a un segmento de Adobe Experience Platform entren en un viaje. La entrada en un viaje puede realizarse una vez o de forma regular.
 
-Supongamos que tiene un segmento de clientes Gold en Experience Platform. Con la actividad Activador de segmentos, puede hacer que todas las personas pertenecientes al segmento de clientes Gold participen en un viaje y que fluyan en viajes individualizados que aprovechen todas las funcionalidades del viaje: condiciones, temporizadores, eventos, acciones.
+Supongamos que tiene un segmento de clientes Gold en Adobe Experience Platform. Con la actividad Activador de segmentos, puede hacer que todas las personas pertenecientes al segmento de clientes Gold participen en un viaje y que fluyan en viajes individualizados que aprovechen todas las funcionalidades del viaje: condiciones, temporizadores, eventos, acciones.
 
 >[!NOTE]
 >
@@ -39,13 +39,13 @@ Supongamos que tiene un segmento de clientes Gold en Experience Platform. Con la
 
 1. Configure the activity **[!UICONTROL Scheduler type]**.
 
-   De forma predeterminada, el segmento entrará en el viaje **[!UICONTROL As soon as possible]**, es decir, 1 hora después de que se publique el viaje. Si desea que el segmento introduzca el viaje en una fecha/hora específica o de forma recurrente, seleccione la opción deseada en la lista.
+   De forma predeterminada, el segmento entrará en el viaje **[!UICONTROL As soon as possible]**, es decir, una hora después de que se publique el viaje. Si desea que el segmento introduzca el viaje en una fecha/hora específica o de forma recurrente, seleccione la opción deseada en la lista.
 
    En caso de viajes recurrentes, también puede definir el inicio y el final del viaje.
 
    ![](../assets/segment-trigger-schedule.png)
 
-1. En el **[!UICONTROL Segment]** campo, elija el segmento Experience Platform que entrará en el viaje y haga clic en **[!UICONTROL Save]**.
+1. En el **[!UICONTROL Segment]** campo, elija el segmento de Adobe Experience Platform que entrará en el viaje y haga clic en **[!UICONTROL Save]**.
 
    ![](../assets/segment-trigger-segment-selection.png)
 
@@ -69,6 +69,6 @@ Supongamos que tiene un segmento de clientes Gold en Experience Platform. Con la
 
    >[!IMPORTANT]
    >
-   >Tenga en cuenta que los segmentos de Experience Platform se calculan una vez al día (segmentos de **lote** ) o en tiempo real (segmentos de **flujo** ).
+   >Tenga en cuenta que los segmentos de Adobe Experience Platform se calculan una vez al día (segmentos de **lote** ) o en tiempo real (segmentos de **flujo** ).
    >
-   >Si se transmite el segmento seleccionado, los individuos pertenecientes a este segmento potencialmente entrarán en el viaje en tiempo real. Si el segmento es por lotes, las personas recién calificadas para este segmento posiblemente entrarán en el viaje cuando el cálculo del segmento se ejecute en el Experience Platform.
+   >Si se transmite el segmento seleccionado, los individuos pertenecientes a este segmento potencialmente entrarán en el viaje en tiempo real. Si el segmento es por lotes, las personas recién calificadas para este segmento posiblemente entrarán en el viaje cuando el cálculo del segmento se ejecute en el Adobe Experience Platform.
