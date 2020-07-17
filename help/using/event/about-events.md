@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 76%
+source-wordcount: '714'
+ht-degree: 71%
 
 ---
 
@@ -36,11 +36,11 @@ Si edita un evento utilizado en un recorrido en borrador o activo, solo puede ca
 
 ## Principio general {#section_r1f_xqt_pgb}
 
-Los eventos son llamadas de API POST. Los eventos se envían a la plataforma de datos de Adobe Experience Cloud a través de las API de ingesta de flujos. El destino URL de los eventos enviados a través de las API de mensajería transaccional se denomina &quot;entrada&quot;. La carga útil de eventos sigue el formato XDM.
+Los eventos son llamadas de API POST. Los Eventos se envían al Adobe Experience Platform a través de las API de inserción de flujo. El destino URL de los eventos enviados a través de las API de mensajería transaccional se denomina &quot;entrada&quot;. La carga útil de eventos sigue el formato XDM.
 
 The payload contains information required by Streaming Ingestion APIs to work (in the header) and the information required by [!DNL Journey Orchestration] to work (the event ID, part of the payload body) and information to be used in journeys (in the body, for example, the amount of an abandoned cart). Existen dos modos para la transmisión de flujo continuo: autenticado y no autenticado. Para obtener más información sobre las API de ingesta de flujos, consulte [este vínculo](https://docs.adobe.com/content/help/es-ES/experience-platform/xdm/api/getting-started.html).
 
-Después de llegar a través de las API de ingesta de flujos, los eventos fluyen a un servicio interno llamado Canalización y, a continuación, a la plataforma de datos. Si el esquema de evento tiene habilitado el indicador de Servicio de Perfil del cliente en tiempo real y un ID de conjunto de datos que también tiene el indicador de Perfil del cliente en tiempo real, se desplaza al servicio de Perfil del cliente en tiempo real.
+Después de llegar a través de las API de inserción de flujo, los eventos fluyen a un servicio interno llamado Canalización y, a continuación, en el Adobe Experience Platform. Si el esquema de evento tiene habilitado el indicador de Servicio de Perfil del cliente en tiempo real y un ID de conjunto de datos que también tiene el indicador de Perfil del cliente en tiempo real, se desplaza al servicio de Perfil del cliente en tiempo real.
 
 The Pipeline filters events which have a payload containing [!DNL Journey Orchestration] eventIDs (see the event creation process below) provided by [!DNL Journey Orchestration] and contained in event payload. These events are listened by [!DNL Journey Orchestration] and the corresponding journey is triggered.
 
