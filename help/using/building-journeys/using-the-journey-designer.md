@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1335'
 ht-degree: 4%
 
 ---
@@ -49,9 +49,9 @@ La **paleta** se encuentra en el lado izquierdo de la pantalla. Todas las activi
 
 ![](../assets/journey38.png)
 
-El icono **Mostrar elementos** desactivados en la esquina superior izquierda permite ocultar o mostrar elementos no disponibles en la paleta, por ejemplo, los eventos que utilizan una Área de nombres distinta a la utilizada en el viaje. De forma predeterminada, los elementos no disponibles están ocultos. Si elige mostrarlos, aparecerán atenuados.
+The **[!UICONTROL Show disabled items]** icon in the top left corner allows you to hide or display unavailable elements in the palette, for example the events that use a different namespace than the ones used in your journey. De forma predeterminada, los elementos no disponibles están ocultos. Si elige mostrarlos, aparecerán atenuados.
 
-Al utilizar el campo **Buscar** , se muestra el número de resultados para cada categoría de actividad de lienzo.
+Al utilizar el **[!UICONTROL Search]** campo, se muestra el número de resultados para cada categoría de actividad de lienzo.
 
 ![](../assets/palette-filter.png)
 
