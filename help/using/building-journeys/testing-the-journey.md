@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0c7a9d679e2bf20c58aaea81e134c41b401e11ac
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '1151'
 ht-degree: 2%
@@ -33,7 +33,7 @@ Para utilizar el modo de prueba, siga estos pasos:
 
    ![](../assets/journeytest1.png)
 
-1. Utilice el parámetro de tiempo de **espera en la prueba** , en la esquina inferior izquierda, para definir el tiempo que durará cada actividad de espera en el modo de prueba. El valor del tiempo predeterminado es de 10 segundos. Esto garantizará que los resultados de la prueba se obtengan rápidamente. Este parámetro solo aparece si ha soltado una o más actividades de espera en el viaje.
+1. Utilice el **[!UICONTROL Wait time in test]** parámetro, en la esquina inferior izquierda, para definir el tiempo que durará cada actividad de espera en el modo de prueba. El valor del tiempo predeterminado es de 10 segundos. Esto garantizará que los resultados de la prueba se obtengan rápidamente. Este parámetro solo aparece si ha soltado una o más actividades de espera en el viaje.
 
    ![](../assets/journeytest_wait.png)
 
@@ -51,17 +51,17 @@ Para utilizar el modo de prueba, siga estos pasos:
 
 * Se proporciona una interfaz para activar eventos en el viaje probado, pero también se pueden enviar eventos mediante sistemas de terceros como Postman.
 * Sólo los individuos marcados como &quot;perfiles de prueba&quot; en el servicio de Perfil de clientes en tiempo real podrán participar en el viaje comprobado. Consulte [](../building-journeys/testing-the-journey.md#create-test-profile).
-* El modo de prueba solo está disponible en los desplazamientos de borrador que utilizan una Área de nombres. De hecho, el modo de prueba debe comprobar si una persona que entra en el viaje es un perfil de prueba o no y, por lo tanto, debe poder llegar al Platform de datos.
+* El modo de prueba solo está disponible en los desplazamientos de borrador que utilizan una Área de nombres. El modo de prueba debe comprobar si una persona que entra en el viaje es un perfil de prueba o no y, por tanto, debe poder llegar al Adobe Experience Platform.
 * El número máximo de perfiles de prueba que pueden entrar en un viaje durante una sesión de prueba es de 100.
-* Al desactivar el modo de prueba, se vacía el trayecto de todas las personas que lo hayan introducido en el pasado o que se encuentren en él.
+* Al desactivar el modo de prueba, se vacía el trayecto de todas las personas que lo hayan introducido en el pasado o que se encuentren en él. También borra el sistema de informes.
 * Puede habilitar/deshabilitar el modo de prueba tantas veces como sea necesario.
 * No se puede modificar el viaje cuando se activa el modo de prueba. En el modo de prueba, puede publicar directamente el viaje, sin necesidad de desactivar antes el modo de prueba.
 
 ## Creating a test profile{#create-test-profile}
 
-El proceso para crear un perfil de prueba es el mismo que cuando se crea un perfil en el Experience Platform. Se realiza a través de llamadas de API. See this [page](https://docs.adobe.com/content/help/es-ES/experience-platform/profile/home.html)
+El proceso para crear un perfil de prueba es el mismo que cuando se crea un perfil en el Adobe Experience Platform. Se realiza a través de llamadas de API. See this [page](https://docs.adobe.com/content/help/es-ES/experience-platform/profile/home.html)
 
-Debe utilizar un esquema de Perfil que contenga la combinación &quot;detalles de la prueba de perfil&quot;. De hecho, el indicador testProfile forma parte de esta mezcla.
+Debe utilizar un esquema de Perfil que contenga la combinación &quot;detalles de la prueba de perfil&quot;. El indicador testProfile forma parte de esta combinación.
 
 Al crear un perfil, asegúrese de pasar el valor: testprofile = true.
 
@@ -71,7 +71,7 @@ Este es un ejemplo de una llamada de API para crear un perfil de prueba:
 
 ```
 curl -X POST \
-'https://example.adobe.com/collection/xxxxxxxxxxxxxx' \
+'https://dcs.adobedc.net/collection/xxxxxxxxxxxxxx' \
 -H 'Cache-Control: no-cache' \
 -H 'Content-Type: application/json' \
 -H 'Postman-Token: xxxxx' \
@@ -119,7 +119,7 @@ El **[!UICONTROL Trigger an event]** botón permite configurar un evento que har
 >
 >Cuando se activa un evento en el modo de prueba, se genera un evento real, lo que significa que también se producirá otro viaje escuchando este evento.
 
-Como requisito previo, debe saber qué perfiles están marcados como perfiles de prueba en el Platform de datos. De hecho, el modo de prueba sólo permite estos perfiles en el viaje y el evento debe contener una identificación. El ID esperado depende de la configuración de evento. Puede ser un ECID, por ejemplo.
+Como requisito previo, debe saber qué perfiles están marcados como perfiles de prueba en el Adobe Experience Platform. De hecho, el modo de prueba sólo permite estos perfiles en el viaje y el evento debe contener una identificación. El ID esperado depende de la configuración de evento. Puede ser un ECID, por ejemplo.
 
 Si el viaje contiene varios eventos, utilice la lista desplegable para seleccionar un evento. A continuación, configure para cada evento los campos pasados y la ejecución del envío de eventos. La interfaz le ayuda a pasar la información correcta en la carga útil de evento y a asegurarse de que el tipo de información es correcto. El modo de prueba guarda los últimos parámetros utilizados en una sesión de prueba para su uso posterior.
 
@@ -131,7 +131,7 @@ La interfaz le permite pasar parámetros de evento sencillos. Si desea pasar col
 
 Un usuario técnico también puede utilizar esta interfaz para componer cargas de evento y activar eventos sin tener que utilizar una herramienta de terceros.
 
-Al hacer clic en el botón **Enviar** , se inicia la prueba. La progresión del individuo en el viaje se representa mediante un flujo visual. El camino se vuelve progresivamente verde a medida que el individuo se mueve a lo largo del viaje. Si se produce un error, se muestra un símbolo de advertencia en el paso correspondiente. Puede colocar el cursor sobre él para mostrar más información sobre el error y acceder a todos los detalles (cuando esté disponible).
+Al hacer clic en el **[!UICONTROL Send]** botón, comienza la prueba. La progresión del individuo en el viaje se representa mediante un flujo visual. El camino se vuelve progresivamente verde a medida que el individuo se mueve a lo largo del viaje. Si se produce un error, se muestra un símbolo de advertencia en el paso correspondiente. Puede colocar el cursor sobre él para mostrar más información sobre el error y acceder a todos los detalles (cuando esté disponible).
 
 ![](../assets/journeytest6.png)
 
