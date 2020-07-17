@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '252'
 ht-degree: 2%
 
 ---
@@ -45,9 +45,9 @@ Para ello, en **[!UICONTROL Properties]**, seleccione un huso horario.
 
 ## Uso de perfiles para definir la zona horaria del viaje {#timezone-from-profiles}
 
-Si el evento de entrada del viaje tiene una Área de nombres, lo que significa que el viaje puede llegar al servicio de Perfil del cliente en tiempo real de la plataforma de datos, el huso horario se define previamente con el especificado en el perfil del individuo que fluye en el viaje.
+Si el evento de entrada del viaje tiene una Área de nombres, lo que significa que el viaje puede llegar al servicio de Perfil del cliente en tiempo real del Adobe Experience Platform, el huso horario se define previamente con el especificado en el perfil del viajero.
 
-Si se define una zona horaria en el perfil de la plataforma de experiencia, se puede recuperar durante el viaje.
+Si se define una zona horaria en el perfil de Adobe Experience Platform, se puede recuperar en el viaje.
 
 Si el perfil del individuo no contiene una zona horaria, la zona horaria recuperada será la definida en el campo de zona horaria.
 
