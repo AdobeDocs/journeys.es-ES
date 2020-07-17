@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2f0d235ce1808f632b731fc2077b10a31a178e4b
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '141'
 ht-degree: 5%
 
 ---
@@ -22,14 +22,14 @@ ht-degree: 5%
 
 # Creación de un segmento {#creating-a-segment}
 
-Puede crear un segmento mediante el servicio [de segmentación de](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) plataformas o puede acceder a él y crearlo directamente en [!DNL Journey Orchestration].
+Puede crear un segmento mediante el servicio [de segmentación de](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) Adobe Experience Platform o puede acceder a él y crearlo directamente en [!DNL Journey Orchestration].
 
-1. En el menú superior, haga clic en la pestaña **[!UICONTROL Segments]**. The list of Platform segments is displayed. Puede buscar un segmento específico en la lista.
+1. En el menú superior, haga clic en la pestaña **[!UICONTROL Segments]**. Se muestra la lista de los segmentos de Adobe Experience Platform. Puede buscar un segmento específico en la lista.
 
 ![](../assets/segment1.png)
 
-1. Click **[!UICONTROL Add]** to create a new segment. La pantalla de definición de segmentos le permite configurar todos los campos requeridos para definir el segmento. La configuración es la misma que en el servicio de segmentación. Refer to the [Segment Builder user guide](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
+1. Click **[!UICONTROL Add]** to create a new segment. La pantalla de definición de segmentos le permite configurar todos los campos requeridos para definir el segmento. La configuración es la misma que en el servicio de segmentación. Consulte la guía del usuario [del Generador de segmentos](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
 
 ![](../assets/segment2.png)
 
-Your segment can now be used in your journeys to build conditions or add a **Segment qualification** event. See [Using segments in conditions](../segment/using-a-segment.md) and [Events activities](../building-journeys/event-activities.md#segment-qualification).
+El segmento ahora se puede usar en los viajes para crear condiciones o agregar un **[!UICONTROL Segment qualification]** evento. Consulte [Uso de segmentos en actividades](../segment/using-a-segment.md) de condiciones y [Eventos](../building-journeys/segment-qualification-events.md).
