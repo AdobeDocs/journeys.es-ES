@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 3%
 
 ---
 
@@ -20,14 +23,14 @@ source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
 
 ![](../assets/messageparameterssection.png)
 
-En la **[!UICONTROL Message parameters]**sección , pegue un ejemplo de la carga útil JSON para enviarla al servicio externo.
+En la **[!UICONTROL Message parameters]** sección , pegue un ejemplo de la carga útil JSON para enviarla al servicio externo.
 
 
 ![](../assets/customactionpayloadmessage.png)
 
-Podrá definir si el tipo de parámetro es correcto (por ejemplo: cadena, entero, etc.).
+Podrá definir si el tipo del parámetro es correcto (por ejemplo: cadena, entero, etc.).
 
 También tendrá la opción de especificar que un parámetro es una constante o una variable:
 
 * Constante significa que el valor del parámetro se define en el panel de configuración de la acción por una persona técnica. El valor será siempre el mismo en todos los viajes. No variará y el especialista en marketing no lo verá cuando utilice la acción personalizada en el viaje. Podría ser, por ejemplo, un ID que el sistema de terceros espera. En ese caso, el campo a la derecha de la constante o variable de alternancia es el valor pasado.
-* Variable significa que el valor del parámetro variará. El especialista en mercadotecnia que utilice esta acción personalizada en un viaje podrá pasar el valor que desee o especificar dónde recuperar el valor para este parámetro (por ejemplo, desde el evento, desde la plataforma de datos...). En ese caso, el campo a la derecha de la constante o variable de alternancia es la etiqueta que el especialista en mercadotecnia verá en el viaje para nombrar este parámetro.
+* Variable significa que el valor del parámetro variará. El comerciante que utilice esta acción personalizada en un viaje podrá pasar el valor que desee o especificar dónde recuperar el valor de este parámetro (por ejemplo, desde el evento, desde el Adobe Experience Platform, etc.). En ese caso, el campo a la derecha de la constante o variable de alternancia es la etiqueta que el especialista en mercadotecnia verá en el viaje para nombrar este parámetro.
