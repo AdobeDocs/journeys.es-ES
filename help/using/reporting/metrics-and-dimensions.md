@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c6e7c27865eb34961f8901c9bde2c09527f67f15
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1035'
 ht-degree: 2%
 
 ---
@@ -38,7 +38,7 @@ La tabla siguiente le proporciona la lista de las dimensiones utilizadas en los 
 | Dimensiones | Definición |
 |--- |--- |
 | **Acción** | Lista de cada acción (nombre de la **acción - etiqueta** de acción) utilizada en los viajes, por ejemplo: push - confirmación de salida, correo electrónico - fidelidad de las recompensas. |
-| **Fuente de datos** | Lista de las fuentes de datos (nombre **de fuente de** datos) utilizadas para enriquecer los datos en un viaje, por ejemplo: plataforma de experiencia, sistema de reservación. |
+| **Fuente de datos** | Lista de fuentes de datos (nombre **de fuente de** datos) utilizadas para enriquecer datos en un viaje, por ejemplo, la plataforma Adobe Experience, el sistema Reservation. |
 | **[!UICONTROL Event]** | Lista de cada evento (nombre del **evento - etiqueta** de evento) utilizado en viajes, por ejemplo, evento Geometrixx - salida de Geometrixx. |
 | **Grupo de campos** | Lista de los grupos de campos (nombre **del grupo de** campos) utilizados para enriquecer los datos en viajes, por ejemplo, el grupo de campos de Perfil, el sistema de reservas de Geometrixx. |
 | **Recorrido** | Lista de cada viaje (nombre **del** viaje) en modo de prueba y activo, por ejemplo, abandono del carro de compras, notificación de reserva de hoteles. |
@@ -94,8 +94,8 @@ La tabla siguiente le proporciona la lista de las métricas utilizadas en los in
 
 | Métrica | Definición |
 |--- |--- |
-| **En la lista de bloques** | Número de destinatarios que declararon un correo electrónico como correo no deseado o no deseado. |
-| **Índice de lista de bloques** | Número total de mensajes en la lista de bloqueo en comparación con los mensajes enviados. |
+| **En lista de bloqueados** | Número de destinatarios que declararon un correo electrónico como correo no deseado o no deseado. |
+| **Tasa de Lista de bloqueados** | Número total de mensajes en lista de bloqueados en comparación con los mensajes enviados. |
 | **Devoluciones + errores** | Total de errores acumulados durante el envío y el procesamiento de devolución automático en relación con el número total de mensajes enviados. |
 | **Devoluciones + tasa de error** | Número total de mensajes devueltos en comparación con los mensajes enviados. |
 | **Haga clic** | Número de veces que se hizo clic en un contenido en un envío. |
