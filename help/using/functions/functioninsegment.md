@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7e69b19f2b7099e5c015dd1052a58728cf143ffa
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 7%
 
 ---
 
@@ -22,7 +25,7 @@ Comprueba si un individuo pertenece a un segmento determinado.
 
 El nombre del segmento debe ser una constante de cadena. No puede ser una referencia de campo ni una expresión.
 
-Los segmentos se definen en la plataforma [de](https://platform.adobe.com/segment/overview)Adobe Experience. El editor de expresiones proporciona una lista de segmentos completada automáticamente.
+Los segmentos se definen en el [Adobe Experience Platform](https://platform.adobe.com/segment/overview). El editor de expresiones proporciona una lista de segmentos completada automáticamente.
 
 >[!NOTE]
 >
@@ -54,4 +57,4 @@ Devuelve un valor booleano.
 
 Explicación:
 
-La función regresará **[!UICONTROL true]**si el individuo dentro de la instancia del viaje es parte del segmento de la plataforma llamado &quot;hombres mayores de 50&quot;, de lo contrario**[!UICONTROL false]** .
+La función regresará **[!UICONTROL true]** si el individuo dentro de la instancia de viaje es parte del segmento de Adobe Experience Platform llamado &quot;hombres mayores de 50&quot;, de lo contrario **[!UICONTROL false]** .
