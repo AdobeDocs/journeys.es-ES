@@ -1,5 +1,5 @@
 ---
-title: Acerca de la creación de un viaje
+title: Acerca de la creación de un recorrido
 description: Aprenda a construir un viaje
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -11,31 +11,34 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d5c013ed6031e8138a8e2c099fc28af82966d3ec
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+workflow-type: tm+mt
+source-wordcount: '365'
+ht-degree: 10%
 
 ---
 
 
 
-# Creación de un viaje {#concept_gq5_sqt_52b}
+# Creación de un recorrido {#concept_gq5_sqt_52b}
 
-Este paso lo realiza el usuario **** comercial. Aquí es donde crea sus viajes. Combine las diferentes actividades de evento, orquestación y acción para crear los escenarios de varios pasos entre canales.
+This step is performed by the **business user**. Aquí es donde crea sus viajes. Combine las distintas actividades de evento, orquestación y acción para crear sus escenarios de canal cruzado de varios pasos.
 
-La interfaz de viaje permite arrastrar y soltar fácilmente las actividades de la paleta en el lienzo. También puede hacer doble clic en una actividad para agregarla al lienzo en el siguiente paso disponible. Cada actividad tiene una función y un lugar específicos en el proceso. Las actividades se secuencian. Cuando finaliza una actividad, el flujo continúa y procesa la siguiente actividad, etc.
+La interfaz de viaje permite arrastrar y soltar fácilmente actividades de la paleta en el lienzo. También puede hacer clic con el botón doble en una actividad para agregarla al lienzo en el siguiente paso disponible. Cada actividad tiene una función y un lugar específicos en el proceso. Las actividades se secuencian. Cuando finaliza una actividad, el flujo continúa y procesa la siguiente actividad, etc.
 
-Solo se permite un espacio de nombres por viaje. Al soltar el primer evento, los eventos con diferentes espacios de nombres aparecerán atenuados. Si el primer evento no tiene un espacio de nombres, todos los eventos con un espacio de nombres aparecerán atenuados. Consulte [](../event/selecting-the-namespace.md). Además, los grupos de campos de la plataforma de experiencia aparecen atenuados si el viaje tiene eventos sin espacio de nombres. Y finalmente, si se utilizan varios eventos en el mismo viaje, deben utilizar el mismo espacio de nombres.
+Sólo se permite una Área de nombres por viaje. Cuando sueltes el primer evento, los eventos con diferentes Áreas de nombres aparecerán atenuados. Si el primer evento no tiene una Área de nombres, entonces todos los eventos con una Área de nombres estarán atenuados. Consulte [](../event/selecting-the-namespace.md). Además, los grupos de campo de Adobe Experience Platform aparecen atenuados si el viaje tiene eventos sin Área de nombres. Y finalmente, si uno usa varios eventos en el mismo viaje, ellos necesitan usar la misma Área de nombres.
 
 ## Quick start {#creating_journey}
 
 Estos son los pasos principales para crear y publicar un viaje.
 
-1. En el menú superior, haga clic en la **[!UICONTROL Home]** ficha.
+1. En el menú superior, haga clic en la pestaña **[!UICONTROL Home]**.
 
-   Se muestra la lista de viajes. Consulte [](../building-journeys/using-the-journey-designer.md) para obtener más información sobre la interfaz.
+   Se muestra la lista de los viajes. Consulte [](../building-journeys/using-the-journey-designer.md) para obtener más información sobre la interfaz.
 
    ![](../assets/journey30.png)
 
-1. Haga clic **[!UICONTROL Create]** para crear un nuevo viaje.
+1. Click **[!UICONTROL Create]** to create a new journey.
 
    ![](../assets/journey31.png)
 
@@ -43,7 +46,7 @@ Estos son los pasos principales para crear y publicar un viaje.
 
    ![](../assets/journey32.png)
 
-1. Comience por arrastrar y soltar una actividad de evento desde la paleta en el lienzo. También puede hacer doble clic en una actividad para agregarla al lienzo.
+1. Para Inicio, arrastre y suelte una actividad de evento de la paleta en el lienzo. También puede hacer clic con el doble en una actividad para agregarla al lienzo.
 
    ![](../assets/journey33.png)
 
@@ -59,7 +62,7 @@ Estos son los pasos principales para crear y publicar un viaje.
 
 Existen dos maneras de terminar un viaje:
 
-* La persona llega a la última actividad de una ruta. Esta última actividad puede ser una actividad final u otra actividad. No existe la obligación de finalizar una ruta con una actividad final. Consulte [](../building-journeys/end-activity.md).
+* La persona llega a la última actividad de un camino. Esta última actividad puede ser una actividad final u otra actividad. No existe la obligación de poner fin a una ruta con una actividad final. Consulte [](../building-journeys/end-activity.md).
 * La persona llega a una actividad de condición (o a una actividad de espera con una condición) y no cumple ninguna de las condiciones.
 
 La persona puede volver a entrar en el viaje si se permite la reentrada. Consulte [](../building-journeys/changing-properties.md).
