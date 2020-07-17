@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 18cc34f4c2f8f75ec42c70ec9a92784aed4358d9
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
@@ -23,12 +23,12 @@ ht-degree: 0%
 
 La API del cliente forma parte de los servicios inteligentes. Ayuda a predecir lo que es probable que haga un cliente. See the [documentation](https://docs.adobe.com/content/help/en/experience-platform/intelligent-services/customer-ai/overview.html).
 
-La API del cliente permite a las marcas crear puntuaciones basadas en el aprendizaje automático de conversión o de reproducción que estarán disponibles como atributos de perfil en los perfiles de Experience Platform (Perfil del cliente en tiempo real).
+La API del cliente permite a las marcas crear puntuaciones basadas en el aprendizaje automático de conversión o de reproducción que estarán disponibles como atributos de perfil en los perfiles de Adobe Experience Platform (Perfil del cliente en tiempo real).
 
 Como resultado, pueden utilizarse como cualquier otro atributo de perfil en las condiciones de Journey Orchestration (para tomar las mejores decisiones), acciones o creación de segmentos.
 
 ![](../assets/customer-ai.png)
 
-Tenga en cuenta que la API del cliente es una característica de pago del Experience Platform.
+Tenga en cuenta que la API del cliente es una característica de pago del Adobe Experience Platform.
 
 
