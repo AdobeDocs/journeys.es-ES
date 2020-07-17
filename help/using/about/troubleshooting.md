@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '1034'
 ht-degree: 0%
 
 ---
@@ -43,13 +43,15 @@ Se pueden mostrar dos colores diferentes en el signo situado junto al **[!UICONT
 
 Los errores y las advertencias que son globales para el viaje aparecen primero en la lista. Los errores y las advertencias relacionados con actividades específicas se enumeran después, por orden de actividad o en el recorrido de izquierda a derecha. El **[!UICONTROL Copy details]** botón copia información técnica sobre el viaje que el equipo de asistencia puede utilizar para solucionar problemas.
 
+Cuando se produce un error en una acción o condición, se detiene el viaje de un individuo. La única manera de que continúe es marcar la casilla **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Consulte [](../building-journeys/using-the-journey-designer.md#paths).
+
 ## Comprobando que los eventos se envían correctamente{#section_rqz_11t_dgb}
 
 El punto de partida de un viaje es siempre un evento. Puede realizar pruebas con herramientas como Postman.
 
 Puede comprobar si la llamada de API que envía a través de estas herramientas se envía correctamente o no. Si vuelve a recibir un error, significa que la llamada tiene un problema. Vuelva a comprobar la carga útil, el encabezado (y especialmente el ID de organización) y la dirección URL de destino. Puede preguntar a su administrador cuál es la dirección URL correcta para visitar.
 
-Los Eventos no se insertan directamente de la fuente a [!DNL Journey Orchestration]. De hecho, [!DNL Journey Orchestration] se basa en las API de inserción de flujo continuo de la plataforma de experiencia. Como resultado, en caso de problemas relacionados con el evento, puede consultar esta [página](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html) para la solución de problemas de las API de inserción de flujo continuo.
+Los Eventos no se insertan directamente de la fuente a [!DNL Journey Orchestration]. De hecho, [!DNL Journey Orchestration] se basa en las API de transmisión de Adobe Experience Platform. Como resultado, en caso de problemas relacionados con el evento, puede consultar esta [página](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html) para la solución de problemas de las API de inserción de flujo continuo.
 
 ## Comprobando si las personas entran en el viaje{#section_x4v_zzs_dgb}
 
@@ -84,7 +86,7 @@ A continuación se presentan algunas cosas para comprobar:
 
 Si los individuos fluyen por el camino correcto en el viaje pero no reciben mensajes que deberían recibir, puede comprobar si:
 
-* La mensajería transaccional ha tenido correctamente en cuenta la solicitud para enviar el mensaje. Un usuario de negocios puede acceder al mensaje transaccional que se supone que debe enviarse y comprobar si la hora de la última ejecución corresponde al tiempo de ejecución del viaje. También puede consultar las últimas llamadas o eventos de API recibidas mediante mensajes transaccionales.
+* La mensajería transaccional ha tenido correctamente en cuenta la solicitud para enviar el mensaje. Un usuario de negocios puede acceder al mensaje transaccional que se supone que debe enviarse y comprobar si la hora de la última ejecución corresponde al tiempo de ejecución del viaje. También puede consultar las últimas llamadas y eventos de API recibidas mediante mensajes transaccionales.
 * La mensajería transaccional ha enviado correctamente el mensaje. En los registros de envío del mensaje transaccional, puede ver el estado de cada ejecución. Pueden ver si es verde, rojo y cuál fue el problema. Un usuario comercial puede acceder a esta pantalla y enviar los registros a un administrador para realizar más investigaciones.
 
 En el caso de un mensaje enviado mediante una acción personalizada, lo único que se puede comprobar durante la prueba de viaje es el hecho de que la llamada del sistema de la acción personalizada produce un error o no. Si la llamada al sistema externo asociada con la acción personalizada no genera un error pero no conduce al envío de un mensaje, algunas investigaciones deben realizarse en el sistema externo.
