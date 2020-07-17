@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Ayuda de Journey Orchestration
 index: true
 translation-type: tm+mt
-source-git-commit: 18cc34f4c2f8f75ec42c70ec9a92784aed4358d9
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 80%
+source-wordcount: '382'
+ht-degree: 78%
 
 ---
 
@@ -59,7 +59,11 @@ ht-degree: 80%
       + [Finalización de un recorrido](using/building-journeys/terminating-a-journey.md)
       + [Administración de husos horarios](using/building-journeys/timezone-management.md)
    + Actividades {#about-journey-building}
-      + [Actividades de eventos](using/building-journeys/event-activities.md)
+      + Actividades de eventos {#events-activities}
+         + [Acerca de las actividades de eventos](using/building-journeys/event-activities.md)
+         + [eventos generales](using/building-journeys/general-events.md)
+         + [eventos de reacción](using/building-journeys/reaction-events.md)
+         + [eventos de calificación de segmentos](using/building-journeys/segment-qualification-events.md)
       + Actividades de organización {#orchestration-activities}
          + [Acerca de las actividades de organización](using/building-journeys/about-orchestration-activities.md)
          + [Actividad de condición](using/building-journeys/condition-activity.md)
@@ -71,7 +75,7 @@ ht-degree: 80%
          + [Uso de acciones personalizadas](using/building-journeys/using-custom-actions.md)
    + [Prueba del recorrido](using/building-journeys/testing-the-journey.md)
    + [Publicación del recorrido](using/building-journeys/publishing-the-journey.md)
-   + Uso compartido de los pasos del viaje con Platform {#sharing-journey-steps}
+   + Uso compartido de los pasos del viaje con Adobe Experience Platform {#sharing-journey-steps}
       + [Información general sobre el uso compartido de los pasos del viaje](using/building-journeys/sharing-overview.md)
       + [campos comunes de los eventos de los pasos del viaje](using/building-journeys/sharing-common-fields.md)
       + [Campos de ejecución de la acción eventos de la travesíaPaso](using/building-journeys/sharing-execution-fields.md)
