@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 11c266b035bc1bb83cccf4e3958e54e1eb00e9f4
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '708'
 ht-degree: 1%
 
 ---
@@ -49,12 +49,15 @@ El modo simple permite realizar consultas sencillas basadas en una combinación 
 
 ![](../assets/journey64.png)
 
-Si utiliza el servicio [de segmentación de](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) plataformas para crear sus segmentos, puede aprovecharlos en las condiciones de su viaje. Consulte [Uso de segmentos en condiciones](../segment/using-a-segment.md).
+Si utiliza el servicio [de segmentación de](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) Adobe Experience Platform para crear sus segmentos, puede aprovecharlos en las condiciones de su viaje. Consulte [Uso de segmentos en condiciones](../segment/using-a-segment.md).
 
 
 >[!NOTE]
 >
 >No puede realizar consultas en series temporales (por ejemplo, una lista de compras, clics anteriores en mensajes) con el editor simple. Para ello, deberá utilizar el editor avanzado. Consulte [](../expression/expressionadvanced.md).
+
+
+Cuando se produce un error en una acción o condición, se detiene el viaje de un individuo. La única manera de que continúe es marcar la casilla **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Consulte [](../building-journeys/using-the-journey-designer.md#paths).
 
 ## Condición de fuente de datos {#data_source_condition}
 
@@ -89,6 +92,6 @@ Esto le permite definir un flujo diferente en función de la fecha. Por ejemplo,
 
 >[!NOTE]
 >
->The time zone is no longer specific to a condition and is now defined at the journey level in the journey properties. Consulte [](../building-journeys/timezone-management.md).
+>El huso horario ya no es específico de una condición y ahora se define en el nivel de viaje en las propiedades del viaje. Consulte [](../building-journeys/timezone-management.md).
 
 ![](../assets/journey53.png)
