@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 295112e2d18fd275a0fd2826aa8bd87a8ed12636
+source-git-commit: 2a55139697347ade80959f60bf52bfde39e43eb9
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 5%
@@ -25,7 +25,7 @@ Estas son algunas limitaciones con respecto al uso de acciones personalizadas:
 
 * No existe el almacenamiento en búfer/suavizado del volumen de envío.
 * En caso de error se realizan dos reintentos de forma sistemática. No se puede ajustar el número de reintentos según el mensaje de error recibido.
-* El **[!UICONTROL Reaction]** evento integrado le permite reaccionar a las acciones integradas (consulte [](../building-journeys/event-activities.md)). Si desea reaccionar a un mensaje enviado mediante una acción personalizada, debe configurar un evento dedicado.
+* El **[!UICONTROL Reaction]** evento integrado le permite reaccionar a las acciones integradas (consulte [](../building-journeys/reaction-events.md)). Si desea reaccionar a un mensaje enviado mediante una acción personalizada, debe configurar un evento dedicado.
 * La URL de acción personalizada no admite parámetros dinámicos.
 * Solo se admiten los métodos de llamada POST y PUT.
 * El nombre del parámetro de consulta o del encabezado no debe tener inicio con &quot;.&quot; o &quot;$&quot;.
