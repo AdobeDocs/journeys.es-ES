@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 18364d6e93b48e065b21bbaddee33e7ba4d9274d
+source-git-commit: 71b5b1ecd20056d0103ae1a8b83a31478449e844
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 59%
+source-wordcount: '714'
+ht-degree: 52%
 
 ---
 
@@ -26,20 +26,24 @@ You can also consult the [!DNL Journey Orchestration] [Release Notes](../release
 
 ## Julio de 2020 {#july-2020}
 
+* Se ha Añadido un vínculo a un nuevo vídeo de tutorial sobre el sistema de informes de eventos de paso a Adobe Experience Platform. [Más información](../building-journeys/sharing-overview.md)
+* La sección actividades de eventos se ha reorganizado en subsecciones específicas para cada tipo de evento. [Más información](../building-journeys/event-activities.md)
+* Prácticas recomendadas Añadidas para evitar sobrecargas con la calificación de segmentos. [Más información](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
+* Añadió una nota para explicar cómo continuar un viaje después de un error en una acción o condición. [Más información](../about/troubleshooting.md#section_h3q_kqk_fhb)
 * Se Añadió una nueva sección sobre las características Alpha que se prueban entre un conjunto limitado de clientes. [Más información](../alpha/alpha-overview.md)
 * Añadió una nueva sección sobre la integración con Servicios inteligentes. [Más información](../ai-services/ai-services-overview.md)
 * Se Añadió una nueva sección sobre la creación del perfil de prueba. [Más información](../building-journeys/testing-the-journey.md#create-test-profile)
-* Información Añadida sobre cómo utilizar el nodo **SegmentQualification** en una condición de viaje o acción. [Más información](../building-journeys/event-activities.md#segment-qualification)
+* Información Añadida sobre cómo usar el **[!UICONTROL SegmentQualification]** nodo en una condición o acción de viaje. [Más información](../building-journeys/segment-qualification-events.md)
 * Se ha añadido una nota al mensaje transaccional de Campaña y a la publicación de eventos. Consulte [Uso de Adobes Campaign](../action/working-with-adobe-campaign.md) y [Uso de acciones](../building-journeys/using-adobe-campaign-actions.md)de Adobe Campaign.
 * Se ha añadido información sobre las comprobaciones que se realizan al probar la URL de la instancia de Campaign Standard. [Más información](../action/working-with-adobe-campaign.md)
-* Se ha añadido información sobre la compatibilidad de eventos de reacción con instancias de Campaign Standard alojadas en servidores AWS o Azure. [Más información](../building-journeys/event-activities.md#section_dhx_gss_dgb)
+* Se ha añadido información sobre la compatibilidad de eventos de reacción con instancias de Campaign Standard alojadas en servidores AWS o Azure. [Más información](../building-journeys/reaction-events.md)
 * Se ha agregado una nota sobre la necesidad de configurar una regla de límite al trabajar con mensajes transaccionales de Campaign Standard. [Más información](../action/working-with-adobe-campaign.md)
 * Se ha añadido una nota a la generación de eventos reales al activar eventos mediante el modo de prueba. [Más información](../building-journeys/testing-the-journey.md#firing_events)
 
 ## Junio de 2020 {#june-2020}
 
 * Información Añadida sobre cómo cambiar la duración de la caché del token para un origen de datos de autenticación personalizada. [Más información](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
-* Capturas de pantalla y texto actualizados para reflejar el cambio de nombre del estado del viaje **finalizado** , que se ha cambiado a **Cerrado (sin entrada)**.
+* Se han actualizado las capturas de pantalla y el texto para reflejar el cambio de nombre del estado del **[!UICONTROL Finished]** viaje que se ha cambiado a **[!UICONTROL Closed (no entrance)]**.
 * Información Añadida sobre cómo se define el idioma para la interfaz. [Más información](../about/user-interface.md)
 * La lista de los estados del viaje de un individuo se ha trasladado a la sección de registros [del modo de](../building-journeys/testing-the-journey.md#viewing_logs) prueba.
 
@@ -51,12 +55,12 @@ You can also consult the [!DNL Journey Orchestration] [Release Notes](../release
 ## Marzo de 2020 {#march-2020}
 
 * Descripciones de parámetros añadidos en _actionExecutionErrors_ y _fetchErrors_ en la sección de registros de pruebas. [Más información](../building-journeys/testing-the-journey.md#viewing_logs)
-* Se han actualizado las limitaciones de las acciones personalizadas utilizadas en un recorrido. También puede modificar el campo **URL** y los parámetros **Autenticación** . [Más información](../action/about-custom-action-configuration.md)
+* Se han actualizado las limitaciones de las acciones personalizadas utilizadas en un recorrido. You can also modify the **[!UICONTROL URL]** field and the **[!UICONTROL Authentication]** parameters. [Más información](../action/about-custom-action-configuration.md)
 * Se han agregado nuevas entradas de ayuda contextual. El panel de carga útil de autenticación personalizada (en acciones y fuentes de datos) ahora incluye un icono de ayuda que se vincula a esta [sección](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
 * Ahora se pueden detener los viajes cerrados. [Más información](../building-journeys/using-the-journey-designer.md)
 * Se ha reorganizado la sección de descripción de la interfaz. [Más información](../about/user-interface.md)
 * Se ha añadido la activación de varios eventos a la sección Modo de prueba [Más información](../building-journeys/testing-the-journey.md#firing_events)
-* La sección Modo de prueba se ha actualizado con respecto al nuevo parámetro **Tiempo de espera en prueba** . [Más información](../building-journeys/testing-the-journey.md)
+* La sección Modo de prueba se ha actualizado con respecto al nuevo **[!UICONTROL Wait time in test]** parámetro. [Más información](../building-journeys/testing-the-journey.md)
 * La sección Registro de pruebas se ha actualizado con códigos de error de llamada externa y respuestas. [Más información](../building-journeys/testing-the-journey.md#viewing_logs)
 * La administración de zonas horarias ahora está centralizada en el panel de propiedades del recorrido. Lea más [aquí](../building-journeys/changing-properties.md#timezone) y [aquí](../building-journeys/timezone-management.md)
 * La sección Diseñador de recorridos se ha actualizado para reflejar las mejoras recientes. [Más información](../building-journeys/using-the-journey-designer.md)
