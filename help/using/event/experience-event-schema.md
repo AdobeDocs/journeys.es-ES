@@ -1,6 +1,6 @@
 ---
-title: 'Acerca de los Esquemas de ExperienceEvent para Eventos de orquestación de viajes '
-description: 'Obtenga información sobre los Esquemas de ExperienceEvent para los Eventos de orquestación de viajes '
+title: 'Esquemas de ExperienceEvent para Eventos de Journey Orchestration '
+description: 'Obtenga información sobre los Esquemas de ExperienceEvent para Eventos de Journey Orchestration '
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,13 @@ ht-degree: 0%
 
 # Esquemas de ExperienceEvent para [!DNL Journey Orchestration] Eventos
 
-[!DNL Journey Orchestration] Los eventos son Eventos de experiencias XDM que se envían a Adobe Experience Platform mediante la ingesta de flujo.
+[!DNL Journey Orchestration] Los eventos son Eventos de experiencias XDM que se envían al Adobe Experience Platform mediante la ingesta de flujo.
 
-Como tal, un requisito previo importante para la configuración de eventos [!DNL Journey Orchestration] es que esté familiarizado con el Modelo de datos de experiencia de la plataforma (o XDM) y con cómo componer esquemas de XDM Experience Evento, así como con la transmisión de datos con formato XDM a la plataforma.
+Como tal, un requisito previo importante para la configuración de eventos [!DNL Journey Orchestration] es que esté familiarizado con el modelo de datos de experiencia (o XDM) de Adobe Experience Platform y con cómo componer esquemas de Evento de experiencias XDM, así como con la transmisión de datos con formato XDM al Adobe Experience Platform.
 
 ## Requisitos de Esquema para [!DNL Journey Orchestration] Eventos
 
-El primer paso en la configuración de un evento para [!DNL Journey Orchestration] es asegurarse de que tiene un esquema XDM definido para representar el evento y un conjunto de datos creado para registrar instancias del evento en la plataforma. Tener un conjunto de datos para sus eventos no es estrictamente necesario, pero enviar los eventos a un conjunto de datos específico le permitirá mantener el historial de eventos de los usuarios para futuras referencias y análisis, por lo que siempre es una buena idea. Si todavía no tiene un esquema y un conjunto de datos adecuados para su evento, ambas tareas se pueden realizar en la interfaz web de la plataforma.
+El primer paso para configurar un evento [!DNL Journey Orchestration] es asegurarse de que tiene un esquema XDM definido para representar el evento y un conjunto de datos creado para registrar instancias del evento en el Adobe Experience Platform. Tener un conjunto de datos para sus eventos no es estrictamente necesario, pero enviar los eventos a un conjunto de datos específico le permitirá mantener el historial de eventos de los usuarios para futuras referencias y análisis, por lo que siempre es una buena idea. Si todavía no tiene un esquema y un conjunto de datos adecuados para su evento, ambas tareas se pueden realizar en la interfaz web de Adobe Experience Platform.
 
 ![](../assets/schema1.png)
 
