@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f146a22cec5ffbbc61b51f8fc3c875078b2ee6bf
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 6%
+source-wordcount: '356'
+ht-degree: 8%
 
 ---
 
@@ -27,11 +27,11 @@ Este nuevo tipo de evento no genera un eventID. Con el simple editor de expresio
 
 Este nuevo método es mayormente transparente para los usuarios. El único cambio es un nuevo campo en la pantalla de definición de evento.
 
-1. En el menú de la izquierda, haga clic en el icono **Administración** y, a continuación, haga clic en **Eventos**. Se muestra la lista de eventos.
+1. En el menú de la izquierda, haga clic en el **[!UICONTROL Admin]** icono y, a continuación, haga clic en **[!UICONTROL Events]**. Se muestra la lista de eventos.
 
    ![](../assets/alpha-event1.png)
 
-1. Click **Add** to create a new event. El panel de configuración de evento se abre en el lado derecho de la pantalla.
+1. Haga clic en **[!UICONTROL Add]** para crear un nuevo evento. El panel de configuración de evento se abre en el lado derecho de la pantalla.
 
    ![](../assets/alpha-event2.png)
 
@@ -39,29 +39,29 @@ Este nuevo método es mayormente transparente para los usuarios. El único cambi
 
    ![](../assets/alpha-event3.png)
 
-1. En el nuevo campo de tipo **de ID de** Evento, seleccione Basado en **reglas**.
+1. In the new **[!UICONTROL Event ID type]** field, select **[!UICONTROL Rule Based]**.
 
    ![](../assets/alpha-event4.png)
 
    >[!NOTE]
    >
-   >El tipo Generado **por** el sistema es el método existente que requiere un eventID. Consulte [esta sección](../event/about-events.md).
+   >El **[!UICONTROL System Generated]** tipo es el método existente que requiere un eventID. Consulte [esta sección](../event/about-events.md).
 
-1. Defina el **Esquema** y los **campos** de carga útil. Consulte [esta sección](../event/defining-the-payload-fields.md).
+1. Defina la carga útil **[!UICONTROL Schema]** y **[!UICONTROL Fields]**. Consulte [esta sección](../event/defining-the-payload-fields.md).
 
    ![](../assets/alpha-event5.png)
 
    >[!NOTE]
    >
-   >Cuando se selecciona el tipo **Generado por** el sistema, solo están disponibles los esquemas que tienen la mezcla de tipo eventID. Cuando selecciona el tipo **Basado** en reglas, están disponibles todos los esquemas de Experience Evento.
+   >Al seleccionar el **[!UICONTROL System Generated type]**, solo están disponibles los esquemas que tienen la mezcla de tipo eventID. Cuando selecciona el **[!UICONTROL Rule Based]** tipo, están disponibles todos los esquemas de Experience Evento.
 
-1. Haga clic dentro del campo Condición **de ID de** Evento. Con el editor de expresiones simple, defina la condición que utilizará el sistema para identificar los eventos que activarán el viaje.
+1. Haga clic dentro del **[!UICONTROL Event ID condition]** campo. Con el editor de expresiones simple, defina la condición que utilizará el sistema para identificar los eventos que activarán el viaje.
 
    ![](../assets/alpha-event6.png)
 
-   En nuestro ejemplo, escribimos una condición basada en la ciudad del perfil. Esto significa que cada vez que el sistema recibe un evento que coincide con esta condición (campo **Ciudad** y valor de **París** ), lo pasa al Journey Orchestration.
+   En nuestro ejemplo, escribimos una condición basada en la ciudad del perfil. Esto significa que cada vez que el sistema recibe un evento que coincide con esta condición (**[!UICONTROL City]** campo y **[!UICONTROL Paris]** valor), lo pasa al Journey Orchestration.
 
-1. Defina la **Área de nombres** y la **clave**. Consulte [Selección de la Área de nombres](../event/selecting-the-namespace.md) y [Definición de la clave](../event/defining-the-event-key.md)de evento.
+1. Defina el **[!UICONTROL Namespace]** y **[!UICONTROL Key]**. Consulte [Selección de la Área de nombres](../event/selecting-the-namespace.md) y [Definición de la clave](../event/defining-the-event-key.md)de evento.
 
    ![](../assets/alpha-event7.png)
 
