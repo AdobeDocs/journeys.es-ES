@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 3%
 
 ---
 
@@ -20,9 +23,9 @@ source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 
 Proporciona un tiempo de predicción del mejor momento para enviar un correo electrónico a un individuo.
 
-Esta función utiliza una puntuación calculada en la Plataforma. La puntuación calcula la tendencia a hacer clic o abrir un correo electrónico en el futuro en función del comportamiento anterior. Tenga en cuenta que el algoritmo que calcula la puntuación necesita una cierta cantidad de datos para funcionar. Como resultado, cuando no tiene suficientes datos, se aplicará la hora predeterminada. For more information, see [](../building-journeys/wait-activity.md).
+Esta función utiliza una puntuación calculada en el Adobe Experience Platform. La puntuación calcula la tendencia a hacer clic o abrir un correo electrónico en el futuro en función del comportamiento anterior. Tenga en cuenta que el algoritmo que calcula la puntuación necesita una cierta cantidad de datos para funcionar. Como resultado, cuando no tiene suficientes datos, se aplicará la hora predeterminada. For more information, see [](../building-journeys/wait-activity.md).
 
-Para utilizar esta función, se necesita un [espacio de nombres](../event/selecting-the-namespace.md) .
+Para utilizar esta función, se necesita una [Área de nombres](../event/selecting-the-namespace.md) .
 
 >[!NOTE]
 >
