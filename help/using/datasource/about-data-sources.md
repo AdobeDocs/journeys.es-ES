@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 88%
+source-wordcount: '356'
+ht-degree: 74%
 
 ---
 
@@ -37,12 +37,12 @@ Esta configuración no es necesaria si los recorridos solo aprovechan los datos 
 
 Existen dos tipos de fuentes de datos:
 
-* Fuente de datos preconfigurada de la Experience Platform que define la conexión al servicio Perfil del cliente en tiempo real. Constituye una fuente de datos integrada. Consulte [](../datasource/adobe-experience-platform-data-source.md).
+* Origen de datos de Adobe Experience Platform preconfigurado que define la conexión al servicio de Perfil del cliente en tiempo real. Constituye una fuente de datos integrada. Consulte [](../datasource/adobe-experience-platform-data-source.md).
 * Las fuentes de datos externas que permiten definir una conexión con sistemas externos. Estos son los que puede crear. Consulte [](../datasource/external-data-sources.md).
 
 Para cada fuente de datos, se define la información que se recuperará mediante grupos de campos. Los grupos de campos son conjuntos de campos que se pueden recuperar desde una fuente de datos. Consulte [](../datasource/field-groups.md).
 
-Para obtener más información sobre cómo configurar una fuente de datos de Experience Platform y una fuente de datos externa, y cómo buscar y utilizar datos en un recorrido, vea este [vídeo tutorial](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-data-sources.html).
+For more information on how to configure an Adobe Experience Platform Data Source and an external data source and how to find and use data in a journey, watch this [tutorial video](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-data-sources.html).
 
 Estos son los pasos principales de la configuración de la fuente de datos:
 
