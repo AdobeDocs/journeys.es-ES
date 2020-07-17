@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,6 @@ Debido al tiempo de espera de viaje de 30 días, cuando no se permite la reentra
 
 La zona horaria se define en el nivel de viaje.
 
-Puede introducir una zona horaria fija o utilizar los perfiles de la plataforma de experiencias para definir la zona horaria del viaje.
+Puede introducir una zona horaria fija o utilizar perfiles de Adobe Experience Platform para definir la zona horaria del viaje.
 
 Para obtener más información sobre la administración de huso horario, consulte [](../building-journeys/timezone-management.md).
