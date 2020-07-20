@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 829f6cdb11aa9b1529607f409e53616a2b809f84
+source-git-commit: 5a480ba736b642485f2078a6e6c40c28a11f38a3
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 4%
@@ -64,7 +64,7 @@ Los usuarios siempre deben estar vinculados a un perfil de producto que le permi
 
 A continuación se muestra la compatibilidad entre los permisos y las diferentes funcionalidades [!DNL Journey Orchestration]de la aplicación.
 
-![](../assets/journey_permission.png)
+![](../assets/do-not-localize/journey_permission.png)
 
 ## Creación de un perfil de producto {#create-product-profile}
 
@@ -76,7 +76,7 @@ Para crear un perfil de producto y asignar un conjunto de permisos y entornos li
 
 1. En el Admin Console, seleccione **[!UICONTROL Journey Orchestration]**. From the **[!UICONTROL Product profile]** tab, click **[!UICONTROL New Profile]**.
 
-   ![](../assets/user_management_5.png)
+   ![](../assets/do-not-localize/user_management_5.png)
 
 1. Añada un **[!UICONTROL Profile Name]** y **[!UICONTROL Description]** para el nuevo perfil de productos. Si desea que el perfil **[!UICONTROL Display name]** sea diferente, desmarque **[!UICONTROL Same as Profile Name]** y escriba su **[!UICONTROL Display name]**.
 
@@ -84,7 +84,7 @@ Para crear un perfil de producto y asignar un conjunto de permisos y entornos li
 
 1. Cuando termine, haga clic en **[!UICONTROL Done]**. Se ha creado el nuevo perfil de productos.
 
-   ![](../assets/user_management_1.png)
+   ![](../assets/do-not-localize/user_management_1.png)
 
 1. Seleccione el nuevo perfil de productos para administrar los permisos de inicio. En la **[!UICONTROL Users]** ficha, agregue usuarios al perfil del producto. Para obtener más información, consulte [esta página](../about/access-management.md#assigning-product-profile).
 
@@ -92,20 +92,20 @@ Para crear un perfil de producto y asignar un conjunto de permisos y entornos li
 
 1. En la **[!UICONTROL Permissions]** ficha, seleccione una de las dos categorías **[!UICONTROL Sandbox]** o **[!UICONTROL Authoring]** para abrir la **[!UICONTROL Edit Permissions]** página y agregar o quitar permisos para el perfil del producto.
 
-   ![](../assets/user_management_7.png)
+   ![](../assets/do-not-localize/user_management_7.png)
 
 1. En la categoría de permisos, elija qué simulador de pruebas desea asignar al perfil del producto. **[!UICONTROL Sandboxes]** En **[!UICONTROL Available Permissions Items]**, haga clic en el icono de signo más (+) para asignar entornos limitados al perfil. For more information on sandboxes, refer to this [section](../about/access-management.md#sandboxes).
 
-   ![](../assets/user_management_8.png)
+   ![](../assets/do-not-localize/user_management_8.png)
 
 1. Si es necesario, haga clic en **[!UICONTROL Included Permission Items]** el icono X situado junto a para eliminar los permisos del perfil del producto.
 
-   ![](../assets/user_management_9.png)
+   ![](../assets/do-not-localize/user_management_9.png)
 
 1. Desde la categoría de **[!UICONTROL Authoring]** permisos, realice los mismos pasos que se describen arriba para agregar permisos al perfil del producto.
    <br>Para obtener más información sobre los permisos y la compatibilidad entre los permisos y las diferentes funciones [!DNL Journey Orchestration]de, consulte esta [sección](../about/access-management.md#about-access-management).
 
-   ![](../assets/user_management_10.png)
+   ![](../assets/do-not-localize/user_management_10.png)
 
 1. Cuando termine, haga clic en **[!UICONTROL Save]**.
 
@@ -120,21 +120,21 @@ Para asignar un perfil de producto para que un usuario tenga acceso [!DNL Journe
 
 1. En el Admin Console, seleccione **[!UICONTROL Journey Orchestration]**.
 
-   ![](../assets/user_management.png)
+   ![](../assets/do-not-localize/user_management.png)
 
 1. Seleccione el perfil de producto al que estará vinculado su nuevo usuario.
 
-   ![](../assets/user_management_2.png)
+   ![](../assets/do-not-localize/user_management_2.png)
 
 1. Haga clic **[!UICONTROL Add user]**.
 
    También puede agregar el nuevo usuario a un grupo de usuarios para ajustar el conjunto compartido de permisos. Para obtener más información, consulte [esta página](https://helpx.adobe.com/enterprise/using/user-groups.html).
 
-   ![](../assets/user_management_3.png)
+   ![](../assets/do-not-localize/user_management_3.png)
 
 1. Escriba la dirección de correo electrónico del nuevo usuario y haga clic en **[!UICONTROL Save]**.
 
-   ![](../assets/user_management_4.png)
+   ![](../assets/do-not-localize/user_management_4.png)
 
 El usuario debe recibir un correo electrónico que le redirija a su [!DNL Journey Orchestration] instancia.
 
