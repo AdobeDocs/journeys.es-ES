@@ -1,6 +1,6 @@
 ---
 title: actividad del activador de segmentos
-description: Aprender xxxx
+description: Más información sobre el activador de segmentos
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b66cdb31b62b4627ff7378e48879ffadfedda5cb
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -23,15 +23,19 @@ ht-degree: 0%
 
 ## Acerca de la actividad Activador de segmentos {#about-segment-trigger-actvitiy}
 
+>[!NOTE]
+>
+>Si hay una actividad de acción lista para usar de Adobe Campaign Standard en el lienzo en tiempo de publicación o en tiempo de activación del modo de prueba, el viaje se reducirá a 13 entradas por segundo. <br>Si no hay ninguna actividad de acción lista para usar en Adobes Campaign Standard en el lienzo en tiempo de publicación o en tiempo de activación del modo de prueba, el viaje se reducirá a 1000 eventos por segundo.
+
 La actividad Activador de segmentos le permite hacer que todas las personas que pertenecen a un segmento de Adobe Experience Platform entren en un viaje. La entrada en un viaje puede realizarse una vez o de forma regular.
 
 Supongamos que tiene un segmento de clientes Gold en Adobe Experience Platform. Con la actividad Activador de segmentos, puede hacer que todas las personas pertenecientes al segmento de clientes Gold participen en un viaje y que fluyan en viajes individualizados que aprovechen todas las funcionalidades del viaje: condiciones, temporizadores, eventos, acciones.
 
+## Configuring the activity {#configuring-segment-trigger-activity}
+
 >[!NOTE]
 >
 >Debido a las latencias de exportación de segmentos, no es posible iniciar un viaje basado en segmentos en un intervalo de tiempo más corto que 1 hora.
-
-## Configuring the activity {#configuring-segment-trigger-activity}
 
 1. Despliegue la **[!UICONTROL Orchestration]** categoría y suelte una **[!UICONTROL Segment Trigger]** actividad en el lienzo.
 
@@ -39,7 +43,7 @@ Supongamos que tiene un segmento de clientes Gold en Adobe Experience Platform. 
 
 1. Configure the activity **[!UICONTROL Scheduler type]**.
 
-   De forma predeterminada, el segmento entrará en el viaje **[!UICONTROL As soon as possible]**, es decir, una hora después de que se publique el viaje. Si desea que el segmento introduzca el viaje en una fecha/hora específica o de forma recurrente, seleccione la opción deseada en la lista.
+   De forma predeterminada, el segmento entrará en el viaje **[!UICONTROL As soon as possible]**, es decir, 1 hora después de que se publique el viaje. Si desea que el segmento introduzca el viaje en una fecha/hora específica o de forma recurrente, seleccione la opción deseada en la lista.
 
    En caso de viajes recurrentes, también puede definir el inicio y el final del viaje.
 
