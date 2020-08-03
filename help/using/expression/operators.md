@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
+workflow-type: tm+mt
+source-wordcount: '618'
+ht-degree: 4%
 
 ---
 
@@ -36,7 +39,7 @@ Existen dos tipos de operadores: operadores unarios y operadores binarios. Hay o
     (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example2@adobe.com")
 ```
 
-Esta es la lista de operadores admitidos:
+Esta es la lista de los operadores admitidos:
 
 ## Lógico
 
@@ -47,7 +50,7 @@ Esta es la lista de operadores admitidos:
 <tbody>
 <tr >&gt;<td>y</td><td><p><pre>&lt;expresión1&gt; y &lt;expresión2&gt;</pre></p>Tanto &lt;expresión1&gt; como &lt;expresión2&gt; deben ser booleanos. El resultado es booleano.</td><td><pre>3.14 &gt; 2 y 3.15 &lt; 1</pre></td></tr>
 <tr ><td>o</td><td><p><pre>&lt;expresión1&gt; o &lt;expresión2&gt;</pre></p><p>Tanto &lt;expresión1&gt; como &lt;expresión2&gt; deben ser booleanos.</p><p> El resultado es booleano.</p></td><td><p><pre>3.14 &gt; 2 o 3.15 &lt; 1</pre></p></td></tr>
-<tr ><td>not</td><td><p><pre>not &lt;expresión&gt;</pre></p><p>&lt;expresión&gt; debe ser booleano.</p><p> El resultado es booleano.</p></td><td><pre>no 3,15 &lt; 1</pre></td></tr>
+<tr ><td>not</td><td><p><pre>no &lt;expresión&gt;</pre></p><p>&lt;expresión&gt; debe ser booleano.</p><p> El resultado es booleano.</p></td><td><pre>no 3,15 &lt; 1</pre></td></tr>
 </tbody>
   </table>
 
@@ -59,7 +62,7 @@ Esta es la lista de operadores admitidos:
 </thead>
 <tbody><tr ><td>es nulo</td><td><p><pre>&lt;expresión&gt; es nulo</pre></p><p>El resultado es booleano.</p><p>Tenga en cuenta que null significa que la expresión no tiene ningún valor evaluado.</p></td><td><pre>@{BarBeacon.location} es nulo</pre></td></tr>
 <tr ><td>no es nulo</td><td><p><pre>&lt;expresión&gt; no es nulo</pre></p><p>El resultado es booleano.</p><p>Tenga en cuenta que null significa que la expresión no tiene ningún valor evaluado.</p></td><td><pre>@ no es nulo</pre></td></tr>
-<tr ><td>tiene nulo</td><td><p><pre>&lt;expresión&gt; tiene null</pre>&lt;expresión&gt; debe ser una lista.</p><p>El resultado es booleano.</p><p>Resulta útil identificar que una lista contiene al menos un valor nulo.</p></td><td><p><pre>["foo", "bar", nulo] tiene nulo</pre></p>devuelve true<p><pre>["foo", "bar", ""] tiene nulo</pre></p> devuelve false porque "" no se considera nulo.</td></tr>
+<tr ><td>tiene nulo</td><td><p><pre>&lt;expresión&gt; tiene nulo</pre>&lt;expresión&gt; debe ser una lista.</p><p>El resultado es booleano.</p><p>Resulta útil identificar que una lista contiene al menos un valor nulo.</p></td><td><p><pre>["foo", "bar", nulo] tiene nulo</pre></p>devuelve true<p><pre>["foo", "bar", ""] tiene nulo</pre></p> devuelve false porque "" no se considera nulo.</td></tr>
 <tr ><td>==</td><td><p><pre>&lt;expresión1&gt; == &lt;expresión2&gt;</pre></p><p>Tanto &lt;expresión1&gt; como &lt;expresión2&gt; deben tener el mismo tipo de datos.</p><p> El resultado es booleano.</p></td><td><pre>3.14 == 42</pre><br /><pre>"foo" == "bar"</pre></td></tr>
 <tr ><td>!=</td><td><p><pre>&lt;expresión1&gt; != &lt;expresión2&gt;</pre></p><p> Tanto &lt;expresión1&gt; como &lt;expresión2&gt; deben tener el mismo tipo de datos.</p><p> El resultado es booleano.</p></td><td><pre>3.14 != 42</pre><br /><pre>¡"foo" != "bar"</pre></td></tr>
 <tr ><td>&gt;</td><td><p><pre>&lt;expresión1&gt; &gt; &lt;expresión2&gt;</pre></p><p>La fecha y hora se puede comparar con la fecha y hora.</p><p>Datetimeonly puede compararse con Datetimeonly.</p><p>Tanto integer como decimal pueden compararse con integer o decimal.</p><p>Queda prohibida cualquier otra combinación.</p><p>El resultado es booleano.</p></td><td><pre>3.14 &gt; 42</pre></td></tr>
@@ -89,8 +92,8 @@ Esta es la lista de operadores admitidos:
 <thead>
 <tr ><th  >Operador</th><th  >Expresión literal </th><th  >Ejemplo</th></tr>
 </thead>
-<tbody><tr ><td>es numérico</td><td><p><pre>&lt;expresión&gt; es numérico</pre></p><p>El tipo de expresión es integer o decimal.</p></td><td><pre>@ es numérico</pre></td></tr>
-<tr ><td>is integer</td><td><p><pre>&lt;expresión&gt; es un entero</pre></p><p>El tipo de expresión es integer.</p></td><td><pre>@ es entero</pre></td></tr>
+<tbody><tr ><td>es numérico</td><td><p><pre>&lt;expresión&gt; es numérico</pre></p><p>El tipo de la expresión es entero o decimal.</p></td><td><pre>@ es numérico</pre></td></tr>
+<tr ><td>is integer</td><td><p><pre>&lt;expresión&gt; es un entero</pre></p><p>El tipo de la expresión es un entero.</p></td><td><pre>@ es entero</pre></td></tr>
 <tr ><td>es decimal</td><td><p><pre>&lt;expresión&gt; es decimal</pre></p><p>El tipo de expresión es decimal.</p></td><td><pre>@ es decimal</pre></td></tr>
 
 ## Cadena
@@ -99,7 +102,7 @@ Esta es la lista de operadores admitidos:
 <thead>
 <tr ><th  >Operador</th><th  >Expresión literal </th><th  >Ejemplo</th></tr>
 </thead>
-<tbody><tr ><td>+</td><td><p><pre>&lt;string&gt; + &lt;expresión&gt;</pre></p><p><pre>&lt;expresión&gt; + &lt;cadena&gt;</pre></p><p>Concatena dos expresiones. </p><p>Una expresión debe ser una cadena encadenada.</p></td><td><p><pre>"la hora actual es " + (now()))</pre></p> Devuelve "la hora actual es 2019-09-23T09:30:06.693Z"<p><pre>(now()) + " es la hora actual"</pre></p>Devuelve "2019-09-23T09:30:06.693Z es la hora actual"<p><pre>"a" + "b" + "c" + 1234</pre></p> Devuelve "abc1234".</td></tr>
+<tbody><tr ><td>+</td><td><p><pre>&lt;cadena&gt; + &lt;expresión&gt;</pre></p><p><pre>&lt;expresión&gt; + &lt;cadena&gt;</pre></p><p>Concatena dos expresiones. </p><p>Una expresión debe ser una cadena encadenada.</p></td><td><p><pre>"la hora actual es " + (now()))</pre></p> Devuelve "la hora actual es 2019-09-23T09:30:06.693Z"<p><pre>(now()) + " es la hora actual"</pre></p>Devuelve "2019-09-23T09:30:06.693Z es la hora actual"<p><pre>"a" + "b" + "c" + 1234</pre></p> Devuelve "abc1234".</td></tr>
 </tbody>
 </table>
 
