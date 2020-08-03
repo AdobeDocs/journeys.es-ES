@@ -1,5 +1,5 @@
 ---
-title: clearCount
+title: distinctCount
 description: Obtenga información sobre la función clearCount
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -12,11 +12,14 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '47'
+ht-degree: 25%
 
 ---
 
 
-# clearCount{#distinctCount}
+# distinctCount{#distinctCount}
 
 Cuenta el número de valores diferentes que ignoran los valores nulos.
 
