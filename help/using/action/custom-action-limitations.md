@@ -30,4 +30,4 @@ Estas son algunas limitaciones con respecto al uso de acciones personalizadas:
 * Solo se admiten los métodos de llamada POST y PUT.
 * El nombre del parámetro de consulta o del encabezado no debe tener inicio con &quot;.&quot; o &quot;$&quot;.
 * No se permiten direcciones IP.
-* Direcciones internas de Adobe (.adobe.) no se permiten.
+* Direcciones de Adobe internas (.adobe.) no se permiten.
