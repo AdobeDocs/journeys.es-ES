@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 5a480ba736b642485f2078a6e6c40c28a11f38a3
 workflow-type: tm+mt
 source-wordcount: '845'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 4%
 
 [!DNL Journey Orchestration] permite asignar un conjunto de permisos a los usuarios para definir a qué parte de la interfaz pueden acceder.
 
-Pueden ser administrados por administradores que tengan acceso a la consola de administración. Para obtener más información sobre la Consola de administración, consulte esta [documentación](https://helpx.adobe.com/es/enterprise/managing/user-guide.html).
+Pueden ser administrados por administradores que tengan acceso a la consola de administración. Para obtener más información sobre Admin Console, consulte esta [documentación](https://helpx.adobe.com/es/enterprise/managing/user-guide.html).
 
 Para poder acceder a [!DNL Journey Orchestration], un usuario debe:
 
@@ -126,7 +126,7 @@ Para asignar un perfil de producto para que un usuario tenga acceso [!DNL Journe
 
    ![](../assets/do-not-localize/user_management_2.png)
 
-1. Haga clic **[!UICONTROL Add user]**.
+1. Haga clic en **[!UICONTROL Add user]**.
 
    También puede agregar el nuevo usuario a un grupo de usuarios para ajustar el conjunto compartido de permisos. Para obtener más información, consulte [esta página](https://helpx.adobe.com/enterprise/using/user-groups.html).
 
@@ -141,7 +141,7 @@ El usuario debe recibir un correo electrónico que le redirija a su [!DNL Journe
 ## Uso de entornos limitados {#sandboxes}
 
 [!DNL Journey Orchestration] le permite particionar la instancia en entornos virtuales separados, llamados entornos limitados.
-Los Simuladores para pruebas se asignan mediante perfiles de producto en la Consola de administración. Para obtener más información sobre cómo asignar entornos limitados, consulte esta [sección](../about/access-management.md#create-product-profile).
+Los Simuladores para pruebas se asignan mediante perfiles de producto en la Consola de administración. For more information on how to assign sandboxes, refer to this [section](../about/access-management.md#create-product-profile).
 
 [!DNL Journey Orchestration] refleja los entornos limitados de Adobe Experience Platform creados para una organización determinada.
 Los entornos limitados de Adobe Experience Platform se pueden crear o restablecer desde la instancia de Adobe Experience Platform. Consulte la guía [del usuario del](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html) Simulador para pruebas para conocer los pasos detallados.
