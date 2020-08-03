@@ -69,7 +69,7 @@ Tipo: string
 
 ## stepName
 
-Nombre del paso que se está procesando.
+Name of the step that is currently being processed.
 
 Tipo: string
 
@@ -81,39 +81,39 @@ Tipo: string
 
 Valores posibles:
 
-* Condition
+* Condición
 * Acción
 * Planificador
 * Temporizador
 
 ## stepStatus
 
-Status of the step, representing the status of the step, when its processing has been done (and the step event fired).
+Estado del paso, que representa el estado del paso, cuando se ha procesado (y se ha activado el evento de paso).
 
 Tipo: string
 
 El estado puede ser:
 
-* ended: the step has no transition and its processing has ended successfully.
-* error: the step processing has raised an error.
-* transitions: the step is waiting for an event to transition to another step.
+* finalizó: el paso no tiene transición y su procesamiento ha finalizado correctamente.
+* error: el procesamiento de pasos ha generado un error.
+* transiciones: el paso está esperando un evento para la transición a otro paso.
 * capped: el paso ha fallado en un error de límite, generado durante una acción o enriquecimiento.
-* timedout: the step has failed on a timeout error, raised during an action or enrichment.
-* instanceTimedout: el paso ha detenido su procesamiento porque la instancia ha alcanzado su tiempo de espera.
+* timedout: el paso falló en un error de tiempo de espera, generado durante una acción o enriquecimiento.
+* instanceTimedout: the step has stopped its processing, because the instance has reached its timeout.
 
-## travelID
+## journeyID
 
 ID del viaje.
 
 Tipo: string
 
-## travelVersionID
+## journeyVersionID
 
-ID de la versión del viaje. Esta identificación representa la referencia de identidad del viaje, en el caso de la función travelStepEvent.
+ID of the journey version. This id represents the identity reference to the journey, in the case of the journeyStepEvent.
 
 Tipo: string
 
-## travelVersionName
+## journeyVersionName
 
 Nombre de la versión del viaje.
 
@@ -163,7 +163,7 @@ Tipo: string
 
 ## inTest
 
-Se indica si este viaje está en modo de prueba o no.
+Indicated if this journey is in test mode or not.
 
 Tipo: booleano
 
@@ -201,7 +201,7 @@ Tipo: string
 
 ## batchInstanceID
 
-es el ID de instancia de lote.
+this is the batch instance ID.
 
 Tipo: string
 
