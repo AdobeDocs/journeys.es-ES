@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: ca4dc447d8ae4ee18e50d7e9a18faf3fa47ae223
 workflow-type: tm+mt
 source-wordcount: '1114'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -34,7 +34,7 @@ Para obtener más información sobre la acción o la configuración de orígenes
 >
 >La API de [!DNL Journey Orchestration] límite se describe en un archivo Swagger disponible [aquí](https://adobedocs.github.io/JourneyAPI/docs/).
 
-Para utilizar esta API con su [!DNL Journey Orchestration] instancia, debe utilizar la consola de AdobeI/O. Puede realizar inicios siguiendo esta [Introducción a Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) y, a continuación, utilizar las secciones de esta página.
+Para utilizar esta API con su [!DNL Journey Orchestration] instancia, debe utilizar la consola de AdobeI/O. Puede realizar inicios siguiendo esta [Introducción a Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) y luego utilizar las secciones de esta página.
 
 Para probar y preparar la integración, hay una colección Postman disponible [aquí](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
@@ -42,18 +42,18 @@ Para probar y preparar la integración, hay una colección Postman disponible [a
 
 ### Configuración del acceso a API
 
-[!DNL Journey Orchestration] El acceso a la API se configura a través de los pasos a continuación. Cada uno de estos pasos se detalla en la documentación [de](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)Adobe I/O.
+[!DNL Journey Orchestration] El acceso a la API se configura a través de los pasos a continuación. Cada uno de estos pasos se detalla en la documentación [de E/S de](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)Adobe.
 
 >[!CAUTION]
 >
->Para administrar certificados en Adobe I/O, asegúrese de que tiene derechos de administrador <b></b> del sistema en la organización o una cuenta [de](https://helpx.adobe.com/enterprise/using/manage-developers.html) desarrollador en la consola de administración.
+>Para administrar certificados en E/S de Adobe, asegúrese de que tiene derechos de administrador <b></b> del sistema en la organización o una cuenta [de](https://helpx.adobe.com/enterprise/using/manage-developers.html) desarrollador en la consola de administración.
 
 1. **Compruebe que dispone de un certificado** digital o cree uno si es necesario. Las claves pública y privada que se proporcionan con el certificado son necesarias en los pasos siguientes.
-1. **Cree una nueva integración en[!DNL Journey Orchestration]Servicio** en Adobe I/O y configúrela. Se necesita el acceso al perfil del producto [!DNL Journey Orchestration] y el Adobe Experience Platform. Se generarán las credenciales (clave de API, secreto de cliente...).
-1. **Cree un token web JSON (JWT)** a partir de las credenciales generadas anteriormente y fírmelo con su clave privada. JWT codifica toda la información de identidad y seguridad que Adobe necesita para verificar su identidad y permitirle acceder a la API. Este paso se detalla en esta [sección](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
-1. **Intercambie su JWT por un Token de acceso** a través de una solicitud POST o a través de la interfaz de la consola de desarrollador. Este Token de acceso deberá utilizarse en cada encabezado de las solicitudes de API.
+1. **Cree una nueva integración en[!DNL Journey Orchestration]Service** in Adobe I/O y configúrela. Se necesita el acceso al perfil del producto [!DNL Journey Orchestration] y el Adobe Experience Platform. Se generarán las credenciales (clave de API, secreto de cliente...).
+1. **Cree un token web JSON (JWT)** a partir de las credenciales generadas anteriormente y fírmelo con su clave privada. JWT codifica toda la información de identidad y seguridad que Adobe necesita para comprobar su identidad y permitirle acceder a la API. Este paso se detalla en esta [sección](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
+1. **Intercambie su JWT por un Token de acceso** a través de una solicitud de POST o a través de la interfaz de la consola de desarrollador. Este Token de acceso deberá utilizarse en cada encabezado de las solicitudes de API.
 
-Para establecer una sesión segura de la API de Adobe I/O servicio a servicio, cada solicitud a un servicio de Adobe debe incluir en el encabezado Autorización la información siguiente.
+Para establecer una sesión segura de API de E/S de Adobe de servicio a servicio, cada solicitud a un servicio de Adobe debe incluir en el encabezado de Autorización la información siguiente.
 
 ```
 curl -X GET https://journey.adobe.io/authoring/XXX \
@@ -62,14 +62,15 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
  -H 'x-gw-ims-org-id: <ORGANIZATION>'
 ```
 
-* **&lt;ORGANIZACIÓN>**: Este es su ID de organización personal; Adobe proporciona un ID de organización para cada una de sus instancias:
+* **&lt;ORGANIZACIÓN>**: Este es su ID de organización personal, el Adobe proporciona un ID de organización para cada una de sus instancias:
 
    * &lt;ORGANIZACIÓN> : su instancia de producción
-   Para obtener el valor de ID de organización, consulte a su administrador o al contacto técnico de Adobe. También puede recuperarla en Adobe I/O al crear una nueva integración, en la lista de licencias (consulte la documentación <a href="https://www.adobe.io/authentication.html">de</a>Adobe I/O).
 
-* **&lt;ACCESS_TOKEN>**: Su token de acceso personal, que se recuperó al intercambiar su JWT a través de una solicitud POST.
+   Para obtener el valor de ID de la organización, consulte con el administrador o con el contacto técnico de Adobe. También puede recuperarla en la E/S de Adobe al crear una nueva integración, en la lista de licencias (consulte la documentación <a href="https://www.adobe.io/authentication.html">de E/S de</a>Adobe).
 
-* **&lt;API_KEY>**: su clave de API personal. Se proporciona en Adobe I/O después de crear una nueva integración en [!DNL Journey Orchestration] Service.
+* **&lt;ACCESS_TOKEN>**: Su token de acceso personal, que se recuperó al intercambiar su JWT a través de una solicitud de POST.
+
+* **&lt;API_KEY>**: su clave de API personal. Se proporciona en E/S de Adobe después de crear una nueva integración en [!DNL Journey Orchestration] Service.
 
 
 
@@ -170,7 +171,7 @@ En esta sección, encontrará los cinco casos de uso principales que puede reali
 
 Para ayudarle en las pruebas y la configuración, [aquí](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)encontrará una colección Postman.
 
-Esta colección Postman se ha configurado para compartir la colección Variable Postman generada a través de las integraciones __[de la consola de](https://console.adobe.io/integrations)Adobe I/O > Pruébelo > Descargar para Postman__, que genera un archivo Entorno Postman con los valores de integraciones seleccionados.
+Esta colección Postman se ha configurado para compartir la colección Variable Postman generada a través de las integraciones __[de la consola de E/S de](https://console.adobe.io/integrations)Adobe > Pruébelo > Descargar para Postman__, que genera un archivo Entorno Postman con los valores de integraciones seleccionados.
 
 Una vez descargado y cargado en Postman, debe agregar tres variables: `{JO_HOST}`,`{Base_Path}` y `{SANDBOX_NAME}`.
 * `{JO_HOST}` :: [!DNL Journey Orchestration] URL de puerta de enlace
