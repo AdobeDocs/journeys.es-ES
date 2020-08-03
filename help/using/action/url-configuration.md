@@ -12,26 +12,29 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+workflow-type: tm+mt
+source-wordcount: '126'
+ht-degree: 9%
 
 ---
 
 
 # Configuración de URL {#concept_gbg_1f1_2gb}
 
-Al configurar una acción personalizada, debe definir los **[!UICONTROL URL Configuration]**parámetros siguientes:
+Al configurar una acción personalizada, debe definir los **[!UICONTROL URL Configuration]** parámetros siguientes:
 
 ![](../assets/journeyurlconfiguration.png)
 
-1. Agregue el **[!UICONTROL URL]**del servicio externo.
+1. Add the **[!UICONTROL URL]** of the external service.
 
    >[!NOTE]
    >
    >Recomendamos encarecidamente utilizar HTTPS por motivos de seguridad. No permitimos el uso de direcciones de Adobe que no sean públicas ni de direcciones IP.
 
-1. Seleccione la llamada **[!UICONTROL Method]**: puede ser**[!UICONTROL POST]** o **[!UICONTROL PUT]**.
-1. En la **[!UICONTROL Headers]**sección, haga clic en**[!UICONTROL Add a header field]** para definir un nuevo par clave/valor. Corresponden a los encabezados HTTP de la solicitud realizada al servicio externo. Para eliminar pares de clave/valor, coloque el cursor en el **[!UICONTROL Headers]**campo y haga clic en el**[!UICONTROL Delete]** icono .
+1. Seleccione la llamada **[!UICONTROL Method]**: puede ser **[!UICONTROL POST]** o **[!UICONTROL PUT]**.
+1. En la **[!UICONTROL Headers]** sección, haga clic en **[!UICONTROL Add a header field]** para definir un nuevo par clave/valor. Corresponden a los encabezados HTTP de la solicitud realizada al servicio externo. Para eliminar pares de clave/valor, coloque el cursor en el **[!UICONTROL Headers]** campo y haga clic en el **[!UICONTROL Delete]** icono .
 
-   **[!UICONTROL Content-Type]**y**[!UICONTROL Charset]** se establecen de forma predeterminada y no se pueden eliminar ni anular.
+   **[!UICONTROL Content-Type]** y **[!UICONTROL Charset]** se establecen de forma predeterminada y no se pueden eliminar ni anular.
 
    >[!NOTE]
    >
