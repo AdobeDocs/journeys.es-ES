@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: a844adc1a073aebfb7fd8a719e52f305079260b7
+workflow-type: tm+mt
+source-wordcount: '31'
+ht-degree: 16%
 
 ---
 
 
 # trim {#trim}
 
-Elimina los espacios inicial y final.
+Elimina los espacios de inicio y de fin.
 
 ## Categoría
 
