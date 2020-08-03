@@ -36,7 +36,7 @@ Estos son los diferentes pasos para configurar los eventos de reacción:
 1. Añada una **[!UICONTROL Label]** a la reacción. Este paso es opcional.
 1. En la lista desplegable, seleccione la actividad de acción a la que desee reaccionar. Puede seleccionar cualquier actividad de acción situada en los pasos anteriores de la ruta.
 1. En función de la acción seleccionada (un correo electrónico, un SMS o una notificación push), elija a qué desea responder.
-1. Puede definir una condición como un paso opcional. Por ejemplo: después de una acción por correo electrónico, puede decidir crear dos rutas, una con un evento de reacción para rastrear clics solo para clientes VIP y otra con un evento de reacción para rastrear los clics realizados por mujeres.
+1. Puede definir una condición como un paso opcional. Por ejemplo: después de una acción por correo electrónico, puede decidir crear dos rutas, una con un evento de reacción para rastrear clics únicamente para VIP clientes y otra con un evento de reacción para rastrear los clics realizados por mujeres.
 
 >[!NOTE]
 >
