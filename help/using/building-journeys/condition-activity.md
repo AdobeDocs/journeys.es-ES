@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '708'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -36,7 +36,7 @@ Haga clic **[!UICONTROL Add a path]** si desea definir varias condiciones. Para 
 
 ![](../assets/journey47.png)
 
-Tenga en cuenta que el diseño de los viajes tiene un impacto funcional. Cuando se definen varias rutas después de una condición, solo se ejecutará la primera ruta elegible. Significa que puede variar la priorización de las rutas colocándolas encima o debajo de las demás. Por ejemplo, si la condición de la primera ruta es &quot;La persona es un VIP&quot; y la condición de la segunda ruta es &quot;La persona es un hombre&quot;. Si una persona que cumple ambas condiciones (un hombre que es VIP) supera este paso, se elegirá la primera ruta aunque también sea elegible para la segunda, porque la primera ruta es &quot;superior&quot;. Para cambiar esta prioridad, mueva las actividades en otro orden vertical.
+Tenga en cuenta que el diseño de los viajes tiene un impacto funcional. Cuando se definen varias rutas después de una condición, solo se ejecutará la primera ruta elegible. Significa que puede variar la priorización de las rutas colocándolas encima o debajo de las demás. Por ejemplo, si la condición de la primera ruta es &quot;La persona es un VIP&quot; y la condición de la segunda ruta es &quot;La persona es un hombre&quot;. Si una persona que cumple ambas condiciones (un hombre que es VIP) supera este paso, se elegirá la primera ruta aunque también sea elegible para la segunda, porque la primera es &quot;superior&quot;. Para cambiar esta prioridad, mueva las actividades en otro orden vertical.
 
 ![](../assets/journey48.png)
 
