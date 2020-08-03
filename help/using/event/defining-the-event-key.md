@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
+workflow-type: tm+mt
+source-wordcount: '393'
+ht-degree: 4%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
 
 La clave es el campo o la combinación de campos que forma parte de los datos de carga útil de evento y que permitirá al sistema identificar a la persona asociada al evento. La clave puede ser, por ejemplo, el ID de Experience Cloud, un ID de CRM o una dirección de correo electrónico.
 
-Si planea aprovechar los datos almacenados en la base de datos de Perfil del cliente en tiempo real, debe seleccionar, como clave de evento, la información que definió como la identidad de un perfil en el servicio [de Perfil del cliente en tiempo](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)real.
+Si planea aprovechar los datos almacenados en la base de datos de Perfil del cliente en tiempo real, debe seleccionar, como clave de evento, la información que definió como la identidad de un perfil en el servicio [de Perfil del cliente en tiempo](https://docs.adobe.com/content/help/es-ES/experience-platform/profile/home.html)real.
 
 Permitirá al sistema llevar a cabo la conciliación entre el evento y el perfil del individuo. Si selecciona un esquema que tiene una identidad principal, los campos **[!UICONTROL Key]** y **[!UICONTROL Namespace]** se rellenan previamente. Si no hay ninguna identidad definida, seleccionamos _identityMap > id_ como clave principal. A continuación, debe seleccionar una Área de nombres y la clave se rellenará previamente (debajo del **[!UICONTROL Namespace]** campo) mediante _identityMap > id_.
 
@@ -38,7 +41,7 @@ Si necesita utilizar una clave diferente, como un ID de CRM o una dirección de 
 
    ![](../assets/journey20.png)
 
-Cuando se recibe el evento, el valor de la clave permitirá al sistema identificar a la persona asociada al evento. Asociada a una Área de nombres (consulte [](../event/selecting-the-namespace.md)), la clave se puede utilizar para realizar consultas en la plataforma de Adobe Experience. Consulte [](../building-journeys/about-orchestration-activities.md).
+Cuando se recibe el evento, el valor de la clave permitirá al sistema identificar a la persona asociada al evento. Asociada a una Área de nombres (véase [](../event/selecting-the-namespace.md)), la clave se puede utilizar para realizar consultas en el Adobe Experience Platform. Consulte [](../building-journeys/about-orchestration-activities.md).
 La llave también se utiliza para comprobar que una persona está en un viaje. De hecho, una persona no puede estar en dos lugares diferentes en el mismo viaje. Como resultado, el sistema no permite que la misma clave, por ejemplo la clave CRMID=3224, esté en diferentes lugares en el mismo viaje.
 
 También tiene acceso a las funciones de expresión avanzadas (**[!UICONTROL Advanced mode]**) si desea realizar manipulaciones adicionales. Estas funciones le permiten manipular los valores utilizados para llevar a cabo consultas específicas, como cambiar los formatos, realizar concatenaciones de campo, teniendo en cuenta sólo una parte de un campo (por ejemplo, los 10 primeros caracteres). Consulte [](../expression/expressionadvanced.md).
