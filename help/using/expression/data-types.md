@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 4871550d1608f4ffdee3b56d38b08f808eb2281c
+workflow-type: tm+mt
+source-wordcount: '675'
+ht-degree: 3%
 
 ---
 
 
 # Tipos de datos {#concept_gp3_rj5_dgb}
 
-Técnicamente, una constante siempre contiene un tipo de datos. En la expresión literal, solo se especifica el valor. El tipo de datos se puede inferir del valor (por ejemplo, cadena, entero, decimal, etc.). Para casos específicos como la fecha y hora, utilizamos funciones específicas para la representación.
+Técnicamente, una constante siempre contiene un tipo de datos. En la expresión literal, solo especificamos el valor. El tipo de datos se puede inferir del valor (por ejemplo, cadena, entero, decimal, etc.). Para casos específicos como la fecha y hora, utilizamos funciones específicas para la representación.
 
 A continuación se muestra cómo se representan las expresiones de tipo de datos:
 
@@ -34,7 +37,7 @@ A continuación se muestra cómo se representan las expresiones de tipo de datos
     <tbody>
     <tr>
         <td>string</td>
-        <td><p>Secuencia común de caracteres.</p><p>No tiene ningún tamaño específico excepto el implícito que proviene del entorno, como la cantidad de memoria disponible.</p><p>Formato JSON: Cadena</p><p>Formato de serialización: UTF-8</p></td>
+        <td><p>Secuencia común de caracteres.</p><p>No tiene ningún tamaño específico excepto el implícito que viene del entorno, como la cantidad de memoria disponible.</p><p>Formato JSON: Cadena</p><p>Formato de serialización: UTF-8</p></td>
         <td><p>"&lt;value&gt;"</p><p>'&lt;value&gt;'</p></td>
         <td><p><pre>"hola mundo"</pre></p><p><pre>'hola mundo'</pre></p></td>
     </tr>
@@ -47,15 +50,15 @@ A continuación se muestra cómo se representan las expresiones de tipo de datos
     <tr>
         <td>decimal</td>
         <td><p>Número decimal.</p><p>Representa un valor flotante:</p>
-        <p>- valor finito positivo más alto de tipo doble, (2-2^-52)x2^1023</p>
-        <p> - valor normal positivo mínimo del tipo doble, 2-1022</p>
-        <p> - valor mínimo positivo distinto de cero de tipo doble, 2 p-1074</p><p>Formato JSON: Número</p><p>Formato de serialización: usando '.' como separador decimal.</p></td>
+        <p>- mayor valor finito positivo de tipo doble, (2-2^-52)x2^1023</p>
+        <p> - valor normal positivo más pequeño del tipo doble, 2-1022</p>
+        <p> - valor mínimo positivo distinto de cero del tipo doble, 2 p-1074</p><p>Formato JSON: Número</p><p>Formato de serialización: usando '.' como separador decimal.</p></td>
         <td>&lt;valor entero&gt;.&lt;valor entero&gt;</td>
         <td><p><pre>3.14</pre></p></td>
     </tr>
     <tr>
         <td>booleano</td>
-        <td><p>Valor booleano escrito en minúsculas: true o false</p><p>Formato JSON:Booleano</p></td>
+        <td><p>Valor booleano escrito en minúsculas: true o false</p><p>Formato JSON: Booleano</p></td>
         <td><p>true</p><p>false</p></td>
         <td><p><pre>true</pre></p></td>
     </tr>
@@ -110,7 +113,7 @@ A continuación se muestra cómo se representan las expresiones de tipo de datos
     </tr>
     <tr>
         <td>lista</td>
-        <td>Lista de expresiones separadas por comas que utilizan corchetes como delimitadores. No se admite el polimorfismo, por lo que todas las expresiones incluidas en la lista deben tener el mismo tipo.</td>
+        <td>lista separada por comas de expresiones utilizando corchetes como delimitadores. No se admite el polimorfismo, por lo que todas las expresiones contenidas en la lista deben tener el mismo tipo.</td>
         <td>[&lt;expresión&gt;, &lt;expresión&gt;, ... ]</td>
         <td><p><pre>["value1","value2"]</pre></p><p><pre>[3,5]</pre></p><p><pre>[toDuration(500),toDuration(800)]</pre></p></td>
     </tr>
