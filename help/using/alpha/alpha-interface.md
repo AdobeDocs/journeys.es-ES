@@ -1,6 +1,6 @@
 ---
 title: Descubrimiento de la interfaz de la versión Alpha
-description: Obtenga más información sobre la nueva interfaz de Journey Orchestration.
+description: Learn more about Journey Orchestration new interface.
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
