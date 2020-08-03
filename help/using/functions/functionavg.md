@@ -1,5 +1,5 @@
 ---
-title: promedio
+title: avg
 description: Obtenga información sobre la función avg
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 654888ee62a7b9b6e3d34fc3963fb83cac719003
+workflow-type: tm+mt
+source-wordcount: '49'
+ht-degree: 8%
 
 ---
 
 
 # avg {#avg}
 
-Devuelve el valor medio entre un conjunto de expresiones, dadas como una lista o como dos expresiones. Se omiten los valores nulos.
+Devuelve el valor promedio entre un conjunto de expresiones, dado como una lista o como dos expresiones. Se omiten los valores nulos.
 
 
 ## Categoría
