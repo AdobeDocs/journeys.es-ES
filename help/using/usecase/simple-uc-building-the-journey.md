@@ -1,5 +1,5 @@
 ---
-title: Construyendo el viaje
+title: Construcción del recorrido
 description: Aprenda a construir un viaje sencillo en el caso de uso
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -12,26 +12,29 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+workflow-type: tm+mt
+source-wordcount: '391'
+ht-degree: 5%
 
 ---
 
 
-# Construyendo el viaje{#concept_eyw_mcy_w2b}
+# Construcción del recorrido{#concept_eyw_mcy_w2b}
 
 El usuario **** empresarial ahora puede construir el viaje. Nuestro viaje sólo incluirá un camino con las siguientes actividades:
 
-* el SpaBeacon **[!UICONTROL Event]**: cuando una persona camina cerca de la señalización del spa, el sistema recibirá un evento y el viaje comenzará para esa persona.
-* una **[!UICONTROL Condition]**actividad para comprobar que la persona es una mujer
-* una **[!UICONTROL Email]**actividad (mediante Adobe Campaign Standard)
-* una **[!UICONTROL End]**actividad
+* el SpaBeacon **[!UICONTROL Event]**: cuando una persona camina cerca de la señalización del spa, el sistema recibirá un evento y el viaje será inicio para esa persona.
+* una **[!UICONTROL Condition]** actividad para comprobar que la persona es una mujer
+* una **[!UICONTROL Email]** actividad (con Adobe Campaign Standard)
+* una actividad **[!UICONTROL End]**
 
 >[!NOTE]
 >
->Las actividades **[!UICONTROL Push]**y**[!UICONTROL Email]** solo están disponibles en la paleta si tiene Adobe Campaign Standard.
+>Las actividades **[!UICONTROL Push]** y **[!UICONTROL Email]** solo están disponibles en la paleta si tiene Adobes Campaign Standard.
 
 Para obtener información adicional sobre cómo construir un viaje, consulte [](../building-journeys/journey.md).
 
-1. En el menú superior, haga clic en la **[!UICONTROL Home]**ficha y**[!UICONTROL Create]** cree un nuevo viaje.
+1. En el menú superior, haga clic en la **[!UICONTROL Home]** ficha y **[!UICONTROL Create]** cree un nuevo viaje.
 
    ![](../assets/journey31.png)
 
@@ -39,7 +42,7 @@ Para obtener información adicional sobre cómo construir un viaje, consulte [](
 
    ![](../assets/journeyuc1_8.png)
 
-1. Comience a diseñar su viaje arrastrando y soltando el evento &quot;SpaBeacon&quot; de la paleta al lienzo. También puede hacer doble clic en el evento en la paleta para agregarlo al lienzo.
+1. Inicio de diseñar su viaje arrastrando y soltando el evento &quot;SpaBeacon&quot; de la paleta al lienzo. También puede hacer clic con el botón doble en el evento de la paleta para agregarlo al lienzo.
 
    ![](../assets/journeyuc1_9.png)
 
@@ -47,31 +50,31 @@ Para obtener información adicional sobre cómo construir un viaje, consulte [](
 
    ![](../assets/journeyuc1_10.png)
 
-1. Elija el **[!UICONTROL Data Source Condition]**tipo y haga clic en el**[!UICONTROL Expression]** campo. También puede definir una etiqueta de condición que aparecerá en la flecha, en el lienzo.
+1. Elija el **[!UICONTROL Data Source Condition]** tipo y haga clic en el **[!UICONTROL Expression]** campo. También puede definir una etiqueta de condición que aparecerá en la flecha, en el lienzo.
 
    ![](../assets/journeyuc1_11.png)
 
-1. Con el editor de expresiones simples, busque el campo de género (_persona > género_) y suéltelo a la derecha para crear la siguiente condición: &quot;el sexo es igual a &quot;mujer&quot;.
+1. Con el editor de expresiones simple, busque el campo de sexo (_persona > sexo_) y suéltelo a la derecha para crear la siguiente condición: &quot;el sexo es igual a &quot;mujer&quot;.
 
    ![](../assets/journeyuc1_12.png)
 
-1. Suelte una **[!UICONTROL Email]**actividad y seleccione la plantilla de mensajería transaccional &quot;Descuento de spa&quot;. Esta plantilla se diseñó con Adobe Campaign. Consulte[esta página](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
+1. Suelte una **[!UICONTROL Email]** actividad y seleccione la plantilla de mensajería transaccional &quot;Descuento de spa&quot;. Esta plantilla se diseñó con Adobe Campaign. Consulte [esta página](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.translate.html).
 
    ![](../assets/journeyuc1_13.png)
 
-1. Haga clic dentro del **[!UICONTROL Email]**campo y seleccione la dirección de correo electrónico del origen de datos.
+1. Haga clic dentro del **[!UICONTROL Email]** campo y seleccione la dirección de correo electrónico del origen de datos.
 
    ![](../assets/journeyuc1_14.png)
 
-1. Del mismo modo, defina los campos de personalización de nombre y apellido del origen de datos.
+1. Del mismo modo, defina los campos de personalización de nombre y apellidos del origen de datos.
 
    ![](../assets/journeyuc1_15.png)
 
-1. Colocar una **[!UICONTROL End]**actividad.
+1. Suelte una **[!UICONTROL End]** actividad.
 
    ![](../assets/journeyuc1_17.png)
 
-1. Haga clic en el **[!UICONTROL Test]**botón de alternancia y pruebe el viaje con perfiles de prueba. Si hay algún error, desactive el modo de prueba, modifique el viaje y pruébelo de nuevo. For more information on the test mode, refer to[](../building-journeys/testing-the-journey.md).
+1. Haga clic en el **[!UICONTROL Test]** botón de alternancia y pruebe el viaje con perfiles de prueba. Si hay algún error, desactive el modo de prueba, modifique el viaje y pruébelo de nuevo. For more information on the test mode, refer to [](../building-journeys/testing-the-journey.md).
 
    ![](../assets/journeyuc1_18bis.png)
 
