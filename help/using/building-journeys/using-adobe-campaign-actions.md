@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '888'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -51,7 +51,7 @@ Para **[!UICONTROL Email]** y **[!UICONTROL SMS]**, los parámetros son idéntic
 
 >[!NOTE]
 >
->En el caso del correo electrónico, si utiliza una plantilla transaccional de perfiles, el Campaign Standard administra el mecanismo baja de forma predeterminada. Simplemente agregue un bloque de **[!UICONTROL Unsubscription link]** contenido en la plantilla ([más](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.translate.html)información). Si está utilizando una plantilla basada en evento (rtEvent), debe agregar, en el mensaje, un vínculo que pase el correo electrónico de la persona en el parámetro de URL y señale a una página de aterrizaje baja. Debe crear esta página de aterrizaje y asegurarse de que la decisión de cancelar la suscripción de la persona se transmite a Adobe.
+>En el caso del correo electrónico, si utiliza una plantilla transaccional de perfiles, el Campaign Standard administra el mecanismo baja de forma predeterminada. Simplemente agregue un bloque de **[!UICONTROL Unsubscription link]** contenido en la plantilla ([más](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.translate.html)información). Si está utilizando una plantilla basada en evento (rtEvent), debe agregar, en el mensaje, un vínculo que pase el correo electrónico de la persona en el parámetro de URL y señale a una página de aterrizaje baja. Debe crear esta página de aterrizaje y asegurarse de que la decisión de la persona de cancelar la suscripción se transmite al Adobe.
 
 Primero, debe elegir una plantilla de mensajería transaccional. Consulte [](../building-journeys/about-action-activities.md).
 
@@ -81,7 +81,7 @@ Estos son los campos esperados por el mensaje de Adobe Campaign Standard. Estos 
 
 ## Insertar {#section_im3_hvf_nhb}
 
-Antes de utilizar la actividad push, la aplicación móvil debe configurarse junto con el Campaign Standard para enviar notificaciones push. Utilice este [artículo](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html) para realizar los pasos de implementación necesarios para dispositivos móviles.
+Antes de utilizar la actividad push, la aplicación móvil debe configurarse junto con el Campaign Standard para enviar notificaciones push. Utilice este [artículo](https://helpx.adobe.com/es/campaign/kb/integrate-mobile-sdk.html) para realizar los pasos de implementación necesarios para dispositivos móviles.
 
 En primer lugar, debe elegir una aplicación móvil en la lista desplegable y un mensaje transaccional. Consulte [](../building-journeys/about-action-activities.md).
 
