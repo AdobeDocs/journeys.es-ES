@@ -41,7 +41,7 @@ Se pueden mostrar dos colores diferentes en el signo situado junto al **[!UICONT
 
 ![](../assets/journey75.png)
 
-Los errores y las advertencias que son globales para el viaje aparecen primero en la lista. Los errores y las advertencias relacionados con actividades específicas se enumeran después, por orden de actividad o en el recorrido de izquierda a derecha. El **[!UICONTROL Copy details]** botón copia información técnica sobre el viaje que el equipo de asistencia puede utilizar para solucionar problemas.
+Los errores y las advertencias que son globales para el viaje aparecen primero en la lista. Los errores y las advertencias relacionados con actividades específicas se enumeran después, por orden de actividad o por su apariencia en el viaje de izquierda a derecha. El **[!UICONTROL Copy details]** botón copia información técnica sobre el viaje que el equipo de asistencia puede utilizar para solucionar problemas.
 
 Cuando se produce un error en una acción o condición, se detiene el viaje de un individuo. La única manera de que continúe es marcar la casilla **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Consulte [](../building-journeys/using-the-journey-designer.md#paths).
 
@@ -86,7 +86,7 @@ A continuación se presentan algunas cosas para comprobar:
 
 Si los individuos fluyen por el camino correcto en el viaje pero no reciben mensajes que deberían recibir, puede comprobar si:
 
-* La mensajería transaccional ha tenido correctamente en cuenta la solicitud para enviar el mensaje. Un usuario de negocios puede acceder al mensaje transaccional que se supone que debe enviarse y comprobar si la hora de la última ejecución corresponde al tiempo de ejecución del viaje. También puede consultar las últimas llamadas y eventos de API recibidas mediante mensajes transaccionales.
+* La mensajería transaccional ha tenido correctamente en cuenta la solicitud para enviar el mensaje. Un usuario de negocios puede acceder al mensaje transaccional que se supone que debe enviarse y comprobar si la hora de la última ejecución corresponde al tiempo de ejecución del viaje. También puede consultar las últimas llamadas o eventos de API recibidas mediante mensajes transaccionales.
 * La mensajería transaccional ha enviado correctamente el mensaje. En los registros de envío del mensaje transaccional, puede ver el estado de cada ejecución. Pueden ver si es verde, rojo y cuál fue el problema. Un usuario comercial puede acceder a esta pantalla y enviar los registros a un administrador para realizar más investigaciones.
 
 En el caso de un mensaje enviado mediante una acción personalizada, lo único que se puede comprobar durante la prueba de viaje es el hecho de que la llamada del sistema de la acción personalizada produce un error o no. Si la llamada al sistema externo asociada con la acción personalizada no genera un error pero no conduce al envío de un mensaje, algunas investigaciones deben realizarse en el sistema externo.
