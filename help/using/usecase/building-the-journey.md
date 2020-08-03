@@ -146,7 +146,7 @@ Después de la condición se crean dos rutas:
 
    ![](../assets/journeyuc2_23.png)
 
-1. Añada una nueva **[!UICONTROL Push]** actividad, seleccione la plantilla &quot;Descuento de la comida&quot; y defina los campos **[!UICONTROL Address]** y **[!UICONTROL Personalization]** . Añada una **[!UICONTROL End]** actividad.
+1. Añada una nueva **[!UICONTROL Push]** actividad, seleccione la plantilla &quot;Descuento de la comida&quot; y defina los campos **[!UICONTROL Address]** y **[!UICONTROL Personalization]** . Añada una actividad **[!UICONTROL End]**. 
 
    ![](../assets/journeyuc2_24.png)
 
@@ -154,7 +154,7 @@ Después de la condición se crean dos rutas:
 
    ![](../assets/journeyuc2_31.png)
 
-1. En la segunda ruta que sigue la condición de reserva (sin habitación reservada), agregue una **[!UICONTROL Push]** actividad y seleccione la plantilla &quot;Tarifas de habitación&quot;. Añada una **[!UICONTROL End]** actividad.
+1. En la segunda ruta que sigue la condición de reserva (sin habitación reservada), agregue una **[!UICONTROL Push]** actividad y seleccione la plantilla &quot;Tarifas de habitación&quot;. Añada una actividad **[!UICONTROL End]**. 
 
    ![](../assets/journeyuc2_25.png)
 
@@ -172,7 +172,7 @@ Después de la condición se crean dos rutas:
 
    ![](../assets/journeyuc2_28.png)
 
-1. Añada una **[!UICONTROL End]** actividad.
+1. Añada una actividad **[!UICONTROL End]**. 
 
 Haga clic en la **[!UICONTROL Test]** opción y pruebe el viaje. Si hay algún error, desactive el modo de prueba, modifique el viaje y pruébelo de nuevo. For more information on the test mode, refer to [](../building-journeys/testing-the-journey.md).
 
