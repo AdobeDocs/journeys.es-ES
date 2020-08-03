@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '41'
+ht-degree: 4%
 
 ---
 
@@ -30,7 +33,7 @@ Fecha
 
 ## Parámetros
 
-* id. de zona horaria:string
+* id. de zona horaria: string
 * dateTime
 
 ## Firma y tipo devuelto
