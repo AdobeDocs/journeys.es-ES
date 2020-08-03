@@ -1,5 +1,5 @@
 ---
-title: ordenar
+title: sort
 description: Obtenga información sobre la clasificación de funciones
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 11%
 
 ---
 
 
-# ordenar {#sort}
+# sort {#sort}
 
-Ordena una lista de valores en orden natural. El primer argumento es la lista de valores, el segundo es un valor booleano que indica si la ordenación es ascendente (true) o descendente (false).
+Ordena una lista de valores en el orden natural. El primer argumento es la lista de valores, el segundo es un valor booleano que indica si la ordenación es ascendente (true) o descendente (false).
 
 ## Categoría
 
