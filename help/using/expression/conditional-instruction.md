@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+workflow-type: tm+mt
+source-wordcount: '161'
+ht-degree: 0%
 
 ---
 
@@ -21,8 +24,8 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 La instrucción condicional (si, por lo tanto, si no) se admite en el editor avanzado. Permite definir expresiones más complejas. Se compone de los siguientes elementos:
 
 * **[!UICONTROL if]**:: la condición que se va a evaluar primero.
-* **[!UICONTROL then]**:: la expresión que se va a evaluar en caso de que el resultado de la evaluación de la condición sea true.
-* **[!UICONTROL else]**:: la expresión que se va a evaluar en caso de que el resultado de la evaluación de la condición sea false.
+* **[!UICONTROL then]**:: la expresión que debe evaluarse en caso de que el resultado de la evaluación de la condición sea verdadero.
+* **[!UICONTROL else]**:: la expresión que debe evaluarse en caso de que el resultado de la evaluación de la condición sea falso.
 
 >[!NOTE]
 >
@@ -61,7 +64,7 @@ listString,listString : listString
 
 La instrucción condicional le permite optimizar el flujo de trabajo del viaje reduciendo el número de actividades de condición. Por ejemplo, dentro de la misma actividad de acción, puede especificar dos alternativas para una definición de campo utilizando sólo una expresión de condición.
 
-Ejemplo de una actividad de acción (para un campo que espera una cadena como resultado de la instrucción condicional):
+Ejemplo de actividad de acción (para un campo que espera una cadena como resultado de la instrucción condicional):
 
 ```
 if (startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iPad') or startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iOS'))
