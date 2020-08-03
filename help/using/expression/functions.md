@@ -1,6 +1,6 @@
 ---
 title: Funciones
-description: Obtenga información sobre las funciones
+description: Learn about functions
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: a3df443dcb05018d1f8cac885631dba9c8c20d2b
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 60%
 
 ---
 
@@ -22,9 +25,9 @@ Una función puede tener diferentes firmas (un conjunto diferente de parámetros
 
 `<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
 
-Cada función tiene un tipo devuelto específico.
+Each function has a specific returned type.
 
-Esta es la lista de funciones admitidas.
+Here is the list of supported functions.
 
 ## Funciones principales
 
