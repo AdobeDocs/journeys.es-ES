@@ -38,7 +38,7 @@ Estos son los pasos principales necesarios para configurar una acción personali
 
 1. Añada una descripción de la acción. Este paso es opcional.
 1. The number of journeys that use this action is displayed in the **[!UICONTROL Used in]** field. You can click the **[!UICONTROL View journeys]** button to display the list of  journeys using this action.
-1. Defina los diferentes **[!UICONTROL URL Configuration]** parámetros. Consulte [](../action/url-configuration.md).
+1. Define the different **[!UICONTROL URL Configuration]** parameters. Consulte [](../action/url-configuration.md).
 1. Configure la **[!UICONTROL Authentication]** sección. Esta configuración es la misma que para las fuentes de datos.  Consulte [](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
 1. Defina el **[!UICONTROL Message parameters]**. Consulte [](../action/defining-the-message-parameters.md).
 1. Haga clic **[!UICONTROL Save]**.
