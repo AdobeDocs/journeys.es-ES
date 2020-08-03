@@ -21,7 +21,7 @@ ht-degree: 6%
 
 # Definición de los campos de carga útil {#concept_yrw_3qt_52b}
 
-La definición de carga útil le permite elegir la información que el sistema espera recibir del evento en su viaje y la clave para identificar qué persona está asociada al evento. La carga útil se basa en la definición del campo XDM de Experience Cloud. For more information on XDM, refer to this [page](https://docs.adobe.com/content/help/es-ES/experience-platform/xdm/home.html).
+La definición de carga útil le permite elegir la información que el sistema espera recibir del evento en su viaje y la clave para identificar qué persona está asociada al evento. La carga útil se basa en la definición del campo XDM del Experience Cloud. For more information on XDM, refer to this [page](https://docs.adobe.com/content/help/es-ES/experience-platform/xdm/home.html).
 
 1. Seleccione un esquema XDM en la lista y haga clic en el **[!UICONTROL Payload]** campo o en el **[!UICONTROL Edit]** icono.
 
