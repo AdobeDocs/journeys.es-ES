@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '75'
+ht-degree: 8%
 
 ---
 
 
 # replaceAll {#replaceAll}
 
-Reemplaza todas las incidencias que coinciden con la cadena de destino por la cadena de reemplazo en la cadena base.
+Reemplaza todas las incidencias que coinciden con la cadena de destinatario por la cadena de reemplazo en la cadena base.
 
 El reemplazo procede desde el principio de la cadena hasta el final, por ejemplo, reemplazar &quot;aa&quot; por &quot;b&quot; en la cadena &quot;aaa&quot; resultará en &quot;ba&quot; en lugar de &quot;ab&quot;.
 
