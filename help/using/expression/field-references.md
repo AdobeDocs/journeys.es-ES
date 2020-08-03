@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
+workflow-type: tm+mt
+source-wordcount: '424'
+ht-degree: 2%
 
 ---
 
@@ -21,11 +24,11 @@ source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
 
 Se puede adjuntar una referencia de campo a un evento o a un grupo de campos. La única información significativa es el nombre del campo y su ruta.
 
-Si utiliza caracteres especiales en un campo, debe utilizar comillas dobles o simples. Estos son los casos en los que se necesitan comillas:
+Si utiliza caracteres especiales en un campo, debe utilizar comillas simples o comillas de doble. Estos son los casos en los que se necesitan comillas:
 
-* el campo comienza con caracteres numéricos
-* el campo comienza con el carácter &quot;-&quot;
-* el campo contiene cualquier cosa que no sea: _a_-_z_, _A_-_Z_, _0____-9, _ ,-_
+* inicios de campo con caracteres numéricos
+* los inicios de campo con el carácter &quot;-&quot;
+* el campo contiene cualquier cosa que no sea: _a_-_z_, _A_-_Z_, _0_-___9, _ ,-_
 
 Por ejemplo, si el campo es _3h_: _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
 
@@ -58,7 +61,7 @@ Se puede asociar un valor predeterminado al nombre de un campo. La sintaxis es l
 
 >[!NOTE]
 >
->El tipo del campo y el valor predeterminado deben ser los mismos. Por ejemplo, @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : {2} no será válido porque el valor predeterminado es un entero, mientras que el valor esperado debe ser una cadena.
+>El tipo del campo y el valor predeterminado deben ser los mismos. Por ejemplo, @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue: {2} no será válido porque el valor predeterminado es un entero, mientras que el valor esperado debe ser una cadena.
 
 **Referencia de un campo en colecciones**
 
@@ -72,13 +75,13 @@ Ejemplo :
 
 **Referencia de un campo definido en un mapa**
 
-Para recuperar un elemento en un mapa, utilizamos la función de entrada con una clave determinada. Por ejemplo, se utiliza al definir la clave de un evento, según el espacio de nombres seleccionado. Consulte Selección del espacio de nombres. For more information, see [](../event/selecting-the-namespace.md).
+Para recuperar un elemento en un mapa, utilizamos la función de entrada con una clave determinada. Por ejemplo, se utiliza al definir la clave de un evento, según la Área de nombres seleccionada. Consulte Selección de la Área de nombres. For more information, see [](../event/selecting-the-namespace.md).
 
 ```
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-En esta expresión, obtenemos la entrada de la clave ‘Correo electrónico’ del campo ‘Mapa de identidad’ de un evento. La entrada ‘Correo electrónico’ es una colección, de la cual tomamos el ‘id’ en el primer elemento usando ‘first()’. For more information, see [](../expression/collection-management-functions.md).
+En esta expresión, obtenemos la entrada para la clave de ‘Correo electrónico’ del campo ‘Mapa de identidad’ de un evento. La entrada ‘Correo electrónico’ es una colección, de la cual tomamos el ‘id’ en el primer elemento usando ‘first()’. For more information, see [](../expression/collection-management-functions.md).
 
 **Valores de parámetro de una fuente de datos (valores dinámicos de la fuente de datos)**
 
@@ -88,7 +91,7 @@ Para casos de uso más complejos, si desea incluir los parámetros del origen de
 
 >[!NOTE]
 >
->Cuando se definen los valores de parámetro en la expresión, la ficha de la derecha desaparece.
+>Cuando define los valores de parámetro en la expresión, la ficha de la derecha desaparece.
 
 Utilice la sintaxis siguiente:
 
