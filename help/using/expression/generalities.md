@@ -34,7 +34,7 @@ Las expresiones se evaluarán de izquierda a derecha. La asociatividad de los op
 | `4 + 2 * 10` | <ul><li>&#39;*&#39; tiene prioridad sobre &#39;+&#39;: 2 * 10 se evalúa → 20</li><li>4 + 20 → 24</li></ul> |
 | `(4 + 2) * 10` | <ul><li>Los paréntesis cambian la prioridad: (4 + 2) se evalúa → 6</li><li> 6 * 10 → 60</li></ul> |
 
-## Distinción entre mayúsculas y minúsculas{#section_lrb_xh5_dgb}
+## Case sensitivity{#section_lrb_xh5_dgb}
 
 Estas son las distintas reglas de distinción de mayúsculas y minúsculas:
 
