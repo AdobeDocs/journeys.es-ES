@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '85'
+ht-degree: 5%
 
 ---
 
 
 # matchRegExp {#matchRegExp}
 
-Devuelve true si la cadena del primer parámetro coincide con la expresión regular del segundo parámetro. For more information, see [this page](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
+Devuelve true si la cadena del primer parámetro coincide con la expresión normal del segundo parámetro. For more information, see [this page](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
 
 ## Categoría
 
@@ -49,4 +52,4 @@ Devuelve true.
 
 Explicación:
 
-Aquí puede comprobar si la cadena cumple la expresión regular (sintaxis de java): comienza con &quot;Hola&quot;, luego cualquier tipo de cadena y termina con &quot;Mundo&quot;.
+Aquí puede comprobar si la cadena cumple la expresión normal (sintaxis de java): inicios con &quot;Hola&quot;, luego cualquier tipo de cadena y termina con &quot;Mundo&quot;.
