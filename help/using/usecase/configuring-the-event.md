@@ -12,17 +12,20 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+workflow-type: tm+mt
+source-wordcount: '351'
+ht-degree: 2%
 
 ---
 
 
 # Configuración del evento{#concept_y44_hcy_w2b}
 
-En nuestro escenario, necesitamos recibir un evento cada vez que una persona camina cerca de una señalización ubicada al lado del spa. El usuario **** técnico necesita configurar el evento que el sistema escuchará en nuestro viaje.
+En nuestro escenario, necesitamos recibir un evento cada vez que una persona camina cerca de una señalización situada al lado del spa. El usuario **** técnico necesita configurar el evento que el sistema escuchará en nuestro viaje.
 
-Para obtener información adicional sobre la configuración de eventos, consulte [](../event/about-events.md).
+Para obtener información adicional sobre la configuración de evento, consulte [](../event/about-events.md).
 
-1. En el menú superior, haga clic en la **[!UICONTROL Events]**ficha y, a continuación, en**[!UICONTROL Add]** para crear un nuevo evento.
+1. En el menú superior, haga clic en la **[!UICONTROL Events]** ficha y, a continuación, en **[!UICONTROL Add]** para crear un nuevo evento.
 
    ![](../assets/journeyuc1_1.png)
 
@@ -32,26 +35,26 @@ Para obtener información adicional sobre la configuración de eventos, consulte
 
    <!--li>Select the **[!UICONTROL Mobile - Streaming Ingestion APIs]** event type. Events are sent from the customers' mobile phone through the Mobile SDK.![](../assets/journeyuc1_4.png" placement="break" width="800" id="image_qgr_2mn_z2b"/></li-->
 
-1. A continuación, seleccionamos el esquema y definimos la carga útil esperada para este evento. Seleccionamos los campos necesarios del modelo normalizado XDM. Necesitamos el ID de Experience Cloud para identificar a la persona en la base de datos de perfil del cliente en tiempo real: _endUserIDs > experiencia > mcid > id_. Se genera automáticamente un ID para este evento. Este ID se almacena en el **[!UICONTROL eventID]**campo (_experiencia > campaña > orquestación > eventID_). El sistema que impulsa el evento no debe generar un ID, debe utilizar el disponible en la vista previa de la carga útil. En nuestro caso de uso, este ID se utiliza para identificar la ubicación de la señalización. Cada vez que una persona camina cerca de la señalización del spa, se envía un evento que contiene esta ID de evento específica. Esto permite al sistema saber qué señalización activó el envío del evento.
+1. A continuación, seleccionamos el esquema y definimos la carga útil esperada para este evento. We select the fields needed from the XDM normalized model. We need the Experience Cloud ID to identify the person in the Real-time Customer Profile database: _endUserIDs > experience > mcid > id_. An ID is automatically generated for this event. Este ID se almacena en el **[!UICONTROL eventID]** campo (_experiencia > campaña > orquestación > eventID_). El sistema que empuja el evento no debe generar un ID, debe utilizar el disponible en la previsualización de carga útil. En nuestro caso de uso, este ID se utiliza para identificar la ubicación de la señalización. Cada vez que una persona camina cerca de la señalización de spa, se envía un evento que contiene este ID de evento específico. Esto permite al sistema saber qué señalización activó el envío del evento.
 
    ![](../assets/journeyuc1_3.png)
 
    >[!NOTE]
    >
-   >La lista de campos varía de un esquema a otro. Según la definición del esquema, algunos campos pueden ser obligatorios y estar preseleccionados.
+   >La lista de los campos varía de un esquema a otro. Según la definición de esquema, algunos campos pueden ser obligatorios y estar preseleccionados.
 
-1. Necesitamos seleccionar un espacio de nombres. Se preselecciona un espacio de nombres en función de las propiedades del esquema. Puede mantener el preseleccionado. Para obtener más información sobre los espacios de nombres, consulte [](../event/selecting-the-namespace.md).
+1. Necesitamos seleccionar una Área de nombres. Una Área de nombres está preseleccionada en función de las propiedades de esquema. Puede mantener el preseleccionado. Para obtener más información sobre Áreas de nombres, consulte [](../event/selecting-the-namespace.md).
 
    ![](../assets/journeyuc1_6.png)
 
-1. Se preselecciona una clave en función de las propiedades de esquema y del espacio de nombres seleccionado. Puedes mantenerlo.
+1. Se preselecciona una clave en función de las propiedades de esquema y la Área de nombres seleccionada. Puedes mantenerlo.
 
    ![](../assets/journeyuc1_5.png)
 
-1. Haga clic **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Save]**.
 
-1. Haga clic en el **[!UICONTROL View Payload]**icono para obtener una vista previa de la carga que espera el sistema y compartirla con la persona responsable del envío del evento. Esta carga útil deberá configurarse en el postback de la consola de administración de Mobile Services.
+1. Haga clic en el **[!UICONTROL View Payload]** icono para previsualización de la carga útil esperada por el sistema y compartirla con la persona responsable del envío del evento. Esta carga útil deberá configurarse en el postback de la consola de administración de Mobile Services.
 
    ![](../assets/journeyuc1_7.png)
 
-   El evento está listo para utilizarse en su viaje. Ahora debe configurar la aplicación móvil para que pueda enviar la carga útil esperada al extremo de las API de inserción de flujo. Consulte [](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+   El evento está listo para ser utilizado en su viaje. Ahora debe configurar la aplicación móvil para que pueda enviar la carga útil esperada al extremo de las API de inserción de flujo. Consulte [](../event/additional-steps-to-send-events-to-journey-orchestration.md).
