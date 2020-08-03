@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '88'
+ht-degree: 4%
 
 ---
 
 
 # min {#min}
 
-Devuelve el valor mínimo entre un conjunto de expresiones, dadas como una lista o como dos expresiones. Se omiten los valores nulos.
+Devuelve el valor mínimo entre un conjunto de expresiones, dado como una lista o dos expresiones. Se omiten los valores nulos.
 
 ## Categoría
 
