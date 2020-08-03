@@ -83,4 +83,4 @@ Si selecciona un campo de un origen de datos externo que requiere que se llame a
 
 ![](../assets/journeyuc2_19.png)
 
-For more complex use cases, if you want to include the parameters of the data source in the main expression, you can define their values using the &quot;params&quot; keyword. Consulte [esta página](../expression/field-references.md).
+Para casos de uso más complejos, si desea incluir los parámetros del origen de datos en la expresión principal, puede definir sus valores con la palabra clave &quot;params&quot;. Consulte [esta página](../expression/field-references.md).
