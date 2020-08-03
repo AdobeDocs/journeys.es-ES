@@ -1,6 +1,6 @@
 ---
 title: uuid
-description: Obtenga información sobre la función uuid
+description: Learn about the function uuid
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+workflow-type: tm+mt
+source-wordcount: '42'
+ht-degree: 9%
 
 ---
 
 
 # uuid {#uuid}
 
-Genera un UUID aleatorio (identificador único universal).
+Generates a random UUID (Universal Unique IDentifier).
 
 ## Categoría
 
@@ -30,13 +33,13 @@ Cadena
 
 ## Parámetros
 
-Esta función no requiere parámetros.
+This function does not require parameters.
 
 ## Firma y tipo devuelto
 
 `uuid()`
 
-Devuelve una cadena.
+Returns a string.
 
 ## Ejemplo
 
