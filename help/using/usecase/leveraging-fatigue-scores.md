@@ -44,7 +44,7 @@ Realice los siguientes pasos para seleccionar los campos de puntuación de fatig
 
    ![](../assets/journeyuc3_1.png)
 
-1. Haga clic **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Save]**.
 
 ## Construcción del recorrido {#section_uzm_pyy_wfb}
 
@@ -62,7 +62,7 @@ Realice los siguientes pasos para aprovechar el nivel de fatiga del viaje:
 
    ![](../assets/journeyuc3_2.png)
 
-1. Con el editor de expresiones sencillo, busque el **[!UICONTROL fatigueLevel]** campo (_ExperiencePlatformDataSource > JourneyAIScores > Perfil > travelAI > emailScore > fatiga_), suéltelo a la derecha y cree la condición siguiente: &quot;fatigueLevel es igual a &quot;Low&quot;. Haga clic **[!UICONTROL Ok]**.
+1. Con el editor de expresiones sencillo, busque el **[!UICONTROL fatigueLevel]** campo (_ExperiencePlatformDataSource > JourneyAIScores > Perfil > travelAI > emailScore > fatiga_), suéltelo a la derecha y cree la condición siguiente: &quot;fatigueLevel es igual a &quot;Low&quot;. Haga clic en **[!UICONTROL Ok]**.
 
    ![](../assets/journeyuc3_3.png)
 
