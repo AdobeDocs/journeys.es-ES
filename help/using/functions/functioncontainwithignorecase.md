@@ -1,6 +1,6 @@
 ---
 title: containWithIgnoreCase
-description: Obtenga información sobre la función containWithIgnoreCase
+description: Learn about the function containWithIgnoreCase
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: a844adc1a073aebfb7fd8a719e52f305079260b7
+workflow-type: tm+mt
+source-wordcount: '48'
+ht-degree: 10%
 
 ---
 
