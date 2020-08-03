@@ -36,6 +36,6 @@ Para obtener información adicional sobre la configuración del origen de datos,
    * _persona > sexo_
    * _personalEmail > dirección_
 
-1. Haga clic **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Save]**.
 
 La fuente de datos ahora está configurada y lista para utilizarse en su viaje.
