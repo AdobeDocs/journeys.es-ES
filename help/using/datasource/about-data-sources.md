@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 74%
+ht-degree: 86%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="jo_datasources"
 >title="Acerca de las fuentes de datos"
->abstract="La configuración de la fuente de datos siempre la realiza un usuario técnico. La configuración del origen de datos permite definir una conexión con un sistema para recuperar información adicional que se utilizará en los viajes, para: definición de condición, parámetro y datos de personalización en acciones, definición de espera personalizada, definición de zona horaria."
+>abstract="La configuración de la fuente de datos siempre la realiza un usuario técnico. La configuración de la fuente de datos permite definir una conexión con un sistema para recuperar información adicional que se utilizará en los recorridos para definición de condición, parámetro y datos de personalización en acciones, definición de espera personalizada, definición de zona horaria personalizada."
 
 La configuración de la fuente de datos permite definir una conexión con un sistema para recuperar información adicional que se utilizará en los viajes, para:
 
@@ -42,7 +42,7 @@ Existen dos tipos de fuentes de datos:
 
 Para cada fuente de datos, se define la información que se recuperará mediante grupos de campos. Los grupos de campos son conjuntos de campos que se pueden recuperar desde una fuente de datos. Consulte [](../datasource/field-groups.md).
 
-For more information on how to configure an Adobe Experience Platform Data Source and an external data source and how to find and use data in a journey, watch this [tutorial video](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-data-sources.html).
+For more information on how to configure an Adobe Experience Platform Data Source and an external data source and how to find and use data in a journey, watch this [tutorial video](https://docs.adobe.com/content/help/es-ES/journey-orchestration-learn/tutorials/configure-data-sources.html).
 
 Estos son los pasos principales de la configuración de la fuente de datos:
 
