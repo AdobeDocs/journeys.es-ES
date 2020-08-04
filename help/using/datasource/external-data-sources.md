@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '1271'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ Las API de REST que utilizan POST o GET y arrojan JSON son compatibles. Se admit
 
 Veamos el ejemplo de un servicio de API meteorológica que quiero usar para personalizar el comportamiento de mi recorrido según los datos del tiempo real.
 
-Estos son dos ejemplos de llamada de API:
+Estos son dos ejemplos de llamada API:
 
 * _https://api.adobeweather.org/weather?city=London,uk&amp;appid=1234_
 * _https://api.adobeweather.org/weather?lat=35&amp;lon=139&amp;appid=1234_
@@ -166,7 +166,7 @@ El formato de esta autenticación es:
 }
 ```
 
-Puede cambiar la duración de la caché del token para un origen de datos de autenticación personalizado. A continuación se muestra un ejemplo de una carga útil de autenticación personalizada. La duración de la caché se define en el parámetro &quot;cacheDuration&quot;. Especifica la duración de retención del token generado en la caché. La unidad puede ser milisegundos, segundos, minutos, horas, días, meses, años.
+Puede cambiar la duración de caché del token para una fuente de datos de autenticación personalizada. A continuación se muestra un ejemplo de una carga útil de autenticación personalizada. La duración de caché se define en el parámetro &quot;cacheDuration&quot;. Especifica la duración de retención del token generado en la caché. La unidad puede ser milisegundos, segundos, minutos, horas, días, meses, años.
 
 ```
 "authentication": {
