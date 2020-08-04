@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 3c6c20feb2d461a5780dde5539811beee2eb78b7
 workflow-type: tm+mt
 source-wordcount: '1010'
-ht-degree: 77%
+ht-degree: 89%
 
 ---
 
@@ -21,17 +21,17 @@ ht-degree: 77%
 
 >[!NOTE]
 >
->To get the best out of [!DNL Journey Orchestration], we recommend using Chrome as your Internet browser. La interfaz se muestra en el idioma definido en IMS. Si el idioma de IMS no es compatible con [!DNL Journey Orchestration], la interfaz se muestra en inglés.
+>Para sacar el máximo partido a [!DNL Journey Orchestration], recomendamos utilizar Chrome como navegador de Internet. La interfaz se muestra en el idioma definido en IMS. Si el idioma de IMS no es compatible con [!DNL Journey Orchestration], la interfaz se muestra en inglés.
 >
 >Esta documentación se actualiza con frecuencia para reflejar los cambios recientes en el producto. Sin embargo, algunas capturas de pantalla pueden diferir ligeramente de la interfaz del producto.
 
-## Acceso [!DNL Journey Orchestration]{#accessing_journey_orchestration}
+## Acceso a [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-To access the [!DNL Journey Orchestration]&#39;s interface, click the **[!UICONTROL App Selector]** icon, in the top right. Then click **[!UICONTROL Journey Orchestration]**, on the right side, below **[!UICONTROL Experience Platform]**.
+Para acceder a la interfaz de [!DNL Journey Orchestration], haga clic en el icono **[!UICONTROL App Selector]**, en la parte superior derecha. Then click **[!UICONTROL Journey Orchestration]**, on the right side, below **[!UICONTROL Experience Platform]**.
 
 ![](../assets/journey1.png)
 
-You can also access [!DNL Journey Orchestration] from the Experience Cloud home page, in the **[!UICONTROL Quick access]** section.
+También puede acceder a [!DNL Journey Orchestration]desde la página de inicio de Experience Cloud, en **[!UICONTROL Quick access]**.
 
 ![](../assets/journey1bis.png)
 
@@ -40,14 +40,14 @@ You can also access [!DNL Journey Orchestration] from the Experience Cloud home 
 >[!CONTEXTUALHELP]
 >id="jo_home"
 >title="Acerca de la lista de recorridos"
->abstract="La lista de recorridos le permite realizar vistas de todos sus recorridos a la vez, ver su estado y realizar acciones básicas. Puede duplicar, detener o eliminar recorridos. Según el recorrido, es posible que algunas acciones no estén disponibles. Por ejemplo, no puede eliminar ni reiniciar un viaje que esté cerrado. Puede crear una nueva versión a partir de ella o duplicándola. También puede utilizar la barra de búsqueda para buscar un recorrido."
+>abstract="La lista de recorridos le permite realizar vistas de todos sus recorridos a la vez, ver su estado y realizar acciones básicas. Puede duplicar, detener o eliminar recorridos. Según el recorrido, es posible que algunas acciones no estén disponibles. Por ejemplo, no se puede eliminar ni reiniciar un recorrido cerrado. Puede crear una nueva versión a partir de ella o duplicándola. También puede utilizar la barra de búsqueda para buscar un recorrido."
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="Ver vídeo de demostración"
 
-The top menus allow you to navigate through the different functionalities of [!DNL Journey Orchestration]: **[!UICONTROL Home]**(the journeys),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
+Los menús superiores le permiten navegar por las diferentes funcionalidades de [!DNL Journey Orchestration]: **[!UICONTROL Home]**(los recorridos),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
 
 ![](../assets/journey2.png)
 
-Haga clic en ![](../assets/icon-context.png), en la esquina superior derecha de la pantalla para mostrar la ayuda contextual. It is available across the different [!DNL Journey Orchestration] list screens (journeys, events, actions and data sources). Esto le permite realizar una vista rápida de la funcionalidad actual y acceder a los artículos y vídeos relacionados.
+Haga clic en ![](../assets/icon-context.png), en la esquina superior derecha de la pantalla para mostrar la ayuda contextual. Está disponible en las distintas pantallas de lista de [!DNL Journey Orchestration] (recorridos, eventos, acciones y fuentes de datos). Esto le permite realizar una vista rápida de la funcionalidad actual y acceder a los artículos y vídeos relacionados.
 
 ![](../assets/journey2bis.png)
 
@@ -81,7 +81,7 @@ En las diferentes listas, puede realizar acciones básicas por cada elemento. Po
 
 Al definir la [carga útil de evento](../event/defining-the-payload-fields.md), la [carga útil de grupo de campos](../datasource/field-groups.md) y seleccionar los campos en el [editor de expresiones](../expression/expressionadvanced.md), se muestra el nombre para mostrar además del nombre del campo. Esta información se recupera de la definición de esquema del modelo de datos de Experience.
 
-Si se proporcionan descriptores como &quot;xdm:alternativoDisplayInfo&quot; al configurar esquemas, los nombres descriptivos reemplazarán los nombres para mostrar. Resulta especialmente útil cuando se trabaja con &quot;eVars&quot; y campos genéricos. Puede configurar descriptores de nombres prácticos mediante una llamada de API. Para obtener más información, consulte la [Guía para desarrolladores de Schema Registry](https://docs.adobe.com/content/help/es-ES/experience-platform/xdm/api/getting-started.html).
+Si se proporcionan descriptores como &quot;xdm:alternativoDisplayInfo&quot; al configurar esquemas, los nombres descriptivos reemplazarán los nombres para mostrar. Resulta especialmente útil cuando se trabaja con &quot;eVars&quot; y campos genéricos. Puede configurar descriptores de nombres prácticos mediante una llamada API. Para obtener más información, consulte la [Guía para desarrolladores de Schema Registry](https://docs.adobe.com/content/help/es-ES/experience-platform/xdm/api/getting-started.html).
 
 ![](../assets/xdm-from-descriptors.png)
 
@@ -93,7 +93,7 @@ Si hay un nombre descriptivo disponible, el campo se mostrará como `<friendly-n
 
 ## Uso de los distintos métodos abreviados{#section_ksq_zr1_ffb}
 
-Here are the different shortcuts available in the [!DNL Journey Orchestration]&#39;s interface.
+Estos son los diferentes métodos abreviados disponibles en la interfaz de [!DNL Journey Orchestration].
 
 _En lista de recorridos, acciones, fuentes de datos o eventos:_
 
