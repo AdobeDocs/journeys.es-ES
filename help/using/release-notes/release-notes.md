@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '1107'
-ht-degree: 66%
+ht-degree: 85%
 
 ---
 
@@ -40,13 +40,13 @@ También puede consultar las [Actualizaciones de documentación](../release-note
 <li><p>Una nueva actividad permite escuchar las entradas y salidas de segmentos de Adobe Experience Platform para hacer que las personas entren o avancen en un viaje. <a href="../building-journeys/segment-qualification-events.md">Más información</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>Los segmentos de Adobe Experience Platform ahora se pueden crear y editar sin salir de la interfaz de Journey Orchestration, gracias a una nueva ficha <strong>Segmentos</strong> .<a href="../segment/about-segments.md">Más información</a></p>
+<li><p>Adobe Experience Platform segments can now be created and edited without leaving the Journey Orchestration interface, thanks to a new <strong>Segments</strong> tab.<a href="../segment/about-segments.md">Más información</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
 <li><p>En el editor de expresiones sencillo, los segmentos de Adobe Experience Platform ahora se muestran directamente en el árbol de navegación para permitir una configuración sencilla de condiciones como "¿Pertenece esta persona al segmento A?".<a href="../segment/using-a-segment.md">Más información</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>Ahora el Journey Orchestration pasa automáticamente, al Adobe Experience Platform, los pasos ejecutados en los viajes. Esto incluye los posibles errores encontrados. Esta información se puede utilizar para lograr sistemas de informes y solucionar problemas mediante la ejecución de consultas en los eventos de la Etapa del Viaje para un viaje determinado o para todos los viajes. <a href="../building-journeys/sharing-overview.md">Más información</a></p>
+<li><p>Ahora el Journey Orchestration pasa automáticamente, al Adobe Experience Platform, los pasos ejecutados en los viajes. Esto incluye los posibles errores encontrados. Esta información se puede utilizar para lograr sistemas de informes y solucionar problemas mediante la ejecución de consultas en los eventos del paso del recorrido para un recorrido determinado o para todos ellos. <a href="../building-journeys/sharing-overview.md">Más información</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
 </li>
@@ -60,21 +60,21 @@ También puede consultar las [Actualizaciones de documentación](../release-note
 <table>
 <thead>
 <tr>
-<th><strong>Mejoras en el modo de prueba y diseñador de viajes</strong><br/></th>
+<th><strong>Mejoras del modo de prueba y diseñador de recorridos</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Se han realizado las siguientes mejoras en el diseñador de viajes y en el modo de prueba:</p>
+<p>Se han realizado las siguientes mejoras en el diseñador de recorridos y en el modo de prueba:</p>
 <ul>
-<li><p>Ahora puede copiar actividades de pegado de un viaje a otro seleccionando una o N actividades de viaje. <a href="../building-journeys/using-the-journey-designer.md#copy-paste">Más información</a></p>
+<li><p>Ahora puede copiar actividades de pegado de un recorrido a otro seleccionando una o N actividades de recorrido. <a href="../building-journeys/using-the-journey-designer.md#copy-paste">Más información</a></p>
 <img src="../assets/rn-copy-paste1.png"/>
 </li>
-<li><p>Después de disparar un evento para hacer que un perfil de prueba entre en un viaje, ahora puede ver su progreso a lo largo del viaje gracias a un flujo visual de color. En caso de error en el viaje, también se muestran los detalles de los errores. <a href="../building-journeys/testing-the-journey.md#firing_events">Más información</a></p>
+<li><p>Después de activar un evento para hacer que un perfil de prueba entre en un recorrido, ahora puede ver su progreso a lo largo de este gracias a un flujo visual de color. En caso de error en el recorrido, también se muestran los detalles de los errores. <a href="../building-journeys/testing-the-journey.md#firing_events">Más información</a></p>
 <img src="../assets/rn-journeytest6.png"/>
 </li>
-<li>El estado del viaje <strong>terminado</strong> se ha cambiado a <strong>Cerrado (sin entrada)</strong> para reflejar mejor lo que significa este estado.</li>
+<li>El estado del recorrido <strong>terminado</strong> se ha cambiado a <strong>Cerrado (sin entrada)</strong> para reflejar mejor lo que significa este estado.</li>
 </ul>
 </td>
 </tr>
@@ -83,11 +83,11 @@ También puede consultar las [Actualizaciones de documentación](../release-note
 
 **Otras mejoras**
 
-Para evitar el envío de demasiadas llamadas de API a sistemas de terceros, estamos introduciendo una nueva API pública para configurar reglas de &quot;límite&quot;. Las reglas de límite permiten la definición de un número máximo de llamadas a un extremo de API por milisegundos. [Más información](../api/capping.md)
+Para evitar el envío de demasiadas llamadas API a sistemas de terceros, estamos introduciendo una nueva API pública para configurar reglas de &quot;restricción&quot;. Las reglas de restricción permiten la definición de un número máximo de llamadas a un extremo de API por milisegundos. [Más información](../api/capping.md)
 
-Control de acceso ahora permite una mayor granularidad en la administración del acceso de los usuarios. Disponibilidad efectiva: 30 de junio de 2020. [Más información](../about/access-management.md#create-product-profile)
+Control de acceso ahora permite una mayor granularidad en la administración de acceso de los usuarios. Disponibilidad desde: 30 de junio de 2020. [Más información](../about/access-management.md#create-product-profile)
 
-Journey Orchestration ahora está disponible en APAC (centro de datos australiano). Disponibilidad efectiva: 30 de junio de 2020
+Journey Orchestration ahora está disponible en APAC (centro de datos australiano). Disponibilidad desde: 30 de junio de 2020
 
 La interfaz de Journey Orchestration está disponible en japonés.
 
@@ -203,5 +203,5 @@ Journey Orchestration permite la orquestación en tiempo real basada en datos co
 
 Recursos adicionales:
 
-* [Tutoriales](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
+* [Tutoriales](https://docs.adobe.com/content/help/es-ES/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html)
 * [Comunidad](https://www.adobe.com/go/journeyorchestrationcommunity)
