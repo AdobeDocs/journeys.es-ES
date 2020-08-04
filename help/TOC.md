@@ -7,18 +7,18 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '382'
-ht-degree: 78%
+ht-degree: 95%
 
 ---
 
 
-# [!DNL Journey Orchestration] Ayuda {#using}
+# Ayuda de [!DNL Journey Orchestration]{#using}
 
 + [Documentación del producto](journey-orchestration-home.md)
 + Novedades {#release-notes}
    + [Notas de la versión](using/release-notes/release-notes.md)
    + [Actualizaciones de documentación](using/release-notes/documentation-updates.md)
-+ Starting with [!DNL Journey Orchestration] {#starting-with-journeys}
++ Primeros pasos con [!DNL Journey Orchestration] {#starting-with-journeys}
    + [Acerca de [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [Introducción](using/about/get-started.md)
    + [Interfaz de usuario](using/about/user-interface.md)
@@ -28,7 +28,7 @@ ht-degree: 78%
    + [Acerca de los eventos](using/event/about-events.md)
    + [Esquemas de ExperienceEvent](using/event/experience-event-schema.md)
    + [Definición de los campos de carga útil](using/event/defining-the-payload-fields.md)
-   + [Selección del espacio de nombres](using/event/selecting-the-namespace.md)
+   + [Selección del área de nombres](using/event/selecting-the-namespace.md)
    + [Definición de la clave del evento](using/event/defining-the-event-key.md)
    + [Añadir una condición](using/event/adding-a-condition.md)
    + [Vista previa de la carga útil](using/event/previewing-the-payload.md)
@@ -76,12 +76,12 @@ ht-degree: 78%
    + [Prueba del recorrido](using/building-journeys/testing-the-journey.md)
    + [Publicación del recorrido](using/building-journeys/publishing-the-journey.md)
    + Uso compartido de los pasos del viaje con Adobe Experience Platform {#sharing-journey-steps}
-      + [Información general sobre el uso compartido de los pasos del viaje](using/building-journeys/sharing-overview.md)
-      + [campos comunes de los eventos de los pasos del viaje](using/building-journeys/sharing-common-fields.md)
-      + [Campos de ejecución de la acción eventos de la travesíaPaso](using/building-journeys/sharing-execution-fields.md)
-      + [campos de captura de datos de eventos de travesía](using/building-journeys/sharing-fetch-fields.md)
-      + [Campos de identidad del evento de travesíaPaso](using/building-journeys/sharing-identity-fields.md)
-      + [campos de viaje](using/building-journeys/sharing-journey-fields.md)
+      + [Información general sobre el uso compartido de los pasos del recorrido](using/building-journeys/sharing-overview.md)
+      + [Campos comunes de los eventos de los journeyStep](using/building-journeys/sharing-common-fields.md)
+      + [Campos de ejecución de la acción eventos de los journeyStep](using/building-journeys/sharing-execution-fields.md)
+      + [Campos de captura de datos de eventos del journeyStep](using/building-journeys/sharing-fetch-fields.md)
+      + [Campos de identidad de los eventos de los journeyStep](using/building-journeys/sharing-identity-fields.md)
+      + [campos del recorrido](using/building-journeys/sharing-journey-fields.md)
 + Uso del editor de expresiones avanzadas {#building-advanced-conditions-journeys}
    + [Acerca del editor de expresiones avanzadas](using/expression/expressionadvanced.md)
    + Sintaxis {#syntax}
@@ -166,10 +166,10 @@ ht-degree: 78%
    + [Acerca de los informes de recorrido](using/reporting/about-journey-reports.md)
    + [Creación de informes de recorrido](using/reporting/creating-your-journey-reports.md)
    + [Métricas y dimensiones](using/reporting/metrics-and-dimensions.md)
-+ Integración con Servicios Inteligentes{#use-case-advanced}
-   + [Acerca de la integración de AI](using/ai-services/ai-services-overview.md)
-   + [Aprovechamiento de Journey AI](using/ai-services/leveraging-fatigue-scores.md)
-   + [Aprovechamiento de la AI del cliente](using/ai-services/leveraging-customer-ai.md)
++ Integración con servicios inteligentes{#use-case-advanced}
+   + [Acerca de la integración de IA](using/ai-services/ai-services-overview.md)
+   + [Aprovechamiento de la IA en el recorrido](using/ai-services/leveraging-fatigue-scores.md)
+   + [Aprovechamiento de la IA del cliente](using/ai-services/leveraging-customer-ai.md)
 + Ejemplos de uso{#use-cases-journeys}
    + Caso de uso simple{#use-case-simple}
       + [Acerca del caso de uso simple](using/usecase/about-the-simple-use-case.md)
@@ -182,10 +182,10 @@ ht-degree: 78%
       + [Configuración de las fuentes de datos](using/usecase/configuring-the-data-sources.md)
       + [Construcción del recorrido](using/usecase/building-the-journey.md)
 + Uso de API{#working-with-apis}
-   + [Captar API](using/api/capping.md)
-+ Características alfa {#alpha}
-   + [Descripción general de las características Alpha](using/alpha/alpha-overview.md)
+   + [Captación de API](using/api/capping.md)
++ Funciones alfa {#alpha}
+   + [Descripción general de las funciones Alpha](using/alpha/alpha-overview.md)
    + [Interfaz de usuario](using/alpha/alpha-interface.md)
-   + [actividad del activador de segmentos](using/alpha/alpha-segment-trigger.md)
-   + [eventos basados en reglas](using/alpha/alpha-events.md)
+   + [Actividad del activador de segmentos](using/alpha/alpha-segment-trigger.md)
+   + [Eventos basados en reglas](using/alpha/alpha-events.md)
 
