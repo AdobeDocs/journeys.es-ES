@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 71b5b1ecd20056d0103ae1a8b83a31478449e844
 workflow-type: tm+mt
 source-wordcount: '714'
-ht-degree: 52%
+ht-degree: 86%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 52%
 # Actualizaciones de documentación
 
 Esta página lista todas las actualizaciones de documentación de [!DNL Journey Orchestration].
-You can also consult the [!DNL Journey Orchestration] [Release Notes](../release-notes/release-notes.md).
+También puede consultar las [Notas de la versión](../release-notes/release-notes.md) de [!DNL Journey Orchestration].
 
 ## Julio de 2020 {#july-2020}
 
@@ -30,34 +30,34 @@ You can also consult the [!DNL Journey Orchestration] [Release Notes](../release
 * La sección actividades de eventos se ha reorganizado en subsecciones específicas para cada tipo de evento. [Más información](../building-journeys/event-activities.md)
 * Prácticas recomendadas Añadidas para evitar sobrecargas con la calificación de segmentos. [Más información](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
 * Añadió una nota para explicar cómo continuar un viaje después de un error en una acción o condición. [Más información](../about/troubleshooting.md#section_h3q_kqk_fhb)
-* Se Añadió una nueva sección sobre las características Alpha que se prueban entre un conjunto limitado de clientes. [Más información](../alpha/alpha-overview.md)
-* Añadió una nueva sección sobre la integración con Servicios inteligentes. [Más información](../ai-services/ai-services-overview.md)
-* Se Añadió una nueva sección sobre la creación del perfil de prueba. [Más información](../building-journeys/testing-the-journey.md#create-test-profile)
-* Información Añadida sobre cómo usar el **[!UICONTROL SegmentQualification]** nodo en una condición o acción de viaje. [Más información](../building-journeys/segment-qualification-events.md)
-* Se ha añadido una nota al mensaje transaccional de Campaña y a la publicación de eventos. Consulte [Uso de Adobes Campaign](../action/working-with-adobe-campaign.md) y [Uso de acciones](../building-journeys/using-adobe-campaign-actions.md)de Adobe Campaign.
-* Se ha añadido información sobre las comprobaciones que se realizan al probar la URL de la instancia de Campaign Standard. [Más información](../action/working-with-adobe-campaign.md)
-* Se ha añadido información sobre la compatibilidad de eventos de reacción con instancias de Campaign Standard alojadas en servidores AWS o Azure. [Más información](../building-journeys/reaction-events.md)
-* Se ha agregado una nota sobre la necesidad de configurar una regla de límite al trabajar con mensajes transaccionales de Campaign Standard. [Más información](../action/working-with-adobe-campaign.md)
-* Se ha añadido una nota a la generación de eventos reales al activar eventos mediante el modo de prueba. [Más información](../building-journeys/testing-the-journey.md#firing_events)
+* Se añadió una nueva sección sobre las funciones alfa que se prueban entre un conjunto limitado de clientes. [Más información](../alpha/alpha-overview.md)
+* Se añadió una nueva sección sobre la integración con servicios inteligentes. [Más información](../ai-services/ai-services-overview.md)
+* Se añadió una nueva sección sobre la creación del perfil de prueba. [Más información](../building-journeys/testing-the-journey.md#create-test-profile)
+* Se añadió información sobre cómo utilizar el nodo **[!UICONTROL SegmentQualification]** en una condición de recorrido o acción. [Más información](../building-journeys/segment-qualification-events.md)
+* Se añadió una nota al mensaje transaccional de Campaign y a la publicación de eventos. Consulte [Uso de Adobe Campaign](../action/working-with-adobe-campaign.md) y [Uso de acciones](../building-journeys/using-adobe-campaign-actions.md) de Adobe Campaign.
+* Se añadió información sobre las comprobaciones que se realizan al probar la URL de la instancia de Campaign Standard. [Más información](../action/working-with-adobe-campaign.md)
+* Se añadió información sobre la compatibilidad de eventos de reacción con instancias de Campaign Standard alojadas en servidores AWS o Azure. [Más información](../building-journeys/reaction-events.md)
+* Se añadió una nota sobre la necesidad de configurar una regla de límite al trabajar con mensajes transaccionales de Campaign Standard. [Más información](../action/working-with-adobe-campaign.md)
+* Se añadió una nota a la generación de eventos reales al activar eventos mediante el modo de prueba. [Más información](../building-journeys/testing-the-journey.md#firing_events)
 
 ## Junio de 2020 {#june-2020}
 
-* Información Añadida sobre cómo cambiar la duración de la caché del token para un origen de datos de autenticación personalizada. [Más información](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
-* Se han actualizado las capturas de pantalla y el texto para reflejar el cambio de nombre del estado del **[!UICONTROL Finished]** viaje que se ha cambiado a **[!UICONTROL Closed (no entrance)]**.
-* Información Añadida sobre cómo se define el idioma para la interfaz. [Más información](../about/user-interface.md)
-* La lista de los estados del viaje de un individuo se ha trasladado a la sección de registros [del modo de](../building-journeys/testing-the-journey.md#viewing_logs) prueba.
+* Se añadió información sobre cómo cambiar la duración de caché del token para una fuente de datos de autenticación personalizada. [Más información](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
+* Updated screenshots and text to reflect the renaming of the **[!UICONTROL Finished]** journey state which has been changed to **[!UICONTROL Closed (no entrance)]**.
+* Se añadió información sobre cómo se define el idioma para la interfaz. [Más información](../about/user-interface.md)
+* La lista de los estados del recorrido de un individuo se ha trasladado a la sección de [registros del modo de prueba ](../building-journeys/testing-the-journey.md#viewing_logs).
 
 ## de abril de 2020 {#april-2020}
 
-* Se ha Añadido una nueva sección sobre la definición de esquema de evento de experiencias para ayudar a los usuarios a configurar su primer evento. [Más información](../event/experience-event-schema.md)
-* La página de inicio de [!DNL Journey Orchestration] documentación se ha actualizado con vínculos útiles adicionales. [Más información](../../journey-orchestration-home.md)
+* Se añadió una nueva sección sobre la definición de esquema de evento de experiencias para ayudar a los usuarios a configurar su primer evento. [Más información](../event/experience-event-schema.md)
+* La página de inicio de la documentación de [!DNL Journey Orchestration] se ha actualizado con vínculos útiles adicionales. [Más información](../../journey-orchestration-home.md)
 
 ## Marzo de 2020 {#march-2020}
 
 * Descripciones de parámetros añadidos en _actionExecutionErrors_ y _fetchErrors_ en la sección de registros de pruebas. [Más información](../building-journeys/testing-the-journey.md#viewing_logs)
 * Se han actualizado las limitaciones de las acciones personalizadas utilizadas en un recorrido. You can also modify the **[!UICONTROL URL]** field and the **[!UICONTROL Authentication]** parameters. [Más información](../action/about-custom-action-configuration.md)
 * Se han agregado nuevas entradas de ayuda contextual. El panel de carga útil de autenticación personalizada (en acciones y fuentes de datos) ahora incluye un icono de ayuda que se vincula a esta [sección](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
-* Ahora se pueden detener los viajes cerrados. [Más información](../building-journeys/using-the-journey-designer.md)
+* Ahora se pueden cerrar los recorridos finalizados. [Más información](../building-journeys/using-the-journey-designer.md)
 * Se ha reorganizado la sección de descripción de la interfaz. [Más información](../about/user-interface.md)
 * Se ha añadido la activación de varios eventos a la sección Modo de prueba [Más información](../building-journeys/testing-the-journey.md#firing_events)
 * La sección Modo de prueba se ha actualizado con respecto al nuevo **[!UICONTROL Wait time in test]** parámetro. [Más información](../building-journeys/testing-the-journey.md)
@@ -70,7 +70,7 @@ You can also consult the [!DNL Journey Orchestration] [Release Notes](../release
 ## Febrero de 2020 {#february-2020}
 
 * Se ha actualizado la sección de accesos directos. El método abreviado de teclado **C** le permite crear un nuevo elemento en todas las pantallas de lista. [Más información](../about/user-interface.md#section_ksq_zr1_ffb)
-* Se han mejorado las páginas de información general de fuentes [de](../datasource/about-data-sources.md) datos y [acciones](../action/action.md) .
+* Se mejoraron las páginas de información general de [fuentes de datos](../datasource/about-data-sources.md) y [acciones](../action/action.md) .
 
 ## Enero de 2020 {#january-2020}
 
