@@ -45,9 +45,9 @@ Para ello, en **[!UICONTROL Properties]**, seleccione un huso horario.
 
 ## Uso de perfiles para definir la zona horaria del viaje {#timezone-from-profiles}
 
-Si el evento de entrada del viaje tiene una Área de nombres, lo que significa que el viaje puede llegar al servicio de Perfil del cliente en tiempo real del Adobe Experience Platform, el huso horario se define previamente con el especificado en el perfil del viajero.
+Si el evento de entrada del viaje tiene una Área de nombres, lo que significa que el viaje puede llegar al servicio de Perfil del cliente en tiempo real del Adobe Experience Platform, el huso horario se define previamente con el especificado en el perfil del individuo que fluye en el viaje.
 
-Si se define una zona horaria en el perfil de Adobe Experience Platform, se puede recuperar en el viaje.
+Si se define una zona horaria en el perfil de Adobe Experience Platform, se puede recuperar durante el viaje.
 
 Si el perfil del individuo no contiene una zona horaria, la zona horaria recuperada será la definida en el campo de zona horaria.
 
