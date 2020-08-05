@@ -1,6 +1,6 @@
 ---
 title: Funciones
-description: Learn about functions
+description: Obtenga información sobre las funciones
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -25,9 +25,9 @@ Una función puede tener diferentes firmas (un conjunto diferente de parámetros
 
 `<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
 
-Each function has a specific returned type.
+Cada función tiene un tipo devuelto específico.
 
-Here is the list of supported functions.
+Esta es la lista de las funciones admitidas.
 
 ## Funciones principales
 
