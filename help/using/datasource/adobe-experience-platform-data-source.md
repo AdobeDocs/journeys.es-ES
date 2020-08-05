@@ -21,7 +21,7 @@ ht-degree: 10%
 
 # Fuentes de datos de Adobe Experience Platform {#concept_zrb_nqt_52b}
 
-El origen de datos de Adobe Experience Platform define la conexión con el servicio de Perfil del cliente en tiempo real. Esta fuente de datos está integrada y preconfigurada. No se puede eliminar. Esta fuente de datos está diseñada para recuperar y utilizar datos del servicio de Perfil del cliente en tiempo real (por ejemplo, para comprobar si la persona que ha realizado un viaje es una mujer). Permite utilizar datos de Perfil y datos de Eventos de experiencia. Para obtener más información sobre el servicio de Perfil de clientes en tiempo real, consulte esta [página](https://docs.adobe.com/content/help/es-ES/experience-platform/profile/home.html).
+El origen de datos de Adobe Experience Platform define la conexión al servicio de Perfil al cliente en tiempo real. Esta fuente de datos está integrada y preconfigurada. No se puede eliminar. Esta fuente de datos está diseñada para recuperar y utilizar datos del servicio de Perfil del cliente en tiempo real (por ejemplo, para comprobar si la persona que ha realizado un viaje es una mujer). Permite utilizar datos de Perfil y datos de Eventos de experiencia. Para obtener más información sobre el servicio de Perfil de clientes en tiempo real, consulte esta [página](https://docs.adobe.com/content/help/es-ES/experience-platform/profile/home.html).
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ Puede editar el grupo de campos preconfigurado llamado &quot;ProfileFieldGroup&q
 
 Estos son los pasos principales para agregar grupos de campos al origen de datos integrado.
 
-1. En la lista de fuentes de datos, seleccione la fuente de datos de Adobe Experience Platform integrada.
+1. En la lista de fuentes de datos, seleccione la fuente de datos integrada de Adobe Experience Platform.
 
    Se abre el panel de configuración de la fuente de datos en el lado derecho de la pantalla.
 
@@ -43,7 +43,7 @@ Estos son los pasos principales para agregar grupos de campos al origen de datos
 
    ![](../assets/journey24.png)
 
-1. Seleccione un esquema en la **[!UICONTROL Schema]** lista desplegable. Este campo lista los esquemas de Perfiles y Eventos de experiencias disponibles en el Adobe Experience Platform. La creación de Esquemas no se realiza en [!DNL Journey Orchestration]. Se realiza en el Adobe Experience Platform.
+1. Seleccione un esquema en la **[!UICONTROL Schema]** lista desplegable. Este campo lista esquemas de Perfil y Eventos de experiencias disponibles en Adobe Experience Platform. La creación de Esquemas no se realiza en [!DNL Journey Orchestration]. Se realiza en el Adobe Experience Platform.
 1. Seleccione los campos que desee utilizar.
 1. Defina la duración de la caché.
 1. Haga clic en **[!UICONTROL Save]**.
