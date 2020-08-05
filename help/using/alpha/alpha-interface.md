@@ -1,6 +1,6 @@
 ---
 title: Descubrimiento de la interfaz de la versión Alpha
-description: Learn more about Journey Orchestration new interface.
+description: Obtenga más información sobre la nueva interfaz de Journey Orchestration.
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## Acerca de la interfaz de la versión Alpha {#about-alpha-interface}
 
-Se ha mejorado la navegación dentro de [!DNL Journey Orchestration] los menús para proporcionar una interfaz coherente con el Adobe Experience Platform. Los cambios incluyen:
+Se ha mejorado la navegación dentro de [!DNL Journey Orchestration] los menús para proporcionar una interfaz coherente con Adobe Experience Platform. Los cambios incluyen:
 
 * Menús movidos de arriba a la izquierda de la interfaz,
 * Agrupación de funcionalidades administrativas en un solo panel.
