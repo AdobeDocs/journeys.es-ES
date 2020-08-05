@@ -60,7 +60,7 @@ Esta es la lista de los operadores admitidos:
 <thead>
 <tr ><th  >Operador</th><th  >Expresión literal </th><th  >Ejemplo</th></tr>
 </thead>
-<tbody><tr ><td>es nulo</td><td><p><pre>&lt;expresión&gt; es nulo</pre></p><p>El resultado es booleano.</p><p>Tenga en cuenta que null significa que la expresión no tiene ningún valor evaluado.</p></td><td><pre>@{BarBeacon.location} es nulo</pre></td></tr>
+<tbody><tr ><td>is null</td><td><p><pre>&lt;expresión&gt; es nulo</pre></p><p>El resultado es booleano.</p><p>Tenga en cuenta que null significa que la expresión no tiene ningún valor evaluado.</p></td><td><pre>@{BarBeacon.location} es nulo</pre></td></tr>
 <tr ><td>no es nulo</td><td><p><pre>&lt;expresión&gt; no es nulo</pre></p><p>El resultado es booleano.</p><p>Tenga en cuenta que null significa que la expresión no tiene ningún valor evaluado.</p></td><td><pre>@ no es nulo</pre></td></tr>
 <tr ><td>tiene nulo</td><td><p><pre>&lt;expresión&gt; tiene nulo</pre>&lt;expresión&gt; debe ser una lista.</p><p>El resultado es booleano.</p><p>Resulta útil identificar que una lista contiene al menos un valor nulo.</p></td><td><p><pre>["foo", "bar", nulo] tiene nulo</pre></p>devuelve true<p><pre>["foo", "bar", ""] tiene nulo</pre></p> devuelve false porque "" no se considera nulo.</td></tr>
 <tr ><td>==</td><td><p><pre>&lt;expresión1&gt; == &lt;expresión2&gt;</pre></p><p>Tanto &lt;expresión1&gt; como &lt;expresión2&gt; deben tener el mismo tipo de datos.</p><p> El resultado es booleano.</p></td><td><pre>3.14 == 42</pre><br /><pre>"foo" == "bar"</pre></td></tr>
