@@ -1,5 +1,5 @@
 ---
-title: actividad del activador de segmentos
+title: Actividad del activador de segmentos
 description: Más información sobre el activador de segmentos
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -14,20 +14,20 @@ translation-type: tm+mt
 source-git-commit: b66cdb31b62b4627ff7378e48879ffadfedda5cb
 workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# actividad del activador de segmentos {#segment-trigger-activity}
+# Actividad del activador de segmentos {#segment-trigger-activity}
 
 ## Acerca de la actividad Activador de segmentos {#about-segment-trigger-actvitiy}
 
 >[!NOTE]
 >
->Si hay una actividad de acción lista para usar de Adobe Campaign Standard en el lienzo en tiempo de publicación o en tiempo de activación del modo de prueba, el viaje se reducirá a 13 entradas por segundo. <br>Si no hay ninguna actividad de acción lista para usar en Adobes Campaign Standard en el lienzo en tiempo de publicación o en tiempo de activación del modo de prueba, el viaje se reducirá a 1000 eventos por segundo.
+>Si hay una actividad de acción lista para usar de Adobe Campaign Standard en el lienzo en tiempo de publicación o en tiempo de activación del modo de prueba, el viaje se reducirá a 13 entradas por segundo. <br>Si no hay ninguna actividad de acción lista para usar de Adobe Campaign Standard en el lienzo en tiempo de publicación o en tiempo de activación del modo de prueba, el viaje se reducirá a 1000 eventos por segundo.
 
-La actividad Activador de segmentos le permite hacer que todas las personas que pertenecen a un segmento de Adobe Experience Platform entren en un viaje. La entrada en un viaje puede realizarse una vez o de forma regular.
+La actividad Activador de segmentos le permite hacer que todas las personas que pertenecen a un segmento de Adobe Experience Platform participen en un viaje. La entrada en un viaje puede realizarse una vez o de forma regular.
 
 Supongamos que tiene un segmento de clientes Gold en Adobe Experience Platform. Con la actividad Activador de segmentos, puede hacer que todas las personas pertenecientes al segmento de clientes Gold participen en un viaje y que fluyan en viajes individualizados que aprovechen todas las funcionalidades del viaje: condiciones, temporizadores, eventos, acciones.
 
@@ -43,13 +43,13 @@ Supongamos que tiene un segmento de clientes Gold en Adobe Experience Platform. 
 
 1. Configure the activity **[!UICONTROL Scheduler type]**.
 
-   De forma predeterminada, el segmento entrará en el viaje **[!UICONTROL As soon as possible]**, es decir, 1 hora después de que se publique el viaje. Si desea que el segmento introduzca el viaje en una fecha/hora específica o de forma recurrente, seleccione la opción deseada en la lista.
+   De forma predeterminada, el segmento entrará en el viaje **[!UICONTROL As soon as possible]**, es decir, una hora después de que se publique el viaje. Si desea que el segmento introduzca el viaje en una fecha/hora específica o de forma recurrente, seleccione la opción deseada en la lista.
 
    En caso de viajes recurrentes, también puede definir el inicio y el final del viaje.
 
    ![](../assets/segment-trigger-schedule.png)
 
-1. En el **[!UICONTROL Segment]** campo, elija el segmento de Adobe Experience Platform que entrará en el viaje y haga clic en **[!UICONTROL Save]**.
+1. En el **[!UICONTROL Segment]** campo, elija el segmento de Adobe Experience Platform que entrará en el viaje y, a continuación, haga clic en **[!UICONTROL Save]**.
 
    ![](../assets/segment-trigger-segment-selection.png)
 
@@ -73,6 +73,6 @@ Supongamos que tiene un segmento de clientes Gold en Adobe Experience Platform. 
 
    >[!IMPORTANT]
    >
-   >Tenga en cuenta que los segmentos de Adobe Experience Platform se calculan una vez al día (segmentos de **lote** ) o en tiempo real (segmentos de **flujo** ).
+   >Tenga en cuenta que los segmentos de Adobe Experience Platform se calculan una vez al día (segmentos **por lotes** ) o en tiempo real (segmentos **transmitidos** ).
    >
-   >Si se transmite el segmento seleccionado, los individuos pertenecientes a este segmento potencialmente entrarán en el viaje en tiempo real. Si el segmento es por lotes, las personas recién calificadas para este segmento posiblemente entrarán en el viaje cuando el cálculo del segmento se ejecute en el Adobe Experience Platform.
+   >Si se transmite el segmento seleccionado, los individuos pertenecientes a este segmento potencialmente entrarán en el viaje en tiempo real. Si el segmento es por lotes, las personas que acaban de cumplir los requisitos para este segmento posiblemente entrarán en el viaje cuando el cálculo del segmento se ejecute en el Adobe Experience Platform.
