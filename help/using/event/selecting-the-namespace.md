@@ -1,5 +1,5 @@
 ---
-title: Selección del espacio de nombres
+title: Selección del área de nombres
 description: Aprenda a seleccionar la Área de nombres
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -19,7 +19,7 @@ ht-degree: 13%
 ---
 
 
-# Selección del espacio de nombres {#concept_ckb_3qt_52b}
+# Selección del área de nombres {#concept_ckb_3qt_52b}
 
 La Área de nombres permite definir el tipo de clave utilizada para identificar a la persona asociada al evento. Su configuración es opcional. Se requiere si desea recuperar, en sus viajes, información adicional procedente del Perfil [del cliente en tiempo](https://docs.adobe.com/content/help/es-ES/experience-platform/profile/home.html)real. La definición de Área de nombres no es necesaria si solo se utilizan datos procedentes de un sistema de terceros a través de un origen de datos personalizado.
 
