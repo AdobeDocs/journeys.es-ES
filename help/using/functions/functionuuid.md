@@ -1,6 +1,6 @@
 ---
 title: uuid
-description: Learn about the function uuid
+description: Obtenga información sobre la función uuid
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -21,7 +21,7 @@ ht-degree: 9%
 
 # uuid {#uuid}
 
-Generates a random UUID (Universal Unique IDentifier).
+Genera un UUID aleatorio (identificador único universal).
 
 ## Categoría
 
@@ -33,13 +33,13 @@ Cadena
 
 ## Parámetros
 
-This function does not require parameters.
+Esta función no requiere parámetros.
 
 ## Firma y tipo devuelto
 
 `uuid()`
 
-Returns a string.
+Devuelve una cadena.
 
 ## Ejemplo
 
