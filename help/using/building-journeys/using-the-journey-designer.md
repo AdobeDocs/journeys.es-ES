@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '1335'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -25,7 +25,7 @@ El menú Inicio del viaje le permite vista de la **lista de los viajes**. Cree u
 
 ## La lista del viaje {#journey_list}
 
-The **journey list** allows you to view all your journeys at once, see their status and perform basic actions. Puede duplicar, detener o eliminar recorridos. Según el recorrido, es posible que algunas acciones no estén disponibles. Por ejemplo, no puede eliminar ni reiniciar un viaje que esté cerrado. Puede crear una nueva versión a partir de ella, duplicado o deteniéndola. También puede utilizar la barra de búsqueda para buscar un recorrido.
+The **journey list** allows you to view all your journeys at once, see their status and perform basic actions. Puede duplicar, detener o eliminar recorridos. Según el recorrido, es posible que algunas acciones no estén disponibles. Por ejemplo, no se puede eliminar ni reiniciar un recorrido cerrado. Puede crear una nueva versión a partir de ella, duplicado o deteniéndola. También puede utilizar la barra de búsqueda para buscar un recorrido.
 
 Se puede acceder a **[!UICONTROL Filters]** haciendo clic en el icono de filtro en la parte superior izquierda de la lista. El menú filtros le permite filtrar los viajes mostrados según diferentes criterios (estado, los que ha creado, los modificados en los últimos 30 días, versiones más recientes, etc.). También puede elegir mostrar únicamente los viajes que utilizan un evento, un grupo de campos o una acción concretos. Se pueden configurar las columnas que se muestran en la lista. Todos los filtros y columnas se guardan por usuario.
 
