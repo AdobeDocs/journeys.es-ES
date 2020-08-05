@@ -1,5 +1,5 @@
 ---
-title: eventos basados en reglas
+title: Eventos basados en reglas
 description: Obtenga más información sobre los eventos basados en reglas.
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -14,12 +14,12 @@ translation-type: tm+mt
 source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
 
-# eventos basados en reglas{#simplified-events}
+# Eventos basados en reglas{#simplified-events}
 
 Hemos simplificado la forma de configurar eventos de experiencias. Estamos introduciendo un nuevo método que no requiere el uso de un eventID. Al configurar el evento en Journey Orchestration, ahora puede definir un evento basado en reglas.
 
