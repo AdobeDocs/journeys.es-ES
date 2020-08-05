@@ -21,7 +21,7 @@ ht-degree: 0%
 
 # eventos de reacción {#section_dhx_gss_dgb}
 
-Entre las distintas actividades de evento disponibles en la paleta, se encuentra el **[!UICONTROL Reactions]** evento integrado. Esta actividad le permite reaccionar a los datos de seguimiento relacionados con un mensaje enviado con actividades por correo electrónico, SMS o push en el mismo viaje. Esta información procede de los mensajes transaccionales en Adobe Campaign Standard. Capturamos esta información en tiempo real en el momento en que se comparte con el Adobe Experience Platform. En el caso de las notificaciones push, puede reaccionar a los mensajes en los que se ha hecho clic, se han enviado o se han producido errores. Para los mensajes SMS, puede reaccionar a los mensajes enviados o a los mensajes fallidos. En el caso de los mensajes de correo electrónico, puede reaccionar a los mensajes en los que se ha hecho clic, se ha enviado, se ha abierto o se han producido errores.
+Entre las distintas actividades de evento disponibles en la paleta, se encuentra el **[!UICONTROL Reactions]** evento integrado. Esta actividad le permite reaccionar a los datos de seguimiento relacionados con un mensaje enviado con actividades por correo electrónico, SMS o push en el mismo viaje. Esta información procede de los mensajes transaccionales de Adobe Campaign Standard. Capturamos esta información en tiempo real en el momento en que se comparte con el Adobe Experience Platform. En el caso de las notificaciones push, puede reaccionar a los mensajes en los que se ha hecho clic, se han enviado o se han producido errores. Para los mensajes SMS, puede reaccionar a los mensajes enviados o a los mensajes fallidos. En el caso de los mensajes de correo electrónico, puede reaccionar a los mensajes en los que se ha hecho clic, se ha enviado, se ha abierto o se han producido errores.
 
 También puede utilizar este mecanismo para realizar una acción cuando no haya reacción a sus mensajes. Para ello, cree una segunda ruta paralela a la actividad de reacción y agregue una actividad de espera. Si no hay reacción durante el período definido en la actividad de espera, se elegirá la segunda ruta. Puede elegir enviar, por ejemplo, un mensaje de seguimiento.
 
@@ -40,7 +40,7 @@ Estos son los diferentes pasos para configurar los eventos de reacción:
 
 >[!NOTE]
 >
->Los eventos de reacciones funcionan con Adobe Campaign Standard, tanto si se implementan en servidores de AWS como de Azure.
+>Los eventos de reacciones funcionan con Adobe Campaign Standard, tanto si se implementan en servidores AWS como de Azure.
 >
 >Los eventos de reacción no pueden rastrear las acciones de correo electrónico, SMS o push que tienen lugar en un viaje diferente.
 >
