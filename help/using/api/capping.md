@@ -49,7 +49,7 @@ Para probar y preparar la integración, hay una colección Postman disponible [a
 >Para administrar certificados en E/S de Adobe, asegúrese de que tiene derechos de administrador <b></b> del sistema en la organización o una cuenta [de](https://helpx.adobe.com/enterprise/using/manage-developers.html) desarrollador en la consola de administración.
 
 1. **Compruebe que dispone de un certificado** digital o cree uno si es necesario. Las claves pública y privada que se proporcionan con el certificado son necesarias en los pasos siguientes.
-1. **Cree una nueva integración en[!DNL Journey Orchestration]Service** in Adobe I/O y configúrela. Se necesita el acceso al perfil del producto [!DNL Journey Orchestration] y el Adobe Experience Platform. Se generarán las credenciales (clave de API, secreto de cliente...).
+1. **Cree una nueva integración en[!DNL Journey Orchestration]Service** in Adobe I/O y configúrela. El acceso al perfil del producto es necesario para [!DNL Journey Orchestration] y Adobe Experience Platform. Se generarán las credenciales (clave de API, secreto de cliente...).
 1. **Cree un token web JSON (JWT)** a partir de las credenciales generadas anteriormente y fírmelo con su clave privada. JWT codifica toda la información de identidad y seguridad que Adobe necesita para comprobar su identidad y permitirle acceder a la API. Este paso se detalla en esta [sección](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
 1. **Intercambie su JWT por un Token de acceso** a través de una solicitud de POST o a través de la interfaz de la consola de desarrollador. Este Token de acceso deberá utilizarse en cada encabezado de las solicitudes de API.
 
