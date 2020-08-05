@@ -55,7 +55,7 @@ Para obtener información adicional sobre la configuración de evento, consulte 
 
    ![](../assets/journeyuc2_4bis.png)
 
-1. Haga clic en **[!UICONTROL Save]**.
+1. Haga clic **[!UICONTROL Save]**.
 
 1. Haga clic en el **[!UICONTROL View Payload]** icono para previsualización de la carga útil esperada por el sistema y compartirla con la persona responsable del envío del evento.  Esta carga útil deberá configurarse en el postback de la consola de administración de Mobile Services.
 
