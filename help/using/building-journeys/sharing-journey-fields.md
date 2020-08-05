@@ -1,6 +1,6 @@
 ---
-title: campos de viaje
-description: campos de viaje
+title: campos del recorrido
+description: campos del recorrido
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,12 +14,12 @@ translation-type: tm+mt
 source-git-commit: 10402a774bda66629f30869102d5e6ceca267535
 workflow-type: tm+mt
 source-wordcount: '67'
-ht-degree: 1%
+ht-degree: 10%
 
 ---
 
 
-# campos de viaje {#sharing-journey-fields}
+# campos del recorrido {#sharing-journey-fields}
 
 Esta mezcla se utiliza en el esquema del viaje (en relación con el travesíaStepEvent). Contiene los siguientes campos:
 
