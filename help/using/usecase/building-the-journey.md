@@ -31,7 +31,7 @@ El usuario **** empresarial ahora puede construir el viaje. Nuestro viaje inclui
 
 >[!NOTE]
 >
->Las actividades **[!UICONTROL Push]** y **[!UICONTROL Email]** solo están disponibles en la paleta si tiene Adobes Campaign Standard.
+>Las **[!UICONTROL Push]** actividades y **[!UICONTROL Email]** solo están disponibles en la paleta si tiene Adobe Campaign Standard.
 
 Para obtener información adicional sobre cómo construir un viaje, consulte [](../building-journeys/journey.md).
 
