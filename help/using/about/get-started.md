@@ -33,7 +33,7 @@ Estos son los pasos principales para configurar y utilizar [!DNL Journey Orchest
 
 1. **Configuración de la fuente de datos**
 
-   Debe definir una conexión a un sistema para recuperar información adicional que se utilizará en los recorridos como, por ejemplo, en las condiciones. También se configura una fuente de datos de Adobe Experience Platform integrada en el momento del aprovisionamiento. Este paso no es necesario si solo se aprovechan los datos de los eventos durante el recorrido. Este paso lo realiza un **usuario técnico**.
+   Debe definir una conexión a un sistema para recuperar información adicional que se utilizará en los recorridos como, por ejemplo, en las condiciones. También se configura una fuente de datos integrada de Adobe Experience Platform en el momento del aprovisionamiento. Este paso no es necesario si solo se aprovechan los datos de los eventos durante el recorrido. Este paso lo realiza un **usuario técnico**.
 
    Para obtener más información, consulte [](../datasource/about-data-sources.md).
 
