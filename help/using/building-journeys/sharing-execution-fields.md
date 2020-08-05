@@ -1,6 +1,6 @@
 ---
-title: Campos de ejecución de la acción eventos de la travesíaPaso
-description: Campos de ejecución de la acción eventos de la travesíaPaso
+title: Campos de ejecución de la acción eventos de los journeyStep
+description: Campos de ejecución de la acción eventos de los journeyStep
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,12 +14,12 @@ translation-type: tm+mt
 source-git-commit: 10402a774bda66629f30869102d5e6ceca267535
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 
-# Campos de ejecución de la acción eventos de la travesíaPaso {#sharing-execution-fields}
+# Campos de ejecución de la acción eventos de los journeyStep {#sharing-execution-fields}
 
 Esta mezcla se compartirá con los eventos travelStepEvent y travelStepProfileEvent.
 
