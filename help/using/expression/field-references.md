@@ -87,7 +87,7 @@ En esta expresión, obtenemos la entrada para la clave de ‘Correo electrónico
 
 Si selecciona un campo de un origen de datos externo que requiere que se llame a un parámetro, aparece una nueva ficha a la derecha para permitirle especificar este parámetro. Consulte [](../expression/expressionadvanced.md).
 
-Para casos de uso más complejos, si desea incluir los parámetros del origen de datos en la expresión principal, puede definir sus valores utilizando los _parámetros_ de palabra clave. Un parámetro puede ser cualquier expresión válida, incluso desde otra fuente de datos que también incluya otro parámetro.
+For more complex use cases, if you want to include the parameters of the data source in the main expression, you can define their values using the keyword _params_. Un parámetro puede ser cualquier expresión válida, incluso desde otra fuente de datos que también incluya otro parámetro.
 
 >[!NOTE]
 >
