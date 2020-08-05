@@ -23,7 +23,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->Los datos de Envío solo se rellenarán si tiene Adobes Campaign Standard.
+>Los datos de Envío solo se rellenarán si tiene Adobe Campaign Standard.
 
 Aquí puede encontrar la lista de todos los componentes disponibles en los informes dinámicos, así como sus definiciones.
 
@@ -56,8 +56,8 @@ La tabla siguiente le proporciona la lista de las dimensiones de envío utilizad
 | **Dispositivo** | Dispositivo desde el cual se abrió/visualizó/hizo clic la notificación por correo electrónico/SMS/push. |
 | **Tipo de mensaje** | Canal utilizado para el envío, como correo electrónico, SMS, notificación push o In-App. |
 | **Nombre de la aplicación móvil** | Nombre de la aplicación móvil |
-| **Platform** | Platform del dispositivo desde el que se abrió/visualizó/hizo clic en el mensaje. |
-| **[!UICONTROL Push platform]** | Platform del dispositivo desde el que se abrió la notificación push, como iOS o Android. |
+| **Plataforma** | Plataforma del dispositivo desde el que se abrió/visualizó/hizo clic en el mensaje. |
+| **[!UICONTROL Push platform]** | Plataforma del dispositivo desde el que se abrió la notificación push, como iOS o Android. |
 | **Dominio de Destinatario** | Dominio utilizado para abrir el correo electrónico. |
 | **URL de seguimiento** | Dirección URL en la que el usuario hizo clic desde el mensaje. |
 | **categoría de URL de seguimiento** | Categoría asignada a la URL de seguimiento. |
@@ -98,7 +98,7 @@ La tabla siguiente le proporciona la lista de las métricas utilizadas en los in
 | **Tasa de Lista de bloqueados** | Número total de mensajes en lista de bloqueados en comparación con los mensajes enviados. |
 | **Devoluciones + errores** | Total de errores acumulados durante el envío y el procesamiento de devolución automático en relación con el número total de mensajes enviados. |
 | **Devoluciones + tasa de error** | Número total de mensajes devueltos en comparación con los mensajes enviados. |
-| **Haga clic en** | Número de veces que se hizo clic en un contenido en un envío. |
+| **Haga clic** | Número de veces que se hizo clic en un contenido en un envío. |
 | **Tasa de pulsaciones** | Número total de clics en un envío en comparación con el número de mensajes enviados. |
 | **Entrega** | Número de mensajes enviados correctamente, en relación con el número total de mensajes enviados. |
 | **Tasa de entrega** | Número total de mensajes enviados correctamente en comparación con los mensajes enviados. |
