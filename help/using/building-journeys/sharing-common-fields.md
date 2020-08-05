@@ -19,11 +19,11 @@ ht-degree: 0%
 ---
 
 
-# journeystep eventos campos comunes {#sharing-common-fields}
+# journeysteps events common fields {#sharing-common-fields}
 
 Esta mezcla se compartirá con los eventos travelStepEvent y travelStepProfileEvent.
 
-Estos son los campos XDM comunes que [!DNL Journey Orchestration] se envían a Adobe Experience Platform. Los campos comunes se enviarán para cada paso que se procese en un viaje. Se utilizan campos más específicos para acciones y enriquecimientos personalizados.
+These are the common XDM fields that [!DNL Journey Orchestration] sends to Adobe Experience Platform. Common fields will be sent for every step that is processed in a journey. Se utilizan campos más específicos para acciones y enriquecimientos personalizados.
 
 Algunos de estos campos solo están disponibles en patrones de procesamiento específicos (ejecución de acciones, captura de datos, etc.) para limitar el tamaño de los eventos.
 
@@ -69,7 +69,7 @@ Tipo: string
 
 ## stepName
 
-Name of the step that is currently being processed.
+Nombre del paso que se está procesando.
 
 Tipo: string
 
@@ -95,31 +95,31 @@ Tipo: string
 El estado puede ser:
 
 * finalizó: el paso no tiene transición y su procesamiento ha finalizado correctamente.
-* error: el procesamiento de pasos ha generado un error.
+* error: the step processing has raised an error.
 * transiciones: el paso está esperando un evento para la transición a otro paso.
 * capped: el paso ha fallado en un error de límite, generado durante una acción o enriquecimiento.
 * timedout: el paso falló en un error de tiempo de espera, generado durante una acción o enriquecimiento.
-* instanceTimedout: the step has stopped its processing, because the instance has reached its timeout.
+* instanceTimedout: el paso ha detenido su procesamiento porque la instancia ha alcanzado su tiempo de espera.
 
-## journeyID
+## travelID
 
 ID del viaje.
 
 Tipo: string
 
-## journeyVersionID
+## travelVersionID
 
-ID of the journey version. This id represents the identity reference to the journey, in the case of the journeyStepEvent.
-
-Tipo: string
-
-## journeyVersionName
-
-Nombre de la versión del viaje.
+ID de la versión del viaje. This id represents the identity reference to the journey, in the case of the journeyStepEvent.
 
 Tipo: string
 
-## travelVersion
+## travelVersionName
+
+Name of the journey version.
+
+Tipo: string
+
+## journeyVersion
 
 Versión del viaje.
 
@@ -145,7 +145,7 @@ Tipo: string
 
 ## parentStepName
 
-Nombre del paso principal del paso actual.
+Step name of the parent of the current step.
 
 Tipo: string
 
@@ -163,7 +163,7 @@ Tipo: string
 
 ## inTest
 
-Indicated if this journey is in test mode or not.
+Se indica si este viaje está en modo de prueba o no.
 
 Tipo: booleano
 
@@ -201,7 +201,7 @@ Tipo: string
 
 ## batchInstanceID
 
-this is the batch instance ID.
+es el ID de instancia de lote.
 
 Tipo: string
 
