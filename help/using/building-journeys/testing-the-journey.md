@@ -51,7 +51,7 @@ Para utilizar el modo de prueba, siga estos pasos:
 
 * Se proporciona una interfaz para activar eventos en el viaje probado, pero también se pueden enviar eventos mediante sistemas de terceros como Postman.
 * Sólo los individuos marcados como &quot;perfiles de prueba&quot; en el servicio de Perfil de clientes en tiempo real podrán participar en el viaje comprobado. Consulte [](../building-journeys/testing-the-journey.md#create-test-profile).
-* El modo de prueba solo está disponible en los desplazamientos de borrador que utilizan una Área de nombres. El modo de prueba debe comprobar si una persona que entra en el viaje es un perfil de prueba o no y, por tanto, debe poder llegar al Adobe Experience Platform.
+* El modo de prueba solo está disponible en los desplazamientos de borrador que utilizan una Área de nombres. El modo de prueba debe comprobar si una persona que entra en el viaje es un perfil de prueba o no y, por lo tanto, debe poder llegar al Adobe Experience Platform.
 * El número máximo de perfiles de prueba que pueden entrar en un viaje durante una sesión de prueba es de 100.
 * Al desactivar el modo de prueba, se vacía el trayecto de todas las personas que lo hayan introducido en el pasado o que se encuentren en él. También borra el sistema de informes.
 * Puede habilitar/deshabilitar el modo de prueba tantas veces como sea necesario.
@@ -59,7 +59,7 @@ Para utilizar el modo de prueba, siga estos pasos:
 
 ## Creating a test profile{#create-test-profile}
 
-El proceso para crear un perfil de prueba es el mismo que cuando se crea un perfil en el Adobe Experience Platform. Se realiza a través de llamadas de API. See this [page](https://docs.adobe.com/content/help/es-ES/experience-platform/profile/home.html)
+El proceso para crear un perfil de prueba es el mismo que cuando se crea un perfil en Adobe Experience Platform. Se realiza a través de llamadas de API. See this [page](https://docs.adobe.com/content/help/es-ES/experience-platform/profile/home.html)
 
 Debe utilizar un esquema de Perfil que contenga la combinación &quot;detalles de la prueba de perfil&quot;. El indicador testProfile forma parte de esta combinación.
 
@@ -119,7 +119,7 @@ El **[!UICONTROL Trigger an event]** botón permite configurar un evento que har
 >
 >Cuando se activa un evento en el modo de prueba, se genera un evento real, lo que significa que también se producirá otro viaje escuchando este evento.
 
-Como requisito previo, debe saber qué perfiles están marcados como perfiles de prueba en el Adobe Experience Platform. De hecho, el modo de prueba sólo permite estos perfiles en el viaje y el evento debe contener una identificación. El ID esperado depende de la configuración de evento. Puede ser un ECID, por ejemplo.
+Como requisito previo, debe saber qué perfiles están marcados como perfiles de prueba en Adobe Experience Platform. De hecho, el modo de prueba sólo permite estos perfiles en el viaje y el evento debe contener una identificación. El ID esperado depende de la configuración de evento. Puede ser un ECID, por ejemplo.
 
 Si el viaje contiene varios eventos, utilice la lista desplegable para seleccionar un evento. A continuación, configure para cada evento los campos pasados y la ejecución del envío de eventos. La interfaz le ayuda a pasar la información correcta en la carga útil de evento y a asegurarse de que el tipo de información es correcto. El modo de prueba guarda los últimos parámetros utilizados en una sesión de prueba para su uso posterior.
 
