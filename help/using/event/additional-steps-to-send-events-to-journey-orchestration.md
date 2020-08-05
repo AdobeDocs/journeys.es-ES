@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -33,9 +33,9 @@ Para configurar los eventos que se enviarán **[!UICONTROL Streaming Ingestion A
 
 A continuación, debe configurar el sistema de datos que envía eventos a las API de inserción de flujo mediante la carga útil copiada:
 
-1. Set up a POST API call to the Streaming Ingestion APIs URL (called an inlet).
+1. Configure una llamada de API de POST en la URL de las API de inserción de flujo (denominada entrada).
 1. Utilice la carga útil que copió [!DNL Journey Orchestration] en el cuerpo (&quot;sección de datos&quot;) de la llamada de API a las API de inserción de flujo. Vea a continuación un ejemplo
-1. Determine where to get all the variables present in the payload. Ejemplo: si se supone que el evento debe transmitir la dirección, la carga útil pegada mostrará &quot;dirección&quot;: &quot;string&quot;. &quot;string&quot; debe reemplazarse por la variable que rellenará automáticamente el valor correcto, el correo electrónico de la persona a la que se enviará un mensaje. Tenga en cuenta que en la previsualización de carga útil, en la **[!UICONTROL Header]** sección, rellenamos automáticamente muchos valores que se espera que faciliten su trabajo.
+1. Determine dónde obtener todas las variables presentes en la carga útil. Ejemplo: si se supone que el evento debe transmitir la dirección, la carga útil pegada mostrará &quot;dirección&quot;: &quot;string&quot;. &quot;string&quot; debe reemplazarse por la variable que rellenará automáticamente el valor correcto, el correo electrónico de la persona a la que se enviará un mensaje. Tenga en cuenta que en la previsualización de carga útil, en la **[!UICONTROL Header]** sección, rellenamos automáticamente muchos valores que se espera que faciliten su trabajo.
 1. Seleccione &quot;application/json&quot; como tipo de cuerpo.
 1. Pase el identificador de organización de IMS en el encabezado utilizando la clave &quot;x-gw-ims-org-id&quot;. Para el valor, utilice su identificador de organización de IMS (&quot;XXX@AdobeOrg&quot;).
 
@@ -98,4 +98,4 @@ A continuación se muestra un ejemplo de un evento de API de inserción de flujo
 
 Para facilitar la identificación del lugar donde pegar la parte &quot;datos&quot;, puede utilizar una herramienta de visualización JSON como [https://jsonformatter.curiousconcept.com](https://jsonformatter.curiousconcept.com)
 
-Para solucionar problemas con las API de inserción de flujo, consulte esta [página](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html).
+Para solucionar problemas con las API de inserción de flujo, consulte esta [página](https://docs.adobe.com/content/help/es-ES/experience-platform/ingestion/streaming/troubleshooting.html).
