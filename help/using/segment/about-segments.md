@@ -29,5 +29,5 @@ Estas son las posibilidades [!DNL Journey Orchestration] de oferta con los segme
 
 * Acceda a la lista de segmentos de Adobe Experience Platform. See [Creating a segment](../segment/creating-a-segment.md).
 * Cree segmentos directamente del [!DNL Journey Orchestration] mismo modo que los crea con el servicio de segmentación. See [Creating a segment](../segment/creating-a-segment.md).
-* Aproveche los segmentos en las condiciones del viaje con el editor de expresiones simple o avanzado. Consulte [Uso de segmentos en condiciones](../segment/using-a-segment.md).
+* Aproveche los segmentos en las condiciones del viaje con el editor de expresiones simple o avanzado. See [Using segments in conditions](../segment/using-a-segment.md).
 * Añada un **[!UICONTROL Segment qualification]** evento a su viaje para escuchar las entradas y salidas de perfiles en segmentos de Adobe Experience Platform. Consulte actividades [de](../building-journeys/segment-qualification-events.md)Eventos.
