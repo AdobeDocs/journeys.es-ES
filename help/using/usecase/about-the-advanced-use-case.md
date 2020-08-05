@@ -49,7 +49,7 @@ Para este caso de uso, será necesario crear dos eventos (consulte [](../usecase
 
 Será necesario configurar una conexión a dos fuentes de datos (consulte [](../usecase/configuring-the-data-sources.md)):
 
-* La fuente de datos de Adobe Experience Platform integrada, para recuperar la información de nuestras dos condiciones (afiliación de lealtad y fecha de contacto anterior), así como la información de personalización del mensaje.
+* La fuente de datos integrada de Adobe Experience Platform, para recuperar la información de nuestras dos condiciones (afiliación de fidelidad y fecha de contacto anterior), así como la información de personalización del mensaje.
 * El sistema de reservación del hotel, para recuperar la información de estado de la reserva.
 
 ## Requisitos previos {#prerequisites}
