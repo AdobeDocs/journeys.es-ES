@@ -37,7 +37,7 @@ Esta configuración no es necesaria si los recorridos solo aprovechan los datos 
 
 Existen dos tipos de fuentes de datos:
 
-* Origen de datos de Adobe Experience Platform preconfigurado que define la conexión al servicio de Perfil del cliente en tiempo real. Constituye una fuente de datos integrada. Consulte [](../datasource/adobe-experience-platform-data-source.md).
+* Origen de datos preconfigurado de Adobe Experience Platform que define la conexión al servicio de Perfil del cliente en tiempo real. Constituye una fuente de datos integrada. Consulte [](../datasource/adobe-experience-platform-data-source.md).
 * Las fuentes de datos externas que permiten definir una conexión con sistemas externos. Estos son los que puede crear. Consulte [](../datasource/external-data-sources.md).
 
 Para cada fuente de datos, se define la información que se recuperará mediante grupos de campos. Los grupos de campos son conjuntos de campos que se pueden recuperar desde una fuente de datos. Consulte [](../datasource/field-groups.md).
