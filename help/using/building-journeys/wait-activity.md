@@ -70,7 +70,7 @@ Esta opción le permite definir una fecha personalizada, por ejemplo, el 12 de j
 
 >[!CAUTION]
 >
->La función de optimización del tiempo de envío de correo electrónico solo está disponible para los clientes que utilizan la función de servicio de datos de Adobe Campaign Standard.
+>La capacidad de optimización del tiempo de envío de correo electrónico solo está disponible para los clientes que utilizan la función de servicio de datos de Adobe Campaign Standard.
 
 Este tipo de espera utiliza una puntuación calculada en el Adobe Experience Platform. La puntuación calcula la tendencia a hacer clic o abrir un correo electrónico en el futuro en función del comportamiento anterior. Tenga en cuenta que el algoritmo que calcula la puntuación necesita una cierta cantidad de datos para funcionar. Como resultado, cuando no tiene datos suficientes, se aplicará el tiempo de espera predeterminado. En el momento de la publicación, se le notificará que se aplica la hora predeterminada.
 
@@ -78,7 +78,7 @@ Este tipo de espera utiliza una puntuación calculada en el Adobe Experience Pla
 >
 >El primer evento de tu viaje debe tener una Área de nombres.
 >
->Esta capacidad solo está disponible después de una **[!UICONTROL Email]** actividad. Tienes que tener Adobe Campaign Standard.
+>Esta capacidad solo está disponible después de una **[!UICONTROL Email]** actividad. Necesitas tener Adobe Campaign Standard.
 
 1. En el **[!UICONTROL Amount of time]** campo, defina el número de horas que se deben considerar para optimizar el envío de correo electrónico.
 1. En el **[!UICONTROL Optimization type]** campo, elija si la optimización debe aumentar los clics o abrir.
