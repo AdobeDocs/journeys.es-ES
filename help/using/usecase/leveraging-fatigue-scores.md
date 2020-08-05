@@ -14,12 +14,12 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '236'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
 
-# Aprovechamiento de Journey AI {#concept_dsh_1ry_wfb}
+# Aprovechamiento de la IA en el recorrido {#concept_dsh_1ry_wfb}
 
 Este caso de uso le mostrará cómo aprovechar los puntajes de fatiga para evitar que los clientes se interesen demasiado en sus viajes.
 
@@ -44,7 +44,7 @@ Realice los siguientes pasos para seleccionar los campos de puntuación de fatig
 
    ![](../assets/journeyuc3_1.png)
 
-1. Haga clic en **[!UICONTROL Save]**.
+1. Haga clic **[!UICONTROL Save]**.
 
 ## Construcción del recorrido {#section_uzm_pyy_wfb}
 
@@ -62,7 +62,7 @@ Realice los siguientes pasos para aprovechar el nivel de fatiga del viaje:
 
    ![](../assets/journeyuc3_2.png)
 
-1. Con el editor de expresiones sencillo, busque el **[!UICONTROL fatigueLevel]** campo (_ExperiencePlatformDataSource > JourneyAIScores > Perfil > travelAI > emailScore > fatiga_), suéltelo a la derecha y cree la condición siguiente: &quot;fatigueLevel es igual a &quot;Low&quot;. Haga clic en **[!UICONTROL Ok]**.
+1. Con el editor de expresiones sencillo, busque el **[!UICONTROL fatigueLevel]** campo (_ExperiencePlatformDataSource > JourneyAIScores > Perfil > travelAI > emailScore > fatiga_), suéltelo a la derecha y cree la condición siguiente: &quot;fatigueLevel es igual a &quot;Low&quot;. Haga clic **[!UICONTROL Ok]**.
 
    ![](../assets/journeyuc3_3.png)
 
