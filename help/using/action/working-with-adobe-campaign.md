@@ -21,9 +21,9 @@ ht-degree: 2%
 
 # Trabajar con Adobe Campaign {#using_adobe_campaign_standard}
 
-Puede enviar correos electrónicos, notificaciones push y SMS mediante las funciones de mensajería transaccional del Adobe Campaign Standard.
+Puede enviar correos electrónicos, notificaciones push y SMS mediante las funciones de mensajería transaccional de Adobe Campaign Standard.
 
-[!DNL Journey Orchestration] viene con una acción lista para usar que permite la conexión al Adobe Campaign Standard.
+[!DNL Journey Orchestration] viene con una acción lista para usar que permite la conexión a Adobe Campaign Standard.
 
 El mensaje transaccional del Campaign Standard y su evento asociado deben publicarse para su uso en Journey Orchestration. Si el evento se publica pero el mensaje no, no será visible en la interfaz del Journey Orchestration. Si el mensaje se publica pero su evento asociado no, será visible en la interfaz del Journey Orchestration pero no se podrá utilizar.
 
@@ -49,7 +49,7 @@ Estos son los pasos para configurarlo:
    >
    >* El host es &quot;.campaña.adobe.com&quot; o &quot;.campaña-sandbox.adobe.com&quot;,
    >* La URL inicio con https,
-   >* El ORG asociado a la instancia de este Adobe Campaign Standard es el mismo que el ORG del Journey Orchestration.
+   >* El ORG asociado a esta instancia de Adobe Campaign Standard es el mismo que el ORG del Journey Orchestration.
 
 
 Al diseñar el viaje, habrá tres acciones disponibles en la **[!UICONTROL Action]** categoría: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (consulte [Uso de acciones](../building-journeys/using-adobe-campaign-actions.md)de Adobe Campaign). **El evento** de reacciones también le permitirá reaccionar en los clics de mensajes, aperturas, etc. (consulte [eventos](../building-journeys/reaction-events.md)de reacciones).
