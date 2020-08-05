@@ -1,6 +1,6 @@
 ---
-title: Campos de identidad del evento de travesíaPaso
-description: Campos de identidad del evento de travesíaPaso
+title: Campos de identidad de los eventos de los journeyStep
+description: Campos de identidad de los eventos de los journeyStep
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,12 +14,12 @@ translation-type: tm+mt
 source-git-commit: 10402a774bda66629f30869102d5e6ceca267535
 workflow-type: tm+mt
 source-wordcount: '59'
-ht-degree: 0%
+ht-degree: 20%
 
 ---
 
 
-# Campos de identidad del evento de travesíaPaso {#sharing-identity-fields}
+# Campos de identidad de los eventos de los journeyStep {#sharing-identity-fields}
 
 Esta mezcla es específica de la función travelStepEvent: este evento está relacionado con el viaje y no tiene el mapa de identidad, que describe la identidad del perfil, si la hay.
 
