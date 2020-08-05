@@ -1,5 +1,5 @@
 ---
-title: Descripción general de las características Alpha
+title: Descripción general de las funciones Alpha
 description: Obtenga más información sobre la versión Alpha de Journey Orchestration.
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -14,12 +14,12 @@ translation-type: tm+mt
 source-git-commit: 0bede8675f72c7b63da59dc8e0a3ca0fb95de87c
 workflow-type: tm+mt
 source-wordcount: '120'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 
-# Descripción general de las características Alpha
+# Descripción general de las funciones Alpha
 
 Las funciones de ofertas de programa Alfa que se están probando actualmente entre un conjunto limitado de clientes. Esto nos permite mejorar nuestro producto en base a los comentarios recibidos. Estas funciones no están disponibles para todos los clientes Journey Orchestration.
 
