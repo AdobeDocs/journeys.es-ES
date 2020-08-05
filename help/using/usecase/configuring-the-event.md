@@ -35,7 +35,7 @@ Para obtener información adicional sobre la configuración de evento, consulte 
 
    <!--li>Select the **[!UICONTROL Mobile - Streaming Ingestion APIs]** event type. Events are sent from the customers' mobile phone through the Mobile SDK.![](../assets/journeyuc1_4.png" placement="break" width="800" id="image_qgr_2mn_z2b"/></li-->
 
-1. A continuación, seleccionamos el esquema y definimos la carga útil esperada para este evento. We select the fields needed from the XDM normalized model. We need the Experience Cloud ID to identify the person in the Real-time Customer Profile database: _endUserIDs > experience > mcid > id_. An ID is automatically generated for this event. Este ID se almacena en el **[!UICONTROL eventID]** campo (_experiencia > campaña > orquestación > eventID_). El sistema que empuja el evento no debe generar un ID, debe utilizar el disponible en la previsualización de carga útil. En nuestro caso de uso, este ID se utiliza para identificar la ubicación de la señalización. Cada vez que una persona camina cerca de la señalización de spa, se envía un evento que contiene este ID de evento específico. Esto permite al sistema saber qué señalización activó el envío del evento.
+1. A continuación, seleccionamos el esquema y definimos la carga útil esperada para este evento. Seleccionamos los campos necesarios del modelo normalizado XDM. Necesitamos el ID de Experience Cloud para identificar a la persona en la base de datos de Perfil del cliente en tiempo real: _endUserIDs > experience > mcid > id_. Se genera automáticamente un ID para este evento. Este ID se almacena en el **[!UICONTROL eventID]** campo (_experiencia > campaña > orquestación > eventID_). El sistema que empuja el evento no debe generar un ID, debe utilizar el disponible en la previsualización de carga útil. En nuestro caso de uso, este ID se utiliza para identificar la ubicación de la señalización. Cada vez que una persona camina cerca de la señalización de spa, se envía un evento que contiene este ID de evento específico. Esto permite al sistema saber qué señalización activó el envío del evento.
 
    ![](../assets/journeyuc1_3.png)
 
@@ -51,7 +51,7 @@ Para obtener información adicional sobre la configuración de evento, consulte 
 
    ![](../assets/journeyuc1_5.png)
 
-1. Haga clic en **[!UICONTROL Save]**.
+1. Haga clic **[!UICONTROL Save]**.
 
 1. Haga clic en el **[!UICONTROL View Payload]** icono para previsualización de la carga útil esperada por el sistema y compartirla con la persona responsable del envío del evento. Esta carga útil deberá configurarse en el postback de la consola de administración de Mobile Services.
 
