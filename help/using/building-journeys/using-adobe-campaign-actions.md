@@ -21,7 +21,7 @@ ht-degree: 4%
 
 # Uso de acciones de Adobe Campaign {#using_campaign_action}
 
-Si tiene Adobes Campaign Standard, se encuentran disponibles las siguientes actividades de acciones predeterminadas: **[!UICONTROL Email]**, **[!UICONTROL Push]** y **[!UICONTROL SMS]**.
+Si tiene Adobe Campaign Standard, están disponibles las siguientes actividades de acciones predeterminadas: **[!UICONTROL Email]**, **[!UICONTROL Push]** y **[!UICONTROL SMS]**.
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ Puede definir fácilmente dónde recuperar el **[!UICONTROL Address]** o el **[!
 
 >[!NOTE]
 >
->Esta categoría solo está visible si selecciona un mensaje transaccional &quot;evento&quot;. Para los mensajes &quot;perfil&quot;, el sistema recupera automáticamente el **[!UICONTROL Address]** campo del Adobe Campaign Standard.
+>Esta categoría solo está visible si selecciona un mensaje transaccional &quot;evento&quot;. Para los mensajes &quot;perfil&quot;, el sistema recupera automáticamente el **[!UICONTROL Address]** campo de Adobe Campaign Standard.
 
 Estos son los campos que el sistema necesita para saber dónde enviar el mensaje. Para una plantilla de correo electrónico, es la dirección de correo electrónico. Para un SMS, es el número de teléfono móvil.
 
@@ -93,7 +93,7 @@ Hay dos categorías disponibles: **[!UICONTROL Target]** y **[!UICONTROL Persona
 
 >[!NOTE]
 >
->Esta categoría solo está visible si selecciona un mensaje de evento. En el caso de los mensajes de perfil, el sistema recupera automáticamente los **[!UICONTROL Target]** campos mediante la conciliación realizada por Adobe Campaign Standard.
+>Esta categoría solo está visible si selecciona un mensaje de evento. Para los mensajes de perfil, el sistema recupera automáticamente los **[!UICONTROL Target]** campos mediante la conciliación realizada por Adobe Campaign Standard.
 
 En esta sección, debe definir el **[!UICONTROL Push platform]**. La lista desplegable le permite seleccionar **[!UICONTROL Apple Push Notification Server]** (iOS) o **[!UICONTROL Firebase Cloud Messaging]** (Android). También puede seleccionar un campo específico de un evento o un origen de datos, o definir una expresión avanzada.
 
