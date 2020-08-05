@@ -23,7 +23,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Los datos de Envío y el componente Segmentos solo se rellenarán si tiene Adobes Campaign Standard.
+>Los datos de Envío y el componente Segmentos solo se rellenarán si tiene Adobe Campaign Standard.
 
 Esta sección le mostrará cómo acceder y utilizar los informes para medir la eficacia de sus viajes.
 
