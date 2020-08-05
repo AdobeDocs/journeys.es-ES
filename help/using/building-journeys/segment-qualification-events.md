@@ -1,6 +1,6 @@
 ---
 title: eventos de calificación de segmentos
-description: Obtenga información sobre los eventos de calificación de segmentos
+description: Learn about segment qualification events
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 # eventos de calificación de segmentos {#segment-qualification}
 
-## Acerca de los eventos de calificación de segmentos{#about-segment-qualification}
+## About segment qualification events{#about-segment-qualification}
 
 Esta actividad permite que su viaje escuche las entradas y salidas de perfiles en segmentos de Adobe Experience Platform para hacer que los individuos entren o avancen en un viaje. For more information on segment creation, refer to this [section](../segment/about-segments.md).
 
@@ -29,7 +29,7 @@ Supongamos que tiene un segmento &quot;cliente plateado&quot;. Con esta activida
 
 Este tipo de evento se puede posicionar como el primer paso o más tarde en el viaje.
 
-Si el segmento se transmite con la opción Audiencias de alta frecuencia de Adobe Experience Platform, las entradas y salidas se escuchan en tiempo real. Si el segmento no se transmite, las entradas y salidas se tienen en cuenta en el momento del cálculo del segmento.
+If the segment is streamed with the High Frequency Audiences option of Adobe Experience Platform, entrance and exits are listened to in real time. Si el segmento no se transmite, las entradas y salidas se tienen en cuenta en el momento del cálculo del segmento.
 
 1. Despliegue la **[!UICONTROL Events]** categoría y suelte una **[!UICONTROL Segment qualification]** actividad en el lienzo.
 
@@ -49,7 +49,7 @@ Si el segmento se transmite con la opción Audiencias de alta frecuencia de Adob
 
 La carga útil contiene la siguiente información de contexto, que puede utilizar en condiciones y acciones:
 
-* el comportamiento (entrada, salida)
+* the behavior (entrance, exit)
 * la marca de tiempo de la cualificación
 * la identificación del segmento
 
@@ -63,7 +63,7 @@ Consulte actividad [de condición](../building-journeys/condition-activity.md#ab
 
 La **[!UICONTROL Segment Qualification]** actividad permite la entrada inmediata en los viajes de personas calificadas o descalificadas de un segmento de Adobe Experience Platform.
 
-La velocidad de recepción de esta información es alta. Las mediciones realizadas muestran una velocidad de 10 000 eventos recibidos por segundos. Como resultado, hay que asegurarse de comprender cómo pueden producirse los picos de entrada, cómo evitarlos y cómo preparar el viaje para ellos.
+The reception speed of this information is high. Las mediciones realizadas muestran una velocidad de 10 000 eventos recibidos por segundos. Como resultado, hay que asegurarse de comprender cómo pueden producirse los picos de entrada, cómo evitarlos y cómo preparar el viaje para ellos.
 
 ### Segmentos por lotes{#batch-speed-segment-qualification}
 
@@ -71,7 +71,7 @@ Al utilizar la cualificación de segmentos para un segmento por lotes, tenga en 
 
 Además, si el segmento por lotes se acaba de crear y se utiliza inmediatamente en un viaje, el primer lote de cálculo podría hacer que un gran número de personas entrara en el viaje.
 
-### Segmentos de flujo continuo{#streamed-speed-segment-qualification}
+### Streamed segments{#streamed-speed-segment-qualification}
 
 Al utilizar la cualificación de segmentos para segmentos transmitidos, hay menos riesgo de obtener grandes picos de entradas y salidas debido a la evaluación continua del segmento. Sin embargo, si la definición del segmento lleva a que un gran volumen de clientes califique al mismo tiempo, también podría haber un pico.
 
@@ -85,6 +85,6 @@ No utilice, en una **[!UICONTROL Segment Qualification]** actividad, un segmento
 
 Establezca una regla de límite para las fuentes de datos y las acciones utilizadas en los viajes para evitar sobrecargarlas (consulte esta [sección](../api/capping.md)). Tenga en cuenta que la regla de límite no tiene reintentos. Si necesita volver a intentarlo, debe utilizar una ruta alternativa en el viaje marcando la casilla **[!UICONTROL Add an alternative path in case of a timeout or an error]** en condiciones o acciones.
 
-Antes de usar el segmento en un viaje de producción, evalúe siempre primero el volumen de personas que cumplen los requisitos para este segmento todos los días. Para ello, puede comprobar la sección **[!UICONTROL Segments]** del Adobe Experience Platform y ver el gráfico de la derecha.
+Before using the segment in a production journey, always evaluate first the volume of individuals qualifying for this segment every day. Para ello, puede consultar la sección **[!UICONTROL Segments]** del Adobe Experience Platform y mirar el gráfico de la derecha.
 
 ![](../assets/segment-overload.png)
