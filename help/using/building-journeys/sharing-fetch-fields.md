@@ -1,6 +1,6 @@
 ---
-title: campos de captura de datos de eventos de travesía
-description: campos de captura de datos de eventos de travesía
+title: Campos de captura de datos de eventos del journeyStep
+description: Campos de captura de datos de eventos del journeyStep
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,12 +14,12 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# campos de captura de datos de eventos de travesía {#sharing-fetch-fields}
+# Campos de captura de datos de eventos del journeyStep {#sharing-fetch-fields}
 
 Esta mezcla se compartirá con los eventos travelStepEvent y travelStepProfileEvent.
 
@@ -93,13 +93,13 @@ Tipo: long
 
 ## fetchPlatformTotalTime
 
-Tiempo total que se tarda en recuperar los datos del Adobe Experience Platform en milisegundos. Comentario: esta cantidad de tiempo se calcula a partir del momento en que el motor envía el evento de enriquecimiento al servicio de enriquecimiento y recibe la respuesta.
+Cantidad total de tiempo que se tarda en recuperar los datos de Adobe Experience Platform en milisegundos. Comentario: esta cantidad de tiempo se calcula a partir del momento en que el motor envía el evento de enriquecimiento al servicio de enriquecimiento y recibe la respuesta.
 
 Tipo: long
 
 ## fetchPlatformCount
 
-La cantidad de veces que se recuperan los datos desde el Adobe Experience Platform.
+Cuántas veces se obtienen los datos de Adobe Experience Platform.
 
 Tipo: long
 
