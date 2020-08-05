@@ -46,11 +46,11 @@ También puede consultar las [Actualizaciones de documentación](../release-note
 <li><p>En el editor de expresiones sencillo, los segmentos de Adobe Experience Platform ahora se muestran directamente en el árbol de navegación para permitir una configuración sencilla de condiciones como "¿Pertenece esta persona al segmento A?".<a href="../segment/using-a-segment.md">Más información</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>Ahora el Journey Orchestration pasa automáticamente, al Adobe Experience Platform, los pasos ejecutados en los viajes. Esto incluye los posibles errores encontrados. Esta información se puede utilizar para lograr sistemas de informes y solucionar problemas mediante la ejecución de consultas en los eventos del paso del recorrido para un recorrido determinado o para todos ellos. <a href="../building-journeys/sharing-overview.md">Más información</a></p>
+<li><p>Ahora el Journey Orchestration pasa automáticamente a Adobe Experience Platform los pasos ejecutados en los viajes. Esto incluye los posibles errores encontrados. Esta información se puede utilizar para lograr sistemas de informes y solucionar problemas mediante la ejecución de consultas en los eventos del paso del recorrido para un recorrido determinado o para todos ellos. <a href="../building-journeys/sharing-overview.md">Más información</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
 </li>
-<li><p>Ahora el Journey Orchestration puede conectarse a los entornos limitados de Adobe Experience Platform de producción y no de producción. Tenga en cuenta que los entornos limitados son una función beta. <a href="../about/access-management.md#sandboxes">Más información</a></p>
+<li><p>Ahora, el Journey Orchestration puede conectarse a los entornos limitados Adobe Experience Platform de producción y sin producción. Tenga en cuenta que los entornos limitados son una función beta. <a href="../about/access-management.md#sandboxes">Más información</a></p>
 </li>
 </td>
 </tr>
