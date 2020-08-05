@@ -43,7 +43,7 @@ Para obtener información adicional sobre la configuración del origen de datos,
 
    ![](../assets/journeyuc2_7.png)
 
-1. Haga clic en **[!UICONTROL Save]**.
+1. Haga clic **[!UICONTROL Save]**.
 
 También tenemos que comprobar si la persona tiene una reserva en el sistema de reservas del hotel. El usuario **** técnico debe configurar una segunda fuente de datos para recuperar este campo.
 
@@ -77,6 +77,6 @@ También tenemos que comprobar si la persona tiene una reserva en el sistema de 
 
    ![](../assets/journeyuc2_11.png)
 
-1. Haga clic en **[!UICONTROL Save]**.
+1. Haga clic **[!UICONTROL Save]**.
 
    Las fuentes de datos ahora están configuradas y listas para utilizarse en su viaje.
