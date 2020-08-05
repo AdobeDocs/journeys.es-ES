@@ -14,12 +14,12 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '107'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Aprovechamiento de la AI del cliente {#customer-ai}
+# Aprovechamiento de la IA del cliente {#customer-ai}
 
 La API del cliente forma parte de los servicios inteligentes. Ayuda a predecir lo que es probable que haga un cliente. See the [documentation](https://docs.adobe.com/content/help/en/experience-platform/intelligent-services/customer-ai/overview.html).
 
