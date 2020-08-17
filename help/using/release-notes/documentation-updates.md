@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 71b5b1ecd20056d0103ae1a8b83a31478449e844
+source-git-commit: 2155bfc1c9f253be19b93a3d77e0e6d5a108f689
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 86%
+source-wordcount: '771'
+ht-degree: 78%
 
 ---
 
@@ -24,11 +24,17 @@ ht-degree: 86%
 Esta página lista todas las actualizaciones de documentación de [!DNL Journey Orchestration].
 También puede consultar las [Notas de la versión](../release-notes/release-notes.md) de [!DNL Journey Orchestration].
 
+## Agosto de 2020 {#august-2020}
+
+* Información añadida sobre cómo ordenar y elegir las columnas que se mostrarán en la lista de segmentos. [Más información](../building-journeys/segment-qualification-events.md)
+* Se añadió información sobre cómo copiar el nombre y la ID de un segmento después de seleccionarlo. [Más información](../building-journeys/segment-qualification-events.md)
+* Las ocurrencias de Experience Platform se han armonizado en las distintas páginas.
+
 ## Julio de 2020 {#july-2020}
 
-* Se ha Añadido un vínculo a un nuevo vídeo de tutorial sobre el sistema de informes de eventos de paso a Adobe Experience Platform. [Más información](../building-journeys/sharing-overview.md)
+* Se ha añadido un vínculo a un nuevo vídeo de tutorial sobre el sistema de informes de eventos de paso a Adobe Experience Platform. [Más información](../building-journeys/sharing-overview.md)
 * La sección actividades de eventos se ha reorganizado en subsecciones específicas para cada tipo de evento. [Más información](../building-journeys/event-activities.md)
-* Prácticas recomendadas Añadidas para evitar sobrecargas con la calificación de segmentos. [Más información](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
+* Prácticas recomendadas añadidas para evitar sobrecargas con la calificación de segmentos. [Más información](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
 * Añadió una nota para explicar cómo continuar un viaje después de un error en una acción o condición. [Más información](../about/troubleshooting.md#section_h3q_kqk_fhb)
 * Se añadió una nueva sección sobre las funciones alfa que se prueban entre un conjunto limitado de clientes. [Más información](../alpha/alpha-overview.md)
 * Se añadió una nueva sección sobre la integración con servicios inteligentes. [Más información](../ai-services/ai-services-overview.md)
@@ -81,7 +87,7 @@ También puede consultar las [Notas de la versión](../release-notes/release-not
 
 * Todas las capturas de pantalla se han actualizado para reflejar los cambios en la interfaz.
 * Se ha actualizado la sección del modo de prueba. [Más información](../building-journeys/testing-the-journey.md)
-* Se ha añadido una advertencia en las secciones de [optimización del tiempo de envío de correo electrónico](../building-journeys/wait-activity.md) y [puntuaciones de fatiga predictiva](../ai-services/leveraging-fatigue-scores.md). Estas funciones solo están disponibles para los clientes que utilizan la función de servicio de datos de Adobe Campaign Standard.
+* Se ha añadido una advertencia en las secciones de [optimización del tiempo de envío de correo electrónico](../building-journeys/wait-activity.md) y [puntuaciones de fatiga predictiva](../ai-services/leveraging-fatigue-scores.md). Estas funciones solo están disponibles para los clientes que utilizan el conector [de datos de](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html)Adobe Experience Platform.
 * Ahora se pueden eliminar los recorridos interrumpidos. Se han actualizado las páginas de documentación relacionadas.
 * Ahora se muestran dos colores cuando se detectan problemas en un recorrido. Rojo para errores y naranja para advertencias. [Más información](../about/troubleshooting.md)
 * Se ha actualizado la sección del editor de expresiones avanzado. [Más información](../expression/expressionadvanced.md).
