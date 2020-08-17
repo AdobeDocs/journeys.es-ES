@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
+source-git-commit: 92bd110c4c91c459c8074184bdb486733ab5f3d7
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '590'
 ht-degree: 2%
 
 ---
@@ -70,7 +70,7 @@ Esta opción le permite definir una fecha personalizada, por ejemplo, el 12 de j
 
 >[!CAUTION]
 >
->La capacidad de optimización del tiempo de envío de correo electrónico solo está disponible para los clientes que utilizan la función de servicio de datos de Adobe Campaign Standard.
+>La capacidad de optimización del tiempo de envío de correo electrónico solo está disponible para los clientes que utilizan el conector [de datos de](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html)Adobe Experience Platform.
 
 Este tipo de espera utiliza una puntuación calculada en el Adobe Experience Platform. La puntuación calcula la tendencia a hacer clic o abrir un correo electrónico en el futuro en función del comportamiento anterior. Tenga en cuenta que el algoritmo que calcula la puntuación necesita una cierta cantidad de datos para funcionar. Como resultado, cuando no tiene datos suficientes, se aplicará el tiempo de espera predeterminado. En el momento de la publicación, se le notificará que se aplica la hora predeterminada.
 
