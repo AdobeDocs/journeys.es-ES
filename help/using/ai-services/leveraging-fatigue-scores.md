@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: 92bd110c4c91c459c8074184bdb486733ab5f3d7
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '245'
 ht-degree: 7%
 
 ---
@@ -25,7 +25,7 @@ Este caso de uso le mostrará cómo aprovechar los puntajes de fatiga para evita
 
 >[!CAUTION]
 >
->La capacidad de puntuación de fatiga predictiva solo está disponible para los clientes que utilizan la función de servicio de datos de Adobe Campaign Standard.
+>La capacidad de puntuación de fatiga predictiva solo está disponible para los clientes que utilizan el conector [de datos de](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html)Adobe Experience Platform.
 
 ## Configuración del evento {#section_ptb_ws1_ffb}
 
