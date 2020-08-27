@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Ayuda de Journey Orchestration
 index: true
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: 10d4fd57e9a801dab2310b2b511bf99cf1d9170a
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '378'
 ht-degree: 95%
 
 ---
@@ -61,9 +61,9 @@ ht-degree: 95%
    + Actividades {#about-journey-building}
       + Actividades de eventos {#events-activities}
          + [Acerca de las actividades de eventos](using/building-journeys/event-activities.md)
-         + [eventos generales](using/building-journeys/general-events.md)
-         + [eventos de reacción](using/building-journeys/reaction-events.md)
-         + [eventos de calificación de segmentos](using/building-journeys/segment-qualification-events.md)
+         + [Eventos generales](using/building-journeys/general-events.md)
+         + [Eventos de reacción](using/building-journeys/reaction-events.md)
+         + [Eventos de calificación de segmentos](using/building-journeys/segment-qualification-events.md)
       + Actividades de organización {#orchestration-activities}
          + [Acerca de las actividades de organización](using/building-journeys/about-orchestration-activities.md)
          + [Actividad de condición](using/building-journeys/condition-activity.md)
@@ -95,7 +95,6 @@ ht-degree: 95%
    + Funciones {#main-functions-journey}
       + [Funciones principales](using/expression/functions.md)
       + Adobe Experience Platform {#adobe-experience-platform}
-         + [getBestSendTime](using/functions/functiongetbestsendtime.md)
          + [inSegment](using/functions/functioninsegment.md)
       + Agregación {#aggregation}
          + [avg](using/functions/functionavg.md)
@@ -168,7 +167,6 @@ ht-degree: 95%
    + [Métricas y dimensiones](using/reporting/metrics-and-dimensions.md)
 + Integración con servicios inteligentes{#use-case-advanced}
    + [Acerca de la integración de IA](using/ai-services/ai-services-overview.md)
-   + [Aprovechamiento de la IA en el recorrido](using/ai-services/leveraging-fatigue-scores.md)
    + [Aprovechamiento de la IA del cliente](using/ai-services/leveraging-customer-ai.md)
 + Ejemplos de uso{#use-cases-journeys}
    + Caso de uso simple{#use-case-simple}
