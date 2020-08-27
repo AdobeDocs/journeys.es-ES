@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2155bfc1c9f253be19b93a3d77e0e6d5a108f689
+source-git-commit: 10d4fd57e9a801dab2310b2b511bf99cf1d9170a
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 78%
+source-wordcount: '724'
+ht-degree: 80%
 
 ---
 
@@ -81,13 +81,14 @@ También puede consultar las [Notas de la versión](../release-notes/release-not
 ## Enero de 2020 {#january-2020}
 
 * Se han agregado limitaciones de captura para [eventos de experiencias](../datasource/adobe-experience-platform-data-source.md) y [segmentos](../functions/functioninsegment.md).
-* La documentación de [getBestSendTime](../functions/functiongetbestsendtime.md) se ha actualizado.
+
+<!--* The [getBestSendTime documentation](../functions/functiongetbestsendtime.md) has been updated.-->
 
 ## Diciembre de 2019 {#december-2019}
 
 * Todas las capturas de pantalla se han actualizado para reflejar los cambios en la interfaz.
 * Se ha actualizado la sección del modo de prueba. [Más información](../building-journeys/testing-the-journey.md)
-* Se ha añadido una advertencia en las secciones de [optimización del tiempo de envío de correo electrónico](../building-journeys/wait-activity.md) y [puntuaciones de fatiga predictiva](../ai-services/leveraging-fatigue-scores.md). Estas funciones solo están disponibles para los clientes que utilizan el conector [de datos de](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html)Adobe Experience Platform.
+<!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).-->
 * Ahora se pueden eliminar los recorridos interrumpidos. Se han actualizado las páginas de documentación relacionadas.
 * Ahora se muestran dos colores cuando se detectan problemas en un recorrido. Rojo para errores y naranja para advertencias. [Más información](../about/troubleshooting.md)
 * Se ha actualizado la sección del editor de expresiones avanzado. [Más información](../expression/expressionadvanced.md).
