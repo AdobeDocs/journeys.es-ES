@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3c5f1dcf66df31b12237788633704eeb348ddfa2
+source-git-commit: 9e264f0794bff859d1e1db0b8fc2c66ab19fdec7
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '85'
 ht-degree: 3%
 
 ---
@@ -25,10 +25,6 @@ La integración con Servicios Inteligentes le permite aprovechar el poder de la 
 
 For more information on Intelligent Services, refer to the [documentation](https://docs.adobe.com/content/help/en/experience-platform/intelligent-services/home.html).
 
-Esta integración le permite aprovechar:
+Esta integración le permite aprovechar las predicciones de los clientes. Consulte [Aprovechamiento de la AI de los clientes](../ai-services/leveraging-customer-ai.md)
 
-* predicciones del cliente, consulte [Aprovechamiento de la AI del cliente](../ai-services/leveraging-customer-ai.md)
-* puntuaciones de fatiga, consulte [Leveraging Journey AI](../ai-services/leveraging-fatigue-scores.md)
-
-
-
+<!--* fatigue scores, see [Leveraging Journey AI](../ai-services/leveraging-fatigue-scores.md)-->
