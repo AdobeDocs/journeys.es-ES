@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Ayuda de Journey Orchestration
 index: true
 translation-type: tm+mt
-source-git-commit: 10d4fd57e9a801dab2310b2b511bf99cf1d9170a
+source-git-commit: 8a9c6e4f70ff88e60a85caff5e18a05070cf3f93
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 95%
@@ -184,6 +184,6 @@ ht-degree: 95%
 + Funciones alfa {#alpha}
    + [Descripción general de las funciones Alpha](using/alpha/alpha-overview.md)
    + [Interfaz de usuario](using/alpha/alpha-interface.md)
-   + [Actividad del activador de segmentos](using/alpha/alpha-segment-trigger.md)
+   + [Leer actividad de segmentos](using/alpha/alpha-segment-trigger.md)
    + [Eventos basados en reglas](using/alpha/alpha-events.md)
 
