@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 10d4fd57e9a801dab2310b2b511bf99cf1d9170a
+source-git-commit: 94989635814c9b2f035d736647ae78324d2c4f2a
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 80%
@@ -28,7 +28,7 @@ También puede consultar las [Notas de la versión](../release-notes/release-not
 
 * Información añadida sobre cómo ordenar y elegir las columnas que se mostrarán en la lista de segmentos. [Más información](../building-journeys/segment-qualification-events.md)
 * Se añadió información sobre cómo copiar el nombre y la ID de un segmento después de seleccionarlo. [Más información](../building-journeys/segment-qualification-events.md)
-* Las ocurrencias de Experience Platform se han armonizado en las distintas páginas.
+* Las ocurrencias de Experience Platform se han armonizado en las diferentes páginas.
 
 ## Julio de 2020 {#july-2020}
 
