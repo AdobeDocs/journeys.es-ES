@@ -1,10 +1,13 @@
 ---
 source-git-commit: b0e98163b0a91b0869fdcf9d4584ba9c93304651
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
+source-wordcount: '16'
+ht-degree: 100%
 
 ---
-# Documentación para la orquestación de viajes
+# Documentación de Journey Orchestration
 
-Documentación técnica para la orquestación de viajes.
+Documentación técnica de Journey Orchestration.
 
 Organizado actualmente por el administrador y el usuario final.
