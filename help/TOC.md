@@ -1,18 +1,18 @@
 ---
 product: Journeys
 audience: end-user
-user-guide-title: Ayuda de Journey Orchestration
+user-guide-title: Guía del Journey Orchestration
 index: true
 translation-type: tm+mt
-source-git-commit: 8a9c6e4f70ff88e60a85caff5e18a05070cf3f93
+source-git-commit: ad892948c866c8c5cda16c17a33cb225ee7edb33
 workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
 
-# Ayuda de [!DNL Journey Orchestration]{#using}
+# [!DNL Journey Orchestration] Guía {#using}
 
 + [Documentación del producto](journey-orchestration-home.md)
 + Novedades {#release-notes}
