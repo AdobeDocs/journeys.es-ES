@@ -8,11 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3c6c20feb2d461a5780dde5539811beee2eb78b7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1010'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 89%
 
 ## Acceso a [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-Para acceder a la interfaz de [!DNL Journey Orchestration], haga clic en el icono **[!UICONTROL App Selector]**, en la parte superior derecha. Then click **[!UICONTROL Journey Orchestration]**, on the right side, below **[!UICONTROL Experience Platform]**.
+Para acceder a la interfaz de [!DNL Journey Orchestration], haga clic en el icono **[!UICONTROL App Selector]**, en la parte superior derecha. A continuación, haga clic en **[!UICONTROL Journey Orchestration]**, en la parte derecha, debajo de **[!UICONTROL Experience Platform]**.
 
 ![](../assets/journey1.png)
 
@@ -57,7 +57,7 @@ En las listas **[!UICONTROL Home]**,**[!UICONTROL Data Sources]**,**[!UICONTROL 
 
 Se puede acceder a **[!UICONTROL Filters]** haciendo clic en el icono de filtro en la parte superior izquierda de la lista. El menú filtros permite filtrar los elementos mostrados según diferentes criterios. Puede elegir mostrar únicamente los elementos de un determinado tipo o estado, los que ha creado o los modificados en los últimos 30 días.
 
-In the **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** and **[!UICONTROL Actions]** lists, use the **[!UICONTROL Creation filters]** to filter on the creation date and user. Puede elegir, por ejemplo, mostrar solo los eventos creados en los últimos 30 días.
+En las listas **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** y **[!UICONTROL Actions]** , use **[!UICONTROL Creation filters]** para filtrar la fecha de creación y el usuario. Puede elegir, por ejemplo, mostrar solo los eventos creados en los últimos 30 días.
 
 En la lista de recorridos (debajo de **[!UICONTROL Home]**), además del **[!UICONTROL Creation filters]**, también puede filtrar los recorridos mostrados según su estado y versión (**[!UICONTROL Status and version filters]**). También puede elegir mostrar únicamente los recorrido que utilizan un evento, un grupo de campos o una acción en particular (**[!UICONTROL Activity filters]** y **[!UICONTROL Data filters]**). **[!UICONTROL Publication filters]** Permite seleccionar una fecha de publicación o un usuario. Puede elegir, por ejemplo, mostrar solo las versiones más recientes de recorridos en directo que se publicaron ayer. Consulte [](../building-journeys/using-the-journey-designer.md).
 
@@ -81,7 +81,7 @@ En las diferentes listas, puede realizar acciones básicas por cada elemento. Po
 
 Al definir la [carga útil de evento](../event/defining-the-payload-fields.md), la [carga útil de grupo de campos](../datasource/field-groups.md) y seleccionar los campos en el [editor de expresiones](../expression/expressionadvanced.md), se muestra el nombre para mostrar además del nombre del campo. Esta información se recupera de la definición de esquema del modelo de datos de Experience.
 
-Si se proporcionan descriptores como &quot;xdm:alternativoDisplayInfo&quot; al configurar esquemas, los nombres descriptivos reemplazarán los nombres para mostrar. Resulta especialmente útil cuando se trabaja con &quot;eVars&quot; y campos genéricos. Puede configurar descriptores de nombres prácticos mediante una llamada API. Para obtener más información, consulte la [Guía para desarrolladores de Schema Registry](https://docs.adobe.com/content/help/es-ES/experience-platform/xdm/api/getting-started.html).
+Si se proporcionan descriptores como &quot;xdm:alternateDisplayInfo&quot; al configurar esquemas, los nombres descriptivos reemplazarán los nombres para mostrar. Resulta especialmente útil cuando se trabaja con &quot;eVars&quot; y campos genéricos. Puede configurar descriptores de nombres prácticos mediante una llamada API. Para obtener más información, consulte la [Guía para desarrolladores de Schema Registry](https://docs.adobe.com/content/help/es-ES/experience-platform/xdm/api/getting-started.html).
 
 ![](../assets/xdm-from-descriptors.png)
 
@@ -104,18 +104,18 @@ _Al configurar una actividad en un recorrido:_
 El lienzo se guarda automáticamente. Puede ver el estado de almacenamiento en la parte superior izquierda del lienzo.
 
 * Pulse **escape** para cerrar el panel de configuración y descartar los cambios realizados. Este es el equivalente del botón **[!UICONTROL Cancel]**.
-* Press **Enter** or click outside the pane to close the configuration pane. Los cambios se guardan. Este es el equivalente del botón **[!UICONTROL Ok]**.
-* If you press **Delete** or **backspace**, you can then press **Enter** to confirm the deletion.
+* Pulse **Entrar** o haga clic fuera del panel para cerrar el panel de configuración. Los cambios se guardan. Este es el equivalente del botón **[!UICONTROL Ok]**.
+* Si pulsa **Eliminar** o **retroceso**, puede pulsar **Entrar** para confirmar la eliminación.
 
 _En elementos emergentes:_
 
-* Press **escape** to close it (equivalent of the **[!UICONTROL Cancel]** button).
-* Press **Enter** to save or confirm (equivalent of the **[!UICONTROL Ok]** or **[!UICONTROL Save]** button).
+* Pulse **escape** para cerrarlo (equivalente al botón **[!UICONTROL Cancel]** ).
+* Pulse **Entrar** para guardar o confirmar (equivalente al botón **[!UICONTROL Ok]** o **[!UICONTROL Save]** ).
 
 _En el panel de configuración de evento, fuente de datos o acción:_
 
 * Pulse **escape** para cerrar el panel de configuración sin guardar.
-* Press **Enter** to save modifications and close the configuration pane.
+* Pulse **Entrar** para guardar las modificaciones y cerrar el panel de configuración.
 * Pulse la **pestaña** para saltar entre los distintos campos para configurarlos.
 
 _En el editor de expresiones simple_
@@ -137,5 +137,5 @@ _En una pantalla con una barra de búsqueda:_
 _En el lienzo de un recorrido:_
 
 * Utilice la combinación de **teclas Ctrl/Comando + A** para seleccionar todas las actividades.
-* When one or several activities are selected, press **Delete** or **backspace** to delete them. Then you can press **Enter** to confirm in the confirmation pop-up.
+* Cuando se seleccionan una o varias actividades, pulse **Eliminar** o **Retroceso** para eliminarlas. A continuación, puede pulsar **Entrar** para confirmar en el elemento emergente de confirmación.
 * Haga doble clic en una actividad desde la paleta izquierda para agregarla a la primera posición disponible (de arriba a abajo).
