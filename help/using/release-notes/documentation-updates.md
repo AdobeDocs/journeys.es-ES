@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 94989635814c9b2f035d736647ae78324d2c4f2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '724'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -28,14 +28,14 @@ También puede consultar las [Notas de la versión](../release-notes/release-not
 
 * Información añadida sobre cómo ordenar y elegir las columnas que se mostrarán en la lista de segmentos. [Más información](../building-journeys/segment-qualification-events.md)
 * Se añadió información sobre cómo copiar el nombre y la ID de un segmento después de seleccionarlo. [Más información](../building-journeys/segment-qualification-events.md)
-* Las ocurrencias de Experience Platform se han armonizado en las diferentes páginas.
+* Las ocurrencias de Experience Platform se han unificado en las diferentes páginas.
 
 ## Julio de 2020 {#july-2020}
 
-* Se ha añadido un vínculo a un nuevo vídeo de tutorial sobre el sistema de informes de eventos de paso a Adobe Experience Platform. [Más información](../building-journeys/sharing-overview.md)
+* Se ha añadido un vínculo a un nuevo vídeo de tutorial sobre el sistema de informes de eventos del paso a Adobe Experience Platform. [Más información](../building-journeys/sharing-overview.md)
 * La sección actividades de eventos se ha reorganizado en subsecciones específicas para cada tipo de evento. [Más información](../building-journeys/event-activities.md)
 * Prácticas recomendadas añadidas para evitar sobrecargas con la calificación de segmentos. [Más información](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
-* Añadió una nota para explicar cómo continuar un viaje después de un error en una acción o condición. [Más información](../about/troubleshooting.md#section_h3q_kqk_fhb)
+* Añadió una nota para explicar cómo continuar un recorrido después de un error en una acción o condición. [Más información](../about/troubleshooting.md#section_h3q_kqk_fhb)
 * Se añadió una nueva sección sobre las funciones alfa que se prueban entre un conjunto limitado de clientes. [Más información](../alpha/alpha-overview.md)
 * Se añadió una nueva sección sobre la integración con servicios inteligentes. [Más información](../ai-services/ai-services-overview.md)
 * Se añadió una nueva sección sobre la creación del perfil de prueba. [Más información](../building-journeys/testing-the-journey.md#create-test-profile)
@@ -49,7 +49,7 @@ También puede consultar las [Notas de la versión](../release-notes/release-not
 ## Junio de 2020 {#june-2020}
 
 * Se añadió información sobre cómo cambiar la duración de caché del token para una fuente de datos de autenticación personalizada. [Más información](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
-* Updated screenshots and text to reflect the renaming of the **[!UICONTROL Finished]** journey state which has been changed to **[!UICONTROL Closed (no entrance)]**.
+* Capturas de pantalla y texto actualizados para reflejar el cambio de nombre del estado del recorrido **[!UICONTROL Finished]** , que se ha cambiado a **[!UICONTROL Closed (no entrance)]**.
 * Se añadió información sobre cómo se define el idioma para la interfaz. [Más información](../about/user-interface.md)
 * La lista de los estados del recorrido de un individuo se ha trasladado a la sección de [registros del modo de prueba ](../building-journeys/testing-the-journey.md#viewing_logs).
 
@@ -61,12 +61,12 @@ También puede consultar las [Notas de la versión](../release-notes/release-not
 ## Marzo de 2020 {#march-2020}
 
 * Descripciones de parámetros añadidos en _actionExecutionErrors_ y _fetchErrors_ en la sección de registros de pruebas. [Más información](../building-journeys/testing-the-journey.md#viewing_logs)
-* Se han actualizado las limitaciones de las acciones personalizadas utilizadas en un recorrido. You can also modify the **[!UICONTROL URL]** field and the **[!UICONTROL Authentication]** parameters. [Más información](../action/about-custom-action-configuration.md)
+* Se han actualizado las limitaciones de las acciones personalizadas utilizadas en un recorrido. También puede modificar el campo **[!UICONTROL URL]** y los parámetros **[!UICONTROL Authentication]** . [Más información](../action/about-custom-action-configuration.md)
 * Se han agregado nuevas entradas de ayuda contextual. El panel de carga útil de autenticación personalizada (en acciones y fuentes de datos) ahora incluye un icono de ayuda que se vincula a esta [sección](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
 * Ahora se pueden cerrar los recorridos finalizados. [Más información](../building-journeys/using-the-journey-designer.md)
 * Se ha reorganizado la sección de descripción de la interfaz. [Más información](../about/user-interface.md)
 * Se ha añadido la activación de varios eventos a la sección Modo de prueba [Más información](../building-journeys/testing-the-journey.md#firing_events)
-* La sección Modo de prueba se ha actualizado con respecto al nuevo **[!UICONTROL Wait time in test]** parámetro. [Más información](../building-journeys/testing-the-journey.md)
+* Se ha actualizado la sección del modo de prueba con respecto al nuevo parámetro **[!UICONTROL Wait time in test]** . [Más información](../building-journeys/testing-the-journey.md)
 * La sección Registro de pruebas se ha actualizado con códigos de error de llamada externa y respuestas. [Más información](../building-journeys/testing-the-journey.md#viewing_logs)
 * La administración de zonas horarias ahora está centralizada en el panel de propiedades del recorrido. Lea más [aquí](../building-journeys/changing-properties.md#timezone) y [aquí](../building-journeys/timezone-management.md)
 * La sección Diseñador de recorridos se ha actualizado para reflejar las mejoras recientes. [Más información](../building-journeys/using-the-journey-designer.md)
