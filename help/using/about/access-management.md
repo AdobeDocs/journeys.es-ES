@@ -8,11 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a480ba736b642485f2078a6e6c40c28a11f38a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '845'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -32,11 +32,11 @@ Para poder acceder a [!DNL Journey Orchestration], un usuario debe cumplir lo si
 
 En la Admin Console, puede asignar a los usuarios uno de los siguientes perfiles de producto predeterminados:
 
-* **[!UICONTROL Limited Access User]**: usuario con acceso de solo lectura a viajes e informes. Este perfil de productos incluye los siguientes permisos:
+* **[!UICONTROL Limited Access User]**: usuario con acceso de solo lectura a recorridos e informes. Este perfil de productos incluye los siguientes permisos:
    * Leer recorridos
    * Leer informes
 
-* **[!UICONTROL Administrators]**: usuario con acceso a los menús de administración con la posibilidad de administrar viajes, eventos e informes. Este perfil de productos incluye los siguientes permisos:
+* **[!UICONTROL Administrators]**: usuario con acceso a los menús de administración con la posibilidad de administrar recorridos, eventos e informes. Este perfil de productos incluye los siguientes permisos:
    * Administrar recorridos
    * Publicar recorridos
    * Administrar eventos, fuentes de datos y acciones
