@@ -1,13 +1,13 @@
 ---
 product: Journeys
 audience: end-user
-user-guide-title: Guía del Journey Orchestration
+user-guide-title: Guía de Journey Orchestration
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad892948c866c8c5cda16c17a33cb225ee7edb33
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '378'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 94%
          + [Uso de acciones personalizadas](using/building-journeys/using-custom-actions.md)
    + [Prueba del recorrido](using/building-journeys/testing-the-journey.md)
    + [Publicación del recorrido](using/building-journeys/publishing-the-journey.md)
-   + Uso compartido de los pasos del viaje con Adobe Experience Platform {#sharing-journey-steps}
+   + Uso compartido de los pasos del recorrido con Adobe Experience Platform {#sharing-journey-steps}
       + [Información general sobre el uso compartido de los pasos del recorrido](using/building-journeys/sharing-overview.md)
       + [Campos comunes de los eventos de los journeyStep](using/building-journeys/sharing-common-fields.md)
       + [Campos de ejecución de la acción eventos de los journeyStep](using/building-journeys/sharing-execution-fields.md)
@@ -184,6 +184,6 @@ ht-degree: 94%
 + Funciones alfa {#alpha}
    + [Descripción general de las funciones Alpha](using/alpha/alpha-overview.md)
    + [Interfaz de usuario](using/alpha/alpha-interface.md)
-   + [Leer actividad de segmentos](using/alpha/alpha-segment-trigger.md)
+   + [Leer Actividad de segmentos](using/alpha/alpha-segment-trigger.md)
    + [Eventos basados en reglas](using/alpha/alpha-events.md)
 
