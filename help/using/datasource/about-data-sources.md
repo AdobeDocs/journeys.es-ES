@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '356'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 86%
 >title="Acerca de las fuentes de datos"
 >abstract="La configuración de la fuente de datos siempre la realiza un usuario técnico. La configuración de la fuente de datos permite definir una conexión con un sistema para recuperar información adicional que se utilizará en los recorridos para definición de condición, parámetro y datos de personalización en acciones, definición de espera personalizada, definición de zona horaria personalizada."
 
-La configuración de la fuente de datos permite definir una conexión con un sistema para recuperar información adicional que se utilizará en los viajes, para:
+La configuración de la fuente de datos permite definir una conexión con un sistema para recuperar información adicional que se utilizará en los recorridos, para:
 
 * [definición de condición](../building-journeys/condition-activity.md)
 * datos de parámetros y personalización en [acciones](../action/action.md)
@@ -37,12 +37,12 @@ Esta configuración no es necesaria si los recorridos solo aprovechan los datos 
 
 Existen dos tipos de fuentes de datos:
 
-* Origen de datos preconfigurado de Adobe Experience Platform que define la conexión al servicio de Perfil del cliente en tiempo real. Constituye una fuente de datos integrada. Consulte [](../datasource/adobe-experience-platform-data-source.md).
+* Fuente de datos preconfigurada de Adobe Experience Platform que define la conexión al servicio perfil de cliente en tiempo real. Constituye una fuente de datos integrada. Consulte [](../datasource/adobe-experience-platform-data-source.md).
 * Las fuentes de datos externas que permiten definir una conexión con sistemas externos. Estos son los que puede crear. Consulte [](../datasource/external-data-sources.md).
 
 Para cada fuente de datos, se define la información que se recuperará mediante grupos de campos. Los grupos de campos son conjuntos de campos que se pueden recuperar desde una fuente de datos. Consulte [](../datasource/field-groups.md).
 
-For more information on how to configure an Adobe Experience Platform Data Source and an external data source and how to find and use data in a journey, watch this [tutorial video](https://docs.adobe.com/content/help/es-ES/journey-orchestration-learn/tutorials/configure-data-sources.html).
+Para obtener más información sobre cómo configurar una fuente de datos de Adobe Experience Platform y una fuente de datos externa, y cómo buscar y usar los datos en un recorrido, vea este [vídeo tutorial](https://docs.adobe.com/content/help/es-ES/journey-orchestration-learn/tutorials/configure-data-sources.html).
 
 Estos son los pasos principales de la configuración de la fuente de datos:
 
