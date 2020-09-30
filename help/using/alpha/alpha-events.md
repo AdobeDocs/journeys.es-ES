@@ -11,21 +11,25 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9c3b8f2d88646372e69ae4f24a5dbb5d45721c55
+source-git-commit: 9cdaa673dbe9247aa1e9c9aef58cfa003d014786
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 5%
+source-wordcount: '656'
+ht-degree: 11%
 
 ---
 
 
 # Eventos basados en reglas{#simplified-events}
 
-Hemos simplificado la forma de configurar eventos de experiencias. Estamos introduciendo un nuevo método que no requiere el uso de un eventID. Al configurar el evento en Journey Orchestration, ahora puede definir un evento basado en reglas.
+Hemos simplificado la forma de configurar el Evento de Experience. Presentamos un nuevo método que no requiere el uso de un ID de evento. Al configurar el evento en Journey Orchestration, ahora puede definir un evento basado en reglas.
 
 Este nuevo tipo de evento no genera un eventID. Con el simple editor de expresiones, ahora simplemente define una regla que utilizará el sistema para identificar los eventos relevantes que activarán sus viajes. Esta regla se puede basar en cualquier campo disponible en la carga útil de evento, por ejemplo la ubicación del perfil o el número de elementos agregados al carro de perfiles.
 
 Este nuevo método es mayormente transparente para los usuarios. El único cambio es un nuevo campo en la pantalla de definición de evento.
+
+>[!CAUTION]
+>
+>Se define una regla de límite para eventos basados en reglas. Limita el número de eventos cualificados que un viaje puede procesar a 400 k por minuto. Para obtener más información, póngase en contacto con el punto de contacto del programa Alfa.
 
 ## Aprovechamiento de los datos de Adobe Analytics{#analytics-data}
 
@@ -101,5 +105,5 @@ Al activar un evento, la pantalla de configuración **de** Evento le permite def
 
 ![](../assets/alpha-event8.png)
 
-Para obtener más información sobre cómo utilizar el modo de prueba, consulte [](../building-journeys/testing-the-journey.md).
+For more information on how to use the test mode, refer to [](../building-journeys/testing-the-journey.md).
 
