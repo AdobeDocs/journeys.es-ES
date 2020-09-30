@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
+source-git-commit: 70bc6653a8cdd552a0441f4b661341d3f095b112
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 4%
@@ -21,7 +21,7 @@ ht-degree: 4%
 
 # nowWithDelta {#nowWithDelta}
 
-Devuelve la fecha y hora actuales, incluido un desplazamiento. Si se especifica un identificador de zona horaria, se aplicará el desplazamiento de zona horaria. Para obtener más información sobre los tipos de datos, consulte [](../expression/data-types.md).
+Devuelve la fecha y hora actuales, incluido un desplazamiento. Si se especifica un identificador de zona horaria, se aplicará el desplazamiento de zona horaria. For more information on data types, refer to [](../expression/data-types.md).
 
 ## Categoría
 
