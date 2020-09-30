@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9e264f0794bff859d1e1db0b8fc2c66ab19fdec7
+source-git-commit: 70bc6653a8cdd552a0441f4b661341d3f095b112
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '376'
 ht-degree: 3%
 
 ---
@@ -61,7 +61,7 @@ Esta opción le permite definir una fecha personalizada, por ejemplo, el 12 de j
 
 >[!NOTE]
 >
->Puede aprovechar una expresión dateTimeOnly o utilizar una función para convertir a dateTimeOnly. Por ejemplo: toDateTimeOnly(@{Evento.offerOpened.actividad.endTime}), siendo el campo del evento el formulario 2016-08-12T09:46:06.
+>Puede aprovechar una expresión dateTimeOnly o utilizar una función para convertir a dateTimeOnly. Por ejemplo: ```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```, siendo el campo del evento del formulario 2016-08-12T09:46:06Z.
 >
 >El **huso** horario se espera en las propiedades del viaje. Como resultado, hoy no es posible desde la interfaz apuntar directamente a una marca de tiempo ISO-8601 completa, mezclando el tiempo y el huso horario como 2016-08-12T09:46:06.982-05. Consulte [](../building-journeys/timezone-management.md).
 
