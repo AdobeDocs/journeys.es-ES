@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
+source-git-commit: 25d3c3062bca2151faf10d11e9636799c1331f24
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 5%
+source-wordcount: '730'
+ht-degree: 8%
 
 ---
 
@@ -32,11 +32,15 @@ Existen cuatro tipos de condiciones:
 
 ## Acerca de la actividad Condition {#about_condition}
 
+Al utilizar varias condiciones en un viaje, puede definir etiquetas para cada una de ellas para identificarlas con mayor facilidad.
+
 Haga clic **[!UICONTROL Add a path]** si desea definir varias condiciones. Para cada condición, se agrega una nueva ruta en el lienzo después de la actividad.
 
 ![](../assets/journey47.png)
 
-Tenga en cuenta que el diseño de los viajes tiene un impacto funcional. Cuando se definen varias rutas después de una condición, solo se ejecutará la primera ruta elegible. Significa que puede variar la priorización de las rutas colocándolas encima o debajo de las demás. Por ejemplo, si la condición de la primera ruta es &quot;La persona es un VIP&quot; y la condición de la segunda ruta es &quot;La persona es un hombre&quot;. Si una persona que cumple ambas condiciones (un hombre que es VIP) supera este paso, se elegirá la primera ruta aunque también sea elegible para la segunda, porque la primera es &quot;superior&quot;. Para cambiar esta prioridad, mueva las actividades en otro orden vertical.
+Tenga en cuenta que el diseño de los viajes tiene un impacto funcional. Cuando se definen varias rutas después de una condición, solo se ejecutará la primera ruta elegible. Significa que puede variar la priorización de las rutas colocándolas encima o debajo de las demás.
+
+Por ejemplo, tomemos el ejemplo de la condición de una primera ruta &quot;La persona es un VIP&quot; y la condición de una segunda ruta &quot;La persona es un hombre&quot;. Si una persona que cumple ambas condiciones (un hombre que es VIP) supera este paso, se elegirá la primera ruta aunque también sea elegible para la segunda, porque la primera es &quot;superior&quot;. Para cambiar esta prioridad, mueva las actividades en otro orden vertical.
 
 ![](../assets/journey48.png)
 
@@ -57,7 +61,7 @@ Si utiliza el servicio [de segmentación de](https://docs.adobe.com/content/help
 >No puede realizar consultas en series temporales (por ejemplo, una lista de compras, clics anteriores en mensajes) con el editor simple. Para ello, deberá utilizar el editor avanzado. Consulte [](../expression/expressionadvanced.md).
 
 
-Cuando se produce un error en una acción o condición, se detiene el viaje de un individuo. La única manera de que continúe es marcar la casilla **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Consulte [](../building-journeys/using-the-journey-designer.md#paths).
+Cuando se produce un error en una acción o condición, se detiene el recorrido de un individuo. La única manera para continuar es marcar la casilla **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Consulte [](../building-journeys/using-the-journey-designer.md#paths).
 
 ## Condición de fuente de datos {#data_source_condition}
 
@@ -77,7 +81,7 @@ Esto le permite realizar diferentes acciones según la hora del día y/o el día
 
 ## División de porcentaje {#percentage_split}
 
-Esta opción le permite dividir aleatoriamente la audiencia para definir una acción diferente para cada grupo. Defina el número de divisiones y la partición de cada ruta. El cálculo de la división es estadístico, ya que el sistema no puede anticipar cuántas personas fluirán en esta actividad del viaje. Como resultado, la división tiene un margen de error muy bajo. Esta función se basa en un mecanismo aleatorio de Java (consulte esta [página](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)).
+Esta opción le permite dividir aleatoriamente la audiencia para definir una acción diferente para cada grupo. Defina el número de divisiones y la partición para cada ruta. El cálculo de la división es estadístico, ya que el sistema no puede anticipar cuántas personas fluirán en esta actividad del viaje. Como resultado, la división tiene un margen de error muy bajo. Esta función se basa en un mecanismo aleatorio de Java (consulte esta [página](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)).
 
 >[!NOTE]
 >
