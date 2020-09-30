@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: db16f947e8c885167d289484cc2269dcee3bd646
 workflow-type: tm+mt
 source-wordcount: '390'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
@@ -25,15 +25,13 @@ En nuestro escenario, necesitamos recibir un evento cada vez que una persona ent
 
 Para obtener información adicional sobre la configuración de evento, consulte [](../event/about-events.md).
 
-1. En el menú superior, haga clic en la **[!UICONTROL Events]** ficha y, a continuación, en **[!UICONTROL Add]** para crear un nuevo evento.
+1. In the top menu, click the **[!UICONTROL Events]** tab and click **[!UICONTROL Add]** to create a new event.
 
    ![](../assets/journeyuc1_1.png)
 
 1. Introducimos el nombre sin espacios ni caracteres especiales: &quot;LobbyBeacon&quot;.
 
    ![](../assets/journeyuc2_1.png)
-
-<!--li>Select the **[!UICONTROL Mobile - Streaming Ingestion APIs]** event type. Events are sent from the customers' mobile phone through the Mobile SDK.![](../assets/journeyuc2_3.png" placement="break" width="800" id="image_is5_2sn_z2b"/></li-->
 
 1. A continuación, seleccionamos el esquema y definimos la carga útil esperada para este evento. Seleccionamos los campos necesarios del modelo normalizado XDM. Necesitamos el ID de Experience Cloud para identificar a la persona en la base de datos de Perfil del cliente en tiempo real: &quot;endUserIDs > _experience > mcid > id&quot;.
 
@@ -47,7 +45,7 @@ Para obtener información adicional sobre la configuración de evento, consulte 
    >
    >La lista de los campos varía de un esquema a otro. Según la definición de esquema, algunos campos pueden ser obligatorios y estar preseleccionados.
 
-1. Necesitamos seleccionar una Área de nombres. Una Área de nombres está preseleccionada en función de las propiedades de esquema. Puede mantener el preseleccionado. Para obtener más información sobre Áreas de nombres, consulte [](../event/selecting-the-namespace.md).
+1. Necesitamos seleccionar un área de nombres. Un área de nombres está preseleccionada en función de las propiedades de esquema. Puede mantener la preseleccionada. Para obtener más información sobre áreas de nombres, consulte [](../event/selecting-the-namespace.md).
 
    ![](../assets/journeyuc2_4.png)
 
