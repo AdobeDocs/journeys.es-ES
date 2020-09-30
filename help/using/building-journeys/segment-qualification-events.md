@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2ef3ce546a816f1d7d0398acc418a20803886a20
+source-git-commit: 69427556476b5a51e4557307227433cff25f4856
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 0%
+source-wordcount: '691'
+ht-degree: 1%
 
 ---
 
@@ -29,7 +29,12 @@ Supongamos que tiene un segmento &quot;cliente plateado&quot;. Con esta activida
 
 Este tipo de evento se puede posicionar como el primer paso o más tarde en el viaje.
 
-Si el segmento se transmite con la opción Audiencias de alta frecuencia de Adobe Experience Platform, las entradas y salidas se escuchan en tiempo real. Si el segmento no se transmite, las entradas y salidas se tienen en cuenta en el momento del cálculo del segmento.
+>[!IMPORTANT]
+>
+>Tenga en cuenta que los segmentos de Adobe Experience Platform se calculan una vez al día (segmentos **por lotes** ) o en tiempo real (segmentos **transmitidos** , mediante la opción Audiencias de alta frecuencia de Adobe Experience Platform).
+>
+>Si el segmento seleccionado se transmite por flujo continuo, los individuos pertenecientes a este segmento potencialmente entrarán en el viaje en tiempo real. Si el segmento es por lotes, las personas que acaban de cumplir los requisitos para este segmento posiblemente entrarán en el viaje cuando el cálculo del segmento se ejecute en el Adobe Experience Platform.
+
 
 1. Despliegue la **[!UICONTROL Events]** categoría y suelte una **[!UICONTROL Segment qualification]** actividad en el lienzo.
 
