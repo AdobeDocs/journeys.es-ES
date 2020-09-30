@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ed0934f141ade1e558131e9fad609844800dd46a
+source-git-commit: 7cac949f2428f29bef1d01122e152429a93d0b1b
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 2%
+source-wordcount: '1339'
+ht-degree: 3%
 
 ---
 
@@ -45,7 +45,7 @@ Para utilizar el modo de prueba, siga estos pasos:
 
    ![](../assets/journeyuctest2.png)
 
-1. Si hay algún error, desactive el modo de prueba, modifique el viaje y pruébelo de nuevo. Cuando la prueba sea concluyente, puede publicar el viaje. Consulte [](../building-journeys/publishing-the-journey.md).
+1. Si hay algún error, desactive el modo de prueba, modifique el recorrido y pruebe de nuevo. Cuando la prueba sea concluyente, puede publicar el viaje. Consulte [](../building-journeys/publishing-the-journey.md).
 
 ## Notas importantes {#important_notes}
 
@@ -169,3 +169,18 @@ Estos son los diferentes estados del viaje de una persona:
 * _Finalizó_: la persona está al final del viaje.
 * _Error_: el individuo se detiene en el viaje debido a un error.
 * _Se agotó_ el tiempo de espera: el individuo es detenido en el viaje debido a un paso que tomó demasiado tiempo.
+
+Cuando se activa un evento mediante el modo de prueba, se genera automáticamente un conjunto de datos con el nombre del origen.
+
+Cuando se activa un evento mediante el modo de prueba, se genera automáticamente un conjunto de datos con el nombre del origen.
+
+El modo de prueba crea automáticamente un Evento de experiencias y lo envía a Adobe Experience Platform. El nombre del origen de este Evento de experiencias es &quot;Eventos de prueba de Journey Orchestration&quot;.
+
+En el caso de eventos múltiples activados a partir de viajes múltiples
+
+Existe un escenario en el que se envían varios eventos desde varios viajes que tendrán diferentes Esquemas. ¿Puede un esquema asignar a un conjunto de datos? Si no es así, tendremos varios conjuntos de datos requeridos.
+
+La creación y el nombre automáticos de estos conjuntos de datos se realiza si no se incluye un conjunto de datos de destino en el evento de experiencias. Por eso vemos hoy el &quot;Conjunto de datos creado automáticamente para voyager&quot;.
+
+La nominación de nuestra fuente impulsa la creación automática. Si tenemos varios eventos, debemos concatenar y hacer que sea &quot;Evento de prueba Journey Orchestration - NOMBRE DEL ESQUEMA&quot;. Esto pasará automáticamente a &quot;Conjunto de datos generado automáticamente para el Evento de pruebas Journey Orchestration - NOMBRE DEL ESQUEMA&quot;.
+
