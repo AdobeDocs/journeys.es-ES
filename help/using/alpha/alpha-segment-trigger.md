@@ -1,5 +1,5 @@
 ---
-title: Leer actividad de segmentos
+title: Leer Actividad de segmentos
 description: Obtenga más información sobre la actividad Leer segmento.
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -11,15 +11,15 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 967f453145dcf9af0e3efc5d52854d0c5c68c54f
+source-git-commit: b068429a0eb72c585de27faefe51ea2889be28f1
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 0%
+source-wordcount: '624'
+ht-degree: 4%
 
 ---
 
 
-# Leer actividad de segmentos {#segment-trigger-activity}
+# Leer Actividad de segmentos {#segment-trigger-activity}
 
 ## Acerca de la actividad Leer segmento {#about-segment-trigger-actvitiy}
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 >
 >Si hay una actividad de acción lista para usar de Adobe Campaign Standard en el lienzo en tiempo de publicación o en tiempo de activación del modo de prueba, el viaje se reducirá a 13 entradas por segundo. De lo contrario, el viaje se reducirá a 1000 eventos por segundo.
 
-La actividad Leer segmento le permite hacer que todas las personas que pertenecen a un segmento de Adobe Experience Platform participen en un viaje. La entrada en un viaje puede realizarse una vez o de forma regular.
+La actividad Leer segmento le permite hacer que todas las personas que pertenecen a un segmento de Adobe Experience Platform participen en un viaje. La entrada en un recorrido puede realizarse una vez o de forma regular.
 
 Supongamos que tiene un segmento de clientes Gold en Adobe Experience Platform. Con la actividad Leer segmento, puede hacer que todas las personas pertenecientes al segmento de clientes Gold participen en un viaje y que fluyan en viajes individualizados que aprovechen todas las funcionalidades del viaje: condiciones, temporizadores, eventos, acciones.
 
@@ -83,14 +83,20 @@ Para ello, active el modo de prueba y, a continuación, seleccione la opción qu
 
 ![](../assets/segment-trigger-test-modes.png)
 
-Luego puede configurar el modo de prueba como de costumbre. En [esta sección](../building-journeys/testing-the-journey.md)se describen los pasos detallados para probar un viaje.
+A continuación, puede configurar y ejecutar el modo de prueba como de costumbre. En [esta sección](../building-journeys/testing-the-journey.md)se describen los pasos detallados para probar un viaje.
 
-Tenga en cuenta que probar el viaje con hasta 100 perfiles a la vez no permite rastrear el progreso de los individuos en el viaje utilizando el flujo visual.
+Una vez ejecutada la prueba, el **[!UICONTROL Show logs]** botón le permite ver los resultados de la prueba según la opción de prueba seleccionada:
+
+* **[!UICONTROL Single profile at a time]**:: los registros de prueba muestran la misma información que cuando se utiliza el modo de prueba unitario. Para obtener más información, consulte [esta sección](../building-journeys/testing-the-journey.md#viewing_logs)
+
+* **[!UICONTROL Up to 100 profiles at once]**:: los registros de prueba le permiten rastrear la progresión de la exportación de segmentos desde Adobe Experience Platform, así como el progreso individual de todas las personas que entraron en el viaje.
+
+   Tenga en cuenta que probar el viaje con hasta 100 perfiles a la vez no permite rastrear el progreso de los individuos en el viaje utilizando el flujo visual.
+
+   ![](../assets/read-segment-log.png)
 
 Una vez realizadas las pruebas, puede publicar el viaje (consulte [Publicación del viaje](../building-journeys/publishing-the-journey.md)). Las personas que pertenezcan al segmento entrarán en el viaje en la fecha y hora especificadas en la sección de propiedades **[!UICONTROL Scheduler]** del viaje.
 
->[!IMPORTANT]
+>[!NOTE]
 >
->Tenga en cuenta que los segmentos de Adobe Experience Platform se calculan una vez al día (segmentos **por lotes** ) o en tiempo real (segmentos **transmitidos** ).
->
->Si el segmento seleccionado se transmite por flujo continuo, los individuos pertenecientes a este segmento potencialmente entrarán en el viaje en tiempo real. Si el segmento es por lotes, las personas que acaban de cumplir los requisitos para este segmento posiblemente entrarán en el viaje cuando el cálculo del segmento se ejecute en el Adobe Experience Platform.
+>Al realizar una nueva versión de un viaje basado en segmentos que no sea recurrente (comenzando tan pronto como sea posible o &quot;una vez&quot;), todos los individuos que hayan entrado en el viaje anteriormente no volverán a introducir su nueva versión cuando la publique. Si desea permitir que vuelvan a entrar, debe realizar el duplicado del viaje.
