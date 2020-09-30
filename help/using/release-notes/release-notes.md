@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 619f05137bfad573a5de23ceda5448180dad2d6a
-workflow-type: ht
-source-wordcount: '1527'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fe53855bed7d437232280a9f0e38a0d2e085c10e
+workflow-type: tm+mt
+source-wordcount: '1653'
+ht-degree: 93%
 
 ---
 
@@ -23,6 +23,54 @@ ht-degree: 100%
 
 Esta página lista todas las nuevas funciones y mejoras de Journey Orchestration.
 También puede consultar las [Actualizaciones de documentación](../release-notes/documentation-updates.md).
+
+## Versión de septiembre de 2020 {#september-release}
+
+### Actualizaciones de GA{#september-ga-update}
+
+<table>
+<thead>
+<tr>
+<th><strong>Mejoras en la actividad de condiciones</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Al agregar condiciones a su viaje, ahora puede definir una etiqueta. Si se utilizan varias condiciones en un viaje, esto le permite identificarlas más fácilmente.
+</p>
+<p>Para obtener más información, consulte la <a href="../building-journeys/condition-activity.md#about_condition">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Actualizaciones Alpha{#september-alpha-update}
+
+Para descubrir el ámbito de Alpha, consulte esta [sección](../alpha/alpha-overview.md).
+
+<table>
+<thead>
+<tr>
+<th><strong>Leer las mejoras en la actividad de segmentos</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The following improvements have been made to the <strong>Read segment</strong> activity:
+</p>
+<ul>
+<li><p>Los viajes basados en segmentos ahora muestran, por encima del lienzo, un recordatorio del tipo de programación del viaje. Puede hacer clic en este recordatorio para acceder al menú de configuración de programación.</p>
+</li>
+<li><p>Se ha mejorado la granularidad de los registros de modo de prueba para mostrar el estado de progreso de exportación de segmentos.</p>
+</li>
+</ul>
+<p>Para obtener más información sobre la actividad del segmento <strong></strong> Leer, consulte la documentación <a href="../alpha/alpha-segment-trigger.md"></a>detallada.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Versión de agosto de 2020 {#august-release}
 
