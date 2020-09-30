@@ -9,9 +9,9 @@ topic-tags: journeys
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ca4dc447d8ae4ee18e50d7e9a18faf3fa47ae223
+source-git-commit: 6656c3a9b62f13d0cbffa3ac97c0a5314cb050a4
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1108'
 ht-degree: 2%
 
 ---
@@ -82,12 +82,12 @@ La API de límite le ayuda a crear, configurar y supervisar sus configuraciones 
 |---|---|---|
 | [!DNL POST] | lista/valores extremosConfiguraciones | Obtener una lista de las configuraciones de límite de extremo |
 | [!DNL POST] | /endConfigs | Crear una configuración de límite de extremo |
-| [!DNL POST] | /endConfigs/{uid}/deploy | Implementar una configuración de límite de extremo |
-| [!DNL POST] | /endConfigs/{uid}/undeploy | Desimplementar una configuración de límite de extremo |
-| [!DNL POST] | /endConfigs/{uid}/canDeploy | Compruebe si se puede implementar o no una configuración de límite de extremo |
-| [!DNL PUT] | /endConfigs/{uid} | Actualizar una configuración de límite de extremo |
-| [!DNL GET] | /endConfigs/{uid} | Recuperar una configuración de límite de extremo |
-| [!DNL DELETE] | /endConfigs/{uid} | Eliminar una configuración de límite de puntos |
+| [!DNL POST] | /endConfigs/`{uid}`/deploy | Implementar una configuración de límite de extremo |
+| [!DNL POST] | /endConfigs/`{uid}`/undeploy | Desimplementar una configuración de límite de extremo |
+| [!DNL POST] | /endConfigs/`{uid}`/canDeploy | Compruebe si se puede implementar o no una configuración de límite de extremo |
+| [!DNL PUT] | /endConfigs/`{uid}` | Actualizar una configuración de límite de extremo |
+| [!DNL GET] | /endConfigs/`{uid}` | Recuperar una configuración de límite de extremo |
+| [!DNL DELETE] | /endConfigs/`{uid}` | Eliminar una configuración de límite de puntos |
 
 Cuando se crea o actualiza una configuración, se realiza automáticamente una comprobación para garantizar la sintaxis y la integridad de la carga útil.
 Si se producen algunos problemas, la operación devuelve advertencias o errores para ayudarle a corregir la configuración.
@@ -156,7 +156,7 @@ Los posibles errores son:
 * **ERR_ENDPOINTCONFIG_108**: capping config: recuento máximo de llamadas no válido (periodInMs)
 * **ERR_ENDPOINTCONFIG_111**: capping config: no se puede crear la configuración del extremo: carga útil no válida
 * **ERR_ENDPOINTCONFIG_112**: capping config: no se puede crear la configuración del extremo: esperando una carga útil JSON
-* **ERR_AUTHORING_ENDPOINTCONFIG_1**: nombre de servicio no válido <!--<given value>-->: debe ser &#39;dataSource&#39; o &#39;action&#39;
+* **ERR_AUTHORING_ENDPOINTCONFIG_1**: nombre de servicio no válido `<!--<given value>-->`: debe ser &#39;dataSource&#39; o &#39;action&#39;
 
 
 La advertencia potencial es:
