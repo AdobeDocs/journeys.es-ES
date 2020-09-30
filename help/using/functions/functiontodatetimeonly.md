@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+source-git-commit: 70bc6653a8cdd552a0441f4b661341d3f095b112
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '47'
 ht-degree: 10%
 
 ---
@@ -35,8 +35,8 @@ Conversión
 
 | Parámetro | Tipo |
 |-----------|------------------|
-| fecha y hora sin zona horaria en formato ISO-8601 | string |
-| dateTime | dateTime |
+| fecha y hora en formato ISO-8601 | string |
+| fecha y hora | dateTime |
 
 ## Firmas y tipos devueltos
 
@@ -50,7 +50,7 @@ Devolver una fecha y hora sin tener en cuenta la zona horaria.
 
 ## Ejemplos
 
-`toDateTimeOnly ("2016-08-18T23:17:59.123")`
+`toDateTimeOnly ("2016-08-18T23:17:59.123Z")`
 
 Devuelve 2016-08-18T23:17:59.123.
 
