@@ -1,6 +1,6 @@
 ---
 title: Acerca de la creación de un recorrido
-description: Aprenda a construir un viaje
+description: Como usuario de negocios, aprenda a combinar actividades de evento, orquestación y acción para construir un viaje.
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: 38b555e19b9c3a0757962cbedbf3587e64f69add
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 10%
+source-wordcount: '376'
+ht-degree: 14%
 
 ---
 
@@ -42,11 +42,11 @@ Estos son los pasos principales para crear y publicar un viaje.
 
    ![](../assets/journey31.png)
 
-1. Edite las propiedades del viaje en el panel de configuración que se muestra en el lado derecho. Consulte [](../building-journeys/changing-properties.md).
+1. Edite las propiedades del recorrido en el panel de configuración que se muestra en el lado derecho. Consulte [](../building-journeys/changing-properties.md).
 
    ![](../assets/journey32.png)
 
-1. Para Inicio, arrastre y suelte una actividad de evento de la paleta en el lienzo. También puede hacer clic con el doble en una actividad para agregarla al lienzo.
+1. Para inicio, arrastre y suelte una actividad de evento de la paleta en el lienzo. También puede hacer clic con el doble en una actividad para agregarla al lienzo.
 
    ![](../assets/journey33.png)
 
