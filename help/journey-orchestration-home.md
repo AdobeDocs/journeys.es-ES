@@ -2,11 +2,11 @@
 keywords: Journeys;home;popular topics
 title: Documentación del producto de Journey Orchestration
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d5a2538859d0438d8536c1e359f981d6ac179f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '190'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 93%
 
 * **[Descubra las novedades](using/release-notes/release-notes.md)**<br/>Obtenga más información sobre las últimas versiones.
 
-* **[Características](using/alpha/alpha-overview.md)**<br/>alfaDescubrir las características que están disponibles actualmente a través del programa alfa.
+* **[Funciones alfa](using/alpha/alpha-overview.md)**<br/>Descubra las características que están disponibles actualmente en el programa alfa.
 
 ## Páginas principales
 
