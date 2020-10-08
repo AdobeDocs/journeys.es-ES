@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 0%
@@ -23,11 +21,11 @@ ht-degree: 0%
 
 Esta mezcla se compartirá con los eventos travelStepEvent y travelStepProfileEvent.
 
-These are the common XDM fields that [!DNL Journey Orchestration] sends to Adobe Experience Platform. Common fields will be sent for every step that is processed in a journey. Se utilizan campos más específicos para acciones y enriquecimientos personalizados.
+Estos son los campos XDM comunes que [!DNL Journey Orchestration] se envían a Adobe Experience Platform. Los campos comunes se enviarán para cada paso que se procese en un viaje. More specific fields are used for custom actions and enrichments.
 
-Algunos de estos campos solo están disponibles en patrones de procesamiento específicos (ejecución de acciones, captura de datos, etc.) para limitar el tamaño de los eventos.
+Some of those fields are only available in specific processing patterns (action execution, data fetch, etc.) in order to limit the size of events.
 
-## entrada
+## entrance
 
 Indica si el usuario ha entrado en el viaje. Si no está presente, suponemos que el valor es false.
 
@@ -51,7 +49,7 @@ Tipo: booleano
 
 ## eventID
 
-ID de Evento en proceso para el procesamiento de pasos. Si el evento es externo, el valor es eventId. Si el evento es interno, el valor es el eventId interno (como scheduleNotificationReceived, executeAction, etc.).
+ID de evento en proceso para el procesamiento de pasos. Si el evento es externo, el valor es eventId. Si el evento es interno, el valor es el eventId interno (como scheduleNotificationReceived, executeAction, etc.).
 
 Tipo: string
 
@@ -83,7 +81,7 @@ Valores posibles:
 
 * Condición
 * Acción
-* Planificador
+* Planificador 
 * Temporizador
 
 ## stepStatus
@@ -95,10 +93,10 @@ Tipo: string
 El estado puede ser:
 
 * finalizó: el paso no tiene transición y su procesamiento ha finalizado correctamente.
-* error: the step processing has raised an error.
+* error: el procesamiento de pasos ha generado un error.
 * transiciones: el paso está esperando un evento para la transición a otro paso.
 * capped: el paso ha fallado en un error de límite, generado durante una acción o enriquecimiento.
-* timedout: el paso falló en un error de tiempo de espera, generado durante una acción o enriquecimiento.
+* timedout: el paso ha fallado en un error de tiempo de espera, generado durante una acción o enriquecimiento.
 * instanceTimedout: el paso ha detenido su procesamiento porque la instancia ha alcanzado su tiempo de espera.
 
 ## travelID
@@ -109,17 +107,17 @@ Tipo: string
 
 ## travelVersionID
 
-ID de la versión del viaje. This id represents the identity reference to the journey, in the case of the journeyStepEvent.
+ID de la versión del viaje. Esta identificación representa la referencia de identidad del viaje, en el caso de la función travelStepEvent.
 
 Tipo: string
 
 ## travelVersionName
 
-Name of the journey version.
+Nombre de la versión del viaje.
 
 Tipo: string
 
-## journeyVersion
+## travelVersion
 
 Versión del viaje.
 
@@ -145,7 +143,7 @@ Tipo: string
 
 ## parentStepName
 
-Step name of the parent of the current step.
+Nombre del paso principal del paso actual.
 
 Tipo: string
 
@@ -175,11 +173,11 @@ Tipo: long
 
 ## instanceType
 
-Indica el tipo de instancia, si es por lotes o unitarios.
+Indicates the instance type, if it is batch or unitary.
 
 Tipo: string
 
-Valores: lote/unidad
+Values: batch/unitary
 
 ## recurrenceIndex
 
@@ -207,6 +205,6 @@ Tipo: string
 
 ## batchUnitaryBranchID
 
-si la instancia se ha activado desde una instancia de lote, ID de rama unitaria.
+if the instance has been triggered from a batch instance, unitary branch ID.
 
 Tipo: string
