@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4871550d1608f4ffdee3b56d38b08f808eb2281c
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '675'
 ht-degree: 3%
@@ -113,7 +111,7 @@ A continuación se muestra cómo se representan las expresiones de tipo de datos
     </tr>
     <tr>
         <td>lista</td>
-        <td>lista separada por comas de expresiones utilizando corchetes como delimitadores. No se admite el polimorfismo, por lo que todas las expresiones contenidas en la lista deben tener el mismo tipo.</td>
+        <td>Lista separada por comas de expresiones utilizando corchetes como delimitadores. No se admite el polimorfismo, por lo que todas las expresiones contenidas en la lista deben tener el mismo tipo.</td>
         <td>[&lt;expresión&gt;, &lt;expresión&gt;, ... ]</td>
         <td><p><pre>["value1","value2"]</pre></p><p><pre>[3,5]</pre></p><p><pre>[toDuration(500),toDuration(800)]</pre></p></td>
     </tr>
