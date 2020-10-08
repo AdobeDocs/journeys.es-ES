@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 10%
@@ -29,7 +27,7 @@ El origen de datos de Adobe Experience Platform define la conexión al servicio 
 
 Para permitir la conexión al servicio de Perfil de clientes en tiempo real, debemos utilizar una clave para identificar a una persona y una Área de nombres que contextualice la clave. Como resultado, solo puede utilizar esta fuente de datos si su inicio de viajes contiene un evento que contiene una clave y una Área de nombres. Consulte [](../building-journeys/journey.md).
 
-Puede editar el grupo de campos preconfigurado llamado &quot;ProfileFieldGroup&quot;, agregar otros nuevos y eliminar los que no se utilizan en ningún borrador o en ningún viaje en directo. Consulte [](../datasource/field-groups.md).
+Puede editar el grupo de campos preconfigurado llamado &quot;ProfileFieldGroup&quot;, agregar otros nuevos y eliminar los que no se utilizan en ningún borrador o en los viajes activos. Consulte [](../datasource/field-groups.md).
 
 Estos son los pasos principales para agregar grupos de campos al origen de datos integrado.
 
@@ -43,7 +41,7 @@ Estos son los pasos principales para agregar grupos de campos al origen de datos
 
    ![](../assets/journey24.png)
 
-1. Seleccione un esquema en la **[!UICONTROL Schema]** lista desplegable. Este campo lista esquemas de Perfil y Eventos de experiencias disponibles en Adobe Experience Platform. La creación de Esquemas no se realiza en [!DNL Journey Orchestration]. Se realiza en el Adobe Experience Platform.
+1. Seleccione un esquema en la **[!UICONTROL Schema]** lista desplegable. Este campo lista esquemas de Perfil y Eventos de experiencias disponibles en Adobe Experience Platform. La creación de esquemas no se realiza en [!DNL Journey Orchestration]. Se realiza en el Adobe Experience Platform.
 1. Seleccione los campos que desee utilizar.
 1. Defina la duración de la caché.
 1. Haga clic en **[!UICONTROL Save]**.
