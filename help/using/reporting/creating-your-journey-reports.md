@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b87de729f48c4624554eb19b6d418cb3cf70b805
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '825'
 ht-degree: 5%
@@ -55,7 +53,7 @@ Para acceder a los informes de viajes y al inicio de seguimiento del éxito de s
 
    ![](../assets/dynamic_report_journey_4.png)
 
-1. A continuación, puede filtrar los datos mediante inicios arrastrando y soltando dimensiones y métricas de la **[!UICONTROL Components]** ficha a la tabla improvisada. Para obtener más información, consulte esta [sección](#adding-components).
+1. A continuación, puede filtrar los datos mediante inicios arrastrando y soltando dimensiones y métricas desde la **[!UICONTROL Components]** ficha hasta la tabla improvisada. Para obtener más información, consulte esta [sección](#adding-components).
 
    ![](../assets/dynamic_report_journey_5.png)
 
