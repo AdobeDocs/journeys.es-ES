@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 6%
@@ -60,6 +58,6 @@ Adobe Campaign Standard está configurado para enviar correos electrónicos y no
 
 El ID de Experience Cloud se utiliza como clave para identificar al cliente en el sistema de reservación del hotel.
 
-Los Eventos se envían desde el teléfono móvil del cliente cuando se detectan cerca de una señalización. Debe diseñar una aplicación móvil para enviar eventos desde el teléfono móvil del cliente al SDK móvil.
+Los eventos se envían desde el teléfono móvil del cliente cuando se detectan cerca de una señalización. Debe diseñar una aplicación móvil para enviar eventos desde el teléfono móvil del cliente al SDK móvil.
 
 El campo de miembro Lealtad es un campo personalizado y se agregó en XDM para nuestro ID de organización específico.
