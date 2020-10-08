@@ -8,13 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 92bd110c4c91c459c8074184bdb486733ab5f3d7
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '245'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
@@ -44,7 +42,7 @@ Realice los siguientes pasos para seleccionar los campos de puntuación de fatig
 
    ![](../assets/journeyuc3_1.png)
 
-1. Haga clic **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Save]**.
 
 ## Construcción del recorrido {#section_uzm_pyy_wfb}
 
@@ -58,11 +56,11 @@ Realice los siguientes pasos para aprovechar el nivel de fatiga del viaje:
 
    ![](../assets/journeyuc2_14.png)
 
-1. Elija el **[!UICONTROL Data Source Condition]** tipo y haga clic en el **[!UICONTROL Expression]** campo.
+1. Elija el tipo **[!UICONTROL Data Source Condition]** y haga clic en el campo **[!UICONTROL Expression]** . 
 
    ![](../assets/journeyuc3_2.png)
 
-1. Con el editor de expresiones sencillo, busque el **[!UICONTROL fatigueLevel]** campo (_ExperiencePlatformDataSource > JourneyAIScores > Perfil > travelAI > emailScore > fatiga_), suéltelo a la derecha y cree la condición siguiente: &quot;fatigueLevel es igual a &quot;Low&quot;. Haga clic **[!UICONTROL Ok]**.
+1. Con el editor de expresiones sencillo, busque el **[!UICONTROL fatigueLevel]** campo (_ExperiencePlatformDataSource > JourneyAIScores > Perfil > travelAI > emailScore > fatiga_), suéltelo a la derecha y cree la condición siguiente: &quot;fatigueLevel es igual a &quot;Low&quot;. Haga clic en **[!UICONTROL Ok]**.
 
    ![](../assets/journeyuc3_3.png)
 
