@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 72a3fd98b7911a1b8f23ccfeb55b884926f795ce
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 6%
@@ -44,7 +42,7 @@ También puede realizar lo siguiente:
 
    ![](../assets/finish_drop_down_list.png)
 
-1. Haga clic en **[!UICONTROL Close to new entrances]**. Aparecerá un cuadro de diálogo.
+1. Haga clic en **[!UICONTROL Close to new entrances]**. Aparece un cuadro de diálogo.
 1. Haga clic en **[!UICONTROL Close to new entrances]** para confirmar.
 
 ## Detener un viaje
@@ -64,5 +62,5 @@ También puede realizar lo siguiente:
 
 ![](../assets/finish_drop_down_list.png)
 
-1. Haga clic en **[!UICONTROL Stop]**. Aparecerá un cuadro de diálogo.
+1. Haga clic en **[!UICONTROL Stop]**. Aparece un cuadro de diálogo.
 1. Haga clic en **[!UICONTROL Stop]** para confirmar.
