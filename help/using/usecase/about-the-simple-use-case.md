@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 54b54a64ad2822eec96008ac4a2e16c208a4a3ab
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 14%
@@ -37,4 +35,4 @@ Para nuestro caso de uso, hemos diseñado una plantilla de mensajería transacci
 
 Adobe Campaign Standard está configurado para enviar correos electrónicos.
 
-Los Eventos se envían desde el teléfono móvil del cliente cuando se detectan cerca de una señalización. Debe diseñar una aplicación móvil para enviar eventos desde el teléfono móvil del cliente al SDK móvil.
+Los eventos se envían desde el teléfono móvil del cliente cuando se detectan cerca de una señalización. Debe diseñar una aplicación móvil para enviar eventos desde el teléfono móvil del cliente al SDK móvil.
