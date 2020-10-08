@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: db16f947e8c885167d289484cc2269dcee3bd646
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 8%
@@ -53,7 +51,7 @@ Para obtener información adicional sobre la configuración de evento, consulte 
 
    ![](../assets/journeyuc2_4bis.png)
 
-1. Haga clic **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Save]**.
 
 1. Haga clic en el **[!UICONTROL View Payload]** icono para previsualización de la carga útil esperada por el sistema y compartirla con la persona responsable del envío del evento.  Esta carga útil deberá configurarse en el postback de la consola de administración de Mobile Services.
 
