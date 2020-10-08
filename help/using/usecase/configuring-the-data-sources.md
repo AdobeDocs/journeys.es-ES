@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 14%
@@ -43,7 +41,7 @@ Para obtener información adicional sobre la configuración del origen de datos,
 
    ![](../assets/journeyuc2_7.png)
 
-1. Haga clic **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Save]**.
 
 También tenemos que comprobar si la persona tiene una reserva en el sistema de reservas del hotel. El usuario **** técnico debe configurar una segunda fuente de datos para recuperar este campo.
 
@@ -77,6 +75,6 @@ También tenemos que comprobar si la persona tiene una reserva en el sistema de 
 
    ![](../assets/journeyuc2_11.png)
 
-1. Haga clic **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Save]**.
 
    Las fuentes de datos ahora están configuradas y listas para utilizarse en su viaje.
