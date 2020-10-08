@@ -1,5 +1,5 @@
 ---
-title: eventos de reacciones
+title: Eventos de reacciones
 description: Más información sobre los eventos de reacción
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -8,18 +8,16 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 2b44cd9db7732c5e272b69e2583a5f81b4580d11
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# eventos de reacción {#section_dhx_gss_dgb}
+# Eventos de reacción {#section_dhx_gss_dgb}
 
 Entre las distintas actividades de evento disponibles en la paleta, se encuentra el **[!UICONTROL Reactions]** evento integrado. Esta actividad le permite reaccionar a los datos de seguimiento relacionados con un mensaje enviado con actividades por correo electrónico, SMS o push en el mismo viaje. Esta información procede de los mensajes transaccionales de Adobe Campaign Standard. Capturamos esta información en tiempo real en el momento en que se comparte con el Adobe Experience Platform. En el caso de las notificaciones push, puede reaccionar a los mensajes en los que se ha hecho clic, se han enviado o se han producido errores. Para los mensajes SMS, puede reaccionar a los mensajes enviados o a los mensajes fallidos. En el caso de los mensajes de correo electrónico, puede reaccionar a los mensajes en los que se ha hecho clic, se ha enviado, se ha abierto o se han producido errores.
 
@@ -44,7 +42,7 @@ Estos son los diferentes pasos para configurar los eventos de reacción:
 >
 >Los eventos de reacción no pueden rastrear las acciones de correo electrónico, SMS o push que tienen lugar en un viaje diferente.
 >
->Los eventos de reacción rastrean los clics en los vínculos del tipo &quot;rastreados&quot; (consulte esta [página](https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/links.html#about-tracked-urls)). No se tienen en cuenta los vínculos Bajas y de página espejo.
+>Los eventos de reacción rastrean los clics en los vínculos del tipo &quot;rastreados&quot; (consulte esta [página](https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/links.html#about-tracked-urls)). No se tienen en cuenta los vínculos bajas y de página espejo.
 
 >[!IMPORTANT]
 >
