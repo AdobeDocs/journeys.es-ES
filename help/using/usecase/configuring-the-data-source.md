@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 6%
@@ -36,6 +34,6 @@ Para obtener información adicional sobre la configuración del origen de datos,
    * _persona > sexo_
    * _personalEmail > dirección_
 
-1. Haga clic **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Save]**.
 
 La fuente de datos ahora está configurada y lista para utilizarse en su viaje.
