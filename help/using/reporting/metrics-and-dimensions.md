@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 8641b577e91492c86e6fc8e201acd6a208e5e38b
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 2%
@@ -38,7 +36,7 @@ La tabla siguiente le proporciona la lista de las dimensiones utilizadas en los 
 | Dimension | Definición |
 |--- |--- |
 | **Acción** | Lista de cada acción (nombre de la **acción - etiqueta** de acción) utilizada en los viajes, por ejemplo: push - confirmación de salida, correo electrónico - fidelidad de las recompensas. |
-| **Fuente de datos** | Lista de fuentes de datos (nombre **de fuente de** datos) utilizadas para enriquecer datos en un viaje, por ejemplo Adobe Experience Platform, sistema de reservación. |
+| **Data source** | Lista de fuentes de datos (nombre **de fuente de** datos) utilizadas para enriquecer datos en un viaje, por ejemplo Adobe Experience Platform, sistema de reservación. |
 | **[!UICONTROL Event]** | Lista de todos los eventos (nombre del **evento - etiqueta** de evento) utilizados en viajes, por ejemplo, evento de Geometrixx - salida de Geometrixx. |
 | **Grupo de campos** | Lista de los grupos de campo (nombre **del grupo de** campo) utilizados para enriquecer los datos en los viajes, por ejemplo, el grupo de campo de Perfil, el sistema de reserva de Geometrixx. |
 | **Recorrido** | Lista de cada viaje (nombre **del** viaje) en modo de prueba y activo, por ejemplo, abandono del carro de compras, notificación de reserva de hoteles. |
@@ -98,7 +96,7 @@ La tabla siguiente le proporciona la lista de las métricas utilizadas en los in
 | **Tasa de lista de bloqueados** | Número total de mensajes en lista de bloqueados en comparación con los mensajes enviados. |
 | **Devoluciones + errores** | Total de errores acumulados durante el envío y el procesamiento de devolución automático en relación con el número total de mensajes enviados. |
 | **Devoluciones + tasa de error** | Número total de mensajes devueltos en comparación con los mensajes enviados. |
-| **Haga clic** | Número de veces que se hizo clic en un contenido en un envío. |
+| **Haga clic en** | Número de veces que se hizo clic en un contenido en un envío. |
 | **Tasa de pulsaciones** | Número total de clics en un envío en comparación con el número de mensajes enviados. |
 | **Entrega** | Número de mensajes enviados correctamente, en relación con el número total de mensajes enviados. |
 | **Tasa de entrega** | Número total de mensajes enviados correctamente en comparación con los mensajes enviados. |
