@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b8cfc9de56e879d8812cf3871067252937454e1d
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 7%
@@ -37,9 +35,9 @@ Los viajes envían datos a medida que se producen, de forma continua. Puede cons
 
 Se crean los siguientes esquemas:
 
-* esquema de Evento de Perfil de la etapa de viaje para [!DNL Journey Orchestration] - Eventos de experiencia para los pasos realizados en un viaje junto con un mapa de identidad que se utilizará para asignar a un participante de viaje individual.
-* esquema de Evento de paso de viaje para [!DNL Journey Orchestration] - evento de paso de viaje que está vinculado a los metadatos de viaje.
-* esquema de Viaje con Campos de Viaje para [!DNL Journey Orchestration] - Metadatos de Viaje para describir Viajes.
+* Esquema de Evento de Perfil de la etapa de viaje para [!DNL Journey Orchestration] - Eventos de experiencia para los pasos realizados en un viaje junto con un mapa de identidad que se utilizará para asignar a un participante de viaje individual.
+* Esquema de Evento de paso de viaje para [!DNL Journey Orchestration] : evento de paso de viaje que está vinculado a los metadatos de viaje.
+* Esquema de Viaje con Campos de Viaje para [!DNL Journey Orchestration] - Metadatos de Viaje para describir Viajes.
 
 ![](../assets/sharing1.png)
 
@@ -47,7 +45,7 @@ Se crean los siguientes esquemas:
 
 Se pasan los siguientes conjuntos de datos:
 
-* esquema de Evento del Perfil de la etapa de viaje para [!DNL Journey Orchestration]
+* Esquema de Evento del Perfil de la etapa de viaje para [!DNL Journey Orchestration]
 * Eventos de la etapa de viaje
 * Viajes
 
