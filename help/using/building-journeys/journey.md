@@ -1,6 +1,6 @@
 ---
 title: Acerca de la creación de un recorrido
-description: Como usuario de negocios, aprenda a combinar actividades de evento, orquestación y acción para construir un viaje.
+description: Como usuario empresarial, aprenda a combinar actividades de eventos, orquestación y acciones para construir un recorrido.
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 14%
+ht-degree: 18%
 
 ---
 
