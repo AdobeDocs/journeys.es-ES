@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: 65ff1003fdfec087e4e2030dd81df8dab6229495
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '444'
 ht-degree: 1%
 
 ---
@@ -31,12 +31,29 @@ Al hacer clic en la actividad de evento en el lienzo, se muestra el panel de con
 
 ![](../assets/journey33.png)
 
-## Uso avanzado: eventos con una espera en paralelo{#section_vxv_h25_pgb}
+## Escuchar eventos durante un tiempo específico
 
-**¿Cómo se puede escuchar un evento sólo durante un tiempo determinado?**
+Una actividad de evento situada en el viaje escucha eventos indefinidamente. Para escuchar un evento solo durante un tiempo determinado, debe configurar un tiempo de espera para el evento.
 
-Una actividad de evento situada en el viaje escucha eventos indefinidamente. Para escuchar un evento solo durante un tiempo determinado, debe agregar una actividad de espera paralela a la ruta de evento. El viaje escuchará el evento durante el tiempo especificado en la actividad de espera. Si se recibe un evento durante ese período, la persona fluirá por la ruta del evento. Si no es así, el cliente irá a la ruta de espera.
+El viaje escuchará el evento durante el tiempo especificado en el tiempo de espera. Si se recibe un evento durante ese período, la persona fluirá por la ruta del evento. Si no es así, el cliente pasará a una ruta de tiempo de espera o finalizará su viaje.
 
-Por ejemplo, se ha enviado una primera notificación push de bienvenida a un cliente y se desea enviar una notificación push de descuento solo si el cliente entra en el restaurante en las siguientes 6 horas. Para ello, se crea un segundo camino (paralelo al evento uno) con una actividad de espera de 6 horas. Si el evento del restaurante se recibe menos de 6 horas después de la entrada de bienvenida, se envía la actividad push de descuento por comida. Si no se recibe ningún evento en las siguientes 6 horas, la persona pasa por el camino de espera.
+Para configurar un tiempo de espera para un evento, siga estos pasos:
 
-![](../assets/journeyuc2_31.png)
+1. Active la **[!UICONTROL Enable the event timeout]** opción desde las propiedades de evento.
+
+1. Especifique la cantidad de tiempo que el viaje esperará para el evento.
+
+1. Si desea enviar a los individuos a una ruta de tiempo de espera cuando no se recibe ningún evento dentro del tiempo de espera especificado, habilite la **[!UICONTROL Set the timeout path]** opción. Si esta opción no está habilitada, el viaje finalizará para el individuo una vez que se alcance el tiempo de espera.
+
+   ![](../assets/event-timeout.png)
+
+En este ejemplo, el viaje envía un primer mensaje de bienvenida a un cliente. Luego envía un descuento por comida solamente si el cliente entra al restaurante en el día siguiente. Por lo tanto, configuramos el evento con un tiempo de espera de 1 día:
+
+* Si el evento del restaurante se recibe menos de 1 día después de la entrada de bienvenida, se envía la actividad de descuento por comida.
+* Si no se recibe ningún evento de restaurante en el día siguiente, la persona pasa por la ruta de tiempo de espera.
+
+Tenga en cuenta que si desea configurar un tiempo de espera en varios eventos posicionados después de una **[!UICONTROL Wait]** actividad, debe configurar el tiempo de espera solo en uno de estos eventos.
+
+El tiempo de espera se aplicará a todos los eventos colocados después de la **[!UICONTROL Wait]** actividad. Si no se recibe ningún evento después del tiempo de espera especificado, los individuos fluirán en una única ruta de tiempo de espera o finalizarán su viaje.
+
+![](../assets/event-timeout-group.png)
