@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: c7a4d67af88827dfc852a281a7877efb2853facf
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '420'
 ht-degree: 7%
 
 ---
@@ -21,6 +21,10 @@ ht-degree: 7%
 
 [!DNL Journey Orchestration] envía automáticamente datos de rendimiento del viaje al Adobe Experience Platform para que se puedan combinar con otros datos con fines de análisis.
 
+>[!NOTE]
+>
+>Esta función no se activa de forma predeterminada en todas las instancias recientemente implementadas. La activación está a petición.
+
 Por ejemplo, ha configurado un viaje que envía varios correos electrónicos. Esta capacidad le permite combinar [!DNL Journey Orchestration] datos con datos de eventos descendentes, como cuántas conversiones se produjeron, cuánta participación se produjo en el sitio web o cuántas transacciones se produjeron en el almacén. La información del viaje se puede combinar con los datos del Adobe Experience Platform, ya sea de otras propiedades digitales o de propiedades sin conexión, para ofrecer una vista más completa del rendimiento.
 
 [!DNL Journey Orchestration] crea automáticamente los esquemas y flujos necesarios en conjuntos de datos para el Adobe Experience Platform para cada paso que un individuo realiza en un viaje. Un evento de paso corresponde a un individuo que se mueve de un nodo a otro en un viaje. Por ejemplo, en un viaje que tiene un evento, una condición y una acción, se envían tres eventos a Adobe Experience Platform.
@@ -29,7 +33,7 @@ La lista de los campos XDM que se pasan es exhaustiva. Algunos contienen código
 
 >[!CAUTION]
 >
->Los conjuntos de datos no se pueden activar para el servicio de perfil en tiempo real. Asegúrese de que el **[!UICONTROL Profile]** alternador está desactivado
+>Los conjuntos de datos no se pueden activar para el servicio de perfil en tiempo real. Asegúrese de que la **[!UICONTROL Profile]** opción está desactivada.
 
 Los viajes envían datos a medida que se producen, de forma continua. Puede consulta de estos datos mediante el servicio de Consulta. Puede conectarse a Customer Journey Analytics u otras herramientas de BI para vista de datos relacionados con estos pasos.
 
