@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 44b2da66d6621b18b13ff99e46af02eddcaac6b1
+source-git-commit: 93da470ae878ec3dcf4fcb435dab86c8bf0419d4
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1035'
 ht-degree: 2%
 
 ---
@@ -38,10 +38,8 @@ La tabla siguiente le proporciona la lista de las dimensiones utilizadas en los 
 | **Acción** | Lista de cada acción (nombre de la **acción - etiqueta** de acción) utilizada en los viajes, por ejemplo: push - confirmación de salida, correo electrónico - fidelidad de las recompensas. |
 | **Fuente de datos** | Lista de fuentes de datos (nombre **de fuente de** datos) utilizadas para enriquecer datos en un viaje, por ejemplo Adobe Experience Platform, sistema de reservación. |
 | **[!UICONTROL Event]** | Lista de todos los eventos (nombre del **evento - etiqueta** de evento) utilizados en viajes, por ejemplo, evento de Geometrixx - salida de Geometrixx. |
-| **[!UICONTROL Event origin]** | Eventos de desglose por categorías: **[!UICONTROL Internal event]** y **[!UICONTROL External event]**. Para obtener más información, consulte esta [página](../building-journeys/jump.md). |
 | **Grupo de campos** | Lista de los grupos de campo (nombre **del grupo de** campo) utilizados para enriquecer los datos en los viajes, por ejemplo, el grupo de campo de Perfil, el sistema de reserva de Geometrixx. |
 | **Recorrido** | Lista de cada viaje (nombre **del** viaje) en modo de prueba y activo, por ejemplo, abandono del carro de compras, notificación de reserva de hoteles. |
-| **[!UICONTROL Journey origin]** | Desglose **[!UICONTROL Internal event]**&#39; por viajes. |
 | **Versión de viaje** | Lista de cada versión publicada de un viaje (nombre del **viaje + número** de versión), por ejemplo: abandono del carro v1, notificación de reserva del hotel v2. |
 | **Orquestación** | Lista de cada actividad de orquestación (**Condición, Fin, Espera**) definida y utilizada en los viajes. |
 
