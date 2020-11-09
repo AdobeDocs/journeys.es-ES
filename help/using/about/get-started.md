@@ -9,17 +9,17 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 38b555e19b9c3a0757962cbedbf3587e64f69add
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 100%
+source-wordcount: '322'
+ht-degree: 92%
 
 ---
 
 
 # Introducción{#concept_y4b_4qt_52b}
 
-En [!DNL Journey Orchestration], hay dos tipos de usuarios, cada uno de los cuales realiza tareas específicas: el **usuario técnico** y el **usuario empresarial**. El acceso de los usuarios se administra mediante perfiles y derechos del producto. Consulte [](../about/access-management.md) para obtener información sobre cómo configurar el acceso de los usuarios.
+En [!DNL Journey Orchestration], hay dos tipos de usuarios, cada uno de los cuales realiza tareas específicas: el **usuario técnico** y el **usuario empresarial**. El acceso de los usuarios se administra mediante perfiles y derechos del producto. Refer to [this page](../about/access-management.md) to learn how to configure user access.
 
 Estos son los pasos principales para configurar y utilizar [!DNL Journey Orchestration]:
 
@@ -27,7 +27,7 @@ Estos son los pasos principales para configurar y utilizar [!DNL Journey Orchest
 
    Debe definir la información esperada y cómo procesarla. Esta configuración es obligatoria. Este paso lo realiza un **usuario técnico**.
 
-   Para obtener más información, consulte [](../event/about-events.md).
+   Para obtener más información, consulte [esta página](../event/about-events.md).
 
    ![](../assets/journey7.png)
 
@@ -35,15 +35,15 @@ Estos son los pasos principales para configurar y utilizar [!DNL Journey Orchest
 
    Debe definir una conexión a un sistema para recuperar información adicional que se utilizará en los recorridos como, por ejemplo, en las condiciones. También se configura una fuente de datos integrada de Adobe Experience Platform en el momento del aprovisionamiento. Este paso no es necesario si solo se aprovechan los datos de los eventos durante el recorrido. Este paso lo realiza un **usuario técnico**.
 
-   Para obtener más información, consulte [](../datasource/about-data-sources.md).
+   Para obtener más información, consulte [esta página](../datasource/about-data-sources.md).
 
    ![](../assets/journey22.png)
 
 1. **Configuración de una acción**
 
-   Si usa un sistema de terceros para enviar mensajes, debe configurar su conexión con [!DNL Journey Orchestration]. Consulte [](../action/about-custom-action-configuration.md).
+   Si usa un sistema de terceros para enviar mensajes, debe configurar su conexión con [!DNL Journey Orchestration]. Consulte [esta página](../action/about-custom-action-configuration.md).
 
-   Si usa Adobe Campaign Standard para enviar mensajes, debe configurar la acción integrada. Consulte [](../action/working-with-adobe-campaign.md).
+   Si usa Adobe Campaign Standard para enviar mensajes, debe configurar la acción integrada. Consulte [esta página](../action/working-with-adobe-campaign.md).
 
    Estos pasos los realiza un **usuario técnico**.
 
@@ -53,7 +53,7 @@ Estos son los pasos principales para configurar y utilizar [!DNL Journey Orchest
 
    Combine las distintas actividades de evento, orquestación y acción para crear sus escenarios de canal cruzado de varios pasos. Este paso lo realiza un **usuario empresarial**.
 
-   Para obtener más información, consulte [](../building-journeys/journey.md).
+   Para obtener más información, consulte [esta página](../building-journeys/journey.md).
 
    ![](../assets/journeyuc2_24.png)
 
@@ -61,7 +61,7 @@ Estos son los pasos principales para configurar y utilizar [!DNL Journey Orchest
 
    Debe validar y activar el recorrido. Este paso lo realiza un **usuario empresarial**.
 
-   Para obtener más información, consulte [](../building-journeys/testing-the-journey.md) y [](../building-journeys/publishing-the-journey.md).
+   Para obtener más información sobre esto, consulte las páginas [Prueba del viaje](../building-journeys/testing-the-journey.md) y [Publicación del viaje](../building-journeys/publishing-the-journey.md).
 
    ![](../assets/journeyuc2_32bis.png)
 
@@ -69,7 +69,7 @@ Estos son los pasos principales para configurar y utilizar [!DNL Journey Orchest
 
    Utilice las herramientas de sistema de informes dedicadas para medir la eficacia de su recorrido. Este paso lo realiza un **usuario empresarial**.
 
-   Para obtener más información, consulte [](../reporting/about-journey-reports.md).
+   Para obtener más información, consulte [esta página](../reporting/about-journey-reports.md).
 
    ![](../assets/dynamic_report_journey_12.png)
 
