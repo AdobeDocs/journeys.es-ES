@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 43%
+source-wordcount: '395'
+ht-degree: 38%
 
 ---
 
@@ -30,7 +30,7 @@ El **usuario empresarial** ahora puede compilar el recorrido. Nuestro viaje sól
 >
 >Las actividades **[!UICONTROL Push]** y **[!UICONTROL Email]** solo están disponibles en la paleta si tiene Adobe Campaign Standard.
 
-Para obtener información adicional sobre cómo construir un recorrido, consulte [](../building-journeys/journey.md).
+For additional information on how to build a journey, refer to [this page](../building-journeys/journey.md).
 
 1. En el menú superior, haga clic en la pestaña **[!UICONTROL Home]** y **[!UICONTROL Create]** para crear un nuevo recorrido.
 
@@ -72,7 +72,7 @@ Para obtener información adicional sobre cómo construir un recorrido, consulte
 
    ![](../assets/journeyuc1_17.png)
 
-1. Haga clic en el **[!UICONTROL Test]** botón de alternancia y pruebe el viaje con perfiles de prueba. Si hay algún error, desactive el modo de prueba, modifique el recorrido y pruebe de nuevo. Para obtener más información sobre el modo de prueba, consulte [](../building-journeys/testing-the-journey.md).
+1. Haga clic en el **[!UICONTROL Test]** botón de alternancia y pruebe el viaje con perfiles de prueba. Si hay algún error, desactive el modo de prueba, modifique el recorrido y pruebe de nuevo. For more information on the test mode, refer to [this page](../building-journeys/testing-the-journey.md).
 
    ![](../assets/journeyuc1_18bis.png)
 
