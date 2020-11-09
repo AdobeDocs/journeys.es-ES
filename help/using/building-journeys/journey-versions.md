@@ -9,17 +9,17 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 09bebf62cda32e357f5f8b795e6702a69edb83a7
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 2%
+source-wordcount: '233'
+ht-degree: 3%
 
 ---
 
 
 # Versiones de Journey{#concept_ldc_k55_zgb}
 
-En la lista del viaje, todas las versiones del viaje se muestran con el número de versión. Consulte [](../building-journeys/using-the-journey-designer.md). Al buscar un viaje, las versiones más recientes aparecen en la parte superior de la lista la primera vez que se abre la aplicación. A continuación, puede definir la clasificación que desee y la aplicación la mantendrá como una preferencia del usuario. La versión del viaje también se muestra en la parte superior de la interfaz de edición del viaje, encima del lienzo.
+En la lista del viaje, todas las versiones del viaje se muestran con el número de versión. Consulte [esta página](../building-journeys/using-the-journey-designer.md). Al buscar un viaje, las versiones más recientes aparecen en la parte superior de la lista la primera vez que se abre la aplicación. A continuación, puede definir la clasificación que desee y la aplicación la mantendrá como una preferencia del usuario. La versión del viaje también se muestra en la parte superior de la interfaz de edición del viaje, encima del lienzo.
 
 ![](../assets/journeyversions1.png)
 
