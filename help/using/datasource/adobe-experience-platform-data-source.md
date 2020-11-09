@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 10%
+source-wordcount: '356'
+ht-degree: 11%
 
 ---
 
@@ -25,9 +25,9 @@ El origen de datos de Adobe Experience Platform define la conexión al servicio 
 >
 >Puede recuperar los 1000 últimos eventos de experiencia creados hace menos de un año.
 
-Para permitir la conexión al servicio de Perfil de clientes en tiempo real, debemos utilizar una clave para identificar a una persona y una Área de nombres que contextualice la clave. Como resultado, solo puede utilizar esta fuente de datos si su inicio de viajes contiene un evento que contiene una clave y una Área de nombres. Consulte [](../building-journeys/journey.md).
+Para permitir la conexión al servicio de Perfil de clientes en tiempo real, debemos utilizar una clave para identificar a una persona y una Área de nombres que contextualice la clave. Como resultado, solo puede utilizar esta fuente de datos si su inicio de viajes contiene un evento que contiene una clave y una Área de nombres. Consulte [esta página](../building-journeys/journey.md).
 
-Puede editar el grupo de campos preconfigurado llamado &quot;ProfileFieldGroup&quot;, agregar otros nuevos y eliminar los que no se utilizan en ningún borrador o en los viajes activos. Consulte [](../datasource/field-groups.md).
+Puede editar el grupo de campos preconfigurado llamado &quot;ProfileFieldGroup&quot;, agregar otros nuevos y eliminar los que no se utilizan en ningún borrador o en los viajes activos. Consulte [esta página](../datasource/field-groups.md).
 
 Estos son los pasos principales para agregar grupos de campos al origen de datos integrado.
 
@@ -37,7 +37,7 @@ Estos son los pasos principales para agregar grupos de campos al origen de datos
 
    ![](../assets/journey23.png)
 
-1. Haga clic en **[!UICONTROL Add a New Field Group]** para definir una nueva serie de campos para recuperar. Consulte [](../datasource/field-groups.md).
+1. Haga clic en **[!UICONTROL Add a New Field Group]** para definir una nueva serie de campos para recuperar. Consulte [esta página](../datasource/field-groups.md).
 
    ![](../assets/journey24.png)
 
