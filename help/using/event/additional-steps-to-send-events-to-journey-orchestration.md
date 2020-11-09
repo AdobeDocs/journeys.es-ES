@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 6%
+source-wordcount: '323'
+ht-degree: 7%
 
 ---
 
@@ -22,12 +22,12 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->Al crear un evento, [!DNL Journey Orchestration] genera automáticamente un ID para este evento. El sistema que empuja el evento no debe generar un ID, debe utilizar el disponible en la previsualización de carga útil. Consulte [](../event/previewing-the-payload.md).
+>Al crear un evento, [!DNL Journey Orchestration] genera automáticamente un ID para este evento. El sistema que empuja el evento no debe generar un ID, debe utilizar el disponible en la previsualización de carga útil. Consulte [esta página](../event/previewing-the-payload.md).
 
 Para configurar los eventos que se enviarán **[!UICONTROL Streaming Ingestion APIs]** y se utilizarán en [!DNL Journey Orchestration], debe seguir estos pasos:
 
 1. Obtenga la URL de entrada de las API de Adobe Experience Platform (consulte API de [inserción de flujo](https://docs.adobe.com/content/help/es-ES/experience-platform/ingestion/streaming/overview.html)).
-1. Copie la carga útil de la previsualización de carga útil en el **[!UICONTROL Event]** menú. Consulte [](../event/defining-the-payload-fields.md).
+1. Copie la carga útil de la previsualización de carga útil en el **[!UICONTROL Event]** menú. Consulte [esta página](../event/defining-the-payload-fields.md).
 
 A continuación, debe configurar el sistema de datos que envía eventos a las API de inserción de flujo mediante la carga útil copiada:
 
