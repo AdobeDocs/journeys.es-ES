@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 2%
+source-wordcount: '433'
+ht-degree: 4%
 
 ---
 
@@ -63,7 +63,7 @@ Se puede asociar un valor predeterminado al nombre de un campo. La sintaxis es l
 
 **Referencia de un campo en colecciones**
 
-Se hace referencia a los elementos definidos dentro de las colecciones mediante las funciones específicas: todo, primero y último. For more information, see [](../expression/collection-management-functions.md).
+Se hace referencia a los elementos definidos dentro de las colecciones mediante las funciones específicas: todo, primero y último. Para obtener más información, consulte [esta página](../expression/collection-management-functions.md).
 
 Ejemplo :
 
@@ -73,17 +73,17 @@ Ejemplo :
 
 **Referencia de un campo definido en un mapa**
 
-Para recuperar un elemento en un mapa, utilizamos la función de entrada con una clave determinada. Por ejemplo, se utiliza al definir la clave de un evento, según la Área de nombres seleccionada. Consulte Selección de la Área de nombres. For more information, see [](../event/selecting-the-namespace.md).
+Para recuperar un elemento en un mapa, utilizamos la función de entrada con una clave determinada. Por ejemplo, se utiliza al definir la clave de un evento, según la Área de nombres seleccionada. Consulte Selección de la Área de nombres. For more information, see [this page](../event/selecting-the-namespace.md).
 
 ```
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-En esta expresión, obtenemos la entrada para la clave de ‘Correo electrónico’ del campo ‘Mapa de identidad’ de un evento. La entrada ‘Correo electrónico’ es una colección, de la cual tomamos el ‘id’ en el primer elemento usando ‘first()’. For more information, see [](../expression/collection-management-functions.md).
+En esta expresión, obtenemos la entrada para la clave de ‘Correo electrónico’ del campo ‘Mapa de identidad’ de un evento. La entrada ‘Correo electrónico’ es una colección, de la cual tomamos el ‘id’ en el primer elemento usando ‘first()’. For more information, see [this page](../expression/collection-management-functions.md).
 
 **Valores de parámetro de una fuente de datos (valores dinámicos de la fuente de datos)**
 
-Si selecciona un campo de un origen de datos externo que requiere que se llame a un parámetro, aparece una nueva ficha a la derecha para permitirle especificar este parámetro. Consulte [](../expression/expressionadvanced.md).
+Si selecciona un campo de un origen de datos externo que requiere que se llame a un parámetro, aparece una nueva ficha a la derecha para permitirle especificar este parámetro. Consulte [esta página](../expression/expressionadvanced.md).
 
 For more complex use cases, if you want to include the parameters of the data source in the main expression, you can define their values using the keyword _params_. Un parámetro puede ser cualquier expresión válida, incluso desde otra fuente de datos que también incluya otro parámetro.
 
