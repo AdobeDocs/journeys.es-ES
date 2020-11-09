@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 4%
+source-wordcount: '899'
+ht-degree: 5%
 
 ---
 
@@ -23,9 +23,9 @@ Si tiene Adobe Campaign Standard, están disponibles las siguientes actividades 
 
 >[!NOTE]
 >
->Para ello, debe configurar la acción integrada. Consulte [](../action/working-with-adobe-campaign.md).
+>Para ello, debe configurar la acción integrada. Consulte [esta página](../action/working-with-adobe-campaign.md).
 
-Para cada uno de estos canales, seleccione una **plantilla** de Adobe Campaign Standard Transactional Messaging. De hecho, no [!DNL Journey Orchestration] es una solución de envío de mensajes. Para los canales integrados de correo electrónico, SMS y push, confiamos en la mensajería transaccional para ejecutar el envío de mensajes. Significa que si desea utilizar una plantilla de mensaje determinada en sus viajes, debe publicarla en Adobe Campaign Standard. Consulte esta [página](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.translate.html) para obtener información sobre cómo utilizar esta función.
+Para cada uno de estos canales, seleccione una **plantilla** de Adobe Campaign Standard Transactional Messaging. De hecho, no [!DNL Journey Orchestration] es una solución de envío de mensajes. Para los canales integrados de correo electrónico, SMS y push, confiamos en la mensajería transaccional para ejecutar el envío de mensajes. Significa que si desea utilizar una plantilla de mensaje determinada en sus viajes, debe publicarla en Adobe Campaign Standard. Consulte [esta página](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.translate.html) para obtener información sobre cómo utilizar esta función.
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ Puede utilizar una plantilla de mensajería transaccional de evento (también co
 >
 >Cuando enviamos mensajes transaccionales en tiempo real (rtEvent) o cuando enrutamos mensajes con un sistema de terceros gracias a una acción personalizada, se requiere una configuración específica para la fatiga, la lista de bloqueados o la administración baja. Por ejemplo, si se almacena un atributo de &quot;cancelación de suscripción&quot; en el Adobe Experience Platform o en un sistema de terceros, deberá agregarse una condición antes de que se envíe el mensaje para comprobar esta condición.
 
-Cuando selecciona una plantilla, todos los campos esperados en la carga útil del mensaje se muestran en el panel de configuración de actividad debajo **[!UICONTROL Address]** y **[!UICONTROL Personalization Data]**. Debe asignar cada uno de estos campos al campo que desee utilizar, ya sea desde el evento o desde el origen de datos. También puede utilizar el editor de expresiones avanzado para pasar un valor manualmente, realizar una manipulación de datos en la información recuperada (por ejemplo, convertir una cadena en mayúsculas) o utilizar funciones como &quot;if, then, else&quot;. Consulte [](../expression/expressionadvanced.md).
+Cuando selecciona una plantilla, todos los campos esperados en la carga útil del mensaje se muestran en el panel de configuración de actividad debajo **[!UICONTROL Address]** y **[!UICONTROL Personalization Data]**. Debe asignar cada uno de estos campos al campo que desee utilizar, ya sea desde el evento o desde el origen de datos. También puede utilizar el editor de expresiones avanzado para pasar un valor manualmente, realizar una manipulación de datos en la información recuperada (por ejemplo, convertir una cadena en mayúsculas) o utilizar funciones como &quot;if, then, else&quot;. Consulte [esta página](../expression/expressionadvanced.md).
 
 ![](../assets/journey60.png)
 
@@ -51,11 +51,11 @@ Para **[!UICONTROL Email]** y **[!UICONTROL SMS]**, los parámetros son idéntic
 >
 >En el caso del correo electrónico, si utiliza una plantilla transaccional de perfiles, el Campaign Standard administra el mecanismo baja de forma predeterminada. Simplemente agregue un bloque de **[!UICONTROL Unsubscription link]** contenido en la plantilla ([más](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.translate.html)información). Si está utilizando una plantilla basada en evento (rtEvent), debe agregar, en el mensaje, un vínculo que pase el correo electrónico de la persona en el parámetro de URL y señale a una página de aterrizaje baja. Debe crear esta página de aterrizaje y asegurarse de que la decisión de la persona de cancelar la suscripción se transmite al Adobe.
 
-Primero, debe elegir una plantilla de mensajería transaccional. Consulte [](../building-journeys/about-action-activities.md).
+Primero, debe elegir una plantilla de mensajería transaccional. Consulte [esta página](../building-journeys/about-action-activities.md).
 
 Hay dos categorías disponibles: **[!UICONTROL Address]** y **[!UICONTROL Personalization Data]**.
 
-Puede definir fácilmente dónde recuperar el **[!UICONTROL Address]** o el **[!UICONTROL Personalization Data]** mediante la interfaz. Puede navegar por los eventos y los campos del origen de datos disponibles. También puede utilizar el editor de expresiones avanzado para casos de uso más avanzados, como el uso de un origen de datos que requiera pasar parámetros o realizar manipulaciones. Consulte [](../expression/expressionadvanced.md).
+Puede definir fácilmente dónde recuperar el **[!UICONTROL Address]** o el **[!UICONTROL Personalization Data]** mediante la interfaz. Puede navegar por los eventos y los campos del origen de datos disponibles. También puede utilizar el editor de expresiones avanzado para casos de uso más avanzados, como el uso de un origen de datos que requiera pasar parámetros o realizar manipulaciones. Consulte [esta página](../expression/expressionadvanced.md).
 
 **[!UICONTROL Address]**
 
@@ -81,7 +81,7 @@ Estos son los campos esperados por el mensaje de Adobe Campaign Standard. Estos 
 
 Antes de utilizar la actividad push, la aplicación móvil debe configurarse junto con el Campaign Standard para enviar notificaciones push. Utilice este [artículo](https://helpx.adobe.com/es/campaign/kb/integrate-mobile-sdk.html) para realizar los pasos de implementación necesarios para dispositivos móviles.
 
-En primer lugar, debe elegir una aplicación móvil en la lista desplegable y un mensaje transaccional. Consulte [](../building-journeys/about-action-activities.md).
+En primer lugar, debe elegir una aplicación móvil en la lista desplegable y un mensaje transaccional. Consulte [esta página](../building-journeys/about-action-activities.md).
 
 ![](../assets/journey62bis.png)
 
