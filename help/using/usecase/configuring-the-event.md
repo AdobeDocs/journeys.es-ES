@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 9%
+source-wordcount: '357'
+ht-degree: 8%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 9%
 
 En nuestro escenario, necesitamos recibir un evento cada vez que una persona camina cerca de una señalización situada al lado del spa. El usuario **** técnico necesita configurar el evento que el sistema escuchará en nuestro viaje.
 
-Para obtener información adicional sobre la configuración de evento, consulte [](../event/about-events.md).
+For additional information on event configuration, refer to [this page](../event/about-events.md).
 
 1. In the top menu, click the **[!UICONTROL Events]** tab and click **[!UICONTROL Add]** to create a new event.
 
@@ -39,7 +39,7 @@ Para obtener información adicional sobre la configuración de evento, consulte 
    >
    >La lista de los campos varía de un esquema a otro. Según la definición de esquema, algunos campos pueden ser obligatorios y estar preseleccionados.
 
-1. Necesitamos seleccionar un área de nombres. Un área de nombres está preseleccionada en función de las propiedades de esquema. Puede mantener la preseleccionada. Para obtener más información sobre áreas de nombres, consulte [](../event/selecting-the-namespace.md).
+1. Necesitamos seleccionar un área de nombres. Un área de nombres está preseleccionada en función de las propiedades de esquema. Puede mantener la preseleccionada. For more information on namespaces, see [this page](../event/selecting-the-namespace.md).
 
    ![](../assets/journeyuc1_6.png)
 
@@ -53,4 +53,4 @@ Para obtener información adicional sobre la configuración de evento, consulte 
 
    ![](../assets/journeyuc1_7.png)
 
-   El evento está listo para ser utilizado en su viaje. Ahora debe configurar la aplicación móvil para que pueda enviar la carga útil esperada al extremo de las API de inserción de flujo. Consulte [](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+   El evento está listo para ser utilizado en su viaje. Ahora debe configurar la aplicación móvil para que pueda enviar la carga útil esperada al extremo de las API de inserción de flujo. Consulte [esta página](../event/additional-steps-to-send-events-to-journey-orchestration.md).
