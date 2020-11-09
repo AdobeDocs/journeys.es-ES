@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 8%
+source-wordcount: '396'
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 8%
 
 En nuestro escenario, necesitamos recibir un evento cada vez que una persona entre al hotel Marlton y al restaurante. El usuario **** técnico necesita configurar los dos eventos que queremos que el sistema escuche en nuestro viaje.
 
-Para obtener información adicional sobre la configuración de evento, consulte [](../event/about-events.md).
+For additional information on event configuration, refer to [this page](../event/about-events.md).
 
 1. In the top menu, click the **[!UICONTROL Events]** tab and click **[!UICONTROL Add]** to create a new event.
 
@@ -43,7 +43,7 @@ Para obtener información adicional sobre la configuración de evento, consulte 
    >
    >La lista de los campos varía de un esquema a otro. Según la definición de esquema, algunos campos pueden ser obligatorios y estar preseleccionados.
 
-1. Necesitamos seleccionar un área de nombres. Un área de nombres está preseleccionada en función de las propiedades de esquema. Puede mantener la preseleccionada. Para obtener más información sobre áreas de nombres, consulte [](../event/selecting-the-namespace.md).
+1. Necesitamos seleccionar un área de nombres. Un área de nombres está preseleccionada en función de las propiedades de esquema. Puede mantener la preseleccionada. For more information on namespaces, see [this page](../event/selecting-the-namespace.md).
 
    ![](../assets/journeyuc2_4.png)
 
@@ -57,4 +57,4 @@ Para obtener información adicional sobre la configuración de evento, consulte 
 
    ![](../assets/journeyuc2_5.png)
 
-Del mismo modo, crea el evento &quot;RestaurantBeacon&quot;. Sus dos eventos de señalización se crean y ahora se pueden utilizar en nuestro viaje. Ahora debe configurar la aplicación móvil para que pueda enviar la carga útil esperada al extremo de las API de inserción de flujo. Consulte [](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+Del mismo modo, crea el evento &quot;RestaurantBeacon&quot;. Sus dos eventos de señalización se crean y ahora se pueden utilizar en nuestro viaje. Ahora debe configurar la aplicación móvil para que pueda enviar la carga útil esperada al extremo de las API de inserción de flujo. Consulte [esta página](../event/additional-steps-to-send-events-to-journey-orchestration.md).
