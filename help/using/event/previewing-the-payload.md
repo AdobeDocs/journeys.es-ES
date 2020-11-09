@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 6%
+source-wordcount: '110'
+ht-degree: 8%
 
 ---
 
@@ -36,4 +36,4 @@ La previsualización de carga útil permite validar la definición de carga úti
 
 1. Compruebe la previsualización para validar la definición de carga útil.
 
-1. A continuación, puede compartir la previsualización de carga útil con la persona responsable del envío del evento. Esta carga útil puede ayudarle a diseñar la configuración de un evento que se empuja hacia [!DNL Journey Orchestration]. Consulte [](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+1. A continuación, puede compartir la previsualización de carga útil con la persona responsable del envío del evento. Esta carga útil puede ayudarle a diseñar la configuración de un evento que se empuja hacia [!DNL Journey Orchestration]. Consulte [esta página](../event/additional-steps-to-send-events-to-journey-orchestration.md).
