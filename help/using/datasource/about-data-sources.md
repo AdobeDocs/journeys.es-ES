@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 100%
+source-wordcount: '370'
+ht-degree: 88%
 
 ---
 
@@ -35,10 +35,10 @@ Esta configuración no es necesaria si los recorridos solo aprovechan los datos 
 
 Existen dos tipos de fuentes de datos:
 
-* Fuente de datos preconfigurada de Adobe Experience Platform que define la conexión al servicio perfil de cliente en tiempo real. Constituye una fuente de datos integrada. Consulte [](../datasource/adobe-experience-platform-data-source.md).
-* Las fuentes de datos externas que permiten definir una conexión con sistemas externos. Estos son los que puede crear. Consulte [](../datasource/external-data-sources.md).
+* Fuente de datos preconfigurada de Adobe Experience Platform que define la conexión al servicio perfil de cliente en tiempo real. Constituye una fuente de datos integrada. Consulte [esta página](../datasource/adobe-experience-platform-data-source.md).
+* Las fuentes de datos externas que permiten definir una conexión con sistemas externos. Estos son los que puede crear. Consulte [esta página](../datasource/external-data-sources.md).
 
-Para cada fuente de datos, se define la información que se recuperará mediante grupos de campos. Los grupos de campos son conjuntos de campos que se pueden recuperar desde una fuente de datos. Consulte [](../datasource/field-groups.md).
+Para cada fuente de datos, se define la información que se recuperará mediante grupos de campos. Los grupos de campos son conjuntos de campos que se pueden recuperar desde una fuente de datos. Consulte [esta página](../datasource/field-groups.md).
 
 Para obtener más información sobre cómo configurar una fuente de datos de Adobe Experience Platform y una fuente de datos externa, y cómo buscar y usar los datos en un recorrido, vea este [vídeo tutorial](https://docs.adobe.com/content/help/es-ES/journey-orchestration-learn/tutorials/configure-data-sources.html).
 
@@ -50,11 +50,11 @@ Estos son los pasos principales de la configuración de la fuente de datos:
 
 1. En el menú superior, haga clic en la pestaña **[!UICONTROL Data Sources]**.
 
-   Se muestra la lista de las fuentes de datos. Consulte [](../about/user-interface.md) para obtener más información sobre la interfaz.
+   Se muestra la lista de las fuentes de datos. See [this page](../about/user-interface.md) for more information on the interface.
 
    ![](../assets/journey18.png)
 
-1. A continuación, puede agregar grupos de campos a la fuente de datos integrada (consulte [](../datasource/adobe-experience-platform-data-source.md)) o crear una nueva fuente de datos externa (consulte [](../datasource/external-data-sources.md)) y grupos de campos asociados (consulte [](../datasource/field-groups.md)).
+1. Then you can either add field groups to the built-in data source (see [this page](../datasource/adobe-experience-platform-data-source.md)) or create a new external data source (see [this page](../datasource/external-data-sources.md)) and associated field groups (see [this page](../datasource/field-groups.md)).
 
    ![](../assets/journey23.png)
 
