@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1347'
 ht-degree: 3%
 
 ---
@@ -19,13 +19,13 @@ ht-degree: 3%
 
 # Prueba del recorrido{#testing_the_journey}
 
-Antes de poder probar el viaje, debe resolver todos los errores, si los hay. Consulte [](../about/troubleshooting.md#section_h3q_kqk_fhb).
+Antes de poder probar el viaje, debe resolver todos los errores, si los hay. Consulte [esta sección](../about/troubleshooting.md#section_h3q_kqk_fhb).
 
 Usted tiene la posibilidad de probar su viaje antes de su publicación, utilizando perfiles de prueba. Esto le permite analizar cómo fluyen los individuos en el viaje y solucionar los problemas antes de la publicación.
 
 Para utilizar el modo de prueba, siga estos pasos:
 
-1. Antes de probar el viaje, verifique que sea válido y que no haya ningún error. No podrá iniciar una prueba de un viaje con errores. Consulte [](../about/troubleshooting.md#section_h3q_kqk_fhb). Se muestra un símbolo de advertencia cuando hay errores.
+1. Antes de probar el viaje, verifique que sea válido y que no haya ningún error. No podrá iniciar una prueba de un viaje con errores. Consulte [esta sección](../about/troubleshooting.md#section_h3q_kqk_fhb). Se muestra un símbolo de advertencia cuando hay errores.
 
 1. Para activar el modo de prueba, haga clic en el **[!UICONTROL Test]** botón de alternancia, situado en la esquina superior derecha.
 
@@ -43,12 +43,12 @@ Para utilizar el modo de prueba, siga estos pasos:
 
    ![](../assets/journeyuctest2.png)
 
-1. Si hay algún error, desactive el modo de prueba, modifique el recorrido y pruebe de nuevo. Cuando la prueba sea concluyente, puede publicar el viaje. Consulte [](../building-journeys/publishing-the-journey.md).
+1. Si hay algún error, desactive el modo de prueba, modifique el recorrido y pruebe de nuevo. Cuando la prueba sea concluyente, puede publicar el viaje. Consulte [esta página](../building-journeys/publishing-the-journey.md).
 
 ## Notas importantes {#important_notes}
 
 * Se proporciona una interfaz para activar eventos en el viaje probado, pero también se pueden enviar eventos mediante sistemas de terceros como Postman.
-* Sólo los individuos marcados como &quot;perfiles de prueba&quot; en el servicio de Perfil de clientes en tiempo real podrán participar en el viaje comprobado. Consulte [](../building-journeys/testing-the-journey.md#create-test-profile).
+* Sólo los individuos marcados como &quot;perfiles de prueba&quot; en el servicio de Perfil de clientes en tiempo real podrán participar en el viaje comprobado. Consulte [esta sección](../building-journeys/testing-the-journey.md#create-test-profile).
 * El modo de prueba solo está disponible en los desplazamientos de borrador que utilizan una Área de nombres. El modo de prueba debe comprobar si una persona que entra en el viaje es un perfil de prueba o no y, por lo tanto, debe poder llegar al Adobe Experience Platform.
 * El número máximo de perfiles de prueba que pueden entrar en un viaje durante una sesión de prueba es de 100.
 * Al desactivar el modo de prueba, se vacía el trayecto de todas las personas que lo hayan introducido en el pasado o que se encuentren en él. También borra el sistema de informes.
