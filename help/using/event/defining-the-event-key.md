@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 4%
+source-wordcount: '399'
+ht-degree: 5%
 
 ---
 
@@ -39,7 +39,7 @@ Si necesita utilizar una clave diferente, como un ID de CRM o una dirección de 
 
    ![](../assets/journey20.png)
 
-Cuando se recibe el evento, el valor de la clave permitirá al sistema identificar a la persona asociada al evento. Asociada a una Área de nombres (véase [](../event/selecting-the-namespace.md)), la clave se puede utilizar para realizar consultas en el Adobe Experience Platform. Consulte [](../building-journeys/about-orchestration-activities.md).
+Cuando se recibe el evento, el valor de la clave permitirá al sistema identificar a la persona asociada al evento. Asociada a una Área de nombres (consulte [esta página](../event/selecting-the-namespace.md)), la clave puede utilizarse para realizar consultas en el Adobe Experience Platform. Consulte [esta página](../building-journeys/about-orchestration-activities.md).
 La llave también se utiliza para comprobar que una persona está en un viaje. De hecho, una persona no puede estar en dos lugares diferentes en el mismo viaje. Como resultado, el sistema no permite que la misma clave, por ejemplo la clave CRMID=3224, esté en diferentes lugares en el mismo viaje.
 
-También tiene acceso a las funciones de expresión avanzadas (**[!UICONTROL Advanced mode]**) si desea realizar manipulaciones adicionales. Estas funciones le permiten manipular los valores utilizados para llevar a cabo consultas específicas, como cambiar los formatos, realizar concatenaciones de campo, teniendo en cuenta sólo una parte de un campo (por ejemplo, los 10 primeros caracteres). Consulte [](../expression/expressionadvanced.md).
+También tiene acceso a las funciones de expresión avanzadas (**[!UICONTROL Advanced mode]**) si desea realizar manipulaciones adicionales. Estas funciones le permiten manipular los valores utilizados para llevar a cabo consultas específicas, como cambiar los formatos, realizar concatenaciones de campo, teniendo en cuenta sólo una parte de un campo (por ejemplo, los 10 primeros caracteres). Consulte [esta página](../expression/expressionadvanced.md).
