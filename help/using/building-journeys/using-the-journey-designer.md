@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1354'
 ht-degree: 5%
 
 ---
@@ -29,7 +29,7 @@ Se puede acceder a **[!UICONTROL Filters]** haciendo clic en el icono de filtro 
 
 ![](../assets/journey74.png)
 
-Todas las versiones de sus viajes aparecen en la lista con el número de versión. Consulte [](../building-journeys/journey-versions.md).
+Todas las versiones de sus viajes aparecen en la lista con el número de versión. Consulte [esta página](../building-journeys/journey-versions.md).
 
 ![](../assets/journey37.png)
 
@@ -55,7 +55,7 @@ Al utilizar el **[!UICONTROL Search]** campo, se muestra el número de resultado
 
 ## El lienzo {#canvas}
 
-El **lienzo** es la zona central del diseñador de viajes. Es en esta zona donde puede soltar sus actividades y configurarlas. Haga clic en una actividad del lienzo para configurarla. Esto abre el panel de configuración de actividad en el lado derecho. Puede acercar y alejar con los botones &quot;+&quot; y &quot;-&quot; de la parte superior derecha. En el lienzo, todas las actividades permiten agregar un paso siguiente después de ellas, excepto **[!UICONTROL End]** actividades (ver [](../building-journeys/end-activity.md)).
+El **lienzo** es la zona central del diseñador de viajes. Es en esta zona donde puede soltar sus actividades y configurarlas. Haga clic en una actividad del lienzo para configurarla. Esto abre el panel de configuración de actividad en el lado derecho. Puede acercar y alejar con los botones &quot;+&quot; y &quot;-&quot; de la parte superior derecha. En el lienzo, todas las actividades permiten agregar un paso siguiente después de ellas, excepto **[!UICONTROL End]** actividades (consulte [esta página](../building-journeys/end-activity.md)).
 
 ![](../assets/journey39.png)
 
@@ -69,19 +69,19 @@ En el lienzo, las actividades de acción y evento se representan con un icono co
 
 ## Acciones de la barra superior {#top_actions}
 
-Según el estado del viaje, puede realizar diferentes acciones en el viaje con los botones disponibles en la esquina superior derecha: **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**. Estos botones aparecen cuando no hay ninguna actividad seleccionada. Algunos botones aparecerán contextualmente. El botón de registro del modo de prueba aparece cuando se activa el modo de prueba (consulte [](../building-journeys/testing-the-journey.md)). El botón de sistema de informes aparece cuando el viaje está activo, detenido o cerrado.
+Según el estado del viaje, puede realizar diferentes acciones en el viaje con los botones disponibles en la esquina superior derecha: **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**. Estos botones aparecen cuando no hay ninguna actividad seleccionada. Algunos botones aparecerán contextualmente. El botón de registro del modo de prueba aparece cuando se activa el modo de prueba (consulte [esta página](../building-journeys/testing-the-journey.md)). El botón de sistema de informes aparece cuando el viaje está activo, detenido o cerrado.
 
 ![](../assets/journey41.png)
 
 ## Uso de rutas en el lienzo {#paths}
 
-Varias actividades (**[!UICONTROL Condition]**, **[!UICONTROL Action]** actividades) permiten definir una acción de reserva en caso de error o de tiempo de espera. En el panel de configuración de actividad, marque la casilla: **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Se agrega otra ruta después de la actividad. La duración del tiempo de espera se define en las propiedades del viaje (consulte [](../building-journeys/changing-properties.md) por un usuario administrador. Por ejemplo, si un correo electrónico tarda demasiado en enviarse o se produce un error, puede decidir enviar un mensaje de texto.
+Varias actividades (**[!UICONTROL Condition]**, **[!UICONTROL Action]** actividades) permiten definir una acción de reserva en caso de error o de tiempo de espera. En el panel de configuración de actividad, marque la casilla: **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Se agrega otra ruta después de la actividad. La duración del tiempo de espera se define en las propiedades del viaje (consulte [esta página](../building-journeys/changing-properties.md) por un usuario administrador. Por ejemplo, si un correo electrónico tarda demasiado en enviarse o se produce un error, puede decidir enviar un mensaje de texto.
 
 ![](../assets/journey42.png)
 
 Varias actividades (evento, acción, espera) permiten agregar varias rutas después de ellas. Para ello, coloque el cursor en la actividad y haga clic en el símbolo &quot;+&quot;. Solo se pueden establecer actividades de evento y espera en paralelo. Si se configuran varios eventos en paralelo, la ruta elegida será la del primer evento que se produzca.
 
-Al escuchar un evento, le recomendamos que no espere indefinidamente al evento. No es obligatorio, sino una práctica recomendada. Si desea escuchar uno o varios eventos solo durante un tiempo determinado, colocará uno o varios eventos y una actividad de espera en paralelo. Consulte [](../building-journeys/event-activities.md#section_vxv_h25_pgb).
+Al escuchar un evento, le recomendamos que no espere indefinidamente al evento. No es obligatorio, sino una práctica recomendada. Si desea escuchar uno o varios eventos solo durante un tiempo determinado, colocará uno o varios eventos y una actividad de espera en paralelo. Consulte [esta sección](../building-journeys/event-activities.md#section_vxv_h25_pgb).
 
 Para eliminar la ruta, coloque el cursor sobre ella y haga clic en el **[!UICONTROL Delete arrow]** icono .
 
