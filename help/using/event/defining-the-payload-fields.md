@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '279'
 ht-degree: 6%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 6%
 
 # Definición de los campos de carga útil {#concept_yrw_3qt_52b}
 
-La definición de carga útil le permite elegir la información que el sistema espera recibir del evento en su viaje y la clave para identificar qué persona está asociada al evento. La carga útil se basa en la definición del campo XDM del Experience Cloud. For more information on XDM, refer to this [page](https://docs.adobe.com/content/help/es-ES/experience-platform/xdm/home.html).
+La definición de carga útil le permite elegir la información que el sistema espera recibir del evento en su viaje y la clave para identificar qué persona está asociada al evento. La carga útil se basa en la definición del campo XDM del Experience Cloud. For more information on XDM, refer to [this page](https://docs.adobe.com/content/help/es-ES/experience-platform/xdm/home.html).
 
 1. Seleccione un esquema XDM en la lista y haga clic en el **[!UICONTROL Payload]** campo o en el **[!UICONTROL Edit]** icono.
 
@@ -33,13 +33,13 @@ La definición de carga útil le permite elegir la información que el sistema e
 
    ![](../assets/journey9.png)
 
-1. Seleccione los campos que espera recibir del evento. Estos son los campos que el usuario comercial aprovechará en el viaje. También deben incluir la clave que se utilizará para identificar a la persona asociada al evento (véase [](../event/defining-the-event-key.md)).
+1. Seleccione los campos que espera recibir del evento. Estos son los campos que el usuario comercial aprovechará en el viaje. También deben incluir la clave que se utilizará para identificar a la persona asociada al evento (consulte [esta página](../event/defining-the-event-key.md)).
 
    ![](../assets/journey10.png)
 
    >[!NOTE]
    >
-   >El **[!UICONTROL eventID]** campo se agrega automáticamente en la lista de los campos seleccionados para que [!DNL Journey Orchestration] pueda identificar el evento. El sistema que empuja el evento no debe generar un ID, debe utilizar el disponible en la previsualización de carga útil. Consulte [](../event/previewing-the-payload.md).
+   >El **[!UICONTROL eventID]** campo se agrega automáticamente en la lista de los campos seleccionados para que [!DNL Journey Orchestration] pueda identificar el evento. El sistema que empuja el evento no debe generar un ID, debe utilizar el disponible en la previsualización de carga útil. Consulte [esta página](../event/previewing-the-payload.md).
 
 1. Cuando haya terminado de seleccionar los campos necesarios, haga clic en **[!UICONTROL Save]** o presione **[!UICONTROL Enter]**.
 
