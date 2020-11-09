@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 8%
+source-wordcount: '743'
+ht-degree: 10%
 
 ---
 
@@ -56,14 +56,13 @@ Si utiliza el servicio [de segmentación de](https://docs.adobe.com/content/help
 
 >[!NOTE]
 >
->No puede realizar consultas en series temporales (por ejemplo, una lista de compras, clics anteriores en mensajes) con el editor simple. Para ello, deberá utilizar el editor avanzado. Consulte [](../expression/expressionadvanced.md).
+>No puede realizar consultas en series temporales (por ejemplo, una lista de compras, clics anteriores en mensajes) con el editor simple. Para ello, deberá utilizar el editor avanzado. Consulte [esta página](../expression/expressionadvanced.md).
 
-
-Cuando se produce un error en una acción o condición, se detiene el recorrido de un individuo. La única manera para continuar es marcar la casilla **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Consulte [](../building-journeys/using-the-journey-designer.md#paths).
+Cuando se produce un error en una acción o condición, se detiene el recorrido de un individuo. La única manera para continuar es marcar la casilla **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Consulte [esta sección](../building-journeys/using-the-journey-designer.md#paths).
 
 ## Condición de fuente de datos {#data_source_condition}
 
-Esto le permite definir una condición en función de los campos de los orígenes de datos o los eventos colocados anteriormente en el viaje. Para obtener información sobre cómo utilizar el editor de expresiones, consulte [](../expression/expressionadvanced.md). Con el editor de expresiones avanzado, puede configurar condiciones más avanzadas para manipular colecciones o utilizar orígenes de datos que requieran pasar parámetros. Consulte [](../datasource/external-data-sources.md).
+Esto le permite definir una condición en función de los campos de los orígenes de datos o los eventos colocados anteriormente en el viaje. Para obtener información sobre cómo utilizar el editor de expresiones, consulte [esta página](../expression/expressionadvanced.md). Con el editor de expresiones avanzado, puede configurar condiciones más avanzadas para manipular colecciones o utilizar orígenes de datos que requieran pasar parámetros. Consulte [esta página](../datasource/external-data-sources.md).
 
 ![](../assets/journey50.png)
 
@@ -73,7 +72,7 @@ Esto le permite realizar diferentes acciones según la hora del día y/o el día
 
 >[!NOTE]
 >
->El huso horario ya no es específico de una condición y ahora se define en el nivel de viaje en las propiedades del viaje. Consulte [](../building-journeys/timezone-management.md).
+>El huso horario ya no es específico de una condición y ahora se define en el nivel de viaje en las propiedades del viaje. Consulte [esta página](../building-journeys/timezone-management.md).
 
 ![](../assets/journey51.png)
 
@@ -85,7 +84,6 @@ Esta opción le permite dividir aleatoriamente la audiencia para definir una acc
 >
 >Tenga en cuenta que no hay ningún botón para agregar una ruta en la condición de división de porcentaje. El número de rutas dependerá del número de divisiones. En condiciones de división, no puede agregar una ruta para otros casos, ya que no puede suceder. Las personas siempre van a uno de los caminos divididos.
 
-
 ![](../assets/journey52.png)
 
 ## Condición de fecha {#date_condition}
@@ -94,6 +92,6 @@ Esto le permite definir un flujo diferente en función de la fecha. Por ejemplo,
 
 >[!NOTE]
 >
->El huso horario ya no es específico de una condición y ahora se define en el nivel de viaje en las propiedades del viaje. Consulte [](../building-journeys/timezone-management.md).
+>El huso horario ya no es específico de una condición y ahora se define en el nivel de viaje en las propiedades del viaje. Consulte [esta página](../building-journeys/timezone-management.md).
 
 ![](../assets/journey53.png)
