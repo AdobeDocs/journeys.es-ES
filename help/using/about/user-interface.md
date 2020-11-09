@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 900b956799194e13ee01ca9aef3c786e9c5b04db
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1007'
 ht-degree: 98%
 
 ---
@@ -59,7 +59,7 @@ Se puede acceder a **[!UICONTROL Filters]** haciendo clic en el icono de filtro 
 
 En las listas **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** y **[!UICONTROL Actions]** , use **[!UICONTROL Creation filters]** para filtrar la fecha de creación y el usuario. Puede elegir, por ejemplo, mostrar solo los eventos creados en los últimos 30 días.
 
-En la lista de recorridos (debajo de **[!UICONTROL Home]**), además del **[!UICONTROL Creation filters]**, también puede filtrar los recorridos mostrados según su estado y versión (**[!UICONTROL Status and version filters]**). También puede elegir mostrar únicamente los recorrido que utilizan un evento, un grupo de campos o una acción en particular (**[!UICONTROL Activity filters]** y **[!UICONTROL Data filters]**). **[!UICONTROL Publication filters]** Permite seleccionar una fecha de publicación o un usuario. Puede elegir, por ejemplo, mostrar solo las versiones más recientes de recorridos en directo que se publicaron ayer. Consulte [](../building-journeys/using-the-journey-designer.md).
+En la lista de recorridos (debajo de **[!UICONTROL Home]**), además del **[!UICONTROL Creation filters]**, también puede filtrar los recorridos mostrados según su estado y versión (**[!UICONTROL Status and version filters]**). También puede elegir mostrar únicamente los recorrido que utilizan un evento, un grupo de campos o una acción en particular (**[!UICONTROL Activity filters]** y **[!UICONTROL Data filters]**). **[!UICONTROL Publication filters]** Permite seleccionar una fecha de publicación o un usuario. Puede elegir, por ejemplo, mostrar solo las versiones más recientes de recorridos en directo que se publicaron ayer. Consulte [esta página](../building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
