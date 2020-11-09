@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '249'
 ht-degree: 10%
 
 ---
@@ -27,7 +27,7 @@ Este caso de uso le mostrará cómo aprovechar los puntajes de fatiga para evita
 
 ## Configuración del evento {#section_ptb_ws1_ffb}
 
-Siga los pasos descritos en [](../event/about-events.md).
+Siga los pasos descritos en [esta página](../event/about-events.md).
 
 ## Configuración de la fuente de datos {#section_o3n_4yy_wfb}
 
@@ -46,7 +46,7 @@ Realice los siguientes pasos para seleccionar los campos de puntuación de fatig
 
 ## Construcción del recorrido {#section_uzm_pyy_wfb}
 
-Para crear, validar y publicar el viaje, siga los pasos descritos en [](../building-journeys/journey.md).
+Para crear, validar y publicar el viaje, siga los pasos descritos en [esta página](../building-journeys/journey.md).
 
 En nuestro caso de uso, estamos aprovechando el **[!UICONTROL fatigueLevel]** campo. También puede utilizar el **[!UICONTROL fatigueScore]** campo.
 
