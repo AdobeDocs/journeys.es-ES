@@ -9,16 +9,16 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 8%
+source-wordcount: '59'
+ht-degree: 11%
 
 ---
 
 
 # Actividad final{#section_vqp_4ft_dgb}
 
-La **[!UICONTROL End]** actividad permite marcar el final de cada sendero del viaje. No es obligatorio, pero se recomienda para la claridad visual. De hecho, si el viaje tiene varias actividades finales, le recomendamos que agregue una etiqueta a cada extremo para facilitar la lectura de los informes. Consulte [](../reporting/about-journey-reports.md).
+La **[!UICONTROL End]** actividad permite marcar el final de cada sendero del viaje. No es obligatorio, pero se recomienda para la claridad visual. De hecho, si el viaje tiene varias actividades finales, le recomendamos que agregue una etiqueta a cada extremo para facilitar la lectura de los informes. Consulte [esta página](../reporting/about-journey-reports.md).
 
 ![](../assets/journey54.png)
