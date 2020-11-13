@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: 59b726388ee1c2c4b51ada9e7e5f7ca4eb6554b3
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '299'
 ht-degree: 4%
 
 ---
@@ -27,7 +27,7 @@ El mensaje transaccional del Campaign Standard y su evento asociado deben public
 
 >[!NOTE]
 >
->Para evitar la sobrecarga de la mensajería transaccional de Adobe Campaign Standard, se recomienda configurar una regla **de** límite para la integración de Campaign Standard.
+>La mensajería transaccional de Adobe Campaign Standard tiene una escala de 50 000 mensajes por hora como máximo en canales para una instancia determinada. Para reducir el riesgo de sobrecarga, se recomienda configurar una regla **de** límite para la integración de Campaign Standard.
 >
 >Obtenga más información sobre los SLA de mensajería transaccional en la Descripción [del producto de](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)Adobe Campaign Standard.
 
