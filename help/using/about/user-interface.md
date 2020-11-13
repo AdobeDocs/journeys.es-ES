@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
+source-git-commit: 9999546d08d0279f013ead3a1e71bb7f9305bebc
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 98%
+source-wordcount: '1063'
+ht-degree: 93%
 
 ---
 
@@ -139,3 +139,11 @@ _En el lienzo de un recorrido:_
 * Utilice la combinación de **teclas Ctrl/Comando + A** para seleccionar todas las actividades.
 * Cuando se seleccionan una o varias actividades, pulse **Eliminar** o **Retroceso** para eliminarlas. A continuación, puede pulsar **Entrar** para confirmar en el elemento emergente de confirmación.
 * Haga doble clic en una actividad desde la paleta izquierda para agregarla a la primera posición disponible (de arriba a abajo).
+
+_En un viaje:_
+
+* Pulse **T** para habilitar/deshabilitar el modo de prueba.
+* En un viaje basado en eventos en modo de prueba, pulse **E** para activar un evento.
+* En un viaje basado en segmentos, cuando se selecciona la opción **perfil único a la vez** en el modo de prueba, pulse **P** para activar un evento.
+* En el modo de prueba, pulse **L** para mostrar los registros.
+
