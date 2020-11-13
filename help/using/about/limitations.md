@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 59b726388ee1c2c4b51ada9e7e5f7ca4eb6554b3
+source-git-commit: f45069225b284fe47e2acaccb4aa5d34fe171f35
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 2%
@@ -47,6 +47,6 @@ Estas son las limitaciones relacionadas con el uso de Journey Orchestration.
 * Los datos de flujo utilizados para iniciar un viaje del cliente deben configurarse primero dentro del Journey Orchestration para obtener un ID de orquestación único. Este identificador de orquestación debe agregarse a la carga útil de flujo que llega a Adobe Experience Platform.
  
 
-## Limitaciones de fuentes de datos:
+## Limitaciones de fuentes de datos
 
 * Las fuentes de datos externas se pueden aprovechar en un viaje del cliente para buscar datos externos en tiempo real. Estas fuentes deben utilizarse mediante la API de REST, admiten JSON y pueden gestionar el volumen de solicitudes.
