@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
+source-git-commit: 9fc7f0664afa19e3debe2ad4f37d6b794da0ed1f
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 15%
@@ -20,7 +20,7 @@ ht-degree: 15%
 # Acerca de la configuración de acciones personalizadas {#concept_sxy_bzs_dgb}
 
 Si está utilizando un sistema de terceros para enviar mensajes o si desea [!DNL Journey Orchestration] enviar llamadas de API a un sistema de terceros, aquí es donde configura su conexión a [!DNL Journey Orchestration]. La acción personalizada definida por los usuarios técnicos estará disponible en la paleta izquierda del viaje, en la **[!UICONTROL Action]** categoría (consulte [esta página](../building-journeys/about-action-activities.md). Estos son algunos ejemplos de sistemas a los que puede conectarse con acciones personalizadas: Epsilon, Facebook, Adobe.io, Firebase, etc.
-Las limitaciones se enumeran en [esta página](../action/custom-action-limitations.md).
+Las limitaciones se enumeran en [esta página](../about/limitations.md).
 
 Estos son los pasos principales necesarios para configurar una acción personalizada:
 
