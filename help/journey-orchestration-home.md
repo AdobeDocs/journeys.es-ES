@@ -2,11 +2,11 @@
 keywords: Journeys;home;popular topics
 title: Documentación del producto de Journey Orchestration
 topic: Premium
-translation-type: ht
-source-git-commit: 8d5a2538859d0438d8536c1e359f981d6ac179f0
-workflow-type: ht
-source-wordcount: '190'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1db145be1b4076f4a8eb7ab995eeed3dab455d50
+workflow-type: tm+mt
+source-wordcount: '263'
+ht-degree: 72%
 
 ---
 
@@ -17,15 +17,20 @@ ht-degree: 100%
 
 ## Introducción
 
-* **[¿Qué es Journey Orchestration?](using/about/about-journey-orchestration.md)**<br/>Obtenga más información sobre Journey Orchestration.
+* **[¿Qué es Journey Orchestration?](using/about/about-journey-orchestration.md)**<br/>
+Obtenga más información sobre Journey Orchestration.
 
-* **[Cree su primer recorrido](using/about/get-started.md)**<br/>Descubra los pasos principales para configurar Journey Orchestration y construir su primer recorrido.
+* **[Cree su primer recorrido](using/about/get-started.md)**<br/>
+Descubra los pasos principales para configurar Journey Orchestration y construir su primer recorrido.
 
-* **[Configure un evento](using/event/about-events.md#section_tbk_5qt_pgb)**<br/>Obtenga información sobre cómo configurar los eventos que van a escuchar los recorridos.
+* **[Configure un evento](using/event/about-events.md#section_tbk_5qt_pgb)**<br/>
+Obtenga información sobre cómo configurar los eventos que van a escuchar los recorridos.
 
-* **[Descubra las novedades](using/release-notes/release-notes.md)**<br/>Obtenga más información sobre las últimas versiones.
+* **[Descubra las novedades](using/release-notes/release-notes.md)**<br/>
+Obtenga más información sobre las últimas versiones.
 
-* **[Funciones alfa](using/alpha/alpha-overview.md)**<br/>Descubra las características que están disponibles actualmente en el programa alfa.
+* **[Funciones alfa](using/alpha/alpha-overview.md)**<br/>
+Descubra las características que están disponibles actualmente en el programa alfa.
 
 ## Páginas principales
 
@@ -66,9 +71,17 @@ ht-degree: 100%
 
 ## Recursos adicionales
 
+* [Página de producto de Journey Orchestration](https://www.adobe.com/fr/experience-platform/journey-orchestration.html)
 * [Documentación de Experience Platform](https://www.adobe.com/es/experience-platform/documentation-and-developer-resources.html)
 * [Documentación del perfil del cliente en tiempo real](https://docs.adobe.com/content/help/es-ES/experience-platform/profile/home.html)
 * [Definición de campo XDM de Experience Cloud](https://docs.adobe.com/content/help/es-ES/experience-platform/xdm/home.html)
 * [Documentación del área de nombres de identidad](https://docs.adobe.com/content/help/es-ES/experience-platform/identity/home.html)
 * [API de ingesta de flujos](https://docs.adobe.com/content/help/es-ES/experience-platform/ingestion/streaming/overview.html)
 * [Documentación de mensajería transaccional de Campaign Standard](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.translate.html)
+
+## Tutoriales técnicos
+
+* [Configuración de Journey Orchestration](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module6/journey-orchestration-create-account.html#6.-travesía-orquestación)
+* [API meteorológica externa, acción SMS y más](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module12/journey-orchestration-external-weather-api-sms.html#module12)
+* [Crear un contacto en Dynamics 365 con Journey Orchestration](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module17/ex3.html#17.3-create-a-contact-in-microsoft-dynamics-365-using-journey-orchestration-%26-import-data-from-microsoft-dynamics)
+* [Usar Journey Orchestration para activar un seguimiento de correo electrónico](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module20/ex4.html#20.4-use-journey-orchestration-to-trigger-an-email-follow-up-after-interacting-with-your-chatbot)
