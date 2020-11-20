@@ -1,16 +1,14 @@
 ---
+product: adobe campaign
+solution: Journey Orchestration
 title: Importar descripción de API de exportación
 description: Obtenga más información sobre la API de exportación de importación.
-contentOwner: sauviat
 products: journeys
-audience: audiences
-content-type: reference
-topic-tags: journeys
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
 source-wordcount: '1103'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -36,12 +34,12 @@ Se recomienda seguir estos pasos para exportar e importar los viajes a través d
 
 1. Cree un viaje en el entorno de inicio y establezca parámetros para él. [Más información aquí](https://docs.adobe.com/content/help/es-ES/journeys/using/building-journeys/about-journey-building/journey.html)
 1. Compruebe si la versión del viaje no tiene errores. [Más información aquí](https://docs.adobe.com/content/help/en/journeys/using/building-journeys/testing-the-journey.html)
-1. Llame a la API **/lista/viajes** para recuperar el viaje UID y el UID de su última versión del viaje. Si es necesario, puede llamar **/travesías/`{uid}`/última** para encontrar el UID de su última versión del viaje.
-1. Llame a la API de **exportación** con los parámetros de entorno de inicio (orgID y sandboxName).
-1. Abra la carga útil de devolución y, a continuación, compruebe los siguientes elementos:
+1. Call **/list/journeys** API to retrieve the UID journey and the UID of your latest journey version. If needed, you can call **/journeys/`{uid}`/latest** to find the UID of your latest journey version.
+1. Call the **export** API with your start environment parameters (orgID and sandboxName).
+1. Open the return payload, then check the following items:
    * Si el viaje exportado contiene credenciales **** específicas, debe reemplazar estas credenciales por las correspondientes al nuevo entorno.
-   * Si el viaje exportado contiene **eventos** que apuntan a un esquema **** XDM, deberá actualizar manualmente la referencia de ID de esquema con el ID de esquema del nuevo entorno en el nodo xdmEntity si los valores de ID son diferentes. Esta actualización debe realizarse para cada evento. [Más información aquí](https://docs.adobe.com/content/help/en/journeys/using/events-journeys/experience-event-schema.html)
-   * Si el viaje contiene acciones de correo electrónico, sms o push, es posible que tenga que actualizar el nombre de la plantilla o el nombre de mobileApp si el nombre del entorno de destinatario es distinto del de su entorno de inicio.
+   * If your exported journey contains **events** that point to an **XDM schema**, you need to manually update the schema ID reference with the schema ID of the new environment in the xdmEntity node if IDs values are different. Esta actualización debe realizarse para cada evento. [Más información aquí](https://docs.adobe.com/content/help/en/journeys/using/events-journeys/experience-event-schema.html)
+   * If your journey contains email, sms or push actions, you may have to update the template name or the mobileApp name if the name in the target environment is different from the one in your start environment.
 1. Llame a la API de **importación** con su entorno de destinatario. Tenga en cuenta que puede llamar a la API de importación tantas veces como desee. El UUID y el nombre de cada nodo que contiene en el viaje se generan cada vez que llama a la API de importación.
 1. Una vez importado el viaje, puede publicarlo en el nuevo simulador de pruebas o entorno.
 
@@ -50,14 +48,14 @@ Se recomienda seguir estos pasos para exportar e importar los viajes a través d
 
 ### Configuración del acceso a API
 
-El acceso a la API de Journey Orchestration se configura a través de los pasos a continuación. Cada uno de estos pasos se detalla en la documentación [de E/S de](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)Adobe.
+Journey Orchestration API access is set up through the steps below. Each of these steps is detailed in the [Adobe I/O documentation](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
 
 >[!CAUTION]
 >
 >Para administrar certificados en E/S de Adobe, asegúrese de que tiene derechos de administrador <b></b> del sistema en la organización o una cuenta [de](https://helpx.adobe.com/enterprise/using/manage-developers.html) desarrollador en la consola de administración.
 
 1. **Compruebe que dispone de un certificado** digital o cree uno si es necesario. Las claves pública y privada que se proporcionan con el certificado son necesarias en los pasos siguientes.
-1. **Cree una nueva integración en[!DNL Journey Orchestration]Service** in Adobe I/O y configúrela. El acceso al perfil del producto es necesario para Journey Orchestration y Adobe Experience Platform. Se generarán las credenciales (clave de API, secreto de cliente...).
+1. **Cree una nueva integración en [!DNL Journey Orchestration] Service** in Adobe I/O y configúrela. El acceso al perfil del producto es necesario para Journey Orchestration y Adobe Experience Platform. Se generarán las credenciales (clave de API, secreto de cliente...).
 1. **Cree un token web JSON (JWT)** a partir de las credenciales generadas anteriormente y fírmelo con su clave privada. JWT codifica toda la información de identidad y seguridad que Adobe necesita para comprobar su identidad y permitirle acceder a la API. Este paso se detalla en esta [sección](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
 1. **Intercambie su JWT por un Token de acceso** a través de una solicitud de POST o a través de la interfaz de la consola de desarrollador. Este Token de acceso deberá utilizarse en cada encabezado de las solicitudes de API.
 
@@ -90,35 +88,35 @@ La carga útil resultante se puede utilizar para importar la versión del viaje 
 |---|---|---|
 | `[POST]` | /travelVersions/import | Importar contenido de versión de viaje resultante de la exportación de una versión de viaje |
 | `[GET]` | /travelVersions/`{uid}`/export | Exportación de una versión del viaje |
-| `[GET]` | /journeys/`{uid}`/last | Obtenga la última versión del viaje para un viaje |
-| `[POST]` | /lista/viajes | Lista de los metadatos de los viajes y sus versiones de viaje |
+| `[GET]` | /journeys/`{uid}`/latest | Obtenga la última versión del viaje para un viaje |
+| `[POST]` | /lista/viajes | List the metadata of the journeys and their journey versions |
 
 
 ### Características de exportación y guardas
 
-* Las credenciales no se exportan y se inserta un marcador de posición (es decir, INSERT_SECRET_HERE).
+* The credentials are not exported and a placeholder (i.e INSERT_SECRET_HERE) is inserted.
 Después de exportar la carga útil, debe insertar manualmente las nuevas credenciales (correspondientes al entorno de destinatario) antes de importar la carga útil en el entorno de destinatario.
 
 * Cuando el origen de datos contiene el parámetro **buildIn:true**, no es necesario reemplazar &quot;INSERT_SECRET_HERE&quot;. Se trata de una fuente de datos del sistema administrada automáticamente por el entorno del viaje.
 
-* Los siguientes objetos se exportan pero nunca se importarán en el entorno de destinatario:
-   * **DataProviders**:  acsDataProvider y acppsDataProvider
-   * **Grupos** de campos: acppsFieldGroup
+* The following objects are exported but they will never be imported in the target environment:
+   * **DataProviders**:  acsDataProvider and acppsDataProvider
+   * **Field groups**: acppsFieldGroup
    * **Acciones** personalizadas: acsAction
 
-* El viaje debe ser válido antes de la exportación.
+* The journey must be valid before export.
 
 ### Características de importación
 
-* Durante la importación, los objetos de viaje se crean con un nuevo UUID y un nuevo nombre para garantizar la exclusividad en el entorno de destinatario (instancia o simulador de pruebas).
+* During the import, the journey objects are created with new UUID and a new name to ensure uniqueness in the target environment (instance or sandbox).
 
-* Si la carga útil de importación contiene marcadores de posición secretos, se genera un error. Debe reemplazar la información de credenciales antes de la llamada del POST para importar el viaje.
+* If the import payload contains secret placeholders, an error is thrown. Debe reemplazar la información de credenciales antes de la llamada del POST para importar el viaje.
 
 ## Advertencia y errores
 
 Los posibles errores son:
 
-* En el momento de la **exportación**, si la versión del viaje no es válida: error 500
+* At **export time**, if the journey version is not valid : error 500
 
 * En el momento **de la** importación, si la carga útil no es válida tras modificaciones o si las credenciales no están bien definidas en la carga útil: error 400
 
