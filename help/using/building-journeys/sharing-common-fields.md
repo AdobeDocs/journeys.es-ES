@@ -1,15 +1,10 @@
 ---
+product: adobe campaign
+solution: Journey Orchestration
 title: journeystep eventos campos comunes
 description: journeystep eventos campos comunes
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-audience: rns
-content-type: reference
-topic-tags: journeys
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 0%
@@ -21,11 +16,11 @@ ht-degree: 0%
 
 Esta mezcla se compartirá con los eventos travelStepEvent y travelStepProfileEvent.
 
-Estos son los campos XDM comunes que [!DNL Journey Orchestration] se envían a Adobe Experience Platform. Los campos comunes se enviarán para cada paso que se procese en un viaje. More specific fields are used for custom actions and enrichments.
+Estos son los campos XDM comunes que [!DNL Journey Orchestration] se envían a Adobe Experience Platform. Los campos comunes se enviarán para cada paso que se procese en un viaje. Se utilizan campos más específicos para acciones y enriquecimientos personalizados.
 
-Some of those fields are only available in specific processing patterns (action execution, data fetch, etc.) in order to limit the size of events.
+Algunos de estos campos solo están disponibles en patrones de procesamiento específicos (ejecución de acciones, captura de datos, etc.) para limitar el tamaño de los eventos.
 
-## entrance
+## entrada
 
 Indica si el usuario ha entrado en el viaje. Si no está presente, suponemos que el valor es false.
 
@@ -93,7 +88,7 @@ Tipo: string
 El estado puede ser:
 
 * finalizó: el paso no tiene transición y su procesamiento ha finalizado correctamente.
-* error: el procesamiento de pasos ha generado un error.
+* error: the step processing has raised an error.
 * transiciones: el paso está esperando un evento para la transición a otro paso.
 * capped: el paso ha fallado en un error de límite, generado durante una acción o enriquecimiento.
 * timedout: el paso ha fallado en un error de tiempo de espera, generado durante una acción o enriquecimiento.
@@ -167,7 +162,7 @@ Tipo: booleano
 
 ## processingTime
 
-Cantidad total de tiempo en milisegundos desde la entrada del paso de instancia hasta el final del procesamiento.
+Total amount of time in milliseconds from the instance step entrance to the end of the processing.
 
 Tipo: long
 
@@ -177,7 +172,7 @@ Indicates the instance type, if it is batch or unitary.
 
 Tipo: string
 
-Values: batch/unitary
+Valores: lote/unidad
 
 ## recurrenceIndex
 
@@ -205,6 +200,6 @@ Tipo: string
 
 ## batchUnitaryBranchID
 
-if the instance has been triggered from a batch instance, unitary branch ID.
+si la instancia se ha activado desde una instancia de lote, ID de rama unitaria.
 
 Tipo: string
