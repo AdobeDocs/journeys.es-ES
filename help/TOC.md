@@ -1,14 +1,15 @@
 ---
-product: Journeys
-audience: end-user
-user-guide-title: Guía de Journey Orchestration
+product: adobe campaign
+solution: Journey Orchestration
+user-guide-title: Journey Orchestration
+title: Guía de Journey Orchestration
 user-guide-description: Proporciona instrucciones prácticas para implementar y construir recorridos.
 index: true
 translation-type: tm+mt
-source-git-commit: 59b726388ee1c2c4b51ada9e7e5f7ca4eb6554b3
+source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 100%
+source-wordcount: '388'
+ht-degree: 99%
 
 ---
 
