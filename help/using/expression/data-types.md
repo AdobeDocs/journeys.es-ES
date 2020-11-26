@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Tipos de datos
 description: Obtenga información sobre los tipos de datos en expresiones avanzadas
 translation-type: tm+mt
-source-git-commit: f755f92d0479e2889dd7ed6dfa5e72d52c25634f
+source-git-commit: 062b4648e2eb3a4270f9c09e4478d541209e1247
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 4%
+source-wordcount: '558'
+ht-degree: 5%
 
 ---
 
@@ -18,7 +18,7 @@ Técnicamente, una constante siempre contiene un tipo de datos. En la expresión
 
 Las secciones siguientes proporcionan información sobre las diferentes expresiones de tipo de datos y cómo se representan.
 
-## Cadena {#string}
+## string {#string}
 
 **Descripción**
 
@@ -30,15 +30,23 @@ Formato de serialización: UTF-8
 
 **Representación literaria**
 
-```"<value>"```
+```
+"<value>"
+```
 
-```'<value>'```
+```
+'<value>'
+```
 
 **Ejemplo**
 
-```"hello world"```
+```
+"hello world"
+```
 
-```'hello world'```
+```
+'hello world'
+```
 
 ## integer {#integer}
 
@@ -50,11 +58,15 @@ Formato JSON: Número
 
 **Representación literaria**
 
-```<integer value>```
+```
+<integer value>
+```
 
 **Ejemplo**
 
-```42```
+```
+42
+```
 
 ## decimal {#decimal}
 
@@ -72,11 +84,15 @@ Formato de serialización: usando &#39;.&#39; como separador decimal.
 
 **Representación literaria**
 
-```<integer value>.<integer value>```
+```
+<integer value>.<integer value>
+```
 
 **Ejemplo**
 
-```3.14```
+```
+3.14
+```
 
 ## booleano {#boolean}
 
@@ -88,13 +104,19 @@ Formato JSON: Booleano
 
 **Representación literaria**
 
-```true```
+```
+true
+```
 
-```false```
+```
+false
+```
 
 **Ejemplo**
 
-```true```
+```
+true
+```
 
 ## dateTimeOnly {#date-time-only}
 
@@ -112,7 +134,9 @@ Utiliza DateTimeFormateria ISO_LOCAL_DATE_TIME para deserializar y serializar el
 
 **Representación literaria**
 
-```toDateTimeOnly("<dateTimeOnly in ISO-8601 format>")  ```
+```
+toDateTimeOnly("<dateTimeOnly in ISO-8601 format>")  
+```
 
 ## dateTime {#date-time}
 
@@ -136,23 +160,39 @@ La zona horaria se puede especificar mediante un desplazamiento o un código de 
 
 **Representación literaria**
 
-```toDateTime("<dateTime in ISO-8601 format>")```
+```
+toDateTime("<dateTime in ISO-8601 format>")
+```
 
-```toDateTime(<integer value of an epoch in milliseconds>)```
+```
+toDateTime(<integer value of an epoch in milliseconds>)
+```
 
 **Ejemplo**
 
-```toDateTime("1977-04-22T06:00:00Z")```
+```
+toDateTime("1977-04-22T06:00:00Z")
+```
 
-```toDateTime("2011-12-03T15:15:30Z")```
+```
+toDateTime("2011-12-03T15:15:30Z")
+```
 
-```toDateTime("2011-12-03T15:15:30.123Z")```
+```
+toDateTime("2011-12-03T15:15:30.123Z")
+```
 
-```toDateTime("2011-12-03T15:15:30.123+02:00")```
+```
+toDateTime("2011-12-03T15:15:30.123+02:00")
+```
 
-```toDateTime("2011-12-03T15:15:30.123-00:20")```
+```
+toDateTime("2011-12-03T15:15:30.123-00:20")
+```
 
-```toDateTime(1560762190189)```
+```
+toDateTime(1560762190189)
+```
 
 ## duration {#duration}
 
@@ -172,31 +212,55 @@ Duration.parse: los formatos aceptados se basan en el formato de duración ISO-8
 
 **Representación literaria**
 
-```toDuration("<duration in ISO-8601 format>")```
+```
+toDuration("<duration in ISO-8601 format>")
+```
 
-```toDuration(<duration in milliseconds>)```
+```
+toDuration(<duration in milliseconds>)
+```
 
 **Ejemplo**
 
-```toDuration("PT5S")``` analiza como 5 segundos
+```
+toDuration("PT5S") -- parses as 5 seconds
+```
 
-```toDuration(500)``` se analiza como 500 ms
+```
+toDuration(500) -- parses as 500ms
+```
 
-```toDuration("PT20.345S")``` analiza como &quot;20,345 segundos&quot;
+```
+toDuration("PT20.345S") -- parses as "20.345 seconds"
+```
 
-```toDuration("PT15M") ``` analiza como &quot;15 minutos&quot; (donde un minuto es 60 segundos)
+```
+toDuration("PT15M") -- parses as "15 minutes" (where a minute is 60 seconds)
+```
 
-```toDuration("PT10H") ``` se analiza como &quot;10 horas&quot; (donde una hora es de 3600 segundos)
+```
+toDuration("PT10H")  -- parses as "10 hours" (where an hour is 3600 seconds)
+```
 
-```toDuration("P2D") ``` se analiza como &quot;2 días&quot; (donde un día es de 24 horas u 86400 segundos)
+```
+toDuration("P2D") -- parses as "2 days" (where a day is 24 hours or 86400 seconds)
+```
 
-```toDuration("P2DT3H4M") ```se analiza como &quot;2 días, 3 horas y 4 minutos&quot;
+```
+toDuration("P2DT3H4M") -- parses as "2 days, 3 hours and 4 minutes"
+```
 
-```toDuration("P-6H3M") ``` analiza como &quot;-6 horas y +3 minutos&quot;
+```
+toDuration("P-6H3M") -- parses as "-6 hours and +3 minutes"
+```
 
-```toDuration("-P6H3M")``` analiza como &quot;-6 horas y -3 minutos&quot;
+```
+toDuration("-P6H3M") -- parses as "-6 hours and -3 minutes"
+```
 
-```toDuration("-P-6H+3M") ``` analiza como &quot;+6 horas y -3 minutos&quot;
+```
+toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
+```
 
 ## lista {#list}
 
@@ -208,12 +272,20 @@ No se admite el polimorfismo, por lo que todas las expresiones contenidas en la 
 
 **Representación literaria**
 
-```[<expression>, <expression>, ... ]```
+```
+[<expression>, <expression>, ... ]
+```
 
 **Ejemplo**
 
-```["value1","value2"]```
+```
+["value1","value2"]
+```
 
-```[3,5]```
+```
+[3,5]
+```
 
-```[toDuration(500),toDuration(800)]```
+```
+[toDuration(500),toDuration(800)]
+```
