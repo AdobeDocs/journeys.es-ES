@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Eventos de calificación de segmentos
 description: Obtenga información sobre los eventos de calificación de segmentos
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '709'
 ht-degree: 1%
 
 ---
@@ -82,6 +82,8 @@ Además, si el segmento por lotes se acaba de crear y se utiliza inmediatamente 
 ### Segmentos de flujo continuo{#streamed-speed-segment-qualification}
 
 Al utilizar la cualificación de segmentos para segmentos transmitidos, hay menos riesgo de obtener grandes picos de entradas y salidas debido a la evaluación continua del segmento. Sin embargo, si la definición del segmento lleva a que un gran volumen de clientes califique al mismo tiempo, también podría haber un pico.
+
+For more information on streaming segmentation, refer to this [page](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
 
 ### Cómo evitar las sobrecargas{#overloads-speed-segment-qualification}
 
