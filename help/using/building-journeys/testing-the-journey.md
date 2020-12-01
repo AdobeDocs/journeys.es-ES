@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Prueba del recorrido
 description: 'Obtenga información sobre las pruebas de viaje '
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 5e97f511872a924cc8c2c3a6904859d63ebeddcd
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1442'
 ht-degree: 3%
 
 ---
@@ -133,6 +133,16 @@ Cuando selecciona un perfil de prueba diferente en la pantalla de configuración
 Al abrir un viaje en la prueba, la ruta mostrada corresponde a la última prueba ejecutada.
 
 El flujo visual funciona tanto si el evento se activa a través de la interfaz como externamente (por ejemplo, mediante Postman).
+
+## Modo de prueba para viajes basados en reglas {#test-rule-based}
+
+El modo de prueba también está disponible para viajes que utilizan un evento basado en reglas. For more information on rule-based events, refer to [this page](../event/about-events.md).
+
+Al activar un evento, la pantalla de configuración **de** Evento le permite definir los parámetros de evento que se van a pasar en la prueba. Puede realizar la vista de la condición de ID de evento haciendo clic en el icono de información sobre herramientas en la esquina superior derecha. También hay disponible una información sobre herramientas junto a cada campo que forme parte de la evaluación de reglas.
+
+![](../assets/alpha-event8.png)
+
+Para obtener más información sobre cómo utilizar el modo de prueba, consulte [esta página](../building-journeys/testing-the-journey.md).
 
 ## Visualización de los registros {#viewing_logs}
 
