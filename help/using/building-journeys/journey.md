@@ -4,13 +4,12 @@ solution: Journey Orchestration
 title: Acerca de la creación de un recorrido
 description: Como usuario empresarial, aprenda a combinar actividades de eventos, orquestación y acciones para construir un recorrido.
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 17%
 
 ---
-
 
 
 # Creación de un recorrido {#concept_gq5_sqt_52b}
