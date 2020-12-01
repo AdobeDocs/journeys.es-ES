@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Definición de los campos de carga útil
 description: Obtenga información sobre cómo definir los campos de carga útil
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '282'
 ht-degree: 6%
 
 ---
@@ -34,7 +34,7 @@ La definición de carga útil le permite elegir la información que el sistema e
 
    >[!NOTE]
    >
-   >El **[!UICONTROL eventID]** campo se agrega automáticamente en la lista de los campos seleccionados para que [!DNL Journey Orchestration] pueda identificar el evento. El sistema que empuja el evento no debe generar un ID, debe utilizar el disponible en la previsualización de carga útil. Consulte [esta página](../event/previewing-the-payload.md).
+   >Para eventos generados por el sistema, el **[!UICONTROL eventID]** campo se agrega automáticamente en la lista de los campos seleccionados para que [!DNL Journey Orchestration] pueda identificar el evento. El sistema que empuja el evento no debe generar un ID, debe utilizar el disponible en la previsualización de carga útil. Consulte [esta página](../event/previewing-the-payload.md).
 
 1. Cuando haya terminado de seleccionar los campos necesarios, haga clic en **[!UICONTROL Save]** o presione **[!UICONTROL Enter]**.
 
