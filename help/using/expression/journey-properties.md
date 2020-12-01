@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Propiedades del viaje
 description: Obtenga información sobre las propiedades del viaje
 translation-type: tm+mt
-source-git-commit: b989e167c4aa5d8ef2667442231ff8857c5f0b18
+source-git-commit: 341138c31676870878099b4f4eecec200a614c69
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '559'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ Estos son algunos ejemplos de casos de uso:
 
 * **Perfiles** de registro descartados: puede enviar todos los perfiles excluidos de un mensaje mediante una regla de límite a un sistema de terceros para fines de registro. Para ello, se configura una ruta en caso de tiempo de espera y error y se agrega una condición para filtrar según un tipo de error específico, por ejemplo: &quot;descartar personas mediante una regla de límite&quot;. A continuación, puede insertar los perfiles descartados en un sistema de terceros mediante una acción personalizada.
 
-* **Alertas push enviadas en caso de error**: puede enviar una notificación a un sistema de terceros cada vez que se produzca un error en un mensaje. Para ello, configure una ruta en caso de error, agregue una condición y una acción personalizada. Puede enviar una notificación en un canal de Slack, por ejemplo, con la descripción del error encontrado.
+* **Enviar alertas en caso de error**: puede enviar una notificación a un sistema de terceros cada vez que se produzca un error en un mensaje. Para ello, configure una ruta en caso de error, agregue una condición y una acción personalizada. Puede enviar una notificación en un canal de Slack, por ejemplo, con la descripción del error encontrado.
 
 * **Perfeccionar errores en sistema de informes** : en lugar de tener sólo una ruta para los mensajes de error, puede definir una condición por tipo de error. Esto le permitirá refinar el sistema de informes y la vista de todos los datos de tipos de error.
 
