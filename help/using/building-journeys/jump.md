@@ -4,19 +4,15 @@ solution: Journey Orchestration
 title: Saltar de un viaje a otro
 description: Saltar de un viaje a otro
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
 
 
 # Saltar de un viaje a otro {#jump}
-
->[!NOTE]
->
->Disponibilidad efectiva: 15 de noviembre de 2020
 
 La actividad de acción **Saltar** permite empujar a los individuos de un viaje a otro. Esta función le permite:
 
@@ -38,21 +34,31 @@ Estos son los diferentes pasos del proceso de ejecución:
 1. El individuo llega al paso de salto.
 1. El individuo es empujado al Viaje B, y continúa hacia los siguientes pasos en el Viaje A, después del salto.
 
-En el **viaje B**, el primer evento se puede activar externamente (como un evento normal) o internamente, mediante un salto desde el viaje A:
+En el viaje B, el primer evento se desencadena internamente, a través del salto desde el viaje A:
 
 1. El Viaje B recibió un evento interno del Viaje A.
-1. El primer evento del Viaje B se activa con la información procedente del Viaje A.
 1. Los inicios individuales que fluyen en el Viaje B.
+
+>[!NOTE]
+>
+>El viaje B también se puede activar mediante un evento externo.
 
 ## Notas importantes
 
+### Creación
+
+* El salto solo está disponible en viajes que utilizan una Área de nombres.
 * Sólo se puede saltar a un viaje que utilice la misma Área de nombres que el viaje en origen.
 * No puede saltar a un viaje que inicio con un evento de calificación **de** segmento.
-* Cuando se ejecuta el salto, se activa la última versión del viaje de destinatario.
+* No puede tener un evento de cualificación **de salto y** segmento en el mismo viaje.
 * Puede incluir tantos saltos como necesite en un viaje. Después de un salto, puede agregar cualquier actividad necesaria.
 * Puede tener tantos niveles de salto como sea necesario. Por ejemplo, Viaje A le lleva al viaje B, que le lleva al viaje C, etc.
 * El viaje en destinatario también puede incluir tantos saltos como sea necesario.
 * No se admiten patrones de bucle. No hay forma de vincular dos o más viajes que puedan crear un bucle infinito. La pantalla de configuración de actividad de **salto** evita que haga esto.
+
+### Ejecución
+
+* Cuando se ejecuta el salto, se activa la última versión del viaje de destinatario.
 * Como de costumbre, un individuo único sólo puede estar presente una vez en el mismo viaje. Como resultado, si el individuo empujado del viaje en origen ya está en el viaje en destinatario, entonces el individuo no entrará en el viaje en destinatario. No se notificará ningún error en el salto porque se trata de un comportamiento normal.
 
 ## Configuración del salto
@@ -84,9 +90,16 @@ El campo **Primer evento** se rellena con el nombre del primer evento del viaje 
 
    ![](../assets/jump5.png)
 
+
+   >[!NOTE]
+   >
+   >La identidad del individuo se asigna automáticamente. Esta información no está visible en la interfaz.
+
 Se ha configurado el salto. Tan pronto como su viaje esté en vivo o en modo de prueba, los individuos que alcancen el salto serán empujados desde el viaje en destinatario.
 
 Cuando se configura un salto en un viaje, se agrega automáticamente un icono de entrada de salto al comienzo del viaje en destinatario. Esto le ayuda a identificar que el viaje se puede activar externamente pero también internamente desde un salto.
+
+![](../assets/jump7.png)
 
 ## Resolución de problemas
 
@@ -94,3 +107,5 @@ Cuando se publica el viaje o en modo de prueba, se producen errores si:
 * el viaje en destinatario ya no existe
 * el viaje en destinatario se desplaza, se cierra o se detiene
 * si el primer evento del viaje en destinatario ha cambiado y se ha roto la asignación
+
+![](../assets/jump6.png)
