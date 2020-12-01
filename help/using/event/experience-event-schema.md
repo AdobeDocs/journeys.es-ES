@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: 'Esquemas de ExperienceEvent para Eventos de Journey Orchestration '
 description: 'Obtenga información sobre los Esquemas de ExperienceEvent para Eventos de Journey Orchestration '
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Cualquier esquema XDM que se utilice para [!DNL Journey Orchestration] eventos d
 
    ![](../assets/schema2.png)
 
-* El esquema debe incluir la combinación eventID de orquestación. [!DNL Journey Orchestration] utiliza este campo para identificar los eventos utilizados en los viajes.
+* Para eventos generados por el sistema, el esquema debe incluir la combinación eventID de orquestación. [!DNL Journey Orchestration] utiliza este campo para identificar los eventos utilizados en los viajes.
 
    ![](../assets/schema3.png)
 
