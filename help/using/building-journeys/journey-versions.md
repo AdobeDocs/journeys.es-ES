@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Versiones de Journey
 description: Obtenga información sobre las versiones del viaje
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 3%
+source-wordcount: '243'
+ht-degree: 2%
 
 ---
 
@@ -19,6 +19,10 @@ En la lista del viaje, todas las versiones del viaje se muestran con el número 
 ![](../assets/journeyversions1.png)
 
 Si necesita modificar un viaje en directo, debe crear una nueva versión de su viaje.
+
+>[!NOTE]
+>
+>Para obtener más información sobre las limitaciones de las versiones del viaje, consulte [esta página](../about/limitations.md#journey-versions-limitations)
 
 1. Abra la última versión de su viaje en directo, haga clic en **[!UICONTROL Create a new version]** y confirme.
 
