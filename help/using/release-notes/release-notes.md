@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: Notas de la versión
 description: Más información sobre las notas de la versión
 translation-type: tm+mt
-source-git-commit: 3015d4caaedbd45ea5b94e426788f39b2774053e
+source-git-commit: fe34587181d284944ce1af64b12ad1185c59f890
 workflow-type: tm+mt
 source-wordcount: '2055'
 ht-degree: 77%
@@ -80,7 +80,7 @@ También puede consultar las [Actualizaciones de documentación](../release-note
 
 Se han añadido limitaciones al crear nuevas versiones de un viaje. Estas limitaciones evitan cambios demasiado drásticos en el viaje para mantener cierta coherencia entre las versiones. [Más información](../about/limitations.md#journey-versions-limitations)
 
-La actividad **de cualificación** del segmento ya no se puede usar en un viaje que incluya actividades de mensajes de Campaign Standard. Esta restricción protege la integridad de las instancias de Adobe Campaign Standard. De hecho, el uso de Calificación de segmentos puede llevar a picos diarios de envío de mensajes que sobrecargarían la mensajería transaccional de Campaign Standards. [Más información](../about/limitations.md#segment-qualification)
+La actividad **Calificación del segmento** ya no se puede utilizar en un viaje que incluya actividades de mensajes de Campaign Standard. Esta restricción protege la integridad de las instancias de Adobe Campaign Standard. De hecho, el uso de Calificación de segmentos puede llevar a picos diarios de envío de mensajes que sobrecargarían la mensajería transaccional de Campaign Standards. [Más información](../about/limitations.md#segment-qualification)
 
 ## Versión de octubre de 2020 {#october-release}
 
@@ -139,7 +139,7 @@ Para descubrir el ámbito de Alpha, consulte esta [sección](../alpha/alpha-over
 <tbody>
 <tr>
 <td>
-<p>The following improvements have been made to the <strong>Read segment</strong> activity:
+<p>Se han realizado las siguientes mejoras en la actividad <strong>Leer segmento</strong>:
 </p>
 <ul>
 <li><p>Los viajes basados en segmentos ahora muestran, por encima del lienzo, un recordatorio del tipo de programación del viaje. Puede hacer clic en este recordatorio para acceder al menú de configuración de programación.</p>
@@ -147,7 +147,7 @@ Para descubrir el ámbito de Alpha, consulte esta [sección](../alpha/alpha-over
 <li><p>Se ha mejorado la granularidad de los registros de modo de prueba para mostrar el estado de progreso de exportación de segmentos.</p>
 </li>
 </ul>
-<p>Para obtener más información sobre la actividad del segmento <strong></strong> Leer, consulte la documentación <a href="../alpha/alpha-segment-trigger.md"></a>detallada.</p>
+<p>Para obtener más información sobre la actividad <strong>Leer segmento</strong>, consulte la <a href="../alpha/alpha-segment-trigger.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
