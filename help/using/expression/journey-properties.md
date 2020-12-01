@@ -4,17 +4,17 @@ solution: Journey Orchestration
 title: Propiedades del viaje
 description: Obtenga información sobre las propiedades del viaje
 translation-type: tm+mt
-source-git-commit: 1fd02fcc2a535046cfbcdb5d1c52850ee93370af
+source-git-commit: b989e167c4aa5d8ef2667442231ff8857c5f0b18
 workflow-type: tm+mt
 source-wordcount: '560'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
 # Propiedades del viaje {#journey-properties}
 
-En el editor de expresiones avanzado, se encuentra la categoría **Propiedades** del viaje, debajo de las categorías de evento y de origen de datos. Esta categoría contiene campos técnicos relacionados con el viaje de un perfil determinado. Esta es la información recuperada por el sistema de los viajes en directo, como la ID del viaje o los errores específicos encontrados.
+En el editor de expresiones avanzado, encontrará la categoría **Propiedades del viaje**, debajo de las categorías del evento y del origen de datos. Esta categoría contiene campos técnicos relacionados con el viaje de un perfil determinado. Esta es la información recuperada por el sistema de los viajes en directo, como la ID del viaje o los errores específicos encontrados.
 
 ![](../assets/journey-properties.png)
 
@@ -37,26 +37,26 @@ Estos son algunos ejemplos de casos de uso:
 
 ## Lista de campos {#journey-properties-fields}
 
-|Categoría|Nombre del campo|Etiqueta|Descripción|
-|-|-|-|—|
-|Versión de viaje|travesíaUID|Identificador de viaje| |
-| |travelVersionUID|Identificador de versión del viaje| |
-| |travelVersionName|Nombre de versión del viaje| |
-| |travelVersionDescription|Descripción de la versión del viaje| |
-| |rutaVersión|Versión del viaje| |
-|Journey Instance|instanceUID|Journey Instance Identifier|ID de la instancia|
-| |externalKey|Clave externa|Identificador individual que activa el viaje|
-|Identidad|profileId|Identificador de identidad de Perfil|Identificador del perfil en el viaje|
-| |Área de nombres|Área de nombres de identidad de Perfil|Área de nombres del perfil en el viaje (ejemplo: ECID)|
-|Nodo actual|currentNodeId|Identificador de nodo actual|Identificador de la actividad actual (nodo)|
-| |currentNodeName|Nombre del nodo actual|Nombre de la actividad actual (nodo)|
-|Nodo anterior|previousNodeId|Identificador de nodo anterior|Identificador de la actividad anterior (nodo)|
-| |previousNodeName|Nombre del nodo anterior|Nombre de la actividad anterior (nodo)|
-|Errors|lastNodeUIDInError|Último identificador de nodo en error|Identificador de la última actividad (nodo) en error|
-| |lastNodeNameInError|Apellido de nodo en error|Nombre de la última actividad (nodo) en error|
-| |lastNodeTypeInError|Último tipo de nodo en Error|Tipo de error de la última actividad (nodo) en error. Tipos posibles:<ul><li>Eventos: Eventos, Reacciones, SQL (ejemplo: Calificación del segmento)</li><li>Control de flujo: Fin, condición, espera</li><li>Acciones: acciones ACS, salto, acción personalizada</li></ul>|
-| |lastErrorCode|Último código de error|Código de error de la última actividad (nodo) en error. Posibles errores: <ul><li>Códigos de error HTTP</li><li>captado</li><li>timedOut</li><li>error (ejemplo: predeterminado en caso de error inesperado. No debería suceder o muy raramente sucede)</li></ul>|
-| |lastEjecutedActionErrorCode|Último código de error de la acción ejecutada|Código de error de la última acción en caso de error |
-| |lastDataFetchErrorCode|Último código de error de recuperación de datos|Código de error de la última captura de datos de las fuentes de datos|
-|Time|lastActionExecutionElapsedTime|Último tiempo de ejecución de la acción transcurrido|Tiempo empleado para ejecutar la última acción|
-| |lastDataFetchElapsedTime|Último tiempo de recuperación de datos transcurrido|Tiempo empleado para ejecutar la última recuperación de datos desde orígenes de datos|
+| Categoría | Nombre del campo | Etiqueta | Descripción |
+|---|---|---|------------|
+| Versión de viaje | travelUID | Identificador de viaje |  |
+|  | travelVersionUID | Identificador de versión de viaje |  |
+|  | travelVersionName | Nombre de la versión del viaje |  |
+|  | travelVersionDescription | Descripción de la versión del viaje |  |
+|  | travelVersion | Versión de viaje |  |
+| Instancia de Journey | instanceUID | Identificador de instancia de viaje | ID de la instancia |
+|  | externalKey | Clave externa | Identificador individual que activa el viaje |
+| Identidad | profileId | Identificador de identidad de perfil | Identificador del perfil en el viaje |
+|  | área de nombres | Área de nombres de identidad de perfil | Área de nombres del perfil en el viaje (ejemplo: ECID) |
+| Nodo actual | currentNodeId | Identificador de nodo actual | Identificador de la actividad actual (nodo) |
+|  | currentNodeName | Nombre del nodo actual | Nombre de la actividad actual (nodo) |
+| Nodo anterior | previousNodeId | Identificador de nodo anterior | Identificador de la actividad anterior (nodo) |
+|  | previousNodeName | Nombre de nodo anterior | Nombre de la actividad anterior (nodo) |
+| Errores | lastNodeUIDInError | Último identificador de nodo en error | Identificador de la última actividad (nodo) en error |
+|  | lastNodeNameInError | El nombre del último nodo en el error | Nombre de la última actividad (nodo) en error |
+|  | lastNodeTypeInError | Último tipo de nodo en error | Tipo de error de la última actividad (nodo) en error. Tipos posibles:<ul><li>Eventos: Eventos, Reacciones, SQL (ejemplo: Calificación del segmento)</li><li>Control de flujo: Fin, condición, espera</li><li>Acciones: acciones ACS, salto, acción personalizada</li></ul> |
+|  | lastErrorCode | Último código de error | Código de error de la última actividad (nodo) en error. Posibles errores: <ul><li>Códigos de error HTTP</li><li>captado</li><li>timedOut</li><li>error (ejemplo: predeterminado en caso de error inesperado. No debería suceder o muy raramente sucede)</li></ul> |
+|  | lastEjecutedActionErrorCode | Código de error de la última acción ejecutada | Código de error de la última acción en caso de error |
+|  | lastDataFetchErrorCode | Código de error de la última captura de datos | Código de error de la última captura de datos desde fuentes de datos |
+| Tiempo | lastActionExecutionElapsedTime | Tiempo de ejecución de la última acción transcurrido | Tiempo empleado para ejecutar la última acción |
+|  | lastDataFetchElapsedTime | Último tiempo de recuperación de datos transcurrido | Tiempo empleado para ejecutar la última captura de datos desde orígenes de datos |
