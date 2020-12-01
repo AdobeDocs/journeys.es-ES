@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Vista previa de la carga útil
 description: Aprenda a previsualización de la carga útil
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 8%
+source-wordcount: '113'
+ht-degree: 7%
 
 ---
 
@@ -19,7 +19,7 @@ La previsualización de carga útil permite validar la definición de carga úti
 
 >[!NOTE]
 >
->Cuando cree un evento, antes de ver la previsualización de carga útil, guarde el evento y vuelva a abrirlo. Este paso es necesario para generar un ID de evento en la carga útil.
+>Para eventos generados por el sistema, cuando cree un evento, antes de ver la previsualización de carga útil, guarde el evento y vuelva a abrirlo. Este paso es necesario para generar un ID de evento en la carga útil.
 
 1. Haga clic en el **[!UICONTROL View Payload]** icono para previsualización de la carga útil esperada por el sistema.
 
