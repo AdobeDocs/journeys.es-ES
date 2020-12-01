@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Acerca de los eventos
 description: Más información sobre eventos
 translation-type: tm+mt
-source-git-commit: c66c09441f69e7026c60c37f87972e1e4ac9f7f8
+source-git-commit: 3dd7cd4dc4e4398b029dd1becd11c8dd7e7c3542
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 54%
+source-wordcount: '374'
+ht-degree: 55%
 
 ---
 
@@ -29,13 +29,13 @@ Si edita un evento utilizado en un recorrido en borrador o activo, solo puede ca
 
 Puede definir dos tipos de eventos:
 
-* **Eventos basados** en reglas: este tipo de evento no genera un eventID. Con el simple editor de expresiones, simplemente define una regla que utilizará el sistema para identificar los eventos relevantes que activarán sus viajes. Esta regla se puede basar en cualquier campo disponible en la carga útil de evento, por ejemplo la ubicación del perfil o el número de elementos agregados al carro de perfiles.
+* **Componentes** basados en reglas: este tipo de evento no genera un eventID. Con el simple editor de expresiones, simplemente define una regla que utilizará el sistema para identificar los eventos relevantes que activarán sus viajes. Esta regla se puede basar en cualquier campo disponible en la carga útil de evento, por ejemplo la ubicación del perfil o el número de elementos agregados al carro de perfiles.
 
    >[!CAUTION]
    >
-   >Se define una regla de límite para eventos basados en reglas. Limita el número de eventos cualificados que un viaje puede procesar a 400 k por minuto. Para obtener más información, póngase en contacto con el punto de contacto del programa Alfa. Además de esta regla de límite, se define un límite de 5000 eventos para segundos en el nivel de viaje.
+   >Se define una regla de límite para eventos basados en reglas. Limita el número de eventos cualificados que un viaje puede procesar a 5000 por segundo para una organización determinada (ORG). Corresponde a los SLA Journey Orchestration. Consulte esta [página](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html).
 
-* **Eventos generados** por el sistema: estos eventos requieren un eventID. Este campo eventID se genera automáticamente al crear el evento. El sistema que empuja el evento no debe generar un ID, debe pasar el disponible en la previsualización de carga útil.
+* **Eventos** generados por el sistema: estos eventos requieren un eventID. Este campo eventID se genera automáticamente al crear el evento. El sistema que empuja el evento no debe generar un ID, debe pasar el disponible en la previsualización de carga útil.
 
 Para obtener información sobre cómo crear un evento, consulte esta [página](../event/about-creating.md).
 
