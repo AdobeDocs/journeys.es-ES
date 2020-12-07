@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Notas de la versión
 description: Más información sobre las notas de la versión
 translation-type: tm+mt
-source-git-commit: fe34587181d284944ce1af64b12ad1185c59f890
+source-git-commit: 010bccb16d2b6980ff758e3922d3bc315706f61b
 workflow-type: tm+mt
-source-wordcount: '2055'
-ht-degree: 77%
+source-wordcount: '2026'
+ht-degree: 78%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 77%
 # Notas de la versión {#release-notes}
 
 Esta página lista todas las nuevas funciones y mejoras de Journey Orchestration.
-También puede consultar las [Actualizaciones de documentación](../release-notes/documentation-updates.md).
+También puede consultar las [Actualizaciones de documentación](../release-notes/documentation-updates.md) más recientes.
 
 ## Versión de noviembre de 2020 {#november-release}
 
@@ -28,7 +28,7 @@ También puede consultar las [Actualizaciones de documentación](../release-note
 <tbody>
 <tr>
 <td>
-<p>Hemos agregado una nueva actividad de acción que permite empujar a los individuos de un viaje a otro. La actividad Jump le permite:
+<p>Una nueva actividad de acción permite llevar a los individuos de un viaje a otro. La actividad <strong>Jump</strong> le permite:
 </p>
 <ul>
 <li>simplificar el diseño de viajes muy complejos dividiéndolos en varios </li>
@@ -51,7 +51,6 @@ También puede consultar las [Actualizaciones de documentación](../release-note
 <td>
 <p>En el editor de expresiones avanzado, hemos agregado una nueva categoría en la lista de campos y funciones. Esta es la información recuperada por el sistema de los viajes en directo, como la ID del viaje o los errores específicos encontrados. Esto le dará más posibilidades al construir sus viajes. Por ejemplo, podrá avisar a sistemas de terceros en caso de que se produzcan errores en una condición o una acción.
 </p>
-<p>Tenga en cuenta que esta función estará disponible en los próximos días.</p>
 <p>Para obtener más información, consulte la <a href="../expression/journey-properties.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -67,9 +66,8 @@ También puede consultar las [Actualizaciones de documentación](../release-note
 <tbody>
 <tr>
 <td>
-<p>Hemos agregado un nuevo método para configurar sus eventos más fácilmente. Esta función, que se ha probado entre un conjunto limitado de clientes a través del programa Alpha, ahora está disponible en versión beta para todos los clientes. Este nuevo método no requiere el uso de un eventID. Evalúa si el evento debe activarse según una condición. Puede seguir utilizando el método existente, ahora denominado "generado por el sistema".
+<p>Ahora hay disponible un nuevo método para configurar sus eventos más fácilmente, sin usar un eventID: los eventos basados en reglas evalúan si el evento debe activarse según una condición. Puede seguir utilizando el método existente, ahora denominado "generado por el sistema". Esta función, que se ha probado entre un conjunto limitado de clientes a través del programa Alpha, ahora está disponible en versión beta para todos los clientes.
 </p>
-<p>Tenga en cuenta que esta función estará disponible en los próximos días.</p>
 <p>Para obtener más información, consulte la <a href="../event/about-events.md">documentación detallada</a>.</p>
 </td>
 </tr>
