@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Saltar de un viaje a otro
 description: Saltar de un viaje a otro
 translation-type: tm+mt
-source-git-commit: fe34587181d284944ce1af64b12ad1185c59f890
+source-git-commit: 010bccb16d2b6980ff758e3922d3bc315706f61b
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
@@ -14,27 +14,27 @@ ht-degree: 0%
 
 # Saltar de un viaje a otro {#jump}
 
-La actividad de acción **Jump** le permite llevar a los individuos de un viaje a otro. Esta función le permite:
+La actividad de acción **[!UICONTROL Jump]** le permite llevar a los individuos de un viaje a otro. Esta función le permite:
 
 * simplificar el diseño de viajes muy complejos dividiéndolos en varios
 * construir viajes basados en patrones de viaje comunes y reutilizables
 
-En el viaje en origen, simplemente agregue un **salto** y seleccione un viaje en destinatario. Cuando el individuo entra en el paso de salto, se envía un evento interno al primer evento del viaje de destinatario. Si la acción de salto es exitosa, el individuo continúa avanzando en el viaje. El comportamiento es similar al de otras acciones.
+En el viaje en origen, simplemente agregue una actividad **[!UICONTROL Jump]** y seleccione un viaje en destinatario. Cuando el individuo entra en el paso **[!UICONTROL Jump]**, se envía un evento interno al primer evento del viaje de destinatario. Si la acción **[!UICONTROL Jump]** tiene éxito, el individuo continúa avanzando en el viaje. El comportamiento es similar al de otras acciones.
 
-En el viaje en destinatario, el primer evento desencadenado internamente por el salto hará el flujo individual en el viaje.
+En el viaje en destinatario, el primer evento desencadenado internamente por la actividad **[!UICONTROL Jump]** hará el flujo individual en el viaje.
 
 ## Ciclo de vida
 
-Supongamos que ha añadido un salto en un viaje A a un viaje B. El viaje A es el **viaje en origen** y el viaje B, el **viaje en destinatario**.
+Supongamos que ha agregado una **[!UICONTROL Jump]** actividad en un viaje A a un viaje B. El viaje A es el viaje **origen** y el viaje B, el viaje **destinatario**.
 Estos son los diferentes pasos del proceso de ejecución:
 
 **Viaje** Ais activado desde un evento externo:
 
 1. El Viaje A recibe un evento externo relacionado con un individuo.
-1. El individuo llega al paso de salto.
-1. El individuo es empujado al Viaje B, y continúa hacia los siguientes pasos en el Viaje A, después del salto.
+1. El individuo alcanza el paso **[!UICONTROL Jump]**.
+1. El individuo es empujado al Viaje B, y pasa a los siguientes pasos en Viaje A, después del paso **[!UICONTROL Jump]**.
 
-En el viaje B, el primer evento se desencadena internamente, a través del salto desde el viaje A:
+En el viaje B, el primer evento se desencadena internamente mediante la actividad **[!UICONTROL Jump]** del viaje A:
 
 1. El Viaje B recibió un evento interno del Viaje A.
 1. Los inicios individuales que fluyen en el Viaje B.
@@ -43,31 +43,31 @@ En el viaje B, el primer evento se desencadena internamente, a través del salto
 >
 >El viaje B también se puede activar mediante un evento externo.
 
-## Notas importantes
+## Prácticas recomendadas y limitaciones
 
 ### Creación
 
-* El salto solo está disponible en viajes que utilizan una Área de nombres.
+* La actividad **[!UICONTROL Jump]** sólo está disponible en viajes que utilizan una Área de nombres.
 * Sólo se puede saltar a un viaje que utilice la misma Área de nombres que el viaje en origen.
 * No puede saltar a un viaje que inicio con un evento **de calificación de segmentos**.
-* No puede tener un salto y un evento de **calificación de segmento** en el mismo viaje.
-* Puede incluir tantos saltos como necesite en un viaje. Después de un salto, puede agregar cualquier actividad necesaria.
+* No puede tener una actividad **[!UICONTROL Jump]** y un evento **de calificación de segmentos** en el mismo viaje.
+* Puede incluir tantas **[!UICONTROL Jump]** actividades como necesite en un viaje. Después de **[!UICONTROL Jump]**, puede agregar cualquier actividad necesaria.
 * Puede tener tantos niveles de salto como sea necesario. Por ejemplo, Viaje A le lleva al viaje B, que le lleva al viaje C, etc.
-* El viaje en destinatario también puede incluir tantos saltos como sea necesario.
-* No se admiten patrones de bucle. No hay forma de vincular dos o más viajes que puedan crear un bucle infinito. La pantalla de configuración de la actividad **Jump** evita que haga esto.
+* El viaje en destinatario también puede incluir tantas **[!UICONTROL Jump]** actividades como sea necesario.
+* No se admiten patrones de bucle. No hay forma de vincular dos o más viajes que puedan crear un bucle infinito. La pantalla de configuración de la actividad **[!UICONTROL Jump]** evita que haga esto.
 
 ### Ejecución
 
-* Cuando se ejecuta el salto, se activa la última versión del viaje de destinatario.
-* Como de costumbre, un individuo único sólo puede estar presente una vez en el mismo viaje. Como resultado, si el individuo empujado del viaje en origen ya está en el viaje en destinatario, entonces el individuo no entrará en el viaje en destinatario. No se notificará ningún error en el salto porque se trata de un comportamiento normal.
+* Cuando se ejecuta la actividad **[!UICONTROL Jump]**, se activa la última versión del viaje de destinatario.
+* Como de costumbre, un individuo único sólo puede estar presente una vez en el mismo viaje. Como resultado, si el individuo empujado del viaje en origen ya está en el viaje en destinatario, entonces el individuo no entrará en el viaje en destinatario. No se registrará ningún error en la actividad **[!UICONTROL Jump]** porque es un comportamiento normal.
 
-## Configuración del salto
+## Configuración de la actividad Jump
 
-1. Diseñe su viaje de origen.
+1. Diseñe su **viaje en origen**.
 
    ![](../assets/jump1.png)
 
-1. En cualquier paso del viaje, agregue una actividad **Jump** desde la categoría **Action**. Añada una etiqueta y una descripción.
+1. En cualquier paso del viaje, agregue una actividad **[!UICONTROL Jump]** de la categoría **[!UICONTROL ACTIONS]**. Añada una etiqueta y una descripción.
 
    ![](../assets/jump2.png)
 
@@ -81,7 +81,7 @@ La lista muestra todas las versiones del viaje que están en modo borrador, acti
    >Puede hacer clic en el icono **Abrir viaje en destinatario**, en el lado derecho, para abrir el viaje en destinatario en una pestaña nueva.
 
 1. Seleccione el viaje en destinatario al que desea ir.
-El campo **Primer evento** se rellena con el nombre del primer evento del viaje de destinatario. Si el viaje en destinatario incluye varios eventos, el salto solo se permite en el primer evento.
+El campo **Primer evento** se rellena con el nombre del primer evento del viaje de destinatario. Si el viaje en destinatario incluye varios eventos, el **[!UICONTROL Jump]** sólo se permite en el primer evento.
 
    ![](../assets/jump4.png)
 
@@ -95,9 +95,9 @@ El campo **Primer evento** se rellena con el nombre del primer evento del viaje 
    >
    >La identidad del individuo se asigna automáticamente. Esta información no está visible en la interfaz.
 
-Se ha configurado el salto. Tan pronto como su viaje esté en vivo o en modo de prueba, los individuos que alcancen el salto serán empujados desde el viaje en destinatario.
+Se ha configurado la actividad **[!UICONTROL Jump]**. Tan pronto como su viaje esté activo o en modo de prueba, los individuos que alcancen el paso **[!UICONTROL Jump]** serán empujados desde el viaje de destinatario.
 
-Cuando se configura un salto en un viaje, se agrega automáticamente un icono de entrada de salto al comienzo del viaje en destinatario. Esto le ayuda a identificar que el viaje se puede activar externamente pero también internamente desde un salto.
+Cuando se configura una actividad **[!UICONTROL Jump]** en un viaje, se agrega automáticamente un icono de entrada **[!UICONTROL Jump]** al comienzo del viaje en destinatario. Esto le ayuda a identificar que el viaje se puede activar externamente pero también internamente desde una actividad **[!UICONTROL Jump]**.
 
 ![](../assets/jump7.png)
 
