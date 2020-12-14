@@ -5,11 +5,11 @@ user-guide-title: Journey Orchestration
 title: Guía de Journey Orchestration
 user-guide-description: Proporciona instrucciones prácticas para implementar y construir recorridos.
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9cd37af0281e9fb837c7bf52a52c8dbffd0d4a78
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '404'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 95%
       + [Ciclo de datos](using/event/about-data-cycle.md)
       + [Creación de un evento](using/event/about-creating.md)
       + [Aprovechamiento de Adobe Analytics](using/event/about-analytics.md)
-      + [Esquemas de ExperienceEvent](using/event/experience-event-schema.md)
+      + [Acerca de los esquemas de ExperienceEvent](using/event/experience-event-schema.md)
       + [Pasos adicionales para enviar eventos](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
    + [Definición de los campos de carga útil](using/event/defining-the-payload-fields.md)
    + [Selección del área de nombres](using/event/selecting-the-namespace.md)
@@ -79,7 +79,7 @@ ht-degree: 95%
          + [Acerca de las actividades de acción](using/building-journeys/about-action-activities.md)
          + [Uso de acciones de Adobe Campaign](using/building-journeys/using-adobe-campaign-actions.md)
          + [Uso de acciones personalizadas](using/building-journeys/using-custom-actions.md)
-         + [Saltar de un viaje a otro](using/building-journeys/jump.md)
+         + [Saltar de un recorrido a otro](using/building-journeys/jump.md)
    + [Prueba del recorrido](using/building-journeys/testing-the-journey.md)
    + [Publicación del recorrido](using/building-journeys/publishing-the-journey.md)
    + Uso compartido de los pasos del recorrido con Adobe Experience Platform {#sharing-journey-steps}
@@ -98,7 +98,7 @@ ht-degree: 95%
       + [Referencias de campo](using/expression/field-references.md)
       + [Funciones de administración de colecciones](using/expression/collection-management-functions.md)
       + [Operadores](using/expression/operators.md)
-      + [Propiedades del viaje](using/expression/journey-properties.md)
+      + [Propiedades del recorrido](using/expression/journey-properties.md)
       + [Ejemplos](using/expression/advanced-editor-use-cases.md)
    + Funciones {#main-functions-journey}
       + [Funciones principales](using/expression/functions.md)
