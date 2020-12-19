@@ -1,18 +1,18 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: Propiedades del viaje
+title: Propiedades del recorrido
 description: Obtenga información sobre las propiedades del viaje
 translation-type: tm+mt
 source-git-commit: 341138c31676870878099b4f4eecec200a614c69
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Propiedades del viaje {#journey-properties}
+# Propiedades del recorrido {#journey-properties}
 
 En el editor de expresiones avanzado, encontrará la categoría **Propiedades del viaje**, debajo de las categorías del evento y del origen de datos. Esta categoría contiene campos técnicos relacionados con el viaje de un perfil determinado. Esta es la información recuperada por el sistema de los viajes en directo, como la ID del viaje o los errores específicos encontrados.
 
