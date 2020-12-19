@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # toString {#toString}
 
-Convierte un valor de argumento en un valor de cadena, según su tipo. For more information on data types, refer to [this page](../expression/data-types.md).
+Convierte un valor de argumento en un valor de cadena, según su tipo. Para obtener más información sobre los tipos de datos, consulte [esta página](../expression/data-types.md).
 
 ## Categoría
 
