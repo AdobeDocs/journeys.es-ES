@@ -6,8 +6,8 @@ description: campos del recorrido
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 10%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -42,6 +42,6 @@ Tipo: string
 
 ## version
 
-Versión, representada como `major`.`minor`
+Versión representada como `major`.`minor`
 
 Tipo: string
