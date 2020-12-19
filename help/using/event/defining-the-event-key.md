@@ -6,8 +6,8 @@ description: Aprenda a definir la clave de evento
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 5%
 
 La clave es el campo o la combinación de campos que forma parte de los datos de carga útil de evento y que permitirá al sistema identificar a la persona asociada al evento. La clave puede ser, por ejemplo, el ID de Experience Cloud, un ID de CRM o una dirección de correo electrónico.
 
-Si planea aprovechar los datos almacenados en la base de datos de Perfil del cliente en tiempo real, debe seleccionar, como clave de evento, la información que definió como la identidad de un perfil en el servicio [de Perfil del cliente en tiempo](https://docs.adobe.com/content/help/es-ES/experience-platform/profile/home.html)real.
+Si planea aprovechar los datos almacenados en la base de datos de Perfil del cliente en tiempo real, debe seleccionar, como clave de evento, la información que definió como la identidad de un perfil en el [Servicio de Perfil del cliente en tiempo real](https://docs.adobe.com/content/help/es-ES/experience-platform/profile/home.html).
 
-Permitirá al sistema llevar a cabo la conciliación entre el evento y el perfil del individuo. Si selecciona un esquema que tiene una identidad principal, los campos **[!UICONTROL Key]** y **[!UICONTROL Namespace]** se rellenan previamente. Si no hay ninguna identidad definida, seleccionamos _identityMap > id_ como clave principal. A continuación, debe seleccionar una Área de nombres y la clave se rellenará previamente (debajo del **[!UICONTROL Namespace]** campo) mediante _identityMap > id_.
+Permitirá al sistema llevar a cabo la conciliación entre el evento y el perfil del individuo. Si selecciona un esquema que tiene una identidad principal, los campos **[!UICONTROL Key]** y **[!UICONTROL Namespace]** se rellenan previamente. Si no hay ninguna identidad definida, seleccionamos _identityMap > id_ como clave principal. Luego debe seleccionar una Área de nombres y la clave se rellenará previamente (debajo del campo **[!UICONTROL Namespace]**) mediante _identityMap > id_.
 
 Al seleccionar campos, los campos de identidad principales se etiquetan.
 
@@ -26,7 +26,7 @@ Al seleccionar campos, los campos de identidad principales se etiquetan.
 
 Si necesita utilizar una clave diferente, como un ID de CRM o una dirección de correo electrónico, debe agregarla manualmente:
 
-1. Haga clic dentro del **[!UICONTROL Key]** campo o en el icono del lápiz.
+1. Haga clic dentro del campo **[!UICONTROL Key]** o en el icono del lápiz.
 
    ![](../assets/journey16.png)
 
