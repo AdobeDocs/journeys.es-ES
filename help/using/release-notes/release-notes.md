@@ -22,7 +22,7 @@ También puede consultar las [Actualizaciones de documentación](../release-note
 <table>
 <thead>
 <tr>
-<th><strong>Saltar de un viaje a otro</strong><br/></th>
+<th><strong>Saltar de un recorrido a otro</strong><br/></th>
 </tr>
 </thead>
 <tbody>
