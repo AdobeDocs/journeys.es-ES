@@ -14,11 +14,11 @@ ht-degree: 14%
 
 # Configuración de las fuentes de datos {#concept_vml_hdy_w2b}
 
-En nuestro caso de uso, queremos utilizar datos de personalización para nuestros mensajes. También tenemos que comprobar si la persona es miembro de fidelidad y no ha sido contactada en las últimas 24 horas. Esta información se almacena en la base de datos de Perfil del cliente en tiempo real. El usuario **** técnico debe configurar el origen de datos de Adobe Experience Platform para recuperar dichos campos.
+En nuestro caso de uso, queremos utilizar datos de personalización para nuestros mensajes. También tenemos que comprobar si la persona es miembro de fidelidad y no ha sido contactada en las últimas 24 horas. Esta información se almacena en la base de datos de Perfil del cliente en tiempo real. El **usuario técnico** debe configurar el origen de datos de Adobe Experience Platform para recuperar esos campos.
 
-Para obtener información adicional sobre la configuración del origen de datos, consulte [esta página](../datasource/about-data-sources.md).
+Para obtener información adicional sobre la configuración de la fuente de datos, consulte [esta página](../datasource/about-data-sources.md).
 
-1. En el menú superior, haga clic en la **[!UICONTROL Data Sources]** ficha y seleccione el origen de datos de Adobe Experience Platform integrado.
+1. En el menú superior, haga clic en la ficha **[!UICONTROL Data Sources]** y seleccione el origen de datos de Adobe Experience Platform integrado.
 
    ![](../assets/journey23.png)
 
@@ -28,19 +28,19 @@ Para obtener información adicional sobre la configuración del origen de datos,
    * _persona > nombre > apellido_
    * _personalEmail > dirección_
 
-1. Haga clic en **[!UICONTROL Add a New Field Group]**, seleccione un **[!UICONTROL Profiles]** esquema y agregue el campo miembro **de** Lealtad para nuestra condición. El campo **miembro** Lealtad es un campo personalizado y se agregó en XDM: &quot;_customer > marlton > loyaltyMember&quot;
+1. Haga clic en **[!UICONTROL Add a New Field Group]**, seleccione un esquema **[!UICONTROL Profiles]** y agregue el campo **miembro de lealtad** para nuestra condición. El campo **miembro de lealtad** es un campo personalizado y se agregó en XDM: &quot;_customer > marlton > loyaltyMember&quot;
 
    ![](../assets/journeyuc2_6.png)
 
-1. Haga clic en **[!UICONTROL Add a New Field Group]**, seleccione un **[!UICONTROL ExperienceEvent]** esquema y elija los campos necesarios para nuestra condición en el número de mensajes enviados en un período determinado: _marca de hora_ para la fecha y _directMarketing > envía > valor_ para el número de mensajes enviados.
+1. Haga clic en **[!UICONTROL Add a New Field Group]**, seleccione un esquema **[!UICONTROL ExperienceEvent]** y elija los campos necesarios para nuestra condición en el número de mensajes enviados en un período determinado: _marca de hora_ para la fecha y _directMarketing > envía > valor_ para el número de mensajes enviados.
 
    ![](../assets/journeyuc2_7.png)
 
 1. Haga clic en **[!UICONTROL Save]**.
 
-También tenemos que comprobar si la persona tiene una reserva en el sistema de reservas del hotel. El usuario **** técnico debe configurar una segunda fuente de datos para recuperar este campo.
+También tenemos que comprobar si la persona tiene una reserva en el sistema de reservas del hotel. El **usuario técnico** debe configurar un segundo origen de datos para recuperar este campo.
 
-1. En lista de fuentes de datos, haga clic en **[!UICONTROL Add]** para agregar una nueva fuente de datos externa para definir la conexión a su sistema de reservas de hotel.
+1. En lista de fuentes de datos, haga clic en **[!UICONTROL Add]** para agregar una nueva fuente de datos externa para definir la conexión con su sistema de reservación de hoteles.
 
    ![](../assets/journeyuc2_9.png)
 
@@ -58,7 +58,7 @@ También tenemos que comprobar si la persona tiene una reserva en el sistema de 
 
    * **[!UICONTROL Method]**: seleccione el método POST o GET. En nuestro caso, seleccionamos el método GET.
    * **[!UICONTROL Cache duration]**:: esto varía según la frecuencia de las llamadas a la API. En nuestro caso, el sistema de reservas se actualiza cada 10 minutos.
-   * **[!UICONTROL Response Payload]**:: haga clic dentro del **[!UICONTROL Payload]** campo y pegue un ejemplo de la carga útil. Compruebe que los tipos de campo son correctos. Cada vez que se llama a la API, el sistema recupera todos los campos incluidos en el ejemplo de carga útil. En nuestro ejemplo, la carga útil solo contiene el estado de reserva:
+   * **[!UICONTROL Response Payload]**:: haga clic dentro del  **[!UICONTROL Payload]** campo y pegue un ejemplo de la carga útil. Compruebe que los tipos de campo son correctos. Cada vez que se llama a la API, el sistema recupera todos los campos incluidos en el ejemplo de carga útil. En nuestro ejemplo, la carga útil solo contiene el estado de reserva:
 
    ```
    {
