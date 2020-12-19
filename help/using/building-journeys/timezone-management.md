@@ -6,8 +6,8 @@ description: Obtenga información sobre la administración de husos horarios
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -44,7 +44,7 @@ Si se define una zona horaria en el perfil de Adobe Experience Platform, se pued
 
 Si el perfil del individuo no contiene una zona horaria, la zona horaria recuperada será la definida en el campo de zona horaria.
 
-Para hacerlo, en **[!UICONTROL Properties]**, verifique **[!UICONTROL Use Profile timezone in timers and conditions]**.
+Para ello, en **[!UICONTROL Properties]**, marque **[!UICONTROL Use Profile timezone in timers and conditions]**.
 
 ![](../assets/journey72.png)
 
