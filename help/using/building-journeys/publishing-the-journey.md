@@ -21,7 +21,7 @@ Si necesita realizar modificaciones en un viaje publicado, debe crear una nueva 
 Si detienes un viaje, se detendrá permanentemente. Todas las personas que fluyen en el viaje se detendrán permanentemente y el viaje dejará de permitir nuevas entradas. Si necesita volver a utilizar el viaje, debe duplicado y publicarlo.
 
 1. Antes de publicar el viaje, compruebe que sea válido y que no haya ningún error. No podrás publicar un viaje con errores. Consulte [esta sección](../about/troubleshooting.md#section_h3q_kqk_fhb). También se recomienda probar el viaje antes de la publicación. Consulte [esta página](../building-journeys/testing-the-journey.md).
-1. Para publicar el viaje, haga clic en la **[!UICONTROL Publish]** opción, ubicada en el menú desplegable superior derecho.
+1. Para publicar el viaje, haga clic en la opción **[!UICONTROL Publish]**, ubicada en el menú desplegable superior derecho.
 
    ![](../assets/journeyuc1_18.png)
 
