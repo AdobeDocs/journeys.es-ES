@@ -6,8 +6,8 @@ description: Obtenga información sobre los tipos de datos en expresiones avanza
 translation-type: tm+mt
 source-git-commit: a95b8311aff2d95402afa9b80488ced2a3e6fbba
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -118,7 +118,7 @@ false
 true
 ```
 
-## dateTimeOnly {#date-time-only}
+## dateTimeOnly {#date-time-only}
 
 **Descripción**
 
