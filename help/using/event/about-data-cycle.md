@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: b3ed5d305ddd1c86814373fc923390dc50a80c7e
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 78%
+ht-degree: 79%
 
 ---
 
@@ -20,4 +20,4 @@ La carga útil contiene la información requerida por las API de ingesta de tran
 
 Después de llegar a través de las API de ingesta de transmisión, los eventos fluyen a un servicio interno llamado Canalización y, a continuación, a Adobe Experience Platform. Si el esquema de evento tiene habilitado el indicador de Servicio de Perfil del cliente en tiempo real y un ID de conjunto de datos que también tiene el indicador de Perfil del cliente en tiempo real, se desplaza al servicio de Perfil del cliente en tiempo real.
 
-For system-generated events, the Pipeline filters events which have a payload containing [!DNL Journey Orchestration] eventIDs (see the event creation process below) provided by [!DNL Journey Orchestration] and contained in event payload. Para eventos basados en reglas, el sistema identifica el evento mediante la condición eventID. Estos eventos son escuchados por [!DNL Journey Orchestration] y se activa el recorrido correspondiente.
+Para los eventos generados por el sistema, los eventos de filtros de canalización que tienen una carga útil que contiene [!DNL Journey Orchestration] eventIDs (consulte el proceso de creación de eventos más abajo) proporcionados por [!DNL Journey Orchestration] y contenidos en la carga útil de evento. Para eventos basados en reglas, el sistema identifica el evento mediante la condición eventID. Estos eventos son escuchados por [!DNL Journey Orchestration] y se activa el recorrido correspondiente.
