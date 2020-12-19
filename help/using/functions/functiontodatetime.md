@@ -34,7 +34,7 @@ Conversión
 
 >[!NOTE]
 >
->La identificación del huso horario debe ser una constante de cadena. No puede ser una referencia de campo ni una expresión. For more information on data types, refer to [this page](../expression/data-types.md).
+>La identificación del huso horario debe ser una constante de cadena. No puede ser una referencia de campo ni una expresión. Para obtener más información sobre los tipos de datos, consulte [esta página](../expression/data-types.md).
 
 ## Firmas y tipos devueltos
 
