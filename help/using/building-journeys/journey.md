@@ -14,23 +14,23 @@ ht-degree: 17%
 
 # Creación de un recorrido {#concept_gq5_sqt_52b}
 
-This step is performed by the **business user**. Aquí es donde crea sus viajes. Combine las distintas actividades de evento, orquestación y acción para crear sus escenarios de canal cruzado de varios pasos.
+Este paso lo realiza el **usuario del negocio**. Aquí es donde crea sus viajes. Combine las distintas actividades de evento, orquestación y acción para crear sus escenarios de canal cruzado de varios pasos.
 
 La interfaz de viaje permite arrastrar y soltar fácilmente actividades de la paleta en el lienzo. También puede hacer clic con el botón doble en una actividad para agregarla al lienzo en el siguiente paso disponible. Cada actividad tiene una función y un lugar específicos en el proceso. Las actividades se secuencian. Cuando finaliza una actividad, el flujo continúa y procesa la siguiente actividad, etc.
 
 Sólo se permite una Área de nombres por viaje. Cuando sueltes el primer evento, los eventos con diferentes Áreas de nombres aparecerán atenuados. Si el primer evento no tiene una Área de nombres, entonces todos los eventos con una Área de nombres estarán atenuados. Consulte [esta página](../event/selecting-the-namespace.md). Además, los grupos de campo de Adobe Experience Platform aparecen atenuados si el viaje tiene eventos sin Área de nombres. Y finalmente, si uno usa varios eventos en el mismo viaje, ellos necesitan usar la misma Área de nombres.
 
-## Quick start {#creating_journey}
+## Inicio rápido {#creating_journey}
 
 Estos son los pasos principales para crear y publicar un viaje.
 
 1. En el menú superior, haga clic en la pestaña **[!UICONTROL Home]**.
 
-   Se muestra la lista de los viajes. Refer to [this page](../building-journeys/using-the-journey-designer.md) for more information on the interface.
+   Se muestra la lista de los viajes. Consulte [esta página](../building-journeys/using-the-journey-designer.md) para obtener más información sobre la interfaz.
 
    ![](../assets/journey30.png)
 
-1. Click **[!UICONTROL Create]** to create a new journey.
+1. Haga clic en **[!UICONTROL Create]** para crear un nuevo viaje.
 
    ![](../assets/journey31.png)
 
@@ -42,11 +42,11 @@ Estos son los pasos principales para crear y publicar un viaje.
 
    ![](../assets/journey33.png)
 
-1. Arrastre y suelte las demás actividades y configúrelas. Consulte las actividades [de](../building-journeys/event-activities.md)Evento de páginas, [Acerca de las actividades](../building-journeys/about-orchestration-activities.md) de orquestación y [Acerca de las actividades](../building-journeys/about-action-activities.md)de acción.
+1. Arrastre y suelte las demás actividades y configúrelas. Consulte las páginas [actividades de Evento](../building-journeys/event-activities.md), [Acerca de las actividades de orquestación](../building-journeys/about-orchestration-activities.md) y [Acerca de las actividades de acción](../building-journeys/about-action-activities.md).
 
    ![](../assets/journey34.png)
 
-1. Su viaje se guarda automáticamente. Pruebe su viaje y publíquelo. Consulte [Prueba del viaje](../building-journeys/testing-the-journey.md) y [Publicación del viaje](../building-journeys/publishing-the-journey.md).
+1. Su viaje se guarda automáticamente. Pruebe su viaje y publíquelo. Consulte [prueba del viaje](../building-journeys/testing-the-journey.md) y [Publicación del viaje](../building-journeys/publishing-the-journey.md).
 
    ![](../assets/journey36.png)
 
