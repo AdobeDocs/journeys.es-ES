@@ -6,8 +6,8 @@ description: Obtenga información sobre los eventos de calificación de segmento
 translation-type: tm+mt
 source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 ## Acerca de los eventos de calificación de segmentos{#about-segment-qualification}
 
-Esta actividad permite que su viaje escuche las entradas y salidas de perfiles en segmentos de Adobe Experience Platform para hacer que los individuos entren o avancen en un viaje. For more information on segment creation, refer to this [section](../segment/about-segments.md).
+Esta actividad permite que su viaje escuche las entradas y salidas de perfiles en segmentos de Adobe Experience Platform para hacer que los individuos entren o avancen en un viaje. Para obtener más información sobre la creación de segmentos, consulte esta [sección](../segment/about-segments.md).
 
 Supongamos que tiene un segmento &quot;cliente plateado&quot;. Con esta actividad, puede hacer que todos los nuevos clientes plateados entren en un viaje y les envíen una serie de mensajes personalizados.
 
@@ -24,18 +24,18 @@ Este tipo de evento se puede posicionar como el primer paso o más tarde en el v
 
 >[!IMPORTANT]
 >
->Tenga en cuenta que los segmentos de Adobe Experience Platform se calculan una vez al día (segmentos **por lotes** ) o en tiempo real (segmentos **transmitidos** , mediante la opción Audiencias de alta frecuencia de Adobe Experience Platform).
+>Tenga en cuenta que los segmentos de Adobe Experience Platform se calculan una vez al día (**segmentos por lotes**) o en tiempo real (**segmentos transmitidos**, utilizando la opción Audiencias de alta frecuencia de Adobe Experience Platform).
 >
 >Si el segmento seleccionado se transmite por flujo continuo, los individuos pertenecientes a este segmento potencialmente entrarán en el viaje en tiempo real. Si el segmento es por lotes, las personas que acaban de cumplir los requisitos para este segmento posiblemente entrarán en el viaje cuando el cálculo del segmento se ejecute en el Adobe Experience Platform.
 
 
-1. Despliegue la **[!UICONTROL Events]** categoría y suelte una **[!UICONTROL Segment qualification]** actividad en el lienzo.
+1. Despliegue la categoría **[!UICONTROL Events]** y suelte una actividad **[!UICONTROL Segment qualification]** en el lienzo.
 
    ![](../assets/segment5.png)
 
-1. Añada un **[!UICONTROL Label]** a la actividad. Este paso es opcional.
+1. Añada un **[!UICONTROL Label]** en la actividad. Este paso es opcional.
 
-1. Haga clic en el **[!UICONTROL Segment]** campo y seleccione los segmentos que desee aprovechar.
+1. Haga clic en el campo **[!UICONTROL Segment]** y seleccione los segmentos que desee aprovechar.
 
    >[!NOTE]
    >
@@ -43,13 +43,13 @@ Este tipo de evento se puede posicionar como el primer paso o más tarde en el v
 
    ![](../assets/segment6.png)
 
-   Una vez agregado el segmento, el **[!UICONTROL Copy]** botón le permite copiar su nombre y su ID:
+   Una vez agregado el segmento, el botón **[!UICONTROL Copy]** le permite copiar su nombre e ID:
 
    `{"name":"Loyalty membership“,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](../assets/segment-copy.png)
 
-1. En el **[!UICONTROL Behavior]** campo, elija si desea escuchar las entradas, salidas o ambos segmentos.
+1. En el campo **[!UICONTROL Behavior]**, elija si desea escuchar las entradas, salidas o ambos segmentos.
 
 1. Seleccione una Área de nombres. Esto solo es necesario si el evento está posicionado como el primer paso del viaje.
 
@@ -61,15 +61,15 @@ La carga útil contiene la siguiente información de contexto, que puede utiliza
 * la marca de tiempo de la cualificación
 * la identificación del segmento
 
-Al utilizar el editor de expresiones en una condición o acción que sigue a una **[!UICONTROL Segment qualification]** actividad, tiene acceso al **[!UICONTROL SegmentQualification]** nodo. Puede elegir entre **[!UICONTROL Last qualification time]** y **[!UICONTROL status]** (entrar o salir).
+Al utilizar el editor de expresiones en una condición o acción que sigue a una actividad **[!UICONTROL Segment qualification]**, tiene acceso al nodo **[!UICONTROL SegmentQualification]**. Puede elegir entre **[!UICONTROL Last qualification time]** y **[!UICONTROL status]** (entrar o salir).
 
-Consulte actividad [de condición](../building-journeys/condition-activity.md#about_condition).
+Consulte [actividad de condición](../building-journeys/condition-activity.md#about_condition).
 
 ![](../assets/segment8.png)
 
 ## Prácticas recomendadas {#best-practices-segments}
 
-La **[!UICONTROL Segment Qualification]** actividad permite la entrada inmediata en los viajes de personas calificadas o descalificadas de un segmento de Adobe Experience Platform.
+La actividad **[!UICONTROL Segment Qualification]** permite la entrada inmediata en los viajes de personas calificadas o descalificadas de un segmento de Adobe Experience Platform.
 
 La velocidad de recepción de esta información es alta. Las mediciones realizadas muestran una velocidad de 10 000 eventos recibidos por segundos. Como resultado, hay que asegurarse de comprender cómo pueden producirse los picos de entrada, cómo evitarlos y cómo preparar el viaje para ellos.
 
@@ -79,17 +79,17 @@ Al utilizar la cualificación de segmentos para un segmento por lotes, tenga en 
 
 Además, si el segmento por lotes se acaba de crear y se utiliza inmediatamente en un viaje, el primer lote de cálculo podría hacer que un gran número de personas entrara en el viaje.
 
-### Segmentos de flujo continuo{#streamed-speed-segment-qualification}
+### Segmentos transmitidos{#streamed-speed-segment-qualification}
 
 Al utilizar la cualificación de segmentos para segmentos transmitidos, hay menos riesgo de obtener grandes picos de entradas y salidas debido a la evaluación continua del segmento. Sin embargo, si la definición del segmento lleva a que un gran volumen de clientes califique al mismo tiempo, también podría haber un pico.
 
-For more information on streaming segmentation, refer to this [page](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
+Para obtener más información sobre la segmentación de flujo continuo, consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
 
 ### Cómo evitar las sobrecargas{#overloads-speed-segment-qualification}
 
 Estas son algunas de las prácticas recomendadas que ayudarán a evitar la sobrecarga de sistemas en los viajes (fuentes de datos, acciones personalizadas, acciones de Adobe Campaign Standard).
 
-No utilice, en una **[!UICONTROL Segment Qualification]** actividad, un segmento por lotes inmediatamente después de su creación. Evitará el primer pico de cálculo. Tenga en cuenta que habrá una advertencia amarilla en el lienzo del viaje si está a punto de usar un segmento que nunca se ha calculado.
+No utilice, en una actividad **[!UICONTROL Segment Qualification]**, un segmento por lotes inmediatamente después de su creación. Evitará el primer pico de cálculo. Tenga en cuenta que habrá una advertencia amarilla en el lienzo del viaje si está a punto de usar un segmento que nunca se ha calculado.
 
 ![](../assets/segment-error.png)
 
