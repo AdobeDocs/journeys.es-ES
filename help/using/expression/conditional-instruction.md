@@ -6,13 +6,13 @@ description: Más información sobre la instrucción condicional
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
-# Instrucción condicional (si, entonces, otra) {#section_cdz_lsk_w3b}
+# Instrucción condicional (si, entonces, else) {#section_cdz_lsk_w3b}
 
 La instrucción condicional (si, por lo tanto, si no) se admite en el editor avanzado. Permite definir expresiones más complejas. Se compone de los siguientes elementos:
 
@@ -32,9 +32,9 @@ else
    (<expression3>)
 ```
 
-`<expression1>` debe devolver un **booleano**.
+`<expression1>` debe devolver un  **booleano**.
 
-`<expression2>` y `<expression3>` debe tener el mismo tipo o tipos compatibles. Las firmas admitidas y los tipos devueltos son:
+`<expression2>` y  `<expression3>` debe tener el mismo tipo o tipos compatibles. Las firmas admitidas y los tipos devueltos son:
 
 ```
 boolean,boolean : boolean
