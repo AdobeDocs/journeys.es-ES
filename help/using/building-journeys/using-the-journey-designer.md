@@ -14,11 +14,11 @@ ht-degree: 5%
 
 # Uso del diseñador de recorridos {#concept_m1g_5qt_52b}
 
-El menú Inicio del viaje le permite vista de la **lista de los viajes**. Cree un nuevo viaje o haga clic en uno existente para abrir la interfaz **del diseñador del** viaje. El diseñador se compone de las siguientes zonas: la paleta, el lienzo y el panel de configuración de la actividad.
+El menú Inicio del viaje le permite realizar la vista de la **lista de viajes**. Cree un nuevo viaje o haga clic en uno existente para abrir la interfaz del **diseñador de viajes**. El diseñador se compone de las siguientes zonas: la paleta, el lienzo y el panel de configuración de la actividad.
 
 ## La lista del viaje {#journey_list}
 
-The **journey list** allows you to view all your journeys at once, see their status and perform basic actions. Puede duplicar, detener o eliminar recorridos. Según el recorrido, es posible que algunas acciones no estén disponibles. Por ejemplo, no se puede eliminar ni reiniciar un recorrido cerrado. Puede crear una nueva versión a partir de ella, duplicado o deteniéndola. También puede utilizar la barra de búsqueda para buscar un recorrido.
+La **lista de viaje** le permite realizar vistas de todos sus viajes a la vez, ver su estado y realizar acciones básicas. Puede duplicar, detener o eliminar recorridos. Según el recorrido, es posible que algunas acciones no estén disponibles. Por ejemplo, no se puede eliminar ni reiniciar un recorrido cerrado. Puede crear una nueva versión a partir de ella, duplicado o deteniéndola. También puede utilizar la barra de búsqueda para buscar un recorrido.
 
 Se puede acceder a **[!UICONTROL Filters]** haciendo clic en el icono de filtro en la parte superior izquierda de la lista. El menú filtros le permite filtrar los viajes mostrados según diferentes criterios (estado, los que ha creado, los modificados en los últimos 30 días, versiones más recientes, etc.). También puede elegir mostrar únicamente los viajes que utilizan un evento, un grupo de campos o una acción concretos. Se pueden configurar las columnas que se muestran en la lista. Todos los filtros y columnas se guardan por usuario.
 
@@ -30,7 +30,7 @@ Todas las versiones de sus viajes aparecen en la lista con el número de versió
 
 >[!NOTE]
 >
->Para abrir el lienzo de un viaje en otra ficha del navegador, mantenga pulsada la tecla **Control** o **Comando** y haga clic en el viaje.
+>Para abrir el lienzo de un viaje en otra ficha del explorador, mantenga pulsada la tecla **Control** o **Comando** y haga clic en el viaje.
 
 ## La paleta {#palette}
 
@@ -42,33 +42,33 @@ La **paleta** se encuentra en el lado izquierdo de la pantalla. Todas las activi
 
 ![](../assets/journey38.png)
 
-The **[!UICONTROL Show disabled items]** icon in the top left corner allows you to hide or display unavailable elements in the palette, for example the events that use a different namespace than the ones used in your journey. De forma predeterminada, los elementos no disponibles están ocultos. Si elige mostrarlos, aparecerán atenuados.
+El icono **[!UICONTROL Show disabled items]** de la esquina superior izquierda permite ocultar o mostrar elementos no disponibles en la paleta, por ejemplo, los eventos que utilizan una Área de nombres distinta a la utilizada en el viaje. De forma predeterminada, los elementos no disponibles están ocultos. Si elige mostrarlos, aparecerán atenuados.
 
-Al utilizar el **[!UICONTROL Search]** campo, se muestra el número de resultados para cada categoría de actividad de lienzo.
+Al utilizar el campo **[!UICONTROL Search]**, se muestra el número de resultados para cada categoría de actividad de lienzo.
 
 ![](../assets/palette-filter.png)
 
 ## El lienzo {#canvas}
 
-El **lienzo** es la zona central del diseñador de viajes. Es en esta zona donde puede soltar sus actividades y configurarlas. Haga clic en una actividad del lienzo para configurarla. Esto abre el panel de configuración de actividad en el lado derecho. Puede acercar y alejar con los botones &quot;+&quot; y &quot;-&quot; de la parte superior derecha. En el lienzo, todas las actividades permiten agregar un paso siguiente después de ellas, excepto **[!UICONTROL End]** actividades (consulte [esta página](../building-journeys/end-activity.md)).
+El **lienzo** es la zona central del diseñador del viaje. Es en esta zona donde puede soltar sus actividades y configurarlas. Haga clic en una actividad del lienzo para configurarla. Esto abre el panel de configuración de actividad en el lado derecho. Puede acercar y alejar con los botones &quot;+&quot; y &quot;-&quot; de la parte superior derecha. En el lienzo, todas las actividades le permiten agregar un paso siguiente después de ellas, excepto **[!UICONTROL End]** actividades (consulte [esta página](../building-journeys/end-activity.md)).
 
 ![](../assets/journey39.png)
 
 ## Panel de configuración de actividad {#configuration_pane}
 
-El panel **de configuración de la** actividad aparece al hacer clic en una actividad de la paleta. Rellene los campos obligatorios. Haga clic en el **[!UICONTROL Delete]** icono para eliminar la actividad. Haga clic en **[!UICONTROL Cancel]** para cancelar las modificaciones o **[!UICONTROL Ok]** confirmar. Para eliminar actividades, también puede seleccionar una actividad (o varias) y pulsar la tecla de retroceso. Al pulsar la tecla de escape se cerrará el panel de configuración de la actividad.
+El **panel de configuración de actividad** aparece al hacer clic en una actividad de la paleta. Rellene los campos obligatorios. Haga clic en el icono **[!UICONTROL Delete]** para eliminar la actividad. Haga clic en **[!UICONTROL Cancel]** para cancelar las modificaciones o **[!UICONTROL Ok]** para confirmar. Para eliminar actividades, también puede seleccionar una actividad (o varias) y pulsar la tecla de retroceso. Al pulsar la tecla de escape se cerrará el panel de configuración de la actividad.
 
-En el lienzo, las actividades de acción y evento se representan con un icono con el nombre del evento o la acción que se muestra debajo. En el panel de configuración de actividad, puede utilizar el **[!UICONTROL Label]** campo para agregar un sufijo al nombre de la actividad. Estas etiquetas le ayudarán a contextualizar el uso de eventos y acciones, especialmente cuando utiliza el mismo evento o acción varias veces en el viaje. También podrá ver las etiquetas agregadas en el [!DNL Journey Orchestration] sistema de informes. También puede definir etiquetas para las actividades de condiciones.
+En el lienzo, las actividades de acción y evento se representan con un icono con el nombre del evento o la acción que se muestra debajo. En el panel de configuración de actividad, puede utilizar el campo **[!UICONTROL Label]** para agregar un sufijo al nombre de la actividad. Estas etiquetas le ayudarán a contextualizar el uso de eventos y acciones, especialmente cuando utiliza el mismo evento o acción varias veces en el viaje. También podrá ver las etiquetas agregadas en el sistema de informes [!DNL Journey Orchestration]. También puede definir etiquetas para las actividades de condiciones.
 
 ![](../assets/journey59bis.png)
 
-## Acciones de la barra superior {#top_actions}
+## Las acciones de la barra superior {#top_actions}
 
 Según el estado del viaje, puede realizar diferentes acciones en el viaje con los botones disponibles en la esquina superior derecha: **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**. Estos botones aparecen cuando no hay ninguna actividad seleccionada. Algunos botones aparecerán contextualmente. El botón de registro del modo de prueba aparece cuando se activa el modo de prueba (consulte [esta página](../building-journeys/testing-the-journey.md)). El botón de sistema de informes aparece cuando el viaje está activo, detenido o cerrado.
 
 ![](../assets/journey41.png)
 
-## Uso de rutas en el lienzo {#paths}
+## El uso de rutas en el lienzo {#paths}
 
 Varias actividades (**[!UICONTROL Condition]**, **[!UICONTROL Action]** actividades) permiten definir una acción de reserva en caso de error o de tiempo de espera. En el panel de configuración de actividad, marque la casilla: **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Se agrega otra ruta después de la actividad. La duración del tiempo de espera se define en las propiedades del viaje (consulte [esta página](../building-journeys/changing-properties.md) por un usuario administrador. Por ejemplo, si un correo electrónico tarda demasiado en enviarse o se produce un error, puede decidir enviar un mensaje de texto.
 
@@ -78,7 +78,7 @@ Varias actividades (evento, acción, espera) permiten agregar varias rutas despu
 
 Al escuchar un evento, le recomendamos que no espere indefinidamente al evento. No es obligatorio, sino una práctica recomendada. Si desea escuchar uno o varios eventos solo durante un tiempo determinado, colocará uno o varios eventos y una actividad de espera en paralelo. Consulte [esta sección](../building-journeys/event-activities.md#section_vxv_h25_pgb).
 
-Para eliminar la ruta, coloque el cursor sobre ella y haga clic en el **[!UICONTROL Delete arrow]** icono .
+Para eliminar la ruta, coloque el cursor en ella y haga clic en el icono **[!UICONTROL Delete arrow]**.
 
 ![](../assets/journey42ter.png)
 
@@ -102,11 +102,11 @@ Puede copiar una o varias actividades de un viaje y pegarlas en el mismo viaje o
 A continuación se indican los pasos para copiar/pegar actividades:
 
 1. Abra un viaje.
-1. Para seleccionar las actividades que desea copiar, mueva el ratón mientras hace clic. También puede hacer clic en cada actividad mientras pulsa la tecla **Ctrl/Comando** . Utilice **Ctrl/Comando + A** si desea seleccionar todas las actividades.
+1. Para seleccionar las actividades que desea copiar, mueva el ratón mientras hace clic. También puede hacer clic en cada actividad mientras pulsa la tecla **Ctrl/Comando**. Utilice **Ctrl/Comando + A** si desea seleccionar todas las actividades.
    ![](../assets/copy-paste1.png)
 1. Pulse **Ctrl/Comando + C**.
-Si solo desea copiar una actividad, puede hacer clic en ella y utilizar el icono **Copiar** en la parte superior izquierda del panel de configuración de la actividad.
+Si sólo desea copiar una actividad, puede hacer clic en ella y utilizar el icono **Copiar** en la parte superior izquierda del panel de configuración de la actividad.
    ![](../assets/copy-paste2.png)
-1. En cualquier viaje, pulse **Ctrl/Comando + V** para pegar las actividades sin vincularlas a un nodo existente. Las actividades pegadas se colocan en el mismo orden. Después de pegarlas, las actividades permanecen seleccionadas para que pueda moverlas fácilmente. También puede colocar el cursor en un marcador de posición vacío y pulsar **Ctrl/Comando + V**. Las actividades pegadas se vincularán al nodo.
+1. En cualquier viaje, presione **Ctrl/Comando + V** para pegar las actividades sin vincularlas a un nodo existente. Las actividades pegadas se colocan en el mismo orden. Después de pegarlas, las actividades permanecen seleccionadas para que pueda moverlas fácilmente. También puede colocar el cursor en un marcador de posición vacío y pulsar **Ctrl/Comando + V**. Las actividades pegadas se vincularán al nodo.
    ![](../assets/copy-paste3.png)
 
