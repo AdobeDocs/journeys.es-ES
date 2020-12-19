@@ -50,4 +50,4 @@ Devuelve un valor booleano.
 
 Explicación:
 
-La función regresará **[!UICONTROL true]** si el individuo dentro de la instancia de viaje es parte del segmento de Adobe Experience Platform llamado &quot;hombres mayores de 50&quot;, de lo contrario **[!UICONTROL false]** .
+La función devolverá **[!UICONTROL true]** si el individuo dentro de la instancia del viaje es parte del segmento de Adobe Experience Platform llamado &quot;hombres mayores de 50&quot;, **[!UICONTROL false]** en caso contrario.
