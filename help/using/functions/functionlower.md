@@ -6,8 +6,8 @@ description: Obtenga información sobre la función más baja
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '30'
-ht-degree: 13%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
