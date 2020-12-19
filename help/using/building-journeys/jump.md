@@ -1,18 +1,18 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: Saltar de un viaje a otro
-description: Saltar de un viaje a otro
+title: Saltar de un recorrido a otro
+description: Saltar de un recorrido a otro
 translation-type: tm+mt
 source-git-commit: 010bccb16d2b6980ff758e3922d3bc315706f61b
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Saltar de un viaje a otro {#jump}
+# Saltar de un recorrido a otro {#jump}
 
 La actividad de acción **[!UICONTROL Jump]** le permite llevar a los individuos de un viaje a otro. Esta función le permite:
 
