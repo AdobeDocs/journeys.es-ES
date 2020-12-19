@@ -6,8 +6,8 @@ description: Información general sobre el uso compartido de los pasos del recor
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 7%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,14 +28,14 @@ La lista de los campos XDM que se pasan es exhaustiva. Algunos contienen código
 
 >[!CAUTION]
 >
->Los conjuntos de datos no se pueden activar para el servicio de perfil en tiempo real. Asegúrese de que la **[!UICONTROL Profile]** opción está desactivada.
+>Los conjuntos de datos no se pueden activar para el servicio de perfil en tiempo real. Asegúrese de que la opción **[!UICONTROL Profile]** está desactivada.
 
 Los viajes envían datos a medida que se producen, de forma continua. Puede consulta de estos datos mediante el servicio de Consulta. Puede conectarse a Customer Journey Analytics u otras herramientas de BI para vista de datos relacionados con estos pasos.
 
 Se crean los siguientes esquemas:
 
-* Esquema de Evento de Perfil de la etapa de viaje para [!DNL Journey Orchestration] - Eventos de experiencia para los pasos realizados en un viaje junto con un mapa de identidad que se utilizará para asignar a un participante de viaje individual.
-* Esquema de Evento de paso de viaje para [!DNL Journey Orchestration] : evento de paso de viaje que está vinculado a los metadatos de viaje.
+* Esquema de Evento de Perfil de paso de viaje para [!DNL Journey Orchestration] - Eventos de experiencia para los pasos realizados en un viaje junto con un mapa de identidad que se utilizará para asignar a un participante de viaje individual.
+* Esquema de Evento de paso de viaje para [!DNL Journey Orchestration] - evento de paso de viaje que está vinculado a los metadatos de viaje.
 * Esquema de Viaje con Campos de Viaje para [!DNL Journey Orchestration] - Metadatos de Viaje para describir Viajes.
 
 ![](../assets/sharing1.png)
@@ -44,7 +44,7 @@ Se crean los siguientes esquemas:
 
 Se pasan los siguientes conjuntos de datos:
 
-* Esquema de Evento del Perfil de la etapa de viaje para [!DNL Journey Orchestration]
+* Esquema de Evento de Perfil de paso de viaje para [!DNL Journey Orchestration]
 * Eventos de la etapa de viaje
 * Viajes
 
@@ -58,4 +58,4 @@ Las listas de los campos XDM pasados al Adobe Experience Platform se detallan a 
 * [Campos de identidad de los eventos de los journeyStep](../building-journeys/sharing-identity-fields.md)
 * [campos del recorrido](../building-journeys/sharing-journey-fields.md)
 
-Para obtener más información sobre el sistema de informes de eventos de paso a Adobe Experience Platform, vea este [tutorial en vídeo](https://docs.adobe.com/content/help/en/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html).
+Para obtener más información sobre el sistema de informes de eventos de paso a Adobe Experience Platform, vea este [tutorial de vídeo](https://docs.adobe.com/content/help/en/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html).
