@@ -16,7 +16,7 @@ ht-degree: 3%
 
 ![](../assets/messageparameterssection.png)
 
-En la **[!UICONTROL Message parameters]** sección , pegue un ejemplo de la carga útil JSON para enviarla al servicio externo.
+En la sección **[!UICONTROL Message parameters]**, pegue un ejemplo de la carga útil JSON para enviarla al servicio externo.
 
 ![](../assets/customactionpayloadmessage.png)
 
