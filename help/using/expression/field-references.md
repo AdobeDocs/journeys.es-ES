@@ -21,7 +21,7 @@ Si utiliza caracteres especiales en un campo, debe utilizar comillas simples o c
 
 * inicios de campo con caracteres numéricos
 * los inicios de campo con el carácter &quot;-&quot;
-* el campo contiene cualquier cosa que no sea: _a_-_z_, _A_-_Z_, _0_-___9, _ ,-_
+* el campo contiene cualquier cosa que no sea: _a_-_z_, _A_-_Z_, _0_-_9_, _ , _-_
 
 Por ejemplo, si el campo es _3h_: _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
 
@@ -54,7 +54,7 @@ Se puede asociar un valor predeterminado al nombre de un campo. La sintaxis es l
 
 >[!NOTE]
 >
->El tipo del campo y el valor predeterminado deben ser los mismos. Por ejemplo, @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue: {2} no será válido porque el valor predeterminado es un entero, mientras que el valor esperado debe ser una cadena.
+>El tipo del campo y el valor predeterminado deben ser los mismos. Por ejemplo, @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue: :   no será válido porque el valor predeterminado es un entero, mientras que el valor esperado debe ser una cadena.
 
 Ejemplos:
 
@@ -100,19 +100,19 @@ Ejemplo :
 
 **Referencia de un campo definido en un mapa**
 
-Para recuperar un elemento en un mapa, utilizamos la función de entrada con una clave determinada. Por ejemplo, se utiliza al definir la clave de un evento, según la Área de nombres seleccionada. Consulte Selección de la Área de nombres. For more information, see [this page](../event/selecting-the-namespace.md).
+Para recuperar un elemento en un mapa, utilizamos la función de entrada con una clave determinada. Por ejemplo, se utiliza al definir la clave de un evento, según la Área de nombres seleccionada. Consulte Selección de la Área de nombres. Para obtener más información, consulte [esta página](../event/selecting-the-namespace.md).
 
 ```
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-En esta expresión, obtenemos la entrada para la clave de ‘Correo electrónico’ del campo ‘Mapa de identidad’ de un evento. La entrada ‘Correo electrónico’ es una colección, de la cual tomamos el ‘id’ en el primer elemento usando ‘first()’. For more information, see [this page](../expression/collection-management-functions.md).
+En esta expresión, obtenemos la entrada para la clave de ‘Correo electrónico’ del campo ‘Mapa de identidad’ de un evento. La entrada ‘Correo electrónico’ es una colección, de la cual tomamos el ‘id’ en el primer elemento usando ‘first()’. Para obtener más información, consulte [esta página](../expression/collection-management-functions.md).
 
 **Valores de parámetro de una fuente de datos (valores dinámicos de la fuente de datos)**
 
 Si selecciona un campo de un origen de datos externo que requiere que se llame a un parámetro, aparece una nueva ficha a la derecha para permitirle especificar este parámetro. Consulte [esta página](../expression/expressionadvanced.md).
 
-For more complex use cases, if you want to include the parameters of the data source in the main expression, you can define their values using the keyword _params_. Un parámetro puede ser cualquier expresión válida, incluso desde otra fuente de datos que también incluya otro parámetro.
+Para casos de uso más complejos, si desea incluir los parámetros del origen de datos en la expresión principal, puede definir sus valores utilizando la palabra clave _params_. Un parámetro puede ser cualquier expresión válida, incluso desde otra fuente de datos que también incluya otro parámetro.
 
 >[!NOTE]
 >
