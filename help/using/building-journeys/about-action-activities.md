@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # Acerca de las actividades de acción {#concept_hbj_hrt_52b}
 
-Desde la paleta, en el lado izquierdo de la pantalla, debajo **[!UICONTROL Events]** y **[!UICONTROL Orchestration]**, se encuentra la **[!UICONTROL Actions]** categoría.
+Desde la paleta, en el lado izquierdo de la pantalla, debajo de **[!UICONTROL Events]** y **[!UICONTROL Orchestration]**, encontrará la categoría **[!UICONTROL Actions]**.
 
 ![](../assets/journey58.png)
 
@@ -24,7 +24,7 @@ Si tiene Adobe Campaign Standard, están disponibles las siguientes actividades 
 
 Si ha configurado acciones personalizadas, también aparecerán aquí (consulte [esta página](../building-journeys/using-custom-actions.md)).
 
-Al soltar una actividad de acción en el lienzo, puede definir una **[!UICONTROL Label]**. Esto le permite agregar un sufijo al nombre de la acción que aparecerá debajo de la actividad en el lienzo. Esto resulta útil si utiliza la misma acción varias veces en su viaje y desea identificarlas con mayor facilidad. Los informes también serán más fáciles de leer. También puede agregar una opción **[!UICONTROL Description]**.
+Al soltar una actividad de acción en el lienzo, puede definir una **[!UICONTROL Label]**. Esto le permite agregar un sufijo al nombre de la acción que aparecerá debajo de la actividad en el lienzo. Esto resulta útil si utiliza la misma acción varias veces en su viaje y desea identificarlas con mayor facilidad. Los informes también serán más fáciles de leer. También puede agregar un **[!UICONTROL Description]** opcional.
 
 ![](../assets/journey59bis.png)
 
