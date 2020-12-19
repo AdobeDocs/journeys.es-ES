@@ -42,4 +42,4 @@ Las versiones de viaje se pueden detener individualmente. Todas las versiones de
 
 >[!NOTE]
 >
->Al publicar una nueva versión de un viaje, la versión anterior finaliza automáticamente y cambia al estado **Cerrado** . No habrá entrada en el viaje. Aunque detenga la versión más reciente, la versión anterior permanecerá cerrada.
+>Cuando publica una nueva versión de un viaje, la versión anterior finaliza automáticamente y cambia al estado **Cerrado**. No habrá entrada en el viaje. Aunque detenga la versión más reciente, la versión anterior permanecerá cerrada.
