@@ -14,7 +14,7 @@ ht-degree: 6%
 
 # Finalización de un recorrido
 
-Las **[!UICONTROL Stop]** opciones y **[!UICONTROL Close to new entrances]** permiten finalizar los viajes en **directo** . El cierre de un viaje implica **que la llegada de nuevos clientes en el viaje está bloqueada** y que los clientes que ya han entrado en el viaje pueden experimentarlo hasta el final. Esta es la manera más recomendada de poner fin a un viaje, ya que oferta la mejor experiencia para los clientes. Detener un viaje implica que las personas que ya han entrado en un viaje se detienen en su progreso. Básicamente, el viaje está apagado.
+Las opciones **[!UICONTROL Stop]** y **[!UICONTROL Close to new entrances]** le permiten finalizar **viajes en directo**. Cerrar un viaje implica **que la llegada de nuevos clientes en el viaje está bloqueada** y que los clientes que ya entraron en el viaje pueden experimentarlo hasta el final. Esta es la manera más recomendada de poner fin a un viaje, ya que oferta la mejor experiencia para los clientes. Detener un viaje implica que las personas que ya han entrado en un viaje se detienen en su progreso. Básicamente, el viaje está apagado.
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ Puede cerrar un viaje manualmente para asegurarse de que los clientes que ya han
 
 No se puede reiniciar ni eliminar una versión de viaje cerrada. Puede crear una nueva versión o duplicado de la misma.
 
-Para cerrar un viaje, haga clic en **[!UICONTROL Close to new entrances]** mientras pasa el ratón por encima de un viaje en la lista de los viajes.
+Puede cerrar un viaje haciendo clic en **[!UICONTROL Close to new entrances]** mientras pasa el ratón por un viaje en la lista de los viajes.
 
 ![](../assets/do-not-localize/journey-finish-quick-action.png)
 
