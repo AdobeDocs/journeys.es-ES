@@ -6,8 +6,8 @@ description: 'Obtenga información sobre las pruebas de viaje '
 translation-type: tm+mt
 source-git-commit: 5e97f511872a924cc8c2c3a6904859d63ebeddcd
 workflow-type: tm+mt
-source-wordcount: '1442'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,19 +22,19 @@ Para utilizar el modo de prueba, siga estos pasos:
 
 1. Antes de probar el viaje, verifique que sea válido y que no haya ningún error. No podrá iniciar una prueba de un viaje con errores. Consulte [esta sección](../about/troubleshooting.md#section_h3q_kqk_fhb). Se muestra un símbolo de advertencia cuando hay errores.
 
-1. Para activar el modo de prueba, haga clic en el **[!UICONTROL Test]** botón de alternancia, situado en la esquina superior derecha.
+1. Para activar el modo de prueba, haga clic en el conmutador **[!UICONTROL Test]**, situado en la esquina superior derecha.
 
    ![](../assets/journeytest1.png)
 
-1. Utilice el **[!UICONTROL Wait time in test]** parámetro, en la esquina inferior izquierda, para definir el tiempo que durará cada actividad de espera en el modo de prueba. El valor del tiempo predeterminado es de 10 segundos. Esto garantizará que los resultados de la prueba se obtengan rápidamente. Este parámetro solo aparece si ha soltado una o más actividades de espera en el viaje.
+1. Utilice el parámetro **[!UICONTROL Wait time in test]**, en la esquina inferior izquierda, para definir el tiempo que durará cada actividad de espera en el modo de prueba. El valor del tiempo predeterminado es de 10 segundos. Esto garantizará que los resultados de la prueba se obtengan rápidamente. Este parámetro solo aparece si ha soltado una o más actividades de espera en el viaje.
 
    ![](../assets/journeytest_wait.png)
 
-1. Haga clic en **[!UICONTROL Trigger an event]** para configurar y enviar eventos al viaje. Asegúrese de enviar eventos relacionados con los perfiles de prueba. Consulte [Disparando sus eventos](#firing_events).
+1. Haga clic en **[!UICONTROL Trigger an event]** para configurar y enviar eventos al viaje. Asegúrese de enviar eventos relacionados con los perfiles de prueba. Consulte [Activación de eventos](#firing_events).
 
    ![](../assets/journeyuctest1.png)
 
-1. Una vez recibidos los eventos, haga clic en el **[!UICONTROL Show log]** botón para vista del resultado de la prueba y verificarlo. Consulte [Visualización de registros](#viewing_logs).
+1. Una vez recibidos los eventos, haga clic en el botón **[!UICONTROL Show log]** para vista del resultado de la prueba y verificarlo. Consulte [Visualización de los registros](#viewing_logs).
 
    ![](../assets/journeyuctest2.png)
 
@@ -50,7 +50,7 @@ Para utilizar el modo de prueba, siga estos pasos:
 * Puede habilitar/deshabilitar el modo de prueba tantas veces como sea necesario.
 * No se puede modificar el viaje cuando se activa el modo de prueba. En el modo de prueba, puede publicar directamente el viaje, sin necesidad de desactivar antes el modo de prueba.
 
-## Creating a test profile{#create-test-profile}
+## Creación de un perfil de prueba{#create-test-profile}
 
 El proceso para crear un perfil de prueba es el mismo que cuando se crea un perfil en Adobe Experience Platform. Se realiza a través de llamadas de API. See this [page](https://docs.adobe.com/content/help/es-ES/experience-platform/profile/home.html)
 
@@ -104,9 +104,9 @@ curl -X POST \
 }'
 ```
 
-## Disparando sus eventos {#firing_events}
+## Activación de eventos {#firing_events}
 
-El **[!UICONTROL Trigger an event]** botón permite configurar un evento que hará que una persona entre en el viaje.
+El botón **[!UICONTROL Trigger an event]** le permite configurar un evento que hará que una persona entre en el viaje.
 
 >[!NOTE]
 >
@@ -124,7 +124,7 @@ La interfaz le permite pasar parámetros de evento sencillos. Si desea pasar col
 
 Un usuario técnico también puede utilizar esta interfaz para componer cargas de evento y activar eventos sin tener que utilizar una herramienta de terceros.
 
-Al hacer clic en el **[!UICONTROL Send]** botón, comienza la prueba. La progresión del individuo en el viaje se representa mediante un flujo visual. El camino se vuelve progresivamente verde a medida que el individuo se mueve a lo largo del viaje. Si se produce un error, se muestra un símbolo de advertencia en el paso correspondiente. Puede colocar el cursor sobre él para mostrar más información sobre el error y acceder a todos los detalles (cuando esté disponible).
+Al hacer clic en el botón **[!UICONTROL Send]**, comienza la prueba. La progresión del individuo en el viaje se representa mediante un flujo visual. El camino se vuelve progresivamente verde a medida que el individuo se mueve a lo largo del viaje. Si se produce un error, se muestra un símbolo de advertencia en el paso correspondiente. Puede colocar el cursor sobre él para mostrar más información sobre el error y acceder a todos los detalles (cuando esté disponible).
 
 ![](../assets/journeytest6.png)
 
@@ -136,9 +136,9 @@ El flujo visual funciona tanto si el evento se activa a través de la interfaz c
 
 ## Modo de prueba para viajes basados en reglas {#test-rule-based}
 
-El modo de prueba también está disponible para viajes que utilizan un evento basado en reglas. For more information on rule-based events, refer to [this page](../event/about-events.md).
+El modo de prueba también está disponible para viajes que utilizan un evento basado en reglas. Para obtener más información sobre eventos basados en reglas, consulte [esta página](../event/about-events.md).
 
-Al activar un evento, la pantalla de configuración **de** Evento le permite definir los parámetros de evento que se van a pasar en la prueba. Puede realizar la vista de la condición de ID de evento haciendo clic en el icono de información sobre herramientas en la esquina superior derecha. También hay disponible una información sobre herramientas junto a cada campo que forme parte de la evaluación de reglas.
+Al activar un evento, la pantalla **configuración de Evento** permite definir los parámetros de evento que se van a pasar en la prueba. Puede realizar la vista de la condición de ID de evento haciendo clic en el icono de información sobre herramientas en la esquina superior derecha. También hay disponible una información sobre herramientas junto a cada campo que forme parte de la evaluación de reglas.
 
 ![](../assets/alpha-event8.png)
 
@@ -146,7 +146,7 @@ Para obtener más información sobre cómo utilizar el modo de prueba, consulte 
 
 ## Visualización de los registros {#viewing_logs}
 
-El **[!UICONTROL Show log]** botón permite realizar vistas de los resultados de la prueba. Esta página muestra la información actual del viaje en formato JSON. Un botón permite copiar nodos completos. Debe actualizar manualmente la página para actualizar los resultados de la prueba del viaje.
+El botón **[!UICONTROL Show log]** le permite vista de los resultados de la prueba. Esta página muestra la información actual del viaje en formato JSON. Un botón permite copiar nodos completos. Debe actualizar manualmente la página para actualizar los resultados de la prueba del viaje.
 
 ![](../assets/journeytest3.png)
 
@@ -159,8 +159,8 @@ Se muestra el número de individuos (técnicamente, se denominan instancias) que
 * _Id_: el ID interno del individuo en el viaje. Esto se puede utilizar con fines de depuración.
 * _currentstep_: el paso en el que se encuentra el individuo en el viaje. Le recomendamos que agregue etiquetas a sus actividades para identificarlas más fácilmente.
 * _currentstep_ > fase: el estado del viaje del individuo (en ejecución, terminado, error o tiempo de espera agotado). Consulte a continuación para obtener más información.
-* _currentstep_ > _extraInfo_: descripción del error y otra información contextual.
-* _currentstep_ > _fetchErrors_: información sobre los errores de recuperación de datos que se produjeron durante este paso.
+* _currentstep_ >  _extraInfo_: descripción del error y otra información contextual.
+* _currentstep_ >  _fetchErrors_: información sobre los errores de recuperación de datos que se produjeron durante este paso.
 * _externalKeys_: el valor de la fórmula clave definida en el evento.
 * _richData_: los datos que el viaje ha recuperado si utiliza fuentes de datos.
 * _transiciónHistory_: la lista de los pasos que siguió el individuo. Para eventos, se muestra la carga útil.
