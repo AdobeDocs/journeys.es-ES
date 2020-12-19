@@ -22,23 +22,23 @@ El mensaje transaccional del Campaign Standard y su evento asociado deben public
 
 >[!NOTE]
 >
->La mensajería transaccional de Adobe Campaign Standard tiene una escala de 50 000 mensajes por hora como máximo en canales para una instancia determinada. Para reducir el riesgo de sobrecarga, se recomienda configurar una regla **de** límite para la integración de Campaign Standard.
+>La mensajería transaccional de Adobe Campaign Standard tiene una escala de 50 000 mensajes por hora como máximo en canales para una instancia determinada. Para reducir el riesgo de sobrecarga, le recomendamos que configure una **regla de límite** para la integración de Campaign Standard.
 >
->Obtenga más información sobre los SLA de mensajería transaccional en la Descripción [del producto de](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)Adobe Campaign Standard.
+>Obtenga más información sobre los SLA de mensajería transaccional en [Descripción del producto de Adobe Campaign Standard](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html).
 
-Here are the steps to configure it:
+Estos son los pasos para configurarlo:
 
-1. From the **[!UICONTROL Actions]** list, click the built-in **[!UICONTROL AdobeCampaignStandard]** action. El panel de configuración de acciones se abre en el lado derecho de la pantalla.
+1. En la lista **[!UICONTROL Actions]**, haga clic en la acción **[!UICONTROL AdobeCampaignStandard]** integrada. El panel de configuración de acciones se abre en el lado derecho de la pantalla.
 
    ![](../assets/actioncampaign.png)
 
-1. Copy your Adobe Campaign Standard instance URL and paste it in the **[!UICONTROL URL]** field.
+1. Copie la URL de la instancia de Adobe Campaign Standard y péguela en el campo **[!UICONTROL URL]**.
 
-1. Haga clic en el **[!UICONTROL Test the instance URL]** para probar la validez de la instancia.
+1. Haga clic en **[!UICONTROL Test the instance URL]** para probar la validez de la instancia.
 
    >[!NOTE]
    >
-   >This test verifies that:
+   >Esta prueba comprueba que:
    >
    >El host es &quot;.campaña.adobe.com&quot; o &quot;.campaña-sandbox.adobe.com&quot;,
    >
@@ -46,8 +46,8 @@ Here are the steps to configure it:
    >
    >El ORG asociado a esta instancia de Adobe Campaign Standard es el mismo que el ORG del Journey Orchestration.
 
-Al diseñar el viaje, habrá tres acciones disponibles en la **[!UICONTROL Action]** categoría: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (consulte [Uso de acciones](../building-journeys/using-adobe-campaign-actions.md)de Adobe Campaign). **El evento** de reacciones también le permitirá reaccionar en los clics de mensajes, aperturas, etc. (consulte [eventos](../building-journeys/reaction-events.md)de reacciones).
+Al diseñar el viaje, habrá tres acciones disponibles en la categoría **[!UICONTROL Action]**: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (consulte [Uso de acciones de Adobe Campaign](../building-journeys/using-adobe-campaign-actions.md)). **Los** eventos de reacciones también le permitirán reaccionar en los clics de mensajes, aperturas, etc. (consulte [eventos de reacciones](../building-journeys/reaction-events.md)).
 
 ![](../assets/journey58.png)
 
-Si utiliza un sistema de terceros para enviar mensajes, debe agregar y configurar una acción personalizada. See [About custom action configuration](../action/about-custom-action-configuration.md).
+Si utiliza un sistema de terceros para enviar mensajes, debe agregar y configurar una acción personalizada. Consulte [Acerca de la configuración de acciones personalizadas](../action/about-custom-action-configuration.md).
