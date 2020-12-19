@@ -23,15 +23,15 @@ Las acciones son conexiones a través de las cuales se ofrecen experiencias pers
 
 Las acciones personalizadas le permiten configurar la conexión de un sistema de terceros para enviar mensajes o llamadas API. Se puede configurar una acción con cualquier servicio de cualquier proveedor al que se pueda llamar mediante una API REST con carga útil en formato JSON.
 
-The actions are available in the left palette of your journey, in the **[!UICONTROL Action]** category. Consulte [esta página](../building-journeys/about-action-activities.md).
+Las acciones están disponibles en la paleta izquierda del viaje, en la categoría **[!UICONTROL Action]**. Consulte [esta página](../building-journeys/about-action-activities.md).
 
 >[!NOTE]
 >
 >La configuración de las acciones personalizadas siempre la realiza un **usuario técnico**.
 
-En la lista de **acciones**, puede pulsar c para crear un nuevo recorrido, acción, fuente de datos o evento. For more information on shortcuts in [!DNL Journey Orchestration], see [this section](../about/user-interface.md#section_ksq_zr1_ffb).
+En la lista de **acciones**, puede pulsar c para crear un nuevo recorrido, acción, fuente de datos o evento. Para obtener más información sobre los métodos abreviados en [!DNL Journey Orchestration], consulte [esta sección](../about/user-interface.md#section_ksq_zr1_ffb).
 
-Para ver la lista de acciones o configurar una nueva acción, haga clic en **[!UICONTROL Actions]** en los menús superiores. Se muestra la lista de acciones. See [this page](../about/user-interface.md) for more information on the interface.
+Para ver la lista de acciones o configurar una nueva acción, haga clic en **[!UICONTROL Actions]** en los menús superiores. Se muestra la lista de acciones. Consulte [esta página](../about/user-interface.md) para obtener más información sobre la interfaz.
 
 ![](../assets/custom1.png)
 
