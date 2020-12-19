@@ -57,7 +57,7 @@ Esta es la lista de las funciones admitidas.
 | Fecha | [setHours](../functions/functionsethours.md) |
 | Fecha | [setDays](../functions/functionsetdays.md) |
 | Lista | [distinct](../functions/functiondistinct.md) |
-| Lista | [distinctCount](../functions/functiondistinctcount.md) |
+| Lista | [clearCount](../functions/functiondistinctcount.md) |
 | Lista | [in](../functions/functionin.md) |
 | Lista | [listSize](../functions/functionlistsize.md) |
 | Lista | [serializeList](../functions/functionserializelist.md) |
