@@ -14,11 +14,11 @@ ht-degree: 14%
 
 # Selección del área de nombres {#concept_ckb_3qt_52b}
 
-La Área de nombres permite definir el tipo de clave utilizada para identificar a la persona asociada al evento. Su configuración es opcional. Se requiere si desea recuperar, en sus viajes, información adicional procedente del Perfil [del cliente en tiempo](https://docs.adobe.com/content/help/es-ES/experience-platform/profile/home.html)real. La definición de Área de nombres no es necesaria si solo se utilizan datos procedentes de un sistema de terceros a través de un origen de datos personalizado.
+La Área de nombres permite definir el tipo de clave utilizada para identificar a la persona asociada al evento. Su configuración es opcional. Se requiere si desea recuperar, en sus viajes, información adicional proveniente del [Perfil del cliente en tiempo real](https://docs.adobe.com/content/help/es-ES/experience-platform/profile/home.html). La definición de Área de nombres no es necesaria si solo se utilizan datos procedentes de un sistema de terceros a través de un origen de datos personalizado.
 
 Puede utilizar uno de los predefinidos o crear uno nuevo mediante el servicio de Área de nombres de identidad. Consulte [esta página](https://docs.adobe.com/content/help/es-ES/experience-platform/identity/home.html).
 
-Si selecciona un esquema que tiene una identidad principal, los campos **[!UICONTROL Key]** y **[!UICONTROL Namespace]** se rellenan previamente. Si no hay ninguna identidad definida, seleccionamos _identityMap > id_ como clave principal. A continuación, debe seleccionar una Área de nombres y la clave se rellenará previamente (debajo del **[!UICONTROL Namespace]** campo) mediante _identityMap > id_.
+Si selecciona un esquema que tiene una identidad principal, los campos **[!UICONTROL Key]** y **[!UICONTROL Namespace]** se rellenan previamente. Si no hay ninguna identidad definida, seleccionamos _identityMap > id_ como clave principal. Luego debe seleccionar una Área de nombres y la clave se rellenará previamente (debajo del campo **[!UICONTROL Namespace]**) mediante _identityMap > id_.
 
 Al seleccionar campos, los campos de identidad principales se etiquetan.
 
