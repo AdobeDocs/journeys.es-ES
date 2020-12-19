@@ -6,8 +6,8 @@ description: Obtenga más información sobre las limitaciones de los Journey Orc
 translation-type: tm+mt
 source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,19 +20,19 @@ Estas son las limitaciones relacionadas con el uso de Journey Orchestration.
 
 * No hay limitación de envío. 
 * En caso de error se realizan dos reintentos de forma sistemática. No se puede ajustar el número de reintentos según el mensaje de error recibido. 
-* El evento de **reacción** integrado le permite reaccionar a las acciones integradas (consulte esta [página](../building-journeys/reaction-events.md)). Si desea reaccionar a un mensaje enviado mediante una acción personalizada, debe configurar un evento dedicado. 
+* El evento integrado **Reacción** le permite reaccionar a las acciones predeterminadas (consulte esta [página](../building-journeys/reaction-events.md)). Si desea reaccionar a un mensaje enviado mediante una acción personalizada, debe configurar un evento dedicado. 
 * No hay integración de productos de Adobe Campaign Classic.
 
 ## Limitaciones de versiones de viajes {#journey-versions-limitations}
 
-* un viaje que comienza con una actividad de evento en v1 no puede inicio con otra cosa que un evento en versiones posteriores. No se puede realizar un inicio de un viaje con un evento **de cualificación** del segmento.
-* un viaje que comienza con una actividad de cualificación **de** segmento en v1 siempre debe tener inicios con una cualificación **de** segmento en versiones posteriores.
-* El segmento y la Área de nombres elegidos en la cualificación **** del segmento (primer nodo) no se pueden cambiar en las nuevas versiones.
+* un viaje que comienza con una actividad de evento en v1 no puede inicio con otra cosa que un evento en versiones posteriores. No se puede inicio un viaje con un evento **Calificación del segmento**.
+* un viaje que comienza con una actividad de **Calificación del segmento** en v1 siempre debe tener un inicio con una **Calificación del segmento** en versiones posteriores.
+* El segmento y la Área de nombres elegidos en **Calificación del segmento** (primer nodo) no se pueden cambiar en las nuevas versiones.
 * La regla de reentrada debe ser la misma en todas las versiones del viaje.
 
 ## Calificación del segmento {#segment-qualification}
 
-* La actividad **de calificación** de segmentos no se puede usar junto con la mensajería transaccional de Adobe Campaign Standard debido a las restricciones de rendimiento. Consulte Descripción [del producto de](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)Adobe Campaign Standard. 
+* La actividad **Calificación del segmento** no se puede usar junto con la mensajería transaccional de Adobe Campaign Standard debido a restricciones de rendimiento. Consulte [Descripción del producto de Adobe Campaign Standard](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html). 
  
 
 ## Limitaciones de acciones personalizadas
@@ -46,7 +46,7 @@ Estas son las limitaciones relacionadas con el uso de Journey Orchestration.
 
 ## Limitaciones de acciones de Adobe Campaign
 
-* La mensajería transaccional de Adobe Campaign Standard tiene una escala de 50 000 mensajes por hora como máximo en canales para una instancia determinada. Consulte Descripción [del producto de](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)Adobe Campaign Standard. 
+* La mensajería transaccional de Adobe Campaign Standard tiene una escala de 50 000 mensajes por hora como máximo en canales para una instancia determinada. Consulte [Descripción del producto de Adobe Campaign Standard](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html). 
  
 
 ## Limitaciones de eventos
