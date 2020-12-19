@@ -6,8 +6,8 @@ description: Más información sobre eventos
 translation-type: tm+mt
 source-git-commit: 3dd7cd4dc4e4398b029dd1becd11c8dd7e7c3542
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 55%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
