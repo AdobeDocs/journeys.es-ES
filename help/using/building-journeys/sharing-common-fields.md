@@ -6,17 +6,17 @@ description: journeystep eventos campos comunes
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
-# journeysteps events common fields {#sharing-common-fields}
+# eventos de journeystep campos comunes {#sharing-common-fields}
 
 Esta mezcla se compartirá con los eventos travelStepEvent y travelStepProfileEvent.
 
-Estos son los campos XDM comunes que [!DNL Journey Orchestration] se envían a Adobe Experience Platform. Los campos comunes se enviarán para cada paso que se procese en un viaje. Se utilizan campos más específicos para acciones y enriquecimientos personalizados.
+Estos son los campos XDM comunes que [!DNL Journey Orchestration] envía a Adobe Experience Platform. Los campos comunes se enviarán para cada paso que se procese en un viaje. Se utilizan campos más específicos para acciones y enriquecimientos personalizados.
 
 Algunos de estos campos solo están disponibles en patrones de procesamiento específicos (ejecución de acciones, captura de datos, etc.) para limitar el tamaño de los eventos.
 
@@ -76,7 +76,7 @@ Valores posibles:
 
 * Condición
 * Acción
-* Planificador 
+* Planificador
 * Temporizador
 
 ## stepStatus
@@ -88,7 +88,7 @@ Tipo: string
 El estado puede ser:
 
 * finalizó: el paso no tiene transición y su procesamiento ha finalizado correctamente.
-* error: the step processing has raised an error.
+* error: el procesamiento de pasos ha generado un error.
 * transiciones: el paso está esperando un evento para la transición a otro paso.
 * capped: el paso ha fallado en un error de límite, generado durante una acción o enriquecimiento.
 * timedout: el paso ha fallado en un error de tiempo de espera, generado durante una acción o enriquecimiento.
@@ -96,7 +96,7 @@ El estado puede ser:
 
 ## travelID
 
-ID del viaje.
+ID of the journey.
 
 Tipo: string
 
@@ -162,13 +162,13 @@ Tipo: booleano
 
 ## processingTime
 
-Total amount of time in milliseconds from the instance step entrance to the end of the processing.
+Cantidad total de tiempo en milisegundos desde la entrada del paso de instancia hasta el final del procesamiento.
 
 Tipo: long
 
 ## instanceType
 
-Indicates the instance type, if it is batch or unitary.
+Indica el tipo de instancia, si es por lotes o unitarios.
 
 Tipo: string
 
