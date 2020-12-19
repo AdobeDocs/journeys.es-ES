@@ -6,15 +6,15 @@ description: Obtenga información sobre la función toDuration
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # toDuration {#toDuration}
 
-Convierte un valor de argumento en una duración. For more information on data types, refer to [this page](../expression/data-types.md).
+Convierte un valor de argumento en una duración. Para obtener más información sobre los tipos de datos, consulte [esta página](../expression/data-types.md).
 
 ## Categoría
 
