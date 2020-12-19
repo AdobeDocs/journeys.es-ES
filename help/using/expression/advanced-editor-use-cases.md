@@ -6,8 +6,8 @@ description: Aprenda a crear expresiones avanzadas
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -109,7 +109,7 @@ Esta condición solo recupera los eventos de geofence activados en &quot;Arlingt
                     .name} == "Arlington"
 ```
 
-Explicación: Se trata de una comparación estricta de cadenas (con distinción de mayúsculas y minúsculas), equivalente a una consulta en modo simple que se utiliza `equal to` con `Is sensitive` marcado.
+Explicación: Se trata de una comparación estricta de cadenas (con distinción de mayúsculas y minúsculas), equivalente a una consulta en modo simple que utiliza `equal to` con `Is sensitive` marcado.
 
 La misma consulta con `Is sensitive` sin marcar generará la siguiente expresión en modo avanzado:
 
@@ -138,6 +138,6 @@ La siguiente expresión le permite definir el ID de CRM en un campo de personali
                          ))
 ```
 
-Explicación: Este ejemplo utiliza `substr` y `lastIndexOf` funciones para eliminar llaves que encierran el ID de CRM pasado con un evento de inicio de aplicación móvil.
+Explicación: Este ejemplo utiliza funciones `substr` y `lastIndexOf` para eliminar llaves que encierran el ID de CRM pasado con un evento de inicio de aplicación móvil.
 
-Para obtener más información sobre cómo usar el editor de expresiones avanzado, vea [este vídeo](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/create-a-journey.html).
+Para obtener más información sobre cómo utilizar el editor de expresiones avanzado, vea [este vídeo](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/create-a-journey.html).
