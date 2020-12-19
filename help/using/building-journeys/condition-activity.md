@@ -6,8 +6,8 @@ description: Información sobre actividades de condición
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 10%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,11 +23,11 @@ Existen cuatro tipos de condiciones:
 
 ![](../assets/journey49.png)
 
-## Acerca de la actividad Condition {#about_condition}
+## Acerca de la actividad Condición {#about_condition}
 
 Al utilizar varias condiciones en un viaje, puede definir etiquetas para cada una de ellas para identificarlas con mayor facilidad.
 
-Haga clic **[!UICONTROL Add a path]** si desea definir varias condiciones. Para cada condición, se agrega una nueva ruta en el lienzo después de la actividad.
+Haga clic en **[!UICONTROL Add a path]** si desea definir varias condiciones. Para cada condición, se agrega una nueva ruta en el lienzo después de la actividad.
 
 ![](../assets/journey47.png)
 
@@ -37,7 +37,7 @@ Por ejemplo, tomemos el ejemplo de la condición de una primera ruta &quot;La pe
 
 ![](../assets/journey48.png)
 
-Puede crear otra ruta para audiencias que no cumplan las condiciones definidas marcando **[!UICONTROL Show path for other cases than the one(s) above]**. Tenga en cuenta que esta opción no está disponible en condiciones de división. Consulte [Porcentaje dividido](#percentage_split).
+Puede crear otra ruta para audiencias que no cumplen las condiciones definidas si selecciona **[!UICONTROL Show path for other cases than the one(s) above]**. Tenga en cuenta que esta opción no está disponible en condiciones de división. Consulte [Porcentaje dividido](#percentage_split).
 
 El modo simple permite realizar consultas sencillas basadas en una combinación de campos. Todos los campos disponibles se muestran en la parte izquierda de la pantalla. Arrastre y suelte los campos en la zona principal. Para combinar los distintos elementos, interactívelos entre sí para crear diferentes grupos o niveles de grupo. A continuación, puede seleccionar un operador lógico para combinar elementos en el mismo nivel:
 
@@ -46,7 +46,7 @@ El modo simple permite realizar consultas sencillas basadas en una combinación 
 
 ![](../assets/journey64.png)
 
-Si utiliza el servicio [de segmentación de](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) Adobe Experience Platform para crear sus segmentos, puede aprovecharlos en las condiciones de su viaje. Consulte [Uso de segmentos en condiciones](../segment/using-a-segment.md).
+Si está utilizando el [servicio de segmentación de Adobe Experience Platform](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) para crear sus segmentos, puede aprovecharlos en las condiciones del viaje. Consulte [Uso de segmentos en condiciones](../segment/using-a-segment.md).
 
 
 >[!NOTE]
