@@ -6,15 +6,15 @@ description: Obtenga información sobre la actividad de espera
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Actividad de espera{#section_rlm_nft_dgb}
 
-Si desea esperar antes de ejecutar la siguiente actividad en la ruta, puede utilizar una **[!UICONTROL Wait]** actividad. Permite definir el momento en que se ejecutará la siguiente actividad. Hay cuatro opciones disponibles:
+Si desea esperar antes de ejecutar la siguiente actividad en la ruta, puede utilizar una actividad **[!UICONTROL Wait]**. Permite definir el momento en que se ejecutará la siguiente actividad. Hay cuatro opciones disponibles:
 
 * [Duración](#duration)
 * [Fecha fija](#fixed_date)
@@ -34,7 +34,7 @@ Puede definir una condición si desea restringir la espera a una determinada pob
 >
 >La duración máxima de espera es de 30 días.
 >
->En el modo de prueba, el **[!UICONTROL Wait time in test]** parámetro le permite definir el tiempo que durará cada actividad de espera. El valor del tiempo predeterminado es de 10 segundos. Esto garantizará que los resultados de la prueba se obtengan rápidamente. Consulte [esta página](../building-journeys/testing-the-journey.md)
+>En el modo de prueba, el parámetro **[!UICONTROL Wait time in test]** permite definir el tiempo que durará cada actividad de espera. El valor del tiempo predeterminado es de 10 segundos. Esto garantizará que los resultados de la prueba se obtengan rápidamente. Consulte [esta página](../building-journeys/testing-the-journey.md)
 
 ## Duración de espera{#duration}
 
@@ -42,7 +42,7 @@ Seleccione la duración de la espera antes de la ejecución de la siguiente acti
 
 ![](../assets/journey55.png)
 
-## Espera de fecha fija{#fixed_date}
+## Se corrigió la fecha de espera{#fixed_date}
 
 Seleccione la fecha de ejecución de la siguiente actividad.
 
@@ -54,9 +54,9 @@ Esta opción le permite definir una fecha personalizada, por ejemplo, el 12 de j
 
 >[!NOTE]
 >
->Puede aprovechar una expresión dateTimeOnly o utilizar una función para convertir a dateTimeOnly. Por ejemplo: ```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```, siendo el campo del evento del formulario 2016-08-12T09:46:06Z.
+>Puede aprovechar una expresión dateTimeOnly o utilizar una función para convertir a dateTimeOnly. Por ejemplo: ```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```, siendo el campo del evento el formulario 2016-08-12T09:46:06Z.
 >
->El **huso** horario se espera en las propiedades del viaje. Como resultado, hoy no es posible desde la interfaz apuntar directamente a una marca de tiempo ISO-8601 completa, mezclando el tiempo y el huso horario como 2016-08-12T09:46:06.982-05. Consulte [esta página](../building-journeys/timezone-management.md).
+>La **zona horaria** se espera en las propiedades del viaje. Como resultado, hoy no es posible desde la interfaz apuntar directamente a una marca de tiempo ISO-8601 completa, mezclando el tiempo y el huso horario como 2016-08-12T09:46:06.982-05. Consulte [esta página](../building-journeys/timezone-management.md).
 
 ![](../assets/journey57.png)
 
