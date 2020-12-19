@@ -22,7 +22,7 @@ ht-degree: 93%
 
 ## Acceso a [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-To access the [!DNL Journey Orchestration]&#39;s interface, click the **[!UICONTROL App Selector]** icon, in the top right, then click **[!UICONTROL Journey Orchestration]**.
+Para acceder a la interfaz de [!DNL Journey Orchestration], haga clic en el icono **[!UICONTROL App Selector]**, en la parte superior derecha, luego haga clic en **[!UICONTROL Journey Orchestration]**.
 
 ![](../assets/journey1.png)
 
@@ -137,8 +137,8 @@ _En el lienzo de un recorrido:_
 
 _En un viaje:_
 
-* Pulse **T** para habilitar/deshabilitar el modo de prueba.
+* Presione **T** para habilitar/deshabilitar el modo de prueba.
 * En un viaje basado en eventos en modo de prueba, pulse **E** para activar un evento.
-* En un viaje basado en segmentos, cuando se selecciona la opción **perfil único a la vez** en el modo de prueba, pulse **P** para activar un evento.
-* En el modo de prueba, pulse **L** para mostrar los registros.
+* En un viaje basado en segmentos, cuando se selecciona la opción **perfil único a la vez** en modo de prueba, pulse **P** para activar un evento.
+* En el modo de prueba, presione **L** para mostrar los registros.
 
