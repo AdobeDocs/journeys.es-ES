@@ -14,9 +14,9 @@ ht-degree: 6%
 
 # Definición de los campos de carga útil {#concept_yrw_3qt_52b}
 
-La definición de carga útil le permite elegir la información que el sistema espera recibir del evento en su viaje y la clave para identificar qué persona está asociada al evento. La carga útil se basa en la definición del campo XDM del Experience Cloud. For more information on XDM, refer to [this page](https://docs.adobe.com/content/help/es-ES/experience-platform/xdm/home.html).
+La definición de carga útil le permite elegir la información que el sistema espera recibir del evento en su viaje y la clave para identificar qué persona está asociada al evento. La carga útil se basa en la definición del campo XDM del Experience Cloud. Para obtener más información sobre XDM, consulte [esta página](https://docs.adobe.com/content/help/es-ES/experience-platform/xdm/home.html).
 
-1. Seleccione un esquema XDM en la lista y haga clic en el **[!UICONTROL Payload]** campo o en el **[!UICONTROL Edit]** icono.
+1. Seleccione un esquema XDM en la lista y haga clic en el campo **[!UICONTROL Payload]** o en el icono **[!UICONTROL Edit]**.
 
    ![](../assets/journey8.png)
 
@@ -34,12 +34,12 @@ La definición de carga útil le permite elegir la información que el sistema e
 
    >[!NOTE]
    >
-   >Para eventos generados por el sistema, el **[!UICONTROL eventID]** campo se agrega automáticamente en la lista de los campos seleccionados para que [!DNL Journey Orchestration] pueda identificar el evento. El sistema que empuja el evento no debe generar un ID, debe utilizar el disponible en la previsualización de carga útil. Consulte [esta página](../event/previewing-the-payload.md).
+   >Para eventos generados por el sistema, el campo **[!UICONTROL eventID]** se agrega automáticamente en la lista de campos seleccionados para que [!DNL Journey Orchestration] pueda identificar el evento. El sistema que empuja el evento no debe generar un ID, debe utilizar el disponible en la previsualización de carga útil. Consulte [esta página](../event/previewing-the-payload.md).
 
 1. Cuando haya terminado de seleccionar los campos necesarios, haga clic en **[!UICONTROL Save]** o presione **[!UICONTROL Enter]**.
 
    ![](../assets/journey11.png)
 
-   El número de campos seleccionados aparece en el **[!UICONTROL Payload]** campo.
+   El número de campos seleccionados aparece en el campo **[!UICONTROL Payload]**.
 
    ![](../assets/journey12.png)
