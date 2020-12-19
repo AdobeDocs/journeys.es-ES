@@ -6,8 +6,8 @@ description: Obtenga información sobre las dimensiones y métricas disponibles 
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '1035'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,18 +24,18 @@ La tabla siguiente le proporciona la lista de las dimensiones utilizadas en los 
 
 Para obtener más información sobre la compatibilidad entre dimensiones y métricas, consulte [esta página](../assets/do-not-localize/dynamic_report_compatibility_journey.pdf).
 
-## Dimensiones del viaje {#MBE_table_wk4_bnj_w2b}
+## Dimensiones de viaje {#MBE_table_wk4_bnj_w2b}
 
 La tabla siguiente le proporciona la lista de las dimensiones utilizadas en los informes de viaje, sus definiciones y fórmulas.
 
 | Dimension | Definición |
 |--- |--- |
-| **Acción** | Lista de cada acción (nombre de la **acción - etiqueta** de acción) utilizada en los viajes, por ejemplo: push - confirmación de salida, correo electrónico - fidelidad de las recompensas. |
-| **Fuente de datos** | Lista de fuentes de datos (nombre **de fuente de** datos) utilizadas para enriquecer datos en un viaje, por ejemplo Adobe Experience Platform, sistema de reservación. |
-| **[!UICONTROL Event]** | Lista de todos los eventos (nombre del **evento - etiqueta** de evento) utilizados en viajes, por ejemplo, evento de Geometrixx - salida de Geometrixx. |
-| **Grupo de campos** | Lista de los grupos de campo (nombre **del grupo de** campo) utilizados para enriquecer los datos en los viajes, por ejemplo, el grupo de campo de Perfil, el sistema de reserva de Geometrixx. |
-| **Recorrido** | Lista de cada viaje (nombre **del** viaje) en modo de prueba y activo, por ejemplo, abandono del carro de compras, notificación de reserva de hoteles. |
-| **Versión de viaje** | Lista de cada versión publicada de un viaje (nombre del **viaje + número** de versión), por ejemplo: abandono del carro v1, notificación de reserva del hotel v2. |
+| **Acción** | Lista de cada acción (**nombre de acción - etiqueta de acción**) utilizada en viajes, por ejemplo: push - confirmación de salida, correo electrónico - fidelidad de recompensas. |
+| **Fuente de datos** | Lista de las fuentes de datos (**nombre de la fuente de datos**) utilizadas para enriquecer los datos en un viaje, por ejemplo, Adobe Experience Platform, sistema de reservas. |
+| **[!UICONTROL Event]** | Lista de cada evento (**nombre del evento - etiqueta del evento**) utilizado en viajes, por ejemplo, evento del Geometrixx - salida del Geometrixx. |
+| **Grupo de campos** | Lista de los grupos de campo (**nombre del grupo de campo**) utilizados para enriquecer los datos en viajes, por ejemplo, grupo de campo de Perfil, sistema de reserva de Geometrixx. |
+| **Recorrido** | Lista de cada viaje (**nombre del viaje**) en modo de prueba y activo, por ejemplo abandono del carro de compras, notificación de reserva del hotel. |
+| **Versión de viaje** | Lista de cada versión publicada de un viaje (**nombre del viaje + número de la versión**), por ejemplo: abandono del carro de compras v1, notificación de reserva del hotel v2. |
 | **Orquestación** | Lista de cada actividad de orquestación (**Condición, Fin, Espera**) definida y utilizada en los viajes. |
 
 ## Dimensiones de envío {#delivery-dimensions}
@@ -82,7 +82,8 @@ La tabla siguiente le proporciona la lista de las métricas utilizadas en los in
 
 ## Métricas de envío {#delivery-metrics}
 
-La tabla siguiente le proporciona la lista de las métricas utilizadas en los informes de periodicidad, sus definiciones y fórmulas.
+La tabla siguiente le proporciona la lista de las métricas utilizadas en el viaje
+informes, sus definiciones y fórmulas.
 
 | Métrica | Definición |
 |--- |--- |
