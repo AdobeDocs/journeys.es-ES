@@ -6,8 +6,8 @@ description: Aprenda a crear expresiones avanzadas
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -72,7 +72,7 @@ Un mecanismo de validación de sintaxis comprueba la integridad del código. Los
 
 **Necesidad de parámetros al crear condiciones con el editor de expresiones avanzadas**
 
-If you select a field from an external data source requiring a parameter to be called (see [this page](../datasource/external-data-sources.md). Por ejemplo, en una fuente de datos relacionada con el tiempo, un parámetro utilizado frecuentemente será &quot;city&quot; (ciudad). Como resultado, debe seleccionar dónde desea obtener este parámetro de ciudad. Las funciones también se pueden aplicar a parámetros para realizar cambios de formato o concatenaciones.
+Si selecciona un campo de un origen de datos externo que requiere que se llame a un parámetro (consulte [esta página](../datasource/external-data-sources.md). Por ejemplo, en una fuente de datos relacionada con el tiempo, un parámetro utilizado frecuentemente será &quot;city&quot; (ciudad). Como resultado, debe seleccionar dónde desea obtener este parámetro de ciudad. Las funciones también se pueden aplicar a parámetros para realizar cambios de formato o concatenaciones.
 
 ![](../assets/journeyuc2_19.png)
 
