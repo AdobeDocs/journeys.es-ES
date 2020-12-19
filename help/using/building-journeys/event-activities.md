@@ -22,7 +22,7 @@ Siempre inicio el viaje arrastrando y soltando una actividad de evento. También
 
 ![](../assets/journey44.png)
 
-Al hacer clic en la actividad de evento en el lienzo, se muestra el panel de configuración de actividad. De forma predeterminada, cuando se utiliza el mismo evento varias veces, se agrega un número incrementado al nombre del evento en el lienzo. Además, puede utilizar el **[!UICONTROL Label]** campo para agregar un sufijo al nombre del evento que aparecerá debajo de la actividad en el lienzo. Esto resulta útil para identificar sus eventos en el lienzo, especialmente si utiliza el mismo evento varias veces. También facilitará la depuración en caso de errores y facilitará la lectura de los informes.
+Al hacer clic en la actividad de evento en el lienzo, se muestra el panel de configuración de actividad. De forma predeterminada, cuando se utiliza el mismo evento varias veces, se agrega un número incrementado al nombre del evento en el lienzo. Además, puede utilizar el campo **[!UICONTROL Label]** para agregar un sufijo al nombre del evento que aparecerá debajo de la actividad en el lienzo. Esto resulta útil para identificar sus eventos en el lienzo, especialmente si utiliza el mismo evento varias veces. También facilitará la depuración en caso de errores y facilitará la lectura de los informes.
 
 ![](../assets/journey33.png)
 
@@ -34,11 +34,11 @@ El viaje escuchará el evento durante el tiempo especificado en el tiempo de esp
 
 Para configurar un tiempo de espera para un evento, siga estos pasos:
 
-1. Active la **[!UICONTROL Enable the event timeout]** opción desde las propiedades de evento.
+1. Active la opción **[!UICONTROL Enable the event timeout]** desde las propiedades de evento.
 
 1. Especifique la cantidad de tiempo que el viaje esperará para el evento.
 
-1. Si desea enviar a los individuos a una ruta de tiempo de espera cuando no se recibe ningún evento dentro del tiempo de espera especificado, habilite la **[!UICONTROL Set the timeout path]** opción. Si esta opción no está habilitada, el viaje finalizará para el individuo una vez que se alcance el tiempo de espera.
+1. Si desea enviar a los individuos a una ruta de tiempo de espera cuando no se recibe ningún evento dentro del tiempo de espera especificado, habilite la opción **[!UICONTROL Set the timeout path]**. Si esta opción no está habilitada, el viaje finalizará para el individuo una vez que se alcance el tiempo de espera.
 
    ![](../assets/event-timeout.png)
 
@@ -47,8 +47,8 @@ En este ejemplo, el viaje envía un primer mensaje de bienvenida a un cliente. L
 * Si el evento del restaurante se recibe menos de 1 día después de la entrada de bienvenida, se envía la actividad de descuento por comida.
 * Si no se recibe ningún evento de restaurante en el día siguiente, la persona pasa por la ruta de tiempo de espera.
 
-Tenga en cuenta que si desea configurar un tiempo de espera en varios eventos posicionados después de una **[!UICONTROL Wait]** actividad, debe configurar el tiempo de espera solo en uno de estos eventos.
+Tenga en cuenta que si desea configurar un tiempo de espera en varios eventos posicionados después de una actividad **[!UICONTROL Wait]**, debe configurar el tiempo de espera solo en uno de estos eventos.
 
-El tiempo de espera se aplicará a todos los eventos colocados después de la **[!UICONTROL Wait]** actividad. Si no se recibe ningún evento después del tiempo de espera especificado, los individuos fluirán en una única ruta de tiempo de espera o finalizarán su viaje.
+El tiempo de espera se aplicará a todos los eventos colocados después de la actividad **[!UICONTROL Wait]**. Si no se recibe ningún evento después del tiempo de espera especificado, los individuos fluirán en una única ruta de tiempo de espera o finalizarán su viaje.
 
 ![](../assets/event-timeout-group.png)
