@@ -26,7 +26,7 @@ La barra de herramientas superior permite, por ejemplo, modificar, guardar o imp
 
 ![](../assets/dynamic_report_toolbar.png)
 
-Utilice la **[!UICONTROL Project]** ficha para:
+Utilice la ficha **[!UICONTROL Project]** para:
 
 * **[!UICONTROL Open]**:: abre un informe o una plantilla creados anteriormente.
 * **[!UICONTROL Save As]**:: duplicados para poder modificarlas.
@@ -34,13 +34,13 @@ Utilice la **[!UICONTROL Project]** ficha para:
 * **[!UICONTROL Download CSV]**:: exporta los informes a un archivo CSV.
 * **[!UICONTROL Print]**:: imprime el informe.
 
-La **[!UICONTROL Edit]** ficha le permite:
+La ficha **[!UICONTROL Edit]** le permite:
 
 * **[!UICONTROL Undo]**:: cancela la última acción del panel.
-* **[!UICONTROL Redo]**:: cancela la última **[!UICONTROL Undo]** acción del panel.
+* **[!UICONTROL Redo]**:: cancela la última  **[!UICONTROL Undo]** acción en el panel.
 * **[!UICONTROL Clear all]**:: elimina todos los paneles del panel.
 
-La **[!UICONTROL Insert]** tabla permite personalizar los informes agregando gráficos y tablas al panel:
+La tabla **[!UICONTROL Insert]** permite personalizar los informes agregando gráficos y tablas al panel:
 
 * **[!UICONTROL New Blank Panel]**:: agrega un nuevo panel en blanco al panel.
 * **[!UICONTROL New Freeform]**:: agrega una nueva tabla improvisada al panel.
@@ -53,14 +53,14 @@ Las fichas de la izquierda le permiten generar el informe y filtrar los datos se
 
 Estas fichas le permiten acceder a los siguientes elementos:
 
-* **[!UICONTROL Panels]**:: agregue un panel en blanco o una forma libre al informe para filtrar los datos en inicio. For more on this, refer to the [Adding panels](../reporting/creating-your-journey-reports.md#adding-panels) section
-* **[!UICONTROL Visualizations]**:: arrastre y suelte una selección de elementos de visualización para dar al informe una dimensión gráfica. For more on this, refer to the [Adding visualizations](../reporting/creating-your-journey-reports.md#adding-visualizations) section.
-* **[!UICONTROL Components]**:: personalice los informes con diferentes dimensiones, métricas, segmentos y períodos de tiempo. For more on this, refer to the [Adding components](../reporting/creating-your-journey-reports.md#adding-components) section.
+* **[!UICONTROL Panels]**:: agregue un panel en blanco o una forma libre al informe para filtrar los datos en inicio. Para obtener más información sobre esto, consulte la sección [Añadir paneles](../reporting/creating-your-journey-reports.md#adding-panels)
+* **[!UICONTROL Visualizations]**:: arrastre y suelte una selección de elementos de visualización para dar al informe una dimensión gráfica. Para obtener más información sobre esto, consulte la sección [Añadir visualizaciones](../reporting/creating-your-journey-reports.md#adding-visualizations).
+* **[!UICONTROL Components]**:: personalice los informes con diferentes dimensiones, métricas, segmentos y períodos de tiempo. Para obtener más información sobre esto, consulte la sección [Añadir componentes](../reporting/creating-your-journey-reports.md#adding-components).
 
 ## Plantilla de resumen de viajes {#ootb-template}
 
 Los informes se dividen en dos categorías: una plantilla lista para usar e informes personalizados.
-La plantilla lista para usar, **[!UICONTROL Journey summary]** le proporciona una vista clara de los datos de seguimiento más importantes.
+La plantilla lista para usar, **[!UICONTROL Journey summary]**, proporciona una vista clara de los datos de seguimiento más importantes.
 
 ![](../assets/dynamic_report_journey_8.png)
 
@@ -83,7 +83,7 @@ La visualización del flujo del viaje le permite ver la ruta de sus perfiles obj
 
 ![](../assets/dynamic_report_journey_10.png)
 
-La **[!UICONTROL Journey summary]** tabla contiene los datos disponibles para el viaje, como:
+La tabla **[!UICONTROL Journey summary]** contiene los datos disponibles para el viaje, como:
 
 * **[!UICONTROL Entered]**:: número total de personas que alcanzaron el evento de entrada del viaje.
 * **[!UICONTROL Completion rate]**:: el número total de personas que alcanzaron el control de flujo final del viaje, en comparación con el número total de personas que entraron en el viaje.
@@ -91,11 +91,11 @@ La **[!UICONTROL Journey summary]** tabla contiene los datos disponibles para el
 * **[!UICONTROL Failed]**:: número total de viajes que no se ejecutaron correctamente.
 * **[!UICONTROL Failed rate]**:: número total de viajes que no se ejecutaron correctamente en comparación con el número de viajes de ejecución.
 
-La **[!UICONTROL Top events]** tabla muestra los eventos con mayor éxito y las acciones **[!UICONTROL Top action]** con mayor éxito en sus viajes.
+La tabla **[!UICONTROL Top events]** muestra los eventos más exitosos y las **[!UICONTROL Top action]** acciones más exitosas en sus viajes.
 
 ![](../assets/dynamic_report_journey_11.png)
 
-La **[!UICONTROL Delivery - Sending summary]** tabla contiene los datos disponibles para los envíos del viaje, como:
+La tabla **[!UICONTROL Delivery - Sending summary]** contiene los datos disponibles para los envíos del viaje, como:
 
 * **[!UICONTROL Processed/sent]**:: número total de mensajes enviados.
 * **[!UICONTROL Delivered rate]**:: número total de mensajes enviados correctamente en comparación con los mensajes enviados.
@@ -103,7 +103,7 @@ La **[!UICONTROL Delivery - Sending summary]** tabla contiene los datos disponib
 * **[!UICONTROL Bounce + error rate]**:: número total de mensajes devueltos en comparación con los mensajes enviados.
 * **[!UICONTROL Bounces + errors]**:: total de errores acumulados durante el envío y el procesamiento de devolución automático en relación con el número total de mensajes enviados.
 
-La **[!UICONTROL Delivery - Tracking summary]** tabla contiene los datos disponibles para realizar el seguimiento del éxito de los envíos de los viajes, como:
+La tabla **[!UICONTROL Delivery - Tracking summary]** contiene los datos disponibles para rastrear el éxito de los envíos de los viajes, como:
 
 * **[!UICONTROL Open Rate]**:: porcentaje de mensajes abiertos.
 * **[!UICONTROL Open]**:: número de veces que se abrió un mensaje en un envío.
