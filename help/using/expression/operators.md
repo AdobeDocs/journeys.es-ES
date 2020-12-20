@@ -34,7 +34,7 @@ Existen dos tipos de operadores: operadores unarios y operadores binarios. Hay o
 
 Esta es la lista de los operadores admitidos:
 
-## Lógico  {#logical}
+## Lógico {#logical}
 
 ### y
 
@@ -74,7 +74,7 @@ Ejemplo:
 not <expression>
 ```
 
-&lt;expresión> debe ser booleano. El resultado es booleano.
+&lt;expression> debe ser booleano. El resultado es booleano.
 
 Ejemplo:
 
@@ -128,7 +128,7 @@ Ejemplo:
 <expression> has null
 ```
 
-&lt;expresión> debe ser una lista. El resultado es booleano.
+&lt;expression> debe ser una lista. El resultado es booleano.
 
 Resulta útil identificar que una lista contiene al menos un valor nulo.
 
@@ -254,7 +254,7 @@ Ejemplo:
 42 < 3.14
 ```
 
-### &lt;=
+### &lt;>
 
 
 
@@ -328,7 +328,7 @@ Ambas expresiones deben ser numéricas (entero o decimal).
 
 El resultado también es numérico.
 
-&lt;expresión2> no debe ser igual a 0 (devuelve 0).
+&lt;expression2> no debe ser igual a 0 (devuelve 0).
 
 Ejemplo:
 
