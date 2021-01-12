@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Trabajar con Adobe Campaign
 description: Información sobre las acciones de Adobe Campaign
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 723c30865a5039bd68a8ac2e45d4c87a760e694d
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '300'
 ht-degree: 4%
 
 ---
@@ -40,13 +40,13 @@ Estos son los pasos para configurarlo:
    >
    >Esta prueba comprueba que:
    >
-   >El host es &quot;.campaña.adobe.com&quot; o &quot;.campaña-sandbox.adobe.com&quot;,
+   >El host es &quot;.campaña.adobe.com&quot;, &quot;.campaña-sandbox.adobe.com&quot; o &quot;campaña-demo.adobe.com&quot;
    >
    >La URL inicio con https,
    >
    >El ORG asociado a esta instancia de Adobe Campaign Standard es el mismo que el ORG del Journey Orchestration.
 
-Al diseñar el viaje, habrá tres acciones disponibles en la categoría **[!UICONTROL Action]**: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (consulte [Uso de acciones de Adobe Campaign](../building-journeys/using-adobe-campaign-actions.md)). **Los** eventos de reacciones también le permitirán reaccionar en los clics de mensajes, aperturas, etc. (consulte [eventos de reacciones](../building-journeys/reaction-events.md)).
+Al diseñar el recorrido, habrá tres acciones disponibles en la categoría **[!UICONTROL Action]**: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (consulte [Uso de acciones de Adobe Campaign](../building-journeys/using-adobe-campaign-actions.md)). **Los** eventos de reacciones también le permitirán reaccionar en los clics de mensajes, aperturas, etc. (consulte [eventos de reacciones](../building-journeys/reaction-events.md)).
 
 ![](../assets/journey58.png)
 
