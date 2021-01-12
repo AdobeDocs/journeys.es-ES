@@ -2,30 +2,30 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: Propiedades del recorrido
-description: Obtenga información sobre las propiedades del viaje
+description: Información sobre las propiedades de recorrido
 translation-type: tm+mt
-source-git-commit: 341138c31676870878099b4f4eecec200a614c69
+source-git-commit: ba50a1be1a1b8665ab3c557cc1ccc5c4f27bcc87
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '571'
+ht-degree: 2%
 
 ---
 
 
 # Propiedades del recorrido {#journey-properties}
 
-En el editor de expresiones avanzado, encontrará la categoría **Propiedades del viaje**, debajo de las categorías del evento y del origen de datos. Esta categoría contiene campos técnicos relacionados con el viaje de un perfil determinado. Esta es la información recuperada por el sistema de los viajes en directo, como la ID del viaje o los errores específicos encontrados.
+En el editor de expresiones avanzado, encontrará la categoría **Propiedades del Recorrido**, debajo de las categorías del evento y del origen de datos. Esta categoría contiene campos técnicos relacionados con el recorrido de un perfil determinado. Es la información recuperada por el sistema de recorridos activos, como el ID de recorrido o los errores específicos encontrados.
 
 ![](../assets/journey-properties.png)
 
 Encontrará información, por ejemplo, sobre:
 
-* versión del viaje: uid de viaje, uid de versión de viaje, uid de instancia, etc.
+* Versión de recorrido: uid de recorrido, uid de versión de recorrido, uid de instancia, etc.
 * errores: captura de datos, ejecución de acciones, etc.
 * paso actual, último paso actual, etc.
 * perfiles descartados
 
-Puede utilizar estos campos para generar expresiones. Durante la ejecución del viaje, los valores se recuperarán directamente del viaje.
+Puede utilizar estos campos para generar expresiones. Durante la ejecución de recorrido, los valores se recuperarán directamente desde el recorrido.
 
 Estos son algunos ejemplos de casos de uso:
 
@@ -39,15 +39,17 @@ Estos son algunos ejemplos de casos de uso:
 
 | Categoría | Nombre del campo | Etiqueta | Descripción |
 |---|---|---|------------|
-| Versión de viaje | travelUID | Identificador de viaje |  |
-|  | travelVersionUID | Identificador de versión de viaje |  |
-|  | travelVersionName | Nombre de la versión del viaje |  |
-|  | travelVersionDescription | Descripción de la versión del viaje |  |
-|  | travelVersion | Versión de viaje |  |
-| Instancia de Journey | instanceUID | Identificador de instancia de viaje | ID de la instancia |
-|  | externalKey | Clave externa | Identificador individual que activa el viaje |
-| Identidad | profileId | Identificador de identidad de perfil | Identificador del perfil en el viaje |
-|  | área de nombres | Área de nombres de identidad de perfil | Área de nombres del perfil en el viaje (ejemplo: ECID) |
+| Versión de recorrido | travelUID | Identificador de recorrido |  |
+|  | travelVersionUID | Identificador de versión de recorrido |  |
+|  | travelVersionName | Nombre de versión de recorrido |  |
+|  | travelVersionDescription | Descripción de la versión de recorrido |  |
+|  | travelVersion | Versión de recorrido |  |
+| Instancia de recorrido | instanceUID | Identificador de instancia de recorrido | ID de la instancia |
+|  | externalKey | Clave externa | Identificador individual que activa el recorrido |
+|  | OrganizationId | Identificador de organización | Organización de marca |
+|  | sandboxName | Nombre del Simulador para pruebas | Nombre del simulador para pruebas |
+| Identidad | profileId | Identificador de identidad de perfil | Identificador del perfil en el recorrido |
+|  | área de nombres | Área de nombres de identidad de perfil | Área de nombres del perfil en el recorrido (ejemplo: ECID) |
 | Nodo actual | currentNodeId | Identificador de nodo actual | Identificador de la actividad actual (nodo) |
 |  | currentNodeName | Nombre del nodo actual | Nombre de la actividad actual (nodo) |
 | Nodo anterior | previousNodeId | Identificador de nodo anterior | Identificador de la actividad anterior (nodo) |
