@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Limitaciones del Journey Orchestration
 description: Obtenga más información sobre las limitaciones de los Journey Orchestration
 translation-type: tm+mt
-source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
+source-git-commit: f562d4a967e6551d3b8a1bc4dbddbf01da9b3e70
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '515'
+ht-degree: 2%
 
 ---
 
@@ -23,12 +23,12 @@ Estas son las limitaciones relacionadas con el uso de Journey Orchestration.
 * El evento integrado **Reacción** le permite reaccionar a las acciones predeterminadas (consulte esta [página](../building-journeys/reaction-events.md)). Si desea reaccionar a un mensaje enviado mediante una acción personalizada, debe configurar un evento dedicado. 
 * No hay integración de productos de Adobe Campaign Classic.
 
-## Limitaciones de versiones de viajes {#journey-versions-limitations}
+## Limitaciones de versiones de recorrido {#journey-versions-limitations}
 
-* un viaje que comienza con una actividad de evento en v1 no puede inicio con otra cosa que un evento en versiones posteriores. No se puede inicio un viaje con un evento **Calificación del segmento**.
-* un viaje que comienza con una actividad de **Calificación del segmento** en v1 siempre debe tener un inicio con una **Calificación del segmento** en versiones posteriores.
+* un recorrido que comienza con una actividad de evento en v1 no puede inicio con otra cosa que un evento en versiones posteriores. No se puede inicio un recorrido con un evento **Calificación del segmento**.
+* un recorrido que comienza con una actividad **Calificación del segmento** en v1 siempre debe estar en inicio con una **Calificación del segmento** en versiones posteriores.
 * El segmento y la Área de nombres elegidos en **Calificación del segmento** (primer nodo) no se pueden cambiar en las nuevas versiones.
-* La regla de reentrada debe ser la misma en todas las versiones del viaje.
+* La regla de reentrada debe ser la misma en todas las versiones de recorrido.
 
 ## Calificación del segmento {#segment-qualification}
 
@@ -51,9 +51,21 @@ Estas son las limitaciones relacionadas con el uso de Journey Orchestration.
 
 ## Limitaciones de eventos
 
-* Los datos de flujo utilizados para iniciar un viaje del cliente deben configurarse primero dentro del Journey Orchestration para obtener un ID de orquestación único. Este identificador de orquestación debe agregarse a la carga útil de flujo que llega a Adobe Experience Platform.
+* Los datos de flujo utilizados para iniciar un recorrido del cliente deben configurarse primero dentro del Journey Orchestration para obtener un ID de orquestación único. Este identificador de orquestación debe agregarse a la carga útil de flujo que llega a Adobe Experience Platform.
  
 
 ## Limitaciones de fuentes de datos
 
-* Las fuentes de datos externas se pueden aprovechar en un viaje del cliente para buscar datos externos en tiempo real. Estas fuentes deben utilizarse mediante la API de REST, admiten JSON y pueden gestionar el volumen de solicitudes.
+* Las fuentes de datos externas se pueden aprovechar dentro de un recorrido del cliente para buscar datos externos en tiempo real. Estas fuentes deben utilizarse mediante la API de REST, admiten JSON y pueden gestionar el volumen de solicitudes.
+
+## Recorridos que comienzan al mismo tiempo que una creación de perfil {#journeys-limitation-profile-creation}
+
+Existe un retraso asociado a la creación o actualización de perfiles basados en API en Adobe Experience Platform. El Destinatario de nivel de servicio (SLT) en términos de latencia es &lt; 1 min desde la ingestión hasta el Perfil unificado para el 95 % de las solicitudes, a un volumen de 20 000 solicitudes por segundo (RPS).
+
+Si un Recorrido se activa de forma simultánea a la creación de un perfil y comprueba o recupera inmediatamente la información del servicio de Perfil, es posible que no funcione correctamente.
+
+Puede elegir una de estas dos soluciones:
+
+* Añada una actividad de espera después del primer evento para que Adobe Experience Platform tenga el tiempo necesario para realizar la ingestión en el servicio de Perfil.
+
+* Configure un recorrido que no aproveche inmediatamente el perfil. Por ejemplo, si el recorrido está diseñado para confirmar la creación de una cuenta, el evento de experiencias puede contener la información necesaria para enviar el primer mensaje de confirmación (nombre, apellidos, dirección de correo electrónico, etc.).
