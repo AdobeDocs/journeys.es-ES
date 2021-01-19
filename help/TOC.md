@@ -5,9 +5,9 @@ user-guide-title: Journey Orchestration
 title: Guía de Journey Orchestration
 user-guide-description: Proporciona instrucciones prácticas para implementar y construir recorridos.
 index: true
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9cd37af0281e9fb837c7bf52a52c8dbffd0d4a78
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 100%
 
@@ -61,7 +61,7 @@ ht-degree: 100%
       + [Creación de un recorrido](using/building-journeys/journey.md)
       + [Uso del diseñador de recorridos](using/building-journeys/using-the-journey-designer.md)
       + [Cambio de las propiedades](using/building-journeys/changing-properties.md)
-      + [Versiones de Journey](using/building-journeys/journey-versions.md)
+      + [Versiones de recorridos](using/building-journeys/journey-versions.md)
       + [Finalización de un recorrido](using/building-journeys/terminating-a-journey.md)
       + [Administración de husos horarios](using/building-journeys/timezone-management.md)
    + Actividades {#about-journey-building}
