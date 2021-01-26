@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Notas de la versión
 description: Más información sobre las notas de la versión
 translation-type: tm+mt
-source-git-commit: 3c678a16d13b8578526dd0bf9192ace26ade5ed0
+source-git-commit: c7eb29c873f91ed1debe4e8c786a96a1f6b71b71
 workflow-type: tm+mt
-source-wordcount: '2169'
+source-wordcount: '2171'
 ht-degree: 73%
 
 ---
@@ -21,7 +21,7 @@ También puede consultar las [Actualizaciones de documentación](../release-note
 
 Al seleccionar un esquema en la configuración de evento, solo se seleccionan los campos obligatorios para que el Journey Orchestration reciba el evento correctamente. [Puede obtener más información](../event/defining-the-payload-fields.md)
 
-Los atributos de las propiedades de recorrido ahora están disponibles en el editor de expresiones sencillo.
+Los atributos de las propiedades de recorrido ahora están disponibles en el editor de expresiones sencillo. [Puede obtener más información](../expression/journey-properties.md)
 
 Se han agregado dos atributos de propiedades de recorrido nuevos (sandboxName y OrganizationId). [Puede obtener más información](../expression/journey-properties.md)
 
