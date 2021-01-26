@@ -4,17 +4,21 @@ solution: Journey Orchestration
 title: Propiedades del recorrido
 description: Información sobre las propiedades de recorrido
 translation-type: tm+mt
-source-git-commit: ba50a1be1a1b8665ab3c557cc1ccc5c4f27bcc87
+source-git-commit: a515e052a5bc1359632a1829df70a206614a5bb2
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '586'
 ht-degree: 2%
 
 ---
 
 
-# Propiedades del recorrido {#journey-properties}
+# Atributos de propiedades de recorrido {#journey-properties}
 
 En el editor de expresiones avanzado, encontrará la categoría **Propiedades del Recorrido**, debajo de las categorías del evento y del origen de datos. Esta categoría contiene campos técnicos relacionados con el recorrido de un perfil determinado. Es la información recuperada por el sistema de recorridos activos, como el ID de recorrido o los errores específicos encontrados.
+
+>[!NOTE]
+>
+>Los atributos de las propiedades de recorrido también están disponibles en el editor de expresiones sencillo. Consulte esta [sección](../building-journeys/condition-activity.md#about_condition)
 
 ![](../assets/journey-properties.png)
 
