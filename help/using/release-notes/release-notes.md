@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Notas de la versión
 description: Más información sobre las notas de la versión
 translation-type: tm+mt
-source-git-commit: 010bccb16d2b6980ff758e3922d3bc315706f61b
+source-git-commit: 3c678a16d13b8578526dd0bf9192ace26ade5ed0
 workflow-type: tm+mt
-source-wordcount: '2026'
-ht-degree: 78%
+source-wordcount: '2169'
+ht-degree: 73%
 
 ---
 
@@ -16,6 +16,20 @@ ht-degree: 78%
 
 Esta página lista todas las nuevas funciones y mejoras de Journey Orchestration.
 También puede consultar las [Actualizaciones de documentación](../release-notes/documentation-updates.md) más recientes.
+
+## Versión de enero de 2021 {#january-release}
+
+Al seleccionar un esquema en la configuración de evento, solo se seleccionan los campos obligatorios para que el Journey Orchestration reciba el evento correctamente. [Puede obtener más información](../event/defining-the-payload-fields.md)
+
+Los atributos de las propiedades de recorrido ahora están disponibles en el editor de expresiones sencillo.
+
+Se han agregado dos atributos de propiedades de recorrido nuevos (sandboxName y OrganizationId). [Puede obtener más información](../expression/journey-properties.md)
+
+Para alinearse con los SLA de Adobe Campaign Standard, ahora se define automáticamente una regla de límite de 13 llamadas por segundo para acciones de Adobe Campaign Standard en cuanto se configura la integración de Adobe Campaign Standard. [Puede obtener más información](../action/working-with-adobe-campaign.md)
+
+La duración del tiempo de espera de evento ahora se especifica con mayor claridad en la ruta de tiempo de espera. [Puede obtener más información](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
+
+Las funciones [getListItem](../functions/functiongetlistitem.md) y [split](../functions/functionsplit.md) se han agregado a la lista de funciones disponibles en el editor de expresiones avanzado. Esto oferta más posibilidades en los casos de uso de cálculos de cadenas.
 
 ## Versión de noviembre de 2020 {#november-release}
 
@@ -28,13 +42,13 @@ También puede consultar las [Actualizaciones de documentación](../release-note
 <tbody>
 <tr>
 <td>
-<p>Una nueva actividad de acción permite llevar a los individuos de un viaje a otro. La actividad <strong>Jump</strong> le permite:
+<p>Una nueva actividad de acción permite insertar individuos de un recorrido a otro. La actividad <strong>Jump</strong> le permite:
 </p>
 <ul>
-<li>simplificar el diseño de viajes muy complejos dividiéndolos en varios </li>
-<li>construir viajes basados en patrones de viaje comunes y reutilizables</li>
+<li>simplificar el diseño de recorridos muy complejos dividiéndolos en varios </li>
+<li>generar recorridos basados en patrones de recorrido comunes y reutilizables</li>
 </ul>
-<p>Para obtener más información, consulte la <a href="../building-journeys/jump.md">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="../building-journeys/jump.md">documentación detallada</a> y el <a href="https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html">videotutorial</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -43,13 +57,13 @@ También puede consultar las [Actualizaciones de documentación](../release-note
 <table>
 <thead>
 <tr>
-<th><strong>Uso de las propiedades de viaje en el editor de expresiones</strong><br/></th>
+<th><strong>Uso de las propiedades de recorrido en el editor de expresiones</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>En el editor de expresiones avanzado, hemos agregado una nueva categoría en la lista de campos y funciones. Esta es la información recuperada por el sistema de los viajes en directo, como la ID del viaje o los errores específicos encontrados. Esto le dará más posibilidades al construir sus viajes. Por ejemplo, podrá avisar a sistemas de terceros en caso de que se produzcan errores en una condición o una acción.
+<p>En el editor de expresiones avanzado, hemos agregado una nueva categoría en la lista de campos y funciones. Es la información recuperada por el sistema de recorridos activos, como el ID de recorrido o los errores específicos encontrados. Esto le dará más posibilidades al construir sus recorridos. Por ejemplo, podrá avisar a sistemas de terceros en caso de que se produzcan errores en una condición o una acción.
 </p>
 <p>Para obtener más información, consulte la <a href="../expression/journey-properties.md">documentación detallada</a>.</p>
 </td>
@@ -74,11 +88,11 @@ También puede consultar las [Actualizaciones de documentación](../release-note
 </tbody>
 </table>
 
-### Otras mejoras{#october-november}
+### Otras mejoras
 
-Se han añadido limitaciones al crear nuevas versiones de un viaje. Estas limitaciones evitan cambios demasiado drásticos en el viaje para mantener cierta coherencia entre las versiones. [Más información](../about/limitations.md#journey-versions-limitations)
+Se han agregado limitaciones al crear nuevas versiones de un recorrido. Estas limitaciones evitan cambios demasiado drásticos en el recorrido para mantener cierta coherencia entre las versiones. [Puede obtener más información](../about/limitations.md#journey-versions-limitations)
 
-La actividad **Calificación del segmento** ya no se puede utilizar en un viaje que incluya actividades de mensajes de Campaign Standard. Esta restricción protege la integridad de las instancias de Adobe Campaign Standard. De hecho, el uso de Calificación de segmentos puede llevar a picos diarios de envío de mensajes que sobrecargarían la mensajería transaccional de Campaign Standards. [Más información](../about/limitations.md#segment-qualification)
+La actividad **Calificación del segmento** ya no se puede usar en un recorrido que incluya actividades de mensajes de Campaign Standard. Esta restricción protege la integridad de las instancias de Adobe Campaign Standard. De hecho, el uso de Calificación de segmentos puede llevar a picos diarios de envío de mensajes que sobrecargarían la mensajería transaccional de Campaign Standards. [Puede obtener más información](../about/limitations.md#segment-qualification)
 
 ## Versión de octubre de 2020 {#october-release}
 
@@ -91,7 +105,7 @@ La actividad **Calificación del segmento** ya no se puede utilizar en un viaje 
 <tbody>
 <tr>
 <td>
-<p>Ahora puede configurar un tiempo de espera para un evento para que un viaje escuche un evento solo durante un tiempo determinado. Ya no necesita agregar una actividad de espera en paralelo a la ruta de evento para lograrlo.
+<p>Ahora puede configurar un tiempo de espera para un evento para que un recorrido escuche un evento solo durante un tiempo determinado. Ya no necesita agregar una actividad de espera en paralelo a la ruta de evento para lograrlo.
 </p>
 <p>Para obtener más información, consulte la <a href="../building-journeys/event-activities.md#listening-to-events-during-a-specific-time">documentación detallada</a>.</p>
 </td>
@@ -99,9 +113,9 @@ La actividad **Calificación del segmento** ya no se puede utilizar en un viaje 
 </tbody>
 </table>
 
-### Otras mejoras{#october-other}
+### Otras mejoras
 
-* Al publicar una nueva versión de un viaje, la versión anterior finaliza automáticamente y cambia al estado Cerrado. [Más información](../building-journeys/journey-versions.md)
+* Al publicar una nueva versión de un recorrido, la versión anterior finaliza automáticamente y cambia al estado Cerrado. [Puede obtener más información](../building-journeys/journey-versions.md)
 
 ## Versión de septiembre de 2020 {#september-release}
 
@@ -116,7 +130,7 @@ La actividad **Calificación del segmento** ya no se puede utilizar en un viaje 
 <tbody>
 <tr>
 <td>
-<p>Al agregar condiciones a su viaje, ahora puede definir una etiqueta. Si se utilizan varias condiciones en un viaje, esto le permite identificarlas más fácilmente.
+<p>Al agregar condiciones al recorrido, ahora puede definir una etiqueta. Si utiliza varias condiciones en un recorrido, esto le permite identificarlas con mayor facilidad.
 </p>
 <p>Para obtener más información, consulte la <a href="../building-journeys/condition-activity.md#about_condition">documentación detallada</a>.</p>
 </td>
@@ -140,7 +154,7 @@ Para descubrir el ámbito de Alpha, consulte esta [sección](../alpha/alpha-over
 <p>Se han realizado las siguientes mejoras en la actividad <strong>Leer segmento</strong>:
 </p>
 <ul>
-<li><p>Los viajes basados en segmentos ahora muestran, por encima del lienzo, un recordatorio del tipo de programación del viaje. Puede hacer clic en este recordatorio para acceder al menú de configuración de programación.</p>
+<li><p>Los recorridos basados en segmentos ahora muestran, encima del lienzo, un recordatorio del tipo de programación del recorrido. Puede hacer clic en este recordatorio para acceder al menú de configuración de programación.</p>
 </li>
 <li><p>Se ha mejorado la granularidad de los registros de modo de prueba para mostrar el estado de progreso de exportación de segmentos.</p>
 </li>
@@ -288,7 +302,7 @@ Estas características se describen en una [sección](../alpha/alpha-overview.md
 <li><p>Una nueva actividad permite escuchar las entradas y salidas de segmentos de Adobe Experience Platform para hacer que las personas entren o avancen en un recorrido. <a href="../building-journeys/segment-qualification-events.md">Más información</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>Los segmentos de Adobe Experience Platform ahora se pueden crear y editar sin salir de la interfaz de Journey Orchestration, gracias a la nueva pestaña <strong>Segmentos</strong> . <a href="../segment/about-segments.md">Más información</a></p>
+<li><p>Los segmentos de Adobe Experience Platform ahora se pueden crear y editar sin salir de la interfaz de Journey Orchestration, gracias a la nueva pestaña <strong>Segmentos</strong> . <a href="../segment/about-segments.md">Puede obtener más información</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
 <li><p>En el editor de expresiones simple, los segmentos de Adobe Experience Platform ahora se muestran directamente en el árbol de navegación para permitir una configuración sencilla de condiciones como "¿Pertenece esta persona al segmento A?". <a href="../segment/using-a-segment.md">Más información</a></p>
