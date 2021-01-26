@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Trabajar con Adobe Campaign
 description: Información sobre las acciones de Adobe Campaign
 translation-type: tm+mt
-source-git-commit: 723c30865a5039bd68a8ac2e45d4c87a760e694d
+source-git-commit: a515e052a5bc1359632a1829df70a206614a5bb2
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '299'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ El mensaje transaccional del Campaign Standard y su evento asociado deben public
 
 >[!NOTE]
 >
->La mensajería transaccional de Adobe Campaign Standard tiene una escala de 50 000 mensajes por hora como máximo en canales para una instancia determinada. Para reducir el riesgo de sobrecarga, le recomendamos que configure una **regla de límite** para la integración de Campaign Standard.
+>Una regla de límite de 13 llamadas por segundo se define automáticamente para las acciones de Adobe Campaign Standard en cuanto se configura la integración de Adobe Campaign Standard. Esto corresponde a la escala oficial de Adobe Campaign Standard Transactional Messaging.
 >
 >Obtenga más información sobre los SLA de mensajería transaccional en [Descripción del producto de Adobe Campaign Standard](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html).
 
@@ -40,7 +40,7 @@ Estos son los pasos para configurarlo:
    >
    >Esta prueba comprueba que:
    >
-   >El host es &quot;.campaña.adobe.com&quot;, &quot;.campaña-sandbox.adobe.com&quot; o &quot;campaña-demo.adobe.com&quot;
+   >El host es &quot;.campaña.adobe.com&quot;, &quot;.campaña-sandbox.adobe.com&quot; o &quot;.campaña-demo.adobe.com&quot;
    >
    >La URL inicio con https,
    >
