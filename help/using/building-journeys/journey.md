@@ -12,25 +12,25 @@ ht-degree: 17%
 ---
 
 
-# Creación de un recorrido {#concept_gq5_sqt_52b}
+# Crear un recorrido {#concept_gq5_sqt_52b}
 
-Este paso lo realiza el **usuario del negocio**. Aquí es donde crea sus viajes. Combine las distintas actividades de evento, orquestación y acción para crear sus escenarios de canal cruzado de varios pasos.
+Este paso lo realiza el **usuario del negocio**. Aquí es donde crea sus recorridos. Combine las distintas actividades de evento, orquestación y acción para crear sus escenarios de canal cruzado de varios pasos.
 
-La interfaz de viaje permite arrastrar y soltar fácilmente actividades de la paleta en el lienzo. También puede hacer clic con el botón doble en una actividad para agregarla al lienzo en el siguiente paso disponible. Cada actividad tiene una función y un lugar específicos en el proceso. Las actividades se secuencian. Cuando finaliza una actividad, el flujo continúa y procesa la siguiente actividad, etc.
+La interfaz de recorrido permite arrastrar y soltar fácilmente actividades de la paleta en el lienzo. También puede hacer clic con el botón doble en una actividad para agregarla al lienzo en el siguiente paso disponible. Cada actividad tiene una función y un lugar específicos en el proceso. Las actividades se secuencian. Cuando finaliza una actividad, el flujo continúa y procesa la siguiente actividad, etc.
 
-Sólo se permite una Área de nombres por viaje. Cuando sueltes el primer evento, los eventos con diferentes Áreas de nombres aparecerán atenuados. Si el primer evento no tiene una Área de nombres, entonces todos los eventos con una Área de nombres estarán atenuados. Consulte [esta página](../event/selecting-the-namespace.md). Además, los grupos de campo de Adobe Experience Platform aparecen atenuados si el viaje tiene eventos sin Área de nombres. Y finalmente, si uno usa varios eventos en el mismo viaje, ellos necesitan usar la misma Área de nombres.
+Solo se permite una Área de nombres por recorrido. Cuando sueltes el primer evento, los eventos con diferentes Áreas de nombres aparecerán atenuados. Si el primer evento no tiene una Área de nombres, entonces todos los eventos con una Área de nombres estarán atenuados. Consulte [esta página](../event/selecting-the-namespace.md). Además, los grupos de campos de Adobe Experience Platform aparecen atenuados si el recorrido tiene eventos sin Área de nombres. Y finalmente, si se utilizan varios eventos en el mismo recorrido, necesitan usar la misma Área de nombres.
 
 ## Inicio rápido {#creating_journey}
 
-Estos son los pasos principales para crear y publicar un viaje.
+Estos son los pasos principales para crear y publicar un recorrido.
 
 1. En el menú superior, haga clic en la pestaña **[!UICONTROL Home]**.
 
-   Se muestra la lista de los viajes. Consulte [esta página](../building-journeys/using-the-journey-designer.md) para obtener más información sobre la interfaz.
+   Se muestra la lista de recorridos. Consulte [esta página](../building-journeys/using-the-journey-designer.md) para obtener más información sobre la interfaz.
 
    ![](../assets/journey30.png)
 
-1. Haga clic en **[!UICONTROL Create]** para crear un nuevo viaje.
+1. Haga clic en **[!UICONTROL Create]** para crear un nuevo recorrido.
 
    ![](../assets/journey31.png)
 
@@ -46,15 +46,15 @@ Estos son los pasos principales para crear y publicar un viaje.
 
    ![](../assets/journey34.png)
 
-1. Su viaje se guarda automáticamente. Pruebe su viaje y publíquelo. Consulte [prueba del viaje](../building-journeys/testing-the-journey.md) y [Publicación del viaje](../building-journeys/publishing-the-journey.md).
+1. El recorrido se guarda automáticamente. Pruebe el recorrido y publíquelo. Consulte [prueba del recorrido](../building-journeys/testing-the-journey.md) y [Publicación del recorrido](../building-journeys/publishing-the-journey.md).
 
    ![](../assets/journey36.png)
 
-## Finalización de un viaje {#ending_a_journey}
+## Finalización de un recorrido {#ending_a_journey}
 
-Existen dos maneras de terminar un viaje:
+Existen dos formas de poner fin a un recorrido:
 
 * La persona llega a la última actividad de un camino. Esta última actividad puede ser una actividad final u otra actividad. No existe la obligación de poner fin a una ruta con una actividad final. Consulte [esta página](../building-journeys/end-activity.md).
 * La persona llega a una actividad de condición (o a una actividad de espera con una condición) y no cumple ninguna de las condiciones.
 
-La persona puede volver a entrar en el viaje si se permite la reentrada. Consulte [esta página](../building-journeys/changing-properties.md).
+La persona puede volver a entrar en el recorrido si se permite la reentrada. Consulte [esta página](../building-journeys/changing-properties.md).
