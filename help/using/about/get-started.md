@@ -56,7 +56,7 @@ Estos son los pasos principales para configurar y utilizar [!DNL Journey Orchest
 
    Debe validar y activar el recorrido. Este paso lo realiza un **usuario empresarial**.
 
-   Para obtener más información sobre esto, consulte las páginas [Prueba del viaje](../building-journeys/testing-the-journey.md) y [Publicación del viaje](../building-journeys/publishing-the-journey.md).
+   Para obtener más información sobre esto, consulte las páginas [Prueba del recorrido](../building-journeys/testing-the-journey.md) y [Publicación del recorrido](../building-journeys/publishing-the-journey.md).
 
    ![](../assets/journeyuc2_32bis.png)
 
