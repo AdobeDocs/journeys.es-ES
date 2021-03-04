@@ -6,9 +6,9 @@ title: Guía de Journey Orchestration
 user-guide-description: Proporciona instrucciones prácticas para implementar y construir recorridos.
 index: true
 translation-type: tm+mt
-source-git-commit: 59fef99ac17621e81037ddbcc280e9341db729eb
+source-git-commit: d6665fff2d2f7055df09ce8c6b00eac1379002ec
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '403'
 ht-degree: 98%
 
 ---
@@ -81,6 +81,7 @@ ht-degree: 98%
          + [Uso de acciones de Adobe Campaign](using/building-journeys/using-adobe-campaign-actions.md)
          + [Uso de acciones personalizadas](using/building-journeys/using-custom-actions.md)
          + [Saltar de un recorrido a otro](using/building-journeys/jump.md)
+         + [Actualizar perfil](using/building-journeys/update-profiles.md)
    + [Prueba del recorrido](using/building-journeys/testing-the-journey.md)
    + [Publicación del recorrido](using/building-journeys/publishing-the-journey.md)
    + Uso compartido de los pasos del recorrido con Adobe Experience Platform {#sharing-journey-steps}
@@ -192,8 +193,3 @@ ht-degree: 98%
       + [Construcción del recorrido](using/usecase/building-the-journey.md)
 + Uso de API{#working-with-apis}
    + [Captación de API](using/api/capping.md)
-+ Funciones alfa {#alpha}
-   + [Descripción general de las funciones Alpha](using/alpha/alpha-overview.md)
-   + [Interfaz de usuario](using/alpha/alpha-interface.md)
-   + [Leer Actividad de segmentos](using/alpha/alpha-segment-trigger.md)
-
