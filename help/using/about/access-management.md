@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Gestión de acceso
 description: Más información sobre la administración de acceso
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: e55078b31b5f0e5811575d5e8993a01a90ec9c14
 workflow-type: tm+mt
-source-wordcount: '845'
-ht-degree: 100%
+source-wordcount: '851'
+ht-degree: 99%
 
 ---
 
@@ -45,6 +45,7 @@ En la Admin Console, puede asignar a los usuarios uno de los siguientes perfiles
    * Administrar recorridos
    * Publicar recorridos
    * Administrar informes
+   * Leer Eventos, fuentes de datos y acciones
 
 También puede crear sus propios perfiles de producto si los perfiles predeterminados no son suficientes para administrar a los usuarios.
 Los usuarios siempre deben estar vinculados a un perfil de producto que le permita asignarles permisos de integración específicos como:
