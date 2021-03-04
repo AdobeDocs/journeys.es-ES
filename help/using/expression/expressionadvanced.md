@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Acerca del editor de expresiones avanzadas
 description: Aprenda a crear expresiones avanzadas
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: c41b49e2208727f5e3a562b838c4b052c70e8412
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '541'
+ht-degree: 90%
 
 ---
 
@@ -56,9 +56,11 @@ Esta pantalla le permite escribir manualmente su expresión.
 
 En la parte izquierda de la pantalla se muestran los campos y las funciones disponibles:
 
-* **[!UICONTROL Events]**: elija uno de los campos recibidos del evento de entrada. La lista mostrada de los campos de evento es contextual y varía según los eventos agregados en el recorrido.
-* **[!UICONTROL Data Sources]**: elija entre la lista de campos disponibles en los grupos de campos de las fuentes de datos.
-* **[!UICONTROL Functions]**: elija entre una lista de funciones integradas que permitan realizar filtros complejos. Las funciones están organizadas por categorías.
+* **[!UICONTROL Events]**: elija uno de los campos recibidos del evento de entrada. La lista mostrada de los campos de evento es contextual y varía según los eventos agregados en el recorrido. [Puede obtener más información](../event/about-events.md)
+* **[!UICONTROL Segments]**: si ha colocado un  **[!UICONTROL Segment qualification]** evento, elija el segmento que desee utilizar en su expresión. [Puede obtener más información](../segment/using-a-segment.md)
+* **[!UICONTROL Data Sources]**: elija entre la lista de campos disponibles en los grupos de campos de las fuentes de datos. [Puede obtener más información](../datasource/about-data-sources.md)
+* **[!UICONTROL Journey properties]**: esta sección reagrupa los campos técnicos relacionados con el recorrido de un perfil determinado. [Puede obtener más información](../expression/journey-properties.md)
+* **[!UICONTROL Functions]**: elija entre una lista de funciones integradas que permitan realizar filtros complejos. Las funciones están organizadas por categorías. [Puede obtener más información](../expression/functions.md)
 
 ![](../assets/journey65.png)
 
@@ -72,7 +74,7 @@ Un mecanismo de validación de sintaxis comprueba la integridad del código. Los
 
 **Necesidad de parámetros al crear condiciones con el editor de expresiones avanzadas**
 
-Si selecciona un campo de un origen de datos externo que requiere que se llame a un parámetro (consulte [esta página](../datasource/external-data-sources.md). Por ejemplo, en una fuente de datos relacionada con el tiempo, un parámetro utilizado frecuentemente será &quot;city&quot; (ciudad). Como resultado, debe seleccionar dónde desea obtener este parámetro de ciudad. Las funciones también se pueden aplicar a parámetros para realizar cambios de formato o concatenaciones.
+Si selecciona un campo de una fuente de datos externa que requiere que se llame a un parámetro (consulte [esta página](../datasource/external-data-sources.md). Por ejemplo, en una fuente de datos relacionada con el tiempo, un parámetro utilizado frecuentemente será &quot;city&quot; (ciudad). Como resultado, debe seleccionar dónde desea obtener este parámetro de ciudad. Las funciones también se pueden aplicar a parámetros para realizar cambios de formato o concatenaciones.
 
 ![](../assets/journeyuc2_19.png)
 
