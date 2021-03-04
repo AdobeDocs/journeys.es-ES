@@ -1,14 +1,14 @@
 ---
-keywords: Journeys;home;popular topics
+keywords: Recorridos;inicio;temas populares
 product: adobe campaign
 solution: Journey Orchestration
 title: Documentación del producto de Journey Orchestration
 topic: Premium
-translation-type: ht
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: ht
-source-wordcount: '263'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d6665fff2d2f7055df09ce8c6b00eac1379002ec
+workflow-type: tm+mt
+source-wordcount: '255'
+ht-degree: 98%
 
 ---
 
@@ -30,9 +30,6 @@ Obtenga información sobre cómo configurar los eventos que van a escuchar los r
 
 * **[Descubra las novedades](using/release-notes/release-notes.md)**<br/>
 Obtenga más información sobre las últimas versiones.
-
-* **[Funciones alfa](using/alpha/alpha-overview.md)**<br/>
-Descubra las características que están disponibles actualmente en el programa alfa.
 
 ## Páginas principales
 
