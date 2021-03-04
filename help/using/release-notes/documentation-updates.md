@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Actualizaciones de documentación
 description: Más información sobre las actualizaciones de documentación
 translation-type: tm+mt
-source-git-commit: f562d4a967e6551d3b8a1bc4dbddbf01da9b3e70
+source-git-commit: 349af3a922faa2cf4561c7974466255562d6917d
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '785'
 ht-degree: 93%
 
 ---
@@ -19,16 +19,16 @@ También puede consultar las [Notas de la versión](../release-notes/release-not
 
 ## Enero de 2021 {#january-2021}
 
-* Se han añadido las prácticas recomendadas al activar un recorrido al mismo tiempo que una creación de perfil. [Más información](../about/limitations.md#journeys-limitation-profile-creation).
+* Se han añadido prácticas recomendadas al activar un recorrido al mismo tiempo que una creación de perfil. [Obtenga más información](../about/limitations.md#journeys-limitation-profile-creation).
 
 ## Octubre de 2020 {#october-2020}
 
-* Se ha añadido información sobre cómo configurar un tiempo de espera para un evento. [Más información](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time).
+* Se ha añadido información sobre cómo configurar un tiempo de espera para un evento. [Obtenga más información](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time).
 
 ## Septiembre de 2020 {#september-2020}
 
-* La sección de descripción de la interfaz se ha actualizado para reflejar el nuevo menú **Todo selector**. [Más información](../about/user-interface.md)
-* Se añadió una nota sobre las nuevas versiones de los recorridos basados en segmentos que no son recurrentes. [Más información](../alpha/alpha-segment-trigger.md)
+* La sección de descripción de la interfaz se ha actualizado para reflejar el nuevo menú **All selector**. [Puede obtener más información](../about/user-interface.md)
+* Se ha añadido una nota sobre las nuevas versiones de recorridos basados en segmentos que no son recurrentes.
 
 ## Agosto de 2020 {#august-2020}
 
@@ -42,7 +42,7 @@ También puede consultar las [Notas de la versión](../release-notes/release-not
 * La sección actividades de eventos se ha reorganizado en subsecciones específicas para cada tipo de evento. [Más información](../building-journeys/event-activities.md)
 * Prácticas recomendadas añadidas para evitar sobrecargas con la calificación de segmentos. [Más información](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
 * Añadió una nota para explicar cómo continuar un recorrido después de un error en una acción o condición. [Más información](../about/troubleshooting.md#section_h3q_kqk_fhb)
-* Se añadió una nueva sección sobre las funciones alfa que se prueban entre un conjunto limitado de clientes. [Más información](../alpha/alpha-overview.md)
+* Se añadió una nueva sección sobre las funciones alfa que se prueban entre un conjunto limitado de clientes.
 * Se añadió una nueva sección sobre la integración con servicios inteligentes. [Más información](../ai-services/ai-services-overview.md)
 * Se añadió una nueva sección sobre la creación del perfil de prueba. [Más información](../building-journeys/testing-the-journey.md#create-test-profile)
 * Se añadió información sobre cómo utilizar el nodo **[!UICONTROL SegmentQualification]** en una condición de recorrido o acción. [Más información](../building-journeys/segment-qualification-events.md)
