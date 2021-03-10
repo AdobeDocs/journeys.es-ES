@@ -3,24 +3,27 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Funciones
 description: Obtenga información sobre las funciones
+feature: Recorridos
+role: Ingeniero de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 73%
+source-wordcount: '171'
+ht-degree: 71%
 
 ---
 
 
 # Funciones {#concept_p1r_qj5_dgb}
 
-Una función puede tener diferentes firmas (un conjunto diferente de parámetros ordenados). Una firma de función puede tener expresiones 0-N como parámetros ordenados.
+Una función puede tener firmas diferentes (un conjunto diferente de parámetros ordenados). Una firma de función puede tener expresiones 0-N como parámetros ordenados.
 
 `<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
 
-Cada función tiene un tipo devuelto específico.
+Cada función tiene un tipo específico devuelto.
 
-Esta es la lista de las funciones admitidas.
+Esta es la lista de funciones compatibles.
 
 ## Funciones principales
 
@@ -57,7 +60,7 @@ Esta es la lista de las funciones admitidas.
 | Fecha | [setHours](../functions/functionsethours.md) |
 | Fecha | [setDays](../functions/functionsetdays.md) |
 | Lista | [distinct](../functions/functiondistinct.md) |
-| Lista | [clearCount](../functions/functiondistinctcount.md) |
+| Lista | [distinctCount](../functions/functiondistinctcount.md) |
 | Lista | [in](../functions/functionin.md) |
 | Lista | [listSize](../functions/functionlistsize.md) |
 | Lista | [serializeList](../functions/functionserializelist.md) |
