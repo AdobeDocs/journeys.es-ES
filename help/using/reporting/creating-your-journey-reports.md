@@ -2,11 +2,14 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: Creación de informes de recorrido
-description: Conozca cómo crear sus informes de viaje
+description: Obtenga información sobre cómo crear informes de recorrido
+feature: Recorridos
+role: Profesional empresarial
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '829'
 ht-degree: 5%
 
 ---
@@ -18,17 +21,17 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->Después de eliminar un viaje, todos los informes asociados ya no estarán disponibles.
+>Después de eliminar un recorrido, todos los informes asociados ya no estarán disponibles.
 
-Esta sección le mostrará cómo crear o utilizar informes predeterminados. Combine paneles, componentes y visualizaciones para rastrear mejor el éxito de sus viajes.
+Esta sección le muestra cómo crear o utilizar informes predeterminados. Combine paneles, componentes y visualizaciones para rastrear mejor el éxito de sus recorridos.
 
-Para acceder a los informes de viajes y al inicio de seguimiento del éxito de sus envíos:
+Para acceder a los informes de sus recorridos y empezar a rastrear el éxito de sus envíos:
 
 1. En el menú superior, haga clic en la pestaña **[!UICONTROL Home]**.
 
-1. Seleccione el viaje sobre el que desee informar.
+1. Seleccione el recorrido sobre el que desee informar.
 
-   Tenga en cuenta que también puede acceder a los informes haciendo clic en **Informe** mientras pasa el ratón por un viaje en la lista de viajes.
+   Tenga en cuenta que también puede acceder a sus informes haciendo clic en **Informe** mientras pasa el ratón por encima de un recorrido en la lista de recorridos.
 
    ![](../assets/dynamic_report_journey.png)
 
@@ -36,7 +39,7 @@ Para acceder a los informes de viajes y al inicio de seguimiento del éxito de s
 
    ![](../assets/dynamic_report_journey_2.png)
 
-1. El informe predeterminado **[!UICONTROL Journey summary]** aparece en pantalla. Para acceder a los informes personalizados, haga clic en el botón **[!UICONTROL Close]**.
+1. El informe predeterminado **[!UICONTROL Journey summary]** aparece en pantalla. Para acceder a los informes personalizados, haga clic en el botón **[!UICONTROL Close]** .
 
    ![](../assets/dynamic_report_journey_12.png)
 
@@ -44,47 +47,47 @@ Para acceder a los informes de viajes y al inicio de seguimiento del éxito de s
 
    ![](../assets/dynamic_report_journey_3.png)
 
-1. En la ficha **[!UICONTROL Panels]**, arrastre y suelte tantos paneles o tablas improvisadas como sea necesario. Para obtener más información, consulte esta [sección](#adding-panels).
+1. En la ficha **[!UICONTROL Panels]**, arrastre y suelte tantos paneles o tablas de forma libre como sea necesario. Para obtener más información, consulte esta [sección](#adding-panels).
 
    ![](../assets/dynamic_report_journey_4.png)
 
-1. A continuación, puede filtrar los inicios de los datos arrastrando y soltando dimensiones y métricas desde la ficha **[!UICONTROL Components]** hasta la tabla improvisada. Para obtener más información, consulte esta [sección](#adding-components).
+1. A continuación, puede empezar a filtrar los datos arrastrando y soltando dimensiones y métricas desde la pestaña **[!UICONTROL Components]** hasta la tabla de forma libre. Para obtener más información, consulte esta [sección](#adding-components).
 
    ![](../assets/dynamic_report_journey_5.png)
 
-1. Para tener una vista más clara de los datos, puede agregar visualizaciones desde la ficha **[!UICONTROL Visualizations]**. Para obtener más información, consulte esta [sección](#adding-visualizations).
+1. Para obtener una vista más clara de los datos, puede agregar visualizaciones desde la pestaña **[!UICONTROL Visualizations]**. Para obtener más información, consulte esta [sección](#adding-visualizations).
 
 ## Adición de paneles{#adding-panels}
 
-### Añadir un panel en blanco {#adding-a-blank-panel}
+### Adición de un panel en blanco {#adding-a-blank-panel}
 
-Para inicio del informe, puede agregar un conjunto de paneles a un informe predeterminado o personalizado. Cada panel contiene diferentes conjuntos de datos y está compuesto de tablas y visualizaciones improvisadas.
+Para iniciar el informe, puede agregar un conjunto de paneles a un informe predeterminado o personalizado. Cada panel contiene diferentes conjuntos de datos y está compuesto por tablas improvisadas y visualizaciones.
 
-Este panel le permite generar los informes según sea necesario. Puede agregar tantos paneles como desee en los informes para filtrar los datos con diferentes períodos de tiempo.
+Este panel le permite crear los informes según sea necesario. Puede agregar tantos paneles como desee en los informes para filtrar los datos con diferentes períodos de tiempo.
 
 1. Haga clic en el icono **[!UICONTROL Panels]**. También puede agregar un panel haciendo clic en **[!UICONTROL Insert tab]** y seleccionando **[!UICONTROL New Blank Panel]**.
 
    ![](../assets/dynamic_report_panel_1.png)
 
-1. Arrastre y suelte el **[!UICONTROL Blank Panel]** en el panel.
+1. Arrastre y suelte el **[!UICONTROL Blank Panel]** en el tablero.
 
    ![](../assets/dynamic_report_panel.png)
 
-Ahora puede agregar una tabla improvisada al panel a los datos de objetivo de inicio.
+Ahora puede agregar una tabla improvisada al panel para comenzar a segmentar los datos.
 
-### Añadir una tabla improvisada {#adding-a-freeform-table}
+### Adición de una tabla improvisada {#adding-a-freeform-table}
 
-Las tablas improvisadas permiten crear una tabla para analizar los datos con las distintas métricas y dimensiones disponibles en la tabla **[!UICONTROL Component]**.
+Las tablas improvisadas le permiten crear una tabla para analizar sus datos con las diferentes métricas y dimensiones disponibles en la tabla **[!UICONTROL Component]**.
 
-Se puede cambiar el tamaño de cada tabla y visualización y moverlas para personalizar mejor el informe.
+Cada tabla y visualización se puede cambiar de tamaño y se puede mover para personalizar mejor el informe.
 
 1. Haga clic en el icono **[!UICONTROL Panels]**.
 
    ![](../assets/dynamic_report_panel_1.png)
 
-1. Arrastre y suelte el elemento **[!UICONTROL Freeform]** en el panel.
+1. Arrastre y suelte el elemento **[!UICONTROL Freeform]** en el tablero.
 
-   También puede agregar una tabla haciendo clic en la ficha **[!UICONTROL Insert]** y seleccionando **[!UICONTROL New Freeform]** o haciendo clic en **[!UICONTROL Add a freeform table]** en un panel vacío.
+   También puede agregar una tabla haciendo clic en la pestaña **[!UICONTROL Insert]** y seleccionando **[!UICONTROL New Freeform]** o haciendo clic en **[!UICONTROL Add a freeform table]** en un panel vacío.
 
    ![](../assets/dynamic_report_panel_2.png)
 
@@ -92,67 +95,67 @@ Se puede cambiar el tamaño de cada tabla y visualización y moverlas para perso
 
    ![](../assets/dynamic_report_freeform_3.png)
 
-1. Haga clic en el icono **[!UICONTROL Settings]** para cambiar la forma en que se muestran los datos en las columnas.
+1. Haga clic en el icono **[!UICONTROL Settings]** para cambiar cómo se muestran los datos en las columnas.
 
    ![](../assets/dynamic_report_freeform_4.png)
 
    El **[!UICONTROL Column settings]** está compuesto por:
 
-   * **[!UICONTROL Number]**:: permite mostrar u ocultar los números de resumen en la columna.
-   * **[!UICONTROL Percent]**:: permite mostrar u ocultar los porcentajes de la columna.
-   * **[!UICONTROL Interpret zero as no value]**:: permite mostrar u ocultar cuando el valor es igual a cero.
-   * **[!UICONTROL Background]**:: permite mostrar u ocultar la barra de progreso horizontal en las celdas.
-   * **[!UICONTROL Include retries]**:: permite incluir reintentos en el resultado. Esto solo está disponible para **[!UICONTROL Sent]** y **[!UICONTROL Bounces + Errors]**.
+   * **[!UICONTROL Number]**: permite mostrar u ocultar los números de resumen en la columna .
+   * **[!UICONTROL Percent]**: permite mostrar u ocultar porcentajes en la columna .
+   * **[!UICONTROL Interpret zero as no value]**: permite mostrar u ocultar cuando el valor es igual a cero.
+   * **[!UICONTROL Background]**: permite mostrar u ocultar la barra de progreso horizontal en las celdas.
+   * **[!UICONTROL Include retries]**: permite incluir reintentos en el resultado. Esto solo está disponible para **[!UICONTROL Sent]** y **[!UICONTROL Bounces + Errors]**.
 
-1. Seleccione una o varias filas y haga clic en el icono **[!UICONTROL Visualize]**. Se agrega una visualización para reflejar las filas seleccionadas.
+1. Seleccione una o varias filas y haga clic en el icono **[!UICONTROL Visualize]**. Se añade una visualización para reflejar las filas seleccionadas.
 
    ![](../assets/dynamic_report_freeform_5.png)
 
-Ahora puede agregar tantos componentes como necesite y también agregar visualizaciones para proporcionar representaciones gráficas de los datos.
+Ahora puede agregar tantos componentes como necesite y también agregar visualizaciones para proporcionar representaciones gráficas de sus datos.
 
 ## Adición de componentes{#adding-components}
 
 Los componentes ayudan a personalizar los informes con diferentes dimensiones, métricas y períodos de tiempo.
 
-1. Haga clic en la ficha **[!UICONTROL Components]** para acceder a la lista de componentes.
+1. Haga clic en la pestaña **[!UICONTROL Components]** para acceder a la lista de componentes.
 
    ![](../assets/dynamic_report_components.png)
 
-1. Cada categoría presentada en la ficha **[!UICONTROL Components]** muestra los cinco elementos más utilizados, haga clic en el nombre de una categoría para acceder a su lista completa de componentes.
+1. Cada categoría presentada en la pestaña **[!UICONTROL Components]** muestra los cinco elementos más utilizados, haga clic en el nombre de una categoría para acceder a su lista completa de componentes.
 
    La tabla de componentes se divide en tres categorías:
 
-   * **[!UICONTROL Dimensions]**:: Obtenga detalles del registro de envíos, como el explorador o dominio del destinatario, o el éxito de un envío.
-   * **[!UICONTROL Metrics]**:: Obtenga detalles sobre el estado de un mensaje. Por ejemplo, si se entregó un mensaje y el usuario lo abrió.
-   * **[!UICONTROL Time]**:: Establezca un período de tiempo para la tabla.
+   * **[!UICONTROL Dimensions]**: Obtenga detalles del registro de envíos, como el navegador o dominio del destinatario, o el éxito de una entrega.
+   * **[!UICONTROL Metrics]**: Obtenga detalles sobre el estado de un mensaje. Por ejemplo, si se entregó un mensaje y el usuario lo abrió.
+   * **[!UICONTROL Time]**: Establezca un período de tiempo para la tabla.
 
-1. Arrastre y suelte los componentes de un panel para filtrar los datos en inicio.
+1. Arrastre y suelte los componentes en un panel para comenzar a filtrar los datos.
 
 Puede arrastrar y soltar tantos componentes como sea necesario y compararlos entre sí.
 
 ## Adición de visualizaciones{#adding-visualizations}
 
-La ficha **[!UICONTROL Visualizations]** permite arrastrar y soltar elementos de visualización, como área, anillo y gráfico. Las visualizaciones le proporcionan representaciones gráficas de sus datos.
+La pestaña **[!UICONTROL Visualizations]** permite arrastrar y soltar elementos de visualización, como área, anillo y gráfico. Las visualizaciones le proporcionan representaciones gráficas de sus datos.
 
-1. En la ficha **[!UICONTROL Visualizations]**, arrastre y suelte un elemento de visualización en un panel.
+1. En la ficha **[!UICONTROL Visualizations]** , arrastre y suelte un elemento de visualización en un panel.
 
    ![](../assets/dynamic_report_visualization_1.png)
 
 1. Después de agregar una visualización al panel, los informes detectarán automáticamente los datos en la tabla improvisada. Seleccione la configuración de la visualización.
-1. Si tiene más de una tabla improvisada, elija el origen de datos disponible para agregar el gráfico en la ventana **[!UICONTROL Data Source Settings]**. Esta ventana también está disponible haciendo clic en el punto de color al lado del título de visualización.
+1. Si tiene más de una tabla improvisada, elija el origen de datos disponible para agregar en el gráfico en la ventana **[!UICONTROL Data Source Settings]**. Esta ventana también está disponible haciendo clic en el punto de color al lado del título de visualización.
 
    ![](../assets/dynamic_report_visualization_2.png)
 
 1. Haga clic en el botón de configuración **[!UICONTROL Visualization]** para cambiar directamente el tipo de gráfico o lo que se muestra en él, como:
 
-   * **[!UICONTROL Percentages]**:: Muestra los valores en porcentaje.
-   * **[!UICONTROL Anchor Y Axis at Zero]**:: Fuerza el eje y a cero incluso si los valores están por encima de cero.
-   * **[!UICONTROL Legend visible]**:: Permite ocultar la leyenda.
-   * **[!UICONTROL Normalization]**:: Obliga a que los valores coincidan.
-   * **[!UICONTROL Display Dual Axis]**:: Añade otro eje al gráfico.
-   * **[!UICONTROL Limit Max Items]**:: Limita el número de gráficos mostrados.
-   * **[!UICONTROL Threshold]**:: Permite establecer un umbral en el gráfico. Aparece como una línea de puntos negra.
+   * **[!UICONTROL Percentages]**: Muestra los valores en porcentaje.
+   * **[!UICONTROL Anchor Y Axis at Zero]**: Fuerza el eje y a cero incluso si los valores están por encima de cero.
+   * **[!UICONTROL Legend visible]**: Permite ocultar la leyenda.
+   * **[!UICONTROL Normalization]**: Fuerza que los valores coincidan.
+   * **[!UICONTROL Display Dual Axis]**: Agrega otro eje al gráfico.
+   * **[!UICONTROL Limit Max Items]**: Limita el número de gráficos mostrados.
+   * **[!UICONTROL Threshold]**: Permite establecer un umbral en el gráfico. Aparece como una línea punteada negra.
 
    ![](../assets/dynamic_report_visualization_3.png)
 
-Esta visualización permite tener una vista más clara de los datos en los informes.
+Esta visualización le permite tener una vista más clara de los datos en los informes.
