@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: toString
 description: Obtenga información sobre la función toString
+feature: Recorridos
+role: Ingeniero de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 4%
+source-wordcount: '118'
+ht-degree: 5%
 
 ---
 
@@ -31,10 +34,10 @@ Conversión
 | dateTime | convierte la fecha en formato de fecha UTC |
 | dateTimeOnly | convierte la fecha en formato de fecha UTC |
 | duration | convertir en el número correspondiente de milisegundos como una cadena |
-| zona horaria | convertir en representación de cadena de identificación de zona horaria (ID de JOD) |
-| integer | se convierte en una representación de cadena del valor (1 pasa a ser &quot;1&quot;) |
-| decimal | se convierte en una representación de cadena del valor (1,5 pasa a ser &quot;1,5&quot;) |
-| booleano | convierta el valor booleano como &#39;true&#39; si es true, &#39;false&#39; si es false |
+| zona horaria | convertir en la representación de cadena de id de zona horaria (JOD id) |
+| integer | se convierte en una representación de cadena del valor (1 se convierte en &quot;1&quot;) |
+| decimal | se convierte en una representación de cadena del valor (1,5 se convierte en &quot;1,5&quot;) |
+| booleano | convierta el valor booleano en &#39;true&#39; si es &quot;true&quot;, &#39;false&#39; si es &quot;false&quot; |
 
 ## Firmas y tipo devuelto
 
