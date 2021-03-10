@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: setDays
 description: Obtenga información sobre la función setDays
+feature: Recorridos
+role: Ingeniero de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '78'
 ht-degree: 8%
 
 ---
@@ -14,7 +17,7 @@ ht-degree: 8%
 
 # setDays {#setDays}
 
-Establece el día de una fecha, hora u hora de fecha solamente. Por ejemplo, si desea esperar hasta un día determinado del mes, puede forzar el día.
+Establece el día de una fecha, hora o hora. Por ejemplo, si desea esperar hasta un día determinado del mes, puede forzar el día.
 
 ## Categoría
 
