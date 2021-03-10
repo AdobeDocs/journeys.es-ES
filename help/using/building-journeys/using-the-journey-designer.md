@@ -2,11 +2,14 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: Uso del diseñador de recorridos
-description: Obtenga más información sobre el uso del diseñador de recorridos
+description: Más información sobre el uso del diseñador de recorridos
+feature: Recorridos
+role: Profesional empresarial
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 566252f72ef706308249c3b6b27564f086b40760
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1392'
 ht-degree: 5%
 
 ---
@@ -14,23 +17,23 @@ ht-degree: 5%
 
 # Uso del diseñador de recorridos {#concept_m1g_5qt_52b}
 
-El menú Inicio del recorrido le permite ver la **lista de recorridos**. Cree un nuevo recorrido o haga clic en uno existente para abrir la **interfaz del diseñador de recorridos**. El diseñador se compone de las siguientes zonas: la paleta, el lienzo y el panel de configuración de actividad.
+El menú Inicio de recorrido le permite ver la **lista de recorridos**. Cree un nuevo recorrido o haga clic en uno existente para abrir la **interfaz del diseñador de recorridos**. El diseñador se compone de las siguientes zonas: la paleta, el lienzo y el panel de configuración de actividad.
 
 ## La lista de recorridos {#journey_list}
 
-La **lista de recorridos** le permite ver todos sus recorridos a la vez, ver su estado y realizar acciones básicas. Puede duplicar, detener o eliminar recorridos. Según el recorrido, es posible que algunas acciones no estén disponibles. Por ejemplo, no se puede eliminar ni reiniciar un recorrido cerrado. Puede crear una nueva versión a partir de ella, duplicarla o detenerla. También puede utilizar la barra de búsqueda para buscar un recorrido.
+La **lista de recorridos** permite ver todos los recorridos a la vez, ver su estado y realizar acciones básicas. Puede duplicar, detener o eliminar recorridos. Según el recorrido, es posible que algunas acciones no estén disponibles. Por ejemplo, no se puede eliminar ni reiniciar un recorrido cerrado. Puede crear una nueva versión a partir de ella, duplicarla o detenerla. También puede utilizar la barra de búsqueda para buscar un recorrido.
 
 Se puede acceder a **[!UICONTROL Filters]** haciendo clic en el icono de filtro en la parte superior izquierda de la lista. El menú filtros le permite filtrar los recorridos mostrados según diferentes criterios (estado, los que ha creado, los modificados en los últimos 30 días, solo las versiones más recientes, etc.). También puede elegir mostrar únicamente los recorridos que utilizan un evento, un grupo de campos o una acción en particular. Se pueden configurar las columnas mostradas en la lista. Todos los filtros y columnas se guardan por usuario.
 
 ![](../assets/journey74.png)
 
-Todas las versiones de los recorridos aparecen en la lista con el número de versión. Consulte [esta página](../building-journeys/journey-versions.md).
+Todas las versiones de sus recorridos aparecen en la lista con el número de versión. Consulte [esta página](../building-journeys/journey-versions.md).
 
 ![](../assets/journey37.png)
 
 >[!NOTE]
 >
->Para abrir el lienzo de un recorrido en una pestaña de navegador diferente, mantenga pulsada la tecla **Control** o **Comando** y haga clic en el recorrido.
+>Para abrir el lienzo de un recorrido en una ficha de navegador diferente, mantenga pulsada la tecla **Control** o **Comando** y haga clic en el recorrido.
 
 ## La paleta {#palette}
 
@@ -68,7 +71,7 @@ En el lienzo, las actividades de acción y evento se representan mediante un ico
 
 ## Acciones de la barra superior {#top_actions}
 
-Según el estado del recorrido, puede realizar diferentes acciones en el recorrido con los botones disponibles en la esquina superior derecha: **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**. Estos botones aparecen cuando no hay actividad seleccionada. Algunos botones aparecerán en contexto. El botón de registro del modo de prueba aparece cuando se activa el modo de prueba (consulte [esta página](../building-journeys/testing-the-journey.md)). El botón de creación de informes aparece cuando el recorrido está activo, detenido o cerrado.
+Según el estado del recorrido, puede realizar diferentes acciones en el recorrido mediante los botones disponibles en la esquina superior derecha: **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**. Estos botones aparecen cuando no hay actividad seleccionada. Algunos botones aparecerán en contexto. El botón de registro del modo de prueba aparece cuando se activa el modo de prueba (consulte [esta página](../building-journeys/testing-the-journey.md)). El botón de creación de informes aparece cuando el recorrido está activo, detenido o cerrado.
 
 ![](../assets/journey41.png)
 
@@ -100,7 +103,7 @@ Puede copiar una o varias actividades de un recorrido y pegarlas en el mismo rec
 * No se puede copiar/pegar un evento si el recorrido de destino tiene un evento que utiliza un área de nombres diferente.
 * Las actividades pegadas pueden hacer referencia a datos que no existen en el recorrido de destino, por ejemplo, si copia o pega en entornos limitados diferentes. Compruebe siempre la existencia de errores y realice los ajustes necesarios.
 * Tenga en cuenta que no puede deshacer una acción. Para eliminar las actividades pegadas, deberá seleccionarlas y eliminarlas. Por lo tanto, asegúrese de seleccionar solo las actividades que necesita antes de copiarlas.
-* Puede copiar actividades de cualquier recorrido, incluso las que están en solo lectura.
+* Puede copiar actividades de cualquier recorrido, incluso las que estén en solo lectura.
 * Puede seleccionar cualquier actividad, incluso aquellas que no estén vinculadas. Las actividades vinculadas permanecerán vinculadas después de pegarlas.
 
 Estos son los pasos para copiar/pegar actividades:
