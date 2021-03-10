@@ -1,36 +1,39 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: journeystep eventos campos comunes
-description: journeystep eventos campos comunes
+title: campos comunes de los eventos de los recorridos
+description: campos comunes de los eventos de los recorridos
+feature: Recorridos
+role: Profesional empresarial
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '585'
 ht-degree: 0%
 
 ---
 
 
-# eventos de journeystep campos comunes {#sharing-common-fields}
+# campos comunes {#sharing-common-fields} de los eventos de los recorridos
 
-Esta mezcla se compartirá con los eventos travelStepEvent y travelStepProfileEvent.
+Esta mezcla la compartirán journeyStepEvent y journeyStepProfileEvent.
 
-Estos son los campos XDM comunes que [!DNL Journey Orchestration] envía a Adobe Experience Platform. Los campos comunes se enviarán para cada paso que se procese en un viaje. Se utilizan campos más específicos para acciones y enriquecimientos personalizados.
+Estos son los campos XDM comunes que [!DNL Journey Orchestration] envía a Adobe Experience Platform. Se enviarán campos comunes para cada paso que se procese en un recorrido. Se utilizan campos más específicos para acciones y enriquecimientos personalizados.
 
-Algunos de estos campos solo están disponibles en patrones de procesamiento específicos (ejecución de acciones, captura de datos, etc.) para limitar el tamaño de los eventos.
+Algunos de estos campos solo están disponibles en patrones de procesamiento específicos (ejecución de acciones, recuperación de datos, etc.) para limitar el tamaño de los eventos.
 
 ## entrada
 
-Indica si el usuario ha entrado en el viaje. Si no está presente, suponemos que el valor es false.
+Indica si el usuario ha introducido el recorrido. Si no está presente, supongamos que el valor es falso.
 
 Tipo: booleano
 
 Valores: true/false
 
-## reingreso
+## reentrada
 
-Indica si el usuario ha vuelto a entrar en el viaje con la misma instancia. Si no está presente, suponemos que el valor es false.
+Indica si el usuario ha vuelto a entrar en el recorrido con la misma instancia. Si no está presente, supongamos que el valor es falso.
 
 Tipo: booleano
 
@@ -38,31 +41,31 @@ Valores: true/false
 
 ## instanceEnded
 
-Indica si la instancia ha finalizado (correctamente o no).
+Indica si la instancia ha finalizado (con éxito o no).
 
 Tipo: booleano
 
 ## eventID
 
-ID de evento en proceso para el procesamiento de pasos. Si el evento es externo, el valor es eventId. Si el evento es interno, el valor es el eventId interno (como scheduleNotificationReceived, executeAction, etc.).
+ID de evento en procesamiento, para el procesamiento de pasos. Si el evento es externo, el valor es eventId. Si el evento es interno, el valor es el eventId interno (como scheduledNotificationReceived, executeAction, etc.).
 
 Tipo: string
 
 ## nodeID
 
-Id. de nodo de cliente (del lienzo).
+ID de nodo de cliente (desde el lienzo).
 
 Tipo: string
 
 ## stepID
 
-ID única del paso que se está procesando.
+ID único del paso que se está procesando actualmente.
 
 Tipo: string
 
 ## stepName
 
-Nombre del paso que se está procesando.
+Nombre del paso que se está procesando actualmente.
 
 Tipo: string
 
@@ -81,46 +84,46 @@ Valores posibles:
 
 ## stepStatus
 
-Estado del paso, que representa el estado del paso, cuando se ha procesado (y se ha activado el evento de paso).
+Estado del paso, que representa el estado del paso, cuándo se ha completado su procesamiento (y el evento de paso se ha activado).
 
 Tipo: string
 
 El estado puede ser:
 
-* finalizó: el paso no tiene transición y su procesamiento ha finalizado correctamente.
+* finalizado: el paso no tiene transición y su procesamiento ha finalizado correctamente.
 * error: el procesamiento de pasos ha generado un error.
-* transiciones: el paso está esperando un evento para la transición a otro paso.
-* capped: el paso ha fallado en un error de límite, generado durante una acción o enriquecimiento.
-* timedout: el paso ha fallado en un error de tiempo de espera, generado durante una acción o enriquecimiento.
-* instanceTimedout: el paso ha detenido su procesamiento porque la instancia ha alcanzado su tiempo de espera.
+* transiciones: el paso está esperando a que un evento pase a otro paso.
+* límite: el paso ha fallado en un error de restricción, producido durante una acción o enriquecimiento.
+* tiempo de espera: el paso ha fallado en un error de tiempo de espera, producido durante una acción o enriquecimiento.
+* instanceTimedout: el paso ha detenido su procesamiento, ya que la instancia ha alcanzado su tiempo de espera.
 
-## travelID
+## journeyID
 
-ID of the journey.
-
-Tipo: string
-
-## travelVersionID
-
-ID de la versión del viaje. Esta identificación representa la referencia de identidad del viaje, en el caso de la función travelStepEvent.
+ID del recorrido.
 
 Tipo: string
 
-## travelVersionName
+## journeyVersionID
 
-Nombre de la versión del viaje.
+ID de la versión de recorrido. Este id representa la referencia de identidad al recorrido, en el caso de journeyStepEvent.
 
 Tipo: string
 
-## travelVersion
+## journeyVersionName
 
-Versión del viaje.
+Nombre de la versión de recorrido.
+
+Tipo: string
+
+## journeyVersion
+
+Versión de la versión de recorrido.
 
 Tipo: string
 
 ## instanceID
 
-ID interna de la instancia de viaje.
+ID interno de la instancia de recorrido.
 
 Tipo: string
 
@@ -132,7 +135,7 @@ Tipo: string
 
 ## parentStepID
 
-ID de paso del elemento principal del paso procesado actual en la instancia.
+ID de paso del paso principal del paso procesado actual en la instancia.
 
 Tipo: string
 
@@ -144,7 +147,7 @@ Tipo: string
 
 ## parentTransitionID
 
-Id. de la transición que ha llevado la instancia al paso procesado.
+Id de la transición que ha llevado la instancia al paso procesado.
 
 Tipo: string
 
@@ -156,13 +159,13 @@ Tipo: string
 
 ## inTest
 
-Se indica si este viaje está en modo de prueba o no.
+Se indica si este recorrido está en modo de prueba o no.
 
 Tipo: booleano
 
 ## processingTime
 
-Cantidad total de tiempo en milisegundos desde la entrada del paso de instancia hasta el final del procesamiento.
+Cantidad total de tiempo en milisegundos desde la entrada del paso de la instancia hasta el final del procesamiento.
 
 Tipo: long
 
@@ -176,25 +179,25 @@ Valores: lote/unidad
 
 ## recurrenceIndex
 
-Índice de la periodicidad si el viaje es por lotes y recurrente (la primera ejecución tiene un índice de periodicidad = 1).
+Índice de la periodicidad si el recorrido es por lotes y recurrente (la primera ejecución tiene el índice de recurrencia = 1).
 
 Tipo: long
 
 ## isBatchToUnitary
 
-Indica si esta instancia unitaria se ha activado desde una instancia de lote.
+Indica si esta instancia unitaria se ha activado desde una instancia por lotes.
 
 Tipo: booleano
 
 ## batchExternalKey
 
-External Key for batch event.
+Clave externa para el evento por lotes.
 
 Tipo: string
 
 ## batchInstanceID
 
-es el ID de instancia de lote.
+es el ID de instancia por lotes.
 
 Tipo: string
 
