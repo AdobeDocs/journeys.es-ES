@@ -3,18 +3,21 @@ product: adobe campaign
 solution: Journey Orchestration
 title: equalWithIgnoreCase
 description: Obtenga información sobre la función equalWithIgnoreCase
+feature: Recorridos
+role: Ingeniero de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '40'
+ht-degree: 12%
 
 ---
 
 
 # equalWithIgnoreCase {#equalWithIgnoreCase}
 
-Compara la primera cadena de argumento con la segunda cadena de argumento, omitiendo las consideraciones de mayúsculas y minúsculas.
+Compara la primera cadena de argumento con la segunda cadena de argumento, ignorando las consideraciones de mayúsculas y minúsculas.
 
 ## Categoría
 
@@ -38,4 +41,4 @@ Devuelve un valor booleano.
 
 `equalWithIgnoreCase("rowing is great', "rowing is GREAT")`
 
-Devuelve true.
+Devuelve verdadero.
