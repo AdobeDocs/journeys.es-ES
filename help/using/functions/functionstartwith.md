@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: startWith
 description: Obtenga información sobre la función startWith
+feature: Recorridos
+role: Ingeniero de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 11%
+source-wordcount: '47'
+ht-degree: 12%
 
 ---
 
@@ -35,14 +38,14 @@ Cadena
 
 `startWith(<string>,<string>)`
 
-Devolver un booleano.
+Devuelve un booleano.
 
 ## Ejemplo
 
 `startWith("Hello World", "Hello")`
 
-Devuelve true.
+Devuelve verdadero.
 
 `startWith("Hello World", "World")`
 
-Devuelve false.
+Devuelve falso.
