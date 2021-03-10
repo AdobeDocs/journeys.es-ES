@@ -3,18 +3,21 @@ product: adobe campaign
 solution: Journey Orchestration
 title: matchRegExp
 description: Obtenga información sobre la función matchRegExp
+feature: Recorridos
+role: Ingeniero de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 5%
+source-wordcount: '89'
+ht-degree: 6%
 
 ---
 
 
 # matchRegExp {#matchRegExp}
 
-Devuelve true si la cadena del primer parámetro coincide con la expresión normal del segundo parámetro. Para obtener más información, consulte [esta página](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
+Devuelve true si la cadena del primer parámetro coincide con la expresión regular del segundo parámetro. Para obtener más información, consulte [esta página](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
 
 ## Categoría
 
@@ -35,14 +38,14 @@ Cadena
 
 `matchRegExp(<string>,<string>)`
 
-Devuelve un valor true.
+Devuelve un valor verdadero.
 
 ## Ejemplo
 
 `matchRegExp("Hello World", "Hello\s+World")`
 
-Devuelve true.
+Devuelve verdadero.
 
 Explicación:
 
-Aquí puede comprobar si la cadena cumple la expresión normal (sintaxis de java): inicios con &quot;Hola&quot;, luego cualquier tipo de cadena y termina con &quot;Mundo&quot;.
+Aquí puede comprobar si la cadena cumple la expresión regular (sintaxis java): comienza con &quot;Hello&quot;, luego cualquier tipo de cadena y termina con &quot;World&quot;.
