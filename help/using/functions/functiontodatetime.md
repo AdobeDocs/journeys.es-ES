@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: toDateTime
 description: Obtenga información sobre la función toDateTime
+feature: Recorridos
+role: Ingeniero de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 5%
+source-wordcount: '97'
+ht-degree: 6%
 
 ---
 
@@ -34,7 +37,7 @@ Conversión
 
 >[!NOTE]
 >
->La identificación del huso horario debe ser una constante de cadena. No puede ser una referencia de campo ni una expresión. Para obtener más información sobre los tipos de datos, consulte [esta página](../expression/data-types.md).
+>El ID de zona horaria debe ser una constante de cadena. No puede ser una referencia de campo ni una expresión. Para obtener más información sobre los tipos de datos, consulte [esta página](../expression/data-types.md).
 
 ## Firmas y tipos devueltos
 
