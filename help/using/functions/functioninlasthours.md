@@ -3,18 +3,21 @@ product: adobe campaign
 solution: Journey Orchestration
 title: inLastHours
 description: Obtenga información sobre la función en LastHours
+feature: Recorridos
+role: Ingeniero de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 11%
+source-wordcount: '49'
+ht-degree: 12%
 
 ---
 
 
 # inLastHours {#inLastHours}
 
-Devuelve verdadero si la fecha y hora dada está entre ahora y ahora - horas delta.
+Devuelve el valor verdadero si la fecha y hora dadas está entre ahora y ahora: horas delta.
 
 ## Categoría
 
@@ -41,8 +44,8 @@ Devuelve un valor booleano.
 
 `inLastHours(toDateTime('2019-12-12T01:11:00Z'), 4))`
 
-Devuelve true.
+Devuelve verdadero.
 
 `inLastHours(@{MyEvent.timestamp}, 4)`
 
-Devuelve true.
+Devuelve verdadero.
