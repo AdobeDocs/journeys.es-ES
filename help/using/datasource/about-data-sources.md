@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Acerca de las fuentes de datos
 description: 'Obtenga información sobre cómo configurar una fuente de datos '
+feature: Recorridos
+role: Profesional empresarial
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 88%
+source-wordcount: '374'
+ht-degree: 87%
 
 ---
 
@@ -49,7 +52,7 @@ Estos son los pasos principales de la configuración de la fuente de datos:
 
    ![](../assets/journey18.png)
 
-1. A continuación, puede agregar grupos de campos al origen de datos integrado (consulte [esta página](../datasource/adobe-experience-platform-data-source.md)) o crear un nuevo origen de datos externo (consulte [esta página](../datasource/external-data-sources.md)) y grupos de campos asociados (consulte [esta página](../datasource/field-groups.md)).
+1. A continuación, puede agregar grupos de campos a la fuente de datos integrada (consulte [esta página](../datasource/adobe-experience-platform-data-source.md)) o crear una nueva fuente de datos externa (consulte [esta página](../datasource/external-data-sources.md)) y grupos de campos asociados (consulte [esta página](../datasource/field-groups.md)).
 
    ![](../assets/journey23.png)
 
