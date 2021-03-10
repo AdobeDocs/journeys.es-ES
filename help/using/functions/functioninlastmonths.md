@@ -3,18 +3,21 @@ product: adobe campaign
 solution: Journey Orchestration
 title: inLastMonths
 description: Obtenga información sobre la función en LastMonths
+feature: Recorridos
+role: Ingeniero de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 11%
+source-wordcount: '48'
+ht-degree: 12%
 
 ---
 
 
 # inLastMonths {#inLastMonths}
 
-Devuelve true si una fecha o fechaTime dada está entre ahora y ahora, es decir, meses delta.
+Devuelve el valor verdadero si una fecha determinada o dateTime está entre ahora y ahora: meses delta.
 
 ## Categoría
 
@@ -41,4 +44,4 @@ Devuelve un valor booleano.
 
 `inLastMonths(toDateTime('2010-12-12T01:11:00Z'), 4))`
 
-Devuelve true.
+Devuelve verdadero.
