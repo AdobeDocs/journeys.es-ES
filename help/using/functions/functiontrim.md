@@ -2,19 +2,22 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: trim
-description: Obtenga información sobre el recorte de funciones
+description: Obtenga información sobre la función trim
+feature: Recorridos
+role: Ingeniero de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 16%
+source-wordcount: '35'
+ht-degree: 14%
 
 ---
 
 
 # trim {#trim}
 
-Elimina los espacios de inicio y de fin.
+Elimina los espacios inicial y final.
 
 ## Categoría
 
