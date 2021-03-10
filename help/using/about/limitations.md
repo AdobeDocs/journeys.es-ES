@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Limitaciones de Journey Orchestration
 description: Obtenga más información sobre las limitaciones de Journey Orchestration
 translation-type: tm+mt
-source-git-commit: a0b6f54e37abded690dc200bc3a901a8e0f04f79
+source-git-commit: 1433ccabaceb31c7ffac117a31531d0d380a54f8
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '526'
 ht-degree: 2%
 
 ---
@@ -51,7 +51,7 @@ Estas son limitaciones relacionadas con el uso de Journey Orchestration.
 
 ## Limitaciones de eventos
 
-* En el caso de los eventos generados por el sistema, los datos de flujo utilizados para iniciar un recorrido del cliente deben configurarse primero dentro de Customer Journey Management para obtener un ID de organización único. Este ID de organización debe añadirse a la carga útil de flujo continuo que llega a Adobe Experience Platform. Esta limitación no se aplica a los eventos basados en reglas.
+* Para los eventos generados por el sistema, los datos de flujo utilizados para iniciar un recorrido del cliente deben configurarse primero dentro de Journey Orchestration para obtener un ID de organización único. Este ID de organización debe añadirse a la carga útil de flujo continuo que llega a Adobe Experience Platform. Esta limitación no se aplica a los eventos basados en reglas.
  
 
 ## Limitaciones de las fuentes de datos
