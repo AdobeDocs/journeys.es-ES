@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Introducción
 description: Descubra los pasos principales para configurar Journey Orchestration y construir su primer recorrido.
+feature: Recorridos
+role: Profesional empresarial
+level: Principiante
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 92%
+source-wordcount: '326'
+ht-degree: 91%
 
 ---
 
@@ -56,7 +59,7 @@ Estos son los pasos principales para configurar y utilizar [!DNL Journey Orchest
 
    Debe validar y activar el recorrido. Este paso lo realiza un **usuario empresarial**.
 
-   Para obtener más información sobre esto, consulte las páginas [Prueba del recorrido](../building-journeys/testing-the-journey.md) y [Publicación del recorrido](../building-journeys/publishing-the-journey.md).
+   Para obtener más información, consulte las páginas [Prueba del recorrido](../building-journeys/testing-the-journey.md) y [Publicación del recorrido](../building-journeys/publishing-the-journey.md).
 
    ![](../assets/journeyuc2_32bis.png)
 
