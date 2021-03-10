@@ -2,12 +2,15 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: Acerca de los eventos
-description: Más información sobre eventos
+description: Más información sobre los eventos
+feature: Recorridos
+role: Profesional empresarial
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 3dd7cd4dc4e4398b029dd1becd11c8dd7e7c3542
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '378'
+ht-degree: 55%
 
 ---
 
@@ -29,13 +32,13 @@ Si edita un evento utilizado en un recorrido en borrador o activo, solo puede ca
 
 Puede definir dos tipos de eventos:
 
-* **Componentes** basados en reglas: este tipo de evento no genera un eventID. Con el simple editor de expresiones, simplemente define una regla que utilizará el sistema para identificar los eventos relevantes que activarán sus viajes. Esta regla se puede basar en cualquier campo disponible en la carga útil de evento, por ejemplo la ubicación del perfil o el número de elementos agregados al carro de perfiles.
+* **Eventos basados** en reglas: este tipo de evento no genera un eventID. Con el editor de expresiones simple, simplemente define una regla que utilizará el sistema para identificar los eventos relevantes que van a almacenar en déclencheur sus recorridos. Esta regla se puede basar en cualquier campo disponible en la carga útil de evento, por ejemplo la ubicación del perfil o el número de elementos agregados al carro de compras del perfil.
 
    >[!CAUTION]
    >
-   >Se define una regla de límite para eventos basados en reglas. Limita el número de eventos cualificados que un viaje puede procesar a 5000 por segundo para una organización determinada (ORG). Corresponde a los SLA Journey Orchestration. Consulte esta [página](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html).
+   >Se define una regla de límite para los eventos basados en reglas. Limita el número de eventos calificados que un recorrido puede procesar a 5000 por segundos para una organización determinada (ORG). Corresponde a los SLA de Journey Orchestration. Consulte esta [página](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html).
 
-* **Eventos** generados por el sistema: estos eventos requieren un eventID. Este campo eventID se genera automáticamente al crear el evento. El sistema que empuja el evento no debe generar un ID, debe pasar el disponible en la previsualización de carga útil.
+* **Eventos** generados por el sistema: estos eventos requieren un eventID. Este campo eventID se genera automáticamente al crear el evento. El sistema que impulsa el evento no debe generar un ID, debe pasar el disponible en la previsualización de carga útil.
 
-Para obtener información sobre cómo crear un evento, consulte esta [página](../event/about-creating.md).
+Para aprender a crear un evento, consulte esta [página](../event/about-creating.md).
 
