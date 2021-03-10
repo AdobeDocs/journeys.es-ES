@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: indexOf
 description: Obtenga información sobre la función indexOf
+feature: Recorridos
+role: Ingeniero de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 11%
+source-wordcount: '64'
+ht-degree: 12%
 
 ---
 
@@ -35,7 +38,7 @@ Cadena
 
 `indexOf(<string>,<string>)`
 
-Devuelve un entero.
+Devuelve un número entero.
 
 ## Ejemplo
 
@@ -45,4 +48,4 @@ Devuelve 2.
 
 Explicación:
 
-En &quot;Hola&quot;, la primera incidencia de &quot;l&quot; se encuentra en la posición 2.
+En &quot;Hello&quot;, la primera incidencia de &quot;l&quot; es en la posición 2.
