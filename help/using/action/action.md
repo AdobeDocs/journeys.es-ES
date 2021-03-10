@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Acerca de las acciones
 description: Obtenga información sobre cómo configurar una acción
+feature: Recorridos
+role: Profesional empresarial
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 89%
+source-wordcount: '299'
+ht-degree: 87%
 
 ---
 
@@ -23,13 +26,13 @@ Las acciones son conexiones a través de las cuales se ofrecen experiencias pers
 
 Las acciones personalizadas le permiten configurar la conexión de un sistema de terceros para enviar mensajes o llamadas API. Se puede configurar una acción con cualquier servicio de cualquier proveedor al que se pueda llamar mediante una API REST con carga útil en formato JSON.
 
-Las acciones están disponibles en la paleta izquierda del viaje, en la categoría **[!UICONTROL Action]**. Consulte [esta página](../building-journeys/about-action-activities.md).
+Las acciones están disponibles en la paleta izquierda del recorrido, en la categoría **[!UICONTROL Action]**. Consulte [esta página](../building-journeys/about-action-activities.md).
 
 >[!NOTE]
 >
 >La configuración de las acciones personalizadas siempre la realiza un **usuario técnico**.
 
-En la lista de **acciones**, puede pulsar c para crear un nuevo recorrido, acción, fuente de datos o evento. Para obtener más información sobre los métodos abreviados en [!DNL Journey Orchestration], consulte [esta sección](../about/user-interface.md#section_ksq_zr1_ffb).
+En la lista de **acciones**, puede pulsar c para crear un nuevo recorrido, acción, fuente de datos o evento. Para obtener más información sobre los métodos abreviados de teclado en [!DNL Journey Orchestration], consulte [esta sección](../about/user-interface.md#section_ksq_zr1_ffb).
 
 Para ver la lista de acciones o configurar una nueva acción, haga clic en **[!UICONTROL Actions]** en los menús superiores. Se muestra la lista de acciones. Consulte [esta página](../about/user-interface.md) para obtener más información sobre la interfaz.
 
