@@ -3,18 +3,21 @@ product: adobe campaign
 solution: Journey Orchestration
 title: min
 description: Obtenga información sobre el administrador de funciones
+feature: Recorridos
+role: Ingeniero de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 4%
+source-wordcount: '92'
+ht-degree: 5%
 
 ---
 
 
 # min {#min}
 
-Devuelve el valor mínimo entre un conjunto de expresiones, dado como una lista o dos expresiones. Se omiten los valores nulos.
+Devuelve el valor mínimo entre un conjunto de expresiones, dadas como una lista o dos expresiones. Se omiten los valores nulos.
 
 ## Categoría
 
@@ -77,7 +80,7 @@ Devuelve una fecha y hora sin tener en cuenta la zona horaria.
 
 `min(<integer>,<integer>)`
 
-Devuelve un entero.
+Devuelve un número entero.
 
 ## Ejemplos
 
