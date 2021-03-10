@@ -2,23 +2,26 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: Definición de la clave del evento
-description: Aprenda a definir la clave de evento
+description: Obtenga información sobre cómo definir la clave de evento
+feature: Recorridos
+role: Profesional empresarial
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '403'
+ht-degree: 5%
 
 ---
 
 
 # Definición de la clave del evento {#concept_ond_hqt_52b}
 
-La clave es el campo o la combinación de campos que forma parte de los datos de carga útil de evento y que permitirá al sistema identificar a la persona asociada al evento. La clave puede ser, por ejemplo, el ID de Experience Cloud, un ID de CRM o una dirección de correo electrónico.
+La clave es el campo o la combinación de campos que forma parte de los datos de carga útil del evento y que permite al sistema identificar a la persona asociada al evento. La clave puede ser, por ejemplo, el ID de Experience Cloud, un ID de CRM o una dirección de correo electrónico.
 
-Si planea aprovechar los datos almacenados en la base de datos de Perfil del cliente en tiempo real, debe seleccionar, como clave de evento, la información que definió como la identidad de un perfil en el [Servicio de Perfil del cliente en tiempo real](https://docs.adobe.com/content/help/es-ES/experience-platform/profile/home.html).
+Si planea aprovechar los datos almacenados en la base de datos del perfil del cliente en tiempo real, debe seleccionar, como clave de evento, información que haya definido como la identidad de un perfil en el [Servicio de perfil del cliente en tiempo real](https://docs.adobe.com/content/help/es-ES/experience-platform/profile/home.html).
 
-Permitirá al sistema llevar a cabo la conciliación entre el evento y el perfil del individuo. Si selecciona un esquema que tiene una identidad principal, los campos **[!UICONTROL Key]** y **[!UICONTROL Namespace]** se rellenan previamente. Si no hay ninguna identidad definida, seleccionamos _identityMap > id_ como clave principal. Luego debe seleccionar una Área de nombres y la clave se rellenará previamente (debajo del campo **[!UICONTROL Namespace]**) mediante _identityMap > id_.
+Permitirá que el sistema realice la reconciliación entre el evento y el perfil del individuo. Si selecciona un esquema que tiene una identidad principal, los campos **[!UICONTROL Key]** y **[!UICONTROL Namespace]** se rellenan previamente. Si no hay ninguna identidad definida, seleccione _identityMap > id_ como clave principal. A continuación, debe seleccionar un área de nombres y la clave se rellenará previamente (debajo del campo **[!UICONTROL Namespace]**) mediante _identityMap > id_.
 
 Al seleccionar campos, los campos de identidad principales se etiquetan.
 
@@ -26,15 +29,15 @@ Al seleccionar campos, los campos de identidad principales se etiquetan.
 
 Si necesita utilizar una clave diferente, como un ID de CRM o una dirección de correo electrónico, debe agregarla manualmente:
 
-1. Haga clic dentro del campo **[!UICONTROL Key]** o en el icono del lápiz.
+1. Haga clic dentro del campo **[!UICONTROL Key]** o en el icono de lápiz.
 
    ![](../assets/journey16.png)
 
-1. Seleccione el campo elegido como clave en la lista de campos de carga útil. También puede cambiar al editor de expresiones avanzado para crear claves más complejas (por ejemplo, una concatenación de dos campos de los eventos). Véase más abajo, en esta sección.
+1. Seleccione el campo elegido como clave en la lista de campos de carga útil. También puede cambiar al editor de expresiones avanzadas para crear claves más complejas (por ejemplo, una concatenación de dos campos de los eventos). Consulte a continuación, en esta sección.
 
    ![](../assets/journey20.png)
 
-Cuando se recibe el evento, el valor de la clave permitirá al sistema identificar a la persona asociada al evento. Asociada a una Área de nombres (consulte [esta página](../event/selecting-the-namespace.md)), la clave puede utilizarse para realizar consultas en el Adobe Experience Platform. Consulte [esta página](../building-journeys/about-orchestration-activities.md).
-La llave también se utiliza para comprobar que una persona está en un viaje. De hecho, una persona no puede estar en dos lugares diferentes en el mismo viaje. Como resultado, el sistema no permite que la misma clave, por ejemplo la clave CRMID=3224, esté en diferentes lugares en el mismo viaje.
+Cuando se recibe el evento, el valor de la clave permite que el sistema identifique a la persona asociada al evento. Asociada a un área de nombres (consulte [esta página](../event/selecting-the-namespace.md)), la clave se puede utilizar para realizar consultas en Adobe Experience Platform. Consulte [esta página](../building-journeys/about-orchestration-activities.md).
+La clave también se utiliza para comprobar que una persona está en un recorrido. De hecho, una persona no puede estar en dos lugares diferentes en el mismo recorrido. Como resultado, el sistema no permite que la misma clave, por ejemplo la clave CRMID=3224, esté en diferentes lugares en el mismo recorrido.
 
-También tiene acceso a las funciones de expresión avanzadas (**[!UICONTROL Advanced mode]**) si desea realizar manipulaciones adicionales. Estas funciones le permiten manipular los valores utilizados para llevar a cabo consultas específicas, como cambiar los formatos, realizar concatenaciones de campo, teniendo en cuenta sólo una parte de un campo (por ejemplo, los 10 primeros caracteres). Consulte [esta página](../expression/expressionadvanced.md).
+También tiene acceso a las funciones de expresión avanzadas (**[!UICONTROL Advanced mode]**) si desea realizar manipulaciones adicionales. Estas funciones permiten manipular los valores utilizados para realizar consultas específicas, como cambiar formatos, realizar concatenaciones de campos, teniendo en cuenta solo una parte de un campo (por ejemplo, los 10 primeros caracteres). Consulte [esta página](../expression/expressionadvanced.md).
