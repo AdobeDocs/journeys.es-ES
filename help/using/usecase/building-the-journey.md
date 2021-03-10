@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Construcción del recorrido
 description: 'Obtenga información sobre cómo construir el recorrido del caso de uso avanzado '
+feature: Recorridos
+role: Profesional empresarial
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 92%
+source-wordcount: '851'
+ht-degree: 91%
 
 ---
 
@@ -26,7 +29,7 @@ El **usuario empresarial** ahora puede compilar el recorrido. El recorrido inclu
 >
 >Las actividades **[!UICONTROL Push]** y **[!UICONTROL Email]** solo están disponibles en la paleta si tiene Adobe Campaign Standard.
 
-Para obtener información adicional sobre cómo construir un viaje, consulte [esta página](../building-journeys/journey.md).
+Para obtener información adicional sobre cómo crear un recorrido, consulte [esta página](../building-journeys/journey.md).
 
 ## Primeros pasos{#section_ntb_ws1_ffb}
 
@@ -76,7 +79,7 @@ Para obtener información adicional sobre cómo construir un viaje, consulte [es
    >
    >En la segunda parte de la expresión, el &quot;Perfil&quot; es opcional.
 
-1. Necesitamos seleccionar un área de nombres. Un área de nombres está preseleccionada en función de las propiedades de esquema. Puede mantener la preseleccionada. Para obtener más información sobre Áreas de nombres, consulte [esta página](../event/selecting-the-namespace.md).
+1. Necesitamos seleccionar un área de nombres. Un área de nombres está preseleccionada en función de las propiedades de esquema. Puede mantener la preseleccionada. Para obtener más información sobre áreas de nombres, consulte [esta página](../event/selecting-the-namespace.md).
 
 En nuestro caso de uso, solo queremos reaccionar a esas dos condiciones, así que no marcamos la casilla **[!UICONTROL Show path for other cases than the one(s) above]**.
 
@@ -101,7 +104,7 @@ Después de la condición se crean dos rutas:
 
    ![](../assets/journeyuc2_18.png)
 
-1. Cuando se selecciona un campo de un origen de datos externo, la parte derecha de la pantalla muestra la lista de parámetros que se definieron al configurar el origen de datos externo (consulte [esta página](../usecase/configuring-the-data-sources.md)). Haga clic en el nombre del parámetro y defina el valor de la clave del sistema reservas, la ID de Experience Cloud, en nuestro ejemplo:
+1. Cuando se selecciona un campo de una fuente de datos externa, la parte derecha de la pantalla muestra la lista de parámetros que se definieron al configurar la fuente de datos externa (consulte [esta página](../usecase/configuring-the-data-sources.md)). Haga clic en el nombre del parámetro y defina el valor de la clave del sistema reservas, la ID de Experience Cloud, en nuestro ejemplo:
 
    ```
    @{LobbyBeacon.endUserIDs._experience.mcid.id}
