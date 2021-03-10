@@ -1,24 +1,27 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: Instrucción condicional (si, entonces, otra)
+title: Instrucción condicional (if, then, else)
 description: Más información sobre la instrucción condicional
+feature: Recorridos
+role: Ingeniero de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
 
 
-# Instrucción condicional (si, entonces, else) {#section_cdz_lsk_w3b}
+# Instrucción condicional (si, entonces, otra) {#section_cdz_lsk_w3b}
 
-La instrucción condicional (si, por lo tanto, si no) se admite en el editor avanzado. Permite definir expresiones más complejas. Se compone de los siguientes elementos:
+La instrucción condicional (si, entonces, si no) es compatible con el editor avanzado. Permite definir expresiones más complejas. Se compone de los siguientes elementos:
 
-* **[!UICONTROL if]**:: la condición que se va a evaluar primero.
-* **[!UICONTROL then]**:: la expresión que debe evaluarse en caso de que el resultado de la evaluación de la condición sea verdadero.
-* **[!UICONTROL else]**:: la expresión que debe evaluarse en caso de que el resultado de la evaluación de la condición sea falso.
+* **[!UICONTROL if]**: la condición que se va a evaluar primero.
+* **[!UICONTROL then]**: la expresión que se va a evaluar en caso de que el resultado de la evaluación de la condición sea true.
+* **[!UICONTROL else]**: la expresión que se va a evaluar en caso de que el resultado de la evaluación de la condición sea false.
 
 >[!NOTE]
 >
@@ -34,7 +37,7 @@ else
 
 `<expression1>` debe devolver un  **booleano**.
 
-`<expression2>` y  `<expression3>` debe tener el mismo tipo o tipos compatibles. Las firmas admitidas y los tipos devueltos son:
+`<expression2>` y  `<expression3>` deben tener el mismo tipo o tipos compatibles. Las firmas admitidas y los tipos devueltos son:
 
 ```
 boolean,boolean : boolean
@@ -55,9 +58,9 @@ listString,listString : listString
 
 **Uso**
 
-La instrucción condicional le permite optimizar el flujo de trabajo del viaje reduciendo el número de actividades de condición. Por ejemplo, dentro de la misma actividad de acción, puede especificar dos alternativas para una definición de campo utilizando sólo una expresión de condición.
+La instrucción condicional permite optimizar el flujo de trabajo de recorrido al reducir el número de actividades de condición. Por ejemplo, dentro de la misma actividad de acción, puede especificar dos alternativas para una definición de campo utilizando solo una expresión de condición.
 
-Ejemplo de actividad de acción (para un campo que espera una cadena como resultado de la instrucción condicional):
+Ejemplo de una actividad de acción (para un campo que espera una cadena como resultado de la instrucción condicional):
 
 ```
 if (startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iPad') or startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iOS'))
