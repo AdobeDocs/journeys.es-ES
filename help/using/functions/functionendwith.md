@@ -3,18 +3,21 @@ product: adobe campaign
 solution: Journey Orchestration
 title: endWith
 description: Obtenga información sobre la función endWith
+feature: Recorridos
+role: Ingeniero de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 11%
+source-wordcount: '47'
+ht-degree: 12%
 
 ---
 
 
 # endWith {#endWith}
 
-Devuelve true si el segundo parámetro es un sufijo del primero.
+Devuelve el valor verdadero si el segundo parámetro es un sufijo del primero.
 
 ## Categoría
 
@@ -41,8 +44,8 @@ Devuelve un valor booleano.
 
 `endWith("Hello World", "World")`
 
-Devuelve true.
+Devuelve verdadero.
 
 `endWith("Hello World", "Hello")`
 
-Devuelve false.
+Devuelve falso.
