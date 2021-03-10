@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: distinct
 description: Obtenga información sobre la función distinta
+feature: Recorridos
+role: Ingeniero de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '87'
 ht-degree: 14%
 
 ---
@@ -52,11 +55,11 @@ Devuelve una lista de cadenas.
 
 `distinct(<listDateTimeOnly>)`
 
-Devuelve una lista de datetimes sin tener en cuenta la zona horaria.
+Devuelve una lista de tiempos de datos sin tener en cuenta la zona horaria.
 
 `distinct(<listDateTime>)`
 
-Devuelve una lista de datetimes.
+Devuelve una lista de tiempos de datos.
 
 `distinct(<listBoolean>)`
 
