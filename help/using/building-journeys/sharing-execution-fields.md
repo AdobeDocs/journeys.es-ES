@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Campos de ejecución de la acción eventos de los journeyStep
 description: Campos de ejecución de la acción eventos de los journeyStep
+feature: Recorridos
+role: Profesional empresarial
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '324'
 ht-degree: 5%
 
 ---
@@ -14,9 +17,9 @@ ht-degree: 5%
 
 # Campos de ejecución de la acción eventos de los journeyStep {#sharing-execution-fields}
 
-Esta mezcla se compartirá con los eventos travelStepEvent y travelStepProfileEvent.
+Esta mezcla la compartirán journeyStepEvent y journeyStepProfileEvent.
 
-Si el paso tiene una acción que procesar, esos campos se agregarán a la carga útil de evento.
+Si el paso tiene que procesarse una acción, esos campos se añaden a la carga útil de evento.
 
 ## actionID
 
@@ -26,7 +29,7 @@ Tipo: string
 
 ## actionName
 
-Nombre de la acción. Si no se ha establecido ningún nombre, se realizará stepName.
+Nombre de la acción. Si no se ha establecido ningún nombre, se tomará el valor stepName.
 
 Tipo: string
 
@@ -56,24 +59,24 @@ Tipo: string
 
 Valores:
 * http
-* límite
+* restricción
 * timeout
 * error
 
 ## actionExecutionErrorCode
 
-Error de ejecución de código para acción. Presente si el error tiene un código, como uno HTTP.
+Código de error de ejecución de acción. Presente si el error tiene un código, como uno HTTP.
 
 Tipo: string
 
 ## actionExecutionOriginError
 
-Se puede agotar el tiempo de espera en dos casos:
+Puede producirse un tiempo de espera, en dos casos:
 
 * en el primer intento se ejecuta una acción. En este caso, la ejecución no ha finalizado, por lo que no hay ningún error subyacente
 * en un reintento: en este caso, actionExecOrigError/actionExecOrigErrorCode describe el error encontrado en el intento antes del reintento.
 
-Por ejemplo, se está enviando un correo electrónico y se devuelve un error HTTP 500 en el primer intento. La recuperación se reintenta, pero la duración de los dos intentos excede el tiempo de espera. A continuación, la ejecución de la acción se etiqueta como tiempo de espera. El aspecto de la parte de acción será el siguiente:
+Por ejemplo, se envía un correo electrónico y se devuelve un error HTTP 500 en el primer intento. Se vuelve a intentar la recuperación, pero la duración de los 2 intentos supera el tiempo de espera. A continuación, la ejecución de la acción se etiqueta como tiempo de espera. La parte de acción tendrá el siguiente aspecto:
 
 ```
     ...
@@ -100,7 +103,7 @@ Indica el tipo de acción.
 
 Valores:
 
-* builtin
+* creación
 * Correo electrónico ACS
 * SMS ACS
 * ACS Push
@@ -112,24 +115,24 @@ Tipo: string
 
 ## deliveryJobID
 
-Describe el Id. de trabajo de envío del viaje por lotes.
+Esto describe el Id. de trabajo de entrega para el Recorrido por lotes.
 
 Tipo: string
 
 ## batchDeliveryID
 
-Describe el ID de envío del viaje por lotes.
+Esto describe el ID de entrega del Recorrido por lotes.
 
 Tipo: string
 
 ## fromSegmentTrigger
 
-Se describe si el viaje por lotes se activa a partir del segmento de Audiencia.
+Esto indica si el Recorrido de lotes se activa desde el segmento de audiencia.
 
 Tipo: booleano
 
 ## actionSchedulerCount
 
-Recuento de solicitudes de notificación de Planificador enviadas al servicio de Planificador durante el procesamiento de pasos.
+Recuento de solicitudes de notificación del planificador enviadas al servicio del planificador durante el procesamiento de pasos.
 
 Tipo: long
