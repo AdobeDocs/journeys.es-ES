@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Saltar de un recorrido a otro
 description: Saltar de un recorrido a otro
 translation-type: tm+mt
-source-git-commit: 27a65d8bac83e7a9343ad68306c06a0590a607e9
+source-git-commit: 5c94f64c10d12690e27585806962bf9537636e9c
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 4%
+source-wordcount: '442'
+ht-degree: 3%
 
 ---
 
@@ -19,14 +19,21 @@ La actividad de acción **[!UICONTROL Update profile]** le permite actualizar un
 ## Notas importantes
 
 * La acción **Update profile** solo se puede utilizar en recorridos que comiencen por un evento que tenga un área de nombres.
-* En el modo de prueba, la actualización de perfil no se simulará. La actualización se realizará en el perfil de prueba.
 * La acción solo actualiza los campos existentes, no crea campos de perfil nuevos.
 * No puede utilizar la acción **Update profile** para generar eventos de experiencia, por ejemplo una compra.
 * Al igual que cualquier otra acción, puede definir una ruta alternativa en caso de error o de tiempo de espera y no puede colocar dos acciones en paralelo.
 * La solicitud de actualización enviada a Platform será rápida, pero no inmediata/en un segundo. Se tardará normalmente unos segundos, pero a veces más sin garantía. Como resultado, por ejemplo, si una acción utiliza el &quot;campo 1&quot; actualizado por una acción Actualizar perfil colocada justo antes, no debería esperar que el &quot;campo 1&quot; se actualice en la acción .
 * Las fuentes de datos tienen una noción de duración de la caché, a nivel de grupo de campos. Si espera aprovechar, en un recorrido, un campo de perfil actualizado recientemente, asegúrese de definir una duración de caché muy corta.
 
-## Uso de la actualización de perfil.
+## Uso del modo de prueba {#using-the-test-mode}
+
+En el modo de prueba, la actualización de perfil no se simulará. La actualización se realizará en el perfil de prueba.
+
+Solo los perfiles de prueba pueden entrar en un recorrido en modo de prueba. Puede crear un nuevo perfil de prueba o convertir un perfil existente en un perfil de prueba. En Adobe Experience Platform, puede actualizar los atributos de perfil mediante llamadas a la API, pero no se pueden realizar a través de la interfaz. La forma más sencilla de hacerlo es usar una actividad de acción **Update profile** y cambiar el campo booleano del perfil de prueba de falso a verdadero.
+
+Para obtener más información sobre el modo de prueba, consulte esta [sección](../building-journeys/testing-the-journey.md).
+
+## Uso de la actualización de perfil
 
 1. Diseñe el recorrido empezando por un evento. Consulte esta [sección](../building-journeys/journey.md).
 
