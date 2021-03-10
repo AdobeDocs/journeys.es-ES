@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Actualizaciones de documentación
 description: Más información sobre las actualizaciones de documentación
+feature: Recorridos
+role: Profesional empresarial
+level: Principiante
 translation-type: tm+mt
-source-git-commit: 349af3a922faa2cf4561c7974466255562d6917d
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 93%
+source-wordcount: '789'
+ht-degree: 92%
 
 ---
 
@@ -27,8 +30,8 @@ También puede consultar las [Notas de la versión](../release-notes/release-not
 
 ## Septiembre de 2020 {#september-2020}
 
-* La sección de descripción de la interfaz se ha actualizado para reflejar el nuevo menú **All selector**. [Puede obtener más información](../about/user-interface.md)
-* Se ha añadido una nota sobre las nuevas versiones de recorridos basados en segmentos que no son recurrentes.
+* La sección de descripción de la interfaz se ha actualizado para reflejar el nuevo menú **All selector**. [Obtenga más información](../about/user-interface.md)
+* Se ha añadido una nota sobre las nuevas versiones de los recorridos basados en segmentos que no son recurrentes.
 
 ## Agosto de 2020 {#august-2020}
 
