@@ -3,18 +3,21 @@ product: adobe campaign
 solution: Journey Orchestration
 title: setHours
 description: Obtenga información sobre la función setHours
+feature: Recorridos
+role: Ingeniero de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 6%
+source-wordcount: '80'
+ht-degree: 7%
 
 ---
 
 
 # setHours {#setHours}
 
-Establece las horas de una fecha, hora u hora de fecha solamente. Por ejemplo, si desea esperar hasta una hora determinada mañana, puede forzar la hora.
+Establece las horas de una fecha, hora u hora únicamente. Por ejemplo, si desea esperar hasta una hora determinada mañana, puede forzar la hora.
 
 ## Categoría
 
