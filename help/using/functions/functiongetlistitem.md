@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: getListItem
 description: Obtenga información sobre la función gstListItem
+feature: Recorridos
+role: Ingeniero de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 5539ea0e8f124896f5599dba63babaa3e5b0229b
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 11%
+source-wordcount: '101'
+ht-degree: 12%
 
 ---
 
@@ -53,11 +56,11 @@ Devuelve una lista de cadenas.
 
 `getListItem(<listDateTimeOnly>,<index>)`
 
-Devuelve una lista de datetimes sin tener en cuenta la zona horaria.
+Devuelve una lista de tiempos de datos sin tener en cuenta la zona horaria.
 
 `getListItem(<listDateTime>,<index>)`
 
-Devuelve una lista de datetimes.
+Devuelve una lista de tiempos de datos.
 
 `getListItem(<listBoolean>,<index>)`
 
@@ -76,7 +79,7 @@ Devuelve &quot;2&quot;
 `getListItem(["A", "B", "C"], 3)`
 Devuelve &quot;C&quot;
 
-Ejemplos con un campo de evento &#39;evento.appVersion&#39; con valor: &quot;20.45.2.3434&quot;
+Ejemplos con un campo de evento &quot;event.appVersion&quot; con valor: &quot;20.45.2.3434&quot;
 
 `split(@{event.appVersion}, "\\.")`
 
