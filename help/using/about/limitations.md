@@ -1,12 +1,15 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: Limitaciones de Journey Orchestration
-description: Obtenga más información sobre las limitaciones de Journey Orchestration
+title: Limitaciones del Journey Orchestration
+description: Obtenga más información sobre las limitaciones de los Journey Orchestration
+feature: Recorridos
+role: Profesional empresarial
+level: Principiante
 translation-type: tm+mt
-source-git-commit: 1433ccabaceb31c7ffac117a31531d0d380a54f8
+source-git-commit: 8685dfdcbfb414af89b304a6a9a0f9418959909b
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '530'
 ht-degree: 2%
 
 ---
@@ -23,12 +26,12 @@ Estas son limitaciones relacionadas con el uso de Journey Orchestration.
 * El evento **Reaction** integrado le permite reaccionar ante las acciones integradas (consulte esta [página](../building-journeys/reaction-events.md)). Si desea reaccionar a un mensaje enviado mediante una acción personalizada, debe configurar un evento dedicado. 
 * No hay integración de productos de Adobe Campaign Classic.
 
-## Limitaciones de las versiones de Journey {#journey-versions-limitations}
+## Limitaciones de las versiones de recorrido {#journey-versions-limitations}
 
-* un recorrido que comienza con una actividad de evento en v1 no puede comenzar con otra cosa que un evento en versiones posteriores. No se puede iniciar un recorrido con un evento **Segment Qualification**.
+* un recorrido que comience con una actividad de evento en v1 no puede comenzar con otra cosa que un evento en versiones posteriores. No se puede iniciar un recorrido con un evento **Segment Qualification**.
 * un recorrido que comience con una actividad **Segment Qualification** en v1 siempre debe comenzar con **Segment Qualification** en versiones posteriores.
 * El segmento y el área de nombres elegidos en **Segment qualification** (primer nodo) no se pueden cambiar en las nuevas versiones.
-* La regla de reentrada debe ser la misma en todas las versiones del recorrido.
+* La regla de reentrada debe ser la misma en todas las versiones de recorrido.
 
 ## Clasificación del segmento {#segment-qualification}
 
@@ -38,10 +41,10 @@ Estas son limitaciones relacionadas con el uso de Journey Orchestration.
 ## Limitaciones de acciones personalizadas
 
 * La dirección URL de acción personalizada no admite parámetros dinámicos. 
-* Solo se admiten los métodos de llamada POST y PUT. 
+* Solo se admiten métodos de llamada de POST y PUT. 
 * El nombre del parámetro de consulta o del encabezado no debe comenzar por &quot;.&quot; o &quot;$&quot;. 
 * No se permiten direcciones IP. 
-* Direcciones internas de Adobe (.adobe). no están permitidos.
+* Direcciones de Adobe internas (.adobe). no están permitidos.
  
 
 ## Limitaciones de las acciones de Adobe Campaign
@@ -51,18 +54,18 @@ Estas son limitaciones relacionadas con el uso de Journey Orchestration.
 
 ## Limitaciones de eventos
 
-* Para los eventos generados por el sistema, los datos de flujo utilizados para iniciar un recorrido del cliente deben configurarse primero dentro de Journey Orchestration para obtener un ID de organización único. Este ID de organización debe añadirse a la carga útil de flujo continuo que llega a Adobe Experience Platform. Esta limitación no se aplica a los eventos basados en reglas.
+* En el caso de los eventos generados por el sistema, los datos de flujo utilizados para iniciar un recorrido de cliente deben configurarse primero en el Journey Orchestration para obtener un ID de organización único. Este ID de organización debe añadirse a la carga útil de flujo continuo que llega a Adobe Experience Platform. Esta limitación no se aplica a los eventos basados en reglas.
  
 
 ## Limitaciones de las fuentes de datos
 
-* Las fuentes de datos externas se pueden aprovechar en un recorrido del cliente para buscar datos externos en tiempo real. Estas fuentes deben utilizarse mediante la API de REST, admiten JSON y pueden gestionar el volumen de solicitudes.
+* Las fuentes de datos externas se pueden aprovechar dentro de un recorrido de clientes para buscar datos externos en tiempo real. Estas fuentes deben utilizarse mediante la API de REST, admiten JSON y pueden gestionar el volumen de solicitudes.
 
 ## Recorridos que comienzan al mismo tiempo que una creación de perfil {#journeys-limitation-profile-creation}
 
-En Adobe Experience Platform hay un retraso asociado con la creación/actualización de perfiles basados en API. El objetivo de nivel de servicio (SLT) en términos de latencia es &lt; 1 min desde la ingesta hasta el perfil unificado para el percentil 95 de las solicitudes, a un volumen de 20 000 solicitudes por segundo (RPS).
+Hay un retraso asociado a la creación/actualización de perfiles basado en API en Adobe Experience Platform. El objetivo de nivel de servicio (SLT) en términos de latencia es &lt; 1 min desde la ingesta hasta el perfil unificado para el percentil 95 de las solicitudes, a un volumen de 20 000 solicitudes por segundo (RPS).
 
-Si un Recorrido se activa simultáneamente para crear un perfil y comprueba o recupera inmediatamente información del servicio de perfil, es posible que no funcione correctamente.
+Si un Recorrido se activa simultáneamente para crear un perfil y comprueba o recupera inmediatamente la información del servicio de perfil, es posible que no funcione correctamente.
 
 Puede elegir entre una de estas dos soluciones:
 
