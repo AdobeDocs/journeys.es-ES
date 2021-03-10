@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Acerca de la creación de un recorrido
 description: Como usuario empresarial, aprenda a combinar actividades de eventos, orquestación y acciones para construir un recorrido.
+feature: Recorridos
+role: Profesional empresarial
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: c41b49e2208727f5e3a562b838c4b052c70e8412
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '439'
 ht-degree: 15%
 
 ---
@@ -16,11 +19,11 @@ ht-degree: 15%
 
 Este paso lo realiza el **usuario empresarial**. Aquí es donde crea sus recorridos. Combine las distintas actividades de evento, orquestación y acción para crear sus escenarios de canal cruzado de varios pasos.
 
-La interfaz de recorrido le permite arrastrar y soltar fácilmente actividades de la paleta en el lienzo. También puede hacer doble clic en una actividad para agregarla al lienzo en el siguiente paso disponible. Cada actividad tiene una función y un lugar específicos en el proceso. Las actividades se secuencian. Cuando finaliza una actividad, el flujo continúa y procesa la siguiente actividad, etc.
+La interfaz de recorrido permite arrastrar y soltar fácilmente actividades de la paleta en el lienzo. También puede hacer doble clic en una actividad para agregarla al lienzo en el siguiente paso disponible. Cada actividad tiene una función y un lugar específicos en el proceso. Las actividades se secuencian. Cuando finaliza una actividad, el flujo continúa y procesa la siguiente actividad, etc.
 
-Solo se permite un área de nombres por recorrido. Cuando se suelta el primer evento, los eventos con diferentes áreas de nombres aparecen atenuados. Si el primer evento no tiene un área de nombres, todos los eventos con un área de nombres se atenuarán. Consulte [esta página](../event/selecting-the-namespace.md). Además, los grupos de campos de Adobe Experience Platform aparecen atenuados si el recorrido tiene eventos sin área de nombres. Y, por último, si utiliza varios eventos en el mismo recorrido, deben utilizar el mismo espacio de nombres.
+Solo se permite un espacio de nombres por recorrido. Cuando se suelta el primer evento, los eventos con diferentes áreas de nombres aparecen atenuados. Si el primer evento no tiene un área de nombres, todos los eventos con un área de nombres se atenuarán. Consulte [esta página](../event/selecting-the-namespace.md). Además, los grupos de campos de Adobe Experience Platform aparecen atenuados si el recorrido tiene eventos sin área de nombres. Y, por último, si utiliza varios eventos en el mismo recorrido, deben utilizar el mismo espacio de nombres.
 
-Al iniciar un nuevo recorrido, se ocultan los elementos que no se pueden soltar en el lienzo como primer paso. Esto se refiere a todas las acciones, la actividad de la condición, la espera y la reacción.
+Al iniciar un nuevo recorrido, los elementos que no se pueden soltar en el lienzo como primer paso se ocultan. Esto se refiere a todas las acciones, la actividad de la condición, la espera y la reacción.
 
 ## Inicio rápido {#creating_journey}
 
@@ -54,7 +57,7 @@ Estos son los pasos principales para crear y publicar un recorrido.
 
 ## Finalización de un recorrido {#ending_a_journey}
 
-Hay dos formas de finalizar un recorrido:
+Hay dos maneras de terminar un recorrido:
 
 * La persona llega a la última actividad de una ruta. Esta última actividad puede ser una actividad final u otra actividad. No hay obligación de finalizar una ruta con una actividad final. Consulte [esta página](../building-journeys/end-activity.md).
 * La persona llega a una actividad de condición (o a una actividad de espera con una condición ) y no coincide con ninguna de las condiciones.
