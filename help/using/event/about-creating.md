@@ -2,11 +2,14 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: Creación de un evento
-description: Aprenda a crear un evento
+description: Obtenga información sobre cómo crear un evento
+feature: Recorridos
+role: Profesional empresarial
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: b3ed5d305ddd1c86814373fc923390dc50a80c7e
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '547'
 ht-degree: 53%
 
 ---
@@ -32,26 +35,26 @@ Estos son los pasos principales para configurar un nuevo evento:
 
    ![](../assets/journey6bis.png)
 
-   * **Componentes** basados en reglas: este tipo de evento no genera un eventID. En el campo **condición de ID de Evento**, simplemente defina una regla que será utilizada por el sistema para identificar los eventos relevantes que activarán sus viajes. Esta regla se puede basar en cualquier campo disponible en la carga útil de evento, por ejemplo la ubicación del perfil o el número de elementos agregados al carro de perfiles.
+   * **Eventos basados** en reglas: este tipo de evento no genera un eventID. En el campo **Event ID condition**, simplemente define una regla que utilizará el sistema para identificar los eventos relevantes que van a almacenar en déclencheur sus recorridos. Esta regla se puede basar en cualquier campo disponible en la carga útil de evento, por ejemplo la ubicación del perfil o el número de elementos agregados al carro de compras del perfil.
 
-   * **Eventos** generados por el sistema: este tipo requiere un eventID. Este campo eventID se genera automáticamente al crear el evento y agregarse a la previsualización de carga útil. El sistema que empuja el evento no debe generar un ID, debe pasar el disponible en la previsualización de carga útil. Consulte [esta sección](../event/previewing-the-payload.md).
+   * **Eventos** generados por el sistema: este tipo requiere un eventID. Este campo eventID se genera automáticamente al crear el evento y se añade a la previsualización de carga útil. El sistema que impulsa el evento no debe generar un ID, debe pasar el disponible en la previsualización de carga útil. Consulte [esta sección](../event/previewing-the-payload.md).
    >[!NOTE]
    >
-   >Lea más sobre tipos de evento en [esta sección](../event/about-events.md).
+   >Obtenga más información sobre los tipos de eventos en [esta sección](../event/about-events.md).
 1. El número de recorridos que utiliza este evento se muestra en el campo **[!UICONTROL Used in]**. Puede hacer clic en el icono **[!UICONTROL View journeys]** para mostrar la lista de los recorridos con este evento.
 1. Defina los campos esquema y carga útil: aquí es donde selecciona la información de evento (generalmente denominada carga útil) que [!DNL Journey Orchestration] espera recibir. Podrá utilizar esta información en su recorrido. Consulte [esta página](../event/defining-the-payload-fields.md).
    >[!NOTE]
    >
-   >Cuando selecciona el tipo **[!UICONTROL System Generated]**, solo están disponibles los esquemas que tienen la mezcla de tipo eventID. Cuando selecciona el tipo **[!UICONTROL Rule Based]**, están disponibles todos los esquemas de Experience Evento.
+   >Al seleccionar el tipo **[!UICONTROL System Generated]**, solo están disponibles los esquemas que tienen la mezcla de tipo eventID. Al seleccionar el tipo **[!UICONTROL Rule Based]**, están disponibles todos los esquemas de eventos de experiencia.
 
-1. Para eventos basados en reglas, haga clic dentro del campo **[!UICONTROL Event ID condition]**. Con el editor de expresiones simple, defina la condición que utilizará el sistema para identificar los eventos que activarán el viaje.
+1. Para eventos basados en reglas, haga clic dentro del campo **[!UICONTROL Event ID condition]**. Con el editor de expresiones simple, defina la condición que utilizará el sistema para identificar los eventos que van a almacenar en déclencheur el recorrido.
    ![](../assets/alpha-event6.png)
 
-   En nuestro ejemplo, escribimos una condición basada en la ciudad del perfil. Esto significa que cada vez que el sistema recibe un evento que coincide con esta condición (**[!UICONTROL City]** campo y **[!UICONTROL Paris]** valor), lo pasará al Journey Orchestration.
+   En nuestro ejemplo, escribimos una condición basada en la ciudad del perfil. Esto significa que, cada vez que el sistema recibe un evento que coincide con esta condición (campo **[!UICONTROL City]** y valor **[!UICONTROL Paris]**), lo pasa al Journey Orchestration.
 
 1. Añada un área de nombres. Este paso es opcional, pero se recomienda, ya que la adición de un área de nombres le permite aprovechar la información almacenada en el servicio de Perfil del cliente en tiempo real. Define el tipo de clave que tiene el evento. Consulte [esta página](../event/selecting-the-namespace.md).
 1. Defina la clave: elija un campo de los campos de carga útil o defina una fórmula para identificar a la persona asociada al evento. Esta clave se configura automáticamente (pero aún puede editarse) si selecciona un Área de nombres. De hecho, [!DNL Journey Orchestration] selecciona la clave que debe corresponder al área de nombres (por ejemplo, si selecciona un área de nombres de correo electrónico, se seleccionará la clave de correo electrónico). Consulte [esta página](../event/defining-the-event-key.md).
-1. Para eventos generados por el sistema, puede agregar una condición. Este paso es opcional. Esto permite al sistema procesar únicamente los eventos que cumplen la condición. La condición solo puede basarse en la información contenida en el evento. Consulte [esta página](../event/adding-a-condition.md).
+1. Para los eventos generados por el sistema, puede agregar una condición. Este paso es opcional. Esto permite al sistema procesar únicamente los eventos que cumplen la condición. La condición solo puede basarse en la información contenida en el evento. Consulte [esta página](../event/adding-a-condition.md).
 1. Haga clic **[!UICONTROL Save]**.
 
    ![](../assets/journey7.png)
