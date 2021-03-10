@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: toDuration
 description: Obtenga información sobre la función toDuration
+feature: Recorridos
+role: Ingeniero de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '283'
+ht-degree: 2%
 
 ---
 
@@ -31,9 +34,9 @@ Conversión
 | string | formatos basados en el formato de duración ISO-8601 PnDTnHnMn.nS con días considerados exactamente como 24 horas |
 | integer | número de milisegundos |
 
-Si expresión de cadena: los formatos aceptados se basan en el formato de duración ISO-8601 PnDTnHnMn.nS con días considerados exactamente como 24 horas.
+Si la expresión de cadena: Los formatos aceptados se basan en el formato de duración ISO-8601 PnDTnHnMn.nS con días considerados exactamente como 24 horas.
 
-La cadena inicio con un signo opcional, denotado por el símbolo ASCII negativo o positivo. Si es negativo, se anula todo el período. La letra ASCII &quot;P&quot; es la siguiente en mayúsculas o minúsculas. Hay cuatro secciones, cada una de ellas compuesta por un número y un sufijo. Las secciones tienen sufijos en ASCII de &quot;D&quot;, &quot;H&quot;, &quot;M&quot; y &quot;S&quot; durante días, horas, minutos y segundos, aceptados en mayúsculas o minúsculas. Los sufijos deben aparecer en orden. La letra ASCII &quot;T&quot; debe aparecer antes de la primera incidencia, si la hay, de una hora, minuto o segunda sección. Al menos una de las cuatro secciones debe estar presente, y si está presente &quot;T&quot; debe haber al menos una sección después de la &quot;T&quot;. La parte numérica de cada sección debe constar de uno o más dígitos ASCII. El número puede ir precedido del símbolo ASCII negativo o positivo. El número de días, horas y minutos debe analizarse a lo largo. El número de segundos debe analizarse junto con la fracción opcional. El punto decimal puede ser un punto o una coma. La parte fraccionada puede tener de cero a 9 dígitos.
+La cadena comienza con un signo opcional, que se indica con el símbolo ASCII negativo o positivo. Si es negativo, se anula todo el periodo. La letra ASCII &quot;P&quot; es la siguiente en mayúsculas o minúsculas. Luego hay cuatro secciones, cada una compuesta por un número y un sufijo. Las secciones tienen sufijos en ASCII de &quot;D&quot;, &quot;H&quot;, &quot;M&quot; y &quot;S&quot; para días, horas, minutos y segundos, aceptados en mayúsculas o minúsculas. Los sufijos deben aparecer en orden. La letra ASCII &quot;T&quot; debe aparecer antes de la primera incidencia, si la hay, de una hora, minuto o segunda sección. Al menos una de las cuatro secciones debe estar presente, y si la &quot;T&quot; está presente debe haber al menos una sección después de la &quot;T&quot;. La parte numérica de cada sección debe constar de uno o más dígitos ASCII. El número puede ir precedido del símbolo ASCII negativo o positivo. El número de días, horas y minutos debe analizarse a lo largo. El número de segundos debe analizarse con junto con la fracción opcional. El punto decimal puede ser un punto o una coma. La parte fraccionada puede tener de cero a 9 dígitos.
 
 ## Firmas y tipo devuelto
 
@@ -51,8 +54,8 @@ Devuelve la duración de 10 horas.
 
 `toDuration("PT4S")`
 
-Devuelve la duración de 4s.
+Devuelve la duración de 4 s.
 
 `toDuration(4000)`
 
-Devuelve la duración de 4s.
+Devuelve la duración de 4 s.
