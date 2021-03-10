@@ -1,45 +1,48 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: Versiones de Journey
-description: Obtenga información sobre las versiones del viaje
+title: Versiones de recorridos
+description: Obtenga información sobre las versiones de recorrido
+feature: Recorridos
+role: Profesional empresarial
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '247'
 ht-degree: 2%
 
 ---
 
 
-# Versiones de Journey{#concept_ldc_k55_zgb}
+# Versiones de recorridos{#concept_ldc_k55_zgb}
 
-En la lista del viaje, todas las versiones del viaje se muestran con el número de versión. Consulte [esta página](../building-journeys/using-the-journey-designer.md). Al buscar un viaje, las versiones más recientes aparecen en la parte superior de la lista la primera vez que se abre la aplicación. A continuación, puede definir la clasificación que desee y la aplicación la mantendrá como una preferencia del usuario. La versión del viaje también se muestra en la parte superior de la interfaz de edición del viaje, encima del lienzo.
+En la lista recorrido, todas las versiones de recorrido se muestran con el número de versión. Consulte [esta página](../building-journeys/using-the-journey-designer.md). Al buscar un recorrido, las versiones más recientes aparecen en la parte superior de la lista la primera vez que se abre la aplicación. A continuación, puede definir la clasificación que desee y la aplicación la mantendrá como una preferencia de usuario. La versión del recorrido también se muestra en la parte superior de la interfaz de edición de recorrido, encima del lienzo.
 
 ![](../assets/journeyversions1.png)
 
-Si necesita modificar un viaje en directo, debe crear una nueva versión de su viaje.
+Si necesita modificar a un recorrido activo, debe crear una nueva versión del recorrido.
 
 >[!NOTE]
 >
->Para obtener más información sobre las limitaciones de las versiones del viaje, consulte [esta página](../about/limitations.md#journey-versions-limitations)
+>Para obtener más información sobre las limitaciones de las versiones de recorrido, consulte [esta página](../about/limitations.md#journey-versions-limitations)
 
-1. Abra la última versión de su viaje en directo, haga clic en **[!UICONTROL Create a new version]** y confirme.
+1. Abra la última versión de su recorrido activo, haga clic en **[!UICONTROL Create a new version]** y confirme.
 
    ![](../assets/journeyversions2.png)
 
    >[!NOTE]
    >
-   >Solo puede crear una nueva versión a partir de la última versión de un viaje.
+   >Solo puede crear una versión nueva a partir de la versión más reciente de un recorrido.
 
-1. Realice las modificaciones, haga clic en **[!UICONTROL Publish]** y confirme.
+1. Haga las modificaciones, haga clic en **[!UICONTROL Publish]** y confirme.
 
    ![](../assets/journeyversions3.png)
 
-Desde el momento en que se publique el viaje, los individuos tendrán el inicio de llegar a la última versión del viaje. Las personas que ya han entrado en una versión anterior permanecen en ella hasta que terminan el viaje. Si más adelante vuelven a entrar en el mismo viaje, irán a la última versión.
+Desde el momento en que se publique el recorrido, las personas empezarán a fluir a la última versión del recorrido. Las personas que ya han introducido una versión anterior permanecen en ella hasta que finalizan el recorrido. Si más adelante vuelven a entrar en el mismo recorrido, pasarán a la última versión.
 
-Las versiones de viaje se pueden detener individualmente. Todas las versiones de viajes tienen el mismo nombre.
+Las versiones de recorrido se pueden detener individualmente. Todas las versiones de recorridos tienen el mismo nombre.
 
 >[!NOTE]
 >
->Cuando publica una nueva versión de un viaje, la versión anterior finaliza automáticamente y cambia al estado **Cerrado**. No habrá entrada en el viaje. Aunque detenga la versión más reciente, la versión anterior permanecerá cerrada.
+>Cuando publica una nueva versión de un recorrido, la versión anterior finaliza automáticamente y cambia al estado **Cerrado**. No habrá entrada en el recorrido. Aunque detenga la última versión, la versión anterior permanecerá cerrada.
