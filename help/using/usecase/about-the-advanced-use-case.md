@@ -2,11 +2,14 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: Acerca del caso de uso avanzado
-description: Obtenga más información sobre el caso de uso avanzado del viaje
+description: Más información sobre el caso de uso avanzado de recorrido
+feature: Recorridos
+role: Profesional empresarial
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '422'
 ht-degree: 6%
 
 ---
@@ -16,7 +19,7 @@ ht-degree: 6%
 
 ## Objetivo {#purpose}
 
-Veamos el ejemplo de una marca de hotel llamada Marlton. En sus hoteles, han colocado dispositivos de señalización cerca de todas las zonas estratégicas: vestíbulo, plantas, restaurante, gimnasio, piscina, etc.
+Veamos el ejemplo de una marca de hotel llamada Marlton. En sus hoteles, han colocado dispositivos de señalización cerca de todas las áreas estratégicas: vestíbulo, pisos, restaurante, gimnasio, piscina, etc.
 
 >[!NOTE]
 >
@@ -28,31 +31,31 @@ En primer lugar, queremos enviar un mensaje tan pronto como una persona entre en
 
 Luego comprobamos dos condiciones:
 
-* Si esta persona no es miembro leal, le enviamos un correo electrónico para unirse a la oferta de afiliación leal.
-* Si esta persona ya es miembro leal, comprobamos si tiene una reserva de habitación:
-   * Si no lo hace, le enviamos una notificación push con las tarifas de habitación.
-   * Si lo hace, le enviamos una notificación push de bienvenida. Y si entra al restaurante en las siguientes 6 horas, le enviamos una notificación push con descuento en una comida.
+* Si esta persona no es un miembro socio, le enviamos un correo electrónico para unirse a la oferta de membresía de fidelidad.
+* Si esta persona ya es miembro socio, comprobamos si tiene una reserva de habitación:
+   * Si no lo hace, le enviamos una notificación push con tarifas de habitación.
+   * Si lo hace, le enviamos una notificación push de bienvenida. Y si entra al restaurante dentro de las próximas 6 horas, le enviamos una notificación push con un descuento en una comida.
 
 ![](../assets/journeyuc2_29.png)
 
-Para este caso de uso, necesitaremos crear dos eventos (consulte [esta página](../usecase/configuring-the-events.md)):
+Para este caso de uso, necesitamos crear dos eventos (consulte [esta página](../usecase/configuring-the-events.md)):
 
-* El evento de la señalización del vestíbulo que se pondrá en contacto con el sistema cuando un cliente entre en el hotel.
-* El evento de la señalización del restaurante que se abre cuando un cliente entra en el restaurante.
+* El evento de señalización del vestíbulo que será transferido al sistema cuando un cliente entre al hotel.
+* El evento de señalización del restaurante que se impulsará cuando un cliente entre en el restaurante.
 
-Será necesario configurar una conexión a dos fuentes de datos (consulte [esta página](../usecase/configuring-the-data-sources.md)):
+Será necesario configurar una conexión con dos fuentes de datos (consulte [esta página](../usecase/configuring-the-data-sources.md)):
 
-* La fuente de datos integrada de Adobe Experience Platform, para recuperar la información de nuestras dos condiciones (afiliación de fidelidad y fecha de contacto anterior), así como la información de personalización del mensaje.
-* El sistema de reservación del hotel, para recuperar la información de estado de la reserva.
+* La fuente de datos integrada de Adobe Experience Platform, para recuperar la información de nuestras dos condiciones (pertenencia de fidelidad y fecha de último contacto), así como la información de personalización del mensaje.
+* El sistema de reservas de hotel, para recuperar la información del estado de reserva.
 
 ## Requisitos previos {#prerequisites}
 
-En nuestro caso de uso, hemos diseñado tres plantillas de mensajería transaccional de Adobe Campaign Standard. Estamos utilizando plantillas de mensajería transaccional de evento. Consulte [esta página](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.translate.html).
+Para nuestro caso de uso, hemos diseñado tres plantillas de mensajería transaccional de Adobe Campaign Standard. Estamos utilizando plantillas de mensajería transaccional de eventos. Consulte [esta página](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.translate.html).
 
 Adobe Campaign Standard está configurado para enviar correos electrónicos y notificaciones push.
 
-El ID de Experience Cloud se utiliza como clave para identificar al cliente en el sistema de reservación del hotel.
+El ID de Experience Cloud se utiliza como clave para identificar al cliente en el sistema de reservas de hotel.
 
-Los eventos se envían desde el teléfono móvil del cliente cuando se detectan cerca de una señalización. Debe diseñar una aplicación móvil para enviar eventos desde el teléfono móvil del cliente al SDK móvil.
+Los eventos se envían desde el teléfono móvil de los clientes cuando se detectan cerca de una señalización. Debe diseñar una aplicación móvil para enviar eventos desde el teléfono móvil del cliente al SDK móvil.
 
-El campo de miembro Lealtad es un campo personalizado y se agregó en XDM para nuestro ID de organización específico.
+El campo miembro Lealtad es un campo personalizado y se agregó en XDM para nuestro ID de organización específico.
