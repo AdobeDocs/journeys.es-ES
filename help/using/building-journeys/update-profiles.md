@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Saltar de un recorrido a otro
 description: Saltar de un recorrido a otro
+feature: Recorridos
+role: Profesional empresarial
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 5c94f64c10d12690e27585806962bf9537636e9c
+source-git-commit: 8685dfdcbfb414af89b304a6a9a0f9418959909b
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '446'
 ht-degree: 3%
 
 ---
@@ -14,7 +17,7 @@ ht-degree: 3%
 
 # Actualizar perfil {#update-profile}
 
-La actividad de acción **[!UICONTROL Update profile]** le permite actualizar un perfil existente de Adobe Experience Platform con información proveniente del evento, una fuente de datos o con un valor específico.
+La actividad de acción **[!UICONTROL Update profile]** le permite actualizar un perfil de Adobe Experience Platform existente con información proveniente del evento, una fuente de datos o con un valor específico.
 
 ## Notas importantes
 
@@ -29,13 +32,13 @@ La actividad de acción **[!UICONTROL Update profile]** le permite actualizar un
 
 En el modo de prueba, la actualización de perfil no se simulará. La actualización se realizará en el perfil de prueba.
 
-Solo los perfiles de prueba pueden entrar en un recorrido en modo de prueba. Puede crear un nuevo perfil de prueba o convertir un perfil existente en un perfil de prueba. En Adobe Experience Platform, puede actualizar los atributos de perfil mediante llamadas a la API, pero no se pueden realizar a través de la interfaz. La forma más sencilla de hacerlo es usar una actividad de acción **Update profile** y cambiar el campo booleano del perfil de prueba de falso a verdadero.
+Solo los perfiles de prueba pueden introducir un recorrido en el modo de prueba. Puede crear un nuevo perfil de prueba o convertir un perfil existente en un perfil de prueba. En Adobe Experience Platform, puede actualizar los atributos de perfil mediante llamadas a la API, pero no se pueden realizar a través de la interfaz. La forma más sencilla de hacerlo es usar una actividad de acción **Update profile** y cambiar el campo booleano del perfil de prueba de falso a verdadero.
 
 Para obtener más información sobre el modo de prueba, consulte esta [sección](../building-journeys/testing-the-journey.md).
 
 ## Uso de la actualización de perfil
 
-1. Diseñe el recorrido empezando por un evento. Consulte esta [sección](../building-journeys/journey.md).
+1. Diseñe el recorrido empezando por un evento . Consulte esta [sección](../building-journeys/journey.md).
 
 1. En la sección **Action** de la paleta, suelte la actividad **Update profile** en el lienzo.
 
