@@ -2,11 +2,14 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: Generalidades
-description: Obtenga información sobre las generalidades de expresión avanzada
+description: Obtenga información sobre las generalidades de expresión avanzadas
+feature: Recorridos
+role: Ingeniero de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '218'
 ht-degree: 3%
 
 ---
@@ -18,7 +21,7 @@ ht-degree: 3%
 
 Los paréntesis se pueden utilizar para que una expresión compleja sea más legible. _(&lt;expression>)_ es el equivalente de  _&lt;expression>_. Los paréntesis también se pueden utilizar para definir el orden de evaluación y la asociatividad.
 
-Las expresiones se evaluarán de izquierda a derecha. La asociatividad de los operadores aritméticos debe aplicarse: las multiplicaciones y las divisiones tienen prioridad sobre las adiciones y las sustracciones. Para imponer un orden específico, se deben añadir paréntesis para delimitar las operaciones. Por ejemplo:
+Las expresiones se evalúan de izquierda a derecha. Se debe aplicar la asociatividad en los operadores aritméticos: las multiplicaciones y las divisiones tienen prioridad sobre las adiciones y sustracciones. Para imponer un orden específico, se debe añadir un paréntesis para delimitar las operaciones. Por ejemplo:
 
 <!--```5 + 2 * 10 = 25, and (5 + 2) * 10 = 70```-->
 
@@ -29,17 +32,17 @@ Las expresiones se evaluarán de izquierda a derecha. La asociatividad de los op
 
 ## Distinción entre mayúsculas y minúsculas{#section_lrb_xh5_dgb}
 
-Estas son las distintas reglas de distinción de mayúsculas y minúsculas:
+Estas son las distintas reglas de distinción entre mayúsculas y minúsculas:
 
 * Todos los operadores (y, o, etc.) debe escribirse en minúsculas. Por ejemplo, _`<expression1>`y`<expression2>`_ es una expresión válida, mientras que la expresión _`<expression1>`AND`<expression2>`_ no lo es.
 * Todos los nombres de funciones distinguen entre mayúsculas y minúsculas. Por ejemplo, _inSegment()_ es válido, mientras que la función _INSEGMENT()_ no lo es.
-* Las referencias de campo y los valores constantes distinguen entre mayúsculas y minúsculas: no son elementos integrados del idioma (a diferencia de los operadores y las funciones), son creados por el usuario final.
+* Las referencias de campo y los valores constantes distinguen entre mayúsculas y minúsculas: no son elementos integrados del idioma (a diferencia de los operadores y funciones), los crea el usuario final.
 
 ## Tipo de expresión devuelto{#section_gyc_435_53b}
 
 Según el contexto de uso, el editor de expresiones puede devolver valores diferentes.
 
-| Uso avanzado del editor de expresiones | Tipo de expresión devuelto esperado |
+| Uso del editor de expresiones avanzadas | Tipo de expresión devuelto esperado |
 |--- |--- |
 | Condición (condición de fuente de datos, condición de fecha) | booleano |
 | Temporizador personalizado | dateTimeOnly |
