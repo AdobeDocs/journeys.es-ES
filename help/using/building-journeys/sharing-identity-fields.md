@@ -3,20 +3,23 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Campos de identidad de los eventos de los journeyStep
 description: Campos de identidad de los eventos de los journeyStep
+feature: Recorridos
+role: Profesional empresarial
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 20%
+source-wordcount: '63'
+ht-degree: 19%
 
 ---
 
 
 # Campos de identidad de los eventos de los journeyStep {#sharing-identity-fields}
 
-Esta mezcla es específica de la función travelStepEvent: este evento está relacionado con el viaje y no tiene el mapa de identidad, que describe la identidad del perfil, si la hay.
+Esta mezcla es específica para journeyStepEvent: este evento está relacionado con el recorrido y no tiene el mapa de identidad, que describe la identidad del perfil, si la hay.
 
-En el caso de voyStepEvent, también es necesario agregar campos relacionados con la identidad:
+Para journeyStepEvent, también se deben añadir campos relacionados con la identidad:
 
 ## profileID
 
