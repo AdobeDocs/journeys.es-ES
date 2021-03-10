@@ -2,18 +2,21 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: Actividad final
-description: Obtenga información sobre la actividad final
+description: Descubra la actividad final
+feature: Recorridos
+role: Profesional empresarial
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '63'
+ht-degree: 11%
 
 ---
 
 
 # Actividad final{#section_vqp_4ft_dgb}
 
-La actividad **[!UICONTROL End]** le permite marcar el final de cada ruta del viaje. No es obligatorio, pero se recomienda para la claridad visual. De hecho, si el viaje tiene varias actividades finales, le recomendamos que agregue una etiqueta a cada extremo para facilitar la lectura de los informes. Consulte [esta página](../reporting/about-journey-reports.md).
+La actividad **[!UICONTROL End]** permite marcar el final de cada ruta del recorrido. No es obligatorio, pero se recomienda para la claridad visual. De hecho, si el recorrido tiene varias actividades finales, le recomendamos que agregue una etiqueta a cada extremo para facilitar la lectura de los informes. Consulte [esta página](../reporting/about-journey-reports.md).
 
 ![](../assets/journey54.png)
