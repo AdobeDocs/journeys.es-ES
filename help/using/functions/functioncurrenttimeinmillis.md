@@ -3,18 +3,21 @@ product: adobe campaign
 solution: Journey Orchestration
 title: currentTimeInMillis
 description: Obtenga información sobre la función currentTimeInMillis
+feature: Recorridos
+role: Ingeniero de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '32'
-ht-degree: 6%
+source-wordcount: '36'
+ht-degree: 8%
 
 ---
 
 
 # currentTimeInMillis {#currentTimeInMillis}
 
-Devuelve la hora actual en milisegundos epoch.
+Devuelve la hora actual en milisegundos de época.
 
 ## Categoría
 
@@ -32,7 +35,7 @@ Esta función no utiliza parámetros.
 
 `currentTimeInMillis()`
 
-Devuelve un entero.
+Devuelve un número entero.
 
 ## Ejemplos
 
