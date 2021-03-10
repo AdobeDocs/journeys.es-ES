@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Interfaz de usuario
 description: Más información sobre la interfaz de usuario
+feature: Recorridos
+role: Profesional empresarial
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1067'
 ht-degree: 93%
 
 ---
@@ -22,7 +25,7 @@ ht-degree: 93%
 
 ## Acceso a [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-Para acceder a la interfaz de [!DNL Journey Orchestration], haga clic en el icono **[!UICONTROL App Selector]**, en la parte superior derecha, luego haga clic en **[!UICONTROL Journey Orchestration]**.
+Para acceder a la interfaz de [!DNL Journey Orchestration], haga clic en el icono **[!UICONTROL App Selector]**, en la parte superior derecha, y luego haga clic en **[!UICONTROL Journey Orchestration]**.
 
 ![](../assets/journey1.png)
 
@@ -135,10 +138,10 @@ _En el lienzo de un recorrido:_
 * Cuando se seleccionan una o varias actividades, pulse **Eliminar** o **Retroceso** para eliminarlas. A continuación, puede pulsar **Entrar** para confirmar en el elemento emergente de confirmación.
 * Haga doble clic en una actividad desde la paleta izquierda para agregarla a la primera posición disponible (de arriba a abajo).
 
-_En un viaje:_
+_En un recorrido:_
 
-* Presione **T** para habilitar/deshabilitar el modo de prueba.
-* En un viaje basado en eventos en modo de prueba, pulse **E** para activar un evento.
-* En un viaje basado en segmentos, cuando se selecciona la opción **perfil único a la vez** en modo de prueba, pulse **P** para activar un evento.
-* En el modo de prueba, presione **L** para mostrar los registros.
+* Pulse **T** para habilitar/deshabilitar el modo de prueba.
+* En un recorrido basado en eventos en el modo de prueba, pulse **E** para almacenar en déclencheur un evento.
+* En un recorrido basado en segmentos, cuando la opción **Un perfil a la vez** está seleccionada en modo de prueba, presione **P** para almacenar en déclencheur un evento.
+* En el modo de prueba, pulse **L** para mostrar los registros.
 
