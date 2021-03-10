@@ -1,27 +1,30 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: Aprovechamiento de las puntuaciones de AI de los clientes
-description: Aprovechamiento de las puntuaciones de AI de los clientes
+title: Aprovechamiento de las puntuaciones de IA de los clientes
+description: Aprovechamiento de las puntuaciones de IA de los clientes
+feature: Recorridos
+role: Profesional empresarial
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '111'
+ht-degree: 2%
 
 ---
 
 
 # Aprovechamiento de la IA del cliente {#customer-ai}
 
-La API del cliente forma parte de los servicios inteligentes. Ayuda a predecir lo que es probable que haga un cliente. Consulte la [documentación](https://docs.adobe.com/content/help/en/experience-platform/intelligent-services/customer-ai/overview.html).
+Customer AI forma parte de Servicios inteligentes. Ayuda a predecir lo que es probable que haga un cliente. Consulte la [documentación](https://docs.adobe.com/content/help/en/experience-platform/intelligent-services/customer-ai/overview.html).
 
-La API del cliente permite a las marcas crear puntuaciones basadas en el aprendizaje automático de conversión o de reproducción que estarán disponibles como atributos de perfil en los perfiles de Adobe Experience Platform (Perfil del cliente en tiempo real).
+Customer AI permite a las marcas crear puntuaciones de aprendizaje automático de pérdida o conversión que estarán disponibles como atributos de perfil en los perfiles de Adobe Experience Platform (perfil de cliente en tiempo real).
 
-Como resultado, pueden utilizarse como cualquier otro atributo de perfil en las condiciones de Journey Orchestration (para tomar las mejores decisiones), acciones o creación de segmentos.
+Como resultado, se pueden utilizar como cualquier otro atributo de perfil en las condiciones del Journey Orchestration (para tomar las mejores decisiones), acciones o generación de segmentos.
 
 ![](../assets/customer-ai.png)
 
-Tenga en cuenta que la API del cliente es una característica de pago del Adobe Experience Platform.
+Tenga en cuenta que Customer AI es una función de pago de Adobe Experience Platform.
 
 
