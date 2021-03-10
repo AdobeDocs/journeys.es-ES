@@ -3,18 +3,21 @@ product: adobe campaign
 solution: Journey Orchestration
 title: toDateTimeOnly
 description: Obtenga información sobre la función toDateTime
+feature: Recorridos
+role: Ingeniero de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 10%
+source-wordcount: '51'
+ht-degree: 11%
 
 ---
 
 
 # toDateTimeOnly{#toDateTimeOnly}
 
-Convierte un valor de argumento en un valor de sólo fecha y hora.
+Convierte un valor de argumento en un valor de solo fecha y hora.
 
 ## Categoría
 
@@ -39,7 +42,7 @@ Conversión
 <!--`toDateTimeOnly(<integer>,<integer>,<integer>)`
 `toDateTimeOnly(<integer>,<integer>,<integer>,<integer>,<integer>,<integer>)`-->
 
-Devolver una fecha y hora sin tener en cuenta la zona horaria.
+Devolver una fecha y hora sin considerar la zona horaria.
 
 ## Ejemplos
 
