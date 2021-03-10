@@ -2,11 +2,14 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: Referencias de campo
-description: Obtenga información sobre las referencias de campo en expresiones avanzadas
+description: Obtenga información sobre referencias de campo en expresiones avanzadas
+feature: Recorridos
+role: Ingeniero de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: e2f7c39e61118c42272f730cf5f688ee34d6a9c2
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '438'
 ht-degree: 5%
 
 ---
@@ -17,10 +20,10 @@ ht-degree: 5%
 
 Se puede adjuntar una referencia de campo a un evento o a un grupo de campos. La única información significativa es el nombre del campo y su ruta.
 
-Si utiliza caracteres especiales en un campo, debe utilizar comillas simples o comillas de doble. Estos son los casos en los que se necesitan comillas:
+Si utiliza caracteres especiales en un campo, debe utilizar comillas dobles o simples. Estos son los casos en los que se necesitan comillas:
 
-* inicios de campo con caracteres numéricos
-* los inicios de campo con el carácter &quot;-&quot;
+* el campo comienza con caracteres numéricos
+* el campo comienza con el carácter &quot;-&quot;
 * el campo contiene cualquier cosa que no sea: _a_-_z_, _A_-_Z_, _0_-_9_, _ , _-_
 
 Por ejemplo, si el campo es _3h_: _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
@@ -41,7 +44,7 @@ Se utiliza un color de sintaxis para distinguir visualmente los campos de evento
 
 **Valores predeterminados para referencias de campo**
 
-Se puede asociar un valor predeterminado al nombre de un campo. La sintaxis es la siguiente:
+Se puede asociar un valor predeterminado a un nombre de campo. La sintaxis es la siguiente:
 
 ```
 // event field
@@ -54,7 +57,7 @@ Se puede asociar un valor predeterminado al nombre de un campo. La sintaxis es l
 
 >[!NOTE]
 >
->El tipo del campo y el valor predeterminado deben ser los mismos. Por ejemplo, @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue: :   no será válido porque el valor predeterminado es un entero, mientras que el valor esperado debe ser una cadena.
+>El tipo del campo y el valor predeterminado deben ser los mismos. Por ejemplo, @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2} no será válido porque el valor predeterminado es un número entero, mientras que el valor esperado debe ser una cadena.
 
 Ejemplos:
 
@@ -88,9 +91,9 @@ expression examples:
 - #{ACP.Profile.person.age}                      -> null
 ```
 
-**Referencia de un campo en colecciones**
+**Referencia de un campo dentro de colecciones**
 
-Se hace referencia a los elementos definidos dentro de las colecciones mediante las funciones específicas: todo, primero y último. Para obtener más información, consulte [esta página](../expression/collection-management-functions.md).
+Se hace referencia a los elementos definidos dentro de las colecciones utilizando las funciones específicas de todas, primero y último. Para obtener más información, consulte [esta página](../expression/collection-management-functions.md).
 
 Ejemplo :
 
@@ -100,32 +103,32 @@ Ejemplo :
 
 **Referencia de un campo definido en un mapa**
 
-Para recuperar un elemento en un mapa, utilizamos la función de entrada con una clave determinada. Por ejemplo, se utiliza al definir la clave de un evento, según la Área de nombres seleccionada. Consulte Selección de la Área de nombres. Para obtener más información, consulte [esta página](../event/selecting-the-namespace.md).
+Para recuperar un elemento en un mapa, utilizamos la función de entrada con una clave determinada. Por ejemplo, se utiliza al definir la clave de un evento, según el espacio de nombres seleccionado. Consulte Selección del área de nombres. Para obtener más información, consulte [esta página](../event/selecting-the-namespace.md).
 
 ```
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-En esta expresión, obtenemos la entrada para la clave de ‘Correo electrónico’ del campo ‘Mapa de identidad’ de un evento. La entrada ‘Correo electrónico’ es una colección, de la cual tomamos el ‘id’ en el primer elemento usando ‘first()’. Para obtener más información, consulte [esta página](../expression/collection-management-functions.md).
+En esta expresión, se obtiene la entrada para la clave &quot;Correo electrónico&quot; del campo &quot;Mapa de identidad&quot; de un evento. La entrada &quot;Correo electrónico&quot; es una colección, de la que tomamos el &quot;id&quot; en el primer elemento utilizando &quot;first()&quot;. Para obtener más información, consulte [esta página](../expression/collection-management-functions.md).
 
 **Valores de parámetro de una fuente de datos (valores dinámicos de la fuente de datos)**
 
-Si selecciona un campo de un origen de datos externo que requiere que se llame a un parámetro, aparece una nueva ficha a la derecha para permitirle especificar este parámetro. Consulte [esta página](../expression/expressionadvanced.md).
+Si selecciona un campo de una fuente de datos externa que requiere que se llame a un parámetro, aparece una nueva pestaña a la derecha para permitirle especificar este parámetro. Consulte [esta página](../expression/expressionadvanced.md).
 
-Para casos de uso más complejos, si desea incluir los parámetros del origen de datos en la expresión principal, puede definir sus valores utilizando la palabra clave _params_. Un parámetro puede ser cualquier expresión válida, incluso desde otra fuente de datos que también incluya otro parámetro.
+Para casos de uso más complejos, si desea incluir los parámetros de la fuente de datos en la expresión principal, puede definir sus valores utilizando la palabra clave _params_. Un parámetro puede ser cualquier expresión válida, incluso desde otra fuente de datos que también incluya otro parámetro.
 
 >[!NOTE]
 >
->Cuando define los valores de parámetro en la expresión, la ficha de la derecha desaparece.
+>Cuando define los valores de parámetro en la expresión, la pestaña de la derecha desaparece.
 
-Utilice la sintaxis siguiente:
+Utilice la siguiente sintaxis:
 
 ```
 #{<datasource>.<field group>.fieldName, params: {<params-1-name>: <params-1-value>, <params-2-name>: <params-2-value>}}
 ```
 
-* **`<params-1-name>`**:: nombre exacto del primer parámetro del origen de datos.
-* **`<params-1-value>`**:: el valor del primer parámetro. Puede ser cualquier expresión válida.
+* **`<params-1-name>`**: nombre exacto del primer parámetro de la fuente de datos.
+* **`<params-1-value>`**: el valor del primer parámetro. Puede ser cualquier expresión válida.
 
 Ejemplo:
 
