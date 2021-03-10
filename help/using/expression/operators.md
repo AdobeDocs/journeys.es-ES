@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Operadores
 description: Obtenga información sobre los operadores en expresiones avanzadas
+feature: Recorridos
+role: Ingeniero de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 062b4648e2eb3a4270f9c09e4478d541209e1247
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '439'
 ht-degree: 6%
 
 ---
@@ -32,7 +35,7 @@ Existen dos tipos de operadores: operadores unarios y operadores binarios. Hay o
     (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example2@adobe.com")
 ```
 
-Esta es la lista de los operadores admitidos:
+Esta es la lista de operadores admitidos:
 
 ## Lógico {#logical}
 
@@ -42,7 +45,7 @@ Esta es la lista de los operadores admitidos:
 <expression1> and <expression2>
 ```
 
-Tanto &lt;expresión1> como &lt;expresión2> deben ser booleanos. El resultado es booleano.
+Tanto &lt;expression1> como &lt;expression2> deben ser booleanos. El resultado es booleano.
 
 Ejemplo:
 
@@ -58,7 +61,7 @@ Ejemplo:
 <expression1> or <expression2>
 ```
 
-Tanto &lt;expresión1> como &lt;expresión2> deben ser booleanos. El resultado es booleano.
+Tanto &lt;expression1> como &lt;expression2> deben ser booleanos. El resultado es booleano.
 
 Ejemplo:
 
@@ -130,7 +133,7 @@ Ejemplo:
 
 &lt;expression> debe ser una lista. El resultado es booleano.
 
-Resulta útil identificar que una lista contiene al menos un valor nulo.
+Es útil para identificar que una lista contiene al menos un valor nulo.
 
 Ejemplo:
 
@@ -150,7 +153,7 @@ Ejemplo:
 <expression1> == <expression2>
 ```
 
-Tanto &lt;expresión1> como &lt;expresión2> deben tener el mismo tipo de datos. El resultado es booleano.
+Tanto &lt;expression1> como &lt;expression2> deben tener el mismo tipo de datos. El resultado es booleano.
 
 Ejemplo:
 
@@ -170,7 +173,7 @@ Ejemplo:
 <expression1> != <expression2>
 ```
 
-Tanto &lt;expresión1> como &lt;expresión2> deben tener el mismo tipo de datos. El resultado es booleano.
+Tanto &lt;expression1> como &lt;expression2> deben tener el mismo tipo de datos. El resultado es booleano.
 
 Ejemplo:
 
@@ -190,13 +193,13 @@ Ejemplo:
 <expression1> > <expression2>
 ```
 
-La fecha y hora se puede comparar con la fecha y hora.
+La fecha y la hora se pueden comparar con la fecha y la hora.
 
 Datetimeonly puede compararse con Datetimeonly.
 
-Tanto integer como decimal pueden compararse con integer o decimal.
+Tanto el entero como el decimal se pueden comparar con el entero o con el decimal.
 
-Queda prohibida cualquier otra combinación.
+Se prohíbe cualquier otra combinación.
 
 El resultado es booleano.
 
@@ -214,13 +217,13 @@ Ejemplo:
 <expression1> >= <expression2>
 ```
 
-La fecha y hora se puede comparar con la fecha y hora.
+La fecha y la hora se pueden comparar con la fecha y la hora.
 
 Datetimeonly puede compararse con Datetimeonly.
 
-Tanto integer como decimal pueden compararse con integer o decimal.
+Tanto el entero como el decimal se pueden comparar con el entero o con el decimal.
 
-Queda prohibida cualquier otra combinación.
+Se prohíbe cualquier otra combinación.
 
 El resultado es booleano.
 
@@ -238,13 +241,13 @@ Ejemplo:
 <expression1> < <expression2>
 ```
 
-La fecha y hora se puede comparar con la fecha y hora.
+La fecha y la hora se pueden comparar con la fecha y la hora.
 
 Datetimeonly puede compararse con Datetimeonly.
 
-Tanto integer como decimal pueden compararse con integer o decimal.
+Tanto el entero como el decimal se pueden comparar con el entero o con el decimal.
 
-Queda prohibida cualquier otra combinación.
+Se prohíbe cualquier otra combinación.
 
 El resultado es booleano.
 
@@ -262,13 +265,13 @@ Ejemplo:
 <expression1> <= <expression2>
 ```
 
-La fecha y hora se puede comparar con la fecha y hora.
+La fecha y la hora se pueden comparar con la fecha y la hora.
 
 Datetimeonly puede compararse con Datetimeonly.
 
-Tanto integer como decimal pueden compararse con integer o decimal.
+Tanto el entero como el decimal se pueden comparar con el entero o con el decimal.
 
-Queda prohibida cualquier otra combinación.
+Se prohíbe cualquier otra combinación.
 
 El resultado es booleano.
 
@@ -288,7 +291,7 @@ Ejemplo:
 <expression1> + <expression2>
 ```
 
-Ambas expresiones deben ser numéricas (entero o decimal).
+Ambas expresiones deben ser numéricas (números enteros o decimales).
 
 El resultado también es numérico.
 
@@ -306,7 +309,7 @@ Ejemplo:
 <expression1> - <expression2>
 ```
 
-Ambas expresiones deben ser numéricas (entero o decimal).
+Ambas expresiones deben ser numéricas (números enteros o decimales).
 
 El resultado también es numérico.
 
@@ -324,7 +327,7 @@ Ejemplo:
 <expression1> / <expression2>
 ```
 
-Ambas expresiones deben ser numéricas (entero o decimal).
+Ambas expresiones deben ser numéricas (números enteros o decimales).
 
 El resultado también es numérico.
 
@@ -344,7 +347,7 @@ Ejemplo:
 <expression1> * <expression2>
 ```
 
-Ambas expresiones deben ser numéricas (entero o decimal).
+Ambas expresiones deben ser numéricas (números enteros o decimales).
 
 El resultado también es numérico.
 
@@ -362,7 +365,7 @@ Ejemplo:
 <expression1> % <expression2>
 ```
 
-Ambas expresiones deben ser numéricas (entero o decimal).
+Ambas expresiones deben ser numéricas (números enteros o decimales).
 
 El resultado también es numérico.
 
@@ -382,7 +385,7 @@ Ejemplo:
 <expression> is numeric
 ```
 
-El tipo de la expresión es entero o decimal.
+El tipo de la expresión es integer o decimal.
 
 Ejemplo:
 
@@ -398,7 +401,7 @@ Ejemplo:
 <expression> is integer
 ```
 
-El tipo de la expresión es un entero.
+El tipo de la expresión es integer.
 
 Ejemplo:
 
@@ -464,7 +467,7 @@ Ejemplo:
 <expression + <duration>
 ```
 
-Anexe una duración a dateTime, a dateTimeOnly o a una duración.
+Anexe una duración a dateTime, dateTimeOnly o una duración.
 
 Ejemplo:
 
