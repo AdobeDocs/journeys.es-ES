@@ -2,29 +2,32 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: Acerca de las actividades de acción
-description: Obtenga información sobre las actividades de acción
+description: Descubra más información sobre las actividades de acción
+feature: Recorridos
+role: Profesional empresarial
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 28%
+source-wordcount: '177'
+ht-degree: 27%
 
 ---
 
 
 # Acerca de las actividades de acción {#concept_hbj_hrt_52b}
 
-Desde la paleta, en el lado izquierdo de la pantalla, debajo de **[!UICONTROL Events]** y **[!UICONTROL Orchestration]**, encontrará la categoría **[!UICONTROL Actions]**.
+Desde la paleta, en el lado izquierdo de la pantalla, debajo de **[!UICONTROL Events]** y **[!UICONTROL Orchestration]**, se encuentra la categoría **[!UICONTROL Actions]**.
 
 ![](../assets/journey58.png)
 
-Estas actividades representan los diferentes canales de comunicación disponibles. Puede combinarlas para crear un escenario de varios canales.
+Estas actividades representan los diferentes canales de comunicación disponibles. Puede combinarlas para crear un escenario multicanal.
 
-Si tiene Adobe Campaign Standard, están disponibles las siguientes actividades de acciones predeterminadas: **[!UICONTROL Email]**, **[!UICONTROL Push]** y **[!UICONTROL SMS]**. Consulte [esta página](../building-journeys/using-adobe-campaign-actions.md).
+Si tiene Adobe Campaign Standard, están disponibles las siguientes actividades de acción integradas: **[!UICONTROL Email]**, **[!UICONTROL Push]** y **[!UICONTROL SMS]**. Consulte [esta página](../building-journeys/using-adobe-campaign-actions.md).
 
 Si ha configurado acciones personalizadas, también aparecerán aquí (consulte [esta página](../building-journeys/using-custom-actions.md)).
 
-Al soltar una actividad de acción en el lienzo, puede definir una **[!UICONTROL Label]**. Esto le permite agregar un sufijo al nombre de la acción que aparecerá debajo de la actividad en el lienzo. Esto resulta útil si utiliza la misma acción varias veces en su viaje y desea identificarlas con mayor facilidad. Los informes también serán más fáciles de leer. También puede agregar un **[!UICONTROL Description]** opcional.
+Cuando suelte una actividad de acción en el lienzo, puede definir una **[!UICONTROL Label]**. Esto le permite agregar un sufijo al nombre de la acción que aparecerá debajo de la actividad en el lienzo. Esto resulta útil si utiliza la misma acción varias veces en el recorrido y desea identificarlos más fácilmente. Los informes también serán más fáciles de leer. También puede agregar un **[!UICONTROL Description]** opcional.
 
 ![](../assets/journey59bis.png)
 
