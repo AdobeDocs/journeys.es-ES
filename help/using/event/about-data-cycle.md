@@ -1,13 +1,16 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: Ciclo de datos de evento
-description: Información sobre el ciclo de datos de evento
+title: Ciclo de datos del evento
+description: Más información sobre el ciclo de datos de evento
+feature: Recorridos
+role: Profesional empresarial
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: b3ed5d305ddd1c86814373fc923390dc50a80c7e
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 79%
+source-wordcount: '231'
+ht-degree: 78%
 
 ---
 
@@ -20,4 +23,4 @@ La carga útil contiene la información requerida por las API de ingesta de tran
 
 Después de llegar a través de las API de ingesta de transmisión, los eventos fluyen a un servicio interno llamado Canalización y, a continuación, a Adobe Experience Platform. Si el esquema de evento tiene habilitado el indicador de Servicio de Perfil del cliente en tiempo real y un ID de conjunto de datos que también tiene el indicador de Perfil del cliente en tiempo real, se desplaza al servicio de Perfil del cliente en tiempo real.
 
-Para los eventos generados por el sistema, los eventos de filtros de canalización que tienen una carga útil que contiene [!DNL Journey Orchestration] eventIDs (consulte el proceso de creación de eventos más abajo) proporcionados por [!DNL Journey Orchestration] y contenidos en la carga útil de evento. Para eventos basados en reglas, el sistema identifica el evento mediante la condición eventID. Estos eventos son escuchados por [!DNL Journey Orchestration] y se activa el recorrido correspondiente.
+Para los eventos generados por el sistema, la canalización filtra los eventos que tienen una carga útil que contiene [!DNL Journey Orchestration] eventIDs (consulte el proceso de creación de eventos que se muestra a continuación) proporcionados por [!DNL Journey Orchestration] y contenidos en la carga útil de evento. En el caso de los eventos basados en reglas, el sistema identifica el evento utilizando la condición eventID . Estos eventos son escuchados por [!DNL Journey Orchestration] y se activa el recorrido correspondiente.
