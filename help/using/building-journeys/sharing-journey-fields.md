@@ -3,45 +3,48 @@ product: adobe campaign
 solution: Journey Orchestration
 title: campos del recorrido
 description: campos del recorrido
+feature: Recorridos
+role: Profesional empresarial
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '71'
+ht-degree: 9%
 
 ---
 
 
 # campos del recorrido {#sharing-journey-fields}
 
-Esta mezcla se utiliza en el esquema del viaje (en relación con el travesíaStepEvent). Contiene los siguientes campos:
+Esta mezcla se utiliza en el esquema de recorrido (en relación con journeyStepEvent). Contiene los siguientes campos:
 
-## travelID
+## journeyID
 
-Id. del viaje principal.
+Id del recorrido principal.
 
 Tipo: string
 
-## travelVersionID
+## journeyVersionID
 
-Id. de la versión del viaje. Esta identificación representa la identidad de un viaje.
+Id de la versión de recorrido. Este id representa la identidad de un recorrido.
 
 Tipo: string
 
 ## name
 
-Nombre del viaje.
+Nombre del recorrido.
 
 Tipo: string
 
-## description
+## descripción
 
-Descripción del viaje.
+Descripción del recorrido.
 
 Tipo: string
 
 ## version
 
-Versión representada como `major`.`minor`
+Versión, representada como `major`.`minor`
 
 Tipo: string
