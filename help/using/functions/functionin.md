@@ -3,18 +3,21 @@ product: adobe campaign
 solution: Journey Orchestration
 title: in
 description: Obtenga información sobre la función en
+feature: Recorridos
+role: Ingeniero de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 12%
+source-wordcount: '115'
+ht-degree: 13%
 
 ---
 
 
 # in {#in}
 
-Comprueba si el primer valor de argumento está en la lista. La comprobación se realiza mediante un valor de igual en cada valor de argumento. Devuelve true si se encuentra el valor del argumento; en caso contrario, false.
+Comprueba si el primer valor de argumento está en la lista. La comprobación se realiza mediante un valor Equal en cada valor de argumento. Devuelve true si se encuentra el valor del argumento, false en caso contrario.
 
 El tipo de `<expression>` debe coincidir con los elementos de la lista. Los tipos de elementos de la lista, como recordatorio, deben coincidir entre sí.
 
@@ -32,7 +35,7 @@ Lista
 |-----------|------------------|
 | Cadena | Cadena |
 | Booleano | Booleano |
-| Entero | Entero |
+| Número entero | Número entero |
 | Decimal | Decimal |
 | Duración | Duración |
 | DateTime | DateTime |
@@ -61,16 +64,16 @@ Lista
 
 `in(<duration>,<listDuration>)`
 
-Devolver un booleano.
+Devuelve un booleano.
 
 ## Ejemplo
 
 `in(4,[4,5,3,4])`
 
-Devuelve true.
+Devuelve verdadero.
 
 `in(8,[4,5,3,4])`
 
-Devuelve false.
+Devuelve falso.
 
 `in(#{ExperiencePlatform.ProfileFieldGroup.profile.person.gender}, ["male"])`
