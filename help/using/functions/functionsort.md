@@ -2,19 +2,22 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: sort
-description: Obtenga información sobre la clasificación de funciones
+description: Obtenga información sobre la ordenación de funciones
+feature: Recorridos
+role: Ingeniero de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 11%
+source-wordcount: '108'
+ht-degree: 12%
 
 ---
 
 
 # sort {#sort}
 
-Ordena una lista de valores en el orden natural. El primer argumento es la lista de valores, el segundo es un valor booleano que indica si la ordenación es ascendente (true) o descendente (false).
+Ordena una lista de valores en el orden natural. El primer argumento es la lista de valores y el segundo es un valor booleano que indica si la ordenación es ascendente (true) o descendente (false).
 
 ## Categoría
 
@@ -53,11 +56,11 @@ Devuelve una lista de cadenas.
 
 `sort(<listDateTimeOnly>,<boolean>)`
 
-Devuelve una lista de datetimes sin tener en cuenta la zona horaria.
+Devuelve una lista de tiempos de datos sin tener en cuenta la zona horaria.
 
 `sort(<listDateTime>,<boolean>)`
 
-Devuelve una lista de datetimes.
+Devuelve una lista de tiempos de datos.
 
 `sort(<listBoolean>,<boolean>)`
 
