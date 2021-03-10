@@ -3,18 +3,21 @@ product: adobe campaign
 solution: Journey Orchestration
 title: length
 description: Obtenga información sobre la longitud de la función
+feature: Recorridos
+role: Ingeniero de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '34'
-ht-degree: 11%
+source-wordcount: '38'
+ht-degree: 10%
 
 ---
 
 
 # length {#length}
 
-Devuelve el número de caracteres de la expresión de cadena en el parámetro.
+Devuelve el número de caracteres de la expresión de cadena en el parámetro .
 
 ## Categoría
 
@@ -32,7 +35,7 @@ Cadena
 
 `length(<string>)`
 
-Devuelve un entero.
+Devuelve un número entero.
 
 ## Ejemplo
 
