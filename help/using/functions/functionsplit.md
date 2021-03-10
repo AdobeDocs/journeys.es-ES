@@ -3,18 +3,21 @@ product: adobe campaign
 solution: Journey Orchestration
 title: split
 description: Obtenga información sobre la división de funciones
+feature: Recorridos
+role: Ingeniero de datos
+level: Con experiencia
 translation-type: tm+mt
-source-git-commit: 135485c097f99483c2ddb3d03e0552f9ac134b44
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 6%
+source-wordcount: '67'
+ht-degree: 8%
 
 ---
 
 
 # split {#split}
 
-Divide la primera cadena de argumento con una cadena separadora (la segunda cadena de argumento, que puede ser una expresión normal) para generar una lista de cadenas (tokens).
+Divide la primera cadena de argumento con una cadena separador (la segunda cadena de argumento, que puede ser una expresión regular) para generar una lista de cadenas (tokens).
 
 ## Categoría
 
@@ -29,13 +32,13 @@ Cadena
 | Parámetro | Tipo |
 |-----------|------------------|
 | cadena de entrada | string |
-| cadena separador | string |
+| cadena de separador | string |
 
 ## Firmas y tipo devuelto
 
 `split(<input string>, <separator string>)`
 
-Devuelve un valor de listString.
+Devuelve un listString.
 
 ## Ejemplo
 
@@ -43,7 +46,7 @@ Devuelve un valor de listString.
 
 Devuelve `["A","B","C"]`
 
-Ejemplo con un campo de evento &#39;evento.appVersion&#39; con valor: &quot;20.45.2.3434&quot;
+Ejemplo con un campo de evento &quot;event.appVersion&quot; con valor: &quot;20.45.2.3434&quot;
 
 `split(@{event.appVersion}, "\\.")`
 
