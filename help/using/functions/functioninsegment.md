@@ -7,10 +7,10 @@ feature: Recorridos
 role: Ingeniero de datos
 level: Con experiencia
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: a99ad6a589bcd1f3083eabbcac35dd5c0497093d
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 8%
+source-wordcount: '153'
+ht-degree: 5%
 
 ---
 
@@ -19,13 +19,17 @@ ht-degree: 8%
 
 Comprueba si una persona pertenece a un segmento determinado.
 
+>[!NOTE]
+>
+>Puede recuperar hasta 100 segmentos.
+
 El nombre del segmento debe ser una constante de cadena. No puede ser una referencia de campo ni una expresión.
 
 Los segmentos se definen en [Adobe Experience Platform](https://platform.adobe.com/segment/overview). El editor de expresiones proporciona una lista de segmentos autocompletada.
 
 >[!NOTE]
 >
->Puede recuperar hasta 100 segmentos.
+>Solo las personas con los estados de participación de segmentos **Realized** y **Existing** se considerarán miembros del segmento. Para obtener más información sobre cómo evaluar un segmento, consulte la [Documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
 
 ## Categoría
 
