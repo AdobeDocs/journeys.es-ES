@@ -7,9 +7,9 @@ feature: Recorridos
 role: Profesional empresarial
 level: Intermedio
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: a99ad6a589bcd1f3083eabbcac35dd5c0497093d
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '753'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,11 @@ Este tipo de evento se puede posicionar como el primer paso o posterior en el re
 
    ![](../assets/segment-copy.png)
 
-1. En el campo **[!UICONTROL Behavior]**, elija si desea escuchar las entradas, salidas o ambas de segmentos.
+1. En el campo **[!UICONTROL Behaviour]**, elija si desea escuchar las entradas, salidas o ambas de segmentos.
+
+   >[!NOTE]
+   >
+   >Tenga en cuenta que **[!UICONTROL Enter]** y **[!UICONTROL Exit]** corresponden a los estados de participación de segmentos **Realizados** y **Salidas** de Adobe Experience Platform. Para obtener más información sobre cómo evaluar un segmento, consulte la [Documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
 
 1. Seleccione un espacio de nombres. Esto solo es necesario si el evento se coloca como el primer paso del recorrido.
 
