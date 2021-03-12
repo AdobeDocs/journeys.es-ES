@@ -7,10 +7,10 @@ feature: Recorridos
 role: Profesional empresarial
 level: Intermedio
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: a99ad6a589bcd1f3083eabbcac35dd5c0497093d
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 3%
+source-wordcount: '166'
+ht-degree: 2%
 
 ---
 
@@ -31,5 +31,9 @@ Para utilizar un segmento en una condición de recorrido, siga estos pasos:
 1. En el lado izquierdo, despliegue el nodo **[!UICONTROL Segments]**. Arrastre y suelte el segmento que desee utilizar para su condición. De forma predeterminada, la condición del segmento es verdadera.
 
    ![](../assets/segment4.png)
+
+   >[!NOTE]
+   >
+   >Solo las personas con los estados de participación de segmentos **Realized** y **Existing** se considerarán miembros del segmento. Para obtener más información sobre cómo evaluar un segmento, consulte la [Documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
 
 Para obtener más información sobre las condiciones de recorrido y cómo utilizar el editor de expresiones simple, consulte [Actividad de condición](../building-journeys/condition-activity.md#about_condition).
