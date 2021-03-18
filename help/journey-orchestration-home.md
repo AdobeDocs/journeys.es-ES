@@ -7,11 +7,11 @@ topic: Premium
 feature: Recorridos
 role: Profesional empresarial
 level: Principiante
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '259'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
