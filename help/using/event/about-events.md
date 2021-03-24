@@ -7,10 +7,10 @@ feature: Recorridos
 role: Profesional empresarial
 level: Intermedio
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 55%
+source-wordcount: '357'
+ht-degree: 49%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 55%
 >[!CONTEXTUALHELP]
 >id="jo_events"
 >title="Acerca de los eventos"
->abstract="Un evento está vinculado a una persona. Se refiere al comportamiento de una persona (por ejemplo, una persona compró un producto, visitó una tienda, salió de un sitio web, etc.) o algo que suceda vinculado a una persona (por ejemplo, una persona alcanzó 10 000 puntos de lealtad). Esto es lo que escucha [!DNL Journey Orchestration] en los recorridos para orquestar las mejores próximas acciones."
+>abstract="Un evento está vinculado a una persona. Se refiere al comportamiento de una persona o a algo que suceda vinculado a una persona. Esto es lo que escucha [!DNL Journey Orchestration] en los recorridos para orquestar las mejores próximas acciones."
 
 Un evento está vinculado a una persona. Se refiere al comportamiento de una persona (por ejemplo, una persona compró un producto, visitó una tienda, salió de un sitio web, etc.) o algo que suceda vinculado a una persona (por ejemplo, una persona alcanzó 10 000 puntos de lealtad). Esto es lo que escucha [!DNL Journey Orchestration] en los recorridos para orquestar las mejores próximas acciones.
 
