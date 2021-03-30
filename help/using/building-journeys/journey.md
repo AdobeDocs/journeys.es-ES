@@ -7,10 +7,10 @@ feature: Recorridos
 role: Profesional empresarial
 level: Intermedio
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 409197458ba32f9fdb3e42e4b06eae2814eff9f8
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 15%
+source-wordcount: '561'
+ht-degree: 13%
 
 ---
 
@@ -57,9 +57,20 @@ Estos son los pasos principales para crear y publicar un recorrido.
 
 ## Finalización de un recorrido {#ending_a_journey}
 
-Hay dos maneras de terminar un recorrido:
+Un recorrido puede finalizar para un individuo por dos razones:
 
 * La persona llega a la última actividad de una ruta. Esta última actividad puede ser una actividad final u otra actividad. No hay obligación de finalizar una ruta con una actividad final. Consulte [esta página](../building-journeys/end-activity.md).
 * La persona llega a una actividad de condición (o a una actividad de espera con una condición ) y no coincide con ninguna de las condiciones.
 
 La persona puede volver a entrar en el recorrido si se permite la reentrada. Consulte [esta página](../building-journeys/changing-properties.md).
+
+Un recorrido puede cerrarse por los siguientes motivos:
+
+* El recorrido se cierra manualmente mediante el botón **[!UICONTROL Close to new entrances]**.
+* Se alcanza la fecha de finalización del recorrido.
+
+Cuando se cierra un recorrido (por cualquiera de los motivos anteriores), aparece el estado **[!UICONTROL Closed (no entrance)]**. El recorrido dejará de permitir la entrada al recorrido de nuevos individuos. Las personas que ya están en el recorrido terminarán normalmente el recorrido. Después del tiempo de espera global predeterminado de 30 días, el recorrido cambiará al estado **Finalizado**. Consulte esta [sección](../building-journeys/changing-properties.md#entrance).
+
+En caso de que necesite detener el progreso de todas las personas en el recorrido, puede detenerlo. Al detener el recorrido, se agotará el tiempo de espera de todas las personas del recorrido.
+
+Para aprender a cerrar o detener un recorrido manualmente, consulte esta [sección](../building-journeys/terminating-a-journey.md).
