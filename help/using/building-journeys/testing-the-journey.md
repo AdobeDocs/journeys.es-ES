@@ -7,9 +7,9 @@ feature: Recorridos
 role: Profesional empresarial
 level: Intermedio
 translation-type: tm+mt
-source-git-commit: 8685dfdcbfb414af89b304a6a9a0f9418959909b
+source-git-commit: 4b30ac80a2dfb5b0675a88ecb5abf81e57c64097
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1619'
 ht-degree: 3%
 
 ---
@@ -31,13 +31,21 @@ Para utilizar el modo de prueba, siga estos pasos:
 
    ![](../assets/journeytest1.png)
 
-1. Utilice el parámetro **[!UICONTROL Wait time in test]**, en la esquina inferior izquierda, para definir el tiempo que cada actividad de espera durará en el modo de prueba. El valor del tiempo predeterminado es de 10 segundos. Esto garantizará que los resultados de la prueba se obtengan rápidamente. Este parámetro solo aparece si ha soltado una o más actividades de espera en el recorrido.
+1. Utilice el parámetro **[!UICONTROL Wait time]**, en la esquina inferior izquierda, para definir el tiempo que cada actividad de espera y el tiempo de espera del evento durarán en el modo de prueba. El tiempo predeterminado es de 10 segundos para las esperas y los tiempos de espera de los eventos. Esto garantizará que los resultados de la prueba se obtengan rápidamente. Este parámetro solo aparece si ha soltado una o más actividades de espera en el recorrido.
 
    ![](../assets/journeytest_wait.png)
 
-1. Haga clic en **[!UICONTROL Trigger an event]** para configurar y enviar eventos al recorrido. Asegúrese de enviar eventos relacionados con perfiles de prueba. Consulte [Activación de los eventos](#firing_events).
+   >[!NOTE]
+   >
+   >Cuando se utiliza un evento de reacción en un recorrido, el tiempo de espera predeterminado y el valor mínimo es de 40 segundos. Consulte [esta sección](../building-journeys/reaction-events.md)
+
+1. Haga clic en **[!UICONTROL Trigger an event]** para configurar y enviar eventos al recorrido.
 
    ![](../assets/journeyuctest1.png)
+
+1. Configure los diferentes campos esperados. En el campo **Profile Identifier**, introduzca el valor del campo utilizado para identificar el perfil de prueba. Puede ser la dirección de correo electrónico, por ejemplo. Asegúrese de enviar eventos relacionados con perfiles de prueba. Consulte [Activación de los eventos](#firing_events).
+
+   ![](../assets/journeyuctest1-bis.png)
 
 1. Una vez recibidos los eventos, haga clic en el botón **[!UICONTROL Show log]** para ver el resultado de la prueba y verificarlo. Consulte [Visualización de los registros](#viewing_logs).
 
@@ -123,7 +131,7 @@ El botón **[!UICONTROL Trigger an event]** permite configurar un evento que har
 >
 >Cuando se déclencheur un evento en el modo de prueba, se genera un evento real, lo que significa que también afectará a otros recorridos que estén escuchando este evento.
 
-Como requisito previo, debe saber qué perfiles están marcados como perfiles de prueba en Adobe Experience Platform. De hecho, el modo de prueba solo permite estos perfiles en el recorrido y el evento debe contener un ID. El ID esperado depende de la configuración del evento. Puede ser un ECID, por ejemplo.
+Como requisito previo, debe saber qué perfiles están marcados como perfiles de prueba en Adobe Experience Platform. De hecho, el modo de prueba solo permite estos perfiles en el recorrido y el evento debe contener un ID. El ID esperado depende de la configuración del evento. Puede ser un ECID o una dirección de correo electrónico, por ejemplo. El valor de esta clave debe añadirse en el campo **Identificador de perfil**.
 
 Si el recorrido contiene varios eventos, utilice la lista desplegable para seleccionar un evento. A continuación, para cada evento, configure los campos pasados y la ejecución del envío del evento. La interfaz le ayuda a pasar la información correcta en la carga útil de evento y a asegurarse de que el tipo de información es correcto. El modo de prueba guarda los últimos parámetros utilizados en una sesión de prueba para su uso posterior.
 
