@@ -7,10 +7,10 @@ feature: Recorridos
 role: Profesional empresarial
 level: Intermedio
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 7755822065eb0bcc44f78e0e36c53ce73ac60ada
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 6%
+source-wordcount: '359'
+ht-degree: 7%
 
 ---
 
@@ -22,12 +22,16 @@ Las opciones **[!UICONTROL Stop]** y **[!UICONTROL Close to new entrances]** per
 >[!NOTE]
 >
 >Tenga en cuenta que no puede reanudar un recorrido cerrado o detenido.
+>
+>El concepto de fin de recorrido se describe en esta [sección](../building-journeys/journey.md#ending_a_journey).
 
 ## Cierre de un recorrido
 
 Puede cerrar un recorrido manualmente para asegurarse de que los clientes que ya han entrado en el recorrido puedan finalizar su ruta, pero que los nuevos usuarios no puedan entrar en el recorrido.
 
-No se puede reiniciar ni eliminar una versión de recorrido cerrada. Puede crear una nueva versión o duplicarla.
+Cuando se cierra, un recorrido tendrá el estado **[!UICONTROL Closed (no entrance)]**. Después del tiempo de espera global predeterminado de 30 días, el recorrido cambiará al estado **Finalizado**. Consulte esta [sección](../building-journeys/changing-properties.md#entrance).
+
+No se puede reiniciar ni eliminar una versión de recorrido cerrada. Puede crear una nueva versión o duplicarla. Solo se pueden eliminar los recorridos finalizados.
 
 Puede cerrar un recorrido haciendo clic en **[!UICONTROL Close to new entrances]** mientras pasa el ratón por encima de un recorrido en la lista de recorridos.
 
@@ -48,6 +52,8 @@ También puede realizar lo siguiente:
 Puede detener un recorrido cuando se produzca una emergencia y todo el procesamiento debe finalizar inmediatamente en un recorrido.
 
 No se puede reiniciar una versión de recorrido detenida.
+
+Cuando se detiene, un recorrido tendrá el estado **[!UICONTROL Stopped]**.
 
 Puede detener un recorrido (por ejemplo, si un especialista en marketing se da cuenta de que el recorrido está dirigido a una audiencia incorrecta o si una acción personalizada que supuestamente debe enviar mensajes no funciona correctamente...) haciendo clic en **[!UICONTROL Stop]** mientras pasa el ratón por encima de un recorrido en la lista de recorridos.
 
