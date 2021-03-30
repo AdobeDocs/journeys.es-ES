@@ -7,10 +7,10 @@ feature: Recorridos
 role: Profesional empresarial
 level: Intermedio
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 7755822065eb0bcc44f78e0e36c53ce73ac60ada
 workflow-type: tm+mt
-source-wordcount: '1392'
-ht-degree: 5%
+source-wordcount: '1416'
+ht-degree: 6%
 
 ---
 
@@ -66,6 +66,8 @@ El **lienzo** es la zona central del diseñador de recorridos. Es en esta zona d
 El **panel de configuración de actividad** aparece al hacer clic en una actividad de la paleta. Rellene los campos obligatorios. Haga clic en el icono **[!UICONTROL Delete]** para eliminar la actividad. Haga clic en **[!UICONTROL Cancel]** para cancelar las modificaciones o en **[!UICONTROL Ok]** para confirmar. Para eliminar actividades, también puede seleccionar una actividad (o varias) y pulsar la tecla de retroceso. Si pulsa la tecla escape, se cerrará el panel de configuración de la actividad.
 
 En el lienzo, las actividades de acción y evento se representan mediante un icono con el nombre del evento o acción que se muestra debajo. En el panel de configuración de la actividad, puede utilizar el campo **[!UICONTROL Label]** para agregar un sufijo al nombre de la actividad. Estas etiquetas le ayudarán a contextualizar el uso de eventos y acciones, especialmente cuando utiliza el mismo evento o acción varias veces en el recorrido. También podrá ver las etiquetas agregadas en el informe [!DNL Journey Orchestration] . También puede definir etiquetas para las actividades de condición.
+
+De forma predeterminada, los campos de solo lectura están ocultos. Para mostrarlos, haga clic en el icono **Show read-only fields** en la parte superior izquierda del panel de configuración de la actividad.
 
 ![](../assets/journey59bis.png)
 
