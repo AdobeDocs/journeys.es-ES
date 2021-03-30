@@ -7,10 +7,10 @@ feature: Recorridos
 role: Profesional empresarial
 level: Intermedio
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 4b30ac80a2dfb5b0675a88ecb5abf81e57c64097
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 1%
+source-wordcount: '416'
+ht-degree: 3%
 
 ---
 
@@ -32,7 +32,7 @@ Estos son los diferentes pasos para configurar los eventos de reacción:
 1. Agregue un **[!UICONTROL Label]** a la reacción. Este paso es opcional.
 1. En la lista desplegable, seleccione la actividad de acción a la que desee reaccionar. Puede seleccionar cualquier actividad de acción posicionada en los pasos anteriores de la ruta.
 1. En función de la acción seleccionada (un correo electrónico, un SMS o una notificación push), elija a qué desea reaccionar.
-1. Puede definir una condición como paso opcional. Por ejemplo, después de una acción por correo electrónico, puede decidir crear dos rutas, una con un evento de reacción para rastrear clics solo para VIP clientes y otra con un evento de reacción para rastrear los clics realizados por mujeres.
+1. Puede definir un tiempo de espera de evento (entre 40 segundos y 30 días) y una ruta de tiempo de espera. Esto creará una segunda ruta para las personas que no reaccionaron dentro de la duración definida. Al probar un recorrido que utiliza un evento de reacción, el modo de prueba **[!UICONTROL Wait time]** predeterminado y el valor mínimo es de 40 segundos. Consulte [esta sección](../building-journeys/testing-the-journey.md).
 
 >[!NOTE]
 >
