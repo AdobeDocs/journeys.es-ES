@@ -7,9 +7,9 @@ feature: Recorridos
 role: Profesional empresarial
 level: Intermedio
 translation-type: tm+mt
-source-git-commit: 1100f8224284f3b863ecd053469e86d72f18287e
+source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
 workflow-type: tm+mt
-source-wordcount: '1619'
+source-wordcount: '1624'
 ht-degree: 3%
 
 ---
@@ -21,7 +21,7 @@ Antes de poder probar el recorrido, debe resolver todos los errores si los hay. 
 
 Puede probar el recorrido antes de su publicación mediante perfiles de prueba. Esto le permite analizar el flujo de las personas en el recorrido y solucionar los problemas antes de la publicación.
 
-Solo los perfiles de prueba pueden introducir un recorrido en el modo de prueba. Puede [crear un nuevo perfil de prueba](../building-journeys/testing-the-journey.md#create-test-profile) o [convertir un perfil existente en un perfil de prueba](../building-journeys/testing-the-journey.md#turning-profile-into-test).
+Solo los perfiles de prueba pueden introducir un recorrido en el modo de prueba. Puede crear un nuevo perfil de prueba o convertir un perfil existente en un perfil de prueba. Consulte esta [sección](../building-journeys/creating-test-profiles.md).
 
 Para utilizar el modo de prueba, siga estos pasos:
 
@@ -56,7 +56,7 @@ Para utilizar el modo de prueba, siga estos pasos:
 ## Notas importantes {#important_notes}
 
 * Se proporciona una interfaz para activar eventos en el recorrido probado, pero los eventos también se pueden enviar desde sistemas de terceros como Postman.
-* Solo las personas marcadas como &quot;perfiles de prueba&quot; en el servicio Perfil del cliente en tiempo real podrán entrar en el recorrido probado. Consulte [esta sección](../building-journeys/testing-the-journey.md#create-test-profile).
+* Solo las personas marcadas como &quot;perfiles de prueba&quot; en el servicio Perfil del cliente en tiempo real podrán entrar en el recorrido probado. Consulte esta [sección](../building-journeys/creating-test-profiles.md).
 * El modo de prueba solo está disponible en recorridos de borrador que utilizan un área de nombres. El modo de prueba debe comprobar si una persona que entra en el recorrido es un perfil de prueba o no y, por lo tanto, debe poder llegar a Adobe Experience Platform.
 * El número máximo de perfiles de prueba que pueden introducir un recorrido durante una sesión de prueba es de 100.
 * Al desactivar el modo de prueba, se vacían los recorridos de todas las personas que lo hayan introducido en el pasado o que estén actualmente en él. También borra los informes.
