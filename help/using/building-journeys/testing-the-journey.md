@@ -7,7 +7,7 @@ feature: Recorridos
 role: Profesional empresarial
 level: Intermedio
 translation-type: tm+mt
-source-git-commit: 4b30ac80a2dfb5b0675a88ecb5abf81e57c64097
+source-git-commit: 1100f8224284f3b863ecd053469e86d72f18287e
 workflow-type: tm+mt
 source-wordcount: '1619'
 ht-degree: 3%
@@ -37,7 +37,7 @@ Para utilizar el modo de prueba, siga estos pasos:
 
    >[!NOTE]
    >
-   >Cuando se utiliza un evento de reacción en un recorrido, el tiempo de espera predeterminado y el valor mínimo es de 40 segundos. Consulte [esta sección](../building-journeys/reaction-events.md)
+   >Cuando se utiliza un evento de reacción en un recorrido, el tiempo de espera predeterminado y el valor mínimo es de 40 segundos. Consulte [esta sección](../building-journeys/reaction-events.md).
 
 1. Haga clic en **[!UICONTROL Trigger an event]** para configurar y enviar eventos al recorrido.
 
