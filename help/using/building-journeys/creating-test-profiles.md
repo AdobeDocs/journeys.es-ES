@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: Creación de un perfil de prueba
 description: 'Obtenga información sobre la creación de perfiles de prueba '
 translation-type: tm+mt
-source-git-commit: 7123cff30039d6a5174b0272db33e4a9d15d4ca9
+source-git-commit: 86df088c3e2da43318de16b7ae51ff0e3a20d55b
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 3%
@@ -13,8 +13,6 @@ ht-degree: 3%
 
 
 # Crear perfiles de prueba {#create-test-profiles}
-
-![](../assets/do-not-localize/badge.png)
 
 Los perfiles de prueba son obligatorios cuando se utiliza el modo de prueba en un recorrido. Para aprender a utilizar el modo de prueba, consulte [esta sección](../building-journeys/testing-the-journey.md).
 
