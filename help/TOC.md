@@ -6,10 +6,10 @@ title: Guía de Journey Orchestration
 user-guide-description: Proporciona instrucciones prácticas para implementar y construir recorridos.
 index: true
 feature: Recorridos
-translation-type: ht
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
-workflow-type: ht
-source-wordcount: '404'
+translation-type: tm+mt
+source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
+workflow-type: tm+mt
+source-wordcount: '406'
 ht-degree: 100%
 
 ---
@@ -66,6 +66,7 @@ ht-degree: 100%
       + [Versiones de recorridos](using/building-journeys/journey-versions.md)
       + [Finalización de un recorrido](using/building-journeys/terminating-a-journey.md)
       + [Administración de husos horarios](using/building-journeys/timezone-management.md)
+      + [Perfiles de prueba](using/building-journeys/creating-test-profiles.md)
    + Actividades {#about-journey-building}
       + Actividades de eventos {#events-activities}
          + [Acerca de las actividades de eventos](using/building-journeys/event-activities.md)
