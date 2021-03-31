@@ -7,10 +7,10 @@ feature: Recorridos
 role: Profesional empresarial
 level: Principiante
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 92%
+source-wordcount: '806'
+ht-degree: 91%
 
 ---
 
@@ -19,6 +19,10 @@ ht-degree: 92%
 
 Esta página lista todas las actualizaciones de documentación de [!DNL Journey Orchestration].
 También puede consultar las [Notas de la versión](../release-notes/release-notes.md) de [!DNL Journey Orchestration].
+
+## Marzo de 2021 {#march-2021}
+
+* Hemos detallado el procedimiento completo para crear perfiles de prueba en Adobe Experience Platform. [Obtenga más información](../building-journeys/creating-test-profiles.md).
 
 ## Enero de 2021 {#january-2021}
 
@@ -30,7 +34,7 @@ También puede consultar las [Notas de la versión](../release-notes/release-not
 
 ## Septiembre de 2020 {#september-2020}
 
-* La sección de descripción de la interfaz se ha actualizado para reflejar el nuevo menú **All selector**. [Obtenga más información](../about/user-interface.md)
+* La sección de descripción de la interfaz se ha actualizado para reflejar el nuevo menú **All selector**. [Más información](../about/user-interface.md)
 * Se ha añadido una nota sobre las nuevas versiones de los recorridos basados en segmentos que no son recurrentes.
 
 ## Agosto de 2020 {#august-2020}
@@ -47,7 +51,7 @@ También puede consultar las [Notas de la versión](../release-notes/release-not
 * Añadió una nota para explicar cómo continuar un recorrido después de un error en una acción o condición. [Más información](../about/troubleshooting.md#section_h3q_kqk_fhb)
 * Se añadió una nueva sección sobre las funciones alfa que se prueban entre un conjunto limitado de clientes.
 * Se añadió una nueva sección sobre la integración con servicios inteligentes. [Más información](../ai-services/ai-services-overview.md)
-* Se añadió una nueva sección sobre la creación del perfil de prueba. [Más información](../building-journeys/testing-the-journey.md#create-test-profile)
+* Se añadió una nueva sección sobre la creación del perfil de prueba. [Más información](../building-journeys/testing-the-journey.md)
 * Se añadió información sobre cómo utilizar el nodo **[!UICONTROL SegmentQualification]** en una condición de recorrido o acción. [Más información](../building-journeys/segment-qualification-events.md)
 * Se añadió una nota al mensaje transaccional de Campaign y a la publicación de eventos. Consulte [Uso de Adobe Campaign](../action/working-with-adobe-campaign.md) y [Uso de acciones](../building-journeys/using-adobe-campaign-actions.md) de Adobe Campaign.
 * Se añadió información sobre las comprobaciones que se realizan al probar la URL de la instancia de Campaign Standard. [Más información](../action/working-with-adobe-campaign.md)
