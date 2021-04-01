@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Creación de un perfil de prueba
 description: 'Obtenga información sobre la creación de perfiles de prueba '
 translation-type: tm+mt
-source-git-commit: 86df088c3e2da43318de16b7ae51ff0e3a20d55b
+source-git-commit: ccfe8d4d3eb8bf59d6dfd14eeb9f02578a09776f
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '677'
 ht-degree: 3%
 
 ---
@@ -28,25 +28,25 @@ Para poder crear perfiles, primero debe crear un esquema y un conjunto de datos 
 
 En primer lugar, debe **crear un esquema**. Siga estos pasos:
 
-1. En Adobe Experience Platform, haga clic en **Esquemas** en el menú de la izquierda.
+1. En Adobe Experience Platform, haga clic en **[!UICONTROL Schemas]** en el menú de la izquierda.
    ![](../assets/test-profiles-0.png)
-1. Haga clic en **Create schema** en la parte superior derecha y, a continuación, seleccione un tipo de esquema, por ejemplo **XDM Individual Profile**.
+1. Haga clic en **[!UICONTROL Create schema]**, en la parte superior derecha, y luego seleccione un tipo de esquema, por ejemplo **[!UICONTROL XDM Individual Profile]**.
    ![](../assets/test-profiles-1.png)
 1. Elija un nombre para el esquema.
-1. En la sección **Mixins**, haga clic en **Add**.
+1. En la sección **[!UICONTROL Mixins]**, haga clic en **[!UICONTROL Add]**.
    ![](../assets/test-profiles-1-bis.png)
-1. Seleccione las mezclas adecuadas. Asegúrese de añadir la mezcla **Profile test details**. Haga clic en **Agregar mezcla**.
+1. Seleccione las mezclas adecuadas. Asegúrese de añadir la mezcla **[!UICONTROL Profile test details]**. Haga clic en **[!UICONTROL Add mixin]**.
    ![](../assets/test-profiles-1-ter.png)
 La lista de mezclas se muestra en la pantalla de información general del esquema.
 
    ![](../assets/test-profiles-2.png)
 1. En la lista de campos, haga clic en el campo que desee definir como identidad principal.
    ![](../assets/test-profiles-3.png)
-1. En el panel derecho **Field properties**, marque las opciones **Identity** y **Primary Identity** y seleccione un área de nombres. Si desea que la identidad principal sea una dirección de correo electrónico, elija el espacio de nombres **Email**. Haga clic en **Aplicar**.
+1. En el panel derecho **[!UICONTROL Field properties]**, marque las opciones **[!UICONTROL Identity]** y **[!UICONTROL Primary Identity]** y seleccione un área de nombres. Si desea que la identidad principal sea una dirección de correo electrónico, elija el espacio de nombres **[!UICONTROL Email]**. Haga clic en **[!UICONTROL Apply]**.
    ![](../assets/test-profiles-4.png)
-1. Seleccione el esquema y habilite la opción **Profile** en **Schema properties**.
+1. Seleccione el esquema y active la opción **[!UICONTROL Profile]** en **[!UICONTROL Schema properties]**.
    ![](../assets/test-profiles-5.png)
-1. Haga clic en **Save**.
+1. Haga clic en **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
@@ -54,15 +54,15 @@ La lista de mezclas se muestra en la pantalla de información general del esquem
 
 A continuación, debe **crear el conjunto de datos** en el que se importarán los perfiles. Siga estos pasos:
 
-1. En Adobe Experience Platform, haga clic en **Conjuntos de datos** en el menú de la izquierda y, a continuación, haga clic en **Crear conjunto de datos**.
+1. En Adobe Experience Platform, haga clic **[!UICONTROL Datasets]** en el menú de la izquierda y, a continuación, haga clic en **[!UICONTROL Create dataset]**.
    ![](../assets/test-profiles-6.png)
-1. Elija **Crear conjunto de datos a partir del esquema**.
+1. Elija **[!UICONTROL Create dataset from schema]**.
    ![](../assets/test-profiles-7.png)
-1. Seleccione el esquema creado anteriormente y haga clic en **Next**.
+1. Seleccione el esquema creado anteriormente y haga clic en **[!UICONTROL Next]**.
    ![](../assets/test-profiles-8.png)
-1. Elija un nombre y haga clic en **Finish**.
+1. Elija un nombre y haga clic en **[!UICONTROL Finish]**.
    ![](../assets/test-profiles-9.png)
-1. Active la opción **Perfil**.
+1. Active la opción **[!UICONTROL Profile]**.
    ![](../assets/test-profiles-10.png)
 
 >[!NOTE]
@@ -79,17 +79,17 @@ En Adobe Experience Platform, puede crear perfiles cargando un archivo csv que c
 1. Añada una línea por perfil y rellene los valores de cada campo.
    ![](../assets/test-profiles-12.png)
 1. Guarde la hoja de cálculo como archivo csv. Asegúrese de que las comas se utilizan como separadores.
-1. En Adobe Experience Platform, haga clic en **Flujos de trabajo** en el menú de la izquierda.
+1. En Adobe Experience Platform, haga clic en **[!UICONTROL Workflows]** en el menú de la izquierda.
    ![](../assets/test-profiles-14.png)
-1. Elija **Asignar CSV al esquema XDM** y haga clic en **Iniciar**.
+1. Seleccione **[!UICONTROL Map CSV to XDM schema]** y haga clic en **[!UICONTROL Launch]**.
    ![](../assets/test-profiles-16.png)
-1. Seleccione el conjunto de datos en el que desea importar los perfiles. Haga clic en **Next**.
+1. Seleccione el conjunto de datos en el que desea importar los perfiles. Haga clic en **[!UICONTROL Next]**.
    ![](../assets/test-profiles-17.png)
-1. Haga clic en **Choose files** y seleccione su archivo csv. Cuando se cargue el archivo, haga clic en **Siguiente**.
+1. Haga clic en **[!UICONTROL Choose files]** y seleccione el archivo csv. Cuando se cargue el archivo, haga clic en **[!UICONTROL Next]**.
    ![](../assets/test-profiles-18.png)
-1. Asigne los campos csv de origen a los campos de esquema y haga clic en **Finish**.
+1. Asigne los campos csv de origen a los campos de esquema y haga clic en **[!UICONTROL Finish]**.
    ![](../assets/test-profiles-19.png)
-1. Se inicia la importación de datos. El estado pasará de **Processing** a **Success**. Haga clic en **Preview data set** en la parte superior derecha.
+1. Se inicia la importación de datos. El estado pasará de **[!UICONTROL Processing]** a **[!UICONTROL Success]**. Haga clic en **[!UICONTROL Preview data set]**, en la parte superior derecha.
    ![](../assets/test-profiles-20.png)
 1. Compruebe que los perfiles de prueba se hayan añadido correctamente.
    ![](../assets/test-profiles-21.png)
