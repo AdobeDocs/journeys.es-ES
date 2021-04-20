@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Acerca de los segmentos de Adobe Experience Platform
 description: Obtenga información sobre cómo configurar un segmento de Adobe Experience Platform
-feature: Recorridos
-role: Profesional empresarial
-level: Intermedio
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt

@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Finalización de un recorrido
 description: Obtenga información sobre cómo finalizar un recorrido
-feature: Recorridos
-role: Profesional empresarial
-level: Intermedio
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 7755822065eb0bcc44f78e0e36c53ce73ac60ada
 workflow-type: tm+mt

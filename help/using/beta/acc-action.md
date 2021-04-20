@@ -5,9 +5,9 @@ title: Acerca de la integración de Campaign Classic
 description: Obtenga información sobre la integración de Campaign Classic
 hide: true
 hidefromtoc: true
-feature: Recorridos
-role: Profesional empresarial
-level: Intermedio
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt

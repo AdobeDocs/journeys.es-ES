@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Limitaciones del Journey Orchestration
 description: Obtenga más información sobre las limitaciones de los Journey Orchestration
-feature: Recorridos
-role: Profesional empresarial
-level: Principiante
+feature: Journeys
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 8685dfdcbfb414af89b304a6a9a0f9418959909b
 workflow-type: tm+mt

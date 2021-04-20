@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Uso del diseñador de recorridos
 description: Más información sobre el uso del diseñador de recorridos
-feature: Recorridos
-role: Profesional empresarial
-level: Intermedio
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 7755822065eb0bcc44f78e0e36c53ce73ac60ada
 workflow-type: tm+mt

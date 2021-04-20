@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Acerca del editor de expresiones avanzadas
 description: Aprenda a crear expresiones avanzadas
-feature: Recorridos
-role: Ingeniero de datos
-level: Con experiencia
+feature: Journeys
+role: Data Engineer
+level: Experienced
 translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt

@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Saltar de un recorrido a otro
 description: Saltar de un recorrido a otro
-feature: Recorridos
-role: Profesional empresarial
-level: Intermedio
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 7123cff30039d6a5174b0272db33e4a9d15d4ca9
 workflow-type: tm+mt

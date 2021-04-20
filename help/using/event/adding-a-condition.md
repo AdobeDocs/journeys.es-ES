@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Añadir una condición
 description: Aprenda a añadir una condición
-feature: Recorridos
-role: Profesional empresarial
-level: Intermedio
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt

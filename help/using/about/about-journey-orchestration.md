@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Acerca de Journey Orchestration
 description: Obtenga más información sobre Journey Orchestration
-feature: Recorridos
-role: Profesional empresarial
-level: Principiante
+feature: Journeys
+role: Business Practitioner
+level: Beginner
 translation-type: ht
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: ht

@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Tipos de datos
 description: Obtenga información sobre los tipos de datos en expresiones avanzadas
-feature: Recorridos
-role: Ingeniero de datos
-level: Con experiencia
+feature: Journeys
+role: Data Engineer
+level: Experienced
 translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
