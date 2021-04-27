@@ -8,9 +8,9 @@ role: Business Practitioner
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 translation-type: tm+mt
-source-git-commit: 573475039693b3439d52872bcc4722f3658eef9d
+source-git-commit: 9138bfb4c9f916a7e8df6183fb903c31ef582623
 workflow-type: tm+mt
-source-wordcount: '2479'
+source-wordcount: '2481'
 ht-degree: 63%
 
 ---
@@ -24,7 +24,7 @@ También puede consultar las [Actualizaciones de documentación](../release-note
 
 ### Mejoras
 
-* En la pantalla **Event configuration** del modo de prueba, ahora se muestra un menú desplegable para los campos que esperan una enumeración. Simplemente seleccione uno de los valores disponibles. Esto evitará errores al activar el evento si se define un valor incorrecto.
+* En la pantalla **Event configuration** del modo de prueba, ahora se muestra un menú desplegable para los campos que esperan una enumeración. Simplemente seleccione uno de los valores disponibles. Esto evitará errores al activar el evento si se define un valor incorrecto.[Más información](../building-journeys/testing-the-journey.md#firing_events)
 
 ## Versión {#march-2021-release} de marzo de 2021
 
