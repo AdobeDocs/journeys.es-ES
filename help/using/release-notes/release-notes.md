@@ -3,22 +3,28 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Notas de la versión
 description: Más información sobre las notas de la versión
-feature: Journeys
+feature: Recorridos
 role: Business Practitioner
 level: Beginner
+exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 translation-type: tm+mt
-source-git-commit: 455b0f083d598e70b8a3f33c7f21432628fef8b5
+source-git-commit: 573475039693b3439d52872bcc4722f3658eef9d
 workflow-type: tm+mt
-source-wordcount: '2438'
-ht-degree: 64%
+source-wordcount: '2479'
+ht-degree: 63%
 
 ---
-
 
 # Notas de la versión {#release-notes}
 
 Esta página lista todas las nuevas funciones y mejoras de Journey Orchestration.
 También puede consultar las [Actualizaciones de documentación](../release-notes/documentation-updates.md) más recientes.
+
+## Versión de abril de 2021 {#april-2021-release}
+
+### Mejoras
+
+* En la pantalla **Event configuration** del modo de prueba, ahora se muestra un menú desplegable para los campos que esperan una enumeración. Simplemente seleccione uno de los valores disponibles. Esto evitará errores al activar el evento si se define un valor incorrecto.
 
 ## Versión {#march-2021-release} de marzo de 2021
 
@@ -26,8 +32,8 @@ También puede consultar las [Actualizaciones de documentación](../release-note
 
 * Se ha añadido un nuevo estado a recorrido. Cuando un recorrido termina o se cierra manualmente, su estado cambia de **Cerrado** a **Finalizado** 30 días después de cerrarse. Esto le permitirá identificar los recorridos inactivos con mayor facilidad, al tiempo que se asegura de que todas las personas que aún están presentes tengan tiempo para finalizar el recorrido. [Más información](../building-journeys/journey.md#ending_a_journey)
 * En los paneles de la actividad derecha de recorridos borrador, los campos de solo lectura ahora están ocultos de forma predeterminada. Esta simplificación de la interfaz le ayudará a configurar sus actividades con mayor facilidad. Para mostrarlos, haga clic en el icono **Mostrar campos de solo lectura**, disponible en la esquina superior izquierda del panel de configuración de la actividad. [Más información](../building-journeys/using-the-journey-designer.md#configuration_pane)
-* En el modo de prueba, en la pantalla **Event configuration**, se ha cambiado el nombre del campo **Key** utilizado para definir el ID del perfil de prueba a **Profile identifier** para mejorar la experiencia del usuario. [Obtenga más información](../building-journeys/testing-the-journey.md).
-* En los eventos de reacción, la duración del tiempo de espera ahora solo se puede establecer entre 40 y 30 días. Al probar un recorrido que utiliza un evento de reacción, el modo de prueba **[!UICONTROL Wait time]** predeterminado y el valor mínimo ahora es de 40 segundos. [Obtenga más información](../building-journeys/reaction-events.md).
+* En el modo de prueba, en la pantalla **Event configuration**, se ha cambiado el nombre del campo **Key** utilizado para definir el ID del perfil de prueba a **Profile identifier** para mejorar la experiencia del usuario. [Más información](../building-journeys/testing-the-journey.md).
+* En los eventos de reacción, la duración del tiempo de espera ahora solo se puede establecer entre 40 y 30 días. Al probar un recorrido que utiliza un evento de reacción, el modo de prueba **[!UICONTROL Wait time]** predeterminado y el valor mínimo ahora es de 40 segundos. [Más información](../building-journeys/reaction-events.md).
 
 ## Versión de febrero de 2021 {#february-2021-release}
 
