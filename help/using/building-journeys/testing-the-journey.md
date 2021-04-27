@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Prueba del recorrido
 description: 'Obtenga información sobre las pruebas de recorrido '
-feature: Journeys
+feature: Recorridos
 role: Business Practitioner
 level: Intermediate
+exl-id: be413905-0631-4229-a954-80a92651206d
 translation-type: tm+mt
-source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
+source-git-commit: cb90f764ae6ccc0dab9728899dafd266db89a4e7
 workflow-type: tm+mt
-source-wordcount: '1624'
+source-wordcount: '1638'
 ht-degree: 3%
 
 ---
-
 
 # Prueba del recorrido{#testing_the_journey}
 
@@ -133,6 +133,10 @@ El botón **[!UICONTROL Trigger an event]** permite configurar un evento que har
 
 Como requisito previo, debe saber qué perfiles están marcados como perfiles de prueba en Adobe Experience Platform. De hecho, el modo de prueba solo permite estos perfiles en el recorrido y el evento debe contener un ID. El ID esperado depende de la configuración del evento. Puede ser un ECID o una dirección de correo electrónico, por ejemplo. El valor de esta clave debe añadirse en el campo **Identificador de perfil**.
 
+>[!NOTE]
+>
+>Se muestra un menú desplegable para los campos que esperan una enumeración. Simplemente seleccione uno de los valores disponibles.
+
 Si el recorrido contiene varios eventos, utilice la lista desplegable para seleccionar un evento. A continuación, para cada evento, configure los campos pasados y la ejecución del envío del evento. La interfaz le ayuda a pasar la información correcta en la carga útil de evento y a asegurarse de que el tipo de información es correcto. El modo de prueba guarda los últimos parámetros utilizados en una sesión de prueba para su uso posterior.
 
 ![](../assets/journeytest4.png)
@@ -205,4 +209,3 @@ Existe un escenario en el que se envían varios eventos desde varios recorridos 
 La creación automática y la asignación de nombres a estos conjuntos de datos se realizan si no se incluye un conjunto de datos de destino en el evento de experiencia. Por eso vemos el &quot;Conjunto de datos creado automáticamente para voyager&quot; hoy.
 
 El nombre de nuestra fuente impulsa la creación automática. Si tenemos varios eventos, debemos concatenarlos y hacerlos ser &quot;Evento de prueba de Journey Orchestration - NOMBRE DEL ESQUEMA&quot;. Esto cambiará automáticamente a &quot;Conjunto de datos generado automáticamente para el evento de prueba de Journey Orchestration - NOMBRE DEL ESQUEMA&quot;.
-
