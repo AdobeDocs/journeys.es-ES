@@ -3,21 +3,21 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Actividad de espera
 description: Descubra la actividad de espera
-feature: Journeys
+feature: Recorridos
 role: Business Practitioner
 level: Intermediate
+exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 532e8db3fde8ec86714d0b45a1b2a6c9c54367fb
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 4%
+source-wordcount: '387'
+ht-degree: 5%
 
 ---
 
-
 # Actividad de espera{#section_rlm_nft_dgb}
 
-Si desea esperar antes de ejecutar la siguiente actividad en la ruta, puede utilizar una actividad **[!UICONTROL Wait]**. Le permite definir el momento en el que se ejecutará la siguiente actividad. Hay cuatro opciones disponibles:
+Si desea esperar antes de ejecutar la siguiente actividad en la ruta, puede utilizar una actividad **[!UICONTROL Wait]**. Le permite definir el momento en el que se ejecutará la siguiente actividad. Hay tres opciones disponibles:
 
 * [Duración](#duration)
 * [Fecha fija](#fixed_date)
@@ -57,7 +57,7 @@ Esta opción permite definir una fecha personalizada, por ejemplo, 12 de julio d
 
 >[!NOTE]
 >
->Puede aprovechar una expresión dateTimeOnly o utilizar una función para convertir a dateTimeOnly. Por ejemplo: ```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```, el campo en caso de ser del formulario 2016-08-12T09:46:06Z.
+>Puede aprovechar una expresión dateTimeOnly o utilizar una función para convertir a dateTimeOnly. Por ejemplo: toDateTimeOnly(@{Event.offerOpened.activity.endTime}), el campo en el suceso es del formulario 2016-08-12T09:46:06Z.
 >
 >La **zona horaria** se espera en las propiedades de su recorrido. Como resultado, hoy en día no es posible desde la interfaz señalar directamente a una marca de tiempo ISO-8601 completa mezclando el tiempo y el desplazamiento de zona horaria como 2016-08-12T09:46:06.982-05. Consulte [esta página](../building-journeys/timezone-management.md).
 
