@@ -3,17 +3,16 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Acerca de las actividades de eventos
 description: Descubra más información sobre las actividades de eventos
-feature: Journeys
+feature: Recorridos
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 3a4ff8b1-bbe7-47c8-9fba-defe4b1d5299
+source-git-commit: db7567f7f3333ad69015d07991158ce5b8f01af5
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '447'
 ht-degree: 1%
 
 ---
-
 
 # Acerca de las actividades de eventos {#concept_rws_1rt_52b}
 
@@ -52,6 +51,6 @@ En este ejemplo, el recorrido envía una primera notificación push de bienvenid
 
 Tenga en cuenta que si desea configurar un tiempo de espera en varios eventos posicionados después de una actividad **[!UICONTROL Wait]** , debe configurar el tiempo de espera solo en uno de estos eventos.
 
-El tiempo de espera se aplicará a todos los eventos posicionados después de la actividad **[!UICONTROL Wait]**. Si no se recibe ningún evento después del tiempo de espera especificado, las personas fluirán a una sola ruta de tiempo de espera o terminarán su recorrido.
+El tiempo de espera se aplicará a todos los eventos posicionados después de la actividad **[!UICONTROL Wait]**. Si no se recibe ningún evento antes del tiempo de espera especificado, las personas fluirán en una única ruta de tiempo de espera o finalizarán su recorrido.
 
 ![](../assets/event-timeout-group.png)
