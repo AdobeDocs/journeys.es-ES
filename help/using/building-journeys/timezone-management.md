@@ -3,18 +3,16 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Administración de husos horarios
 description: Obtenga información sobre la administración de husos horarios
-feature: Journeys
+feature: Recorridos
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: c0e67849-caa0-4045-94ed-38e483054e1d
+source-git-commit: a19493178652a7fc91b7b778c5cb47eda72cd877
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '262'
 ht-degree: 2%
 
 ---
-
-
 
 # Administración de husos horarios {#timezone_management}
 
@@ -37,7 +35,7 @@ La zona horaria también se puede corregir. Borre la zona horaria predefinida y 
 
 Para ello, en **[!UICONTROL Properties]**, seleccione una zona horaria.
 
-![](../assets/journey73.png)
+![](../assets/journey72.png)
 
 ## Uso de perfiles para definir la zona horaria del recorrido {#timezone-from-profiles}
 
@@ -49,7 +47,7 @@ Si el perfil de la persona no contiene una zona horaria, la zona horaria recuper
 
 Para ello, en **[!UICONTROL Properties]**, marque **[!UICONTROL Use Profile timezone in timers and conditions]**.
 
-![](../assets/journey72.png)
+![](../assets/journey73.png)
 
 ## Uso de zonas horarias en expresiones {#timezone-in-expressions}
 
