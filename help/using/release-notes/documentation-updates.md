@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Actualizaciones de documentación
 description: Más información sobre las actualizaciones de documentación
-feature: Journeys
+feature: Recorridos
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
+exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '803'
 ht-degree: 91%
 
 ---
-
 
 # Actualizaciones de documentación
 
@@ -26,11 +24,11 @@ También puede consultar las [Notas de la versión](../release-notes/release-not
 
 ## Enero de 2021 {#january-2021}
 
-* Se han añadido prácticas recomendadas al activar un recorrido al mismo tiempo que una creación de perfil. [Obtenga más información](../about/limitations.md#journeys-limitation-profile-creation).
+* Se han añadido prácticas recomendadas al activar un recorrido al mismo tiempo que una creación de perfil. [Más información](../about/limitations.md#journeys-limitation-profile-creation).
 
 ## Octubre de 2020 {#october-2020}
 
-* Se ha añadido información sobre cómo configurar un tiempo de espera para un evento. [Obtenga más información](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time).
+* Se ha añadido información sobre cómo configurar un tiempo de espera para un evento. [Más información](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time).
 
 ## Septiembre de 2020 {#september-2020}
 
