@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Uso del diseñador de recorridos
 description: Más información sobre el uso del diseñador de recorridos
-feature: Journeys
+feature: Recorridos
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 7755822065eb0bcc44f78e0e36c53ce73ac60ada
+exl-id: 2f001e42-46dd-48aa-b3dd-23bfdf97e1c7
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '1416'
-ht-degree: 6%
+source-wordcount: '1413'
+ht-degree: 5%
 
 ---
-
 
 # Uso del diseñador de recorridos {#concept_m1g_5qt_52b}
 
@@ -61,7 +59,7 @@ El **lienzo** es la zona central del diseñador de recorridos. Es en esta zona d
 
 ![](../assets/journey39.png)
 
-## El panel de configuración de actividad {#configuration_pane}
+## El panel de configuración de la actividad {#configuration_pane}
 
 El **panel de configuración de actividad** aparece al hacer clic en una actividad de la paleta. Rellene los campos obligatorios. Haga clic en el icono **[!UICONTROL Delete]** para eliminar la actividad. Haga clic en **[!UICONTROL Cancel]** para cancelar las modificaciones o en **[!UICONTROL Ok]** para confirmar. Para eliminar actividades, también puede seleccionar una actividad (o varias) y pulsar la tecla de retroceso. Si pulsa la tecla escape, se cerrará el panel de configuración de la actividad.
 
@@ -77,7 +75,7 @@ Según el estado del recorrido, puede realizar diferentes acciones en el recorri
 
 ![](../assets/journey41.png)
 
-## El uso de rutas en el lienzo {#paths}
+## Uso de rutas en el lienzo {#paths}
 
 Varias actividades (**[!UICONTROL Condition]**, **[!UICONTROL Action]**) permiten definir una acción de reserva en caso de error o tiempo de espera. En el panel de configuración de actividad, marque la casilla : **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Se agrega otra ruta después de la actividad . La duración del tiempo de espera se define en las propiedades del recorrido (consulte [esta página](../building-journeys/changing-properties.md) por un usuario administrador. Por ejemplo, si un correo electrónico tarda demasiado en enviarse o por error, puede decidir enviar un SMS.
 
@@ -118,4 +116,3 @@ Si solo desea copiar una actividad, puede hacer clic en ella y utilizar el icono
    ![](../assets/copy-paste2.png)
 1. En cualquier recorrido, pulse **Ctrl/Comando + V** para pegar las actividades sin vincularlas a un nodo existente. Las actividades pegadas se colocan en el mismo orden. Después de pegarlas, las actividades permanecen seleccionadas para que pueda moverlas fácilmente. También puede colocar el cursor en un marcador de posición vacío y pulsar **Ctrl/Comando + V**. Las actividades pasadas se vincularán al nodo .
    ![](../assets/copy-paste3.png)
-
