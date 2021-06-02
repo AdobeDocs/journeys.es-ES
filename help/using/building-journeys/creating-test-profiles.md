@@ -1,16 +1,14 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Creación de un perfil de prueba
-description: 'Obtenga información sobre la creación de perfiles de prueba '
-translation-type: tm+mt
-source-git-commit: ccfe8d4d3eb8bf59d6dfd14eeb9f02578a09776f
+description: Obtenga información sobre la creación de perfiles de prueba
+exl-id: f1be46a8-04b9-4f40-b18e-9099099d2e1c
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 3%
 
 ---
-
 
 # Crear perfiles de prueba {#create-test-profiles}
 
@@ -152,4 +150,3 @@ curl -X POST \
 }
 }'
 ```
-
