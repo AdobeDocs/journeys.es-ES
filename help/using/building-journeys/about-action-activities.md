@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Acerca de las actividades de acción
 description: Descubra más información sobre las actividades de acción
-feature: Journeys
+feature: Recorridos
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 5436602f-af7a-41db-8b10-d3d28a6d0cd0
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 27%
+source-wordcount: '174'
+ht-degree: 28%
 
 ---
-
 
 # Acerca de las actividades de acción {#concept_hbj_hrt_52b}
 
