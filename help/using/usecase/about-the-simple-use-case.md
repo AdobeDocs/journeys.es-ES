@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Acerca del caso de uso simple
 description: Obtenga más información sobre el caso de uso simple de recorrido
-feature: Journeys
+feature: Recorridos
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 11858c7a-fdb3-43a4-af28-0d5c23fa2468
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 14%
+source-wordcount: '176'
+ht-degree: 15%
 
 ---
-
 
 # Acerca del caso de uso simple{#concept_grh_vby_w2b}
 
