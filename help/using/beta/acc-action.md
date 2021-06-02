@@ -1,21 +1,19 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Acerca de la integración de Campaign Classic
 description: Obtenga información sobre la integración de Campaign Classic
 hide: true
 hidefromtoc: true
-feature: Journeys
+feature: Recorridos
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 4b321b63-c624-4c2a-ae92-f9a2a95688d4
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 5%
+source-wordcount: '441'
+ht-degree: 6%
 
 ---
-
 
 # Integración con Adobe Campaign Classic {#integrating-with-adobe-campaign-classic}
 
@@ -80,4 +78,3 @@ Para cada acción configurada, hay una actividad de acción disponible en la pal
 1. En **Action parameters**, se muestran todos los campos esperados en la carga útil del mensaje. Debe asignar cada uno de estos campos al campo que desee utilizar, ya sea desde el evento o desde el origen de datos. Esto es similar a las acciones personalizadas. Consulte esta [sección](../building-journeys/using-custom-actions.md).
 
 ![](../assets/accintegration2.png)
-
