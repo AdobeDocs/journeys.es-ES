@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Eventos de calificación de segmentos
 description: Descubra más información sobre los eventos de calificación de segmentos
-feature: Journeys
+feature: Recorridos
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: a99ad6a589bcd1f3083eabbcac35dd5c0497093d
+exl-id: e8e54dbd-8178-4c70-907c-68eb4dc54da7
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '750'
 ht-degree: 1%
 
 ---
-
 
 # Eventos de calificación de segmentos {#segment-qualification}
 
