@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Ciclo de datos del evento
 description: Más información sobre el ciclo de datos de evento
-feature: Journeys
+feature: Recorridos
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: b362589a-32b0-4dbd-8ceb-a371e1e048ac
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 78%
+source-wordcount: '228'
+ht-degree: 79%
 
 ---
-
 
 # Ciclo de datos {#section_r1f_xqt_pgb}
 
