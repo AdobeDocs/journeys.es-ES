@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: replace
 description: Obtenga información sobre la sustitución de funciones
-feature: Journeys
+feature: Recorridos
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: f30377c2-4d5e-4905-a972-8f4ccb272bc0
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 8%
+source-wordcount: '77'
+ht-degree: 10%
 
 ---
-
 
 # replace {#replace}
 
