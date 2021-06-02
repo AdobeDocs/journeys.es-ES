@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Tipos de datos
 description: Obtenga información sobre los tipos de datos en expresiones avanzadas
-feature: Journeys
+feature: Recorridos
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 343f61b8-2315-4971-8b2b-6aa815bd9ced
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 4%
+source-wordcount: '559'
+ht-degree: 5%
 
 ---
-
 
 # Tipos de datos {#concept_gp3_rj5_dgb}
 
@@ -21,7 +19,7 @@ Técnicamente, una constante siempre contiene un tipo de datos. En la expresión
 
 Las secciones siguientes proporcionan información sobre las diferentes expresiones de tipo de datos y cómo se representan.
 
-## cadena {#string}
+## string {#string}
 
 **Descripción**
 
@@ -157,7 +155,7 @@ Formato de serialización: Formato de fecha y hora de desvío extendido ISO-8601
 
 Para deserializar y serializar el valor, utiliza DateTimeForsubject ISO_OFFSET_DATE_TIME. [Obtenga más información](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
 
-También puede pasar un entero que pase un valor de epoch. [Obtenga más información](https://www.epochconverter.com)
+También puede pasar un entero que pase un valor de epoch. [Más información](https://www.epochconverter.com)
 
 La zona horaria se puede especificar mediante un desplazamiento o un código de zona horaria (ejemplo: Europa/París, Z (es decir, UTC).
 
