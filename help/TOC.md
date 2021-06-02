@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 user-guide-title: Journey Orchestration
 title: Guía de Journey Orchestration
 user-guide-description: Proporciona instrucciones prácticas para implementar y construir recorridos.
 index: true
-feature: Journeys
-translation-type: ht
-source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
-workflow-type: ht
+feature: Recorridos
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 100%
 
@@ -22,12 +20,12 @@ ht-degree: 100%
    + [Notas de la versión](using/release-notes/release-notes.md)
    + [Actualizaciones de documentación](using/release-notes/documentation-updates.md)
 + Primeros pasos con [!DNL Journey Orchestration] {#starting-with-journeys}
-   + [Acerca de [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
+   + [Acerca de  [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [Limitaciones](using/about/limitations.md)
    + [Introducción](using/about/get-started.md)
    + [Interfaz de usuario](using/about/user-interface.md)
    + [Gestión de acceso](using/about/access-management.md)
-   + [Resolución de problemas](using/about/troubleshooting.md)
+   + [Solución de problemas](using/about/troubleshooting.md)
 + Configuración de un evento {#events-journeys}
    + Acerca de los eventos {#about-events}
       + [Principio general](using/event/about-events.md)
@@ -60,7 +58,7 @@ ht-degree: 100%
    + [Uso de segmentos en condiciones](using/segment/using-a-segment.md)
 + Crear un recorrido {#building-journeys}
    + Acerca de la creación de un recorrido {#about-journey-building}
-      + [Creación de un recorrido](using/building-journeys/journey.md)
+      + [Crear un recorrido](using/building-journeys/journey.md)
       + [Uso del diseñador de recorridos](using/building-journeys/using-the-journey-designer.md)
       + [Cambio de las propiedades](using/building-journeys/changing-properties.md)
       + [Versiones de recorridos](using/building-journeys/journey-versions.md)
@@ -76,7 +74,7 @@ ht-degree: 100%
       + Actividades de organización {#orchestration-activities}
          + [Acerca de las actividades de organización](using/building-journeys/about-orchestration-activities.md)
          + [Actividad de condición](using/building-journeys/condition-activity.md)
-         + [Actividad de finalización](using/building-journeys/end-activity.md)
+         + [Actividad final](using/building-journeys/end-activity.md)
          + [Actividad de espera](using/building-journeys/wait-activity.md)
       + Actividades de acción {#action-activities}
          + [Acerca de las actividades de acción](using/building-journeys/about-action-activities.md)
