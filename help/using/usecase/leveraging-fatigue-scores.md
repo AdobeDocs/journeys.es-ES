@@ -1,10 +1,8 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Uso de las puntuaciones de fatiga
-description: Aprenda a aprovechar las puntuaciones de fatiga en los viajes
-translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+description: Aprenda a aprovechar las puntuaciones de fatiga en recorridos
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 10%
@@ -14,11 +12,11 @@ ht-degree: 10%
 
 # Aprovechamiento de la IA en el recorrido {#concept_dsh_1ry_wfb}
 
-Este caso de uso le mostrará cómo aprovechar los puntajes de fatiga para evitar que los clientes se interesen demasiado en sus viajes.
+Este caso de uso le muestra cómo aprovechar las puntuaciones de fatiga para evitar saturar a sus clientes de sus recorridos.
 
 >[!NOTE]
 >
->La capacidad de puntuación de fatiga predictiva solo está disponible para clientes que utilizan el [Conector de datos de Adobe Experience Platform](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
+>La capacidad de puntuación de fatiga predictiva solo está disponible para los clientes que usan el [Conector de datos de Adobe Experience Platform](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
 
 ## Configuración del evento {#section_ptb_ws1_ffb}
 
@@ -26,14 +24,14 @@ Siga los pasos descritos en [esta página](../event/about-events.md).
 
 ## Configuración de la fuente de datos {#section_o3n_4yy_wfb}
 
-Realice los siguientes pasos para seleccionar los campos de puntuación de fatiga en el origen de datos integrado:
+Siga estos pasos para seleccionar los campos de puntuación de fatiga en la fuente de datos integrada:
 
-1. En el menú superior, haga clic en la ficha **[!UICONTROL Data Sources]** y seleccione el origen de datos de Adobe Experience Platform integrado.
+1. En el menú superior, haga clic en la pestaña **[!UICONTROL Data Sources]** y seleccione la fuente de datos integrada de Adobe Experience Platform.
 
    ![](../assets/journey23.png)
 
-1. Compruebe que los campos requeridos para el caso de uso están seleccionados.
-1. Haga clic en **[!UICONTROL Add a New Field Group]**, seleccione el modelo **[!UICONTROL Profiles]** y agregue los campos **[!UICONTROL fatigueLevel]** y **[!UICONTROL fatigueScore]** (en _travesIA > emailScore > fatiga_).
+1. Compruebe que los campos requeridos para su caso de uso estén seleccionados.
+1. Haga clic en **[!UICONTROL Add a New Field Group]**, seleccione el modelo **[!UICONTROL Profiles]** y añada los campos **[!UICONTROL fatigueLevel]** y **[!UICONTROL fatigueScore]** (en _journeyAI > emailScore > fatiga_).
 
    ![](../assets/journeyuc3_1.png)
 
@@ -41,13 +39,13 @@ Realice los siguientes pasos para seleccionar los campos de puntuación de fatig
 
 ## Construcción del recorrido {#section_uzm_pyy_wfb}
 
-Para crear, validar y publicar el viaje, siga los pasos descritos en [esta página](../building-journeys/journey.md).
+Para crear, validar y publicar el recorrido, siga los pasos descritos en [esta página](../building-journeys/journey.md).
 
-En nuestro caso de uso, estamos aprovechando el campo **[!UICONTROL fatigueLevel]**. También puede utilizar el campo **[!UICONTROL fatigueScore]**.
+En nuestro caso de uso, estamos aprovechando el campo **[!UICONTROL fatigueLevel]**. También puede utilizar el campo **[!UICONTROL fatigueScore]** .
 
-Realice los siguientes pasos para aprovechar el nivel de fatiga del viaje:
+Siga estos pasos para aprovechar el nivel de fatiga del recorrido:
 
-1. Añada un evento y una condición en su viaje.
+1. Añada un evento y una condición en el recorrido.
 
    ![](../assets/journeyuc2_14.png)
 
@@ -55,7 +53,7 @@ Realice los siguientes pasos para aprovechar el nivel de fatiga del viaje:
 
    ![](../assets/journeyuc3_2.png)
 
-1. Con el editor de expresiones sencillo, busque el campo **[!UICONTROL fatigueLevel]** (_ExperiencePlatformDataSource > JourneyAIScores > Perfil > travesíaAI > emailScore > fatiga_), suéltelo a la derecha y cree la condición siguiente: &quot;fatigueLevel es igual a &quot;Low&quot;. Haga clic en **[!UICONTROL Ok]**.
+1. Con el editor de expresiones simple, busque el campo **[!UICONTROL fatigueLevel]** (_ExperiencePlatformDataSource > JourneyAIScores > Perfil > journeyAI > emailScore > fatiga_), suéltelo a la derecha y cree la siguiente condición: &quot;fatigueLevel es igual a &quot;Low&quot;. Haga clic en **[!UICONTROL Ok]**.
 
    ![](../assets/journeyuc3_3.png)
 
@@ -65,7 +63,7 @@ Realice los siguientes pasos para aprovechar el nivel de fatiga del viaje:
    #{ExperiencePlatformDataSource.JourneyAIScores.Profile.journeyAI.emailScore.fatigue.fatigueLevel} == "low"
    ```
 
-1. En la condición, cree otras dos rutas para niveles de fatiga medios y altos.
+1. En la condición , cree otras dos rutas para niveles de fatiga medios y altos.
 
    ![](../assets/journeyuc3_4.png)
 
