@@ -1,20 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Cambio de las propiedades
 description: Obtenga información sobre cómo cambiar propiedades
-feature: Journeys
+feature: Recorridos
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: a8bfd4fd829ff8fadc68de87dc0b9de085a962e3
+exl-id: 06d26078-b9b8-4dc4-918d-0f2426d00f54
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 2%
+source-wordcount: '492'
+ht-degree: 1%
 
 ---
-
-
 
 # Cambio de las propiedades {#concept_prq_wqt_52b}
 
