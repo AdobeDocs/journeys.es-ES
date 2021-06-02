@@ -1,20 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Referencias de campo
 description: Obtenga información sobre referencias de campo en expresiones avanzadas
-feature: Journeys
+feature: Recorridos
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 2f317306-9afd-4e9a-88b8-fc66102e1046
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '435'
 ht-degree: 5%
 
 ---
-
-
 
 # Referencias de campo {#concept_fkj_ll5_dgb}
 
