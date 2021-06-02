@@ -1,21 +1,19 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: in
 description: Obtenga información sobre la función en
-feature: Journeys
+feature: Recorridos
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 6a19ae25-99c9-47f9-8417-c3d247dbbe3f
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 13%
+source-wordcount: '112'
+ht-degree: 14%
 
 ---
 
-
-# in {#in}
+# en {#in}
 
 Comprueba si el primer valor de argumento está en la lista. La comprobación se realiza mediante un valor Equal en cada valor de argumento. Devuelve true si se encuentra el valor del argumento, false en caso contrario.
 
