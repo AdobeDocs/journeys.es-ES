@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Funciones
 description: Obtenga información sobre las funciones
-feature: Journeys
+feature: Recorridos
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 71%
+source-wordcount: '168'
+ht-degree: 73%
 
 ---
-
 
 # Funciones {#concept_p1r_qj5_dgb}
 
