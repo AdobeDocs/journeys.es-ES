@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Saltar de un recorrido a otro
 description: Saltar de un recorrido a otro
-feature: Journeys
+feature: Recorridos
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 520376aa-2cb5-46d6-8f21-3e03544f5da1
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '792'
 ht-degree: 3%
 
 ---
-
 
 # Saltar de un recorrido a otro {#jump}
 
@@ -108,7 +106,7 @@ Cuando se configura una actividad **[!UICONTROL Jump]** en un recorrido, se agre
 
 ![](../assets/jump7.png)
 
-## Resolución de problemas
+## Solución de problemas
 
 Cuando se publica el recorrido o en modo de prueba, se producen errores si:
 * el recorrido de destino ya no existe
