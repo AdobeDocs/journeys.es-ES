@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Interfaz de usuario
 description: Más información sobre la interfaz de usuario
-feature: Journeys
+feature: Recorridos
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
+exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 92%
+source-wordcount: '1011'
+ht-degree: 93%
 
 ---
-
 
 # Interfaz de usuario{#concept_rcq_lqt_52b}
 
@@ -144,4 +142,3 @@ _En un recorrido:_
 * En un recorrido basado en eventos en el modo de prueba, pulse **E** para almacenar en déclencheur un evento.
 * En un recorrido basado en segmentos, cuando la opción **Un perfil a la vez** está seleccionada en modo de prueba, presione **P** para almacenar en déclencheur un evento.
 * En el modo de prueba, pulse **L** para mostrar los registros.
-
