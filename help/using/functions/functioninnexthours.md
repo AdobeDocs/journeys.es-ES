@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: inNextHours
 description: Obtenga información sobre la función en NextHours
-feature: Journeys
+feature: Recorridos
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 4bcbfdbc-fc95-4089-8abc-f9314dde2c06
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 12%
+source-wordcount: '45'
+ht-degree: 15%
 
 ---
-
 
 # inNextHours {#inNextHours}
 
