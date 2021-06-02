@@ -1,13 +1,11 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: updateTimeZone
 description: Obtenga información sobre la función updateTimeZone
-translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '41'
+ht-degree: 7%
 
 ---
 
@@ -26,7 +24,7 @@ Fecha
 
 ## Parámetros
 
-* id. de zona horaria: string
+* id de zona horaria: string
 * dateTime
 
 ## Firma y tipo devuelto
