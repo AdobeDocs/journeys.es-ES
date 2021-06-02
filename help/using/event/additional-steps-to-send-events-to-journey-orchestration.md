@@ -1,20 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Pasos adicionales para enviar eventos al Journey Orchestration
 description: Obtenga información sobre los pasos adicionales para enviar eventos al Journey Orchestration
-feature: Journeys
+feature: Recorridos
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 11e337c6-5e05-4898-9953-b6b821af8fd1
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '324'
 ht-degree: 7%
 
 ---
-
-
 
 # Pasos adicionales para enviar eventos a [!DNL Journey Orchestration] {#concept_xrz_n1q_y2b}
 
