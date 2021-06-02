@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Actividad de condición
 description: Obtenga información sobre las actividades de condición
-feature: Journeys
+feature: Recorridos
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 7b44edbe-9d05-4d67-8a64-2a0a553fcb92
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '744'
 ht-degree: 10%
 
 ---
-
 
 # Actividad de condición{#section_e2n_pft_dgb}
 
@@ -26,7 +24,7 @@ Hay cuatro tipos de condiciones disponibles:
 
 ![](../assets/journey49.png)
 
-## Acerca de la actividad Condición {#about_condition}
+## Acerca de la actividad Condition {#about_condition}
 
 Cuando se utilizan varias condiciones en un recorrido, se pueden definir etiquetas para cada una de ellas a fin de identificarlas con mayor facilidad.
 
