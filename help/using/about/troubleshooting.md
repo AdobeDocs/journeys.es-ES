@@ -1,21 +1,19 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Resolución de problemas
 description: Más información sobre la solución de problemas
-feature: Journeys
+feature: Recorridos
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: c678ba01-c868-49f2-99f3-1abe0302779e
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 97%
+source-wordcount: '1041'
+ht-degree: 98%
 
 ---
 
-
-# Resolución de problemas{#concept_nlv_bcv_2fb}
+# Solución de problemas{#concept_nlv_bcv_2fb}
 
 En esta sección, encontrará cómo solucionar problemas de recorridos antes de realizar pruebas o publicar. Todas las comprobaciones que se indican a continuación se pueden realizar cuando el recorrido está en modo de prueba o cuando el recorrido está activo. La recomendación es realizar todas las comprobaciones siguientes en el modo de prueba y luego proceder a la publicación. Consulte [esta página](../building-journeys/testing-the-journey.md).
 
@@ -88,4 +86,3 @@ Si los individuos recorren el recorrido correcto, pero no reciben mensajes que d
 * La mensajería transaccional ha enviado correctamente el mensaje. En los registros de envío del mensaje transaccional, puede ver el estado de cada ejecución. Pueden ver si es verde o rojo, y cuál fue el problema. Un usuario empresarial puede acceder a esta pantalla y enviar los registros a un administrador para realizar más investigaciones.
 
 En el caso de un mensaje enviado mediante una acción personalizada, lo único que se puede comprobar durante la prueba de recorrido es el hecho de que la llamada del sistema de la acción personalizada produce un error o no. Si la llamada al sistema externo asociada con la acción personalizada no genera un error pero no conduce al envío de un mensaje, algunas investigaciones deben realizarse en el sistema externo.
-
