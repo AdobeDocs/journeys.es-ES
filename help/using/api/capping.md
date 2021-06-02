@@ -1,20 +1,18 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Captación de la descripción de la API
 description: Obtenga más información sobre la API de restricción.
 products: journeys
-feature: Journeys
+feature: Recorridos
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1109'
 ht-degree: 2%
 
 ---
-
 
 # Uso de la API de restricción
 
@@ -214,4 +212,3 @@ Caso de uso n°5: **Actualizar una configuración de límite ya implementada**
 1. anular implementación
 1. candeploy
 1. implementar
-
