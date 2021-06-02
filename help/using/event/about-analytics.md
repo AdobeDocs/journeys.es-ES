@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Acerca de los datos de Adobe Analytics
 description: Aprenda a aprovechar los datos de Adobe Analytics
-feature: Journeys
+feature: Recorridos
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: e9b128be-9411-4b68-935e-4cc09eae3ef6
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
-
 
 # Aprovechamiento de los datos de Adobe Analytics{#analytics-data}
 
