@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Actividad de espera
 description: Descubra la actividad de espera
 feature: Recorridos
 role: Business Practitioner
 level: Intermediate
 exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
-translation-type: tm+mt
-source-git-commit: 532e8db3fde8ec86714d0b45a1b2a6c9c54367fb
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 5%
@@ -39,13 +37,13 @@ Puede definir una condición si desea restringir la espera a una determinada pob
 >
 >En el modo de prueba, el parámetro **[!UICONTROL Wait time in test]** le permite definir el tiempo que durará cada actividad de espera. El valor del tiempo predeterminado es de 10 segundos. Esto garantizará que los resultados de la prueba se obtengan rápidamente. Consulte [esta página](../building-journeys/testing-the-journey.md)
 
-## Duración de espera{#duration}
+## Espera de duración{#duration}
 
 Seleccione la duración de la espera antes de la ejecución de la siguiente actividad.
 
 ![](../assets/journey55.png)
 
-## Fecha fija de espera{#fixed_date}
+## Fecha de espera fija{#fixed_date}
 
 Seleccione la fecha para la ejecución de la siguiente actividad.
 
