@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: campos del recorrido
 description: campos del recorrido
-feature: Journeys
+feature: Recorridos
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 4d0245de-a2cf-44c6-93d2-3309a3314e5e
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 9%
+source-wordcount: '68'
+ht-degree: 11%
 
 ---
-
 
 # campos del recorrido {#sharing-journey-fields}
 
