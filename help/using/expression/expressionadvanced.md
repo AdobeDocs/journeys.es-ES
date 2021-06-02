@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Acerca del editor de expresiones avanzadas
 description: Aprenda a crear expresiones avanzadas
-feature: Journeys
+feature: Recorridos
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: f6f0004d-8a33-4671-9c16-e56edfe2a45e
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '542'
 ht-degree: 90%
 
 ---
-
 
 # Acerca del editor de expresiones avanzadas {#concept_uyj_trt_52b}
 
@@ -59,11 +57,11 @@ Esta pantalla le permite escribir manualmente su expresión.
 
 En la parte izquierda de la pantalla se muestran los campos y las funciones disponibles:
 
-* **[!UICONTROL Events]**: elija uno de los campos recibidos del evento de entrada. La lista mostrada de los campos de evento es contextual y varía según los eventos agregados en el recorrido. [Obtenga más información](../event/about-events.md)
-* **[!UICONTROL Segments]**: si ha colocado un  **[!UICONTROL Segment qualification]** evento, elija el segmento que desee utilizar en su expresión. [Obtenga más información](../segment/using-a-segment.md)
-* **[!UICONTROL Data Sources]**: elija entre la lista de campos disponibles en los grupos de campos de las fuentes de datos. [Obtenga más información](../datasource/about-data-sources.md)
-* **[!UICONTROL Journey properties]**: esta sección reagrupa los campos técnicos relacionados con el recorrido de un perfil determinado. [Obtenga más información](../expression/journey-properties.md)
-* **[!UICONTROL Functions]**: elija entre una lista de funciones integradas que permitan realizar filtros complejos. Las funciones están organizadas por categorías. [Obtenga más información](../expression/functions.md)
+* **[!UICONTROL Events]**: elija uno de los campos recibidos del evento de entrada. La lista mostrada de los campos de evento es contextual y varía según los eventos agregados en el recorrido. [Más información](../event/about-events.md)
+* **[!UICONTROL Segments]**: si ha colocado un  **[!UICONTROL Segment qualification]** evento, elija el segmento que desee utilizar en su expresión. [Más información](../segment/using-a-segment.md)
+* **[!UICONTROL Data Sources]**: elija entre la lista de campos disponibles en los grupos de campos de las fuentes de datos. [Más información](../datasource/about-data-sources.md)
+* **[!UICONTROL Journey properties]**: esta sección reagrupa los campos técnicos relacionados con el recorrido de un perfil determinado. [Más información](../expression/journey-properties.md)
+* **[!UICONTROL Functions]**: elija entre una lista de funciones integradas que permitan realizar filtros complejos. Las funciones están organizadas por categorías. [Más información](../expression/functions.md)
 
 ![](../assets/journey65.png)
 
