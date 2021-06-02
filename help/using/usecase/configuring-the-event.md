@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Configuración del evento
 description: Obtenga información sobre cómo configurar el evento para el caso de uso simple de recorrido
-feature: Journeys
+feature: Recorridos
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 7423f4eb-005d-43a5-a403-97bee1e8d480
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '358'
 ht-degree: 8%
 
 ---
-
 
 # Configuración del evento{#concept_y44_hcy_w2b}
 
