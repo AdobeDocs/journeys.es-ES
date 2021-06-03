@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Uso de las puntuaciones de fatiga
 description: Aprenda a aprovechar las puntuaciones de fatiga en recorridos
-source-git-commit: bc17cd3c0aee2652e55e3cf0623f87c4187a165e
+source-git-commit: 83a2410151a8a388d1db845502f434e97d89bdcc
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '392'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 Este caso de uso presenta todos los pasos necesarios para enviar un correo electrónico mediante la integración de Adobe Campaign Classic.
 
-Primero crearemos una plantilla de correo electrónico transaccional en Campaign Classic. Luego, en Journey Orchestration, crearemos la acción y diseñaremos el recorrido.
+Primero crearemos una plantilla de correo electrónico transaccional en Campaign Classic. Luego, en Journey Orchestration, crearemos el evento, la acción y el diseño del recorrido.
 
 Para obtener más información sobre la integración del Campaign Classic, consulte estas páginas:
 
@@ -28,7 +28,7 @@ La instancia de Campaign Classic debe aprovisionarse para esta integración. La 
 
 1. Inicie sesión en la instancia de control de Campaign Classic.
 
-1. En **Administration** > **Platform** > **Enumerations**, seleccione la enumeración **Event type** (eventType). Cree un nuevo tipo de evento (&quot;recorrido-evento&quot;, en nuestro ejemplo). Deberá utilizar el nombre interno del tipo de evento al escribir el archivo JSON.
+1. En **Administration** > **Platform** > **Enumerations**, seleccione la enumeración **Event type** (eventType). Cree un nuevo tipo de evento (&quot;recorrido-evento&quot;, en nuestro ejemplo). Deberá utilizar el nombre interno del tipo de evento al escribir el archivo JSON más adelante.
 
    ![](../assets/accintegration-uc-1.png)
 
@@ -59,14 +59,14 @@ La instancia de Campaign Classic debe aprovisionarse para esta integración. La 
 }
 ```
 
-    * Para el canal, debe escribir &quot;correo electrónico&quot;.
-    * Para eventType, utilice el nombre interno del tipo de evento creado anteriormente.
-    * La dirección de correo electrónico es una variable, por lo que puede escribir cualquier etiqueta.
-    * En ctx, los campos de personalización también son variables.
+* Para el canal, debe escribir &quot;correo electrónico&quot;.
+* Para eventType, utilice el nombre interno del tipo de evento creado anteriormente.
+* La dirección de correo electrónico será una variable, por lo que puede escribir cualquier etiqueta.
+* En ctx, los campos de personalización también son variables.
 
 **Journey Orchestration**
 
-1. En primer lugar, debe crear un evento. Asegúrese de incluir &quot;purchaseOrderNumber&quot;.
+1. En primer lugar, debe crear un evento. Asegúrese de incluir el campo &quot;purchaseOrderNumber&quot;.
 
    ![](../assets/accintegration-uc-5.png)
 
@@ -78,7 +78,7 @@ La instancia de Campaign Classic debe aprovisionarse para esta integración. La 
 
    ![](../assets/accintegration-uc-7.png)
 
-1. Para la dirección de correo electrónico y dos campos de personalización, cambie **Constant** a **Variable**.
+1. Para la dirección de correo electrónico y los dos campos de personalización, cambie **Constant** a **Variable**.
 
    ![](../assets/accintegration-uc-8.png)
 
@@ -92,6 +92,6 @@ La instancia de Campaign Classic debe aprovisionarse para esta integración. La 
 
 1. Agregue una actividad **End** y pruebe el recorrido.
 
-   ![](../assets/accintegration-uc-10.png)
+   ![](../assets/accintegration-uc-11.png)
 
 1. Ahora puede publicar su recorrido.
