@@ -7,41 +7,73 @@ feature: Recorridos
 role: Business Practitioner
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: a25ff95e0b74d3a0693310179670c7fe7b0de51c
+source-git-commit: 5d2e82c10dd22b5b4bac15a78a2f6f592aedd371
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 0%
+source-wordcount: '957'
+ht-degree: 1%
 
 ---
 
 # Integración con sistemas externos {#external-systems}
 
-Esta página presenta las diferentes protecciones proporcionadas por el Journey Orchestration al integrar un sistema externo, así como las prácticas recomendadas: cómo optimizar la protección del sistema externo con la API de límite, cómo configurar el tiempo de espera de recorrido y cómo funcionan los reintentos.
+Esta página presenta las diferentes protecciones proporcionadas por el Journey Orchestration al integrar un sistema externo, así como las prácticas recomendadas: cómo optimizar la protección del sistema externo mediante la API de límite, cómo configurar el tiempo de espera del recorrido y cómo funcionan los reintentos.
 
-Journey Orchestration le permite configurar conexiones a sistemas externos mediante fuentes de datos personalizadas y acciones personalizadas. Esto le permite, por ejemplo, enriquecer sus recorridos con datos procedentes de un sistema de reservas externo o enviar mensajes mediante sistemas de terceros como Epsilon o Facebook.
+Journey Orchestration le permite configurar conexiones a sistemas externos mediante fuentes de datos personalizadas y acciones personalizadas. Esto le permite, por ejemplo, enriquecer sus recorridos con datos procedentes de un sistema de reservas externo o enviar mensajes mediante un sistema de terceros como Epsilon o Facebook.
 
 Al integrar un sistema externo, puede encontrar varios problemas, el sistema puede ser lento, puede dejar de responder o puede no ser capaz de manejar un gran volumen. Journey Orchestration ofrece varias barreras para proteger su sistema de sobrecarga.
 
-Todos los sistemas externos son diferentes en términos de rendimiento. Debe adaptar la configuración a cada caso de uso.
+Todos los sistemas externos son diferentes en términos de rendimiento. Debe adaptar la configuración a sus casos de uso.
 
 Cuando el Journey Orchestration ejecuta una llamada a una API externa, las protecciones técnicas se ejecutan de la siguiente manera:
 
-1. Restricción: se aplican reglas de restricción
-2. Tiempo de espera y reintento:
+1. Se aplican reglas de restricción: si se alcanza la tasa máxima, se descartan las llamadas restantes.
 
-## Restricción
+2. Tiempo de espera y reintento: si se cumple la regla de límite, el Journey Orchestration intenta realizar la llamada hasta que se llega al final del tiempo de espera.
 
-La API de restricción integrada ofrece una protección técnica ascendente que ayudará a proteger el sistema externo. Antes, debe evaluar la capacidad de su API externa. Por ejemplo, si el Journey Orchestration envía 1000 llamadas por segundo y el sistema solo puede admitir 100 llamadas por segundo, debe definir una regla de límite para que el sistema no se satura.
+## Restricción{#capping}
 
-Las reglas de restricción se definen en el nivel de entorno limitado para un punto final específico (la URL denominada). Durante la ejecución, el Journey Orchestration comprueba si hay una regla de límite definida y aplica la velocidad definida durante las llamadas a ese extremo. Si el número de llamadas supera la tasa definida, se descartan las llamadas restantes.
+La API de restricción integrada ofrece una protección técnica ascendente que ayuda a proteger el sistema externo. Antes, debe evaluar la capacidad de su API externa. Por ejemplo, si el Journey Orchestration envía 1000 llamadas por segundo y el sistema solo puede admitir 100 llamadas por segundo, debe definir una regla de límite para que el sistema no se satura.
 
-Una regla de límite es específica para un punto final, pero global para todos los recorridos de un entorno limitado. Esto significa que las ranuras de llamada se comparten entre todos los recorridos de un simulador para pruebas. Por ejemplo, supongamos que el sistema externo tiene un límite definido de 100 llamadas por segundo y se lo llama una acción personalizada en 10 recorridos diferentes. Si un recorrido recibe 200 llamadas por segundo, mantendrá las 100 ranuras disponibles y descartará las 100 ranuras restantes. Dado que la velocidad máxima ya se ha superado, los otros 9 recorridos no tendrán ninguna ranura disponible. Esta granularidad ayuda a proteger el sistema externo de sobrecargas y caídas.
+Las reglas de restricción se definen en el nivel de entorno limitado para un punto final específico (la URL denominada). Durante la ejecución, el Journey Orchestration comprueba si hay una regla de límite definida y aplica la velocidad definida durante las llamadas a ese extremo. Si el número de llamadas supera la tasa definida, las llamadas restantes se descartan y se cuentan como errores en los informes.
 
-Una llamada descartada debido a límites de límite se cuenta como un error en los informes.
+Una regla de límite es específica para un punto final, pero global para todos los recorridos de un entorno limitado. Esto significa que las ranuras de límite se comparten entre todos los recorridos de un simulador para pruebas.
 
-Para aprender a configurar reglas de restricción, consulte [esta página](../api/timezone-management.md).
+Por ejemplo, supongamos que ha definido una regla de límite de 100 llamadas por segundo para el sistema externo. Una acción personalizada llama al sistema en 10 recorridos diferentes. Si un recorrido recibe 200 llamadas por segundo, utilizará las 100 ranuras disponibles y descartará las 100 ranuras restantes. Como la velocidad máxima se ha superado, los otros 9 recorridos no tendrán ninguna ranura. Esta granularidad ayuda a proteger el sistema externo de sobrecargas y caídas.
 
-## Tiempo de espera y reintentos
+Para obtener más información sobre la API de restricción y cómo configurarlas, consulte [esta página](../api/capping.md).
 
-Ensuite -> tiempo de espera definido, et qui definir le temps maximal qu&#39;on aloue a lappel au sys externe. Pendant ce temps là, en essaie de faire des appels. En fait un appel, si l&#39;appel dure moinre longtemps que le timeout ca marche, si plus longtemps on voit ca comme une timeout error, et coté reporting compabilisé com une erreur. si l&#39;appel echoue, (planter sur 500 ou autre), reintento. 3 reintentos máx., pasar configurables. SI puede exceder el tiempo de espera global (par ejemplo 2 essais, mais depasse le timeout) erreur de timeout. plsu de temps que necesariamente. Timeout durée max qu&#39;on alloue a appel et aux retry es erreurs.
+## Tiempo de espera y reintentos{#timeout}
 
+Si se cumple la regla de límite, se aplica la regla de tiempo de espera.
+
+En cada recorrido, puede definir una duración de tiempo de espera. Esto le permite establecer una duración máxima al llamar a un sistema externo. La duración del tiempo de espera se configura en las propiedades de un recorrido. Consulte [esta página](../building-journeys/changing-properties.md#timeout_and_error).
+
+Este tiempo de espera es global para todas las llamadas externas (llamadas de API externas en acciones personalizadas y fuentes de datos personalizadas). De forma predeterminada, se establece en 5 segundos.
+
+Durante el tiempo de espera definido, el Journey Orchestration intenta llamar al sistema externo. Después de la primera llamada, se puede realizar un máximo de tres reintentos hasta que se alcance el final del tiempo de espera. El número de reintentos no se puede cambiar.
+
+Cada reintento utiliza una ranura. Si tiene un límite de 100 llamadas por segundo y cada una de sus llamadas requiere dos reintentos, la tasa baja a 30 llamadas por segundo (cada llamada utiliza 3 ranuras: la primera llamada y dos reintentos).
+
+El valor de duración de tiempo de espera depende del caso de uso. Si desea enviar el mensaje rápidamente, por ejemplo, cuando el cliente entra en la tienda, no desea configurar un tiempo de espera largo. Además, cuanto más tiempo sea el tiempo de espera, más elementos se colocarán en cola. Esto puede afectar en gran medida al rendimiento. Si el Journey Orchestration realiza 1000 llamadas por segundos, mantener 5 o 15 segundos de datos puede sobrecargar rápidamente el sistema.
+
+Veamos un ejemplo para un tiempo de espera de 5 segundos.
+
+* La primera llamada dura menos de 5 segundos: la llamada se ha realizado correctamente y no se ha realizado ningún reintento.
+* La primera llamada dura más de 5 segundos: la llamada se cancela y no hay reintento. Se cuenta como un error de tiempo de espera en los informes.
+* La primera llamada falla después de 2 segundos (el sistema externo devuelve un error): Quedan 3 segundos para los reintentos, si hay ranuras de límite disponibles.
+   * Si uno de los tres reintentos se realiza correctamente antes del final de los 5 segundos, la llamada se realiza y no hay error.
+   * Si se alcanza el final de la duración del tiempo de espera durante los reintentos, la llamada se cancela y se cuenta como un error de tiempo de espera en los informes.
+
+## Preguntas frecuentes{#faq}
+
+**¿Cómo puedo configurar una regla de límite? ¿Hay una regla de límite predeterminada?**
+
+De forma predeterminada, no hay ninguna regla de restricción. Las reglas de restricción se definen a nivel de entorno limitado para un punto final específico (la URL denominada) mediante la API de restricción. Consulte [esta sección](../about/external-systems.md#capping) y [esta página](../api/capping.md).
+
+**¿Cuántos reintentos se realizan? ¿Puedo cambiar el número de reintentos o definir un periodo de espera mínimo entre los reintentos?**
+
+Para una llamada determinada, se puede realizar un máximo de tres reintentos después de la primera llamada, hasta que se alcance el final de la duración del tiempo de espera. El número de reintentos y el tiempo entre cada reintento no se pueden cambiar. Consulte [esta sección](../about/external-systems.md#timeout).
+
+**¿Dónde puedo configurar el tiempo de espera? ¿Hay un valor máximo?**
+
+En cada recorrido, puede definir una duración de tiempo de espera. La duración del tiempo de espera se configura en las propiedades de un recorrido. La duración del tiempo de espera debe estar entre 1 segundo y 30 segundos. Consulte [esta sección](../about/external-systems.md#timeout) y [esta página](../building-journeys/changing-properties.md#timeout_and_error).
