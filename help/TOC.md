@@ -5,10 +5,10 @@ title: Guía de Journey Orchestration
 user-guide-description: Proporciona instrucciones prácticas para implementar y construir recorridos.
 index: true
 feature: Recorridos
-source-git-commit: c17808a4cae7ebbd1129f6b28ad2ea945098f826
+source-git-commit: 8d10739381b4f5b09ad7070498d5f1566961c221
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 93%
+source-wordcount: '424'
+ht-degree: 92%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 93%
 + Configurar una acción {#action-journeys}
    + [Acerca de las acciones](using/action/action.md)
    + [Uso de Adobe Campaign Standard](using/action/working-with-adobe-campaign.md)
-   + [Uso de Adobe Campaign Classic](using/action/acc-action.md)
+   + [Uso de Adobe Campaign v7/v8](using/action/acc-action.md)
    + Uso de un sistema de terceros {#action-third-party}
       + [Acerca de la configuración de acciones personalizadas](using/action/about-custom-action-configuration.md)
       + [Configuración de URL](using/action/url-configuration.md)
@@ -80,7 +80,7 @@ ht-degree: 93%
       + Actividades de acción {#action-activities}
          + [Acerca de las actividades de acción](using/building-journeys/about-action-activities.md)
          + [Uso de Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-actions.md)
-         + [Uso de Adobe Campaign Classic](using/building-journeys/using-adobe-campaign-classic.md)
+         + [Uso de Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-classic.md)
          + [Uso de acciones personalizadas](using/building-journeys/using-custom-actions.md)
          + [Saltar de un recorrido a otro](using/building-journeys/jump.md)
          + [Actualizar perfil](using/building-journeys/update-profiles.md)
@@ -193,6 +193,6 @@ ht-degree: 93%
       + [Configuración de los eventos](using/usecase/configuring-the-events.md)
       + [Configuración de las fuentes de datos](using/usecase/configuring-the-data-sources.md)
       + [Construcción del recorrido](using/usecase/building-the-journey.md)
-   + [Envío de un mensaje mediante el Campaign Classic](using/usecase/campaign-classic-use-case.md)
+   + [Envío de un mensaje mediante Campaign v7/v8](using/usecase/campaign-classic-use-case.md)
 + Uso de API{#working-with-apis}
    + [Captación de API](using/api/capping.md)
