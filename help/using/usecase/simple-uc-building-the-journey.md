@@ -6,10 +6,10 @@ feature: Recorridos
 role: Business Practitioner
 level: Intermediate
 exl-id: 22bcd7f4-03ee-4e4c-b221-9f14aeadded6
-source-git-commit: e7c3dde02837d31c5eb7d170cae7f142ce376175
+source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 37%
+source-wordcount: '394'
+ht-degree: 36%
 
 ---
 
@@ -52,7 +52,7 @@ Para obtener información adicional sobre cómo crear un recorrido, consulte [es
 
    ![](../assets/journeyuc1_12.png)
 
-1. Suelte una actividad **[!UICONTROL Email]** y seleccione la plantilla de mensajería transaccional &quot;Descuento de spa&quot;. Esta plantilla se diseñó con Adobe Campaign. Consulte [esta página]().
+1. Suelte una actividad **[!UICONTROL Email]** y seleccione la plantilla de mensajería transaccional &quot;Descuento de spa&quot;. Esta plantilla se diseñó con Adobe Campaign. Consulte [esta página](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html).
 
    ![](../assets/journeyuc1_13.png)
 
