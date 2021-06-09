@@ -6,10 +6,10 @@ feature: Recorridos
 role: Business Practitioner
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
-source-git-commit: 2565f6be500440455aa60724272790537a28ce2d
+source-git-commit: e7c3dde02837d31c5eb7d170cae7f142ce376175
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 5%
+source-wordcount: '896'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ Si tiene Adobe Campaign Standard, están disponibles las siguientes actividades 
 >
 >Para ello, debe configurar la acción integrada . Consulte [esta página](../action/working-with-adobe-campaign.md).
 
-Para cada uno de estos canales, se selecciona una plantilla **de Adobe Campaign Standard Transactional Messaging**. De hecho, [!DNL Journey Orchestration] no es una solución de envío de mensajes. Para los canales integrados de correo electrónico, SMS y push, confiamos en la mensajería transaccional para ejecutar el envío de mensajes. Significa que si desea utilizar una plantilla de mensaje determinada en sus recorridos, debe publicarla en Adobe Campaign Standard. Consulte [esta página](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.translate.html) para aprender a utilizar esta función.
+Para cada uno de estos canales, se selecciona una plantilla **de Adobe Campaign Standard Transactional Messaging**. De hecho, [!DNL Journey Orchestration] no es una solución de envío de mensajes. Para los canales integrados de correo electrónico, SMS y push, confiamos en la mensajería transaccional para ejecutar el envío de mensajes. Significa que si desea utilizar una plantilla de mensaje determinada en sus recorridos, debe publicarla en Adobe Campaign Standard. Consulte [esta página](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html) para aprender a utilizar esta función.
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ Para **[!UICONTROL Email]** y **[!UICONTROL SMS]**, los parámetros son idéntic
 
 >[!NOTE]
 >
->Por correo electrónico, si utiliza una plantilla transaccional de perfiles, el Campaign Standard gestiona de forma predeterminada el mecanismo de baja. Simplemente agregue un bloque de contenido **[!UICONTROL Unsubscription link]** en la plantilla ([más información](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)). Si utiliza una plantilla basada en eventos (rtEvent), debe añadir, en el mensaje, un vínculo que pase el correo electrónico de la persona en el parámetro URL y señale a una página de aterrizaje de baja. Debe crear esta página de aterrizaje y asegurarse de que la decisión de la persona de cancelar la suscripción se transmita al Adobe.
+>Por correo electrónico, si utiliza una plantilla transaccional de perfiles, el Campaign Standard gestiona de forma predeterminada el mecanismo de baja. Simplemente agregue un bloque de contenido **[!UICONTROL Unsubscription link]** en la plantilla ([más información](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)). Si utiliza una plantilla basada en eventos (rtEvent), debe añadir, en el mensaje, un vínculo que pase el correo electrónico de la persona en el parámetro URL y señale a una página de aterrizaje de baja. Debe crear esta página de aterrizaje y asegurarse de que la decisión de la persona de cancelar la suscripción se transmita al Adobe.
 
 En primer lugar, debe elegir una plantilla de mensajería transaccional. Consulte [esta página](../building-journeys/about-action-activities.md).
 
