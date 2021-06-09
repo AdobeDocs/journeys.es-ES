@@ -7,9 +7,9 @@ feature: Recorridos
 role: Business Practitioner
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: e7c3dde02837d31c5eb7d170cae7f142ce376175
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '249'
 ht-degree: 100%
 
 ---
@@ -77,7 +77,7 @@ Obtenga más información sobre las últimas versiones.
 * [Definición de campo XDM de Experience Cloud](https://docs.adobe.com/content/help/es-ES/experience-platform/xdm/home.html)
 * [Documentación del área de nombres de identidad](https://docs.adobe.com/content/help/es-ES/experience-platform/identity/home.html)
 * [API de ingesta de flujos](https://docs.adobe.com/content/help/es-ES/experience-platform/ingestion/streaming/overview.html)
-* [Documentación de mensajería transaccional de Campaign Standard](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.translate.html)
+* [Documentación de mensajería transaccional de Campaign Standard]()
 
 ## Tutoriales técnicos
 
