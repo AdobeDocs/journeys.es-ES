@@ -6,9 +6,9 @@ feature: Recorridos
 role: Business Practitioner
 level: Beginner
 exl-id: 430bac3a-06da-45a8-af90-1dcd1504d532
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: e7c3dde02837d31c5eb7d170cae7f142ce376175
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '381'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ Cree casos de uso de orquestación en tiempo real aprovechando los datos context
 
 ![](../assets/journeydiagram.png)
 
-[!DNL Journey Orchestration] permite la orquestación en tiempo real basada en datos contextuales de eventos, información de Adobe Experience Platform o datos de servicios API de terceros. Puede configurar una acción personalizada si utiliza un sistema de terceros para enviar sus mensajes. Si tiene Adobe Campaign Standard, podrá enviar correos electrónicos, notificaciones push y SMS usando las [capacidades de mensajes transaccionales](https://docs.adobe.com/content/help/es-ES/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.translate.html) de Adobe Campaign Standard.
+[!DNL Journey Orchestration] permite la orquestación en tiempo real basada en datos contextuales de eventos, información de Adobe Experience Platform o datos de servicios API de terceros. Puede configurar una acción personalizada si utiliza un sistema de terceros para enviar sus mensajes. Si tiene Adobe Campaign Standard, podrá enviar correos electrónicos, notificaciones push y SMS usando las [capacidades de mensajes transaccionales]() de Adobe Campaign Standard.
 
 En la pestaña de configuración de eventos, un **usuario técnico** configura los eventos que se esperan en los recorridos. Los datos entrantes de los eventos se normalizan siguiendo el modelo de datos de Experience de Adobe (XDM). Los eventos provienen de las API de ingesta de transmisión para eventos autenticados y no autenticados (como eventos del SDK de Adobe Mobile).
 
