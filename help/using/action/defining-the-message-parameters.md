@@ -6,10 +6,10 @@ feature: Recorridos
 role: Business Practitioner
 level: Intermediate
 exl-id: ea9cdb1d-dde6-4080-8f35-7f8cd3cf3644
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 1251eafcfe7487c3df01b412f17706f5ed6c6836
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 4%
 En la sección **[!UICONTROL Message parameters]** , pegue un ejemplo de la carga útil JSON para enviarla al servicio externo.
 
 ![](../assets/customactionpayloadmessage.png)
+
+>[!NOTE]
+>
+>Los nombres de campo de la carga útil no pueden contener &quot;.&quot; carácter.
 
 Puede definir el tipo de parámetro (p. ej.: string, integer, etc.).
 
