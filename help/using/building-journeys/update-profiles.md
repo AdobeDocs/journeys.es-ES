@@ -6,10 +6,10 @@ feature: Recorridos
 role: Business Practitioner
 level: Intermediate
 exl-id: eaf2c795-0920-4b9c-9f06-801e43c1844b
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 29aa6b6e16f8e6d051065f8157f4e25e8b1c05e1
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -41,7 +41,11 @@ La actividad de acción **[!UICONTROL Update profile]** le permite actualizar un
 
    ![](../assets/profileupdate2.png)
 
-1. Seleccione un conjunto de datos de la lista. La selección del conjunto de datos determinará dónde se almacenará el nuevo valor del campo de perfil.
+1. Seleccione un conjunto de datos de la lista.
+
+   >[!NOTE]
+   >
+   >La acción **Update profile** actualiza los datos del perfil en tiempo real, pero no actualiza los conjuntos de datos. La selección del conjunto de datos es necesaria, ya que el perfil es un registro relacionado con un conjunto de datos.
 
 1. Haga clic en el campo **Value** para definir el valor que desee utilizar:
 
