@@ -6,19 +6,19 @@ user-guide-description: Proporciona instrucciones prácticas para implementar y 
 index: true
 feature: Recorridos
 source-git-commit: 8d10739381b4f5b09ad7070498d5f1566961c221
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 
-# [!DNL Journey Orchestration] Guía {#using}
+# Guía de [!DNL Journey Orchestration] {#using}
 
 + [Documentación del producto](journey-orchestration-home.md)
 + Novedades {#release-notes}
    + [Notas de la versión](using/release-notes/release-notes.md)
-   + [Actualizaciones de documentación](using/release-notes/documentation-updates.md)
+   + [Actualizaciones de la documentación](using/release-notes/documentation-updates.md)
 + Primeros pasos con [!DNL Journey Orchestration] {#starting-with-journeys}
    + [Acerca de  [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [Limitaciones](using/about/limitations.md)
@@ -39,13 +39,13 @@ ht-degree: 92%
    + [Selección del área de nombres](using/event/selecting-the-namespace.md)
    + [Definición de la clave del evento](using/event/defining-the-event-key.md)
    + [Añadir una condición](using/event/adding-a-condition.md)
-   + [Vista previa de la carga útil](using/event/previewing-the-payload.md)
+   + [Previsualización de la carga útil](using/event/previewing-the-payload.md)
 + Configuración de una fuente de datos {#data-source-journeys}
    + [Acerca de las fuentes de datos](using/datasource/about-data-sources.md)
    + [Grupos de campo](using/datasource/field-groups.md)
-   + [Fuentes de datos de Adobe Experience Platform](using/datasource/adobe-experience-platform-data-source.md)
+   + [Fuente de datos de Adobe Experience Platform](using/datasource/adobe-experience-platform-data-source.md)
    + [Fuentes de datos externas](using/datasource/external-data-sources.md)
-+ Configurar una acción {#action-journeys}
++ Configuración de una acción {#action-journeys}
    + [Acerca de las acciones](using/action/action.md)
    + [Uso de Adobe Campaign Standard](using/action/working-with-adobe-campaign.md)
    + [Uso de Adobe Campaign v7/v8](using/action/acc-action.md)
@@ -88,10 +88,10 @@ ht-degree: 92%
    + [Publicación del recorrido](using/building-journeys/publishing-the-journey.md)
    + Uso compartido de los pasos del recorrido con Adobe Experience Platform {#sharing-journey-steps}
       + [Información general sobre el uso compartido de los pasos del recorrido](using/building-journeys/sharing-overview.md)
-      + [Campos comunes de los eventos de los journeyStep](using/building-journeys/sharing-common-fields.md)
-      + [Campos de ejecución de la acción eventos de los journeyStep](using/building-journeys/sharing-execution-fields.md)
-      + [Campos de captura de datos de eventos del journeyStep](using/building-journeys/sharing-fetch-fields.md)
-      + [Campos de identidad de los eventos de los journeyStep](using/building-journeys/sharing-identity-fields.md)
+      + [Campos comunes de los eventos de journeySteps](using/building-journeys/sharing-common-fields.md)
+      + [Campos de ejecución de la acción de eventos de journeySteps](using/building-journeys/sharing-execution-fields.md)
+      + [Campos de captura de datos de eventos de journeySteps](using/building-journeys/sharing-fetch-fields.md)
+      + [Campos de identidad de eventos de journeySteps](using/building-journeys/sharing-identity-fields.md)
       + [campos del recorrido](using/building-journeys/sharing-journey-fields.md)
 + Uso del editor de expresiones avanzadas {#building-advanced-conditions-journeys}
    + [Acerca del editor de expresiones avanzadas](using/expression/expressionadvanced.md)
@@ -180,8 +180,8 @@ ht-degree: 92%
    + [Creación de informes de recorrido](using/reporting/creating-your-journey-reports.md)
    + [Métricas y dimensiones](using/reporting/metrics-and-dimensions.md)
 + Integración con servicios inteligentes{#use-case-advanced}
-   + [Acerca de la integración de IA](using/ai-services/ai-services-overview.md)
-   + [Aprovechamiento de la IA del cliente](using/ai-services/leveraging-customer-ai.md)
+   + [Acerca de la integración de inteligencia artificial](using/ai-services/ai-services-overview.md)
+   + [Aprovechamiento de la inteligencia artificial aplicada al cliente](using/ai-services/leveraging-customer-ai.md)
 + Ejemplos de uso{#use-cases-journeys}
    + Envío de un correo electrónico personalizado{#use-case-simple}
       + [Acerca del caso de uso simple](using/usecase/about-the-simple-use-case.md)
@@ -195,4 +195,4 @@ ht-degree: 92%
       + [Construcción del recorrido](using/usecase/building-the-journey.md)
    + [Envío de un mensaje mediante Campaign v7/v8](using/usecase/campaign-classic-use-case.md)
 + Uso de API{#working-with-apis}
-   + [Captación de API](using/api/capping.md)
+   + [API de límite](using/api/capping.md)
