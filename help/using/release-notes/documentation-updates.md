@@ -7,13 +7,13 @@ role: Business Practitioner
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '803'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
-# Actualizaciones de documentación
+# Actualizaciones de la documentación
 
 Esta página lista todas las actualizaciones de documentación de [!DNL Journey Orchestration].
 También puede consultar las [Notas de la versión](../release-notes/release-notes.md) de [!DNL Journey Orchestration].
@@ -24,7 +24,7 @@ También puede consultar las [Notas de la versión](../release-notes/release-not
 
 ## Enero de 2021 {#january-2021}
 
-* Se han añadido prácticas recomendadas al activar un recorrido al mismo tiempo que una creación de perfil. [Más información](../about/limitations.md#journeys-limitation-profile-creation).
+* Se han añadido prácticas recomendadas al activar un recorrido al mismo tiempo que la creación de un perfil. [Más información](../about/limitations.md#journeys-limitation-profile-creation).
 
 ## Octubre de 2020 {#october-2020}
 
@@ -47,7 +47,7 @@ También puede consultar las [Notas de la versión](../release-notes/release-not
 * La sección actividades de eventos se ha reorganizado en subsecciones específicas para cada tipo de evento. [Más información](../building-journeys/event-activities.md)
 * Prácticas recomendadas añadidas para evitar sobrecargas con la calificación de segmentos. [Más información](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
 * Añadió una nota para explicar cómo continuar un recorrido después de un error en una acción o condición. [Más información](../about/troubleshooting.md#section_h3q_kqk_fhb)
-* Se añadió una nueva sección sobre las funciones alfa que se prueban entre un conjunto limitado de clientes.
+* Se ha añadido una nueva sección sobre las funciones alfa que se prueban entre un conjunto limitado de clientes.
 * Se añadió una nueva sección sobre la integración con servicios inteligentes. [Más información](../ai-services/ai-services-overview.md)
 * Se añadió una nueva sección sobre la creación del perfil de prueba. [Más información](../building-journeys/testing-the-journey.md)
 * Se añadió información sobre cómo utilizar el nodo **[!UICONTROL SegmentQualification]** en una condición de recorrido o acción. [Más información](../building-journeys/segment-qualification-events.md)
