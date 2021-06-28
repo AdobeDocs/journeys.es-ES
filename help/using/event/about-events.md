@@ -7,9 +7,9 @@ role: Business Practitioner
 level: Intermediate
 exl-id: 2115ab1d-1084-4429-8315-0357c8525c47
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '354'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 48%
 >[!CONTEXTUALHELP]
 >id="jo_events"
 >title="Acerca de los eventos"
->abstract="Un evento está vinculado a una persona. Se refiere al comportamiento de una persona o a algo que suceda vinculado a una persona. Esto es lo que escucha [!DNL Journey Orchestration] en los recorridos para orquestar las mejores próximas acciones."
+>abstract="Un evento está vinculado a una persona. Hace referencia al comportamiento de una persona o a algo que sucede vinculado a una persona. Esto es lo que escucha [!DNL Journey Orchestration] en los recorridos para orquestar las mejores próximas acciones."
 
 Un evento está vinculado a una persona. Se refiere al comportamiento de una persona (por ejemplo, una persona compró un producto, visitó una tienda, salió de un sitio web, etc.) o algo que suceda vinculado a una persona (por ejemplo, una persona alcanzó 10 000 puntos de lealtad). Esto es lo que escucha [!DNL Journey Orchestration] en los recorridos para orquestar las mejores próximas acciones.
 
@@ -30,12 +30,12 @@ Si edita un evento utilizado en un recorrido en borrador o activo, solo puede ca
 
 Puede definir dos tipos de eventos:
 
-* **Eventos basados** en reglas: este tipo de evento no genera un eventID. Con el editor de expresiones simple, simplemente define una regla que utilizará el sistema para identificar los eventos relevantes que van a almacenar en déclencheur sus recorridos. Esta regla se puede basar en cualquier campo disponible en la carga útil de evento, por ejemplo la ubicación del perfil o el número de elementos agregados al carro de compras del perfil.
+* Eventos basados **en reglas**: este tipo de evento no genera ningún eventID. Con el sencillo editor de expresiones simple, solo tendrá que definir una regla que el sistema utilizará para identificar los eventos relevantes que desencadenarán sus recorridos. Esta regla se puede basar en cualquier campo disponible en la carga útil de evento, por ejemplo, la ubicación del perfil o el número de elementos agregados al carro de compras del perfil.
 
    >[!CAUTION]
    >
-   >Se define una regla de límite para los eventos basados en reglas. Limita el número de eventos calificados que un recorrido puede procesar a 5000 por segundos para una organización determinada (ORG). Corresponde a los SLA de Journey Orchestration. Consulte esta [página](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html).
+   >Se define una regla de límite para los eventos basados en reglas. Limita el número de eventos calificados que un recorrido puede procesar a 5000 por segundo para una organización determinada (ORG). Corresponde a los SLA de Journey Orchestration. Consulte esta [página](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html).
 
-* **Eventos** generados por el sistema: estos eventos requieren un eventID. Este campo eventID se genera automáticamente al crear el evento. El sistema que impulsa el evento no debe generar un ID, debe pasar el disponible en la previsualización de carga útil.
+* Eventos **generados por el sistema**: estos eventos requieren un eventID. Este campo eventID se genera automáticamente al crear el evento. El sistema que impulsa el evento no debe generar un ID, debe pasar el que está disponible en la previsualización de carga útil.
 
 Para aprender a crear un evento, consulte esta [página](../event/about-creating.md).
