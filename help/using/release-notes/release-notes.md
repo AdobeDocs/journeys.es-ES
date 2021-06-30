@@ -6,10 +6,10 @@ feature: Recorridos
 role: Business Practitioner
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 002b67f4e09635b58c00fad9dbc2c16b872a5fb3
+source-git-commit: 120671af1f8863c9d8dce5a93a487ee42a92a408
 workflow-type: tm+mt
-source-wordcount: '2540'
-ht-degree: 62%
+source-wordcount: '2627'
+ht-degree: 60%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 62%
 Esta página lista todas las nuevas funciones y mejoras de Journey Orchestration.
 También puede consultar las [Actualizaciones de documentación](../release-notes/documentation-updates.md) más recientes.
 
-## Versión de junio de 2021 {#may-2021-release}
+## Versión de junio de 2021 {#june-2021-release}
 
 <table>
 <thead>
@@ -30,12 +30,19 @@ También puede consultar las [Actualizaciones de documentación](../release-note
 <tr>
 <td>
 <p>La integración con Adobe Campaign Classic ahora es GA. Le permite enviar correos electrónicos, notificaciones push y SMS mediante las funciones de mensajería transaccional de Adobe Campaign v7 o v8.</p>
-<p>La conexión entre el Journey Orchestration y las instancias de Campaign se configura por Adobe en el momento del aprovisionamiento.</p>
+<p>La conexión entre las instancias de Journey Orchestration y Campaign se configura por Adobe en el momento del aprovisionamiento.</p>
 <p>Para obtener más información, consulte la <a href="../action/acc-action.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
+
+### Mejoras
+
+* Para las fuentes de datos externas, ahora se define automáticamente una regla de límite de 15 llamadas por segundo. [Más información](../about/external-systems.md#capping)
+* En el editor de expresiones simple y avanzada, ahora se admite el formato de fecha XDM.
+* En la pantalla de la lista de recorridos, se ha añadido un nuevo filtro. Ahora puede filtrar por tipo de recorrido: **[!UICONTROL Unitary event]** o **[!UICONTROL Segment qualification]**. [Más información](../about/user-interface.md#section_lgm_hpz_pgb)
+* En el caso de los recorridos activos, la pantalla de propiedades de recorrido ahora muestra la fecha de publicación y el nombre del usuario que publicó el recorrido. Esta información también está disponible cuando copia los detalles técnicos del recorrido. [Más información](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
 
 ## Versión de abril de 2021 {#april-2021-release}
 
@@ -43,7 +50,7 @@ También puede consultar las [Actualizaciones de documentación](../release-note
 
 * En la pantalla **Event configuration** del modo de prueba, ahora se muestra un menú desplegable para los campos que esperan una enumeración. Simplemente seleccione uno de los valores disponibles. Esto evitará errores al activar el evento si se define un valor incorrecto. [Más información](../building-journeys/testing-the-journey.md#firing_events)
 
-## Versión {#march-2021-release} de marzo de 2021
+## Versión de marzo de 2021 {#march-2021-release}
 
 ### Mejoras
 
@@ -513,5 +520,5 @@ Journey Orchestration permite la orquestación en tiempo real basada en datos co
 
 Recursos adicionales:
 
-* [Tutoriales](https://docs.adobe.com/content/help/es-ES/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html)
+* [Tutoriales](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/introduction.html)
 * [Comunidad](https://www.adobe.com/go/journeyorchestrationcommunity)
