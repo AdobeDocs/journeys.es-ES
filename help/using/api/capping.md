@@ -7,9 +7,9 @@ feature: Recorridos
 role: Business Practitioner
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1103'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 Durante una configuración de fuente de datos, definirá una conexión con un sistema para recuperar información adicional que se utilizará en sus recorridos o, para una definición de acción, configurará la conexión de un sistema de terceros para enviar mensajes o llamadas API. Cada vez que un Recorrido realiza una llamada a la API, se consulta la API de límite y la llamada se realiza a través del motor de API. Si hay un límite definido, la llamada se rechaza y el sistema externo no se sobrecarga.
 
-Para obtener más información sobre la acción o la configuración de orígenes de datos, consulte [Acerca de las acciones](https://docs.adobe.com/content/help/en/journeys/using/action-journeys/action.html) o [Acerca de las fuentes de datos](https://docs.adobe.com/content/help/en/journeys/using/data-source-journeys/about-data-sources.html)
+Para obtener más información sobre la acción o la configuración de orígenes de datos, consulte [Acerca de las acciones](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action.html) o [Acerca de las fuentes de datos](https://experienceleague.adobe.com/docs/journeys/using/data-source-journeys/about-data-sources.html)
 
 
 ## Recursos
@@ -173,7 +173,7 @@ Esta colección Postman se ha configurado para compartir la colección Variable 
 Una vez descargado y cargado en Postman, debe añadir tres variables: `{JO_HOST}`,`{Base_Path}` y `{SANDBOX_NAME}`.
 * `{JO_HOST}` :  [!DNL Journey Orchestration] URL de puerta de enlace
 * `{BASE_PATH}` : punto de entrada para la API. El valor es &quot;/authoring&quot;
-* `{SANDBOX_NAME}` : el encabezado  **x-sandbox-name**  (por ejemplo, &quot;prod&quot;) correspondiente al nombre del simulador para pruebas donde se realizarán las operaciones de API. Consulte la [información general de los entornos limitados](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) para obtener más información.
+* `{SANDBOX_NAME}` : el encabezado  **x-sandbox-name**  (por ejemplo, &quot;prod&quot;) correspondiente al nombre del simulador para pruebas donde se realizarán las operaciones de API. Consulte la [información general de los entornos limitados](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html) para obtener más información.
 
 En la siguiente sección, encontrará la lista ordenada de llamadas al resto de API para realizar el caso de uso.
 
