@@ -6,9 +6,9 @@ feature: Recorridos
 role: Business Practitioner
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1665'
 ht-degree: 3%
 
 ---
@@ -60,8 +60,9 @@ Para utilizar el modo de prueba, siga estos pasos:
 * Al desactivar el modo de prueba, se vacían los recorridos de todas las personas que lo hayan introducido en el pasado o que estén actualmente en él. También borra los informes.
 * Puede habilitar/deshabilitar el modo de prueba tantas veces como sea necesario.
 * No puede modificar el recorrido cuando se activa el modo de prueba. En el modo de prueba, puede publicar directamente el recorrido; no es necesario desactivar el modo de prueba antes.
+* Al llegar a una división, siempre se elige la rama superior. Puede reorganizar la posición de las ramas divididas si desea que la prueba elija una ruta diferente.
 
-## Convertir un perfil en un perfil de prueba{#turning-profile-into-test}
+## Conversión de un perfil en un perfil de prueba{#turning-profile-into-test}
 
 Puede convertir un perfil existente en un perfil de prueba. En Adobe Experience Platform, puede actualizar los atributos de perfil mediante llamadas a la API, pero no se pueden realizar a través de la interfaz.
 
@@ -69,7 +70,7 @@ La forma más sencilla de hacerlo es usar una actividad de acción **Update prof
 
 ## Creación de un perfil de prueba{#create-test-profile}
 
-Si desea crear un nuevo perfil de prueba, el procedimiento es el mismo que al crear un perfil en Adobe Experience Platform. Se realiza mediante llamadas API. Consulte esta [página](https://docs.adobe.com/content/help/es-ES/experience-platform/profile/home.html)
+Si desea crear un nuevo perfil de prueba, el procedimiento es el mismo que al crear un perfil en Adobe Experience Platform. Se realiza mediante llamadas API. Consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
 
 Debe utilizar un esquema de perfil que contenga la mezcla &quot;detalles de prueba del perfil&quot;. El indicador testProfile forma parte de esta mezcla.
 
