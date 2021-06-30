@@ -6,9 +6,9 @@ feature: Recorridos
 role: Business Practitioner
 level: Intermediate
 exl-id: 2f001e42-46dd-48aa-b3dd-23bfdf97e1c7
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 51915ac931c0c4af03b49140c20e1b0939beff65
 workflow-type: tm+mt
-source-wordcount: '1413'
+source-wordcount: '1423'
 ht-degree: 5%
 
 ---
@@ -65,7 +65,7 @@ El **panel de configuración de actividad** aparece al hacer clic en una activid
 
 En el lienzo, las actividades de acción y evento se representan mediante un icono con el nombre del evento o acción que se muestra debajo. En el panel de configuración de la actividad, puede utilizar el campo **[!UICONTROL Label]** para agregar un sufijo al nombre de la actividad. Estas etiquetas le ayudarán a contextualizar el uso de eventos y acciones, especialmente cuando utiliza el mismo evento o acción varias veces en el recorrido. También podrá ver las etiquetas agregadas en el informe [!DNL Journey Orchestration] . También puede definir etiquetas para las actividades de condición.
 
-De forma predeterminada, los campos de solo lectura están ocultos. Para mostrarlos, haga clic en el icono **Show read-only fields** en la parte superior izquierda del panel de configuración de la actividad.
+De forma predeterminada, los campos de solo lectura están ocultos. Para mostrar campos de solo lectura, haga clic en el icono **Mostrar campos de solo lectura** en la parte superior izquierda del panel de configuración de actividad. Esta configuración se aplica a todas las actividades de todos los recorridos.
 
 ![](../assets/journey59bis.png)
 
