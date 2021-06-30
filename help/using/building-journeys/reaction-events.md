@@ -6,9 +6,9 @@ feature: Recorridos
 role: Business Practitioner
 level: Intermediate
 exl-id: 2f2a2905-1521-48d9-b593-9b31238282a5
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '411'
 ht-degree: 2%
 
 ---
@@ -38,7 +38,7 @@ Estos son los diferentes pasos para configurar los eventos de reacción:
 >
 >Los eventos de reacción no pueden rastrear correos electrónicos, SMS o acciones push que se producen en un recorrido diferente.
 >
->Los eventos de reacción rastrean clics en vínculos del tipo &quot;rastreados&quot; (consulte esta [página](https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/links.html#about-tracked-urls)). No se tienen en cuenta los vínculos de páginas espejo y de baja de suscripción.
+>Los eventos de reacción rastrean clics en vínculos del tipo &quot;rastreados&quot; (consulte esta [página](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/links.html#about-tracked-urls)). No se tienen en cuenta los vínculos de páginas espejo y de baja de suscripción.
 
 >[!IMPORTANT]
 >
