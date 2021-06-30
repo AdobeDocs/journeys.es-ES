@@ -6,10 +6,10 @@ feature: Recorridos
 role: Business Practitioner
 level: Intermediate
 exl-id: 11e337c6-5e05-4898-9953-b6b821af8fd1
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 7%
+source-wordcount: '320'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 7%
 
 Para configurar los eventos que se enviarán a **[!UICONTROL Streaming Ingestion APIs]** y que se utilizarán en [!DNL Journey Orchestration], debe seguir estos pasos:
 
-1. Obtenga la URL de entrada de las API de Adobe Experience Platform (consulte [API de ingesta de transmisión](https://docs.adobe.com/content/help/es-ES/experience-platform/ingestion/streaming/overview.html)).
+1. Obtenga la URL de entrada de las API de Adobe Experience Platform (consulte [API de ingesta de transmisión](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html)).
 1. Copie la carga útil de la previsualización de carga útil en el menú **[!UICONTROL Event]** . Consulte [esta página](../event/defining-the-payload-fields.md).
 
 A continuación, debe configurar el sistema de datos que envía eventos a las API de ingesta de transmisión mediante la carga útil que ha copiado:
@@ -91,4 +91,4 @@ Este es un ejemplo de un evento de API de ingesta de transmisión:
 
 Para facilitar la identificación del lugar en el que pegar la parte &quot;datos&quot;, puede utilizar una herramienta de visualización JSON como [https://jsonformatter.curiousconcept.com](https://jsonformatter.curiousconcept.com)
 
-Para solucionar los problemas de las API de ingesta de transmisión, consulte esta [página](https://docs.adobe.com/content/help/es-ES/experience-platform/ingestion/streaming/troubleshooting.html).
+Para solucionar los problemas de las API de ingesta de transmisión, consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html).
