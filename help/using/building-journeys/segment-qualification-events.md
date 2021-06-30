@@ -6,9 +6,9 @@ feature: Recorridos
 role: Business Practitioner
 level: Intermediate
 exl-id: e8e54dbd-8178-4c70-907c-68eb4dc54da7
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 51915ac931c0c4af03b49140c20e1b0939beff65
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '791'
 ht-degree: 1%
 
 ---
@@ -71,6 +71,8 @@ Al utilizar el editor de expresiones en una condición o acción que sigue a una
 Consulte [Actividad de condición](../building-journeys/condition-activity.md#about_condition).
 
 ![](../assets/segment8.png)
+
+Un nuevo recorrido que incluye un evento de calificación de segmentos funciona diez minutos después de publicarlo. Este intervalo de tiempo corresponde al intervalo de actualización de la caché del servicio dedicado. Por lo tanto, debe esperar diez minutos antes de utilizar este recorrido.
 
 ## Prácticas recomendadas {#best-practices-segments}
 
