@@ -6,9 +6,9 @@ feature: Recorridos
 role: Business Practitioner
 level: Intermediate
 exl-id: c0e67849-caa0-4045-94ed-38e483054e1d
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '278'
 ht-degree: 2%
 
 ---
@@ -27,6 +27,10 @@ Esta zona horaria se utilizará para todas las actividades del recorrido que con
 * [Fecha de espera fija](../building-journeys/wait-activity.md#fixed_date)
 
 Puede seleccionar una zona horaria o elegir usar la zona horaria definida en el perfil del usuario.
+
+>[!NOTE]
+>
+>La zona horaria del perfil funciona con el campo **timeZone** existente en el grupo de campos **Detalles de preferencia**.
 
 ## Definición de una zona horaria fija {#fixed-timezone}
 
