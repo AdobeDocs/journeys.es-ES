@@ -6,9 +6,9 @@ feature: Recorridos
 role: Business Practitioner
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 784c91054e0f6b9ea12aa4b7f4079f7c2da8f949
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '519'
 ht-degree: 2%
 
 ---
@@ -20,14 +20,13 @@ Estas son limitaciones relacionadas con el uso de Journey Orchestration.
 ## Limitaciones generales de acciones
 
 * No hay restricciones de envío. 
-* En caso de error, se realizan sistemáticamente dos reintentos. No se puede ajustar el número de reintentos según el mensaje de error recibido. 
+* En caso de error, se realizan tres reintentos de forma sistemática. No se puede ajustar el número de reintentos según el mensaje de error recibido. 
 * El evento **Reaction** integrado le permite reaccionar ante las acciones integradas (consulte esta [página](../building-journeys/reaction-events.md)). Si desea reaccionar a un mensaje enviado mediante una acción personalizada, debe configurar un evento dedicado. 
-* No hay integración de productos de Adobe Campaign Classic.
 
 ## Limitaciones de las versiones de recorrido {#journey-versions-limitations}
 
-* un recorrido que comience con una actividad de evento en v1 no puede comenzar con otra cosa que un evento en versiones posteriores. No se puede iniciar un recorrido con un evento **Segment Qualification**.
-* un recorrido que comience con una actividad **Segment Qualification** en v1 siempre debe comenzar con **Segment Qualification** en versiones posteriores.
+* Un recorrido que comience con una actividad de evento en v1 no puede comenzar con otra cosa que un evento en versiones posteriores. No se puede iniciar un recorrido con un evento **Segment Qualification**.
+* Un recorrido que comience con una actividad **Segment Qualification** en v1 siempre debe comenzar con **Segment Qualification** en versiones posteriores.
 * El segmento y el área de nombres elegidos en **Segment qualification** (primer nodo) no se pueden cambiar en las nuevas versiones.
 * La regla de reentrada debe ser la misma en todas las versiones de recorrido.
 
@@ -59,7 +58,7 @@ Estas son limitaciones relacionadas con el uso de Journey Orchestration.
 
 * Las fuentes de datos externas se pueden aprovechar dentro de un recorrido de clientes para buscar datos externos en tiempo real. Estas fuentes deben utilizarse mediante la API de REST, admiten JSON y pueden gestionar el volumen de solicitudes.
 
-## Recorridos que comienzan al mismo tiempo que una creación de perfil {#journeys-limitation-profile-creation}
+## Recorridos que comienzan al mismo tiempo que la creación de perfiles {#journeys-limitation-profile-creation}
 
 Hay un retraso asociado a la creación/actualización de perfiles basado en API en Adobe Experience Platform. El objetivo de nivel de servicio (SLT) en términos de latencia es &lt; 1 min desde la ingesta hasta el perfil unificado para el percentil 95 de las solicitudes, a un volumen de 20 000 solicitudes por segundo (RPS).
 
