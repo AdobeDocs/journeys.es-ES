@@ -7,9 +7,9 @@ feature: Recorridos
 role: Business Practitioner
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: e42ef98b1d84d8311cf49967ec75ec9be6cc53f1
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1171'
 ht-degree: 2%
 
 ---
@@ -22,8 +22,9 @@ ht-degree: 2%
 
 Durante una configuración de fuente de datos, definirá una conexión con un sistema para recuperar información adicional que se utilizará en sus recorridos o, para una definición de acción, configurará la conexión de un sistema de terceros para enviar mensajes o llamadas API. Cada vez que un Recorrido realiza una llamada a la API, se consulta la API de límite y la llamada se realiza a través del motor de API. Si hay un límite definido, la llamada se rechaza y el sistema externo no se sobrecarga.
 
-Para obtener más información sobre la acción o la configuración de orígenes de datos, consulte [Acerca de las acciones](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action.html) o [Acerca de las fuentes de datos](https://experienceleague.adobe.com/docs/journeys/using/data-source-journeys/about-data-sources.html)
+Para las fuentes de datos externas, el número máximo de llamadas por segundo se establece en 15. Si el número de llamadas supera los 15 por segundo, se descartan las llamadas restantes. Puede aumentar este límite para las fuentes de datos externas privadas. Póngase en contacto con el Adobe para incluir el punto final en la lista blanca. Esto no es posible para las fuentes de datos externas públicas. Para obtener más información sobre las prácticas recomendadas y los tutores al integrar sistemas externos, consulte esta [página](../about/external-systems.md).
 
+Para obtener más información sobre la acción o la configuración de orígenes de datos, consulte [Acerca de las acciones](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action.html) o [Acerca de las fuentes de datos](https://experienceleague.adobe.com/docs/journeys/using/data-source-journeys/about-data-sources.html)
 
 ## Recursos
 
