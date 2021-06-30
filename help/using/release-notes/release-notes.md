@@ -6,9 +6,9 @@ feature: Recorridos
 role: Business Practitioner
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 120671af1f8863c9d8dce5a93a487ee42a92a408
+source-git-commit: e2ff3e9d86aa9f603cf3d66507881d482a95a4a5
 workflow-type: tm+mt
-source-wordcount: '2627'
+source-wordcount: '2625'
 ht-degree: 60%
 
 ---
@@ -40,7 +40,7 @@ También puede consultar las [Actualizaciones de documentación](../release-note
 ### Mejoras
 
 * Para las fuentes de datos externas, ahora se define automáticamente una regla de límite de 15 llamadas por segundo. [Más información](../about/external-systems.md#capping)
-* En el editor de expresiones simple y avanzada, ahora se admite el formato de fecha XDM.
+* Los editores de expresiones simples y avanzados ahora admiten el formato de fecha XDM.
 * En la pantalla de la lista de recorridos, se ha añadido un nuevo filtro. Ahora puede filtrar por tipo de recorrido: **[!UICONTROL Unitary event]** o **[!UICONTROL Segment qualification]**. [Más información](../about/user-interface.md#section_lgm_hpz_pgb)
 * En el caso de los recorridos activos, la pantalla de propiedades de recorrido ahora muestra la fecha de publicación y el nombre del usuario que publicó el recorrido. Esta información también está disponible cuando copia los detalles técnicos del recorrido. [Más información](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
 
