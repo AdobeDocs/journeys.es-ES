@@ -6,10 +6,10 @@ feature: Recorridos
 role: Business Practitioner
 level: Intermediate
 exl-id: 2ae8854a-c3e7-469d-9f89-25b54bc3e894
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 53%
+source-wordcount: '554'
+ht-degree: 63%
 
 ---
 
@@ -33,9 +33,9 @@ Estos son los pasos principales para configurar un nuevo evento:
 
    ![](../assets/journey6bis.png)
 
-   * **Eventos basados** en reglas: este tipo de evento no genera un eventID. En el campo **Event ID condition**, simplemente define una regla que utilizará el sistema para identificar los eventos relevantes que van a almacenar en déclencheur sus recorridos. Esta regla se puede basar en cualquier campo disponible en la carga útil de evento, por ejemplo la ubicación del perfil o el número de elementos agregados al carro de compras del perfil.
+   * Eventos basados **en reglas**: este tipo de evento no genera ningún eventID. En el campo **Event ID condition**, simplemente define una regla que utilizará el sistema para identificar los eventos relevantes que van a almacenar en déclencheur sus recorridos. Esta regla se puede basar en cualquier campo disponible en la carga útil de evento, por ejemplo, la ubicación del perfil o el número de elementos agregados al carro de compras del perfil.
 
-   * **Eventos** generados por el sistema: este tipo requiere un eventID. Este campo eventID se genera automáticamente al crear el evento y se añade a la previsualización de carga útil. El sistema que impulsa el evento no debe generar un ID, debe pasar el disponible en la previsualización de carga útil. Consulte [esta sección](../event/previewing-the-payload.md).
+   * **Eventos** generados por el sistema: este tipo requiere un eventID. Este campo eventID se genera automáticamente al crear el evento y se añade a la previsualización de carga útil. El sistema que impulsa el evento no debe generar un ID, debe pasar el que está disponible en la previsualización de carga útil. Consulte [esta sección](../event/previewing-the-payload.md).
    >[!NOTE]
    >
    >Obtenga más información sobre los tipos de eventos en [esta sección](../event/about-events.md).
@@ -49,6 +49,10 @@ Estos son los pasos principales para configurar un nuevo evento:
    ![](../assets/alpha-event6.png)
 
    En nuestro ejemplo, escribimos una condición basada en la ciudad del perfil. Esto significa que, cada vez que el sistema recibe un evento que coincide con esta condición (campo **[!UICONTROL City]** y valor **[!UICONTROL Paris]**), lo pasa al Journey Orchestration.
+
+   >[!NOTE]
+   >
+   >El editor de expresiones avanzadas no está disponible al definir **[!UICONTROL Event ID condition]**.
 
 1. Añada un área de nombres. Este paso es opcional, pero se recomienda, ya que la adición de un área de nombres le permite aprovechar la información almacenada en el servicio de Perfil del cliente en tiempo real. Define el tipo de clave que tiene el evento. Consulte [esta página](../event/selecting-the-namespace.md).
 1. Defina la clave: elija un campo de los campos de carga útil o defina una fórmula para identificar a la persona asociada al evento. Esta clave se configura automáticamente (pero aún puede editarse) si selecciona un Área de nombres. De hecho, [!DNL Journey Orchestration] selecciona la clave que debe corresponder al área de nombres (por ejemplo, si selecciona un área de nombres de correo electrónico, se seleccionará la clave de correo electrónico). Consulte [esta página](../event/defining-the-event-key.md).
