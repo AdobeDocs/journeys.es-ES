@@ -3,14 +3,14 @@ product: adobe campaign
 title: Creación de un perfil de prueba
 description: Obtenga información sobre la creación de perfiles de prueba
 exl-id: f1be46a8-04b9-4f40-b18e-9099099d2e1c
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 3%
+source-wordcount: '675'
+ht-degree: 2%
 
 ---
 
-# Crear perfiles de prueba {#create-test-profiles}
+# Creación de perfiles de prueba {#create-test-profiles}
 
 Los perfiles de prueba son obligatorios cuando se utiliza el modo de prueba en un recorrido. Para aprender a utilizar el modo de prueba, consulte [esta sección](../building-journeys/testing-the-journey.md).
 
@@ -99,7 +99,7 @@ Se añaden los perfiles de prueba, que ahora se pueden utilizar al probar un rec
 
 ## Creación de perfiles de prueba mediante llamadas a API{#create-test-profiles-api}
 
-También puede crear perfiles de prueba mediante llamadas a la API. Consulte esta [página](https://docs.adobe.com/content/help/es-ES/experience-platform/profile/home.html).
+También puede crear perfiles de prueba mediante llamadas a la API. Consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
 
 Debe utilizar un esquema de perfil que contenga la mezcla &quot;Detalles de la prueba del perfil&quot;. El indicador testProfile forma parte de esta mezcla.
 
