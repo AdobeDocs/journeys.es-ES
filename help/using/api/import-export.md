@@ -3,10 +3,10 @@ product: adobe campaign
 title: Importar descripción de API de exportación
 description: Obtenga más información sobre la API de exportación de importación.
 products: journeys
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 3%
+source-wordcount: '1123'
+ht-degree: 2%
 
 ---
 
@@ -30,16 +30,16 @@ Para probar y preparar la integración, hay una colección Postman disponible [a
 
 Se recomienda seguir estos pasos para exportar e importar los recorridos entre entornos:
 
-1. Cree y parámetros de un recorrido en su entorno de inicio. [Más información aquí](https://docs.adobe.com/content/help/es-ES/journeys/using/building-journeys/about-journey-building/journey.html)
-1. Compruebe si la versión del recorrido no tiene errores. [Más información aquí](https://docs.adobe.com/content/help/en/journeys/using/building-journeys/testing-the-journey.html)
+1. Cree y parámetros de un recorrido en su entorno de inicio. [Más información aquí](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/about-journey-building/journey.html)
+1. Compruebe si la versión del recorrido no tiene errores. [Más información aquí](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/testing-the-journey.html)
 1. Llame a la API **/list/recorrido** para recuperar el recorrido de UID y el UID de su última versión de recorrido. Si es necesario, puede llamar a **/recorrido/`{uid}`/later** para encontrar el UID de su última versión de recorrido.
 1. Llame a la API **export** con los parámetros de entorno de inicio (orgID y sandboxName).
 1. Abra la carga útil de retorno y, a continuación, compruebe los siguientes elementos:
    * Si el recorrido exportado contiene **credenciales específicas**, debe reemplazar estas credenciales con las correspondientes al nuevo entorno.
-   * Si el recorrido exportado contiene **events** que apuntan a un **esquema XDM**, debe actualizar manualmente la referencia de ID de esquema con el ID de esquema del nuevo entorno en el nodo xdmEntity si los valores de ID son diferentes. Esta actualización debe realizarse para cada evento. [Más información aquí](https://docs.adobe.com/content/help/en/journeys/using/events-journeys/experience-event-schema.html)
+   * Si el recorrido exportado contiene **events** que apuntan a un **esquema XDM**, debe actualizar manualmente la referencia de ID de esquema con el ID de esquema del nuevo entorno en el nodo xdmEntity si los valores de ID son diferentes. Esta actualización debe realizarse para cada evento. [Más información aquí](https://experienceleague.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html)
    * Si el recorrido contiene correos electrónicos, sms o acciones push, es posible que tenga que actualizar el nombre de la plantilla o el nombre de la aplicación móvil si el nombre en el entorno de destino es diferente del del entorno de inicio.
 1. Llame a la API **Import** con los parámetros de entorno de destino (orgID y sandboxName). Tenga en cuenta que puede llamar a la API de importación tantas veces como desee. El UUID y el nombre de cada objeto contenido en el recorrido se generan cada vez que se llama a la API de importación.
-1. Una vez importado el Recorrido, puede publicarlo en la aplicación de Journey Orchestration. Más información [aquí](https://docs.adobe.com/content/help/en/journeys/using/building-journeys/publishing-the-journey.html)
+1. Una vez importado el Recorrido, puede publicarlo en la aplicación de Journey Orchestration. Más información [aquí](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html)
 
 
 ## Autenticación
