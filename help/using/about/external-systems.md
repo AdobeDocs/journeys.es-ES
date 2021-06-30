@@ -7,9 +7,9 @@ feature: Recorridos
 role: Business Practitioner
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 5d2e82c10dd22b5b4bac15a78a2f6f592aedd371
+source-git-commit: 5346c3a25900b1e167ea5b199e1873adab39d07d
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '1011'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,11 @@ Cuando el Journey Orchestration ejecuta una llamada a una API externa, las prote
 
 ## Restricción{#capping}
 
-La API de restricción integrada ofrece una protección técnica ascendente que ayuda a proteger el sistema externo. Antes, debe evaluar la capacidad de su API externa. Por ejemplo, si el Journey Orchestration envía 1000 llamadas por segundo y el sistema solo puede admitir 100 llamadas por segundo, debe definir una regla de límite para que el sistema no se satura.
+La API de restricción integrada ofrece una protección técnica ascendente que ayuda a proteger el sistema externo.
+
+Para las fuentes de datos externas, el número máximo de llamadas por segundo se establece en 15. Si el número de llamadas supera los 15 por segundo, se descartan las llamadas restantes. Puede aumentar este límite para las fuentes de datos externas privadas. Póngase en contacto con el Adobe para incluir el punto final en la lista blanca. Esto no es posible para las fuentes de datos externas públicas.
+
+Para las acciones personalizadas, debe evaluar la capacidad de su API externa. Por ejemplo, si Journey Optimizer envía 1000 llamadas por segundo y el sistema solo puede admitir 100 llamadas por segundo, debe definir una regla de límite para que el sistema no se satura.
 
 Las reglas de restricción se definen en el nivel de entorno limitado para un punto final específico (la URL denominada). Durante la ejecución, el Journey Orchestration comprueba si hay una regla de límite definida y aplica la velocidad definida durante las llamadas a ese extremo. Si el número de llamadas supera la tasa definida, las llamadas restantes se descartan y se cuentan como errores en los informes.
 
