@@ -6,10 +6,10 @@ feature: Recorridos
 role: Business Practitioner
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 98%
+source-wordcount: '855'
+ht-degree: 95%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 98%
 
 [!DNL Journey Orchestration] Le permite asignar un conjunto de permisos a los usuarios para definir a qué parte de la interfaz pueden acceder.
 
-Pueden ser administrados por administradores que tengan acceso a la Admin Console. Para obtener más información sobre la Admin Console, consulte esta [documentación](https://helpx.adobe.com/es/enterprise/managing/user-guide.html).
+Pueden ser administrados por administradores que tengan acceso a la Admin Console. Para obtener más información sobre la Admin Console, consulte esta [documentación](https://helpx.adobe.com/es/enterprise/admin-guide.html).
 
 Para poder acceder a [!DNL Journey Orchestration], un usuario debe cumplir lo siguiente:
 
 * ser parte de un **[!UICONTROL product profile]** de [!DNL Journey Orchestration] asociado a permisos de [!DNL Journey Orchestration].
-* Ser parte de un **[!UICONTROL product profile]** de [!DNL Adobe Experience Platform]. No hay ningún permiso obligatorio que tener. El usuario debe tener el permiso **[!UICONTROL profile management]** para poder crear y editar segmentos de plataforma desde la interfaz de [!DNL Journey Orchestration]. Para obtener más información, consulte [esta página](https://docs.adobe.com/content/help/es-ES/experience-platform/access-control/home.html#adobe-admin-console).
+* Ser parte de un **[!UICONTROL product profile]** de [!DNL Adobe Experience Platform]. No hay ningún permiso obligatorio que tener. El usuario debe tener el permiso **[!UICONTROL profile management]** para poder crear y editar segmentos de plataforma desde la interfaz de [!DNL Journey Orchestration]. Para obtener más información, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#adobe-admin-console).
 
 En la Admin Console, puede asignar a los usuarios uno de los siguientes perfiles de producto predeterminados:
 
@@ -67,7 +67,7 @@ A continuación se muestra la compatibilidad entre los permisos y las diferentes
 
 [!DNL Journey Orchestration] le permite crear sus propios perfiles de productos, y asignar un conjunto de permisos y entornos limitados a los usuarios. Con los perfiles del producto, puede autorizar o denegar el acceso a determinadas funcionalidades u objetos de la interfaz.
 
-Para obtener más información sobre cómo crear y administrar entornos limitados, consulte la documentación de [Adobe Experience Platform](https://docs.adobe.com/content/help/es-ES/experience-platform/sandbox/ui/user-guide.html).
+Para obtener más información sobre cómo crear y administrar entornos limitados, consulte la documentación de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html).
 
 Para crear un perfil de producto, y asignar un conjunto de permisos y entornos limitados haga esto:
 
@@ -141,6 +141,6 @@ El usuario debe recibir un correo electrónico que le redirija a su instancia [!
 Los entornos limitados para pruebas se asignan mediante perfiles de producto en la Admin Console. Para obtener más información sobre cómo asignar entornos limitados, consulte esta [sección](../about/access-management.md#create-product-profile).
 
 [!DNL Journey Orchestration] refleja los entornos limitados de Adobe Experience Platform creados para una organización determinada.
-Los entornos limitados de Adobe Experience Platform se pueden crear o restablecer desde la instancia de Adobe Experience Platform. Consulte la [guía del usuario de entornos limitados](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html) para pruebas para conocer los pasos detallados.
+Los entornos limitados de Adobe Experience Platform se pueden crear o restablecer desde la instancia de Adobe Experience Platform. Consulte la [guía del usuario de entornos limitados](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html) para pruebas para conocer los pasos detallados.
 
 Encontrará el control del conmutador de simulador de pruebas en la parte superior izquierda de la pantalla. Para cambiar de un simulador de pruebas a otro, haga clic en el simulador de pruebas activo y seleccione otro simulador de pruebas en la lista desplegable.
