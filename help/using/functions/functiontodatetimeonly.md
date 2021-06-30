@@ -6,10 +6,10 @@ feature: Recorridos
 role: Data Engineer
 level: Experienced
 exl-id: 19a4b7f8-5636-4b8f-b81f-28ff7da99671
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 0c55ece133639ec001b58f73afcbc69787b98c0e
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 14%
+source-wordcount: '56'
+ht-degree: 12%
 
 ---
 
@@ -29,7 +29,7 @@ Conversión
 
 | Parámetro | Tipo |
 |-----------|------------------|
-| fecha y hora en formato ISO-8601 | string |
+| fecha y hora en formato ISO-8601 o &quot;AAAA-MM-DD&quot; (formato de fecha XDM) | string |
 | fecha y hora | dateTime |
 
 ## Firmas y tipos devueltos
@@ -44,9 +44,9 @@ Devolver una fecha y hora sin considerar la zona horaria.
 
 ## Ejemplos
 
-`toDateTimeOnly ("2016-08-18T23:17:59.123Z")`
+`toDateTimeOnly ("2016-08-18")`
 
-Devuelve 2016-08-18T23:17:59.123.
+devuelve un dateTime que representa 2016-08-18T00:00:00.000
 
 `toDateTimeOnly(now())`
 
