@@ -6,10 +6,10 @@ feature: Recorridos
 role: Business Practitioner
 level: Intermediate
 exl-id: 34f7666b-1c91-4edd-b5d6-4c0513b9c4f3
-source-git-commit: 8d10739381b4f5b09ad7070498d5f1566961c221
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 85%
+source-wordcount: '312'
+ht-degree: 83%
 
 ---
 
@@ -42,4 +42,4 @@ Si tiene Adobe Campaign v7 o v8, hay una integración disponible bajo petición.
 
 Si utiliza un sistema de terceros para enviar mensajes como Epsilon, Facebook, Adobe.io, Firebase, etc., debe agregar y configurar una acción personalizada. Consulte [esta página](../action/about-custom-action-configuration.md).
 
-Para obtener más información sobre cómo configurar una acción para [!DNL Journey Orchestration] y cómo utilizarla en un recorrido, vea este [vídeo tutorial](https://docs.adobe.com/content/help/es-ES/journey-orchestration-learn/tutorials/configure-actions.html).
+Para obtener más información sobre cómo configurar una acción para [!DNL Journey Orchestration] y cómo utilizarla en un recorrido, vea este [vídeo tutorial](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/configure-actions.html).
