@@ -6,9 +6,9 @@ feature: Recorridos
 role: Business Practitioner
 level: Intermediate
 exl-id: 7b44edbe-9d05-4d67-8a64-2a0a553fcb92
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '778'
 ht-degree: 10%
 
 ---
@@ -47,7 +47,7 @@ El modo simple permite realizar consultas simples basadas en una combinación de
 
 ![](../assets/journey64.png)
 
-Si utiliza el [Servicio de segmentación de Adobe Experience Platform](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) para crear sus segmentos, puede aprovecharlos en las condiciones de recorrido. Consulte [Uso de segmentos en condiciones](../segment/using-a-segment.md).
+Si utiliza el [Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html) para crear sus segmentos, puede aprovecharlos en las condiciones de recorrido. Consulte [Uso de segmentos en condiciones](../segment/using-a-segment.md).
 
 
 >[!NOTE]
@@ -75,6 +75,8 @@ Esto le permite realizar diferentes acciones según la hora del día o el día d
 ## División de porcentaje {#percentage_split}
 
 Esta opción le permite dividir aleatoriamente la audiencia para definir una acción diferente para cada grupo. Defina el número de divisiones y la repartición para cada ruta. El cálculo de la división es estadístico, ya que el sistema no puede anticipar cuántas personas fluirán en esta actividad del recorrido. Como resultado, la división tiene un margen de error muy bajo. Esta función se basa en un mecanismo aleatorio de Java (consulte esta [página](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)).
+
+En el modo de prueba, al alcanzar una división, siempre se elige la rama superior. Puede reorganizar la posición de las ramas divididas si desea que la prueba elija una ruta diferente. Consulte [esta página](../building-journeys/testing-the-journey.md)
 
 >[!NOTE]
 >
