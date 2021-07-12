@@ -6,7 +6,7 @@ feature: Recorridos
 role: Business Practitioner
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
+source-git-commit: f6059f174e983433d3ad24d06c0d0c74788bc792
 workflow-type: tm+mt
 source-wordcount: '1665'
 ht-degree: 3%
@@ -64,7 +64,7 @@ Para utilizar el modo de prueba, siga estos pasos:
 
 ## Conversión de un perfil en un perfil de prueba{#turning-profile-into-test}
 
-Puede convertir un perfil existente en un perfil de prueba. En Adobe Experience Platform, puede actualizar los atributos de perfil mediante llamadas a la API, pero no se pueden realizar a través de la interfaz.
+Puede convertir un perfil existente en un perfil de prueba. En Adobe Experience Platform, puede actualizar los atributos de perfil a través de llamadas de API, pero no se pueden realizar mediante la interfaz.
 
 La forma más sencilla de hacerlo es usar una actividad de acción **Update profile** y cambiar el campo booleano del perfil de prueba de falso a verdadero. Consulte [esta sección](../building-journeys/update-profiles.md#using-the-test-mode).
 
@@ -180,7 +180,7 @@ Se muestra el número de personas (técnicamente, se denominan instancias) que e
 
 * _Id_: el ID interno de la persona en el recorrido. Esto se puede utilizar con fines de depuración.
 * _currentstep_: el paso en el que se encuentra el individuo en el recorrido. Recomendamos añadir etiquetas a las actividades para identificarlas con mayor facilidad.
-* _currentstep_  > fase: el estado del recorrido del individuo (en ejecución, terminado, error o tiempo de espera agotado). Consulte a continuación para obtener más información.
+* _currentstep_  > fase: el estado del recorrido del individuo (en ejecución, terminado, error o tiempo de espera agotado). Para obtener más información, vaya más abajo.
 * _currentstep_  >  _extraInfo_: descripción del error y otra información contextual.
 * _currentstep_  >  _fetchErrors_: información sobre los errores de recuperación de datos que se produjeron durante este paso.
 * _externalKeys_: el valor de la fórmula clave definida en el evento.
