@@ -3,17 +3,17 @@ product: adobe campaign
 title: Saltar de un recorrido a otro
 description: Saltar de un recorrido a otro
 feature: Recorridos
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: eaf2c795-0920-4b9c-9f06-801e43c1844b
-source-git-commit: 29aa6b6e16f8e6d051065f8157f4e25e8b1c05e1
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '371'
+ht-degree: 4%
 
 ---
 
-# Actualizar perfil {#update-profile}
+# Actualización de perfil {#update-profile}
 
 La actividad de acción **[!UICONTROL Update profile]** le permite actualizar un perfil de Adobe Experience Platform existente con información proveniente del evento, una fuente de datos o con un valor específico.
 
