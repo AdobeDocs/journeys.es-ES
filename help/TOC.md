@@ -5,27 +5,27 @@ title: Guía de Journey Orchestration
 user-guide-description: Proporciona instrucciones prácticas para implementar y construir recorridos.
 index: true
 feature: Recorridos
-source-git-commit: 8d10739381b4f5b09ad7070498d5f1566961c221
-workflow-type: ht
-source-wordcount: '424'
-ht-degree: 100%
+source-git-commit: a472bb9ffe45159c8318f00a43c25fc41cb6d683
+workflow-type: tm+mt
+source-wordcount: '422'
+ht-degree: 99%
 
 ---
 
 
-# Guía de [!DNL Journey Orchestration] {#using}
+# [!DNL Journey Orchestration] Guía {#using}
 
 + [Documentación del producto](journey-orchestration-home.md)
 + Novedades {#release-notes}
    + [Notas de la versión](using/release-notes/release-notes.md)
-   + [Actualizaciones de la documentación](using/release-notes/documentation-updates.md)
+   + [Actualizaciones de documentación](using/release-notes/documentation-updates.md)
 + Primeros pasos con [!DNL Journey Orchestration] {#starting-with-journeys}
    + [Acerca de  [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [Limitaciones](using/about/limitations.md)
-   + [Introducción](using/about/get-started.md)
+   + [Introducción ](using/about/get-started.md)
    + [Interfaz de usuario](using/about/user-interface.md)
-   + [Gestión de acceso](using/about/access-management.md)
-   + [Solución de problemas](using/about/troubleshooting.md)
+   + [Administración de acceso](using/about/access-management.md)
+   + [Resolución de problemas](using/about/troubleshooting.md)
    + [Integración con sistemas externos](using/about/external-systems.md)
 + Configuración de un evento {#events-journeys}
    + Acerca de los eventos {#about-events}
@@ -53,13 +53,13 @@ ht-degree: 100%
       + [Acerca de la configuración de acciones personalizadas](using/action/about-custom-action-configuration.md)
       + [Configuración de URL](using/action/url-configuration.md)
       + [Definición de los parámetros del mensaje](using/action/defining-the-message-parameters.md)
-+ Uso de segmentos de plataforma {#configuring-segment}
-   + [Acerca de los segmentos de plataforma](using/segment/about-segments.md)
++ Uso de segmentos {#configuring-segment}
+   + [Acerca de los segmentos](using/segment/about-segments.md)
    + [Creación de un segmento](using/segment/creating-a-segment.md)
    + [Uso de segmentos en condiciones](using/segment/using-a-segment.md)
 + Crear un recorrido {#building-journeys}
    + Acerca de la creación de un recorrido {#about-journey-building}
-      + [Crear un recorrido](using/building-journeys/journey.md)
+      + [Creación de un recorrido](using/building-journeys/journey.md)
       + [Uso del diseñador de recorridos](using/building-journeys/using-the-journey-designer.md)
       + [Cambio de las propiedades](using/building-journeys/changing-properties.md)
       + [Versiones de recorridos](using/building-journeys/journey-versions.md)
@@ -70,7 +70,7 @@ ht-degree: 100%
       + Actividades de eventos {#events-activities}
          + [Acerca de las actividades de eventos](using/building-journeys/event-activities.md)
          + [Eventos generales](using/building-journeys/general-events.md)
-         + [Eventos de reacción](using/building-journeys/reaction-events.md)
+         + [Reacción Events](using/building-journeys/reaction-events.md)
          + [Eventos de calificación de segmentos](using/building-journeys/segment-qualification-events.md)
       + Actividades de organización {#orchestration-activities}
          + [Acerca de las actividades de organización](using/building-journeys/about-orchestration-activities.md)
@@ -83,7 +83,7 @@ ht-degree: 100%
          + [Uso de Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-classic.md)
          + [Uso de acciones personalizadas](using/building-journeys/using-custom-actions.md)
          + [Saltar de un recorrido a otro](using/building-journeys/jump.md)
-         + [Actualizar perfil](using/building-journeys/update-profiles.md)
+         + [Actualización de perfil](using/building-journeys/update-profiles.md)
    + [Prueba del recorrido](using/building-journeys/testing-the-journey.md)
    + [Publicación del recorrido](using/building-journeys/publishing-the-journey.md)
    + Uso compartido de los pasos del recorrido con Adobe Experience Platform {#sharing-journey-steps}
@@ -144,11 +144,11 @@ ht-degree: 100%
          + [distinct](using/functions/functiondistinct.md)
          + [distinctWithNull](using/functions/functiondistinctwithnull.md)
          + [getListItem](using/functions/functiongetlistitem.md)
-         + [in](using/functions/functionin.md)
+         + [en](using/functions/functionin.md)
          + [listSize](using/functions/functionlistsize.md)
          + [serializeList](using/functions/functionserializelist.md)
          + [sort](using/functions/functionsort.md)
-      + Matemáticas {#math}
+      + Math {#math}
          + [random](using/functions/functionrandom.md)
          + [round](using/functions/functionround.md)
       + Cadena {#string}
@@ -182,7 +182,7 @@ ht-degree: 100%
 + Integración con servicios inteligentes{#use-case-advanced}
    + [Acerca de la integración de inteligencia artificial](using/ai-services/ai-services-overview.md)
    + [Aprovechamiento de la inteligencia artificial aplicada al cliente](using/ai-services/leveraging-customer-ai.md)
-+ Ejemplos de uso{#use-cases-journeys}
++ Casos de uso{#use-cases-journeys}
    + Envío de un correo electrónico personalizado{#use-case-simple}
       + [Acerca del caso de uso simple](using/usecase/about-the-simple-use-case.md)
       + [Configuración del evento](using/usecase/configuring-the-event.md)
