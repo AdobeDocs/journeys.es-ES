@@ -3,10 +3,10 @@ product: adobe campaign
 title: Acerca de la configuración de acciones personalizadas
 description: Obtenga información sobre cómo configurar una acción personalizada
 feature: Recorridos
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 8b24abef-700d-4f68-a921-d7299c939439
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 15%
