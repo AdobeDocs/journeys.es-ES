@@ -3,13 +3,13 @@ product: adobe campaign
 title: campos del recorrido
 description: campos del recorrido
 feature: Recorridos
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 4d0245de-a2cf-44c6-93d2-3309a3314e5e
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '68'
-ht-degree: 11%
+ht-degree: 27%
 
 ---
 
@@ -21,28 +21,28 @@ Esta mezcla se utiliza en el esquema de recorrido (en relación con journeyStepE
 
 Id del recorrido principal.
 
-Tipo: string
+Tipo: cadena
 
 ## journeyVersionID
 
 Id de la versión de recorrido. Este id representa la identidad de un recorrido.
 
-Tipo: string
+Tipo: cadena
 
 ## name
 
 Nombre del recorrido.
 
-Tipo: string
+Tipo: cadena
 
 ## descripción
 
 Descripción del recorrido.
 
-Tipo: string
+Tipo: cadena
 
 ## version
 
 Versión, representada como `major`.`minor`
 
-Tipo: string
+Tipo: cadena
