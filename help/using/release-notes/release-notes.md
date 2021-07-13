@@ -3,20 +3,20 @@ product: adobe campaign
 title: Notas de la versión
 description: Más información sobre las notas de la versión
 feature: Recorridos
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: e2ff3e9d86aa9f603cf3d66507881d482a95a4a5
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '2625'
-ht-degree: 60%
+ht-degree: 61%
 
 ---
 
 # Notas de la versión {#release-notes}
 
 Esta página lista todas las nuevas funciones y mejoras de Journey Orchestration.
-También puede consultar las [Actualizaciones de documentación](../release-notes/documentation-updates.md) más recientes.
+También puede consultar las últimas [Actualizaciones de documentación](../release-notes/documentation-updates.md).
 
 ## Versión de junio de 2021 {#june-2021-release}
 
@@ -44,13 +44,13 @@ También puede consultar las [Actualizaciones de documentación](../release-note
 * En la pantalla de la lista de recorridos, se ha añadido un nuevo filtro. Ahora puede filtrar por tipo de recorrido: **[!UICONTROL Unitary event]** o **[!UICONTROL Segment qualification]**. [Más información](../about/user-interface.md#section_lgm_hpz_pgb)
 * En el caso de los recorridos activos, la pantalla de propiedades de recorrido ahora muestra la fecha de publicación y el nombre del usuario que publicó el recorrido. Esta información también está disponible cuando copia los detalles técnicos del recorrido. [Más información](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
 
-## Versión de abril de 2021 {#april-2021-release}
+## Lanzamiento de abril de 2021 {#april-2021-release}
 
 ### Mejoras
 
 * En la pantalla **Event configuration** del modo de prueba, ahora se muestra un menú desplegable para los campos que esperan una enumeración. Simplemente seleccione uno de los valores disponibles. Esto evitará errores al activar el evento si se define un valor incorrecto. [Más información](../building-journeys/testing-the-journey.md#firing_events)
 
-## Versión de marzo de 2021 {#march-2021-release}
+## Lanzamiento de marzo de 2021 {#march-2021-release}
 
 ### Mejoras
 
@@ -84,7 +84,7 @@ También puede consultar las [Actualizaciones de documentación](../release-note
 * Al iniciar un nuevo recorrido, ahora se ocultan los elementos que no se pueden soltar en el lienzo como primer paso. Esto se refiere a todas las acciones, la actividad de la condición, la espera y la reacción.
 * En la parte izquierda del editor de expresiones avanzadas, las funciones ahora se reagrupan en una sección **Functions** al final de la lista.
 
-## Versión de enero de 2021 {#january-2021-release}
+## Lanzamiento de enero de 2021 {#january-2021-release}
 
 Al seleccionar un esquema en la configuración de evento, solo se seleccionan los campos obligatorios para que el Journey Orchestration reciba el evento correctamente. [Más información](../event/defining-the-payload-fields.md)
 
@@ -115,7 +115,7 @@ Las funciones [getListItem](../functions/functiongetlistitem.md) y [split](../fu
 <li>simplificar el diseño de recorridos muy complejos dividiéndolos en varios </li>
 <li>generar recorridos basados en patrones de recorrido comunes y reutilizables</li>
 </ul>
-<p>Para obtener más información, consulte la <a href="../building-journeys/jump.md">documentación detallada</a> y el <a href="https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html">videotutorial</a>.</p>
+<p>Para obtener más información, consulte la <a href="../building-journeys/jump.md">documentación detallada</a> y el <a href="https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=es">videotutorial</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -500,7 +500,7 @@ La interfaz de Journey Orchestration está disponible en japonés.
 
 * Además de EE. UU., Journey Orchestration ya está disponible en **EMEA**. La aplicación y la documentación están disponibles en francés y alemán.
 
-* Experience League está ahora integrada en el producto. Esto simplifica el acceso al contenido relacionado y le ayuda a sacar el máximo provecho de Experience Cloud. El acceso directo a la documentación de Journey Orchestration está disponible en la parte inferior de la pestaña Ayuda. Además, haga clic en Ayuda > Comentarios para informar sobre problemas o compartir sus ideas con Adobe.
+* Experience League está ahora integrada en el producto. Esto simplifica el acceso al contenido relacionado y le ayuda a sacar el máximo provecho de Experience Cloud. El acceso directo a la documentación de Journey Orchestration está disponible en la parte inferior de la pestaña Ayuda. Además, puede hacer clic en Ayuda > Comentarios para informar sobre problemas o compartir sus ideas con Adobe.
 
 * El método abreviado de teclado **C** , que le permite crear un nuevo elemento, ya está disponible en todas las pantallas de lista: recorridos, fuentes de datos, acciones y eventos. [Más información](../about/user-interface.md#section_ksq_zr1_ffb)
 
@@ -510,9 +510,9 @@ La interfaz de Journey Orchestration está disponible en japonés.
 
 ## Versión de GA: diciembre de 2019 {#ga-release---december-2019}
 
-Journey Orchestration es ahora GA.
+La organización de recorridos ahora se conoce como GA.
 
-Cree casos de uso de orquestación en tiempo real aprovechando los datos contextuales almacenados en eventos o fuentes de datos.
+Cree casos de uso de organización en tiempo real aprovechando los datos contextuales almacenados en eventos o fuentes de datos.
 
 Journey Orchestration permite la orquestación en tiempo real basada en datos contextuales de eventos, información de Adobe Experience Platform o datos de servicios API de terceros. La aplicación determina en los flujos de varios pasos llamados recorridos las siguientes mejores acciones específicas del consumidor, en función de su perfil y comportamiento. Esto incluye tanto el momento óptimo como el tipo de acción, como enviar al consumidor una notificación push a través de las funciones de mensajería transaccional de Adobe Campaign Standard (requiere Adobe Campaign Standard) o la notificación de un sistema de terceros. Estas decisiones se toman en base a reglas y puntuaciones de Sensei.
 
