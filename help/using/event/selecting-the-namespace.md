@@ -3,10 +3,10 @@ product: adobe campaign
 title: Selección del área de nombres
 description: Obtenga información sobre cómo seleccionar el área de nombres
 feature: Recorridos
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 976c6353-797e-40cc-bb90-5d82381bb903
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 6%
