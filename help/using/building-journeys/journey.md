@@ -3,17 +3,17 @@ product: adobe campaign
 title: Acerca de la creación de un recorrido
 description: Como usuario empresarial, aprenda a combinar actividades de eventos, orquestación y acciones para construir un recorrido.
 feature: Recorridos
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 540b5142-9323-4cc1-9b5a-3fa20a5945bf
-source-git-commit: 784c91054e0f6b9ea12aa4b7f4079f7c2da8f949
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '558'
-ht-degree: 13%
+ht-degree: 12%
 
 ---
 
-# Crear un recorrido {#concept_gq5_sqt_52b}
+# Creación de un recorrido {#concept_gq5_sqt_52b}
 
 Este paso lo realiza el **usuario empresarial**. Aquí es donde crea sus recorridos. Combine las distintas actividades de evento, orquestación y acción para crear sus escenarios de canal cruzado de varios pasos.
 
