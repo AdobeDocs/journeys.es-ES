@@ -3,13 +3,13 @@ product: adobe campaign
 title: Finalización de un recorrido
 description: Obtenga información sobre cómo finalizar un recorrido
 feature: Recorridos
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 2d1b9d6b-0a53-436c-b251-ce77cb931aaa
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -35,7 +35,7 @@ Puede cerrar un recorrido haciendo clic en **[!UICONTROL Close to new entrances]
 
 ![](../assets/do-not-localize/journey-finish-quick-action.png)
 
-También puede realizar lo siguiente:
+También puede:
 
 1. En **[!UICONTROL Home]**, haga clic en el recorrido que desee cerrar.
 1. En la parte superior derecha, haga clic en la flecha abajo.
@@ -57,7 +57,7 @@ Puede detener un recorrido (por ejemplo, si un especialista en marketing se da c
 
 ![](../assets/do-not-localize/journey-stop-quick-action.png)
 
-También puede realizar lo siguiente:
+También puede:
 
 1. En **[!UICONTROL Home]**, haga clic en el recorrido que desee detener.
 1. En la parte superior derecha, haga clic en la flecha abajo.
