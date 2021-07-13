@@ -1,25 +1,25 @@
 ---
 product: adobe campaign
-title: Gestión de acceso
+title: Administración de acceso
 description: Más información sobre la administración de acceso
 feature: Recorridos
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '855'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
-# Gestión de acceso{#concept_rfj_wpt_52b}
+# Administración de acceso{#concept_rfj_wpt_52b}
 
 ## Acerca de la administración de acceso {#about-access-management}
 
 [!DNL Journey Orchestration] Le permite asignar un conjunto de permisos a los usuarios para definir a qué parte de la interfaz pueden acceder.
 
-Pueden ser administrados por administradores que tengan acceso a la Admin Console. Para obtener más información sobre la Admin Console, consulte esta [documentación](https://helpx.adobe.com/es/enterprise/admin-guide.html).
+Pueden ser administrados por administradores que tengan acceso a la Admin Console. Para obtener más información sobre la Admin Console, consulte esta [documentación](https://helpx.adobe.com/es/enterprise/managing/user-guide.html).
 
 Para poder acceder a [!DNL Journey Orchestration], un usuario debe cumplir lo siguiente:
 
@@ -46,7 +46,7 @@ En la Admin Console, puede asignar a los usuarios uno de los siguientes perfiles
    * Administrar recorridos
    * Publicar recorridos
    * Administrar informes
-   * Leer Eventos, fuentes de datos y acciones
+   * Lea eventos, fuentes de datos y acciones
 
 También puede crear sus propios perfiles de producto si los perfiles predeterminados no son suficientes para administrar a los usuarios.
 Los usuarios siempre deben estar vinculados a un perfil de producto que le permita asignarles permisos de integración específicos como:
@@ -67,7 +67,7 @@ A continuación se muestra la compatibilidad entre los permisos y las diferentes
 
 [!DNL Journey Orchestration] le permite crear sus propios perfiles de productos, y asignar un conjunto de permisos y entornos limitados a los usuarios. Con los perfiles del producto, puede autorizar o denegar el acceso a determinadas funcionalidades u objetos de la interfaz.
 
-Para obtener más información sobre cómo crear y administrar entornos limitados, consulte la documentación de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html).
+Para obtener más información sobre cómo crear y administrar entornos limitados, consulte la documentación de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=es).
 
 Para crear un perfil de producto, y asignar un conjunto de permisos y entornos limitados haga esto:
 
@@ -123,7 +123,7 @@ Para asignar un perfil de producto para que un usuario tenga acceso [!DNL Journe
 
    ![](../assets/do-not-localize/user_management_2.png)
 
-1. Haga clic **[!UICONTROL Add user]**.
+1. Haga clic en **[!UICONTROL Add user]**.
 
    También puede agregar el nuevo usuario a un grupo de usuarios para ajustar el conjunto compartido de permisos. Para obtener más información, consulte [esta página](https://helpx.adobe.com/es/enterprise/using/user-groups.html).
 
