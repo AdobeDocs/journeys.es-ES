@@ -1,19 +1,19 @@
 ---
 product: adobe campaign
-title: Introducción
+title: 'Introducción '
 description: Descubra los pasos principales para configurar Journey Orchestration y construir su primer recorrido.
 feature: Recorridos
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: fe7bb5fe-7b5e-46da-8ef8-ae9401522c03
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 100%
 
 ---
 
-# Introducción{#concept_y4b_4qt_52b}
+# Introducción {#concept_y4b_4qt_52b}
 
 En [!DNL Journey Orchestration], hay dos tipos de usuarios, cada uno de los cuales realiza tareas específicas: el **usuario técnico** y el **usuario empresarial**. El acceso de los usuarios se administra mediante perfiles y derechos del producto. Consulte [esta página ](../about/access-management.md) para aprender a configurar el acceso de los usuarios.
 
