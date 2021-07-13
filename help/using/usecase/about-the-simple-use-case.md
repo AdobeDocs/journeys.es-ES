@@ -3,19 +3,19 @@ product: adobe campaign
 title: Acerca del caso de uso simple
 description: Obtenga más información sobre el caso de uso simple de recorrido
 feature: Recorridos
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 11858c7a-fdb3-43a4-af28-0d5c23fa2468
-source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '174'
-ht-degree: 9%
+ht-degree: 14%
 
 ---
 
 # Acerca del caso de uso simple{#concept_grh_vby_w2b}
 
-## Objetivo {#purpose}
+## Finalidad {#purpose}
 
 Veamos el ejemplo de una marca de hotel llamada Marlton. En sus hoteles, han colocado dispositivos de señalización cerca de todas las áreas estratégicas: vestíbulo, pisos, restaurante, gimnasio, piscina, etc.
 
@@ -27,7 +27,7 @@ Queremos enviar un mensaje solo si la persona es mujer. El mensaje debe recibirs
 
 ## Requisitos previos {#prerequisites}
 
-Para nuestro caso de uso, hemos diseñado una plantilla de mensajería transaccional de correo electrónico en Adobe Campaign Standard. Estamos utilizando una plantilla de mensajería transaccional de eventos. Consulte [esta página](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html).
+Para nuestro caso de uso, hemos diseñado una plantilla de mensajería transaccional de correo electrónico en Adobe Campaign Standard. Estamos utilizando una plantilla de mensajería transaccional de eventos. Consulte [esta página](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=es).
 
 Adobe Campaign Standard está configurado para enviar correos electrónicos.
 
