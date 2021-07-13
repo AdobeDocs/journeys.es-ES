@@ -3,10 +3,10 @@ product: adobe campaign
 title: Creación de informes de recorrido
 description: Obtenga información sobre cómo crear informes de recorrido
 feature: Recorridos
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 0d2417e9-5b3f-442d-a00d-8b4df239d952
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 5%
