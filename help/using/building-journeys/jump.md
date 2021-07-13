@@ -3,13 +3,13 @@ product: adobe campaign
 title: Saltar de un recorrido a otro
 description: Saltar de un recorrido a otro
 feature: Recorridos
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 520376aa-2cb5-46d6-8f21-3e03544f5da1
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '792'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -26,7 +26,7 @@ En el recorrido de destino, el primer evento activado internamente por la activi
 
 >[!NOTE]
 >
->Consulte también el tutorial en vídeo [aquí](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html)
+>Consulte también el tutorial en vídeo [aquí](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=es)
 
 ## Ciclo de vida
 
@@ -106,7 +106,7 @@ Cuando se configura una actividad **[!UICONTROL Jump]** en un recorrido, se agre
 
 ![](../assets/jump7.png)
 
-## Solución de problemas
+## Resolución de problemas
 
 Cuando se publica el recorrido o en modo de prueba, se producen errores si:
 * el recorrido de destino ya no existe
