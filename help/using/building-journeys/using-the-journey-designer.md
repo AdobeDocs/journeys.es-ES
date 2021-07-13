@@ -3,10 +3,10 @@ product: adobe campaign
 title: Uso del diseñador de recorridos
 description: Más información sobre el uso del diseñador de recorridos
 feature: Recorridos
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 2f001e42-46dd-48aa-b3dd-23bfdf97e1c7
-source-git-commit: 51915ac931c0c4af03b49140c20e1b0939beff65
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '1423'
 ht-degree: 5%
