@@ -3,10 +3,10 @@ product: adobe campaign
 title: Acerca de las fuentes de datos
 description: 'Obtenga información sobre cómo configurar una fuente de datos '
 feature: Recorridos
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 2371d2c9-3035-46ac-9c76-755fb453c24e
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 79%
@@ -55,6 +55,6 @@ Estos son los pasos principales de la configuración de la fuente de datos:
 
    ![](../assets/journey23.png)
 
-1. Haga clic **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Save]**.
 
    La fuente de datos está ahora configurada y lista para utilizarse en sus recorridos.
