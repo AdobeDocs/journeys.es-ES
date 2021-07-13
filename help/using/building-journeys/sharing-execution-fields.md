@@ -1,19 +1,19 @@
 ---
 product: adobe campaign
-title: Campos de ejecución de la acción eventos de los journeyStep
-description: Campos de ejecución de la acción eventos de los journeyStep
+title: Campos de ejecución de la acción de eventos de journeySteps
+description: Campos de ejecución de la acción de eventos de journeySteps
 feature: Recorridos
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 9af66037-63d7-41a8-86d1-b03c655dfb82
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '321'
-ht-degree: 5%
+ht-degree: 14%
 
 ---
 
-# Campos de ejecución de la acción eventos de los journeyStep {#sharing-execution-fields}
+# Campos de ejecución de la acción de eventos de journeySteps {#sharing-execution-fields}
 
 Esta mezcla la compartirán journeyStepEvent y journeyStepProfileEvent.
 
@@ -23,19 +23,19 @@ Si el paso tiene que procesarse una acción, esos campos se añaden a la carga �
 
 ID de la acción que se está ejecutando.
 
-Tipo: string
+Tipo: cadena
 
 ## actionName
 
 Nombre de la acción. Si no se ha establecido ningún nombre, se tomará el valor stepName.
 
-Tipo: string
+Tipo: cadena
 
 ## actionType
 
 Tipo de acción.
 
-Tipo: string
+Tipo: cadena
 
 ## actionParameterized
 
@@ -53,7 +53,7 @@ Tipo: long
 
 Tipo de error que se produce cuando se llama a la acción.
 
-Tipo: string
+Tipo: cadena
 
 Valores:
 * http
@@ -65,7 +65,7 @@ Valores:
 
 Código de error de ejecución de acción. Presente si el error tiene un código, como uno HTTP.
 
-Tipo: string
+Tipo: cadena
 
 ## actionExecutionOriginError
 
@@ -87,13 +87,13 @@ Por ejemplo, se envía un correo electrónico y se devuelve un error HTTP 500 en
     "actionExecOrigErrorCode": "500"
 ```
 
-Tipo: string
+Tipo: cadena
 
 ## actionExecutionOriginCode
 
 Código de error de actionExecOrigError.
 
-Tipo: string
+Tipo: cadena
 
 ## actionBusinessType
 
@@ -109,19 +109,19 @@ Valores:
 * Epsilon
 * ...
 
-Tipo: string
+Tipo: cadena
 
 ## deliveryJobID
 
 Esto describe el Id. de trabajo de entrega para el Recorrido por lotes.
 
-Tipo: string
+Tipo: cadena
 
 ## batchDeliveryID
 
 Esto describe el ID de entrega del Recorrido por lotes.
 
-Tipo: string
+Tipo: cadena
 
 ## fromSegmentTrigger
 
