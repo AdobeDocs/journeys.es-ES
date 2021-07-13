@@ -4,13 +4,13 @@ title: Captación de la descripción de la API
 description: Obtenga más información sobre la API de restricción.
 products: journeys
 feature: Recorridos
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
-source-git-commit: e42ef98b1d84d8311cf49967ec75ec9be6cc53f1
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '1171'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -44,7 +44,7 @@ Para probar y preparar la integración, hay una colección Postman disponible [a
 
 >[!CAUTION]
 >
->Para administrar certificados en el Adobe I/O, asegúrese de que tiene <b>derechos de administrador del sistema</b> en la organización o una [cuenta de desarrollador](https://helpx.adobe.com/enterprise/using/manage-developers.html) en Admin Console.
+>Para administrar certificados en el Adobe I/O, asegúrese de que tiene <b>derechos de administrador del sistema</b> en la organización o una [cuenta de desarrollador](https://helpx.adobe.com/es/enterprise/using/manage-developers.html) en Admin Console.
 
 1. **Compruebe que tiene un certificado** digital o cree uno si es necesario. Las claves pública y privada proporcionadas con el certificado son necesarias en los siguientes pasos.
 1. **Cree una nueva integración a  [!DNL Journey Orchestration]** Service en Adobe I/O y configúrela. El acceso al perfil de producto es necesario para [!DNL Journey Orchestration] y Adobe Experience Platform. A continuación, se generarán sus credenciales (clave de API, secreto de cliente...).
@@ -174,41 +174,41 @@ Esta colección Postman se ha configurado para compartir la colección Variable 
 Una vez descargado y cargado en Postman, debe añadir tres variables: `{JO_HOST}`,`{Base_Path}` y `{SANDBOX_NAME}`.
 * `{JO_HOST}` :  [!DNL Journey Orchestration] URL de puerta de enlace
 * `{BASE_PATH}` : punto de entrada para la API. El valor es &quot;/authoring&quot;
-* `{SANDBOX_NAME}` : el encabezado  **x-sandbox-name**  (por ejemplo, &quot;prod&quot;) correspondiente al nombre del simulador para pruebas donde se realizarán las operaciones de API. Consulte la [información general de los entornos limitados](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html) para obtener más información.
+* `{SANDBOX_NAME}` : el encabezado  **x-sandbox-name**  (por ejemplo, &quot;prod&quot;) correspondiente al nombre del simulador para pruebas donde se realizarán las operaciones de API. Consulte la [información general de los entornos limitados](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es) para obtener más información.
 
 En la siguiente sección, encontrará la lista ordenada de llamadas al resto de API para realizar el caso de uso.
 
 Caso de uso n°1: **Creación e implementación de una nueva configuración de límite**
 
-1. lista
+1. list
 1. crear
 1. candeploy
 1. implementar
 
 Caso de uso n°2: **Actualice e implemente una configuración de límite que aún no esté implementada**
 
-1. lista
-1. get
+1. list
+1. obtener
 1. actualizar
 1. candeploy
 1. implementar
 
 Caso de uso n°3: **Anule la implementación y elimine una configuración de restricción implementada**
 
-1. lista
+1. list
 1. anular implementación
 1. delete
 
 Caso de uso n°4: **Elimine una configuración de restricción implementada.**
 
 En una sola llamada de API, puede anular la implementación y eliminar la configuración con el uso del parámetro forceDelete .
-1. lista
+1. list
 1. delete, con el parámetro forceDelete
 
 Caso de uso n°5: **Actualizar una configuración de límite ya implementada**
 
-1. lista
-1. get
+1. list
+1. obtener
 1. actualizar
 1. anular implementación
 1. candeploy
