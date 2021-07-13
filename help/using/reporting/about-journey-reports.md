@@ -3,10 +3,10 @@ product: adobe campaign
 title: Acerca de los informes de recorrido
 description: Obtenga información sobre cómo crear informes de recorrido
 feature: Recorridos
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 93768321-b171-4338-a440-6ea189a85a4a
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 1%
@@ -58,7 +58,7 @@ Estas pestañas le permiten acceder a los siguientes elementos:
 * **[!UICONTROL Visualizations]**: arrastre y suelte una selección de elementos de visualización para proporcionar al informe una dimensión gráfica. Para obtener más información, consulte la sección [Añadir visualizaciones](../reporting/creating-your-journey-reports.md#adding-visualizations) .
 * **[!UICONTROL Components]**: personalice los informes con diferentes dimensiones, métricas, segmentos y períodos de tiempo. Para obtener más información, consulte la sección [Adición de componentes](../reporting/creating-your-journey-reports.md#adding-components) .
 
-## Plantilla de resumen del recorrido {#ootb-template}
+## Recorrido de la plantilla de resumen {#ootb-template}
 
 Los informes se dividen en dos categorías: una plantilla predeterminada e informes personalizados.
 La plantilla predeterminada, **[!UICONTROL Journey summary]**, le proporciona una vista clara de los datos de seguimiento más importantes.
