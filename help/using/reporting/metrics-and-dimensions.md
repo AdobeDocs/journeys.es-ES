@@ -3,13 +3,13 @@ product: adobe campaign
 title: Métricas y dimensiones
 description: Obtenga información sobre las dimensiones y métricas disponibles para el Journey Orchestration
 feature: Recorridos
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: f6897011-0a5e-4094-a18e-ba2aa25f902c
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '1036'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -29,7 +29,7 @@ Para obtener más información sobre la compatibilidad entre dimensiones y métr
 
 La tabla siguiente proporciona la lista de dimensiones utilizadas en los informes de recorrido, sus definiciones y fórmulas.
 
-| Dimension | Definición |
+| Dimensiones | Definición |
 |--- |--- |
 | **Acción** | Lista de todas las acciones (**nombre de acción - etiqueta de acción**) utilizadas en recorridos como, por ejemplo, Push - Check out confirmation, Email - Rewards fidelity. |
 | **Fuente de datos** | Lista de fuentes de datos (**nombre de fuente de datos**) utilizadas para enriquecer los datos en un recorrido, por ejemplo, Adobe Experience Platform, sistema de reserva. |
@@ -45,9 +45,9 @@ La tabla siguiente proporciona la lista de dimensiones de envío utilizadas en l
 
 | Dimensión | Definición |
 |--- |--- |
-| **Navegador** | Explorador desde el que se abrió o se hizo clic en el mensaje. |
+| **Browser** | Explorador desde el que se abrió o se hizo clic en el mensaje. |
 | **Nombre de la entrega** | Etiqueta e ID de la entrega. |
-| **Dispositivo** | Dispositivo desde el que se abrió, visualizó o hizo clic en la notificación de correo electrónico/SMS/push. |
+| **Device** | Dispositivo desde el que se abrió, visualizó o hizo clic en la notificación de correo electrónico/SMS/push. |
 | **Tipo de mensaje** | Canal utilizado para el envío, como correo electrónico, SMS, notificaciones push o en la aplicación. |
 | **Nombre de la aplicación móvil** | Nombre de la aplicación móvil |
 | **Plataforma** | Plataforma del dispositivo desde el que se abrió, visualizó o hizo clic en el mensaje. |
@@ -78,7 +78,7 @@ La tabla siguiente proporciona la lista de métricas utilizadas en los informes 
 | **Enriquecimiento ejecutado** | Número total de enriquecimientos ejecutados llamando a una fuente de datos para obtener grupos de campos específicos. |
 | **Evento ejecutado** | Número total de acciones ejecutadas para un recorrido. |
 | **Organización ejecutada** | Número total de objetos de organización (fin, espera, condición) ejecutados para un recorrido. |
-| **Error** | Número total de recorridos que no se ejecutaron correctamente. |
+| **Fallido** | Número total de recorridos que no se ejecutaron correctamente. |
 | **Tasa de error** | Número total de recorridos que no se ejecutaron correctamente comparados con el número de recorridos en ejecución. |
 
 ## Métricas de envío {#delivery-metrics}
@@ -94,14 +94,14 @@ informes, sus definiciones y fórmulas.
 | **Devoluciones + tasa de error** | Número total de mensajes devueltos en comparación con los mensajes enviados. |
 | **Haga clic en** | Número de veces que se hizo clic en un contenido en una entrega. |
 | **Tasa de pulsaciones** | Número total de clics en una entrega en comparación con el número de mensajes enviados. |
-| **Entrega** | Número de mensajes enviados correctamente, en relación con el número total de mensajes enviados. |
+| **Entregados** | Número de mensajes enviados correctamente, en relación con el número total de mensajes enviados. |
 | **Tasa de entrega** | Número total de mensajes enviados correctamente comparados con los mensajes enviados. |
 | **Error** | Número total de errores que se produjeron durante un recorrido pero que no impidieron que el recorrido se realizara correctamente. |
 | **Rechazo grave** | Número total de errores permanentes, como una dirección de correo electrónico incorrecta. |
 | **Tasa de salida hacia otro sitio** | Número total de envíos que fallaron debido a errores permanentes en comparación con los mensajes enviados. |
 | **Página espejo** | Número de destinatarios que hicieron clic en el vínculo de la página espejo. |
 | **Tasa de página espejo** | Número total de clics en el vínculo de la página espejo en comparación con el total de mensajes enviados. |
-| **Apertura** | Número de veces que se abrió un mensaje en una entrega. |
+| **Abri** | Número de veces que se abrió un mensaje en una entrega. |
 | **Tasa de apertura** | Número total de mensajes abiertos comparados con el número de mensajes enviados. |
 | **Cuarentena** | Número de mensajes que se rebotaron y que dieron como resultado la cuarentena de la dirección. |
 | **Tasa de cuarentena** | Número total de cuarentenas en comparación con los mensajes enviados. |
