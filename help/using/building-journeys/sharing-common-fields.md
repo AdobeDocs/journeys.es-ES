@@ -3,17 +3,17 @@ product: adobe campaign
 title: campos comunes de los eventos de los recorridos
 description: campos comunes de los eventos de los recorridos
 feature: Recorridos
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 5cf8e6b5-2162-4aa3-b071-96ede31948e6
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '582'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
-# campos comunes {#sharing-common-fields} de los eventos de los recorridos
+# campos comunes de los eventos de los recorridos {#sharing-common-fields}
 
 Esta mezcla la compartirán journeyStepEvent y journeyStepProfileEvent.
 
@@ -47,31 +47,31 @@ Tipo: booleano
 
 ID de evento en procesamiento, para el procesamiento de pasos. Si el evento es externo, el valor es eventId. Si el evento es interno, el valor es el eventId interno (como scheduledNotificationReceived, executeAction, etc.).
 
-Tipo: string
+Tipo: cadena
 
 ## nodeID
 
 ID de nodo de cliente (desde el lienzo).
 
-Tipo: string
+Tipo: cadena
 
 ## stepID
 
 ID único del paso que se está procesando actualmente.
 
-Tipo: string
+Tipo: cadena
 
 ## stepName
 
 Nombre del paso que se está procesando actualmente.
 
-Tipo: string
+Tipo: cadena
 
 ## stepType
 
 Tipo del paso.
 
-Tipo: string
+Tipo: cadena
 
 Valores posibles:
 
@@ -84,7 +84,7 @@ Valores posibles:
 
 Estado del paso, que representa el estado del paso, cuándo se ha completado su procesamiento (y el evento de paso se ha activado).
 
-Tipo: string
+Tipo: cadena
 
 El estado puede ser:
 
@@ -99,61 +99,61 @@ El estado puede ser:
 
 ID del recorrido.
 
-Tipo: string
+Tipo: cadena
 
 ## journeyVersionID
 
 ID de la versión de recorrido. Este id representa la referencia de identidad al recorrido, en el caso de journeyStepEvent.
 
-Tipo: string
+Tipo: cadena
 
 ## journeyVersionName
 
 Nombre de la versión de recorrido.
 
-Tipo: string
+Tipo: cadena
 
 ## journeyVersion
 
 Versión de la versión de recorrido.
 
-Tipo: string
+Tipo: cadena
 
 ## instanceID
 
 ID interno de la instancia de recorrido.
 
-Tipo: string
+Tipo: cadena
 
 ## externalKey
 
 Clave externa extraída del evento para procesarla.
 
-Tipo: string
+Tipo: cadena
 
 ## parentStepID
 
 ID de paso del paso principal del paso procesado actual en la instancia.
 
-Tipo: string
+Tipo: cadena
 
 ## parentStepName
 
 Nombre del paso principal del paso actual.
 
-Tipo: string
+Tipo: cadena
 
 ## parentTransitionID
 
 Id de la transición que ha llevado la instancia al paso procesado.
 
-Tipo: string
+Tipo: cadena
 
 ## parentTransitionName
 
 Nombre de la transición que ha llevado la instancia al paso procesado.
 
-Tipo: string
+Tipo: cadena
 
 ## inTest
 
@@ -171,7 +171,7 @@ Tipo: long
 
 Indica el tipo de instancia, si es por lotes o unitarios.
 
-Tipo: string
+Tipo: cadena
 
 Valores: lote/unidad
 
@@ -191,16 +191,16 @@ Tipo: booleano
 
 Clave externa para el evento por lotes.
 
-Tipo: string
+Tipo: cadena
 
 ## batchInstanceID
 
 es el ID de instancia por lotes.
 
-Tipo: string
+Tipo: cadena
 
 ## batchUnitaryBranchID
 
 si la instancia se ha activado desde una instancia de lote, ID de rama unitaria.
 
-Tipo: string
+Tipo: cadena
