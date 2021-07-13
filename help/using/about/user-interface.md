@@ -3,13 +3,13 @@ product: adobe campaign
 title: Interfaz de usuario
 description: Más información sobre la interfaz de usuario
 feature: Recorridos
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
-source-git-commit: e09b49372f217a2e77504046ddf11e04a4c2b364
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '1015'
-ht-degree: 89%
+ht-degree: 95%
 
 ---
 
@@ -77,7 +77,7 @@ En las diferentes listas, puede realizar acciones básicas por cada elemento. Po
 
 Al definir la [carga útil de evento](../event/defining-the-payload-fields.md), la [carga útil de grupo de campos](../datasource/field-groups.md) y seleccionar los campos en el [editor de expresiones](../expression/expressionadvanced.md), se muestra el nombre para mostrar además del nombre del campo. Esta información se recupera de la definición de esquema del modelo de datos de Experience.
 
-Si se proporcionan descriptores como &quot;xdm:alternateDisplayInfo&quot; al configurar esquemas, los nombres descriptivos reemplazarán los nombres para mostrar. Resulta especialmente útil cuando se trabaja con &quot;eVars&quot; y campos genéricos. Puede configurar descriptores de nombres prácticos mediante una llamada API. Para obtener más información, consulte la [Guía para desarrolladores de Schema Registry](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
+Si se proporcionan descriptores como &quot;xdm:alternateDisplayInfo&quot; al configurar esquemas, los nombres descriptivos reemplazarán los nombres para mostrar. Resulta especialmente útil cuando se trabaja con &quot;eVars&quot; y campos genéricos. Puede configurar descriptores de nombres prácticos mediante una llamada API. Para obtener más información, consulte la [Guía para desarrolladores de Schema Registry](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=es).
 
 ![](../assets/xdm-from-descriptors.png)
 
@@ -139,6 +139,6 @@ _En el lienzo de un recorrido:_
 _En un recorrido:_
 
 * Pulse **T** para habilitar/deshabilitar el modo de prueba.
-* En un recorrido basado en eventos en el modo de prueba, pulse **E** para almacenar en déclencheur un evento.
-* En un recorrido basado en segmentos, cuando la opción **Un perfil a la vez** está seleccionada en modo de prueba, presione **P** para almacenar en déclencheur un evento.
+* En un recorrido basado en eventos en el modo de prueba, pulse **E** para activar un evento.
+* En un recorrido basado en segmentos, cuando la opción **Un perfil a la vez** está seleccionada en modo de prueba, pulse **P** para activar un evento.
 * En el modo de prueba, pulse **L** para mostrar los registros.
