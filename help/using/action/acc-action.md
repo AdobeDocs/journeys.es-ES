@@ -3,13 +3,13 @@ product: adobe campaign
 title: Acerca de la integración de Campaign v7/v8
 description: Información sobre la integración de Campaign v7/v8
 feature: Recorridos
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 4b321b63-c624-4c2a-ae92-f9a2a95688d4
-source-git-commit: 8d10739381b4f5b09ad7070498d5f1566961c221
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 4%
+ht-degree: 9%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 Esta integración está disponible para Adobe Campaign Classic v7 a partir de la versión 21.1 y Adobe Campaign v8. Le permite enviar correos electrónicos, notificaciones push y SMS mediante las funciones de mensajería transaccional de Adobe Campaign.
 
-La conexión entre el Journey Orchestration y las instancias de Campaign se configura por Adobe en el momento del aprovisionamiento.
+La conexión entre las instancias de Journey Orchestration y Campaign se configura por Adobe en el momento del aprovisionamiento.
 
 En esta [sección](../usecase/campaign-classic-use-case.md) se presenta un caso de uso completo.
 
@@ -41,7 +41,7 @@ En Campaign, debe crear y publicar un mensaje transaccional y su evento asociado
 
 Puede crear la carga útil JSON correspondiente a cada mensaje siguiendo el patrón a continuación. A continuación, pegue esta carga útil al configurar la acción en el Journey Orchestration (consulte a continuación)
 
-Este es un ejemplo.
+Vea el siguiente ejemplo:
 
 ```
 {
@@ -67,7 +67,7 @@ En Journey Orchestration, debe configurar una acción por mensaje transaccional.
 1. En el campo **Action type**, seleccione **Adobe Campaign Classic**.
 1. Haga clic en el campo **Payload** y pegue un ejemplo de la carga útil JSON correspondiente al mensaje de Campaign. Póngase en contacto con el Adobe para obtener esta carga útil.
 1. Ajuste los distintos campos para que sean estáticos o variables en función de si desea asignarlos en el lienzo de Recorrido. Ciertos campos, como los parámetros de canal para la dirección de correo electrónico y los campos de personalización (ctx), probablemente desee definirlos como variables para la asignación en el contexto del recorrido.
-1. Haga clic en **Save**.
+1. Haga clic en **Guardar**.
 
 ![](../assets/accintegration1.png)
 
