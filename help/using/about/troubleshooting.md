@@ -3,17 +3,17 @@ product: adobe campaign
 title: Resolución de problemas
 description: Más información sobre la solución de problemas
 feature: Recorridos
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: c678ba01-c868-49f2-99f3-1abe0302779e
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 97%
 
 ---
 
-# Solución de problemas{#concept_nlv_bcv_2fb}
+# Resolución de problemas{#concept_nlv_bcv_2fb}
 
 En esta sección, encontrará cómo solucionar problemas de recorridos antes de realizar pruebas o publicar. Todas las comprobaciones que se indican a continuación se pueden realizar cuando el recorrido está en modo de prueba o cuando el recorrido está activo. La recomendación es realizar todas las comprobaciones siguientes en el modo de prueba y luego proceder a la publicación. Consulte [esta página](../building-journeys/testing-the-journey.md).
 
