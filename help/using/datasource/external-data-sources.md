@@ -3,10 +3,10 @@ product: adobe campaign
 title: 'Fuentes de datos externas '
 description: 'Obtenga información sobre cómo configurar fuentes de datos externas '
 feature: Recorridos
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '1276'
 ht-degree: 99%
@@ -124,7 +124,7 @@ Definición del extremo al que se va a llamar para generar el token de acceso:
 
 Definición de la forma en que se debe insertar el token de acceso en la petición HTTP de la acción:
 
-* authorizationType: define cómo se debe insertar el token de acceso generado en la llamada HTTP para la acción. Los valores posibles son estos:
+* authorizationType: define cómo se debe insertar el token de acceso generado en la llamada HTTP para la acción. Los valores posibles son:
 
    * bearer: indica que el token de acceso debe inyectarse en el encabezado Autorización, como: _Autorización: Bearer &lt;token de acceso>_
    * header: indica que el token de acceso debe insertarse como encabezado, el nombre del encabezado definido por la propiedad tokenTarget. Por ejemplo, si el tokenTarget es myHeader, el token de acceso se insertará como un encabezado como: _myHeader: &lt;token de acceso>_
