@@ -1,19 +1,19 @@
 ---
 product: adobe campaign
-title: Campos de captura de datos de eventos del journeyStep
-description: Campos de captura de datos de eventos del journeyStep
+title: Campos de captura de datos de eventos de journeySteps
+description: Campos de captura de datos de eventos de journeySteps
 feature: Recorridos
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 4df471ae-c6b7-452e-8e44-a108d0da276f
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
-# Campos de captura de datos de eventos del journeyStep {#sharing-fetch-fields}
+# Campos de captura de datos de eventos de journeySteps {#sharing-fetch-fields}
 
 Esta mezcla la compartirán journeyStepEvent y journeyStepProfileEvent.
 
@@ -29,7 +29,7 @@ Tipo: long
 
 Define si la recuperación por error se realiza en Adobe Experience Platform o en una fuente de datos personalizada.
 
-Tipo: string
+Tipo: cadena
 
 Valores:
 * aep
@@ -39,7 +39,7 @@ Valores:
 
 Tipo de error que se produce cuando se procesa la captura de datos.
 
-Tipo: string
+Tipo: cadena
 
 Valores:
 * http
@@ -51,7 +51,7 @@ Valores:
 
 Código de error de recuperación. Presente si el error tiene un código, como uno HTTP. Por ejemplo, si actionExecError es http, el código 404 representa el error HTTP 404.
 
-Tipo: string
+Tipo: cadena
 
 ## fetchOriginError
 
@@ -71,13 +71,13 @@ Por ejemplo, se están recuperando datos del servicio de perfil unificado y se d
     "fetchOrigErrorCode": "500"
 ```
 
-Tipo: string
+Tipo: cadena
 
 ## fetchOriginErrorCode
 
 El código de error proporcionado por el sistema [!DNL Journey Orchestration] está consultando. Por ejemplo, puede ser 404, 500, etc.
 
-Tipo: string
+Tipo: cadena
 
 ## fetchCount
 
