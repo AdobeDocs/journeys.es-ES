@@ -3,13 +3,13 @@ product: adobe campaign
 title: Uso de acciones de Adobe Campaign
 description: Obtenga información sobre las acciones de Adobe Campaign
 feature: Recorridos
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
-source-git-commit: e7c3dde02837d31c5eb7d170cae7f142ce376175
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,7 @@ Si tiene Adobe Campaign Standard, están disponibles las siguientes actividades 
 >
 >Para ello, debe configurar la acción integrada . Consulte [esta página](../action/working-with-adobe-campaign.md).
 
-Para cada uno de estos canales, se selecciona una plantilla **de Adobe Campaign Standard Transactional Messaging**. De hecho, [!DNL Journey Orchestration] no es una solución de envío de mensajes. Para los canales integrados de correo electrónico, SMS y push, confiamos en la mensajería transaccional para ejecutar el envío de mensajes. Significa que si desea utilizar una plantilla de mensaje determinada en sus recorridos, debe publicarla en Adobe Campaign Standard. Consulte [esta página](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html) para aprender a utilizar esta función.
+Para cada uno de estos canales, se selecciona una plantilla **de Adobe Campaign Standard Transactional Messaging**. De hecho, [!DNL Journey Orchestration] no es una solución de envío de mensajes. Para los canales integrados de correo electrónico, SMS y push, confiamos en la mensajería transaccional para ejecutar el envío de mensajes. Significa que si desea utilizar una plantilla de mensaje determinada en sus recorridos, debe publicarla en Adobe Campaign Standard. Consulte [esta página](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=es) para aprender a utilizar esta función.
 
 >[!NOTE]
 >
