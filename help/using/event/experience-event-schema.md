@@ -3,13 +3,13 @@ product: adobe campaign
 title: 'Esquemas de ExperienceEvent para eventos de Journey Orchestration '
 description: 'Obtenga información sobre los esquemas de ExperienceEvent para eventos de Journey Orchestration '
 feature: Recorridos
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: ffec0d42-8632-4806-97df-da2a2372ca53
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -35,7 +35,7 @@ Cualquier esquema XDM que se utilice para eventos [!DNL Journey Orchestration] d
 
    ![](../assets/schema3.png)
 
-* Declare un campo de identidad para identificar el asunto del evento. Si no se especifica ninguna identidad, se puede utilizar un mapa de identidad. No se recomienda.
+* Declare un campo de identidad para identificar el asunto del evento. Si no se especifica ninguna identidad, se puede utilizar un mapa de identidad. Este proceso no es recomendable.
 
    ![](../assets/schema4.png)
 
