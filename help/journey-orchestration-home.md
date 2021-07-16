@@ -3,14 +3,14 @@ keywords: Recorridos;inicio;temas populares
 product: adobe campaign
 title: Documentación del producto de Journey Orchestration
 description: Documentación del producto de Journey Orchestration
-feature: Recorridos
+feature: Journeys
 role: User
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -73,10 +73,10 @@ Obtenga más información sobre las últimas versiones.
 
 * [Página de producto de Journey Orchestration](https://www.adobe.com/es/experience-platform/journey-orchestration.html)
 * [Documentación de Experience Platform](https://www.adobe.com/es/experience-platform/documentation-and-developer-resources.html)
-* [Documentación del perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
-* [Definición de campo XDM de Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)
-* [Documentación del área de nombres de identidad](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html)
-* [API de ingesta de flujos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html)
+* [Documentación del perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es)
+* [Definición de campo XDM de Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es)
+* [Documentación del área de nombres de identidad](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es)
+* [API de ingesta de flujos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=es)
 * [Documentación de mensajería transaccional de Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=es)
 
 ## Tutoriales técnicos
