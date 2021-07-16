@@ -9,14 +9,14 @@ exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # Actualizaciones de documentación
 
 Esta página lista todas las actualizaciones de documentación de [!DNL Journey Orchestration].
-También puede consultar las [!DNL Journey Orchestration][Notas de la versión](../release-notes/release-notes.md).
+También puede consultar las [!DNL Journey Orchestration] [Notas de la versión](../release-notes/release-notes.md).
 
 ## Marzo de 2021 {#march-2021}
 
@@ -39,13 +39,13 @@ También puede consultar las [!DNL Journey Orchestration][Notas de la versión](
 
 * Información añadida sobre cómo ordenar y elegir las columnas que se mostrarán en la lista de segmentos. [Más información](../building-journeys/segment-qualification-events.md)
 * Se añadió información sobre cómo copiar el nombre y la ID de un segmento después de seleccionarlo. [Más información](../building-journeys/segment-qualification-events.md)
-* Las ocurrencias de Experience Platform se han armonizado en las diferentes páginas.
+* Las ocurrencias de Experience Platform se han unificado en las diferentes páginas.
 
 ## Julio de 2020 {#july-2020}
 
 * Se ha añadido un vínculo a un nuevo vídeo de tutorial sobre el sistema de informes de eventos del paso a Adobe Experience Platform. [Más información](../building-journeys/sharing-overview.md)
 * La sección actividades de eventos se ha reorganizado en subsecciones específicas para cada tipo de evento. [Más información](../building-journeys/event-activities.md)
-* Se han añadido prácticas recomendadas para evitar sobrecargas con la calificación de segmentos. [Más información](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
+* Prácticas recomendadas añadidas para evitar sobrecargas con la calificación de segmentos. [Más información](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
 * Añadió una nota para explicar cómo continuar un recorrido después de un error en una acción o condición. [Más información](../about/troubleshooting.md#section_h3q_kqk_fhb)
 * Se ha añadido una nueva sección sobre las funciones alfa que se prueban entre un conjunto limitado de clientes.
 * Se añadió una nueva sección sobre la integración con servicios inteligentes. [Más información](../ai-services/ai-services-overview.md)
@@ -73,7 +73,7 @@ También puede consultar las [!DNL Journey Orchestration][Notas de la versión](
 
 * Descripciones de parámetros añadidos en _actionExecutionErrors_ y _fetchErrors_ en la sección de registros de pruebas. [Más información](../building-journeys/testing-the-journey.md#viewing_logs)
 * Se han actualizado las limitaciones de las acciones personalizadas utilizadas en un recorrido. También puede modificar el campo **[!UICONTROL URL]** y los parámetros **[!UICONTROL Authentication]** . [Más información](../action/about-custom-action-configuration.md)
-* Se han añadido nuevas entradas de ayuda contextual. El panel de carga útil de autenticación personalizada (en acciones y fuentes de datos) ahora incluye un icono de ayuda que se vincula a esta [sección](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
+* Se han agregado nuevas entradas de ayuda contextual. El panel de carga útil de autenticación personalizada (en acciones y fuentes de datos) ahora incluye un icono de ayuda que se vincula a esta [sección](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
 * Ahora se pueden cerrar los recorridos finalizados. [Más información](../building-journeys/using-the-journey-designer.md)
 * Se ha reorganizado la sección de descripción de la interfaz. [Más información](../about/user-interface.md)
 * Se ha añadido la activación de varios eventos a la sección Modo de prueba [Más información](../building-journeys/testing-the-journey.md#firing_events)
@@ -86,7 +86,7 @@ También puede consultar las [!DNL Journey Orchestration][Notas de la versión](
 
 ## Febrero de 2020 {#february-2020}
 
-* Se ha actualizado la sección de acceso directo. El método abreviado de teclado **C** le permite crear un nuevo elemento en todas las pantallas de lista. [Más información](../about/user-interface.md#section_ksq_zr1_ffb)
+* Se ha actualizado la sección de accesos directos. El método abreviado de teclado **C** le permite crear un nuevo elemento en todas las pantallas de lista. [Más información](../about/user-interface.md#section_ksq_zr1_ffb)
 * Se mejoraron las páginas de información general de [fuentes de datos](../datasource/about-data-sources.md) y [acciones](../action/action.md) .
 
 ## Enero de 2020 {#january-2020}
