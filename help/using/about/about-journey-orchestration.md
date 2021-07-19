@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Acerca de Journey Orchestration
 description: Obtenga más información sobre Journey Orchestration
-feature: Recorridos
+feature: Journeys
 role: User
 level: Beginner
 exl-id: 430bac3a-06da-45a8-af90-1dcd1504d532
