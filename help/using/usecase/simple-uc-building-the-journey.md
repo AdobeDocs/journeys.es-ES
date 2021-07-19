@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Construcción del recorrido
 description: Aprenda a crear el recorrido de casos de uso simple
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 22bcd7f4-03ee-4e4c-b221-9f14aeadded6
