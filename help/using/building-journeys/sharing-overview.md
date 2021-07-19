@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Información general sobre el uso compartido de los pasos del recorrido
 description: Información general sobre el uso compartido de los pasos del recorrido
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
