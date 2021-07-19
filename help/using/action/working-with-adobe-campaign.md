@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Trabajar con Adobe Campaign
 description: Obtenga información sobre las acciones de Adobe Campaign
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: c7e08542-fde8-4072-a697-42d35d6c58ba
