@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Notas de la versión
 description: Más información sobre las notas de la versión
-feature: Recorridos
+feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
