@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Tipos de datos
 description: Obtenga información sobre los tipos de datos en expresiones avanzadas
-feature: Recorridos
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 343f61b8-2315-4971-8b2b-6aa815bd9ced
@@ -95,7 +95,7 @@ Formato de serialización: usando &#39;.&#39; como separador decimal.
 3.14
 ```
 
-## booleano {#boolean}
+## Booleano {#boolean}
 
 **Descripción**
 
@@ -119,7 +119,7 @@ false
 true
 ```
 
-## dateTimeOnly {#date-time-only}
+## dateTimeOnly {#date-time-only}
 
 **Descripción**
 
@@ -131,7 +131,7 @@ No puede representar un instante en la línea de tiempo sin información adicion
 
 Formato de serialización: Formato de fecha y hora de desvío extendido ISO-8601.
 
-Utiliza DateTimeForsubject ISO_LOCAL_DATE_TIME para deserializar y serializar el valor. [Obtenga más información](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
+Utiliza DateTimeForsubject ISO_LOCAL_DATE_TIME para deserializar y serializar el valor. [Más información](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
 
 **Representación literal**
 
@@ -153,7 +153,7 @@ Debe encapsularse en una función toDateTime .
 
 Formato de serialización: Formato de fecha y hora de desvío extendido ISO-8601.
 
-Para deserializar y serializar el valor, utiliza DateTimeForsubject ISO_OFFSET_DATE_TIME. [Obtenga más información](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
+Para deserializar y serializar el valor, utiliza DateTimeForsubject ISO_OFFSET_DATE_TIME. [Más información](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
 
 También puede pasar un entero que pase un valor de epoch. [Más información](https://www.epochconverter.com)
 
@@ -209,7 +209,7 @@ Debe encapsularse en una función toDuration .
 
 Formato de serialización: Para deserializar un ID de zona horaria, utiliza la función java java.time.
 
-Duration.parse: los formatos aceptados se basan en el formato de duración ISO-8601 PnDTnHnMn.nS con días considerados exactamente como 24 horas. [Obtenga más información](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
+Duration.parse: los formatos aceptados se basan en el formato de duración ISO-8601 PnDTnHnMn.nS con días considerados exactamente como 24 horas. [Más información](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
 
 **Representación literal**
 
@@ -263,7 +263,7 @@ toDuration("-P6H3M") -- parses as "-6 hours and -3 minutes"
 toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
 ```
 
-## lista {#list}
+## list {#list}
 
 **Descripción**
 
