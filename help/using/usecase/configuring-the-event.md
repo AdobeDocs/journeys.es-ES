@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Configuración del evento
 description: Obtenga información sobre cómo configurar el evento para el caso de uso simple de recorrido
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 7423f4eb-005d-43a5-a403-97bee1e8d480
