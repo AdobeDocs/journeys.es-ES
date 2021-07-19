@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Ciclo de datos del evento
 description: Más información sobre el ciclo de datos de evento
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: b362589a-32b0-4dbd-8ceb-a371e1e048ac
