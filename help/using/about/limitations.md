@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Limitaciones del Journey Orchestration
 description: Obtenga más información sobre las limitaciones de los Journey Orchestration
-feature: Recorridos
+feature: Journeys
 role: User
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
