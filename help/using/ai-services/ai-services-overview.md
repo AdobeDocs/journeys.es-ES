@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Información general del servicio de IA
 description: Información general del servicio de IA
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2b6989b3-cefe-4ca9-85fc-961a437edef3
