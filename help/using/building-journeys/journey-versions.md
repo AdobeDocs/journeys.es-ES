@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Versiones de recorridos
 description: Obtenga información sobre las versiones de recorrido
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 554d1f60-5d46-4e75-afcb-8209b127c4cd
