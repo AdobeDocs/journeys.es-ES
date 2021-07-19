@@ -2,14 +2,14 @@
 product: adobe campaign
 title: trim
 description: Obtenga información sobre la función trim
-feature: Recorridos
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: e9adf8be-9c56-4b08-9857-578d0bb0ebb9
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '32'
-ht-degree: 18%
+ht-degree: 34%
 
 ---
 
