@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Acerca de las acciones
 description: Obtenga información sobre cómo configurar una acción
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 34f7666b-1c91-4edd-b5d6-4c0513b9c4f3
