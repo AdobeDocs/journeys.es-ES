@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Métricas y dimensiones
 description: Obtenga información sobre las dimensiones y métricas disponibles para el Journey Orchestration
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: f6897011-0a5e-4094-a18e-ba2aa25f902c
