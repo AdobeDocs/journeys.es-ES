@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Operadores
 description: Obtenga información sobre los operadores en expresiones avanzadas
-feature: Recorridos
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: fd86b6ab-76cf-4b35-9e87-f441e914f20b
@@ -230,7 +230,7 @@ Ejemplo:
 42 >= 3.14
 ```
 
-### &lt;
+### &lt;>
 
 
 
@@ -372,7 +372,7 @@ Ejemplo:
 3 % 2 -- returns 1.
 ```
 
-## Matemáticas {#math}
+## Math {#math}
 
 ### es numérico
 
@@ -454,7 +454,7 @@ Ejemplo:
 "a" + "b" + "c" + 1234 -- returns "abc1234".
 ```
 
-## Fecha {#date}
+## Fecha  {#date}
 
 ### +
 
