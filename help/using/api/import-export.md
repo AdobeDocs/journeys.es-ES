@@ -50,7 +50,7 @@ El acceso a la API de Journey Orchestration se configura siguiendo los pasos que
 
 >[!CAUTION]
 >
->Para administrar certificados en el Adobe I/O, asegúrese de que tiene <b>derechos de administrador del sistema</b> en la organización o una [cuenta de desarrollador](https://helpx.adobe.com/enterprise/using/manage-developers.html) en Admin Console.
+>Para administrar certificados en el Adobe I/O, asegúrese de que tiene <b>derechos de administrador del sistema</b> en la organización o una [cuenta de desarrollador](https://helpx.adobe.com/es/enterprise/using/manage-developers.html) en Admin Console.
 
 1. **Compruebe que tiene un certificado** digital o cree uno si es necesario. Las claves pública y privada proporcionadas con el certificado son necesarias en los siguientes pasos.
 1. **Cree una nueva integración a  [!DNL Journey Orchestration]** Service en Adobe I/O y configúrela. El acceso al perfil de producto es necesario para Journey Orchestration y Adobe Experience Platform. A continuación, se generarán sus credenciales (clave de API, secreto de cliente...).
