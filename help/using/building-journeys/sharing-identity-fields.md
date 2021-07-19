@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Campos de identidad de eventos de journeySteps
 description: Campos de identidad de eventos de journeySteps
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9c0ff38f-51dd-40bd-8c19-d142b9c23308
