@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Acerca de los datos de Adobe Analytics
 description: Aprenda a aprovechar los datos de Adobe Analytics
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: e9b128be-9411-4b68-935e-4cc09eae3ef6
