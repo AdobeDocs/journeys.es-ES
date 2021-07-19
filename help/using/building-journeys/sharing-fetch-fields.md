@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Campos de captura de datos de eventos de journeySteps
 description: Campos de captura de datos de eventos de journeySteps
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 4df471ae-c6b7-452e-8e44-a108d0da276f
