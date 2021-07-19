@@ -4,7 +4,7 @@ user-guide-title: Journey Orchestration
 title: Guía de Journey Orchestration
 user-guide-description: Proporciona instrucciones prácticas para implementar y construir recorridos.
 index: true
-feature: Recorridos
+feature: Journeys
 source-git-commit: a472bb9ffe45159c8318f00a43c25fc41cb6d683
 workflow-type: tm+mt
 source-wordcount: '422'
