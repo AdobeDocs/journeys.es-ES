@@ -2,14 +2,14 @@
 product: adobe campaign
 title: inLastHours
 description: Obtenga información sobre la función en LastHours
-feature: Recorridos
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 9baeb836-e029-4e19-b08e-7b7b5f27ff8f
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '46'
-ht-degree: 15%
+ht-degree: 19%
 
 ---
 
@@ -19,7 +19,7 @@ Devuelve el valor verdadero si la fecha y hora dadas está entre ahora y ahora: 
 
 ## Categoría
 
-Fecha
+Fecha 
 
 ## Sintaxis de función
 
