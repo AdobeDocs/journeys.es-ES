@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Acerca de la integración de Campaign v7/v8
 description: Información sobre la integración de Campaign v7/v8
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 4b321b63-c624-4c2a-ae92-f9a2a95688d4
