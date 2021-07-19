@@ -2,14 +2,14 @@
 product: adobe campaign
 title: Funciones de administración de colecciones
 description: Obtenga información sobre los tipos de datos en las funciones de administración de colecciones
-feature: Recorridos
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: e80b04fe-b2d3-4c1b-ba22-7e37a9ad1d57
 source-git-commit: e0bf1a6f9c160b72da28feaca1ca52665f365630
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '585'
+ht-degree: 2%
 
 ---
 
