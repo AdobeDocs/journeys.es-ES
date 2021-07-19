@@ -2,14 +2,14 @@
 product: adobe campaign
 title: endWithIgnoreCase
 description: Obtenga información sobre la función endWithIgnoreCase
-feature: Recorridos
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 3d14fe82-e287-4474-8d78-10efbf55d338
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '49'
-ht-degree: 10%
+ht-degree: 20%
 
 ---
 
