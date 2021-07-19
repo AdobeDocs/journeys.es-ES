@@ -2,7 +2,7 @@
 product: adobe campaign
 title: 'Fuentes de datos externas '
 description: 'Obtenga información sobre cómo configurar fuentes de datos externas '
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
