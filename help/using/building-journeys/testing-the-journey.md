@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Prueba del recorrido
 description: 'Obtenga información sobre las pruebas de recorrido '
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
@@ -70,7 +70,7 @@ La forma más sencilla de hacerlo es usar una actividad de acción **Update prof
 
 ## Creación de un perfil de prueba{#create-test-profile}
 
-Si desea crear un nuevo perfil de prueba, el procedimiento es el mismo que al crear un perfil en Adobe Experience Platform. Se realiza mediante llamadas API. Consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
+Si desea crear un nuevo perfil de prueba, el procedimiento es el mismo que al crear un perfil en Adobe Experience Platform. Se realiza mediante llamadas API. Consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es)
 
 Debe utilizar un esquema de perfil que contenga la mezcla &quot;detalles de prueba del perfil&quot;. El indicador testProfile forma parte de esta mezcla.
 
