@@ -3,7 +3,7 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Integración con sistemas externos
 description: Conozca las prácticas recomendadas al integrar sistemas externos
-feature: Recorridos
+feature: Journeys
 role: User
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
