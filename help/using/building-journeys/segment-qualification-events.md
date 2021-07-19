@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Eventos de calificación de segmentos
 description: Descubra más información sobre los eventos de calificación de segmentos
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: e8e54dbd-8178-4c70-907c-68eb4dc54da7
