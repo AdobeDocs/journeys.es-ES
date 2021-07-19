@@ -2,14 +2,14 @@
 product: adobe campaign
 title: inLastDays
 description: Obtenga información sobre la función en LastDays
-feature: Recorridos
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 1fc29153-3554-4af1-bb2e-7bba53ffce69
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '45'
-ht-degree: 15%
+ht-degree: 20%
 
 ---
 
@@ -19,7 +19,7 @@ Devuelve el valor verdadero si una fecha determinada o dateTime está entre ahor
 
 ## Categoría
 
-Fecha
+Fecha 
 
 ## Sintaxis de función
 
