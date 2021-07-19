@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Finalización de un recorrido
 description: Obtenga información sobre cómo finalizar un recorrido
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2d1b9d6b-0a53-436c-b251-ce77cb931aaa
