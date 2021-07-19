@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Acerca de las actividades de eventos
 description: Descubra más información sobre las actividades de eventos
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 3a4ff8b1-bbe7-47c8-9fba-defe4b1d5299
