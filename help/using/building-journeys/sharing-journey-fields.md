@@ -2,7 +2,7 @@
 product: adobe campaign
 title: campos del recorrido
 description: campos del recorrido
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 4d0245de-a2cf-44c6-93d2-3309a3314e5e
