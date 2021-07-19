@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Aprovechamiento de las puntuaciones de IA de los clientes
 description: Aprovechamiento de las puntuaciones de IA de los clientes
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: b507ed24-820f-41e2-b8ce-63e992710e3a
