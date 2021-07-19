@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Uso de un segmento
 description: Aprenda a utilizar un segmento
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: f84dc133-3b70-479e-b5be-a155d892fec0
