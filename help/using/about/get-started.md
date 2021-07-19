@@ -2,7 +2,7 @@
 product: adobe campaign
 title: 'Introducción '
 description: Descubra los pasos principales para configurar Journey Orchestration y construir su primer recorrido.
-feature: Recorridos
+feature: Journeys
 role: User
 level: Beginner
 exl-id: fe7bb5fe-7b5e-46da-8ef8-ae9401522c03
