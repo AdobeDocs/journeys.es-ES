@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Saltar de un recorrido a otro
 description: Saltar de un recorrido a otro
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 520376aa-2cb5-46d6-8f21-3e03544f5da1
