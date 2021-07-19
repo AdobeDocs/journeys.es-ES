@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Resolución de problemas
 description: Más información sobre la solución de problemas
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: c678ba01-c868-49f2-99f3-1abe0302779e
