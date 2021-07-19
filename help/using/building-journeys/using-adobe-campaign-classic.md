@@ -3,7 +3,7 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Uso de acciones de Adobe Campaign v7/v8
 description: Obtenga información sobre las acciones de Adobe Campaign v7/v8
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
