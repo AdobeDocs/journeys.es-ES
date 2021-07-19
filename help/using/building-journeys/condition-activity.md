@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Actividad de condición
 description: Obtenga información sobre las actividades de condición
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 7b44edbe-9d05-4d67-8a64-2a0a553fcb92
