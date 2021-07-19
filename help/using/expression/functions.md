@@ -2,14 +2,14 @@
 product: adobe campaign
 title: Funciones
 description: Obtenga información sobre las funciones
-feature: Recorridos
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 73%
+ht-degree: 74%
 
 ---
 
@@ -44,26 +44,26 @@ Esta es la lista de funciones compatibles.
 | Conversión | [toDuration](../functions/functiontoduration.md) |
 | Conversión | [toInteger](../functions/functiontointeger.md) |
 | Conversión | [toString](../functions/functiontostring.md) |
-| Fecha | [currentTimeInMillis](../functions/functioncurrenttimeinmillis.md) |
-| Fecha | [inLastDays](../functions/functioninlastdays.md) |
-| Fecha | [inLastHours](../functions/functioninlasthours.md) |
-| Fecha | [inLastMonths](../functions/functioninlastmonths.md) |
-| Fecha | [inLastYears](../functions/functioninlastyears.md) |
-| Fecha | [inNextDays](../functions/functioninnextdays.md) |
-| Fecha | [inNextHours](../functions/functioninnexthours.md) |
-| Fecha | [inNextMonths](../functions/functioninnextmonths.md) |
-| Fecha | [inNextYears](../functions/functioninnextyears.md) |
-| Fecha | [now](../functions/functionnow.md) |
-| Fecha | [nowWithDelta](../functions/functionnowwithdelta.md) |
-| Fecha | [setHours](../functions/functionsethours.md) |
-| Fecha | [setDays](../functions/functionsetdays.md) |
+| Fecha  | [currentTimeInMillis](../functions/functioncurrenttimeinmillis.md) |
+| Fecha  | [inLastDays](../functions/functioninlastdays.md) |
+| Fecha  | [inLastHours](../functions/functioninlasthours.md) |
+| Fecha  | [inLastMonths](../functions/functioninlastmonths.md) |
+| Fecha  | [inLastYears](../functions/functioninlastyears.md) |
+| Fecha  | [inNextDays](../functions/functioninnextdays.md) |
+| Fecha  | [inNextHours](../functions/functioninnexthours.md) |
+| Fecha  | [inNextMonths](../functions/functioninnextmonths.md) |
+| Fecha  | [inNextYears](../functions/functioninnextyears.md) |
+| Fecha  | [now](../functions/functionnow.md) |
+| Fecha  | [nowWithDelta](../functions/functionnowwithdelta.md) |
+| Fecha  | [setHours](../functions/functionsethours.md) |
+| Fecha  | [setDays](../functions/functionsetdays.md) |
 | Lista | [distinct](../functions/functiondistinct.md) |
 | Lista | [distinctCount](../functions/functiondistinctcount.md) |
-| Lista | [in](../functions/functionin.md) |
+| Lista | [en](../functions/functionin.md) |
 | Lista | [listSize](../functions/functionlistsize.md) |
 | Lista | [serializeList](../functions/functionserializelist.md) |
 | Lista | [sort](../functions/functionsort.md) |
-| Matemáticas | [random](../functions/functionrandom.md) |
+| Math | [random](../functions/functionrandom.md) |
 | Matemáticas | [round](../functions/functionround.md) |
 | Cadena | [concat](../functions/functionconcat.md) |
 | Cadena | [contain](../functions/functioncontain.md) |
