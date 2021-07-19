@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Publicación del recorrido
 description: Obtenga información sobre la publicación en recorrido
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: d61dc9f8-e4bb-48c7-9532-a7ff8aab5ad8
