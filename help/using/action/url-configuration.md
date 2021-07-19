@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Configuración de URL
 description: Más información sobre la configuración de URL
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: e7cba6c4-a231-44f9-927a-10115e7ab1dd
