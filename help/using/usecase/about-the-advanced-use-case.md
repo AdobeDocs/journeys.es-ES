@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Acerca del caso de uso avanzado
 description: Más información sobre el caso de uso avanzado de recorrido
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 43435aee-572d-4db2-88d5-6124ce074285
