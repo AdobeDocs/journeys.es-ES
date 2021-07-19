@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Añadir una condición
 description: Aprenda a añadir una condición
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 09cda689-6953-4ea6-a446-cb4e1d8ad8e4
