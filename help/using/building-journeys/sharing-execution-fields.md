@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Campos de ejecución de la acción de eventos de journeySteps
 description: Campos de ejecución de la acción de eventos de journeySteps
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9af66037-63d7-41a8-86d1-b03c655dfb82
