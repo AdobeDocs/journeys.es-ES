@@ -2,7 +2,7 @@
 product: adobe campaign
 title: 'Esquemas de ExperienceEvent para eventos de Journey Orchestration '
 description: 'Obtenga información sobre los esquemas de ExperienceEvent para eventos de Journey Orchestration '
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: ffec0d42-8632-4806-97df-da2a2372ca53
