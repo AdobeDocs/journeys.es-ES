@@ -2,7 +2,7 @@
 product: adobe campaign
 title: campos comunes de los eventos de los recorridos
 description: campos comunes de los eventos de los recorridos
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 5cf8e6b5-2162-4aa3-b071-96ede31948e6
