@@ -2,14 +2,14 @@
 product: adobe campaign
 title: Generalidades
 description: Obtenga información sobre las generalidades de expresión avanzadas
-feature: Recorridos
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: ba474219-7c9e-4f93-8e9c-16c317131614
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '215'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -42,6 +42,6 @@ Según el contexto de uso, el editor de expresiones puede devolver valores difer
 
 | Uso del editor de expresiones avanzadas | Tipo de expresión devuelto esperado |
 |--- |--- |
-| Condición (condición de fuente de datos, condición de fecha) | booleano |
+| Condición (condición de fuente de datos, condición de fecha) | Booleano |
 | Temporizador personalizado | dateTimeOnly |
 | Asignación de parámetros de acción | Cualquiera |
