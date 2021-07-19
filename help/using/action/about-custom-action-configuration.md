@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Acerca de la configuración de acciones personalizadas
 description: Obtenga información sobre cómo configurar una acción personalizada
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 8b24abef-700d-4f68-a921-d7299c939439
