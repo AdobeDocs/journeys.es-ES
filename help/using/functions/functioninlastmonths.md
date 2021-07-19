@@ -2,14 +2,14 @@
 product: adobe campaign
 title: inLastMonths
 description: Obtenga información sobre la función en LastMonths
-feature: Recorridos
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: ff8effa9-404a-482b-8842-a276f029e2ed
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '45'
-ht-degree: 15%
+ht-degree: 20%
 
 ---
 
@@ -19,7 +19,7 @@ Devuelve el valor verdadero si una fecha determinada o dateTime está entre ahor
 
 ## Categoría
 
-Fecha
+Fecha 
 
 ## Sintaxis de función
 
