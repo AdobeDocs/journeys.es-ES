@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Cambio de las propiedades
 description: Obtenga información sobre cómo cambiar propiedades
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 06d26078-b9b8-4dc4-918d-0f2426d00f54
