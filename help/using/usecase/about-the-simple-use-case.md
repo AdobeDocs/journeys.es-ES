@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Acerca del caso de uso simple
 description: Obtenga más información sobre el caso de uso simple de recorrido
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 11858c7a-fdb3-43a4-af28-0d5c23fa2468
