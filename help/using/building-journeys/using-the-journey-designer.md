@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Uso del diseñador de recorridos
 description: Más información sobre el uso del diseñador de recorridos
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2f001e42-46dd-48aa-b3dd-23bfdf97e1c7
