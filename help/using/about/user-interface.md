@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Interfaz de usuario
 description: Más información sobre la interfaz de usuario
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
