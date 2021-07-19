@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Actividad final
 description: Descubra la actividad final
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: c2352bbe-f6a3-4815-9c43-2e170b3ba84c
