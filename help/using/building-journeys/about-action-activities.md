@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Acerca de las actividades de acción
 description: Descubra más información sobre las actividades de acción
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 5436602f-af7a-41db-8b10-d3d28a6d0cd0
