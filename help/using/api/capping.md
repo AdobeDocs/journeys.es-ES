@@ -3,7 +3,7 @@ product: adobe campaign
 title: Captación de la descripción de la API
 description: Obtenga más información sobre la API de restricción.
 products: journeys
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
