@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Previsualización de la carga útil
 description: Obtenga información sobre cómo previsualizar la carga útil
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 5a4cf7cd-463f-4e5b-a679-419649efef12
