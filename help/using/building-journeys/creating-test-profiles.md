@@ -6,7 +6,7 @@ exl-id: f1be46a8-04b9-4f40-b18e-9099099d2e1c
 source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
 source-wordcount: '675'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -18,7 +18,7 @@ Existen diferentes formas de crear un perfil de prueba en Adobe Experience Platf
 
 Estos métodos de importación también permiten actualizar atributos de perfil. De este modo, puede convertir un perfil existente en un perfil de prueba. Utilice simplemente un archivo similar o una llamada de API y solo incluya el campo &quot;testProfile&quot; con el valor &quot;true&quot;.
 
-La creación de un perfil de prueba es similar a la creación de perfiles normales en Adobe Experience Platform. Para obtener más información, consulte la [Documentación del perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
+La creación de un perfil de prueba es similar a la creación de perfiles normales en Adobe Experience Platform. Para obtener más información, consulte la [Documentación del perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es).
 
 ## Requisitos previos{#test-profile-prerequisites}
 
@@ -54,7 +54,7 @@ A continuación, debe **crear el conjunto de datos** en el que se importarán lo
 
 1. En Adobe Experience Platform, haga clic **[!UICONTROL Datasets]** en el menú de la izquierda y, a continuación, haga clic en **[!UICONTROL Create dataset]**.
    ![](../assets/test-profiles-6.png)
-1. Elija **[!UICONTROL Create dataset from schema]**.
+1. Seleccione **[!UICONTROL Create dataset from schema]**.
    ![](../assets/test-profiles-7.png)
 1. Seleccione el esquema creado anteriormente y haga clic en **[!UICONTROL Next]**.
    ![](../assets/test-profiles-8.png)
