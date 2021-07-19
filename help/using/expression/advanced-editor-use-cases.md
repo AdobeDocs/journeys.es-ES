@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Uso del editor de expresiones avanzadas
 description: Aprenda a crear expresiones avanzadas
-feature: Recorridos
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 724ae59e-d1b5-4de9-b140-d37064e22ac6
