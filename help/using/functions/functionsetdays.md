@@ -2,14 +2,14 @@
 product: adobe campaign
 title: setDays
 description: Obtenga información sobre la función setDays
-feature: Recorridos
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: eee7bf61-9101-4959-aa93-27d0f221c517
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '75'
-ht-degree: 10%
+ht-degree: 13%
 
 ---
 
@@ -19,7 +19,7 @@ Establece el día de una fecha, hora o hora. Por ejemplo, si desea esperar hasta
 
 ## Categoría
 
-Fecha
+Fecha 
 
 ## Sintaxis de función
 
