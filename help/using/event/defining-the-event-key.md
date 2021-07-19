@@ -2,14 +2,14 @@
 product: adobe campaign
 title: Definición de la clave del evento
 description: Obtenga información sobre cómo definir la clave de evento
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 79bcf562-f971-42f1-a607-94a2510c4a07
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '398'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 La clave es el campo o la combinación de campos que forma parte de los datos de carga útil del evento y que permite al sistema identificar a la persona asociada al evento. La clave puede ser, por ejemplo, el ID de Experience Cloud, un ID de CRM o una dirección de correo electrónico.
 
-Si planea aprovechar los datos almacenados en la base de datos del perfil del cliente en tiempo real, debe seleccionar, como clave de evento, información que haya definido como la identidad de un perfil en el [Servicio de perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
+Si planea aprovechar los datos almacenados en la base de datos del perfil del cliente en tiempo real, debe seleccionar, como clave de evento, información que haya definido como la identidad de un perfil en el [Servicio de perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es).
 
 Permitirá que el sistema realice la reconciliación entre el evento y el perfil del individuo. Si selecciona un esquema que tiene una identidad principal, los campos **[!UICONTROL Key]** y **[!UICONTROL Namespace]** se rellenan previamente. Si no hay ninguna identidad definida, seleccione _identityMap > id_ como clave principal. A continuación, debe seleccionar un área de nombres y la clave se rellenará previamente (debajo del campo **[!UICONTROL Namespace]**) mediante _identityMap > id_.
 
