@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Acerca de los informes de recorrido
 description: Obtenga información sobre cómo crear informes de recorrido
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 93768321-b171-4338-a440-6ea189a85a4a
