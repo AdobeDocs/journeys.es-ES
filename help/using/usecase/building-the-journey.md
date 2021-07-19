@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Construcción del recorrido
 description: 'Obtenga información sobre cómo construir el recorrido del caso de uso avanzado '
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: cca6ed3c-e151-4494-9e2d-9ed504bfc54b
