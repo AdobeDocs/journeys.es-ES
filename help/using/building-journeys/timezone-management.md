@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Administración de husos horarios
 description: Obtenga información sobre la administración de husos horarios
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: c0e67849-caa0-4045-94ed-38e483054e1d
