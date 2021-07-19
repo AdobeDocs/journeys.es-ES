@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Definición de los campos de carga útil
 description: Obtenga información sobre cómo definir los campos de carga útil
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9d385b64-46cd-489b-9c18-352fa2a2dbba
