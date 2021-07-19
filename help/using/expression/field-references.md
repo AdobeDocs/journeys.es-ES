@@ -2,14 +2,14 @@
 product: adobe campaign
 title: Referencias de campo
 description: Obtenga información sobre referencias de campo en expresiones avanzadas
-feature: Recorridos
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 2f317306-9afd-4e9a-88b8-fc66102e1046
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '435'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
