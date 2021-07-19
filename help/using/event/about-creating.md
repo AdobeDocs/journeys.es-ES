@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Creación de un evento
 description: Obtenga información sobre cómo crear un evento
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2ae8854a-c3e7-469d-9f89-25b54bc3e894
