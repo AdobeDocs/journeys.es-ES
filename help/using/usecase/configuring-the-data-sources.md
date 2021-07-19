@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Configuración de las fuentes de datos
 description: Obtenga información sobre cómo configurar la fuente de datos para el caso de uso avanzado de recorrido
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2cfa4397-fe8f-44b3-b219-2fd5d3bdd156
