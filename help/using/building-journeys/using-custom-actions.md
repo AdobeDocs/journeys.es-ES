@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Uso de acciones personalizadas
 description: Descubra más información sobre las actividades de acción
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9996d1eb-ddef-46dd-aaa9-c37fa9deb2f9
