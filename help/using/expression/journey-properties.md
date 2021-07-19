@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Propiedades del recorrido
 description: Obtenga información sobre las propiedades de recorrido
-feature: Recorridos
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 798e4207-5bef-4002-9c1f-608bb6243e43
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 ---
 
-# Atributos de propiedades de recorrido {#journey-properties}
+# atributos de propiedades de recorrido {#journey-properties}
 
 En el editor de expresiones avanzadas, se encuentra la categoría **Propiedades del Recorrido**, debajo de las categorías de evento y fuente de datos. Esta categoría contiene campos técnicos relacionados con el recorrido de un perfil determinado. Esta es la información recuperada por el sistema de los recorridos activos, como el ID de recorrido o los errores específicos encontrados.
 
@@ -65,5 +65,5 @@ Estos son algunos ejemplos de casos de uso:
 |  | lastErrorCode | Último código de error | Código de error de la última actividad (nodo) en error. Posibles errores: <ul><li>Códigos de error HTTP</li><li>capted</li><li>timedOut</li><li>error (ejemplo: predeterminado en caso de error inesperado. No debería/muy raramente sucede)</li></ul> |
 |  | lastExecutionActionErrorCode | Código de error de la última acción ejecutada | Código de error de la última acción en caso de error |
 |  | lastDataFetchErrorCode | Código de error de la última captura de datos | Código de error de la última captura de datos desde fuentes de datos |
-| Tiempo | lastActionExecutionElapsedTime | Tiempo transcurrido en la última ejecución de acción | Tiempo empleado para ejecutar la última acción |
+| Fecha | lastActionExecutionElapsedTime | Tiempo transcurrido en la última ejecución de acción | Tiempo empleado para ejecutar la última acción |
 |  | lastDataFetchElapsedTime | Tiempo transcurrido en la última recuperación de datos | Tiempo empleado para ejecutar la última recuperación de datos desde fuentes de datos |
