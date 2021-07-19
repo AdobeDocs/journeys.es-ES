@@ -2,14 +2,14 @@
 product: adobe campaign
 title: inNextMonths
 description: Obtenga información sobre la función en NextMonths
-feature: Recorridos
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: b5e8d514-a24d-42a2-b422-ec5d6617048a
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '45'
-ht-degree: 15%
+ht-degree: 20%
 
 ---
 
@@ -19,7 +19,7 @@ Devuelve el valor verdadero si una fecha determinada o dateTime está entre ahor
 
 ## Categoría
 
-Fecha
+Fecha 
 
 ## Sintaxis de función
 
