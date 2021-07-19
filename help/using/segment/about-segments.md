@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Acerca de los segmentos de Adobe Experience Platform
 description: Obtenga información sobre cómo configurar un segmento de Adobe Experience Platform
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 94e1e3e3-9a46-41ca-bec1-f41287925372
