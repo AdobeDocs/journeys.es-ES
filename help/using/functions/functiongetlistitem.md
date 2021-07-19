@@ -2,14 +2,14 @@
 product: adobe campaign
 title: getListItem
 description: Obtenga información sobre la función gstListItem
-feature: Recorridos
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: a3b24f25-5f6d-44fe-b755-3734e4fab944
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '98'
-ht-degree: 14%
+ht-degree: 18%
 
 ---
 
@@ -29,14 +29,14 @@ Lista
 
 | Parámetro | Tipo |
 |-----------|------------------|
-| lista | listString |
-| lista | listBoolean |
-| lista | listInteger |
-| lista | listDecimal |
-| lista | listDuration |
-| lista | listDateTime |
-| lista | listDateTimeOnly |
-| index | integer |
+| list | listString |
+| list | listBoolean |
+| list | listInteger |
+| list | listDecimal |
+| list | listDuration |
+| list | listDateTime |
+| list | listDateTimeOnly |
+| índice | integer |
 
 ## Firmas y tipo devuelto
 
