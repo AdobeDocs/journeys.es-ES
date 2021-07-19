@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Acerca de la creación de un recorrido
 description: Como usuario empresarial, aprenda a combinar actividades de eventos, orquestación y acciones para construir un recorrido.
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 540b5142-9323-4cc1-9b5a-3fa20a5945bf
