@@ -2,7 +2,7 @@
 product: adobe campaign
 title: Grupos de campo
 description: Obtenga información sobre los grupos de campos
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 6f7f2673-9080-4274-afa3-a0255798f78d
