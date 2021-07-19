@@ -2,14 +2,14 @@
 product: adobe campaign
 title: Pasos adicionales para enviar eventos al Journey Orchestration
 description: Obtenga información sobre los pasos adicionales para enviar eventos al Journey Orchestration
-feature: Recorridos
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 11e337c6-5e05-4898-9953-b6b821af8fd1
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 Para configurar los eventos que se enviarán a **[!UICONTROL Streaming Ingestion APIs]** y que se utilizarán en [!DNL Journey Orchestration], debe seguir estos pasos:
 
-1. Obtenga la URL de entrada de las API de Adobe Experience Platform (consulte [API de ingesta de transmisión](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html)).
+1. Obtenga la URL de entrada de las API de Adobe Experience Platform (consulte [API de ingesta de transmisión](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=es)).
 1. Copie la carga útil de la previsualización de carga útil en el menú **[!UICONTROL Event]** . Consulte [esta página](../event/defining-the-payload-fields.md).
 
 A continuación, debe configurar el sistema de datos que envía eventos a las API de ingesta de transmisión mediante la carga útil que ha copiado:
