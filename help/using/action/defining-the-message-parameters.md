@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: ea9cdb1d-dde6-4080-8f35-7f8cd3cf3644
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: eb765d2f12ade397e124281f52213bb3e58263cb
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '226'
 ht-degree: 4%
 
 ---
@@ -23,7 +23,7 @@ En la sección **[!UICONTROL Message parameters]** , pegue un ejemplo de la carg
 
 >[!NOTE]
 >
->Los nombres de campo de la carga útil no pueden contener &quot;.&quot; carácter.
+>Los nombres de campo de la carga útil no pueden contener &quot;.&quot; carácter. No pueden empezar con un carácter &quot;$&quot;.
 
 Puede definir el tipo de parámetro (p. ej.: string, integer, etc.).
 
