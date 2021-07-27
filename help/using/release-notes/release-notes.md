@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 6300a606d49a65a5527f9ba29a7efdfe782c7334
 workflow-type: tm+mt
-source-wordcount: '2625'
-ht-degree: 61%
+source-wordcount: '2701'
+ht-degree: 60%
 
 ---
 
@@ -17,6 +17,29 @@ ht-degree: 61%
 
 Esta página lista todas las nuevas funciones y mejoras de Journey Orchestration.
 También puede consultar las últimas [Actualizaciones de documentación](../release-notes/documentation-updates.md).
+
+## Versión de julio de 2021 {#july-2021-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>Aprovechar las relaciones de esquema</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Experience Platform le permite definir relaciones entre esquemas para utilizar un conjunto de datos como una tabla de búsqueda para otro. Ahora, el Journey Orchestration puede aprovechar los datos procedentes de un esquema vinculado.</p>
+<p>Estos campos están disponibles en la configuración de eventos unitarios, las condiciones de recorrido y la personalización de acciones personalizadas.
+<p>Para obtener más información, consulte la <a href="../event/experience-event-schema.md#leverage_schema_relationships">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Mejoras
+
+* El campo **Cache duration** se ha eliminado del panel de configuración del origen de datos. [Más información](../datasource/about-data-sources.md)
 
 ## Versión de junio de 2021 {#june-2021-release}
 
