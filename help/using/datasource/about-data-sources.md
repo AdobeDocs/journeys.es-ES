@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2371d2c9-3035-46ac-9c76-755fb453c24e
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 79%
+source-wordcount: '345'
+ht-degree: 76%
 
 ---
 
@@ -45,7 +45,7 @@ Estos son los pasos principales de la configuración de la fuente de datos:
 >
 >La configuración de la fuente de datos siempre la realiza un **usuario técnico**.
 
-1. En el menú superior, haga clic en la pestaña **[!UICONTROL Data Sources]**.
+1. En el panel de menú, seleccione **[!UICONTROL Admin]**. En la sección **[!UICONTROL Data sources]**, haga clic en **[!UICONTROL Manage]**.
 
    Se muestra la lista de las fuentes de datos. Consulte [esta página](../about/user-interface.md) para obtener más información sobre la interfaz.
 
