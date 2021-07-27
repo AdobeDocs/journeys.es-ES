@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: eaf2c795-0920-4b9c-9f06-801e43c1844b
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 4%
+source-wordcount: '337'
+ht-degree: 5%
 
 ---
 
@@ -24,7 +24,6 @@ La actividad de acción **[!UICONTROL Update profile]** le permite actualizar un
 * No puede utilizar la acción **Update profile** para generar eventos de experiencia, por ejemplo una compra.
 * Al igual que cualquier otra acción, puede definir una ruta alternativa en caso de error o de tiempo de espera y no puede colocar dos acciones en paralelo.
 * La solicitud de actualización enviada a Platform será rápida, pero no inmediata/en un segundo. Se tardará normalmente unos segundos, pero a veces más sin garantía. Como resultado, por ejemplo, si una acción utiliza el &quot;campo 1&quot; actualizado por una acción Actualizar perfil colocada justo antes, no debería esperar que el &quot;campo 1&quot; se actualice en la acción .
-* Las fuentes de datos tienen una noción de duración de la caché, a nivel de grupo de campos. Si espera aprovechar, en un recorrido, un campo de perfil actualizado recientemente, asegúrese de definir una duración de caché muy corta.
 * En el modo de prueba, la actualización de perfil no se simulará. La actualización se realizará en el perfil de prueba.
 
 ## Uso de la actualización de perfil
