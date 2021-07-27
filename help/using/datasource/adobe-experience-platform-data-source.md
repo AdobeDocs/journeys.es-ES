@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 847fa819-2b92-49e5-8a5e-4f3f0acd5e35
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '351'
 ht-degree: 11%
 
 ---
@@ -39,7 +39,6 @@ Estos son los pasos principales para agregar grupos de campos al origen de datos
 
 1. Seleccione un esquema en la lista desplegable **[!UICONTROL Schema]**. Este campo enumera los esquemas de perfil y eventos de experiencia disponibles en Adobe Experience Platform. La creación del esquema no se realiza en [!DNL Journey Orchestration]. Se realiza en Adobe Experience Platform.
 1. Seleccione los campos que desee utilizar.
-1. Defina la duración de la caché.
 1. Haga clic en **[!UICONTROL Save]**.
 
 Cuando coloque el cursor en el nombre de un grupo de campos, verá dos iconos a la derecha. Permiten eliminar y duplicar el grupo de campos. Tenga en cuenta que el icono **[!UICONTROL Delete]** solo está disponible si el grupo de campos no se utiliza en ningún recorrido activo o borrador (información que se muestra en el campo **[!UICONTROL Used in]** ).
