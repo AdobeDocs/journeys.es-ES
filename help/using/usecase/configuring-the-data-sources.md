@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2cfa4397-fe8f-44b3-b219-2fd5d3bdd156
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 14%
+source-wordcount: '441'
+ht-degree: 15%
 
 ---
 
@@ -19,7 +19,8 @@ En nuestro caso de uso, queremos utilizar datos de personalización para nuestro
 
 Para obtener más información sobre la configuración de la fuente de datos, consulte [esta página](../datasource/about-data-sources.md).
 
-1. En el menú superior, haga clic en la pestaña **[!UICONTROL Data Sources]** y seleccione la fuente de datos integrada de Adobe Experience Platform.
+1. En el panel de menú, seleccione **[!UICONTROL Admin]**. En la sección **[!UICONTROL Data sources]**, haga clic en **[!UICONTROL Manage]**.
+1. Seleccione la fuente de datos integrada de Adobe Experience Platform.
 
    ![](../assets/journey23.png)
 
@@ -58,7 +59,6 @@ También tenemos que comprobar si la persona tiene una reserva en el sistema de 
 1. Haga clic en **[!UICONTROL Add a New Field Group]** para definir la información que se va a recuperar y los parámetros de la API. Para nuestro ejemplo, solo hay un parámetro (el id), por lo que necesitamos crear un grupo de campos con la siguiente información:
 
    * **[!UICONTROL Method]**: seleccione el método POST o GET. En nuestro caso, seleccionamos el método GET.
-   * **[!UICONTROL Cache duration]**: esto varía según la frecuencia de las llamadas a la API. En nuestro caso, el sistema de reservas se actualiza cada 10 minutos.
    * **[!UICONTROL Response Payload]**: haga clic dentro del  **[!UICONTROL Payload]** campo y pegue un ejemplo de la carga útil. Compruebe que los tipos de campo son correctos. Cada vez que se llama a la API, el sistema recupera todos los campos incluidos en el ejemplo de carga útil. En nuestro ejemplo, la carga útil solo contiene el estado de reserva:
 
    ```
