@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: ffec0d42-8632-4806-97df-da2a2372ca53
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 3a0fc5cd6b7bc4177ab50986b11b020a11a72c9b
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 1%
+source-wordcount: '726'
+ht-degree: 0%
 
 ---
 
@@ -50,3 +50,64 @@ Cualquier esquema XDM que se utilice para eventos [!DNL Journey Orchestration] d
    ![](../assets/schema7.png)
 
    ![](../assets/schema8.png)
+
+## Aprovechar las relaciones de esquema{#leverage_schema_relationships}
+
+Adobe Experience Platform le permite definir relaciones entre esquemas para utilizar un conjunto de datos como una tabla de búsqueda para otro.
+
+Supongamos que el modelo de datos de marca tiene un esquema que captura las compras. También tiene un esquema para el catálogo de productos. Puede capturar el ID del producto en el esquema de compra y utilizar una relación para buscar detalles de producto más completos en el catálogo de productos. Esto le permite crear un segmento para todos los clientes que compraron un portátil, por ejemplo, sin tener que enumerar explícitamente todos los ID de un portátil ni capturar todos los detalles de producto en sistemas transaccionales.
+
+Para definir una relación, debe tener un campo dedicado en el esquema de origen, en este caso el campo ID del producto en el esquema de compra. Este campo debe hacer referencia al campo ID del producto en el esquema de destino. Las tablas de origen y destino deben estar habilitadas para perfiles y el esquema de destino debe tener ese campo común definido como su identidad principal.
+
+Este es el esquema de catálogo de productos habilitado para perfil con el ID de producto definido como identidad principal.
+
+![](../assets/schema9.png)
+
+Este es el esquema de compra con la relación definida en el campo ID del producto.
+
+![](../assets/schema10.png)
+
+>[!NOTE]
+>
+>Obtenga más información sobre las relaciones de esquema en la [documentación del Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en).
+
+En Journey Orchestration, puede aprovechar todos los campos de las tablas vinculadas:
+
+* al configurar un evento unitario, [Más información](../event/experience-event-schema.md#unitary_event_configuration)
+* cuando se usan condiciones en un recorrido, [Más información](../event/experience-event-schema.md#journey_conditions_using_event_context)
+* en la personalización de acciones personalizadas, [Más información](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
+
+### Configuración de eventos unitarios{#unitary_event_configuration}
+
+Los campos de esquema vinculados están disponibles en la configuración de evento unitario:
+
+* al navegar por los campos de esquema de evento en la pantalla de configuración de evento.
+* al definir una condición para eventos generados por el sistema.
+
+![](../assets/schema11.png)
+
+Los campos vinculados no están disponibles:
+
+* en la fórmula de clave de evento
+* en la condición de id de evento (eventos basados en reglas)
+
+Para aprender a configurar un evento unitario, consulte esta [página](../event/about-creating.md).
+
+### condiciones de recorrido mediante el contexto del evento{#journey_conditions_using_event_context}
+
+Puede utilizar datos de una tabla de consulta vinculada a un evento utilizado en un recorrido para la creación de condiciones (editor de expresiones).
+
+Añada una condición en un recorrido, edite la expresión y despliegue el nodo de evento en el editor de expresiones.
+
+![](../assets/schema12.png)
+
+Para aprender a definir las condiciones de recorrido, consulte esta [página](../building-journeys/condition-activity.md).
+
+### Personalización de la acción con contexto de evento de recorrido{#custom_action_personalization_with_journey_event_context}
+
+Los campos vinculados están disponibles al configurar los parámetros de acción de una actividad de acción de recorrido.
+
+![](../assets/schema13.png)
+
+Para aprender a utilizar acciones personalizadas, consulte esta [página](../building-journeys/using-custom-actions.md).
+
