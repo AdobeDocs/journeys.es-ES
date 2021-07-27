@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 6f7f2673-9080-4274-afa3-a0255798f78d
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 0%
+source-wordcount: '454'
+ht-degree: 1%
 
 ---
 
@@ -19,15 +19,13 @@ Los grupos de campos son conjuntos de campos que se pueden recuperar de un orige
 
 ## Definición de grupos de campos {#section_dsz_kjd_fjb}
 
-Para cada fuente de datos, se pueden definir varios grupos de campos, cada uno con una duración específica de la caché.
+Para cada fuente de datos, se pueden definir varios grupos de campos.
 
 Por ejemplo, puede crear un grupo de campos con el número de teléfono, el correo electrónico, el nombre y la dirección del perfil. A continuación, podrá utilizar estos datos en el recorrido para crear condiciones. Por ejemplo, puede decidir enviar un SMS solo si el número de teléfono del perfil no está vacío. Si está vacío, puede enviar un correo electrónico.
 
 Aunque se añada automáticamente un nombre predeterminado, le recomendamos que asigne un nombre al grupo de campos. De hecho, el nombre del grupo de campos será visible para otros usuarios en [!DNL Journey Orchestration]. Es recomendable asignar un nombre relevante a los grupos de campos.
 
 Cuando se utiliza un campo de origen de datos en un recorrido, el sistema recupera todos los campos definidos para ese grupo de campos. Por lo tanto, es recomendable seleccionar solo los campos que necesita para sus recorridos. Esto reducirá la latencia de las solicitudes en los recorridos, lo que aumenta el rendimiento. Tenga en cuenta que puede agregar fácilmente más campos en grupos de campos más adelante.
-
-**[!UICONTROL Cache duration]** también es importante, ya que le ayudará a optimizar el rendimiento. La duración de la caché significa que en un recorrido, si los datos de un grupo de campos se recuperan una vez, el sistema los almacenará en caché temporalmente. Si se necesitan los mismos datos más adelante en el mismo recorrido, el sistema no realizará otra solicitud al origen de datos. La configuración de la duración de la caché debe adaptarse para cada caso de uso. Si necesita recuperar datos en tiempo real como el estado de reserva del hotel, la información meteorológica o el número de puntos de lealtad, asociará el grupo de campos que contiene estos campos con una breve duración de caché (1 segundo, por ejemplo). Para los campos que se actualizan con menos frecuencia (nombre, sexo), se crea un segundo grupo de campos con una duración de caché más larga (por ejemplo, 5 días).
 
 El número de recorridos que utilizan un grupo de campos se muestra en el campo **[!UICONTROL Used in]**. Puede hacer clic en el botón **[!UICONTROL View journeys]** para mostrar la lista de recorridos que utilizan este grupo de campos.
 
