@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 5ea6578ec15b8e1116f58f7644cbf45c523d1840
 workflow-type: tm+mt
-source-wordcount: '1276'
-ht-degree: 99%
+source-wordcount: '1264'
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ La llamada se compone de una dirección URL principal (_https://api.adobeweather
 
 Estos son los pasos principales para crear y configurar una nueva fuente de datos externa:
 
-1. Desde la lista de fuentes de datos, haga clic en **[!UICONTROL Add]** para crear una nueva fuente de datos externa.
+1. En la lista de fuentes de datos, haga clic en **[!UICONTROL Create data source]** para crear una nueva fuente de datos externa.
 
    ![](../assets/journey25.png)
 
@@ -69,7 +69,6 @@ Para el conjunto de parámetros &quot;long/lat&quot;, creamos un grupo de campos
 
 * **[!UICONTROL Used in]**: muestra el número de recorridos que utilizan un grupo de campos. Puede hacer clic en el icono **[!UICONTROL View journeys]** para mostrar la lista de recorridos mediante este grupo de campos.
 * **[!UICONTROL Method]**: seleccione el método POST o GET. En nuestro caso, seleccionamos el método GET.
-* **[!UICONTROL Cache duration]**: en nuestro caso, queremos que el clima se almacene en caché durante 10 minutos.
 * **[!UICONTROL Response Payload]**: haga clic dentro de **[!UICONTROL Payload]** y pegue un ejemplo de la carga útil devuelta por la llamada. Para nuestro ejemplo, hemos utilizado una carga útil encontrada en un sitio web de la API meteorológica. Compruebe que los tipos de campo son correctos. Cada vez que se llama a la API, el sistema recupera todos los campos incluidos en el ejemplo de carga útil. Tenga en cuenta que puede hacer clic en **[!UICONTROL Paste a new payload]** si desea cambiar la carga útil que se mueve actualmente.
 * **[!UICONTROL Dynamic Values]**: introduzca los diferentes parámetros separados por coma, &quot;long,lat&quot; en nuestro ejemplo. Dado que los valores de parámetro dependen del contexto de ejecución, se definirán en los recorridos. Consulte [esta página](../expression/expressionadvanced.md).
 * **[!UICONTROL Sent Payload]**: este campo no aparece en nuestro ejemplo. Solo está disponible si selecciona el método POST. Pegue la carga útil que se enviará al sistema de terceros.
