@@ -7,9 +7,9 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: a32a208fcaef9a408c850c0ad74ab44e3eb44709
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1014'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Cuando el Journey Orchestration ejecuta una llamada a una API externa, las prote
 
 La API de restricción integrada ofrece una protección técnica ascendente que ayuda a proteger el sistema externo.
 
-Para las fuentes de datos externas, el número máximo de llamadas por segundo se establece en 15. Si el número de llamadas supera los 15 por segundo, se descartan las llamadas restantes. Puede aumentar este límite para las fuentes de datos externas privadas. Póngase en contacto con el Adobe para incluir el punto final en la lista blanca. Esto no es posible para las fuentes de datos externas públicas.
+Para las fuentes de datos externas, el número máximo de llamadas por segundo se establece en 15. Si el número de llamadas supera los 15 por segundo, se descartan las llamadas restantes. Puede aumentar este límite para las fuentes de datos externas privadas. Póngase en contacto con el Adobe para incluir el punto final en la lista de permitidos. Esto no es posible para las fuentes de datos externas públicas.
 
 Para las acciones personalizadas, debe evaluar la capacidad de su API externa. Por ejemplo, si Journey Optimizer envía 1000 llamadas por segundo y el sistema solo puede admitir 100 llamadas por segundo, debe definir una regla de límite para que el sistema no se satura.
 
