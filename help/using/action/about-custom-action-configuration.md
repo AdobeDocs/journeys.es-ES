@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 8b24abef-700d-4f68-a921-d7299c939439
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '249'
 ht-degree: 15%
 
 ---
@@ -34,7 +34,7 @@ Estos son los pasos principales necesarios para configurar una acción personali
 1. El número de recorridos que utilizan esta acción se muestra en el campo **[!UICONTROL Used in]**. Puede hacer clic en el botón **[!UICONTROL View journeys]** para mostrar la lista de recorridos que utilizan esta acción.
 1. Defina los diferentes parámetros **[!UICONTROL URL Configuration]**. Consulte [esta página](../action/url-configuration.md).
 1. Configure la sección **[!UICONTROL Authentication]** . Esta configuración es la misma que para las fuentes de datos.  Consulte [esta sección](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
-1. Defina el **[!UICONTROL Message parameters]**. Consulte [esta página](../action/defining-the-message-parameters.md).
+1. Defina el **[!UICONTROL Action parameters]**. Consulte [esta página](../action/defining-the-message-parameters.md).
 1. Haga clic en **[!UICONTROL Save]**.
 
    La acción personalizada ahora está configurada y lista para utilizarse en sus recorridos. Consulte [esta página](../building-journeys/about-action-activities.md).
