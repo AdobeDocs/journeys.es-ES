@@ -7,9 +7,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: a32a208fcaef9a408c850c0ad74ab44e3eb44709
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1173'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 4%
 
 Durante una configuración de fuente de datos, definirá una conexión con un sistema para recuperar información adicional que se utilizará en sus recorridos o, para una definición de acción, configurará la conexión de un sistema de terceros para enviar mensajes o llamadas API. Cada vez que un Recorrido realiza una llamada a la API, se consulta la API de límite y la llamada se realiza a través del motor de API. Si hay un límite definido, la llamada se rechaza y el sistema externo no se sobrecarga.
 
-Para las fuentes de datos externas, el número máximo de llamadas por segundo se establece en 15. Si el número de llamadas supera los 15 por segundo, se descartan las llamadas restantes. Puede aumentar este límite para las fuentes de datos externas privadas. Póngase en contacto con el Adobe para incluir el punto final en la lista blanca. Esto no es posible para las fuentes de datos externas públicas. Para obtener más información sobre las prácticas recomendadas y los tutores al integrar sistemas externos, consulte esta [página](../about/external-systems.md).
+Para las fuentes de datos externas, el número máximo de llamadas por segundo se establece en 15. Si el número de llamadas supera los 15 por segundo, se descartan las llamadas restantes. Puede aumentar este límite para las fuentes de datos externas privadas. Póngase en contacto con el Adobe para incluir el punto final en la lista de permitidos. Esto no es posible para las fuentes de datos externas públicas. Para obtener más información sobre las prácticas recomendadas y los tutores al integrar sistemas externos, consulte esta [página](../about/external-systems.md).
 
 Para obtener más información sobre la acción o la configuración de orígenes de datos, consulte [Acerca de las acciones](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action.html) o [Acerca de las fuentes de datos](https://experienceleague.adobe.com/docs/journeys/using/data-source-journeys/about-data-sources.html)
 
