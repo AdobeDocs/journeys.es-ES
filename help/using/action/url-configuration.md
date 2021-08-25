@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: e7cba6c4-a231-44f9-927a-10115e7ab1dd
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: e71d641888caa9385d078d9c85e073b5f1ed743f
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 14%
+source-wordcount: '312'
+ht-degree: 5%
 
 ---
 
@@ -19,17 +19,38 @@ Al configurar una acción personalizada, debe definir los siguientes **[!UICONTR
 
 ![](../assets/journeyurlconfiguration.png)
 
-1. Añada el **[!UICONTROL URL]** del servicio externo.
+1. En el campo **[!UICONTROL URL]** , especifique la dirección URL del servicio externo:
 
+   * Si la dirección URL es estática, introduzca la dirección URL en este campo.
+
+   * Si la dirección URL incluye una ruta dinámica, introduzca únicamente la parte estática de la dirección URL, es decir, el esquema, el host, el puerto y, opcionalmente, una parte estática de la ruta.
+
+      Ejemplo: `https://xxx.yyy.com:8080/somethingstatic/`
+
+      Al agregar la acción personalizada a un recorrido, especificará la ruta dinámica de la dirección URL. [Más información](../building-journeys/using-custom-actions.md).
    >[!NOTE]
    >
-   >Recomendamos encarecidamente utilizar HTTPS por motivos de seguridad. No permitimos el uso de direcciones de Adobe que no sean públicas ni de direcciones IP.
+   >Por motivos de seguridad, recomendamos encarecidamente que utilice el esquema HTTPS para la dirección URL. No permitimos el uso de direcciones de Adobe que no sean públicas ni de direcciones IP.
 
 1. Seleccione la llamada **[!UICONTROL Method]**: puede ser **[!UICONTROL POST]** o **[!UICONTROL PUT]**.
-1. En la sección **[!UICONTROL Headers]** , haga clic en **[!UICONTROL Add a header field]** para definir un nuevo par clave/valor. Corresponden a los encabezados HTTP de la solicitud realizada al servicio externo. Para eliminar pares de clave/valor, coloque el cursor en el campo **[!UICONTROL Headers]** y haga clic en el icono **[!UICONTROL Delete]**.
+1. En la sección **[!UICONTROL Headers]** , defina los encabezados HTTP del mensaje de solicitud que se enviará al servicio externo:
+   1. Para agregar un campo de encabezado, haga clic en **[!UICONTROL Add a header field]**.
+   1. Introduzca la clave del campo de encabezado.
+   1. Para establecer un valor dinámico para el par clave-valor, seleccione **[!UICONTROL Variable]**. De lo contrario, seleccione **[!UICONTROL Constant]**.
 
-   **[!UICONTROL Content-Type]** y  **[!UICONTROL Charset]** están configurados de forma predeterminada y no se pueden eliminar ni sobrescribir.
+      Por ejemplo, para una marca de tiempo, puede establecer un valor dinámico.
+
+   1. Si ha seleccionado **[!UICONTROL Constant]**, introduzca el valor constante.
+
+      Si ha seleccionado **[!UICONTROL Variable]**, debe especificar esta variable al agregar la acción personalizada a un recorrido. [Más información](../building-journeys/using-custom-actions.md).
+
+      ![](../assets/journeyurlconfiguration2.png)
+
+   1. Para eliminar un campo de encabezado, elija el campo de encabezado y haga clic en el icono **[!UICONTROL Delete]**.
+   Los campos de encabezado **[!UICONTROL Content-Type]** y **[!UICONTROL Charset]** se establecen de forma predeterminada. Estos campos no se pueden modificar ni eliminar.
+
+   Después de agregar la acción personalizada a un recorrido, puede agregarle campos de encabezado si el recorrido está en estado de borrador. Si no desea que el recorrido se vea afectado por los cambios de configuración, duplique la acción personalizada y añada los campos del encabezado a la nueva acción personalizada.
 
    >[!NOTE]
    >
-   >Los encabezados se validan según las siguientes [reglas de análisis](https://tools.ietf.org/html/rfc7230#section-3.2.4).
+   >Los encabezados se validan según las reglas de análisis de campos. [Más información](https://tools.ietf.org/html/rfc7230#section-3.2.4).
