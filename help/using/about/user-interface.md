@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 95%
+source-wordcount: '989'
+ht-degree: 61%
 
 ---
 
@@ -87,58 +87,135 @@ Si hay un nombre descriptivo disponible, el campo se mostrará como `<friendly-n
 >
 >Los nombres descriptivos no se recuperan al seleccionar campos de una unión de esquemas.
 
-## Uso de los distintos métodos abreviados{#section_ksq_zr1_ffb}
+## Accesibilidad{#accessibility}
 
-Estos son los diferentes métodos abreviados disponibles en la interfaz de [!DNL Journey Orchestration].
+Adobe Experience Platform proporciona las funciones de accesibilidad de Adobe Journey Optimizer:
 
-_En lista de recorridos, acciones, fuentes de datos o eventos:_
+* Accesibilidad del teclado
+* Contraste de color
+* Validación de campos obligatorios
 
-* Pulse **c** para crear un nuevo recorrido, acción, fuente de datos o evento.
+[Obtenga más información](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target=&quot;_blank&quot;} en la documentación de Adobe Experience Platform.
 
-_Al configurar una actividad en un recorrido:_
+Puede utilizar estos métodos abreviados del teclado comunes en Adobe Journey Optimizer:
 
-El lienzo se guarda automáticamente. Puede ver el estado de almacenamiento en la parte superior izquierda del lienzo.
+| Acción | Acceso directo |
+| --- | --- |
+| Desplazamiento entre elementos, secciones y grupos de menús de la interfaz de usuario | Tabulación |
+| Retroceder entre elementos, secciones y grupos de menús de la interfaz de usuario | Mayús + Tab |
+| Desplazarse dentro de las secciones para definir el enfoque en elementos individuales | Flecha |
+| Seleccionar o borrar un elemento que esté enfocado | Entrar o barra espaciadora |
+| Cancelar una selección, contraer un panel o cerrar un cuadro de diálogo | Esc |
 
-* Pulse **escape** para cerrar el panel de configuración y descartar los cambios realizados. Este es el equivalente del botón **[!UICONTROL Cancel]**.
-* Pulse **Entrar** o haga clic fuera del panel para cerrar el panel de configuración. Los cambios se guardan. Este es el equivalente del botón **[!UICONTROL Ok]**.
-* Si pulsa **Eliminar** o **retroceso**, puede pulsar **Entrar** para confirmar la eliminación.
+[Obtenga más información](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html){target=&quot;_blank&quot;} en la documentación de Adobe Experience Platform.
 
-_En elementos emergentes:_
+Puede utilizar estos métodos abreviados en partes específicas de Journey Optimizer:
 
-* Pulse **escape** para cerrarlo (equivalente al botón **[!UICONTROL Cancel]** ).
-* Pulse **Entrar** para guardar o confirmar (equivalente al botón **[!UICONTROL Ok]** o **[!UICONTROL Save]** ).
+<table>
+  <thead>
+    <tr>
+      <th>Elemento de interfaz</th>
+      <th>Acción</th>
+      <th>Acceso directo</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>Lista de recorridos, acciones, fuentes de datos o eventos</td>
+    <td>Crear un recorrido, una acción, una fuente de datos o un evento</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td rowspan="3">lienzo de recorrido en estado de borrador</td>
+    <td>Añada una actividad de la paleta izquierda en la primera posición disponible, de arriba a abajo</td>
+    <td>Haga doble clic en la actividad</td>
+  </tr>
+  <tr>
+    <td>Seleccionar todas las actividades</td>
+    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
+  </tr>
+  <tr>
+    <td>Eliminar las actividades seleccionadas</td>
+    <td>Eliminar o Retroceso, a continuación, Intro para confirmar la eliminación</td>
+  </tr>
+  <tr>
+  <td rowspan="3">
 
-_En el panel de configuración de evento, fuente de datos o acción:_
+Panel de configuración de estos elementos:
 
-* Pulse **escape** para cerrar el panel de configuración sin guardar.
-* Pulse **Entrar** para guardar las modificaciones y cerrar el panel de configuración.
-* Pulse la **pestaña** para saltar entre los distintos campos para configurarlos.
+<ul>
+  <li>Actividad en un recorrido</li>
+  <li>Evento</li>
+  <li>Fuente de datos</li>
+  <li>Acción</li>
+</ul>
 
-_En el editor de expresiones simple_
+</td>
+    <td>Mover al campo siguiente que se va a configurar</td>
+    <td>Tabulación</td>
+  </tr>
+  <tr>
+    <td>Guarde los cambios y cierre el panel de configuración</td>
+    <td>Entrar</td>
+  </tr>
+  <tr>
+    <td>Descartar cambios y cerrar el panel de configuración</td>
+    <td>Esc</td>
+  </tr>
+  <tr>
+    <td rowspan="4">Recorrido en modo de prueba</td>
+    <td>Habilitar o deshabilitar el modo de prueba</td>
+    <td>T</td>
+  </tr>
+  <tr>
+    <td>Déclencheur de un evento en un recorrido basado en eventos</td>
+    <td>E</td>
+  </tr>
+  <tr>
+    <td>
 
-* Haga doble clic en un campo, a la izquierda, para agregar una consulta (equivalente a arrastrar y soltar).
+Déclencheur de un evento en un recorrido basado en segmentos para el que la opción **[!UICONTROL Single profile at a time]** está activada
 
-_Al explorar los campos XDM:_
-
-* Al marcar un &quot;nodo&quot; se seleccionarán todos los campos del nodo.
-
-_En todas las áreas de texto:_
-
-* Utilice la combinación de **teclas Ctrl/Comando + A** para seleccionar el texto. En la previsualización de carga útil, selecciona la carga útil.
-
-_En una pantalla con una barra de búsqueda:_
-
-* Utilice la combinación de teclas **Ctrl/Comando + F** para seleccionar la barra de búsqueda.
-
-_En el lienzo de un recorrido:_
-
-* Utilice la combinación de **teclas Ctrl/Comando + A** para seleccionar todas las actividades.
-* Cuando se seleccionan una o varias actividades, pulse **Eliminar** o **Retroceso** para eliminarlas. A continuación, puede pulsar **Entrar** para confirmar en el elemento emergente de confirmación.
-* Haga doble clic en una actividad desde la paleta izquierda para agregarla a la primera posición disponible (de arriba a abajo).
-
-_En un recorrido:_
-
-* Pulse **T** para habilitar/deshabilitar el modo de prueba.
-* En un recorrido basado en eventos en el modo de prueba, pulse **E** para activar un evento.
-* En un recorrido basado en segmentos, cuando la opción **Un perfil a la vez** está seleccionada en modo de prueba, pulse **P** para activar un evento.
-* En el modo de prueba, pulse **L** para mostrar los registros.
+</td>
+    <td>P</td>
+  </tr>
+  <tr>
+    <td>Mostrar los registros de prueba</td>
+    <td>L</td>
+  </tr>
+<!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
+  <tr>
+    <td>Page with a search bar</td>
+    <td>Select the search bar</td>
+    <td>Ctrl/Command + F</td>
+  </tr>
+-->
+  <tr>
+    <td>Campo de texto</td>
+    <td>Seleccionar todo el texto del campo seleccionado</td>
+    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Ventana emergente</td>
+    <td>Guarde los cambios o confirme la acción</td>
+    <td>Entrar</td>
+  </tr>
+  <tr>
+    <td>Cierre la ventana</td>
+    <td>Esc</td>
+  </tr>
+  <tr>
+    <td>Editor de expresiones simples</td>
+    <td>Seleccionar y añadir un campo</td>
+    <td>Hacer doble clic en un campo</td>
+  </tr>
+  <tr>
+    <td>Navegación por campos XDM</td>
+    <td>Seleccionar todos los campos de un nodo</td>
+    <td>Seleccione el nodo principal</td>
+  </tr>
+  <tr>
+    <td>Vista previa de carga útil</td>
+    <td>Seleccione la carga útil</td>
+    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
+  </tr>
+</table>
