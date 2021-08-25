@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 6300a606d49a65a5527f9ba29a7efdfe782c7334
+source-git-commit: e71d641888caa9385d078d9c85e073b5f1ed743f
 workflow-type: tm+mt
-source-wordcount: '2701'
-ht-degree: 60%
+source-wordcount: '2756'
+ht-degree: 59%
 
 ---
 
@@ -17,6 +17,15 @@ ht-degree: 60%
 
 Esta página lista todas las nuevas funciones y mejoras de Journey Orchestration.
 También puede consultar las últimas [Actualizaciones de documentación](../release-notes/documentation-updates.md).
+
+## Versión de agosto de 2021 {#august-2021-release}
+
+### Mejoras
+
+**Recorridos**
+
+* **Encabezados dinámicos** : ahora puede pasar datos dinámicos en parámetros de encabezado HTTP. Estos parámetros los pueden utilizar los sistemas de integración que reciben las llamadas HTTP de acción de recorrido, por ejemplo, la marca de tiempo o el ID de seguimiento. [Más información](../action/url-configuration.md)
+* **Rutas URL dinámicas** : ahora puede configurar rutas URL dinámicas para acciones personalizadas. [Más información](../action/url-configuration.md)
 
 ## Versión de julio de 2021 {#july-2021-release}
 
@@ -41,7 +50,7 @@ También puede consultar las últimas [Actualizaciones de documentación](../rel
 
 * El campo **Cache duration** se ha eliminado del panel de configuración del origen de datos. [Más información](../datasource/about-data-sources.md)
 
-## Versión de junio de 2021 {#june-2021-release}
+## Lanzamiento de junio de 2021 {#june-2021-release}
 
 <table>
 <thead>
@@ -82,7 +91,7 @@ También puede consultar las últimas [Actualizaciones de documentación](../rel
 * En el modo de prueba, en la pantalla **Event configuration**, se ha cambiado el nombre del campo **Key** utilizado para definir el ID del perfil de prueba a **Profile identifier** para mejorar la experiencia del usuario. [Más información](../building-journeys/testing-the-journey.md).
 * En los eventos de reacción, la duración del tiempo de espera ahora solo se puede establecer entre 40 y 30 días. Al probar un recorrido que utiliza un evento de reacción, el modo de prueba **[!UICONTROL Wait time]** predeterminado y el valor mínimo ahora es de 40 segundos. [Más información](../building-journeys/reaction-events.md).
 
-## Versión de febrero de 2021 {#february-2021-release}
+## Lanzamiento de febrero de 2021 {#february-2021-release}
 
 <table>
 <thead>
