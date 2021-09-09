@@ -7,15 +7,15 @@ role: User
 level: Beginner
 exl-id: 430bac3a-06da-45a8-af90-1dcd1504d532
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
-workflow-type: tm+mt
-source-wordcount: '389'
+workflow-type: ht
+source-wordcount: '388'
 ht-degree: 100%
 
 ---
 
 # Acerca de [!DNL Journey Orchestration]{#concept_nd3_mqt_52b}
 
-Cree casos de uso de organización en tiempo real aprovechando los datos contextuales almacenados en eventos o fuentes de datos.
+Cree casos de uso de orquestación en tiempo real aprovechando los datos contextuales almacenados en eventos o fuentes de datos.
 
 [!DNL Journey Orchestration] es un servicio de aplicaciones integrado en Adobe Experience Platform.
 
