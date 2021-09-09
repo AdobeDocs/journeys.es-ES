@@ -6,14 +6,14 @@ user-guide-description: Proporciona instrucciones prácticas para implementar y 
 index: true
 feature: Journeys
 source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '421'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# [!DNL Journey Orchestration] Guía {#using}
+# Guía de [!DNL Journey Orchestration] {#using}
 
 + [Documentación del producto](journey-orchestration-home.md)
 + Novedades {#release-notes}
@@ -52,7 +52,7 @@ ht-degree: 98%
    + Uso de un sistema de terceros {#action-third-party}
       + [Acerca de la configuración de acciones personalizadas](using/action/about-custom-action-configuration.md)
       + [Configuración de URL](using/action/url-configuration.md)
-      + [Definición de los parámetros de acción](using/action/defining-the-message-parameters.md)
+      + [Definición de los parámetros del mensaje](using/action/defining-the-message-parameters.md)
 + Uso de segmentos {#configuring-segment}
    + [Acerca de los segmentos](using/segment/about-segments.md)
    + [Creación de un segmento](using/segment/creating-a-segment.md)
@@ -70,7 +70,7 @@ ht-degree: 98%
       + Actividades de eventos {#events-activities}
          + [Acerca de las actividades de eventos](using/building-journeys/event-activities.md)
          + [Eventos generales](using/building-journeys/general-events.md)
-         + [Reacción Events](using/building-journeys/reaction-events.md)
+         + [Reacción de reacción](using/building-journeys/reaction-events.md)
          + [Eventos de calificación de segmentos](using/building-journeys/segment-qualification-events.md)
       + Actividades de organización {#orchestration-activities}
          + [Acerca de las actividades de organización](using/building-journeys/about-orchestration-activities.md)
