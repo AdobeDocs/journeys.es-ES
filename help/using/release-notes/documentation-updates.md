@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: e5c0db2e1f85ea72fd54f91e4a26cc287377fb0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '836'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,8 +21,8 @@ También puede consultar las [!DNL Journey Orchestration] [Notas de la versión]
 ## Agosto de 2021
 
 * Se ha actualizado el procedimiento de configuración para acciones personalizadas con rutas URL dinámicas y encabezados dinámicos. [Más información](../action/url-configuration.md)
-* Se ha añadido una sección sobre las funciones de accesibilidad. [Más información](../about/user-interface.md#accessibility)
-* Se ha añadido una sección sobre métodos de evaluación de segmentos. [Más información](../segment/about-segments.md#evaluation-method-in-journey-orchestration)
+* Se ha añadido una sección acerca de las funciones de accesibilidad. [Más información](../about/user-interface.md#accessibility)
+* Se ha añadido una sección acerca de métodos de evaluación de segmentos. [Más información](../segment/about-segments.md#evaluation-method-in-journey-orchestration)
 
 ## Marzo de 2021 {#march-2021}
 
