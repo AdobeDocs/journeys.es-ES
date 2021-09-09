@@ -8,8 +8,8 @@ role: User
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
-workflow-type: tm+mt
-source-wordcount: '249'
+workflow-type: ht
+source-wordcount: '248'
 ht-degree: 100%
 
 ---
@@ -73,7 +73,7 @@ Obtenga más información sobre las últimas versiones.
 
 * [Página de producto de Journey Orchestration](https://www.adobe.com/es/experience-platform/journey-orchestration.html)
 * [Documentación de Experience Platform](https://www.adobe.com/es/experience-platform/documentation-and-developer-resources.html)
-* [Documentación del perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es)
+* [Documentación del perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es)
 * [Definición de campo XDM de Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es)
 * [Documentación del área de nombres de identidad](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es)
 * [API de ingesta de flujos](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=es)
@@ -81,7 +81,7 @@ Obtenga más información sobre las últimas versiones.
 
 ## Tutoriales técnicos
 
-* [Configuración de Journey Orchestration](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module6/journey-orchestration-create-account.html?lang=es#.6-journey-orchestration)
+* [Configuración de Journey Orchestration](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module6/journey-orchestration-create-account.html?lang=es#6.-journey-orchestration)
 * [API meteorológica externa, acción de SMS y más](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module12/journey-orchestration-external-weather-api-sms.html?lang=es#module12)
 * [Crear un contacto en Dynamics 365 con Journey Orchestration](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module17/ex3.html?lang=es#17.3-create-a-contact-in-microsoft-dynamics-365-using-journey-orchestration-%26-import-data-from-microsoft-dynamics)
 * [Usar Journey Orchestration para activar un seguimiento de correo electrónico](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module20/ex4.html?lang=es#20.4-use-journey-orchestration-to-trigger-an-email-follow-up-after-interacting-with-your-chatbot)
