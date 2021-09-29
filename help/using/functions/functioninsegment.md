@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 7f756ec5-d787-4024-aaf8-5b4f1d4ddece
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: e56e6f5dcb8a4680851858355ac18a70bd832b73
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 8%
+source-wordcount: '195'
+ht-degree: 6%
 
 ---
 
@@ -25,9 +25,17 @@ El nombre del segmento debe ser una constante de cadena. No puede ser una refere
 
 Los segmentos se definen en [Adobe Experience Platform](https://platform.adobe.com/segment/overview). El editor de expresiones proporciona una lista de segmentos autocompletada.
 
->[!NOTE]
->
->Solo las personas con los estados de participación de segmentos **Realized** y **Existing** se considerarán miembros del segmento. Para obtener más información sobre cómo evaluar un segmento, consulte la [Documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
+Los segmentos pueden tener tres estados:
+
+* existente: la entidad sigue estando en el segmento.
+* realizado: La entidad está introduciendo el segmento.
+* salida: la entidad sale del segmento.
+
+Solo las personas con los estados de participación de segmentos **Realized** y **Existing** se considerarán miembros del segmento. Para obtener más información sobre cómo evaluar un segmento, consulte la [Documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
+
+`IF inSegment('segmentName') == true` significa que tiene un segmentMembership con el estado introducido/existente.
+
+`ELSE inSegment('segmentName') == false` significa que tiene un segmentMembership del estado de salida.
 
 ## Categoría
 

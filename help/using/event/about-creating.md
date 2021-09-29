@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2ae8854a-c3e7-469d-9f89-25b54bc3e894
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: f1773cc56f69894d376d83eb68891499991aa1ab
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 63%
+source-wordcount: '584'
+ht-degree: 60%
 
 ---
 
@@ -52,7 +52,7 @@ Estos son los pasos principales para configurar un nuevo evento:
 
    >[!NOTE]
    >
-   >El editor de expresiones avanzadas no está disponible al definir **[!UICONTROL Event ID condition]**.
+   >El editor de expresiones avanzadas no está disponible al definir **[!UICONTROL Event ID condition]**. En el editor de expresiones simple, no todos los operadores están disponibles, dependen del tipo de datos. Por ejemplo, para un tipo de cadena de campo, puede utilizar &quot;contiene&quot; o &quot;igual a&quot;.
 
 1. Añada un área de nombres. Este paso es opcional, pero se recomienda, ya que la adición de un área de nombres le permite aprovechar la información almacenada en el servicio de Perfil del cliente en tiempo real. Define el tipo de clave que tiene el evento. Consulte [esta página](../event/selecting-the-namespace.md).
 1. Defina la clave: elija un campo de los campos de carga útil o defina una fórmula para identificar a la persona asociada al evento. Esta clave se configura automáticamente (pero aún puede editarse) si selecciona un Área de nombres. De hecho, [!DNL Journey Orchestration] selecciona la clave que debe corresponder al área de nombres (por ejemplo, si selecciona un área de nombres de correo electrónico, se seleccionará la clave de correo electrónico). Consulte [esta página](../event/defining-the-event-key.md).

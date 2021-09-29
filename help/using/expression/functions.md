@@ -6,9 +6,9 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 0b4d925410e1ab4895f27455eb082dd9cc305cff
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '175'
 ht-degree: 74%
 
 ---
@@ -38,6 +38,7 @@ Esta es la lista de funciones compatibles.
 | Agregación | [min](../functions/functionmin.md) |
 | Agregación | [sum](../functions/functionsum.md) |
 | Conversión | [toBool](../functions/functiontobool.md) |
+| Conversión | [toDateOnly](../functions/functiontodateonly.md) |
 | Conversión | [toDateTime](../functions/functiontodatetime.md) |
 | Conversión | [toDateTimeOnly](../functions/functiontodatetimeonly.md) |
 | Conversión | [toDecimal](../functions/functiontodecimal.md) |
@@ -58,8 +59,11 @@ Esta es la lista de funciones compatibles.
 | Fecha  | [setHours](../functions/functionsethours.md) |
 | Fecha  | [setDays](../functions/functionsetdays.md) |
 | Lista | [distinct](../functions/functiondistinct.md) |
-| Lista | [distinctCount](../functions/functiondistinctcount.md) |
+| Lista | [distinctWithNull](../functions/functiondistinctwithnull.md) |
+| Lista | [filter](../functions/functionfilter.md) |
+| Lista | [getListItem](../functions/functiongetlistitem.md) |
 | Lista | [en](../functions/functionin.md) |
+| Lista | [intersección](../functions/functionintersect.md) |
 | Lista | [listSize](../functions/functionlistsize.md) |
 | Lista | [serializeList](../functions/functionserializelist.md) |
 | Lista | [sort](../functions/functionsort.md) |

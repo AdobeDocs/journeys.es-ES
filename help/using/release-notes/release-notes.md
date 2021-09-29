@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: e71d641888caa9385d078d9c85e073b5f1ed743f
+source-git-commit: a60640f91e80becd2769d647b762ca2225f9e9b2
 workflow-type: tm+mt
-source-wordcount: '2756'
-ht-degree: 59%
+source-wordcount: '2965'
+ht-degree: 56%
 
 ---
 
@@ -18,21 +18,48 @@ ht-degree: 59%
 Esta página lista todas las nuevas funciones y mejoras de Journey Orchestration.
 También puede consultar las últimas [Actualizaciones de documentación](../release-notes/documentation-updates.md).
 
+## Versión de septiembre de 2021 {#september-2021-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>Pasar listas de datos dinámicamente mediante acciones personalizadas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ahora puede pasar colecciones o una lista de datos en los parámetros de acción personalizados que se rellenarán dinámicamente durante la ejecución. Se admiten dos tipos de colecciones: colecciones simples y colecciones de objetos. Las acciones personalizadas creadas anteriormente seguirán funcionando. </p>
+<p>Para obtener más información sobre las colecciones, consulte la <a href="../usecase/collections.md">documentación detallada</a>. </p>
+<p>Las funciones de filtro e intersección se han agregado a la lista de funciones disponibles en el editor de expresiones avanzadas. Esto ofrece más posibilidades para filtrar y comparar colecciones.</p>
+<p>Consulte la documentación sobre las funciones <a href="../functions/functionfilter.md">filter</a> y <a href="../functions/functionintersect.md">intersection</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Mejoras
+
+* Los esquemas y conjuntos de datos generados por el sistema que se han creado durante el aprovisionamiento para eventos de paso ahora están en modo de solo lectura, lo que protege contra cualquier modificación involuntaria de esquemas críticos. [Más información](../building-journeys/sharing-overview.md)
+* etiquete claramente la actividad **Wait** con una etiqueta que se mostrará en el lienzo. La etiqueta también se utiliza en los registros de modo de informes y prueba para identificar claramente lo que está haciendo. [Más información](../building-journeys/using-the-journey-designer.md)
+* Encuentre sus eventos y acciones más rápido filtrando elementos en las categorías **Events** y **Action** mediante la búsqueda. Las actividades de organización ya no se filtran. [Más información](../building-journeys/using-the-journey-designer.md)
+* Al definir una condición de ID de evento en una regla, el operador &quot;contiene&quot; ya está disponible para los tipos de cadena de campos. [Más información](../event/about-creating.md)
+
 ## Versión de agosto de 2021 {#august-2021-release}
 
 ### Mejoras
 
 **Recorridos**
 
-* **Encabezados dinámicos** : ahora puede pasar datos dinámicos en parámetros de encabezado HTTP. Estos parámetros los pueden utilizar los sistemas de integración que reciben las llamadas HTTP de acción de recorrido, por ejemplo, la marca de tiempo o el ID de seguimiento. [Más información](../action/url-configuration.md)
+* **Encabezados dinámicos** : ahora puede pasar datos dinámicos en parámetros de encabezado HTTP. Estos parámetros los pueden utilizar los sistemas de integración que reciben las llamadas HTTP de acción del recorrido, por ejemplo, la marca de tiempo o el ID de seguimiento. [Más información](../action/url-configuration.md)
 * **Rutas URL dinámicas** : ahora puede configurar rutas URL dinámicas para acciones personalizadas. [Más información](../action/url-configuration.md)
 
-## Versión de julio de 2021 {#july-2021-release}
+## Julio de 2021 Versión {#july-2021-release}
 
 <table>
 <thead>
 <tr>
-<th><strong>Aprovechar las relaciones de esquema</strong><br/></th>
+<th><strong>Aprovechamiento de las relaciones de esquema</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -544,7 +571,7 @@ La interfaz de Journey Orchestration está disponible en japonés.
 
 La organización de recorridos ahora se conoce como GA.
 
-Cree casos de uso de organización en tiempo real aprovechando los datos contextuales almacenados en eventos o fuentes de datos.
+Cree casos de uso de orquestación en tiempo real aprovechando los datos contextuales almacenados en eventos o fuentes de datos.
 
 Journey Orchestration permite la orquestación en tiempo real basada en datos contextuales de eventos, información de Adobe Experience Platform o datos de servicios API de terceros. La aplicación determina en los flujos de varios pasos llamados recorridos las siguientes mejores acciones específicas del consumidor, en función de su perfil y comportamiento. Esto incluye tanto el momento óptimo como el tipo de acción, como enviar al consumidor una notificación push a través de las funciones de mensajería transaccional de Adobe Campaign Standard (requiere Adobe Campaign Standard) o la notificación de un sistema de terceros. Estas decisiones se toman en base a reglas y puntuaciones de Sensei.
 

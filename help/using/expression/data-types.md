@@ -6,9 +6,9 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 343f61b8-2315-4971-8b2b-6aa815bd9ced
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 0b4d925410e1ab4895f27455eb082dd9cc305cff
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '636'
 ht-degree: 5%
 
 ---
@@ -119,15 +119,47 @@ false
 true
 ```
 
+## dateOnly {#date-only}
+
+**Descripción**
+
+Representa una fecha únicamente sin zona horaria, vista como un año-mes-día.
+
+Es una descripción de la fecha, como se usa para cumpleaños.
+
+Formato JSON: Cadena.
+
+El formato es: AAAA-MM-DD (ISO-8601), por ejemplo: &quot;2021-03-11&quot;.
+
+Se puede encapsular en una función toDateOnly .
+
+Utiliza DateTimeForsubject ISO_LOCAL_DATE_TIME para deserializar y serializar el valor. [Más información](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6)
+
+**Representación literal**
+
+```
+date("<dateOnly in ISO-8601 format>")  
+```
+
+**Ejemplo**
+
+```
+date("2021-02-19")
+```
+
 ## dateTimeOnly {#date-time-only}
 
 **Descripción**
 
 Representa una fecha y hora sin zona horaria, vista como año-mes-día-hora-segundo-milisegundo.
 
+Formato JSON: Cadena.
+
 No almacena ni representa un huso horario. En su lugar, es una descripción de la fecha, como se usa para cumpleaños, combinada con la hora local como se ve en un reloj de pared.
 
 No puede representar un instante en la línea de tiempo sin información adicional, como desplazamiento o zona horaria.
+
+Se puede encapsular en una función toDateTimeOnly .
 
 Formato de serialización: Formato de fecha y hora de desvío extendido ISO-8601.
 
@@ -136,7 +168,14 @@ Utiliza DateTimeForsubject ISO_LOCAL_DATE_TIME para deserializar y serializar el
 **Representación literal**
 
 ```
-toDateTimeOnly("<dateTimeOnly in ISO-8601 format>")  
+date("<dateTimeOnly in ISO-8601 format>")  
+```
+
+**Ejemplos**
+
+```
+date("2021-02-19T00.00.000")
+date("2021-02-19T00.00")
 ```
 
 ## dateTime {#date-time}
@@ -149,7 +188,7 @@ Se puede ver como un instante en el tiempo con la información adicional del des
 
 Formato JSON: Cadena.
 
-Debe encapsularse en una función toDateTime .
+Se puede encapsular en una función toDateTime .
 
 Formato de serialización: Formato de fecha y hora de desvío extendido ISO-8601.
 
@@ -166,10 +205,18 @@ toDateTime("<dateTime in ISO-8601 format>")
 ```
 
 ```
+date("<dateTime in ISO-8601 format>")
+```
+
+```
 toDateTime(<integer value of an epoch in milliseconds>)
 ```
 
-**Ejemplo**
+**Ejemplos**
+
+```
+date("2021-02-19T00.00.000Z")
+```
 
 ```
 toDateTime("1977-04-22T06:00:00Z")
