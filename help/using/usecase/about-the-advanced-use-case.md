@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 43435aee-572d-4db2-88d5-6124ce074285
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 579e5a0dbdc11369248c2683c399b090130a7262
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '416'
 ht-degree: 5%
 
 ---
@@ -29,14 +29,14 @@ En primer lugar, queremos enviar un mensaje tan pronto como una persona entre en
 
 Luego comprobamos dos condiciones:
 
-* Si esta persona no es un miembro socio, le enviamos un correo electrónico para unirse a la oferta de membresía de fidelidad.
+* Si esta persona no es un miembro socio, le enviamos un correo electrónico para unirse a la oferta de pertenencia de fidelidad.
 * Si esta persona ya es miembro socio, comprobamos si tiene una reserva de habitación:
-   * Si no lo hace, le enviamos una notificación push con tarifas de habitación.
-   * Si lo hace, le enviamos una notificación push de bienvenida. Y si entra al restaurante dentro de las próximas 6 horas, le enviamos una notificación push con un descuento en una comida.
+   * Si no lo hace, les enviamos una notificación push con tarifas de habitación.
+   * Si lo hace, les enviamos una notificación push de bienvenida. Y si entra al restaurante dentro de las próximas 6 horas, les enviamos una notificación push con un descuento en una comida.
 
 ![](../assets/journeyuc2_29.png)
 
-Para este caso de uso, necesitamos crear dos eventos (consulte [esta página](../usecase/configuring-the-events.md)):
+Para este caso de uso, será necesario crear dos eventos (consulte [esta página](../usecase/configuring-the-events.md)):
 
 * El evento de señalización del vestíbulo que será transferido al sistema cuando un cliente entre al hotel.
 * El evento de señalización del restaurante que se impulsará cuando un cliente entre en el restaurante.

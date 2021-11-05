@@ -6,9 +6,9 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 724ae59e-d1b5-4de9-b140-d37064e22ac6
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 601bed30d3c414f03c60ef52c787372e778dee54
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '492'
 ht-degree: 2%
 
 ---
@@ -50,22 +50,22 @@ A continuación, selecciona todos los eventos addtocart que no se han transforma
 
 La marca de tiempo especificada actúa como valor de fecha y hora; el segundo es número de días.
 
-```
-        In( “addToCart”, #{ExperiencePlatformDataSource
+```json
+        in( "addToCart", #{ExperiencePlatformDataSource
                         .ExperienceEventFieldGroup
                         .experienceevent
                         .all(
                         inLastDays(currentDataPackField.timestamp, 7 ))
                         .productData
                         .productInteraction})
-        And
-        Not(In( “completePurchase”, #{ExperiencePlatformDataSource
+        and
+        not(in( "completePurchase", #{ExperiencePlatformDataSource
                         .ExperienceEventFieldGroup
                         .experienceevent
                         .all(
                         inLastDays(currentDataPackField.timestamp, 7 ))
                         .productData
-                        .productInteraction})
+                        .productInteraction}))
 ```
 
 Esta expresión devuelve un valor booleano.
@@ -76,20 +76,20 @@ Esta expresión devuelve un valor booleano.
 
 `#{Inventory.fieldgroup3.quantity} > 0`
 
-* A la derecha, se especifican los valores necesarios, aquí necesitamos recuperar la ubicación de la tienda, que se asigna desde la ubicación del evento &quot;ArriveLumaStudio&quot;:
+* A la derecha, se especifican los valores necesarios, aquí, necesitamos recuperar la ubicación de la tienda, que se asigna desde la ubicación del evento &quot;ArriveLumaStudio&quot;:
 
 `#{ArriveLumaStudio._acpevangelists1.location.location}`
 
-* Y especifique el SKU, utilizando la función `first` para recuperar la interacción &quot;addToCart&quot; más reciente:
+* Y especificar SKU, utilizando la función `first` para recuperar la interacción &quot;addToCart&quot; más reciente:
 
-   ```
+   ```json
        #{ExperiencePlatformDataSource
                        .ExperienceEventFieldGroup
                        .experienceevent
                        .first(
                        currentDataPackField
                        .productData
-                       .productInteraction == “addToCart”
+                       .productInteraction == "addToCart"
                        )
                        .SKU}
    ```
@@ -102,7 +102,7 @@ Desde allí puede añadir otra ruta en el recorrido para cuando el producto no e
 
 Esta condición recupera únicamente los eventos de geovalla activados en &quot;Arlington&quot;:
 
-```
+```json
         @{GeofenceEntry
                     .placeContext
                     .POIinteraction
@@ -110,11 +110,11 @@ Esta condición recupera únicamente los eventos de geovalla activados en &quot;
                     .name} == "Arlington"
 ```
 
-Explicación: Se trata de una comparación de cadenas estricta (con distinción de mayúsculas y minúsculas), equivalente a una consulta en modo simple que utiliza `equal to` con `Is sensitive` seleccionado.
+Explicación: Se trata de una comparación estricta de cadenas (con distinción de mayúsculas y minúsculas), equivalente a una consulta en modo simple que utiliza `equal to` con `Is sensitive` activada.
 
-La misma consulta con `Is sensitive` desmarcada generará la siguiente expresión en modo avanzado:
+La misma consulta con `Is sensitive` si no se selecciona, se generará la siguiente expresión en modo avanzado:
 
-```
+```json
         equalIgnoreCase(@{GeofenceEntry
                         .placeContext
                         .POIinteraction
@@ -126,7 +126,7 @@ La misma consulta con `Is sensitive` desmarcada generará la siguiente expresió
 
 La siguiente expresión le permite definir el ID de CRM en un campo de personalización de acción:
 
-```
+```json
     substr(@{MobileAppLaunch
             ._myorganization
             .identification
@@ -135,10 +135,9 @@ La siguiente expresión le permite definir el ID de CRM en un campo de personali
                         ._myorganization
                         .identification
                         .crmid}
-                         }
                          ))
 ```
 
-Explicación: Este ejemplo utiliza las funciones `substr` y `lastIndexOf` para eliminar llaves que encierran el ID de CRM pasado con un evento de inicio de aplicación móvil.
+Explicación: Este ejemplo utiliza `substr` y `lastIndexOf` funciones para eliminar llaves que encierran el ID de CRM pasado con un evento de inicio de aplicación móvil.
 
-Para obtener más información sobre cómo utilizar el editor de expresiones avanzadas, vea [este vídeo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html).
+Para obtener más información sobre cómo utilizar el editor de expresiones avanzadas, consulte [este vídeo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html).

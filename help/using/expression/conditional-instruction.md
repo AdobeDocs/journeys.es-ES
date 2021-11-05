@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 48fb4944-5b78-4ccd-9b9b-ffe0719e7c21
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 1%
+source-wordcount: '161'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ La instrucción condicional (si, entonces, si no) es compatible con el editor av
 >
 >Se requieren paréntesis en todas las expresiones.
 
-```
+```json
 if  (<expression1>)
 then
    (<expression2>)
@@ -33,11 +33,11 @@ else
    (<expression3>)
 ```
 
-`<expression1>` debe devolver un  **booleano**.
+`<expression1>` debe devolver un **booleano**.
 
-`<expression2>` y  `<expression3>` deben tener el mismo tipo o tipos compatibles. Las firmas admitidas y los tipos devueltos son:
+`<expression2>` y `<expression3>` debe tener el mismo tipo o tipos compatibles. Las firmas admitidas y los tipos devueltos son:
 
-```
+```json
 boolean,boolean : boolean
 dateTime,dateTime : dateTime
 dateTimeOnly,dateTimeOnly : dateTimeOnly
@@ -49,6 +49,7 @@ string,string : string
 listBoolean,listBoolean : listBoolean
 listDateTime,listDateTime : listDateTime
 listDateTimeOnly,listDateTimeOnly : listDateTimeOnly
+listDateOnly,listDateOnly : listDateOnly
 listDecimal,listDecimal : listDecimal
 listInteger,listInteger : listInteger
 listString,listString : listString
@@ -60,7 +61,7 @@ La instrucción condicional permite optimizar el flujo de trabajo de recorrido a
 
 Ejemplo de una actividad de acción (para un campo que espera una cadena como resultado de la instrucción condicional):
 
-```
+```json
 if (startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iPad') or startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iOS'))
 then
    ('apns')

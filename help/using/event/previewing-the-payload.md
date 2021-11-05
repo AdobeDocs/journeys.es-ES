@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 5a4cf7cd-463f-4e5b-a679-419649efef12
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 579e5a0dbdc11369248c2683c399b090130a7262
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 8%
+source-wordcount: '113'
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ La previsualización de carga útil permite validar la definición de carga úti
 >
 >En el caso de los eventos generados por el sistema, cuando cree un evento, antes de ver la previsualización de la carga útil, guarde el evento y vuelva a abrirlo. Este paso es necesario para generar un ID de evento en la carga útil.
 
-1. Haga clic en el icono **[!UICONTROL View Payload]** para previsualizar la carga útil esperada por el sistema.
+1. Haga clic en el **[!UICONTROL View Payload]** para obtener una vista previa de la carga útil esperada por el sistema.
 
    ![](../assets/journey13.png)
 
@@ -31,4 +31,4 @@ La previsualización de carga útil permite validar la definición de carga úti
 
 1. Compruebe la previsualización para validar la definición de carga útil.
 
-1. A continuación, puede compartir la previsualización de la carga útil con la persona responsable del envío del evento. Esta carga útil puede ayudarle a diseñar la configuración de un evento que se dirija a [!DNL Journey Orchestration]. Consulte [esta página](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+1. A continuación, puede compartir la previsualización de la carga útil con la persona responsable del envío del evento. Esta carga útil puede ayudarles a diseñar la configuración de un evento que se esté insertando en [!DNL Journey Orchestration]. Consulte [esta página](../event/additional-steps-to-send-events-to-journey-orchestration.md).

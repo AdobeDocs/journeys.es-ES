@@ -5,10 +5,10 @@ title: Guía de Journey Orchestration
 user-guide-description: Proporciona instrucciones prácticas para implementar y construir recorridos.
 index: true
 feature: Journeys
-source-git-commit: 5c3cc59d83b4b88c8ba9bde1bb8ea15a29e069be
-workflow-type: ht
-source-wordcount: '433'
-ht-degree: 100%
+source-git-commit: b557e94076bc7ce5c212246ddf313248ca10dd60
+workflow-type: tm+mt
+source-wordcount: '444'
+ht-degree: 96%
 
 ---
 
@@ -88,11 +88,14 @@ ht-degree: 100%
    + [Publicación del recorrido](using/building-journeys/publishing-the-journey.md)
    + Uso compartido de los pasos del recorrido con Adobe Experience Platform {#sharing-journey-steps}
       + [Información general sobre el uso compartido de los pasos del recorrido](using/building-journeys/sharing-overview.md)
-      + [Campos comunes de los eventos de journeySteps](using/building-journeys/sharing-common-fields.md)
-      + [Campos de ejecución de la acción de eventos de journeySteps](using/building-journeys/sharing-execution-fields.md)
-      + [Campos de captura de datos de eventos de journeySteps](using/building-journeys/sharing-fetch-fields.md)
-      + [Campos de identidad de eventos de journeySteps](using/building-journeys/sharing-identity-fields.md)
-      + [campos del recorrido](using/building-journeys/sharing-journey-fields.md)
+      + [Lista de campos de eventos de paso](using/building-journeys/sharing-field-list.md)
+      + Campos de eventos de paso heredados {#legacy-step-event-fields}
+         + [Acerca de los campos heredados](using/building-journeys/sharing-legacy-fields.md)
+         + [Campos comunes de los eventos de journeySteps](using/building-journeys/sharing-common-fields.md)
+         + [Campos de ejecución de la acción de eventos de journeySteps](using/building-journeys/sharing-execution-fields.md)
+         + [Campos de captura de datos de eventos de journeySteps](using/building-journeys/sharing-fetch-fields.md)
+         + [Campos de identidad de eventos de journeySteps](using/building-journeys/sharing-identity-fields.md)
+         + [campos del recorrido](using/building-journeys/sharing-journey-fields.md)
       + [Ejemplos de consultas](using/building-journeys/query-examples.md)
 + Uso del editor de expresiones avanzadas {#building-advanced-conditions-journeys}
    + [Acerca del editor de expresiones avanzadas](using/expression/expressionadvanced.md)
@@ -158,10 +161,10 @@ ht-degree: 100%
       + Cadena {#string}
          + [concat](using/functions/functionconcat.md)
          + [contain](using/functions/functioncontain.md)
-         + [containWithIgnoreCase](using/functions/functioncontainwithignorecase.md)
+         + [containIgnoreCase](using/functions/functioncontainwithignorecase.md)
          + [endWith](using/functions/functionendwith.md)
          + [endWithIgnorecase](using/functions/functionendwithignorecase.md)
-         + [equalWithIgnoreCase](using/functions/functionequalignorecase.md)
+         + [equalIgnoreCase](using/functions/functionequalignorecase.md)
          + [indexOf](using/functions/functionindexof.md)
          + [isEmpty](using/functions/functionisempty.md)
          + [isNotEmpty](using/functions/functionisnotempty.md)
@@ -169,7 +172,7 @@ ht-degree: 100%
          + [length](using/functions/functionlength.md)
          + [lower](using/functions/functionlower.md)
          + [matchRegExp](using/functions/functionmatchregexp.md)
-         + [notEqualWithIgnoreCase](using/functions/functionnotequalignorecase.md)
+         + [notequalIgnoreCase](using/functions/functionnotequalignorecase.md)
          + [replace](using/functions/functionreplace.md)
          + [replaceAll](using/functions/functionreplaceall.md)
          + [split](using/functions/functionsplit.md)

@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: e82f3c45-e2f0-421a-be7e-c52e4badebbf
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 19%
+source-wordcount: '60'
+ht-degree: 18%
 
 ---
 
@@ -40,7 +40,7 @@ Devuelve un número entero.
 
 ## Ejemplo
 
-`lastIndexOf("Hello, "l"))`
+`lastIndexOf("Hello, "l")`
 
 Devuelve 3.
 

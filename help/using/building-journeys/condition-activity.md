@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 7b44edbe-9d05-4d67-8a64-2a0a553fcb92
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: d09d70a0ec2720c5a75385b9036bf3a6ab74f4ab
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 10%
+source-wordcount: '836'
+ht-degree: 9%
 
 ---
 
@@ -38,7 +38,7 @@ Por ejemplo, tomemos el ejemplo de la condición de una primera ruta &quot;La pe
 
 ![](../assets/journey48.png)
 
-Puede crear otra ruta para las audiencias que no cumplan los requisitos de las condiciones definidas marcando **[!UICONTROL Show path for other cases than the one(s) above]**. Tenga en cuenta que esta opción no está disponible en condiciones de división. Consulte [División porcentual](#percentage_split).
+Puede crear otra ruta para las audiencias que no cumplan los requisitos de las condiciones definidas comprobando **[!UICONTROL Show path for other cases than the one(s) above]**. Tenga en cuenta que esta opción no está disponible en condiciones de división. Consulte [División de porcentaje](#percentage_split).
 
 El modo simple permite realizar consultas simples basadas en una combinación de campos. Todos los campos disponibles se muestran en la parte izquierda de la pantalla. Arrastre y suelte los campos en la zona principal. Para combinar los distintos elementos, conéctelos entre sí para crear diferentes grupos o niveles de grupo. A continuación, puede seleccionar un operador lógico para combinar elementos en el mismo nivel:
 
@@ -47,7 +47,7 @@ El modo simple permite realizar consultas simples basadas en una combinación de
 
 ![](../assets/journey64.png)
 
-Si utiliza el [Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html) para crear sus segmentos, puede aprovecharlos en las condiciones de recorrido. Consulte [Uso de segmentos en condiciones](../segment/using-a-segment.md).
+Si está utilizando la variable [Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html) para crear los segmentos, puede aprovecharlos en las condiciones de recorrido. Consulte [Uso de segmentos en condiciones](../segment/using-a-segment.md).
 
 
 >[!NOTE]
@@ -55,6 +55,8 @@ Si utiliza el [Servicio de segmentación de Adobe Experience Platform](https://e
 >No puede realizar consultas en series temporales (por ejemplo, una lista de compras o clics anteriores en mensajes) con el editor simple. Para ello, debe utilizar el editor avanzado. Consulte [esta página](../expression/expressionadvanced.md).
 
 Cuando se produce un error en una acción o condición, se detiene el recorrido de un individuo. La única manera para continuar es marcar la casilla **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Consulte [esta sección](../building-journeys/using-the-journey-designer.md#paths).
+
+En el editor simple, también encontrará la categoría Propiedades del Recorrido, debajo de las categorías de evento y fuente de datos. Esta categoría contiene campos técnicos relacionados con el recorrido de un perfil determinado. Esta es la información recuperada por el sistema de los recorridos activos, como el ID de recorrido o los errores específicos encontrados. Para obtener más información, consulte [esta página](../expression/journey-properties.md)
 
 ## Condición de fuente de datos {#data_source_condition}
 
@@ -93,3 +95,19 @@ Esto permite definir un flujo diferente en función de la fecha. Por ejemplo, si
 >La zona horaria ya no es específica de una condición y ahora se define a nivel de recorrido en las propiedades de recorrido. Consulte [esta página](../building-journeys/timezone-management.md).
 
 ![](../assets/journey53.png)
+
+<!--
+## Profile cap {#profile_cap}
+
+Use this condition type to set a maximum number of profiles for a journey path. When this limit is reached, the selected profiles take a second path.
+
+You can use this condition type to ramp up the volume of your deliveries. For example, you might have recently moved to another email service provider, IP address, or email domain or subdomain. Using this feature, you can establish your reputation as a sender and avoid that your deliveries be blocked or moved to the spam folder of the recipients' mailbox. Learn how to increase your email reputation with IP warming in the [Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html){target="_blank"}.
+
+The default cap is 1000. You must set an integer value that is greater than or equal to 1.
+
+The counter applies only to the selected journey version. By default, the counter is reset to zero after 180 days. After a reset, the selected profiles take the first path again until the counter limit is reached. You can gradually increase this limit up to the total number of your subscribers. After your IP has warmed up, you can remove this condition.
+
+The first path always has priority over the second path, even if you move the second path above the first path on the journey canvas.
+
+![](../assets/profile-cap-condition.png)
+-->

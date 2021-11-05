@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 8e86b919-41f5-45f9-a6af-9fe290405095
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 17%
+source-wordcount: '111'
+ht-degree: 18%
 
 ---
 
@@ -36,6 +36,7 @@ Lista
 | Lista | listDuration |
 | Lista | listDateTime |
 | Lista | listDateTimeOnly |
+| Lista | listDateOnly |
 | Booleano | Booleano |
 
 ## Firma y tipo devuelto
@@ -59,6 +60,10 @@ Devuelve una lista de tiempos de datos sin tener en cuenta la zona horaria.
 `sort(<listDateTime>,<boolean>)`
 
 Devuelve una lista de tiempos de datos.
+
+`sort(<listDateOnly>,<boolean>)`
+
+Devuelve una lista de fechas.
 
 `sort(<listBoolean>,<boolean>)`
 

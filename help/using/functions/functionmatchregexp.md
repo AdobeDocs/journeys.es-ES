@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 751fdcde-0af5-4f98-8cea-aae3ebefdb04
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 13%
+source-wordcount: '85'
+ht-degree: 12%
 
 ---
 
@@ -36,7 +36,7 @@ Cadena
 
 `matchRegExp(<string>,<string>)`
 
-Devuelve un valor verdadero.
+Devuelve un valor booleano.
 
 ## Ejemplo
 

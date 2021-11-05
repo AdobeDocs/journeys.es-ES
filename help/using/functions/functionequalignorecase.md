@@ -1,21 +1,21 @@
 ---
 product: adobe campaign
-title: equalWithIgnoreCase
-description: Obtenga información sobre la función equalWithIgnoreCase
+title: equalIgnoreCase
+description: Obtenga información sobre la función equalIgnoreCase
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 9311c799-a4e6-47b3-9867-b09093d3a981
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 21%
+source-wordcount: '36'
+ht-degree: 13%
 
 ---
 
-# equalWithIgnoreCase {#equalWithIgnoreCase}
+# equalIgnoreCase {#equalIgnoreCase}
 
-Compara la primera cadena de argumento con la segunda cadena de argumento, ignorando las consideraciones de mayúsculas y minúsculas.
+Compares the first argument string with the second argument string, ignoring case considerations.
 
 ## Categoría
 
@@ -23,7 +23,7 @@ Cadena
 
 ## Sintaxis de función
 
-`equalWithIgnoreCase(<parameters>)`
+`equalIgnoreCase(<parameters>)`
 
 ## Parámetros
 
@@ -31,12 +31,12 @@ Cadena
 
 ## Firma y tipo devuelto
 
-`equalWithIgnoreCase(<string>,<string>)`
+`equalIgnoreCase(<string>,<string>)`
 
 Devuelve un valor booleano.
 
 ## Ejemplo
 
-`equalWithIgnoreCase("rowing is great', "rowing is GREAT")`
+`equalIgnoreCase("rowing is great", "rowing is GREAT")`
 
-Devuelve verdadero.
+Returns true.

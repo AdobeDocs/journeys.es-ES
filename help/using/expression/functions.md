@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
-source-git-commit: 0b4d925410e1ab4895f27455eb082dd9cc305cff
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 74%
+ht-degree: 73%
 
 ---
 
@@ -63,7 +63,7 @@ Esta es la lista de funciones compatibles.
 | Lista | [filter](../functions/functionfilter.md) |
 | Lista | [getListItem](../functions/functiongetlistitem.md) |
 | Lista | [en](../functions/functionin.md) |
-| Lista | [intersección](../functions/functionintersect.md) |
+| Lista | [intersect](../functions/functionintersect.md) |
 | Lista | [listSize](../functions/functionlistsize.md) |
 | Lista | [serializeList](../functions/functionserializelist.md) |
 | Lista | [sort](../functions/functionsort.md) |
@@ -71,10 +71,10 @@ Esta es la lista de funciones compatibles.
 | Matemáticas | [round](../functions/functionround.md) |
 | Cadena | [concat](../functions/functionconcat.md) |
 | Cadena | [contain](../functions/functioncontain.md) |
-| Cadena | [containWithIgnoreCase](../functions/functioncontainwithignorecase.md) |
+| Cadena | [containIgnoreCase](../functions/functioncontainwithignorecase.md) |
 | Cadena | [endWith](../functions/functionendwith.md) |
 | Cadena | [endWithIgnoreCase](../functions/functionendwithignorecase.md) |
-| Cadena | [equalWithIgnoreCase](../functions/functionequalignorecase.md) |
+| Cadena | [equalIgnoreCase](../functions/functionequalignorecase.md) |
 | Cadena | [indexOf](../functions/functionindexof.md) |
 | Cadena | [isEmpty](../functions/functionisempty.md) |
 | Cadena | [isNotEmpty](../functions/functionisnotempty.md) |
@@ -82,7 +82,7 @@ Esta es la lista de funciones compatibles.
 | Cadena | [length](../functions/functionlength.md) |
 | Cadena | [lower](../functions/functionlower.md) |
 | Cadena | [matchRegExp](../functions/functionmatchregexp.md) |
-| Cadena | [notEqualWithIgnoreCase](../functions/functionnotequalignorecase.md) |
+| Cadena | [notEqualIgnoreCase](../functions/functionnotequalignorecase.md) |
 | Cadena | [replace](../functions/functionreplace.md) |
 | Cadena | [replaceAll](../functions/functionreplaceall.md) |
 | Cadena | [startWith](../functions/functionstartwith.md) |
