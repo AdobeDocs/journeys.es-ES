@@ -6,16 +6,16 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: f6f0004d-8a33-4671-9c16-e56edfe2a45e
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: f0cb883a09d553bb47491b750fabde54c92f3225
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 90%
+source-wordcount: '550'
+ht-degree: 85%
 
 ---
 
 # Acerca del editor de expresiones avanzadas {#concept_uyj_trt_52b}
 
-El editor de expresiones avanzadas permite crear expresiones avanzadas en varias pantallas de la interfaz; por ejemplo, al definir una condición de fuente de datos.
+Utilice el editor de expresiones avanzadas para crear expresiones avanzadas en varias pantallas de la interfaz. Por ejemplo, se pueden crear expresiones al configurar y utilizar recorridos y al definir una condición de fuente de datos.
 También está disponible cada vez que necesite definir parámetros de acción que requieran manipulaciones de datos específicas. Puede aprovechar los datos procedentes de los eventos o la información adicional recuperada del origen de datos. En un viaje, la lista mostrada de los campos de evento es contextual y varía según los eventos agregados en el recorrido.
 
 El editor de expresiones avanzadas oferta un conjunto de funciones y operadores integrados que le permiten manipular valores, y definir una expresión que se ajuste específicamente a sus necesidades. El editor de expresiones avanzadas también permite definir los valores del parámetro de fuente de datos externo, y manipular los campos y colecciones de mapas, como los eventos de experiencia.
@@ -58,7 +58,7 @@ Esta pantalla le permite escribir manualmente su expresión.
 En la parte izquierda de la pantalla se muestran los campos y las funciones disponibles:
 
 * **[!UICONTROL Events]**: elija uno de los campos recibidos del evento de entrada. La lista mostrada de los campos de evento es contextual y varía según los eventos agregados en el recorrido. [Más información](../event/about-events.md)
-* **[!UICONTROL Segments]**: si ha colocado un  **[!UICONTROL Segment qualification]** evento, elija el segmento que desee utilizar en su expresión. [Más información](../segment/using-a-segment.md)
+* **[!UICONTROL Segments]**: si ha dejado un **[!UICONTROL Segment qualification]** , elija el segmento que desee utilizar en su expresión. [Más información](../segment/using-a-segment.md)
 * **[!UICONTROL Data Sources]**: elija entre la lista de campos disponibles en los grupos de campos de las fuentes de datos. [Más información](../datasource/about-data-sources.md)
 * **[!UICONTROL Journey properties]**: esta sección reagrupa los campos técnicos relacionados con el recorrido de un perfil determinado. [Más información](../expression/journey-properties.md)
 * **[!UICONTROL Functions]**: elija entre una lista de funciones integradas que permitan realizar filtros complejos. Las funciones están organizadas por categorías. [Más información](../expression/functions.md)

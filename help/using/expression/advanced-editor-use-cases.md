@@ -6,7 +6,7 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 724ae59e-d1b5-4de9-b140-d37064e22ac6
-source-git-commit: 601bed30d3c414f03c60ef52c787372e778dee54
+source-git-commit: a5d063784b278120b61f8d2641264baf40e34a90
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # Ejemplos de expresiones avanzadas
 
-El editor de expresiones avanzadas se puede utilizar para crear condiciones que le permitan filtrar usuarios en sus recorridos. Estas condiciones le permiten dirigirse a los usuarios en cuanto a tiempo, fecha, ubicación, duración o acciones como la compra o el abandono de carros, de modo que se puedan redirigir en el recorrido.
+El editor de expresiones avanzadas se puede utilizar para crear condiciones que le permitan filtrar usuarios en sus recorridos. Estas condiciones le permiten dirigirse a los usuarios en cuanto a hora, fecha, ubicación, duración o acciones como la compra o el abandono de carros, de modo que se puedan redirigir en el recorrido.
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ Los eventos de experiencia se recuperan de Adobe Experience Platform como una co
 * la primera función devolverá el evento más reciente
 * la última función devolverá la más antigua.
 
-Por ejemplo, supongamos que desea dirigirse a los clientes con un abandono del carro de compras en los últimos 7 días para enviar un mensaje cuando el cliente se acerca a una tienda, con una oferta sobre los artículos que quería que están en la tienda.
+Por ejemplo, supongamos que desea dirigirse a clientes con un abandono del carro de compras en los últimos 7 días para enviar un mensaje cuando el cliente se acerca a una tienda, con una oferta sobre los artículos que desea que estén en la tienda.
 
 **Debe crear las siguientes condiciones:**
 
@@ -127,15 +127,20 @@ La misma consulta con `Is sensitive` si no se selecciona, se generará la siguie
 La siguiente expresión le permite definir el ID de CRM en un campo de personalización de acción:
 
 ```json
-    substr(@{MobileAppLaunch
-            ._myorganization
-            .identification
-            .crmid}, 1, 
-            lastIndexOf(@{MobileAppLaunch
-                        ._myorganization
-                        .identification
-                        .crmid}
-                         ))
+substr(
+   @{MobileAppLaunch
+   ._myorganization
+   .identification
+   .crmid},
+   1, 
+   lastIndexOf(
+     @{MobileAppLaunch
+     ._myorganization
+     .identification
+     .crmid},
+     '}'
+   )
+)
 ```
 
 Explicación: Este ejemplo utiliza `substr` y `lastIndexOf` funciones para eliminar llaves que encierran el ID de CRM pasado con un evento de inicio de aplicación móvil.
