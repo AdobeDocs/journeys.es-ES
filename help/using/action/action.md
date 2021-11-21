@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 34f7666b-1c91-4edd-b5d6-4c0513b9c4f3
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 83%
+source-wordcount: '311'
+ht-degree: 82%
 
 ---
 
@@ -24,7 +24,7 @@ Las acciones son conexiones a través de las cuales se ofrecen experiencias pers
 
 Las acciones personalizadas le permiten configurar la conexión de un sistema de terceros para enviar mensajes o llamadas API. Se puede configurar una acción con cualquier servicio de cualquier proveedor al que se pueda llamar mediante una API REST con carga útil en formato JSON.
 
-Las acciones están disponibles en la paleta izquierda del recorrido, en la categoría **[!UICONTROL Action]**. Consulte [esta página](../building-journeys/about-action-activities.md).
+Las acciones están disponibles en la paleta izquierda del recorrido, en la **[!UICONTROL Action]** categoría. Consulte [esta página](../building-journeys/about-action-activities.md).
 
 >[!NOTE]
 >

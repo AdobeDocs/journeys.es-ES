@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '895'
 ht-degree: 5%
 
 ---
@@ -21,7 +21,7 @@ Si tiene Adobe Campaign Standard, están disponibles las siguientes actividades 
 >
 >Para ello, debe configurar la acción integrada . Consulte [esta página](../action/working-with-adobe-campaign.md).
 
-Para cada uno de estos canales, se selecciona una plantilla **de Adobe Campaign Standard Transactional Messaging**. De hecho, [!DNL Journey Orchestration] no es una solución de envío de mensajes. Para los canales integrados de correo electrónico, SMS y push, confiamos en la mensajería transaccional para ejecutar el envío de mensajes. Significa que si desea utilizar una plantilla de mensaje determinada en sus recorridos, debe publicarla en Adobe Campaign Standard. Consulte [esta página](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=es) para aprender a utilizar esta función.
+Para cada uno de estos canales, se selecciona una mensajería transaccional de Adobe Campaign Standard **plantilla**. De hecho, [!DNL Journey Orchestration] no es una solución de envío de mensajes. Para los canales integrados de correo electrónico, SMS y push, confiamos en la mensajería transaccional para ejecutar el envío de mensajes. Significa que si desea utilizar una plantilla de mensaje determinada en sus recorridos, debe publicarla en Adobe Campaign Standard. Consulte [esta página](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=es) para aprender a utilizar esta función.
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ Puede utilizar un evento (también conocido como en tiempo real) o una plantilla
 >
 >Cuando enviamos mensajes transaccionales en tiempo real (rtEvent) o cuando enrutamos mensajes con un sistema de terceros gracias a una acción personalizada, se requiere una configuración específica para la gestión de la fatiga, la lista de bloqueados o la baja. Por ejemplo, si se almacena un atributo &quot;unsubscribe&quot; en Adobe Experience Platform o en un sistema de terceros, se debe añadir una condición antes del envío del mensaje para comprobar esta condición.
 
-Cuando selecciona una plantilla, todos los campos esperados en la carga útil de mensaje se muestran en el panel de configuración de actividad en **[!UICONTROL Address]** y **[!UICONTROL Personalization Data]**. Debe asignar cada uno de estos campos al campo que desee utilizar, ya sea desde el evento o desde el origen de datos. También puede utilizar el editor de expresiones avanzadas para pasar un valor manualmente, realizar manipulación de datos en la información recuperada (por ejemplo, convertir una cadena en mayúsculas) o utilizar funciones como &quot;if, then, else&quot;. Consulte [esta página](../expression/expressionadvanced.md).
+Al seleccionar una plantilla, todos los campos esperados en la carga útil del mensaje se muestran en el panel de configuración de la actividad debajo de **[!UICONTROL Address]** y **[!UICONTROL Personalization Data]**. Debe asignar cada uno de estos campos al campo que desee utilizar, ya sea desde el evento o desde el origen de datos. También puede utilizar el editor de expresiones avanzadas para pasar un valor manualmente, realizar manipulación de datos en la información recuperada (por ejemplo, convertir una cadena en mayúsculas) o utilizar funciones como &quot;if, then, else&quot;. Consulte [esta página](../expression/expressionadvanced.md).
 
 ![](../assets/journey60.png)
 
@@ -45,19 +45,19 @@ Para **[!UICONTROL Email]** y **[!UICONTROL SMS]**, los parámetros son idéntic
 
 >[!NOTE]
 >
->Por correo electrónico, si utiliza una plantilla transaccional de perfiles, el Campaign Standard gestiona de forma predeterminada el mecanismo de baja. Simplemente agregue un bloque de contenido **[!UICONTROL Unsubscription link]** en la plantilla ([más información](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)). Si utiliza una plantilla basada en eventos (rtEvent), debe añadir, en el mensaje, un vínculo que pase el correo electrónico de la persona en el parámetro URL y señale a una página de aterrizaje de baja. Debe crear esta página de aterrizaje y asegurarse de que la decisión de la persona de cancelar la suscripción se transmita al Adobe.
+>Por correo electrónico, si utiliza una plantilla transaccional de perfiles, el Campaign Standard gestiona de forma predeterminada el mecanismo de baja. Simplemente agregue un **[!UICONTROL Unsubscription link]** bloque de contenido de la plantilla ([más información](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)). Si utiliza una plantilla basada en eventos (rtEvent), debe añadir, en el mensaje, un vínculo que pase el correo electrónico de la persona en el parámetro URL y señale a una página de aterrizaje de baja. Debe crear esta página de aterrizaje y asegurarse de que la decisión de la persona de cancelar la suscripción se transmita al Adobe.
 
 En primer lugar, debe elegir una plantilla de mensajería transaccional. Consulte [esta página](../building-journeys/about-action-activities.md).
 
 Hay dos categorías disponibles: **[!UICONTROL Address]** y **[!UICONTROL Personalization Data]**.
 
-Puede definir fácilmente dónde recuperar el **[!UICONTROL Address]** o el **[!UICONTROL Personalization Data]** mediante la interfaz. Puede navegar por eventos y campos de fuente de datos disponibles. También puede utilizar el editor de expresiones avanzadas para casos de uso más avanzados, como el uso de un origen de datos que requiera pasar parámetros o realizar manipulaciones. Consulte [esta página](../expression/expressionadvanced.md).
+Puede definir fácilmente dónde recuperar la variable **[!UICONTROL Address]** o **[!UICONTROL Personalization Data]** mediante la interfaz de . Puede navegar por eventos y campos de fuente de datos disponibles. También puede utilizar el editor de expresiones avanzadas para casos de uso más avanzados, como el uso de un origen de datos que requiera pasar parámetros o realizar manipulaciones. Consulte [esta página](../expression/expressionadvanced.md).
 
 **[!UICONTROL Address]**
 
 >[!NOTE]
 >
->Esta categoría solo está visible si selecciona un mensaje transaccional de &quot;evento&quot;. Para los mensajes de &quot;perfil&quot;, el sistema recupera automáticamente el campo **[!UICONTROL Address]** de Adobe Campaign Standard.
+>Esta categoría solo está visible si selecciona un mensaje transaccional de &quot;evento&quot;. Para los mensajes de &quot;perfil&quot;, la variable **[!UICONTROL Address]** el sistema recupera automáticamente el campo de Adobe Campaign Standard.
 
 Estos son los campos que el sistema necesita para saber dónde enviar el mensaje. Para una plantilla de correo electrónico, es la dirección de correo electrónico. Para un SMS, es el número de teléfono móvil.
 
@@ -75,7 +75,7 @@ Estos son los campos esperados por el mensaje de Adobe Campaign Standard. Estos 
 
 ## Push {#section_im3_hvf_nhb}
 
-Antes de utilizar la actividad push, la aplicación móvil debe configurarse junto con el Campaign Standard para enviar notificaciones push. Utilice este [artículo](https://helpx.adobe.com/es/campaign/kb/integrate-mobile-sdk.html) para realizar los pasos de implementación necesarios para dispositivos móviles.
+Antes de utilizar la actividad push, la aplicación móvil debe configurarse junto con el Campaign Standard para enviar notificaciones push. Utilice esta [article](https://helpx.adobe.com/es/campaign/kb/integrate-mobile-sdk.html) para realizar los pasos de implementación necesarios para mobile.
 
 En primer lugar, debe elegir una aplicación móvil en la lista desplegable y un mensaje transaccional. Consulte [esta página](../building-journeys/about-action-activities.md).
 
@@ -87,11 +87,11 @@ Hay dos categorías disponibles: **[!UICONTROL Target]** y **[!UICONTROL Persona
 
 >[!NOTE]
 >
->Esta categoría solo está visible si selecciona un mensaje de evento. Para los mensajes de perfil, el sistema recupera automáticamente los campos **[!UICONTROL Target]** mediante la reconciliación realizada por Adobe Campaign Standard.
+>Esta categoría solo está visible si selecciona un mensaje de evento. Para los mensajes de perfil, la variable **[!UICONTROL Target]** el sistema recupera automáticamente los campos mediante la reconciliación realizada por Adobe Campaign Standard.
 
-En esta sección, debe definir el **[!UICONTROL Push platform]**. La lista desplegable le permite seleccionar **[!UICONTROL Apple Push Notification Server]** (iOS) o **[!UICONTROL Firebase Cloud Messaging]** (Android). También puede seleccionar un campo específico de un evento o de un origen de datos, o definir una expresión avanzada.
+En esta sección, debe definir la variable **[!UICONTROL Push platform]**. La lista desplegable le permite seleccionar **[!UICONTROL Apple Push Notification Server]** (iOS) o **[!UICONTROL Firebase Cloud Messaging]** (Android). También puede seleccionar un campo específico de un evento o de un origen de datos, o definir una expresión avanzada.
 
-También debe definir el **[!UICONTROL Registration Token]**. La expresión depende de cómo se defina el token en la carga útil de evento o en otra información [!DNL Journey Orchestration]. Puede ser un campo simple o una expresión más compleja en caso de que el token se defina en una colección, por ejemplo:
+También debe definir la variable **[!UICONTROL Registration Token]**. La expresión depende de cómo se defina el token en la carga útil de evento o en otros [!DNL Journey Orchestration] información. Puede ser un campo simple o una expresión más compleja en caso de que el token se defina en una colección, por ejemplo:
 
 ```
 @{Event_push._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}

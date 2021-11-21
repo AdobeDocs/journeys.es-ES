@@ -15,7 +15,7 @@ ht-degree: 13%
 
 # equalIgnoreCase {#equalIgnoreCase}
 
-Compares the first argument string with the second argument string, ignoring case considerations.
+Compara la primera cadena de argumento con la segunda cadena de argumento, ignorando las consideraciones de mayúsculas y minúsculas.
 
 ## Categoría
 
@@ -39,4 +39,4 @@ Devuelve un valor booleano.
 
 `equalIgnoreCase("rowing is great", "rowing is GREAT")`
 
-Returns true.
+Devuelve verdadero.

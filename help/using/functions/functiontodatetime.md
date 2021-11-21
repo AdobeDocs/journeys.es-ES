@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 0b8d1a82-a55a-4a4d-ad1b-35499d52b469
 source-git-commit: 2aa73498f44f22a70bb2268afca7d1a62e434542
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 11%
+source-wordcount: '93'
+ht-degree: 10%
 
 ---
 
@@ -46,7 +46,7 @@ Conversión
 
 `toDateTime(<integer>)`
 
-Devuelve un **dateTime**.
+Devolver un **dateTime**.
 
 <!--`toDateTime(<year>,<month>,<dayOfMonth>,<hour>,<minute>,<second>)`
 
@@ -73,15 +73,15 @@ Return a datetime.
 
 `toDateTime ("2016-08-18T23:17:59.123Z")`
 
-Devuelve 2016-08-18T23:17:59.123Z
+Devuelve 2016-08-18T23:17:59,123Z
 
 `toDateTime(toDateTimeOnly("UTC", "2016-08-18T23:17:59.123"))`
 
-Devuelve 2016-08-18T23:17:59.123Z
+Devuelve 2016-08-18T23:17:59,123Z
 
 `toDateTime(1560762190189)`
 
-Devuelve 2019-06-17T09:03:10.189Z
+Devuelve 2019-06-17T09:03:10,189Z
 
 <!--`toDateTime ("2016-08-18T23:17:59.123", "UTC")`
 

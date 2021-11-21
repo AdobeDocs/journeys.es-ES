@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 554d1f60-5d46-4e75-afcb-8209b127c4cd
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 3%
+source-wordcount: '243'
+ht-degree: 2%
 
 ---
 
@@ -25,7 +25,7 @@ Si necesita modificar a un recorrido activo, debe crear una nueva versión del r
 >
 >Para obtener más información sobre las limitaciones de las versiones de recorrido, consulte [esta página](../about/limitations.md#journey-versions-limitations)
 
-1. Abra la última versión de su recorrido activo, haga clic en **[!UICONTROL Create a new version]** y confirme.
+1. Abra la última versión de su recorrido en directo y haga clic en **[!UICONTROL Create a new version]** y confirme.
 
    ![](../assets/journeyversions2.png)
 
@@ -33,7 +33,7 @@ Si necesita modificar a un recorrido activo, debe crear una nueva versión del r
    >
    >Solo puede crear una versión nueva a partir de la versión más reciente de un recorrido.
 
-1. Haga las modificaciones, haga clic en **[!UICONTROL Publish]** y confirme.
+1. Realice las modificaciones necesarias, haga clic en **[!UICONTROL Publish]** y confirme.
 
    ![](../assets/journeyversions3.png)
 
@@ -43,4 +43,4 @@ Las versiones de recorrido se pueden detener individualmente. Todas las versione
 
 >[!NOTE]
 >
->Cuando publica una nueva versión de un recorrido, la versión anterior finaliza automáticamente y cambia al estado **Cerrado**. No habrá entrada en el recorrido. Aunque detenga la última versión, la versión anterior permanecerá cerrada.
+>Cuando publica una nueva versión de un recorrido, la versión anterior finaliza automáticamente y cambia a la función **Cerrado** estado. No habrá entrada en el recorrido. Aunque detenga la última versión, la versión anterior permanecerá cerrada.

@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 4df471ae-c6b7-452e-8e44-a108d0da276f
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '371'
 ht-degree: 7%
 
 ---
@@ -55,7 +55,7 @@ Tipo: cadena
 
 ## fetchOriginError
 
-Puede producirse un tiempo de espera, en dos casos:
+Se puede producir un tiempo de espera, en dos casos:
 
 * en el primer intento, se ejecuta la acción . En este caso, la ejecución no ha finalizado, por lo que no hay ningún error subyacente
 * en un reintento: en este caso, actionExecOrigError/actionExecOrigErrorCode describe el error encontrado en el intento antes del reintento.

@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 18%
+source-wordcount: '164'
+ht-degree: 17%
 
 ---
 
@@ -22,10 +22,10 @@ La conexión entre las instancias de Journey Orchestration y Campaign se configu
 
 Para que esto funcione, debe configurar una acción dedicada. Consulte esta [sección](../action/acc-action.md).
 
-En esta [sección](../usecase/campaign-classic-use-case.md) se presenta un caso de uso completo.
+En este ejemplo se presenta un caso de uso completo [sección](../usecase/campaign-classic-use-case.md).
 
 1. Diseñe el recorrido, empezando por un evento . Consulte esta [sección](../building-journeys/journey.md).
-1. En la sección **Action** de la paleta, seleccione una acción de Campaign y agréguela al recorrido.
-1. En **Action parameters**, se muestran todos los campos esperados en la carga útil del mensaje. Debe asignar cada uno de estos campos al campo que desee utilizar, ya sea desde el evento o desde el origen de datos. Esto es similar a las acciones personalizadas. Consulte esta [sección](../building-journeys/using-custom-actions.md).
+1. En el **Acción** de la paleta, seleccione una acción de Campaña y agréguela al recorrido.
+1. En el **Parámetros de acción**, se muestran todos los campos esperados en la carga útil del mensaje. Debe asignar cada uno de estos campos al campo que desee utilizar, ya sea desde el evento o desde el origen de datos. Esto es similar a las acciones personalizadas. Consulte esta [sección](../building-journeys/using-custom-actions.md).
 
 ![](../assets/accintegration2.png)

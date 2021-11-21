@@ -8,18 +8,18 @@ level: Intermediate
 exl-id: 7423f4eb-005d-43a5-a403-97bee1e8d480
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '357'
 ht-degree: 8%
 
 ---
 
 # Configuración del evento{#concept_y44_hcy_w2b}
 
-En nuestro escenario, necesitamos recibir un evento cada vez que una persona camina cerca de una señalización colocada junto al spa. El **usuario técnico** necesita configurar el evento que el sistema escuchará en nuestro recorrido.
+En nuestro escenario, necesitamos recibir un evento cada vez que una persona camina cerca de una señalización colocada junto al spa. La variable **usuario técnico** necesita configurar el evento que el sistema escuchará en nuestro recorrido.
 
-Para obtener más información sobre la configuración de eventos, consulte [esta página](../event/about-events.md).
+Para obtener información adicional sobre la configuración de eventos, consulte [esta página](../event/about-events.md).
 
-1. En el menú superior, haga clic en la pestaña **[!UICONTROL Events]** y haga clic en **[!UICONTROL Add]** para crear un nuevo evento.
+1. En el menú superior, haga clic en el **[!UICONTROL Events]** y haga clic en **[!UICONTROL Add]** para crear un nuevo evento.
 
    ![](../assets/journeyuc1_1.png)
 
@@ -27,7 +27,7 @@ Para obtener más información sobre la configuración de eventos, consulte [est
 
    ![](../assets/journeyuc1_2.png)
 
-1. A continuación, seleccionamos el esquema y definimos la carga útil esperada para este evento. Seleccionamos los campos necesarios del modelo normalizado XDM. Necesitamos el ID de Experience Cloud para identificar a la persona en la base de datos del perfil del cliente en tiempo real: _endUserIDs > experience > mcid > id_. Se genera automáticamente un ID para este evento. Este ID se almacena en el campo **[!UICONTROL eventID]** (_experience > campaign > orchestration > eventID_). El sistema que impulsa el evento no debe generar un ID, debe utilizar el disponible en la previsualización de carga útil. En nuestro caso de uso, este ID se utiliza para identificar la ubicación de la señalización. Cada vez que una persona camina cerca de la señalización de spa, se envía un evento que contiene este ID de evento específico. Esto permite al sistema saber qué señalización activó la entrega del evento.
+1. A continuación, seleccionamos el esquema y definimos la carga útil esperada para este evento. Seleccionamos los campos necesarios del modelo normalizado XDM. Necesitamos el ID de Experience Cloud para identificar a la persona en la base de datos del perfil del cliente en tiempo real: _endUserIDs > experience > mcid > id_. Se genera automáticamente un ID para este evento. Este ID se almacena en la variable **[!UICONTROL eventID]** campo (_experiencia > campaña > organización > eventID_). El sistema que impulsa el evento no debe generar un ID, debe utilizar el disponible en la previsualización de carga útil. En nuestro caso de uso, este ID se utiliza para identificar la ubicación de la señalización. Cada vez que una persona camina cerca de la señalización de spa, se envía un evento que contiene este ID de evento específico. Esto permite al sistema saber qué señalización activó la entrega del evento.
 
    ![](../assets/journeyuc1_3.png)
 
@@ -45,7 +45,7 @@ Para obtener más información sobre la configuración de eventos, consulte [est
 
 1. Haga clic en **[!UICONTROL Save]**.
 
-1. Haga clic en el icono **[!UICONTROL View Payload]** para previsualizar la carga útil que espera el sistema y compártala con la persona responsable del envío del evento. Esta carga útil debe configurarse en el postback de la consola de administración de Mobile Services.
+1. Haga clic en el **[!UICONTROL View Payload]** para obtener una vista previa de la carga útil esperada por el sistema y compartirla con la persona responsable del envío del evento. Esta carga útil debe configurarse en el postback de la consola de administración de Mobile Services.
 
    ![](../assets/journeyuc1_7.png)
 

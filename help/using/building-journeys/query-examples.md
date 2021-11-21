@@ -8,7 +8,7 @@ exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
 source-git-commit: e758d4430bb28c109633c96e330b56ad08a61c02
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -20,7 +20,7 @@ En esta sección se enumeran varios ejemplos utilizados habitualmente para consu
 
 ### Lista de cada error encontrado en los recorridos
 
-Esta consulta le permite enumerar cada error encontrado en recorridos al ejecutar un mensaje o una acción.
+Esta consulta le permite enumerar cada error encontrado en recorridos mientras ejecuta un mensaje o una acción.
 
 _Consulta del lago de datos_
 

@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 540b5142-9323-4cc1-9b5a-3fa20a5945bf
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '557'
 ht-degree: 12%
 
 ---
@@ -64,10 +64,10 @@ La persona puede volver a entrar en el recorrido si se permite la reentrada. Con
 
 Un recorrido puede cerrarse por los siguientes motivos:
 
-* El recorrido se cierra manualmente mediante el botón **[!UICONTROL Close to new entrances]**.
+* El recorrido se cierra manualmente mediante la variable **[!UICONTROL Close to new entrances]** botón.
 * Se alcanza la fecha de finalización del recorrido.
 
-Cuando se cierra un recorrido (por cualquiera de los motivos anteriores), aparece el estado **[!UICONTROL Closed]**. El recorrido dejará de permitir la entrada al recorrido de nuevos individuos. Las personas que ya están en el recorrido terminarán normalmente el recorrido. Después del tiempo de espera global predeterminado de 30 días, el recorrido cambiará al estado **Finalizado**. Consulte esta [sección](../building-journeys/changing-properties.md#entrance).
+Cuando se cierra un recorrido (por cualquiera de los motivos anteriores), aparece el estado **[!UICONTROL Closed]**. El recorrido dejará de permitir la entrada al recorrido de nuevos individuos. Las personas que ya están en el recorrido terminarán normalmente el recorrido. Después del tiempo de espera global predeterminado de 30 días, el recorrido cambiará a la variable **Finalizado** estado. Consulte esta [sección](../building-journeys/changing-properties.md#entrance).
 
 En caso de que necesite detener el progreso de todas las personas en el recorrido, puede detenerlo. Al detener el recorrido, se agotará el tiempo de espera de todas las personas del recorrido.
 

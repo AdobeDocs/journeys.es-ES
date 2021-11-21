@@ -8,14 +8,14 @@ level: Intermediate
 exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 6%
+source-wordcount: '386'
+ht-degree: 5%
 
 ---
 
 # Actividad de espera{#section_rlm_nft_dgb}
 
-Si desea esperar antes de ejecutar la siguiente actividad en la ruta, puede utilizar una actividad **[!UICONTROL Wait]**. Le permite definir el momento en el que se ejecutará la siguiente actividad. Hay tres opciones disponibles:
+Si desea esperar antes de ejecutar la siguiente actividad en la ruta, puede utilizar un **[!UICONTROL Wait]** actividad. Le permite definir el momento en el que se ejecutará la siguiente actividad. Hay tres opciones disponibles:
 
 * [Duración](#duration)
 * [Fecha fija](#fixed_date)
@@ -35,7 +35,7 @@ Puede definir una condición si desea restringir la espera a una determinada pob
 >
 >La duración máxima de espera es de 30 días.
 >
->En el modo de prueba, el parámetro **[!UICONTROL Wait time in test]** le permite definir el tiempo que durará cada actividad de espera. El valor del tiempo predeterminado es de 10 segundos. Esto garantizará que los resultados de la prueba se obtengan rápidamente. Consulte [esta página](../building-journeys/testing-the-journey.md)
+>En el modo de prueba, la variable **[!UICONTROL Wait time in test]** permite definir el tiempo que durará cada actividad de espera. El valor del tiempo predeterminado es de 10 segundos. Esto garantizará que los resultados de la prueba se obtengan rápidamente. Consulte [esta página](../building-journeys/testing-the-journey.md)
 
 ## Espera de duración{#duration}
 
@@ -57,7 +57,7 @@ Esta opción permite definir una fecha personalizada, por ejemplo, 12 de julio d
 >
 >Puede aprovechar una expresión dateTimeOnly o utilizar una función para convertir a dateTimeOnly. Por ejemplo: toDateTimeOnly(@{Event.offerOpened.activity.endTime}), el campo en el suceso es del formulario 2016-08-12T09:46:06Z.
 >
->La **zona horaria** se espera en las propiedades de su recorrido. Como resultado, hoy en día no es posible desde la interfaz señalar directamente a una marca de tiempo ISO-8601 completa mezclando el tiempo y el desplazamiento de zona horaria como 2016-08-12T09:46:06.982-05. Consulte [esta página](../building-journeys/timezone-management.md).
+>La variable **zona horaria** se espera en las propiedades del recorrido. Como resultado, hoy en día no es posible desde la interfaz señalar directamente a una marca de tiempo ISO-8601 completa mezclando el tiempo y el desplazamiento de zona horaria como 2016-08-12T09:46:06.982-05. Consulte [esta página](../building-journeys/timezone-management.md).
 
 ![](../assets/journey57.png)
 

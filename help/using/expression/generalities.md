@@ -8,8 +8,8 @@ level: Experienced
 exl-id: ba474219-7c9e-4f93-8e9c-16c317131614
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 6%
+source-wordcount: '214'
+ht-degree: 5%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 ## Paréntesis y prioridad de expresión{#section_edf_fks_bgb}
 
-Los paréntesis se pueden utilizar para que una expresión compleja sea más legible. _(&lt;expression>)_ es el equivalente de  _&lt;expression>_. Los paréntesis también se pueden utilizar para definir el orden de evaluación y la asociatividad.
+Los paréntesis se pueden utilizar para que una expresión compleja sea más legible. _(&lt;expression>)_ es el equivalente de _&lt;expression>_. Los paréntesis también se pueden utilizar para definir el orden de evaluación y la asociatividad.
 
 Las expresiones se evalúan de izquierda a derecha. Se debe aplicar la asociatividad en los operadores aritméticos: las multiplicaciones y las divisiones tienen prioridad sobre las adiciones y sustracciones. Para imponer un orden específico, se debe añadir un paréntesis para delimitar las operaciones. Por ejemplo:
 
@@ -32,8 +32,8 @@ Las expresiones se evalúan de izquierda a derecha. Se debe aplicar la asociativ
 
 Estas son las distintas reglas de distinción entre mayúsculas y minúsculas:
 
-* Todos los operadores (y, o, etc.) debe escribirse en minúsculas. Por ejemplo, _`<expression1>`y`<expression2>`_ es una expresión válida, mientras que la expresión _`<expression1>`AND`<expression2>`_ no lo es.
-* Todos los nombres de funciones distinguen entre mayúsculas y minúsculas. Por ejemplo, _inSegment()_ es válido, mientras que la función _INSEGMENT()_ no lo es.
+* Todos los operadores (y, o, etc.) debe escribirse en minúsculas. Por ejemplo, _`<expression1>`y`<expression2>`_ es una expresión válida, mientras que la expresión _`<expression1>`Y`<expression2>`_ no.
+* Todos los nombres de funciones distinguen entre mayúsculas y minúsculas. Por ejemplo, _inSegment()_ es válido mientras que la función _INSEGMENT()_ no.
 * Las referencias de campo y los valores constantes distinguen entre mayúsculas y minúsculas: no son elementos integrados del idioma (a diferencia de los operadores y funciones), los crea el usuario final.
 
 ## Tipo de expresión devuelto{#section_gyc_435_53b}

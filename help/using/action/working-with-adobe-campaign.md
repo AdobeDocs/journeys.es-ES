@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: c7e08542-fde8-4072-a697-42d35d6c58ba
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '302'
 ht-degree: 4%
 
 ---
@@ -29,13 +29,13 @@ El mensaje transaccional del Campaign Standard y su evento asociado deben public
 
 Estos son los pasos para configurarlo:
 
-1. En la lista **[!UICONTROL Actions]**, haga clic en la acción **[!UICONTROL AdobeCampaignStandard]** integrada. El panel de configuración de acciones se abre en el lado derecho de la pantalla.
+1. En el **[!UICONTROL Actions]** , haga clic en la **[!UICONTROL AdobeCampaignStandard]** acción. El panel de configuración de acciones se abre en el lado derecho de la pantalla.
 
    ![](../assets/actioncampaign.png)
 
-1. Copie la URL de la instancia de Adobe Campaign Standard y péguela en el campo **[!UICONTROL URL]** .
+1. Copie la dirección URL de la instancia de Adobe Campaign Standard y péguela en el **[!UICONTROL URL]** campo .
 
-1. Haga clic en **[!UICONTROL Test the instance URL]** para probar la validez de la instancia.
+1. Haga clic en el **[!UICONTROL Test the instance URL]** para probar la validez de la instancia.
 
    >[!NOTE]
    >
@@ -47,7 +47,7 @@ Estos son los pasos para configurarlo:
    >
    >El ORG asociado a esta instancia de Adobe Campaign Standard es el mismo que el ORG del Journey Orchestration.
 
-Al diseñar el recorrido, habrá tres acciones disponibles en la categoría **[!UICONTROL Action]**: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (consulte [Uso de acciones de Adobe Campaign](../building-journeys/using-adobe-campaign-actions.md)). **El evento de** reacciones también le permite reaccionar en los clics del mensaje, las aperturas, etc. (consulte [Reactions events](../building-journeys/reaction-events.md)).
+Al diseñar el recorrido, habrá tres acciones disponibles en la variable **[!UICONTROL Action]** categoría: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (consulte [Uso de acciones de Adobe Campaign](../building-journeys/using-adobe-campaign-actions.md)). **Reacciones, suceso** también le permite reaccionar en los clics de mensajes, las aperturas, etc. (consulte [Eventos de reacción](../building-journeys/reaction-events.md)).
 
 ![](../assets/journey58.png)
 

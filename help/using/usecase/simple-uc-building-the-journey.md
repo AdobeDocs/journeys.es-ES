@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 22bcd7f4-03ee-4e4c-b221-9f14aeadded6
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '393'
 ht-degree: 38%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 38%
 El **usuario empresarial** ahora puede compilar el recorrido. Nuestro recorrido solo incluirá una ruta con las siguientes actividades:
 
 * el &quot;SpaBeacon&quot; **[!UICONTROL Event]**: cuando una persona camina cerca de la señalización del spa, el sistema recibirá un evento y el recorrido comenzará para esa persona.
-* una actividad **[!UICONTROL Condition]** para comprobar que la persona es mujer
-* una actividad **[!UICONTROL Email]** (con Adobe Campaign Standard)
+* a **[!UICONTROL Condition]** actividad para comprobar que la persona es una mujer
+* an **[!UICONTROL Email]** actividad (con Adobe Campaign Standard)
 * una actividad **[!UICONTROL End]**
 
 >[!NOTE]
@@ -48,15 +48,15 @@ Para obtener información adicional sobre cómo crear un recorrido, consulte [es
 
    ![](../assets/journeyuc1_11.png)
 
-1. Con el editor de expresiones simple, busque el campo gender (_person > gender_) y suéltelo a la derecha para crear la siguiente condición: &quot;el sexo es igual a &quot;Femenino&quot;.
+1. Con el editor de expresiones simple, busque el campo gender (_persona > sexo_) y suéltela a la derecha para crear la siguiente condición: &quot;el sexo es igual a &quot;Femenino&quot;.
 
    ![](../assets/journeyuc1_12.png)
 
-1. Suelte una actividad **[!UICONTROL Email]** y seleccione la plantilla de mensajería transaccional &quot;Descuento de spa&quot;. Esta plantilla se diseñó con Adobe Campaign. Consulte [esta página](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=es).
+1. Suelte un **[!UICONTROL Email]** y seleccione la plantilla de mensajería transaccional &quot;Descuento de spa&quot;. Esta plantilla se diseñó con Adobe Campaign. Consulte [esta página](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=es).
 
    ![](../assets/journeyuc1_13.png)
 
-1. Haga clic dentro del campo **[!UICONTROL Email]** y seleccione la dirección de correo electrónico de la fuente de datos.
+1. Haga clic dentro del **[!UICONTROL Email]** y seleccione la dirección de correo electrónico de la fuente de datos.
 
    ![](../assets/journeyuc1_14.png)
 
@@ -64,11 +64,11 @@ Para obtener información adicional sobre cómo crear un recorrido, consulte [es
 
    ![](../assets/journeyuc1_15.png)
 
-1. Coloque una actividad **[!UICONTROL End]**.
+1. Suelte un **[!UICONTROL End]** actividad.
 
    ![](../assets/journeyuc1_17.png)
 
-1. Haga clic en la opción **[!UICONTROL Test]** y pruebe el recorrido con perfiles de prueba. Si hay algún error, desactive el modo de prueba, modifique el recorrido y pruebe de nuevo. Para obtener más información sobre el modo de prueba, consulte [esta página](../building-journeys/testing-the-journey.md).
+1. Haga clic en el **[!UICONTROL Test]** alterne y pruebe el recorrido con perfiles de prueba. Si hay algún error, desactive el modo de prueba, modifique el recorrido y pruebe de nuevo. Para obtener más información sobre el modo de prueba, consulte [esta página](../building-journeys/testing-the-journey.md).
 
    ![](../assets/journeyuc1_18bis.png)
 

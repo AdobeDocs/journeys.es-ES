@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 4b321b63-c624-4c2a-ae92-f9a2a95688d4
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '442'
 ht-degree: 9%
 
 ---
@@ -19,7 +19,7 @@ Esta integración está disponible para Adobe Campaign Classic v7 a partir de la
 
 La conexión entre las instancias de Journey Orchestration y Campaign se configura por Adobe en el momento del aprovisionamiento.
 
-En esta [sección](../usecase/campaign-classic-use-case.md) se presenta un caso de uso completo.
+En este ejemplo se presenta un caso de uso completo [sección](../usecase/campaign-classic-use-case.md).
 
 Para cada acción configurada, hay una actividad de acción disponible en la paleta Diseñador de recorridos. Consulte esta [sección](../building-journeys/using-adobe-campaign-classic.md).
 
@@ -37,7 +37,7 @@ Para cada acción configurada, hay una actividad de acción disponible en la pal
 
 ## Requisitos previos
 
-En Campaign, debe crear y publicar un mensaje transaccional y su evento asociado. Consulte la [documentación de Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging).
+En Campaign, debe crear y publicar un mensaje transaccional y su evento asociado. Consulte la [Documentación de Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging).
 
 Puede crear la carga útil JSON correspondiente a cada mensaje siguiendo el patrón a continuación. A continuación, pegue esta carga útil al configurar la acción en el Journey Orchestration (consulte a continuación)
 
@@ -64,8 +64,8 @@ En Journey Orchestration, debe configurar una acción por mensaje transaccional.
 
 1. Cree una nueva acción. Consulte esta [sección](../action/action.md).
 1. Introduzca un nombre y una descripción.
-1. En el campo **Action type**, seleccione **Adobe Campaign Classic**.
-1. Haga clic en el campo **Payload** y pegue un ejemplo de la carga útil JSON correspondiente al mensaje de Campaign. Póngase en contacto con el Adobe para obtener esta carga útil.
+1. En el **Tipo de acción** campo, seleccione **Adobe Campaign Classic**.
+1. Haga clic en el **Carga útil** y pegue un ejemplo de la carga útil JSON correspondiente al mensaje de Campaign. Póngase en contacto con el Adobe para obtener esta carga útil.
 1. Ajuste los distintos campos para que sean estáticos o variables en función de si desea asignarlos en el lienzo de Recorrido. Ciertos campos, como los parámetros de canal para la dirección de correo electrónico y los campos de personalización (ctx), probablemente desee definirlos como variables para la asignación en el contexto del recorrido.
 1. Haga clic en **Guardar**.
 

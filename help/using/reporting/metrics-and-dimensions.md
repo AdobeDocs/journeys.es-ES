@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: f6897011-0a5e-4094-a18e-ba2aa25f902c
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1035'
 ht-degree: 3%
 
 ---
@@ -31,13 +31,13 @@ La tabla siguiente proporciona la lista de dimensiones utilizadas en los informe
 
 | Dimensiones | Definición |
 |--- |--- |
-| **Acción** | Lista de todas las acciones (**nombre de acción - etiqueta de acción**) utilizadas en recorridos como, por ejemplo, Push - Check out confirmation, Email - Rewards fidelity. |
-| **Fuente de datos** | Lista de fuentes de datos (**nombre de fuente de datos**) utilizadas para enriquecer los datos en un recorrido, por ejemplo, Adobe Experience Platform, sistema de reserva. |
-| **[!UICONTROL Event]** | Lista de todos los eventos (**nombre del evento - etiqueta de evento**) utilizados en recorridos como, por ejemplo, evento de Geometrixx - salida de Geometrixx. |
-| **Grupo de campos** | Lista de grupos de campos (**nombre del grupo de campos**) utilizados para enriquecer datos en recorridos como, por ejemplo, grupo de campos de perfil o sistema de reserva de Geometrixx. |
-| **Recorrido** | Lista de cada recorrido (**nombre de recorrido**) en modo de prueba y activo, por ejemplo, abandono del carro de compras, notificación de reserva del hotel. |
-| **Versión de recorrido** | Lista de todas las versiones publicadas de un recorrido (**nombre del recorrido + número de versión**), por ejemplo Abandono del carro de compras v1, Notificación de reserva del hotel v2. |
-| **Organización** | Lista de todas las actividades de orquestación (**Condition, End, Wait**) definidas y utilizadas en recorridos. |
+| **Acción** | Lista de todas las acciones (**nombre de acción - etiqueta de acción**) que se utiliza en recorridos como, por ejemplo, Push - Check out confirmation, Email - Rewards fidelity. |
+| **Fuente de datos** | Lista de fuentes de datos (**nombre de la fuente de datos**) se utiliza para enriquecer los datos en un recorrido, por ejemplo, Adobe Experience Platform, sistema de reserva. |
+| **[!UICONTROL Event]** | Lista de todos los eventos (**nombre del evento: etiqueta de evento**) se utiliza en recorridos como, por ejemplo, evento de Geometrixx: salida de la Geometrixx. |
+| **Grupo de campos** | Lista de grupos de campos (**nombre del grupo de campos**) se utiliza para enriquecer los datos en recorridos como, por ejemplo, grupo de campos de perfil o sistema de reserva de Geometrixx. |
+| **Recorrido** | Lista de cada recorrido (**nombre del recorrido**) en modo de prueba y activo, por ejemplo, abandono del carro de compras, notificación de reserva del hotel. |
+| **Versión de recorrido** | Lista de todas las versiones publicadas de un recorrido (**Nombre del recorrido + número de versión**), por ejemplo, Abandono del carro de compras v1, Notificación de reserva de hotel v2. |
+| **Organización** | Lista de todas las actividades de organización (**Condición, Fin, Espera**) definida y utilizada en recorridos. |
 
 ## Dimensiones de envío {#delivery-dimensions}
 
@@ -83,8 +83,7 @@ La tabla siguiente proporciona la lista de métricas utilizadas en los informes 
 
 ## Métricas de envío {#delivery-metrics}
 
-La tabla siguiente le proporciona la lista de métricas utilizadas en los recorridos
-informes, sus definiciones y fórmulas.
+La tabla siguiente proporciona la lista de métricas utilizadas en los informes de recorrido, sus definiciones y fórmulas.
 
 | Métrica | Definición |
 |--- |--- |
@@ -92,7 +91,7 @@ informes, sus definiciones y fórmulas.
 | **tasa de lista de bloqueados** | Número total de mensajes en lista de bloqueados en comparación con los mensajes enviados. |
 | **Devoluciones + errores** | Total de errores acumulados durante la entrega y el procesamiento automático de devoluciones en relación con la cantidad total de mensajes enviados. |
 | **Devoluciones + tasa de error** | Número total de mensajes devueltos en comparación con los mensajes enviados. |
-| **Haga clic en** | Número de veces que se hizo clic en un contenido en una entrega. |
+| **Click** | Número de veces que se hizo clic en un contenido en una entrega. |
 | **Tasa de pulsaciones** | Número total de clics en una entrega en comparación con el número de mensajes enviados. |
 | **Entregados** | Número de mensajes enviados correctamente, en relación con el número total de mensajes enviados. |
 | **Tasa de entrega** | Número total de mensajes enviados correctamente comparados con los mensajes enviados. |
@@ -103,7 +102,7 @@ informes, sus definiciones y fórmulas.
 | **Tasa de página espejo** | Número total de clics en el vínculo de la página espejo en comparación con el total de mensajes enviados. |
 | **Abri** | Número de veces que se abrió un mensaje en una entrega. |
 | **Tasa de apertura** | Número total de mensajes abiertos comparados con el número de mensajes enviados. |
-| **Cuarentena** | Número de mensajes que se rebotaron y que dieron como resultado la cuarentena de la dirección. |
+| **Cuarentena** | Número de mensajes que se devolvieron y que dieron como resultado la cuarentena de la dirección. |
 | **Tasa de cuarentena** | Número total de cuarentenas en comparación con los mensajes enviados. |
 | **Rechazado** | Número de mensajes clasificados como correo no deseado por los servidores SMTP. |
 | **Tasa rechazada** | Número total de mensajes marcados como rechazados en comparación con los mensajes enviados. |

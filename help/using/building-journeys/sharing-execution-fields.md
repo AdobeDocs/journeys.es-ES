@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 9af66037-63d7-41a8-86d1-b03c655dfb82
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 14%
+source-wordcount: '320'
+ht-degree: 13%
 
 ---
 
@@ -69,7 +69,7 @@ Tipo: cadena
 
 ## actionExecutionOriginError
 
-Puede producirse un tiempo de espera, en dos casos:
+Se puede producir un tiempo de espera, en dos casos:
 
 * en el primer intento se ejecuta una acción. En este caso, la ejecución no ha finalizado, por lo que no hay ningún error subyacente
 * en un reintento: en este caso, actionExecOrigError/actionExecOrigErrorCode describe el error encontrado en el intento antes del reintento.

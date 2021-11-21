@@ -29,13 +29,13 @@ Estos son los pasos principales para configurar un nuevo evento:
    >
    >No utilice espacios ni caracteres especiales. No utilice más de 30 caracteres.
 
-1. En el campo **[!UICONTROL Event ID type]**, seleccione el tipo de evento que desee utilizar.
+1. En el **[!UICONTROL Event ID type]** , seleccione el tipo de evento que desee utilizar.
 
    ![](../assets/journey6bis.png)
 
-   * Eventos basados **en reglas**: este tipo de evento no genera ningún eventID. En el campo **Event ID condition**, simplemente define una regla que utilizará el sistema para identificar los eventos relevantes que van a almacenar en déclencheur sus recorridos. Esta regla se puede basar en cualquier campo disponible en la carga útil de evento, por ejemplo, la ubicación del perfil o el número de elementos agregados al carro de compras del perfil.
+   * Eventos basados **en reglas**: este tipo de evento no genera ningún eventID. En el **Condición de ID de evento** , simplemente define una regla que utilizará el sistema para identificar los eventos relevantes que van a almacenar en déclencheur sus recorridos. Esta regla se puede basar en cualquier campo disponible en la carga útil de evento, por ejemplo, la ubicación del perfil o el número de elementos agregados al carro de compras del perfil.
 
-   * **Eventos** generados por el sistema: este tipo requiere un eventID. Este campo eventID se genera automáticamente al crear el evento y se añade a la previsualización de carga útil. El sistema que impulsa el evento no debe generar un ID, debe pasar el que está disponible en la previsualización de carga útil. Consulte [esta sección](../event/previewing-the-payload.md).
+   * **Generado por el sistema** eventos: este tipo requiere un eventID. Este campo eventID se genera automáticamente al crear el evento y se añade a la previsualización de carga útil. El sistema que impulsa el evento no debe generar un ID, debe pasar el que está disponible en la previsualización de carga útil. Consulte [esta sección](../event/previewing-the-payload.md).
    >[!NOTE]
    >
    >Obtenga más información sobre los tipos de eventos en [esta sección](../event/about-events.md).
@@ -43,16 +43,16 @@ Estos son los pasos principales para configurar un nuevo evento:
 1. Defina los campos esquema y carga útil: aquí es donde selecciona la información de evento (generalmente denominada carga útil) que [!DNL Journey Orchestration] espera recibir. Podrá utilizar esta información en su recorrido. Consulte [esta página](../event/defining-the-payload-fields.md).
    >[!NOTE]
    >
-   >Al seleccionar el tipo **[!UICONTROL System Generated]**, solo están disponibles los esquemas que tienen la mezcla de tipo eventID. Al seleccionar el tipo **[!UICONTROL Rule Based]**, están disponibles todos los esquemas de eventos de experiencia.
+   >Al seleccionar la variable **[!UICONTROL System Generated]** , solo están disponibles los esquemas que tienen la mezcla de tipo eventID . Al seleccionar la variable **[!UICONTROL Rule Based]** todos los esquemas de Experience Event están disponibles.
 
-1. Para eventos basados en reglas, haga clic dentro del campo **[!UICONTROL Event ID condition]**. Con el editor de expresiones simple, defina la condición que utilizará el sistema para identificar los eventos que van a almacenar en déclencheur el recorrido.
+1. Para los eventos basados en reglas, haga clic dentro del **[!UICONTROL Event ID condition]** campo . Con el editor de expresiones simple, defina la condición que utilizará el sistema para identificar los eventos que van a almacenar en déclencheur el recorrido.
    ![](../assets/alpha-event6.png)
 
-   En nuestro ejemplo, escribimos una condición basada en la ciudad del perfil. Esto significa que, cada vez que el sistema recibe un evento que coincide con esta condición (campo **[!UICONTROL City]** y valor **[!UICONTROL Paris]**), lo pasa al Journey Orchestration.
+   En nuestro ejemplo, escribimos una condición basada en la ciudad del perfil. Esto significa que siempre que el sistema recibe un evento que coincide con esta condición (**[!UICONTROL City]** campo y **[!UICONTROL Paris]** ), lo pasará al Journey Orchestration.
 
    >[!NOTE]
    >
-   >El editor de expresiones avanzadas no está disponible al definir **[!UICONTROL Event ID condition]**. En el editor de expresiones simple, no todos los operadores están disponibles, dependen del tipo de datos. Por ejemplo, para un tipo de cadena de campo, puede utilizar &quot;contiene&quot; o &quot;igual a&quot;.
+   >El editor de expresiones avanzadas no está disponible al definir la variable **[!UICONTROL Event ID condition]**. En el editor de expresiones simple, no todos los operadores están disponibles, dependen del tipo de datos. Por ejemplo, para un tipo de cadena de campo, puede utilizar &quot;contiene&quot; o &quot;igual a&quot;.
 
 1. Añada un área de nombres. Este paso es opcional, pero se recomienda, ya que la adición de un área de nombres le permite aprovechar la información almacenada en el servicio de Perfil del cliente en tiempo real. Define el tipo de clave que tiene el evento. Consulte [esta página](../event/selecting-the-namespace.md).
 1. Defina la clave: elija un campo de los campos de carga útil o defina una fórmula para identificar a la persona asociada al evento. Esta clave se configura automáticamente (pero aún puede editarse) si selecciona un Área de nombres. De hecho, [!DNL Journey Orchestration] selecciona la clave que debe corresponder al área de nombres (por ejemplo, si selecciona un área de nombres de correo electrónico, se seleccionará la clave de correo electrónico). Consulte [esta página](../event/defining-the-event-key.md).

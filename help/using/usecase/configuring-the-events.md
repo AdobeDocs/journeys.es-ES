@@ -8,18 +8,18 @@ level: Intermediate
 exl-id: 90139c72-8fae-4e6e-a79b-7c510f41fe38
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '396'
 ht-degree: 7%
 
 ---
 
 # Configuración de los eventos {#concept_sbp_5cy_w2b}
 
-En nuestro escenario, necesitamos recibir un evento cada vez que una persona entre al hotel Marlton y al restaurante. El **usuario técnico** necesita configurar los dos eventos que queremos que el sistema escuche en nuestro recorrido.
+En nuestro escenario, necesitamos recibir un evento cada vez que una persona entre al hotel Marlton y al restaurante. La variable **usuario técnico** necesita configurar los dos eventos que queremos que el sistema escuche en nuestro recorrido.
 
-Para obtener más información sobre la configuración de eventos, consulte [esta página](../event/about-events.md).
+Para obtener información adicional sobre la configuración de eventos, consulte [esta página](../event/about-events.md).
 
-1. En el menú superior, haga clic en la pestaña **[!UICONTROL Events]** y haga clic en **[!UICONTROL Add]** para crear un nuevo evento.
+1. En el menú superior, haga clic en el **[!UICONTROL Events]** y haga clic en **[!UICONTROL Add]** para crear un nuevo evento.
 
    ![](../assets/journeyuc1_1.png)
 
@@ -31,7 +31,7 @@ Para obtener más información sobre la configuración de eventos, consulte [est
 
    También necesitamos el token de registro para enviar mensajes push: &quot;_experience > campaña > mensaje > perfil > pushNotificationTokens > token&quot;
 
-   Se genera automáticamente un ID para este evento. Este ID se almacena en el campo **[!UICONTROL eventID]** (&quot;_experience > campaign > orchestration > eventID&quot;). El sistema que impulsa el evento no debe generar un ID, debe utilizar el disponible en la previsualización de carga útil. En nuestro caso de uso, este ID se utiliza para identificar la ubicación de la señalización. Cada vez que una persona camina cerca de la señalización de vestíbulo, se envía un evento que contiene este ID de evento específico. El mismo principio se aplica a los eventos de señalización del restaurante. Esto permite al sistema saber qué señalización activó la entrega del evento.
+   Se genera automáticamente un ID para este evento. Este ID se almacena en la variable **[!UICONTROL eventID]** campo (&quot;_experience > campaign > orchestration > eventID&quot;). El sistema que impulsa el evento no debe generar un ID, debe utilizar el disponible en la previsualización de carga útil. En nuestro caso de uso, este ID se utiliza para identificar la ubicación de la señalización. Cada vez que una persona camina cerca de la señalización de vestíbulo, se envía un evento que contiene este ID de evento específico. El mismo principio se aplica a los eventos de señalización del restaurante. Esto permite al sistema saber qué señalización activó la entrega del evento.
 
    ![](../assets/journeyuc2_2.png)
 
@@ -49,7 +49,7 @@ Para obtener más información sobre la configuración de eventos, consulte [est
 
 1. Haga clic en **[!UICONTROL Save]**.
 
-1. Haga clic en el icono **[!UICONTROL View Payload]** para previsualizar la carga útil que espera el sistema y compártala con la persona responsable del envío del evento.  Esta carga útil debe configurarse en el postback de la consola de administración de Mobile Services.
+1. Haga clic en el **[!UICONTROL View Payload]** para obtener una vista previa de la carga útil esperada por el sistema y compartirla con la persona responsable del envío del evento.  Esta carga útil debe configurarse en el postback de la consola de administración de Mobile Services.
 
    ![](../assets/journeyuc2_5.png)
 

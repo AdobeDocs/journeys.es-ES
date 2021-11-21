@@ -9,7 +9,7 @@ exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
 source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
 workflow-type: tm+mt
 source-wordcount: '989'
-ht-degree: 61%
+ht-degree: 62%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 61%
 
 ## Acceso a [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-Para acceder a la interfaz de [!DNL Journey Orchestration], haga clic en el icono **[!UICONTROL App Selector]**, en la parte superior derecha, y luego haga clic en **[!UICONTROL Journey Orchestration]**.
+Para acceder a la [!DNL Journey Orchestration]La interfaz de , haga clic en el botón **[!UICONTROL App Selector]** , en la parte superior derecha, haga clic en **[!UICONTROL Journey Orchestration]**.
 
 ![](../assets/journey1.png)
 
@@ -55,7 +55,7 @@ Se puede acceder a **[!UICONTROL Filters]** haciendo clic en el icono de filtro 
 
 En las listas **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** y **[!UICONTROL Actions]** , use **[!UICONTROL Creation filters]** para filtrar la fecha de creación y el usuario. Puede elegir, por ejemplo, mostrar solo los eventos creados en los últimos 30 días.
 
-En la lista recorrido (en **[!UICONTROL Home]**), además de **[!UICONTROL Creation filters]**, también puede filtrar los recorridos mostrados según su estado, tipo y versión (**[!UICONTROL Status and version filters]**). El tipo puede ser: **[!UICONTROL Unitary event]** o **[!UICONTROL Segment qualification]**. También puede elegir mostrar únicamente los recorrido que utilizan un evento, un grupo de campos o una acción en particular (**[!UICONTROL Activity filters]** y **[!UICONTROL Data filters]**). **[!UICONTROL Publication filters]** Permite seleccionar una fecha de publicación o un usuario. Puede elegir, por ejemplo, mostrar solo las versiones más recientes de recorridos en directo que se publicaron ayer. Consulte [esta página](../building-journeys/using-the-journey-designer.md).
+En la lista de recorridos (debajo de **[!UICONTROL Home]**), además del **[!UICONTROL Creation filters]**, también puede filtrar los recorridos mostrados según su estado, tipo y versión (**[!UICONTROL Status and version filters]**). El tipo puede ser: **[!UICONTROL Unitary event]** o **[!UICONTROL Segment qualification]**. También puede elegir mostrar únicamente los recorrido que utilizan un evento, un grupo de campos o una acción en particular (**[!UICONTROL Activity filters]** y **[!UICONTROL Data filters]**). **[!UICONTROL Publication filters]** Permite seleccionar una fecha de publicación o un usuario. Puede elegir, por ejemplo, mostrar solo las versiones más recientes de recorridos en directo que se publicaron ayer. Consulte [esta página](../building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
@@ -95,7 +95,7 @@ Adobe Experience Platform proporciona las funciones de accesibilidad de Adobe Jo
 * Contraste de color
 * Validación de campos obligatorios
 
-[Obtenga más información](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target=&quot;_blank&quot;} en la documentación de Adobe Experience Platform.
+[Más información](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target=&quot;_blank&quot;} en la documentación de Adobe Experience Platform.
 
 Puede utilizar estos métodos abreviados del teclado comunes en Adobe Journey Optimizer:
 
@@ -107,7 +107,7 @@ Puede utilizar estos métodos abreviados del teclado comunes en Adobe Journey Op
 | Seleccionar o borrar un elemento que esté enfocado | Entrar o barra espaciadora |
 | Cancelar una selección, contraer un panel o cerrar un cuadro de diálogo | Esc |
 
-[Obtenga más información](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html){target=&quot;_blank&quot;} en la documentación de Adobe Experience Platform.
+[Más información](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html){target=&quot;_blank&quot;} en la documentación de Adobe Experience Platform.
 
 Puede utilizar estos métodos abreviados en partes específicas de Journey Optimizer:
 
@@ -173,7 +173,7 @@ Panel de configuración de estos elementos:
   <tr>
     <td>
 
-Déclencheur de un evento en un recorrido basado en segmentos para el que la opción **[!UICONTROL Single profile at a time]** está activada
+Déclencheur de un evento en un recorrido basado en segmentos para el cual la variable **[!UICONTROL Single profile at a time]** está activada
 
 </td>
     <td>P</td>

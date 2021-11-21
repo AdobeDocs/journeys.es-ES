@@ -44,7 +44,7 @@ Una regla de límite es específica para un punto final, pero global para todos 
 
 Por ejemplo, supongamos que ha definido una regla de límite de 100 llamadas por segundo para el sistema externo. Una acción personalizada llama al sistema en 10 recorridos diferentes. Si un recorrido recibe 200 llamadas por segundo, utilizará las 100 ranuras disponibles y descartará las 100 ranuras restantes. Como la velocidad máxima se ha superado, los otros 9 recorridos no tendrán ninguna ranura. Esta granularidad ayuda a proteger el sistema externo de sobrecargas y caídas.
 
-Para obtener más información sobre la API de restricción y cómo configurarlas, consulte [esta página](../api/capping.md).
+Para obtener más información sobre la API de restricción y cómo configurar las reglas de restricción, consulte [esta página](../api/capping.md).
 
 ## Tiempo de espera y reintentos{#timeout}
 
@@ -70,7 +70,7 @@ Veamos un ejemplo para un tiempo de espera de 5 segundos.
 
 ## Preguntas frecuentes{#faq}
 
-**¿Cómo puedo configurar una regla de límite? ¿Hay una regla de límite predeterminada?**
+**¿Cómo puedo configurar una regla de límite? ¿Existe una regla de límite predeterminada?**
 
 De forma predeterminada, no hay ninguna regla de restricción. Las reglas de restricción se definen a nivel de entorno limitado para un punto final específico (la URL denominada) mediante la API de restricción. Consulte [esta sección](../about/external-systems.md#capping) y [esta página](../api/capping.md).
 

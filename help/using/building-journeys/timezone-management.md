@@ -8,14 +8,14 @@ level: Intermediate
 exl-id: c0e67849-caa0-4045-94ed-38e483054e1d
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '277'
 ht-degree: 2%
 
 ---
 
 # Administración de husos horarios {#timezone_management}
 
-Puede definir una zona horaria en las [propiedades](../building-journeys/changing-properties.md) del recorrido.
+Puede definir una zona horaria en la variable [propiedades](../building-journeys/changing-properties.md) de su recorrido.
 
 Para acceder a Propiedades, haga clic en el icono de lápiz en la parte superior derecha de la pantalla.
 
@@ -30,7 +30,7 @@ Puede seleccionar una zona horaria o elegir usar la zona horaria definida en el 
 
 >[!NOTE]
 >
->La zona horaria del perfil funciona con el campo **timeZone** existente en el grupo de campos **Detalles de preferencia**.
+>La zona horaria del perfil funciona con la variable **timeZone** campo existente en la variable **Detalles de preferencia** grupo de campos.
 
 ## Definición de una zona horaria fija {#fixed-timezone}
 
@@ -48,7 +48,7 @@ Si se define una zona horaria en el perfil de Adobe Experience Platform, se pued
 
 Si el perfil de la persona no contiene una zona horaria, la zona horaria recuperada será la definida en el campo de zona horaria.
 
-Para ello, en **[!UICONTROL Properties]**, marque **[!UICONTROL Use Profile timezone in timers and conditions]**.
+Para ello, en **[!UICONTROL Properties]**, compruebe **[!UICONTROL Use Profile timezone in timers and conditions]**.
 
 ![](../assets/journey73.png)
 

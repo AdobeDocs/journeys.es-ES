@@ -15,11 +15,11 @@ ht-degree: 4%
 
 # Configuración de URL {#concept_gbg_1f1_2gb}
 
-Al configurar una acción personalizada, debe definir los siguientes **[!UICONTROL URL Configuration]** parámetros:
+Al configurar una acción personalizada, debe definir lo siguiente **[!UICONTROL URL Configuration]** parámetros:
 
 ![](../assets/journeyurlconfiguration.png)
 
-1. En el campo **[!UICONTROL URL]** , especifique la dirección URL del servicio externo:
+1. En el **[!UICONTROL URL]** especifique la URL del servicio externo:
 
    * Si la dirección URL es estática, introduzca la dirección URL en este campo.
 
@@ -35,21 +35,21 @@ Al configurar una acción personalizada, debe definir los siguientes **[!UICONTR
    >Solo se permiten los puertos predeterminados al definir una acción personalizada: 80 para http y 443 para https.
 
 1. Seleccione la llamada **[!UICONTROL Method]**: puede ser **[!UICONTROL POST]** o **[!UICONTROL PUT]**.
-1. En la sección **[!UICONTROL Headers]** , defina los encabezados HTTP del mensaje de solicitud que se enviará al servicio externo:
-   1. Para agregar un campo de encabezado, haga clic en **[!UICONTROL Add a header field]**.
+1. En el **[!UICONTROL Headers]** , defina los encabezados HTTP del mensaje de solicitud que se enviarán al servicio externo:
+   1. Para añadir un campo de encabezado, haga clic en **[!UICONTROL Add a header field]**.
    1. Introduzca la clave del campo de encabezado.
    1. Para establecer un valor dinámico para el par clave-valor, seleccione **[!UICONTROL Variable]**. De lo contrario, seleccione **[!UICONTROL Constant]**.
 
       Por ejemplo, para una marca de tiempo, puede establecer un valor dinámico.
 
-   1. Si ha seleccionado **[!UICONTROL Constant]**, introduzca el valor constante.
+   1. Si ha seleccionado **[!UICONTROL Constant]** y, a continuación, introduzca el valor constante.
 
-      Si ha seleccionado **[!UICONTROL Variable]**, debe especificar esta variable al agregar la acción personalizada a un recorrido. [Más información](../building-journeys/using-custom-actions.md).
+      Si ha seleccionado **[!UICONTROL Variable]**, especificará esta variable al agregar la acción personalizada a un recorrido. [Más información](../building-journeys/using-custom-actions.md).
 
       ![](../assets/journeyurlconfiguration2.png)
 
-   1. Para eliminar un campo de encabezado, elija el campo de encabezado y haga clic en el icono **[!UICONTROL Delete]**.
-   Los campos de encabezado **[!UICONTROL Content-Type]** y **[!UICONTROL Charset]** se establecen de forma predeterminada. Estos campos no se pueden modificar ni eliminar.
+   1. Para eliminar un campo de encabezado, elija el campo de encabezado y haga clic en el botón **[!UICONTROL Delete]** icono.
+   La variable **[!UICONTROL Content-Type]** y **[!UICONTROL Charset]** los campos de encabezado se establecen de forma predeterminada. Estos campos no se pueden modificar ni eliminar.
 
    Después de agregar la acción personalizada a un recorrido, puede agregarle campos de encabezado si el recorrido está en estado de borrador. Si no desea que el recorrido se vea afectado por los cambios de configuración, duplique la acción personalizada y añada los campos del encabezado a la nueva acción personalizada.
 

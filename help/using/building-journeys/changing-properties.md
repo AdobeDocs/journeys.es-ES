@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 06d26078-b9b8-4dc4-918d-0f2426d00f54
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Puede cambiar el nombre del recorrido, añadir una descripción, permitir la ree
 
 Para los recorridos en directo, esta pantalla muestra la fecha de publicación y el nombre del usuario que publicó el recorrido.
 
-El **Copy technical details** permite copiar información técnica sobre el recorrido que el equipo de asistencia puede utilizar para solucionar problemas. Se copia la siguiente información: UID de JourneyVersion, OrgID, orgName, sandboxName, lastDedeployBy, lastDedeployAt.
+La variable **Copiar detalles técnicos** le permite copiar información técnica sobre el recorrido que el equipo de asistencia puede utilizar para solucionar problemas. Se copia la siguiente información: UID de JourneyVersion, OrgID, orgName, sandboxName, lastDedeployBy, lastDedeployAt.
 
 ![](../assets/journey32.png)
 
@@ -31,21 +31,21 @@ De forma predeterminada, los nuevos recorridos permiten volver a entrar. Puede d
 
 Cuando un recorrido &quot;termina&quot;, tendrá el estado **[!UICONTROL Closed (no entrance)]**. El recorrido dejará de permitir la entrada al recorrido de nuevos individuos. Las personas que ya están en el recorrido terminarán normalmente el recorrido.
 
-Después del tiempo de espera global predeterminado de 30 días, el recorrido cambiará al estado **Finalizado**. Consulte esta [sección](#global_timeout).
+Después del tiempo de espera global predeterminado de 30 días, el recorrido cambiará a la variable **Finalizado** estado. Consulte esta [sección](#global_timeout).
 
 ## Tiempo de espera y error en las actividades de recorrido {#timeout_and_error}
 
-Al editar una acción o actividad de condición, puede definir una ruta alternativa en caso de error o de tiempo de espera. Si el procesamiento de la actividad que interroga a un sistema de terceros supera la duración de tiempo de espera definida en las propiedades del recorrido (campo **[!UICONTROL Timeout and  error]**), se elegirá la segunda ruta para realizar una posible acción de reserva.
+Al editar una acción o actividad de condición, puede definir una ruta alternativa en caso de error o de tiempo de espera. Si el procesamiento de la actividad que interroga a un sistema de terceros supera el tiempo de espera definido en las propiedades del recorrido (**[!UICONTROL Timeout and  error]** ), se elige la segunda ruta para realizar una posible acción de reserva.
 
 Los valores autorizados están entre 1 y 30 segundos.
 
-Se recomienda definir un valor **[!UICONTROL Timeout and error]** muy corto si el recorrido distingue entre tiempo (por ejemplo: reaccionar a la ubicación en tiempo real de una persona) porque no puede retrasar la acción durante más de unos segundos. Si el recorrido es menos sensible al tiempo, puede utilizar un valor más largo para dar más tiempo al sistema llamado para enviar una respuesta válida.
+Le recomendamos que defina una **[!UICONTROL Timeout and error]** si el recorrido distingue entre horas (ejemplo: reaccionar a la ubicación en tiempo real de una persona) porque no puede retrasar la acción durante más de unos segundos. Si el recorrido es menos sensible al tiempo, puede utilizar un valor más largo para dar más tiempo al sistema llamado para enviar una respuesta válida.
 
-[!DNL Journey Orchestration] también utiliza un tiempo de espera global. Consulte la [siguiente sección](#global_timeout).
+[!DNL Journey Orchestration] también utiliza un tiempo de espera global. Consulte la [sección siguiente](#global_timeout).
 
 ## Tiempo de espera de recorrido global {#global_timeout}
 
-Además del [timeout](#timeout_and_error) utilizado en las actividades de recorrido, también existe un tiempo de espera de recorrido global que no se muestra en la interfaz y que no se puede cambiar. Este tiempo de espera detendrá el progreso de las personas en el recorrido 30 días después de su entrada. Esto significa que el recorrido de una persona no puede durar más de 30 días. Después del tiempo de espera de 30 días, se eliminan los datos del individuo. Las personas que sigan fluyendo en el recorrido al final del tiempo de espera se detendrán y se tendrán en cuenta como errores en los informes.
+Además del [timeout](#timeout_and_error) utilizado en actividades de recorrido, también existe un tiempo de espera de recorrido global que no se muestra en la interfaz y que no se puede cambiar. Este tiempo de espera detendrá el progreso de las personas en el recorrido 30 días después de su entrada. Esto significa que el recorrido de una persona no puede durar más de 30 días. Después del tiempo de espera de 30 días, se eliminan los datos del individuo. Las personas que sigan fluyendo en el recorrido al final del tiempo de espera se detendrán y se tendrán en cuenta como errores en los informes.
 
 >[!NOTE]
 >

@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: Definición de los parámetros de acción
+title: Definición de los parámetros del mensaje
 description: Obtenga información sobre cómo definir los parámetros de acción
 feature: Journeys
 role: User
@@ -9,15 +9,15 @@ exl-id: ea9cdb1d-dde6-4080-8f35-7f8cd3cf3644
 source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
 workflow-type: tm+mt
 source-wordcount: '225'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# Definición de los parámetros de acción {#concept_wy4_bf1_2gb}
+# Definición de los parámetros del mensaje {#concept_wy4_bf1_2gb}
 
 ![](../assets/messageparameterssection.png)
 
-En la sección **[!UICONTROL Action parameters]** , pegue un ejemplo de la carga útil JSON para enviarla al servicio externo.
+En el **[!UICONTROL Action parameters]** , pegue un ejemplo de la carga útil JSON para enviarla al servicio externo.
 
 ![](../assets/customactionpayloadmessage.png)
 

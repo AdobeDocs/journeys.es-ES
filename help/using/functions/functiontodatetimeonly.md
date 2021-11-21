@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 19a4b7f8-5636-4b8f-b81f-28ff7da99671
 source-git-commit: 0c55ece133639ec001b58f73afcbc69787b98c0e
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 17%
+source-wordcount: '55'
+ht-degree: 16%
 
 ---
 
@@ -46,7 +46,7 @@ Devolver una fecha y hora sin considerar la zona horaria.
 
 `toDateTimeOnly ("2016-08-18")`
 
-devuelve un dateTime que representa 2016-08-18T00:00:00.000
+devuelve un dateTime que representa 2016-08-18T00:00:00 000
 
 `toDateTimeOnly(now())`
 
