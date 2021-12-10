@@ -15,20 +15,20 @@ ht-degree: 6%
 
 Este caso de uso presenta todos los pasos necesarios para enviar un correo electrónico mediante la integración con Adobe Campaign Classic v7 y Adobe Campaign v8.
 
-We will first create a transactional email template in Campaign. Then, in Journey Orchestration, we&#39;ll create the event, action and design the journey.
+Primero crearemos una plantilla de correo electrónico transaccional en Campaign. Luego, en Journey Orchestration, crearemos el evento, la acción y el diseño del recorrido.
 
 Para obtener más información sobre la integración de Campaign, consulte estas páginas:
 
 * [Creación de una acción de campaña](../action/acc-action.md)
-* [Using the action in a journey](../building-journeys/using-adobe-campaign-classic.md).
+* [Uso de la acción en un recorrido](../building-journeys/using-adobe-campaign-classic.md).
 
 **Adobe Campaign**
 
 La instancia de Campaign debe aprovisionarse para esta integración. La función Mensajería transaccional debe configurarse.
 
-1. Log in to your Campaign control instance.
+1. Inicie sesión en la instancia de control de Campaign.
 
-1. Under **Administration** > **Platform** > **Enumerations**, select the **Event type** (eventType) enumeration. Cree un nuevo tipo de evento (&quot;recorrido-evento&quot;, en nuestro ejemplo). Deberá utilizar el nombre interno del tipo de evento al escribir el archivo JSON más adelante.
+1. En **Administración** > **Plataforma** > **Enumeraciones**, seleccione **Tipo de evento** enumeración (eventType). Cree un nuevo tipo de evento (&quot;recorrido-evento&quot;, en nuestro ejemplo). Deberá utilizar el nombre interno del tipo de evento al escribir el archivo JSON más adelante.
 
    ![](../assets/accintegration-uc-1.png)
 
@@ -38,11 +38,11 @@ La instancia de Campaign debe aprovisionarse para esta integración. La función
 
    ![](../assets/accintegration-uc-2.png)
 
-1. Diseñe la plantilla. En este ejemplo, se utiliza la personalización en el nombre del perfil y el número de pedido. The first name is in the Adobe Experience Platform data source, and the order number is a field from our Journey Orchestration event. Asegúrese de utilizar los nombres de campo correctos en Campaign.
+1. Diseñe la plantilla. En este ejemplo, se utiliza la personalización en el nombre del perfil y el número de pedido. El nombre se encuentra en la fuente de datos de Adobe Experience Platform y el número de pedido es un campo del evento de Journey Orchestration. Asegúrese de utilizar los nombres de campo correctos en Campaign.
 
    ![](../assets/accintegration-uc-3.png)
 
-1. Publish your transactional template.
+1. Publique la plantilla transaccional.
 
    ![](../assets/accintegration-uc-4.png)
 
@@ -59,10 +59,10 @@ La instancia de Campaign debe aprovisionarse para esta integración. La función
 }
 ```
 
-* For the channel, you need to type &quot;email&quot;.
-* For the eventType, use the internal name of the event type created previously.
-* The email address will be a variable, so you can type any label.
-* Under ctx, the personalization fields are also variables.
+* Para el canal, debe escribir &quot;correo electrónico&quot;.
+* Para eventType, utilice el nombre interno del tipo de evento creado anteriormente.
+* La dirección de correo electrónico será una variable, por lo que puede escribir cualquier etiqueta.
+* En ctx, los campos de personalización también son variables.
 
 **Journey Orchestration**
 
@@ -74,7 +74,7 @@ La instancia de Campaign debe aprovisionarse para esta integración. La función
 
    ![](../assets/accintegration-uc-6.png)
 
-1. Click the **Payload field** and paste the JSON created previously.
+1. Haga clic en el **Campo de carga útil** y pegue el JSON creado anteriormente.
 
    ![](../assets/accintegration-uc-7.png)
 
@@ -94,4 +94,4 @@ La instancia de Campaign debe aprovisionarse para esta integración. La función
 
    ![](../assets/accintegration-uc-11.png)
 
-1. You can now publish your journey.
+1. Ahora puede publicar su recorrido.
