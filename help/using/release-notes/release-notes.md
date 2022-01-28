@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: d09d70a0ec2720c5a75385b9036bf3a6ab74f4ab
+source-git-commit: 4a6e2afc19a95e834278c161b271ba6e8a345425
 workflow-type: tm+mt
-source-wordcount: '3069'
-ht-degree: 54%
+source-wordcount: '3130'
+ht-degree: 64%
 
 ---
 
@@ -18,45 +18,37 @@ ht-degree: 54%
 Esta página lista todas las nuevas funciones y mejoras de Journey Orchestration.
 También puede consultar las últimas [Actualizaciones de documentación](../release-notes/documentation-updates.md).
 
-## Versión de octubre de 2021 {#october-2021-release}
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Profile cap condition</strong><br/></th>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>When using a <strong>Condition</strong> activity in a journey, you can now define a <strong>Profile cap</strong> condition. This new condition type allows you set a maximum number of profiles for a journey path. When this limit is reached, the selected profiles take a second path. This allows you to optimize your IP ramp up. For example, you may want to ramp up your deliveries on a domain to 50 millions by splitting the execution: send 1000 messages on day 1, 2000 on day 2, etc.</p>
-<p>For more information, refer to the <a href="../building-journeys/condition-activity.md#profile_cap}">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table-->
+## Lanzamiento de enero de 2022 {#january-2022-release}
 
 ### Mejoras
 
-* **Editor de expresiones** - Como usuario avanzado, ahora puede usar funciones para trabajar con mapas. [Más información](../expression/field-references.md)
+* Los eventos de paso del Journey Orchestration ahora se pueden vincular a otros conjuntos de datos en [Customer Journey Analytics de Adobe](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es). La variable **profileID** , en el esquema integrado de Evento de paso de Recorrido, ahora se define como un campo de identidad. [Más información](../building-journeys/sharing-overview.md#integration-cja)
+* La regla de límite para las acciones de Adobe Campaign Standard se ha cambiado a 4000 llamadas / 5 minutos. [Más información](../action/working-with-adobe-campaign.md)
+
+## Versión de octubre de 2021 {#october-2021-release}
+
+### Mejoras
+
+* **Editor de expresiones**: como usuario avanzado, ahora puede usar funciones para trabajar con mapas. [Más información](../expression/field-references.md)
 * **Accesibilidad** - Se han implementado mejoras de accesibilidad. Journey Orchestration ahora es totalmente compatible en términos de accesibilidad.
-* **Colecciones** - Ahora se admiten matrices de objetos que contienen subobjetos. [Más información](../usecase/collections.md)
-* **Monitorización** : se han mejorado los eventos de paso para los recorridos en directo y el modo de prueba. [Nuevos campos](../building-journeys/sharing-field-list.md#serviceevents) se han añadido en relación con los trabajos de exportación de perfiles. Para mejorar la experiencia del usuario, los campos de eventos de paso ahora están organizados en distintas categorías en el esquema de Evento de paso de Recorrido para el Journey Orchestration. Todos los campos de eventos de paso anteriores siguen disponibles en la sección [stepEvents](../building-journeys/sharing-legacy-fields.md) categoría.
+* **Colecciones**: ahora se admiten matrices de objetos que contienen subobjetos. [Más información](../usecase/collections.md)
+* **Monitorización**: se han mejorado los eventos de paso para los recorridos en directo y el modo de prueba. Se han añadido [nuevos campos](../building-journeys/sharing-field-list.md#serviceevents) en relación con los trabajos de exportación de perfiles. Para mejorar la experiencia del usuario, los campos de eventos de paso ahora están organizados en distintas categorías en el esquema de Evento de paso de Recorrido para el Journey Orchestration. Todos los campos de eventos de paso anteriores siguen disponibles en la categoría [stepEvents](../building-journeys/sharing-legacy-fields.md).
 
 ## Versión de septiembre de 2021 {#september-2021-release}
 
 <table>
 <thead>
 <tr>
-<th><strong>Pasar listas de datos dinámicamente mediante acciones personalizadas</strong><br/></th>
+<th><strong>Paso de listas de datos dinámicamente mediante acciones personalizadas</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ahora puede pasar colecciones o una lista de datos en los parámetros de acción personalizados que se rellenarán dinámicamente durante la ejecución. Se admiten dos tipos de colecciones: colecciones simples y colecciones de objetos. Las acciones personalizadas creadas anteriormente seguirán funcionando. </p>
-<p>Para obtener más información sobre las colecciones, consulte <a href="../usecase/collections.md">documentación detallada</a>. </p>
-<p>Las funciones de filtro e intersección se han agregado a la lista de funciones disponibles en el editor de expresiones avanzadas. Esto ofrece más posibilidades para filtrar y comparar colecciones.</p>
-<p>Consulte la documentación de <a href="../functions/functionfilter.md">filter</a> y <a href="../functions/functionintersect.md">intersección</a> funciones.</p>
+<p>Ahora puede pasar colecciones o una lista de datos en los parámetros de acción personalizados que se rellenarán dinámicamente durante la ejecución. Se admiten dos tipos de colecciones: simples y de objetos. Las acciones personalizadas creadas anteriormente seguirán funcionando. </p>
+<p>Para obtener más información, consulte la <a href="../usecase/collections.md">documentación detallada</a>. </p>
+<p>Las funciones de filtro e intersección se han añadido a la lista de funciones disponibles en el editor de expresiones avanzadas. Esto ofrece más posibilidades para filtrar y comparar colecciones.</p>
+<p>Consulte la documentación de las funciones <a href="../functions/functionfilter.md">filtro</a> e <a href="../functions/functionintersect.md">intersección</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -65,8 +57,8 @@ También puede consultar las últimas [Actualizaciones de documentación](../rel
 ### Mejoras
 
 * Los esquemas y conjuntos de datos generados por el sistema que se han creado durante el aprovisionamiento para eventos de paso ahora están en modo de solo lectura, lo que protege contra cualquier modificación involuntaria de esquemas críticos. [Más información](../building-journeys/sharing-overview.md)
-* etiquete el **Espera** actividad con una etiqueta que se mostrará en el lienzo. La etiqueta también se utiliza en los registros de modo de informes y prueba para identificar claramente lo que está haciendo. [Más información](../building-journeys/using-the-journey-designer.md)
-* Busque sus eventos y acciones más rápido filtrando los elementos en la **Eventos** y **Acción** categorías usando la búsqueda. Las actividades de organización ya no se filtran. [Más información](../building-journeys/using-the-journey-designer.md)
+* Etiquete claramente la actividad **Espera** con una etiqueta que se mostrará en el lienzo. La etiqueta también se utiliza en los registros de modo de informes y prueba para identificar claramente lo que está haciendo. [Más información](../building-journeys/using-the-journey-designer.md)
+* Busque sus eventos y acciones más rápido filtrando los elementos de las categorías **Eventos** y **Acción** usando la búsqueda. Las actividades de organización ya no se filtran. [Más información](../building-journeys/using-the-journey-designer.md)
 * Al definir una condición de ID de evento en una regla, el operador &quot;contiene&quot; ya está disponible para los tipos de cadena de campos. [Más información](../event/about-creating.md)
 
 ## Versión de agosto de 2021 {#august-2021-release}
@@ -75,8 +67,8 @@ También puede consultar las últimas [Actualizaciones de documentación](../rel
 
 **Recorridos**
 
-* **Encabezados dinámicos** - Ahora puede pasar datos dinámicos en parámetros de encabezado HTTP. Estos parámetros los pueden utilizar los sistemas de integración que reciben las llamadas HTTP de acción del recorrido, por ejemplo, la marca de tiempo o el ID de seguimiento. [Más información](../action/url-configuration.md)
-* **Rutas URL dinámicas** - Ahora puede configurar rutas de URL dinámicas para acciones personalizadas. [Más información](../action/url-configuration.md)
+* **Encabezados dinámicos**: ahora puede pasar datos dinámicos en parámetros de encabezado HTTP. Estos parámetros los pueden utilizar los sistemas de integración que reciben las llamadas HTTP de acción del recorrido, por ejemplo, la marca de tiempo o el ID de seguimiento. [Más información](../action/url-configuration.md)
+* **Rutas de URL dinámicas**: ahora puede configurar rutas de URL dinámicas para acciones personalizadas. [Más información](../action/url-configuration.md)
 
 ## Versión de julio de 2021 {#july-2021-release}
 
@@ -99,7 +91,7 @@ También puede consultar las últimas [Actualizaciones de documentación](../rel
 
 ### Mejoras
 
-* La variable **Duración de la caché** se ha eliminado del panel de configuración del origen de datos. [Más información](../datasource/about-data-sources.md)
+* El campo **Duración de la caché** se ha eliminado del panel de configuración de la fuente de datos. [Más información](../datasource/about-data-sources.md)
 
 ## Lanzamiento de junio de 2021 {#june-2021-release}
 
