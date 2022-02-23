@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 942e7a44-1cb1-4c99-abd6-e0b045c42c80
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: c7730ecac062719e5e5adfd465d1cedb59b3eaf1
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 7%
+source-wordcount: '102'
+ht-degree: 8%
 
 ---
 
@@ -32,7 +32,6 @@ Conversión
 | dateTime | convierte la fecha en formato de fecha UTC |
 | dateTimeOnly | convierte la fecha en formato de fecha UTC |
 | duration | convertir en el número correspondiente de milisegundos como una cadena |
-| zona horaria | convertir en la representación de cadena de id de zona horaria (JOD id) |
 | integer | se convierte en una representación de cadena del valor (1 se convierte en &quot;1&quot;) |
 | decimal | se convierte en una representación de cadena del valor (1,5 se convierte en &quot;1,5&quot;) |
 | Booleano | convierta el valor booleano en &#39;true&#39; si es &quot;true&quot;, &#39;false&#39; si es &quot;false&quot; |
@@ -44,8 +43,6 @@ Conversión
 `toString(<dateTime>)`
 
 `toString(<duration>)`
-
-`toString(<timeZone>)`
 
 `toString(<boolean>)`
 

@@ -5,9 +5,9 @@ title: Guía de Journey Orchestration
 user-guide-description: Proporciona instrucciones prácticas para implementar y construir recorridos.
 index: true
 feature: Journeys
-source-git-commit: f0cb883a09d553bb47491b750fabde54c92f3225
-workflow-type: ht
-source-wordcount: '438'
+source-git-commit: 95d9ce8ffd213e46320a4c131ffae8442cfb23bf
+workflow-type: tm+mt
+source-wordcount: '435'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,6 @@ ht-degree: 100%
    + [Definición de los campos de carga útil](using/event/defining-the-payload-fields.md)
    + [Selección del área de nombres](using/event/selecting-the-namespace.md)
    + [Definición de la clave del evento](using/event/defining-the-event-key.md)
-   + [Añadir una condición](using/event/adding-a-condition.md)
    + [Previsualización de la carga útil](using/event/previewing-the-payload.md)
 + Configuración de una fuente de datos {#data-source-journeys}
    + [Acerca de las fuentes de datos](using/datasource/about-data-sources.md)

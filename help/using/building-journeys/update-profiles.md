@@ -1,15 +1,15 @@
 ---
 product: adobe campaign
-title: Saltar de un recorrido a otro
-description: Saltar de un recorrido a otro
+title: Actualización de perfil
+description: Actualización de perfil
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: eaf2c795-0920-4b9c-9f06-801e43c1844b
-source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
+source-git-commit: 64f415f3a4120685b64a4b1dc15bf004e86b35d2
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 4%
+source-wordcount: '343'
+ht-degree: 2%
 
 ---
 
@@ -25,6 +25,7 @@ La variable **[!UICONTROL Update profile]** la actividad de acción le permite a
 * Al igual que cualquier otra acción, puede definir una ruta alternativa en caso de error o de tiempo de espera y no puede colocar dos acciones en paralelo.
 * La solicitud de actualización enviada a Platform será rápida, pero no inmediata/en un segundo. Se tardará normalmente unos segundos, pero a veces más sin garantía. Como resultado, por ejemplo, si una acción utiliza el &quot;campo 1&quot; actualizado por una acción Actualizar perfil colocada justo antes, no debería esperar que el &quot;campo 1&quot; se actualice en la acción .
 * En el modo de prueba, la actualización de perfil no se simulará. La actualización se realizará en el perfil de prueba.
+* La variable **Actualizar perfil** la actividad no admite campos XDM definidos como una enumeración.
 
 ## Uso de la actualización de perfil
 

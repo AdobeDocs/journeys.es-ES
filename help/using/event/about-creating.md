@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2ae8854a-c3e7-469d-9f89-25b54bc3e894
-source-git-commit: f1773cc56f69894d376d83eb68891499991aa1ab
+source-git-commit: bdc9ac3f54fae1dfd6f24a54a2687a0834f69c36
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 60%
+source-wordcount: '544'
+ht-degree: 58%
 
 ---
 
@@ -56,7 +56,6 @@ Estos son los pasos principales para configurar un nuevo evento:
 
 1. Añada un área de nombres. Este paso es opcional, pero se recomienda, ya que la adición de un área de nombres le permite aprovechar la información almacenada en el servicio de Perfil del cliente en tiempo real. Define el tipo de clave que tiene el evento. Consulte [esta página](../event/selecting-the-namespace.md).
 1. Defina la clave: elija un campo de los campos de carga útil o defina una fórmula para identificar a la persona asociada al evento. Esta clave se configura automáticamente (pero aún puede editarse) si selecciona un Área de nombres. De hecho, [!DNL Journey Orchestration] selecciona la clave que debe corresponder al área de nombres (por ejemplo, si selecciona un área de nombres de correo electrónico, se seleccionará la clave de correo electrónico). Consulte [esta página](../event/defining-the-event-key.md).
-1. Para los eventos generados por el sistema, puede agregar una condición. Este paso es opcional. Esto permite al sistema procesar únicamente los eventos que cumplen la condición. La condición solo puede basarse en la información contenida en el evento. Consulte [esta página](../event/adding-a-condition.md).
 1. Haga clic en **[!UICONTROL Save]**.
 
    ![](../assets/journey7.png)

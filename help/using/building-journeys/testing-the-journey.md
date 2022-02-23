@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 141937cd16d5676a80412b2b72750710ee1e537f
 workflow-type: tm+mt
-source-wordcount: '1664'
+source-wordcount: '1692'
 ht-degree: 3%
 
 ---
@@ -61,6 +61,7 @@ Para utilizar el modo de prueba, siga estos pasos:
 * Puede habilitar/deshabilitar el modo de prueba tantas veces como sea necesario.
 * No puede modificar el recorrido cuando se activa el modo de prueba. En el modo de prueba, puede publicar directamente el recorrido; no es necesario desactivar el modo de prueba antes.
 * Al llegar a una división, siempre se elige la rama superior. Puede reorganizar la posición de las ramas divididas si desea que la prueba elija una ruta diferente.
+* Para optimizar el rendimiento y evitar el uso obsoleto de recursos, todos los recorridos en modo de prueba que no se hayan activado durante una semana volverán al estado Borrador .
 
 ## Conversión de un perfil en un perfil de prueba{#turning-profile-into-test}
 

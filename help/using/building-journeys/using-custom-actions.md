@@ -6,20 +6,16 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9996d1eb-ddef-46dd-aaa9-c37fa9deb2f9
-source-git-commit: e71d641888caa9385d078d9c85e073b5f1ed743f
+source-git-commit: 8980df5cc238a7195f01a1631e418a8de677fbea
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 9%
+source-wordcount: '253'
+ht-degree: 11%
 
 ---
 
 # Uso de acciones personalizadas {#section_f2c_hbg_nhb}
 
 El panel de configuración de actividad muestra los parámetros de configuración de URL y los parámetros de autenticación configurados para la acción personalizada. [Más información](../action/about-custom-action-configuration.md).
-
->[!NOTE]
->
->No se puede pasar una colección simple en parámetros de acción personalizados. No se admiten campos de colección más complejos (matrices de objetos).  Tenga en cuenta también que los parámetros tienen un formato esperado (por ejemplo: string, decimal, etc.). Debe tener cuidado de respetar estos formatos esperados.
 
 ## Configuración de URL
 

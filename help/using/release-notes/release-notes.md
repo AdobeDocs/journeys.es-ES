@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 4a6e2afc19a95e834278c161b271ba6e8a345425
+source-git-commit: 0d1355f036b22df6b484ed2a0ea9a8b121e947e0
 workflow-type: tm+mt
-source-wordcount: '3130'
+source-wordcount: '3164'
 ht-degree: 64%
 
 ---
@@ -18,11 +18,17 @@ ht-degree: 64%
 Esta página lista todas las nuevas funciones y mejoras de Journey Orchestration.
 También puede consultar las últimas [Actualizaciones de documentación](../release-notes/documentation-updates.md).
 
+## Lanzamiento de febrero de 2022 {#february-2022-release}
+
+### Mejoras
+
+* Para optimizar el rendimiento y evitar el uso obsoleto de recursos, todos los recorridos en modo de prueba que no se hayan activado durante una semana volverán al estado Borrador . [Más información](../building-journeys/testing-the-journey.md#important_notes)
+
 ## Lanzamiento de enero de 2022 {#january-2022-release}
 
 ### Mejoras
 
-* Los eventos de paso del Journey Orchestration ahora se pueden vincular a otros conjuntos de datos en [Customer Journey Analytics de Adobe](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es). La variable **profileID** , en el esquema integrado de Evento de paso de Recorrido, ahora se define como un campo de identidad. [Más información](../building-journeys/sharing-overview.md#integration-cja)
+* Los eventos de paso del Journey Orchestration ahora se pueden vincular a otros conjuntos de datos en [Customer Journey Analytics de Adobe](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es). El campo **profileID**, en el esquema integrado de Evento de paso de recorrido, ahora se define como un campo de identidad. [Más información](../building-journeys/sharing-overview.md#integration-cja)
 * La regla de límite para las acciones de Adobe Campaign Standard se ha cambiado a 4000 llamadas / 5 minutos. [Más información](../action/working-with-adobe-campaign.md)
 
 ## Versión de octubre de 2021 {#october-2021-release}
