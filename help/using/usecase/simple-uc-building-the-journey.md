@@ -1,15 +1,15 @@
 ---
 product: adobe campaign
-title: Construcción del recorrido
+title: 'Creación del recorrido: simple'
 description: Aprenda a crear el recorrido de casos de uso simple
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: 22bcd7f4-03ee-4e4c-b221-9f14aeadded6
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 9db330405130b14d1d8a8cbed59f612fd1f6767b
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 38%
+source-wordcount: '394'
+ht-degree: 37%
 
 ---
 
