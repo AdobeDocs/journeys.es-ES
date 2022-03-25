@@ -9,7 +9,7 @@ exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
 source-git-commit: f0cb883a09d553bb47491b750fabde54c92f3225
 workflow-type: tm+mt
 source-wordcount: '177'
-ht-degree: 73%
+ht-degree: 75%
 
 ---
 
@@ -45,20 +45,20 @@ Esta es la lista de funciones compatibles.
 | Conversión | [toDuration](../functions/functiontoduration.md) |
 | Conversión | [toInteger](../functions/functiontointeger.md) |
 | Conversión | [toString](../functions/functiontostring.md) |
-| Fecha  | [currentTimeInMillis](../functions/functioncurrenttimeinmillis.md) |
-| Fecha  | [inLastDays](../functions/functioninlastdays.md) |
-| Fecha  | [inLastHours](../functions/functioninlasthours.md) |
-| Fecha  | [inLastMonths](../functions/functioninlastmonths.md) |
-| Fecha  | [inLastYears](../functions/functioninlastyears.md) |
-| Fecha  | [inNextDays](../functions/functioninnextdays.md) |
-| Fecha  | [inNextHours](../functions/functioninnexthours.md) |
-| Fecha  | [inNextMonths](../functions/functioninnextmonths.md) |
-| Fecha  | [inNextYears](../functions/functioninnextyears.md) |
-| Fecha  | [now](../functions/functionnow.md) |
-| Fecha  | [nowWithDelta](../functions/functionnowwithdelta.md) |
-| Fecha  | [setHours](../functions/functionsethours.md) |
-| Fecha  | [setDays](../functions/functionsetdays.md) |
-| Fecha  | [updateTimeZone](../functions/functionupdatetimezone.md) |
+| Fecha | [currentTimeInMillis](../functions/functioncurrenttimeinmillis.md) |
+| Fecha | [inLastDays](../functions/functioninlastdays.md) |
+| Fecha | [inLastHours](../functions/functioninlasthours.md) |
+| Fecha | [inLastMonths](../functions/functioninlastmonths.md) |
+| Fecha | [inLastYears](../functions/functioninlastyears.md) |
+| Fecha | [inNextDays](../functions/functioninnextdays.md) |
+| Fecha | [inNextHours](../functions/functioninnexthours.md) |
+| Fecha | [inNextMonths](../functions/functioninnextmonths.md) |
+| Fecha | [inNextYears](../functions/functioninnextyears.md) |
+| Fecha | [now](../functions/functionnow.md) |
+| Fecha | [nowWithDelta](../functions/functionnowwithdelta.md) |
+| Fecha | [setHours](../functions/functionsethours.md) |
+| Fecha | [setDays](../functions/functionsetdays.md) |
+| Fecha | [updateTimeZone](../functions/functionupdatetimezone.md) |
 | Lista | [distinct](../functions/functiondistinct.md) |
 | Lista | [distinctWithNull](../functions/functiondistinctwithnull.md) |
 | Lista | [filter](../functions/functionfilter.md) |

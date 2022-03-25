@@ -19,7 +19,7 @@ Devuelve el valor verdadero si la fecha y hora dadas está entre ahora y ahora: 
 
 ## Categoría
 
-Fecha 
+Fecha
 
 ## Sintaxis de función
 

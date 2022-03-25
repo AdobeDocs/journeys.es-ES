@@ -19,7 +19,7 @@ Establece las horas de una fecha, hora u hora únicamente. Por ejemplo, si desea
 
 ## Categoría
 
-Fecha 
+Fecha
 
 ## Sintaxis de función
 

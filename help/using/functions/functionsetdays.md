@@ -19,7 +19,7 @@ Establece el día de una fecha, hora o hora. Por ejemplo, si desea esperar hasta
 
 ## Categoría
 
-Fecha 
+Fecha
 
 ## Sintaxis de función
 

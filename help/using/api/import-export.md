@@ -23,7 +23,7 @@ La API de exportación e importación de Journey Orchestration se describe en un
 
 Para utilizar esta API con la instancia de Journey Orchestration, debe utilizar la consola de Adobe I/O. Puede empezar por seguir esta [Introducción a Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) y, a continuación, utilice las secciones de esta página.
 
-Para probar y preparar la integración, hay disponible una colección Postman [here](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Export-import-API_postman-collection.json).
+Para probar y preparar la integración, hay disponible una colección de Postman [here](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Export-import-API_postman-collection.json).
 
 
 ## Flujo de exportación e importación

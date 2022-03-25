@@ -9,7 +9,7 @@ exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: a5f84d291a5fcb3a0899e9eaabfaf7a7aa12471d
 workflow-type: tm+mt
 source-wordcount: '931'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,8 +20,8 @@ También puede consultar las [!DNL Journey Orchestration] [Notas de la versión]
 
 ## Febrero de 2022 {#feb-2022}
 
-* La variable [replace](../functions/functionreplace.md#example_2) y [replaceAll](../functions/functionreplaceall.md#example) las páginas de documentación de funciones se han actualizado con información y ejemplos adicionales relacionados con el parámetro target .
-* Se han añadido las prácticas recomendadas al [Operadores](../expression/operators.md#important-notes) página.
+* Las páginas de documentación de la función [replace](../functions/functionreplace.md#example_2) y [replaceAll](../functions/functionreplaceall.md#example) se han actualizado con información y ejemplos adicionales relacionados con el parámetro de destinatario.
+* Se han añadido las prácticas recomendadas a la página de [Operadores](../expression/operators.md#important-notes).
 
 ## Septiembre de 2021
 

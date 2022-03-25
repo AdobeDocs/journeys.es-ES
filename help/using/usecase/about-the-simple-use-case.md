@@ -31,4 +31,4 @@ Para nuestro caso de uso, hemos diseñado una plantilla de mensajería transacci
 
 Adobe Campaign Standard está configurado para enviar correos electrónicos.
 
-Los eventos se envían desde el teléfono móvil de los clientes cuando se detectan cerca de una señalización. Debe diseñar una aplicación móvil para enviar eventos desde el teléfono móvil del cliente al SDK móvil.
+Los eventos se envían desde el teléfono móvil de los clientes cuando se detectan cerca de una señalización. Debe diseñar una aplicación móvil para enviar eventos desde el teléfono móvil del cliente al SDK de Mobile.

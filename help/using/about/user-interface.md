@@ -9,7 +9,7 @@ exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
 source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
 workflow-type: tm+mt
 source-wordcount: '989'
-ht-degree: 62%
+ht-degree: 93%
 
 ---
 
@@ -95,7 +95,7 @@ Adobe Experience Platform proporciona las funciones de accesibilidad de Adobe Jo
 * Contraste de color
 * Validación de campos obligatorios
 
-[Más información](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target=&quot;_blank&quot;} en la documentación de Adobe Experience Platform.
+[Más información](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=es){target=&quot;_blank&quot;} en la documentación de Adobe Experience Platform.
 
 Puede utilizar estos métodos abreviados del teclado comunes en Adobe Journey Optimizer:
 
@@ -104,10 +104,10 @@ Puede utilizar estos métodos abreviados del teclado comunes en Adobe Journey Op
 | Desplazamiento entre elementos, secciones y grupos de menús de la interfaz de usuario | Tabulación |
 | Retroceder entre elementos, secciones y grupos de menús de la interfaz de usuario | Mayús + Tab |
 | Desplazarse dentro de las secciones para definir el enfoque en elementos individuales | Flecha |
-| Seleccionar o borrar un elemento que esté enfocado | Entrar o barra espaciadora |
-| Cancelar una selección, contraer un panel o cerrar un cuadro de diálogo | Esc |
+| Seleccionar o borrar un elemento que esté enfocado | Intro o barra espaciadora |
+| Cancelar una selección, contraer un panel o cerrar un cuadro de diálogo | ESC |
 
-[Más información](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html){target=&quot;_blank&quot;} en la documentación de Adobe Experience Platform.
+[Más información](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=es){target=&quot;_blank&quot;} en la documentación de Adobe Experience Platform.
 
 Puede utilizar estos métodos abreviados en partes específicas de Journey Optimizer:
 
@@ -125,17 +125,17 @@ Puede utilizar estos métodos abreviados en partes específicas de Journey Optim
     <td>C</td>
   </tr>
   <tr>
-    <td rowspan="3">lienzo de recorrido en estado de borrador</td>
-    <td>Añada una actividad de la paleta izquierda en la primera posición disponible, de arriba a abajo</td>
-    <td>Haga doble clic en la actividad</td>
+    <td rowspan="3">Lienzo de recorrido en estado de borrador</td>
+    <td>Añadir una actividad de la paleta izquierda en la primera posición disponible, de arriba a abajo</td>
+    <td>Doble clic en la actividad</td>
   </tr>
   <tr>
     <td>Seleccionar todas las actividades</td>
     <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
   </tr>
   <tr>
-    <td>Eliminar las actividades seleccionadas</td>
-    <td>Eliminar o Retroceso, a continuación, Intro para confirmar la eliminación</td>
+    <td>Eliminación de las actividades seleccionadas</td>
+    <td>Use la tecla Suprimir o Retroceso y a continuación Intro para confirmar la eliminación</td>
   </tr>
   <tr>
   <td rowspan="3">
@@ -155,11 +155,11 @@ Panel de configuración de estos elementos:
   </tr>
   <tr>
     <td>Guarde los cambios y cierre el panel de configuración</td>
-    <td>Entrar</td>
+    <td>Intro</td>
   </tr>
   <tr>
     <td>Descartar cambios y cerrar el panel de configuración</td>
-    <td>Esc</td>
+    <td>ESC</td>
   </tr>
   <tr>
     <td rowspan="4">Recorrido en modo de prueba</td>
@@ -167,13 +167,13 @@ Panel de configuración de estos elementos:
     <td>T</td>
   </tr>
   <tr>
-    <td>Déclencheur de un evento en un recorrido basado en eventos</td>
+    <td>Activa un evento en un recorrido basado en eventos</td>
     <td>E</td>
   </tr>
   <tr>
     <td>
 
-Déclencheur de un evento en un recorrido basado en segmentos para el cual la variable **[!UICONTROL Single profile at a time]** está activada
+Activa un evento en un recorrido basado en segmentos para el cual la opción **[!UICONTROL Single profile at a time]** está activada
 
 </td>
     <td>P</td>
@@ -196,26 +196,26 @@ Déclencheur de un evento en un recorrido basado en segmentos para el cual la va
   </tr>
   <tr>
     <td rowspan="2">Ventana emergente</td>
-    <td>Guarde los cambios o confirme la acción</td>
-    <td>Entrar</td>
+    <td>Guardar los cambios o confirmar la acción</td>
+    <td>Intro</td>
   </tr>
   <tr>
-    <td>Cierre la ventana</td>
-    <td>Esc</td>
+    <td>Cerrar la ventana</td>
+    <td>ESC</td>
   </tr>
   <tr>
     <td>Editor de expresiones simples</td>
     <td>Seleccionar y añadir un campo</td>
-    <td>Hacer doble clic en un campo</td>
+    <td>Doble clic en un campo</td>
   </tr>
   <tr>
-    <td>Navegación por campos XDM</td>
+    <td>Explorar los campos XDM</td>
     <td>Seleccionar todos los campos de un nodo</td>
-    <td>Seleccione el nodo principal</td>
+    <td>Seleccionar el nodo principal</td>
   </tr>
   <tr>
     <td>Vista previa de carga útil</td>
-    <td>Seleccione la carga útil</td>
+    <td>Seleccionar la carga útil</td>
     <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
   </tr>
 </table>

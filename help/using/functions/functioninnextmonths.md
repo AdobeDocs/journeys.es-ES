@@ -19,7 +19,7 @@ Devuelve el valor verdadero si una fecha determinada o dateTime está entre ahor
 
 ## Categoría
 
-Fecha 
+Fecha
 
 ## Sintaxis de función
 

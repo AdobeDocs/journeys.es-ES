@@ -49,7 +49,7 @@ La tabla siguiente proporciona la lista de dimensiones de envío utilizadas en l
 | **Nombre de la entrega** | Etiqueta e ID de la entrega. |
 | **Device** | Dispositivo desde el que se abrió, visualizó o hizo clic en la notificación de correo electrónico/SMS/push. |
 | **Tipo de mensaje** | Canal utilizado para el envío, como correo electrónico, SMS, notificaciones push o en la aplicación. |
-| **Nombre de la aplicación móvil** | Nombre de la aplicación móvil |
+| **Nombre de la aplicación de Mobile** | Nombre de la aplicación móvil |
 | **Plataforma** | Plataforma del dispositivo desde el que se abrió, visualizó o hizo clic en el mensaje. |
 | **[!UICONTROL Push platform]** | Plataforma del dispositivo desde el que se abrió la notificación push, como iOS o Android. |
 | **Dominio de destinatario** | Dominio utilizado para abrir el correo electrónico. |

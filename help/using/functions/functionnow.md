@@ -19,7 +19,7 @@ Devuelve la fecha actual en formato de fecha y hora. Para obtener más informaci
 
 ## Categoría
 
-Fecha 
+Fecha
 
 ## Sintaxis de función
 

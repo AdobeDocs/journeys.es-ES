@@ -52,7 +52,7 @@ Estos son algunos ejemplos de casos de uso:
 | Instancia de recorrido | instanceUID | Identificador de instancia de recorrido | ID de la instancia |
 |  | externalKey | Clave externa | Identificador individual que activa el recorrido |
 |  | OrganizationId | Identificador de organización | Organización de marca |
-|  | sandboxName | Nombre del espacio aislado | Nombre del entorno limitado |
+|  | sandboxName | Nombre de la zona protegida | Nombre del entorno limitado |
 | Identidad | profileId | Identificador de identidad de perfil | Identificador del perfil en el recorrido |
 |  | namespace | Espacio de nombres de identidad del perfil | Espacio de nombres del perfil en el recorrido (ejemplo: ECID) |
 | Nodo actual | currentNodeId | Identificador de nodo actual | Identificador de la actividad actual (nodo) |

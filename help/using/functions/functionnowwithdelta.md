@@ -19,7 +19,7 @@ Devuelve la fecha y hora actuales, incluyendo un desplazamiento. Si se especific
 
 ## Categoría
 
-Fecha 
+Fecha
 
 ## Sintaxis de función
 

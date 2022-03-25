@@ -19,7 +19,7 @@ Devuelve la hora actual en milisegundos de época.
 
 ## Categoría
 
-Fecha 
+Fecha
 
 ## Sintaxis de función
 

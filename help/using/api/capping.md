@@ -34,7 +34,7 @@ Para obtener más información sobre la acción o la configuración de orígenes
 
 Para usar esta API con su [!DNL Journey Orchestration] , debe utilizar la consola de Adobe I/O. Puede empezar por seguir esta [Introducción a Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) y, a continuación, utilice las secciones de esta página.
 
-Para probar y preparar la integración, hay disponible una colección Postman [here](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
+Para probar y preparar la integración, hay disponible una colección de Postman [here](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
 ## Autenticación
 
@@ -167,9 +167,9 @@ La advertencia potencial es:
 
 En esta sección, encontrará los cinco casos de uso principales que puede realizar para administrar la configuración de restricción en [!DNL Journey Orchestration].
 
-Para ayudarle en las pruebas y la configuración, hay disponible una colección Postman [here](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
+Para ayudarle en las pruebas y la configuración, hay una colección de Postman disponible [here](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
-Esta colección Postman se ha configurado para compartir la colección de variables Postman generada mediante __[Integraciones de la consola Adobe I/O](https://console.adobe.io/integrations) > Pruébelo > Descargar para Postman__, que genera un archivo de entorno de Postman con los valores de integraciones seleccionados.
+Esta colección de Postman se ha configurado para compartir la colección de variables de Postman generada mediante __[Integraciones de la consola Adobe I/O](https://console.adobe.io/integrations) > Pruébelo > Descargar para Postman__, que genera un archivo de entorno de Postman con los valores de integraciones seleccionados.
 
 Una vez descargado y cargado en Postman, debe añadir tres variables: `{JO_HOST}`,`{Base_Path}` y `{SANDBOX_NAME}`.
 * `{JO_HOST}` : [!DNL Journey Orchestration] URL de puerta de enlace
