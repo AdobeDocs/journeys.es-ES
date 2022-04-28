@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: 617915d3f2e62e750c3559424ef4c203891124eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3226'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -24,30 +24,30 @@ También puede consultar las últimas [Actualizaciones de documentación](../rel
 
 **Recorridos**
 
-* Para evitar tener campos innecesarios en el esquema de perfil unificado, el esquema de Evento de paso de Recorrido ya no está habilitado para perfiles de forma predeterminada. Si es necesario, puede activarlo. [Más información](../building-journeys/sharing-overview.md)
+* Para evitar tener campos innecesarios en el esquema de perfil unificado, el esquema de Evento de paso de recorrido ya no está habilitado para perfiles de forma predeterminada. Si es necesario, puede activarlo. [Más información](../building-journeys/sharing-overview.md)
 * Journey Optimizer ahora envía a Adobe Experience Platform nuevos eventos relacionados con los trabajos de exportación. Se han añadido ejemplos de consultas a la documentación. [Más información](../building-journeys/query-examples.md)
 
 ## Lanzamiento de febrero de 2022 {#february-2022-release}
 
 ### Mejoras
 
-* Para optimizar el rendimiento y evitar el uso obsoleto de recursos, todos los recorridos en modo de prueba que no se hayan activado durante una semana volverán al estado Borrador . [Más información](../building-journeys/testing-the-journey.md#important_notes)
+* Para optimizar el rendimiento, todos los recorridos en modo de prueba que no se hayan activado durante una semana volverán al estado Borrador. [Más información](../building-journeys/testing-the-journey.md#important_notes)
 
 ## Lanzamiento de enero de 2022 {#january-2022-release}
 
 ### Mejoras
 
-* Los eventos de paso del Journey Orchestration ahora se pueden vincular a otros conjuntos de datos en [Customer Journey Analytics de Adobe](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es). El campo **profileID**, en el esquema integrado de Evento de paso de recorrido, ahora se define como un campo de identidad. [Más información](../building-journeys/sharing-overview.md#integration-cja)
-* La regla de límite para las acciones de Adobe Campaign Standard se ha cambiado a 4000 llamadas / 5 minutos. [Más información](../action/working-with-adobe-campaign.md)
+* Los eventos de paso de Journey Orchestration ahora se pueden vincular a otros conjuntos de datos en [Customer Journey Analytics de Adobe](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es). El campo **profileID**, en el esquema integrado de Evento de paso de recorrido, ahora se define como un campo de identidad. [Más información](../building-journeys/sharing-overview.md#integration-cja)
+* La regla de límite para las acciones de Adobe Campaign Standard se ha cambiado a 4000 llamadas cada cinco minutos. [Más información](../action/working-with-adobe-campaign.md)
 
 ## Versión de octubre de 2021 {#october-2021-release}
 
 ### Mejoras
 
 * **Editor de expresiones**: como usuario avanzado, ahora puede usar funciones para trabajar con mapas. [Más información](../expression/field-references.md)
-* **Accesibilidad** - Se han implementado mejoras de accesibilidad. Journey Orchestration ahora es totalmente compatible en términos de accesibilidad.
+* **Accesibilidad**: se han implementado mejoras de accesibilidad. Journey Orchestration ahora es totalmente compatible en términos de accesibilidad.
 * **Colecciones**: ahora se admiten matrices de objetos que contienen subobjetos. [Más información](../usecase/collections.md)
-* **Monitorización**: se han mejorado los eventos de paso para los recorridos en directo y el modo de prueba. Se han añadido [nuevos campos](../building-journeys/sharing-field-list.md#serviceevents) en relación con los trabajos de exportación de perfiles. Para mejorar la experiencia del usuario, los campos de eventos de paso ahora están organizados en distintas categorías en el esquema de Evento de paso de Recorrido para el Journey Orchestration. Todos los campos de eventos de paso anteriores siguen disponibles en la categoría [stepEvents](../building-journeys/sharing-legacy-fields.md).
+* **Monitorización**: se han mejorado los eventos de paso para los recorridos en directo y el modo de prueba. Se han añadido [nuevos campos](../building-journeys/sharing-field-list.md#serviceevents) en relación con los trabajos de exportación de perfiles. Para mejorar la experiencia del usuario, los campos de eventos de paso ahora están organizados en distintas categorías en el esquema de Evento de paso de Recorrido para Journey Orchestration. Todos los campos de eventos de paso anteriores siguen disponibles en la categoría [stepEvents](../building-journeys/sharing-legacy-fields.md).
 
 ## Versión de septiembre de 2021 {#september-2021-release}
 
@@ -74,7 +74,7 @@ También puede consultar las últimas [Actualizaciones de documentación](../rel
 * Los esquemas y conjuntos de datos generados por el sistema que se han creado durante el aprovisionamiento para eventos de paso ahora están en modo de solo lectura, lo que protege contra cualquier modificación involuntaria de esquemas críticos. [Más información](../building-journeys/sharing-overview.md)
 * Etiquete claramente la actividad **Espera** con una etiqueta que se mostrará en el lienzo. La etiqueta también se utiliza en los registros de modo de informes y prueba para identificar claramente lo que está haciendo. [Más información](../building-journeys/using-the-journey-designer.md)
 * Busque sus eventos y acciones más rápido filtrando los elementos de las categorías **Eventos** y **Acción** usando la búsqueda. Las actividades de organización ya no se filtran. [Más información](../building-journeys/using-the-journey-designer.md)
-* Al definir una condición de ID de evento en una regla, el operador &quot;contiene&quot; ya está disponible para los tipos de cadena de campos. [Más información](../event/about-creating.md)
+* Al definir una condición de ID de evento basado en reglas, el operador “contains” ya está disponible para tipos de cadena de campos. [Más información](../event/about-creating.md)
 
 ## Versión de agosto de 2021 {#august-2021-release}
 
@@ -96,7 +96,7 @@ También puede consultar las últimas [Actualizaciones de documentación](../rel
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platform le permite definir relaciones entre esquemas para utilizar un conjunto de datos como una tabla de búsqueda para otro. Ahora, el Journey Orchestration puede aprovechar los datos procedentes de un esquema vinculado.</p>
+<p>Adobe Experience Platform le permite definir relaciones entre esquemas para utilizar un conjunto de datos como una tabla de búsqueda para otro. Ahora, Journey Orchestration puede aprovechar los datos procedentes de un esquema vinculado.</p>
 <p>Estos campos están disponibles en la configuración de eventos unitarios, las condiciones de recorrido y la personalización de acciones personalizadas.
 <p>Para obtener más información, consulte la <a href="../event/experience-event-schema.md#leverage_schema_relationships">documentación detallada</a>.</p>
 </td>
@@ -113,13 +113,13 @@ También puede consultar las últimas [Actualizaciones de documentación](../rel
 <table>
 <thead>
 <tr>
-<th><strong> Integración con Adobe Campaign Classic</strong><br/></th>
+<th><strong> Integración de Adobe Campaign Classic</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>La integración con Adobe Campaign Classic ahora es GA. Le permite enviar correos electrónicos, notificaciones push y SMS mediante las funciones de mensajería transaccional de Adobe Campaign v7 o v8.</p>
+<p>La integración con Adobe Campaign Classic ahora es GA. Le permite enviar correos electrónicos, notificaciones push y SMS mediante las funciones de mensajería transaccional de la versión 7 u 8 de Adobe Campaign.</p>
 <p>La conexión entre las instancias de Journey Orchestration y Campaign se configura por Adobe en el momento del aprovisionamiento.</p>
 <p>Para obtener más información, consulte la <a href="../action/acc-action.md">documentación detallada</a>.</p>
 </td>
@@ -131,23 +131,23 @@ También puede consultar las últimas [Actualizaciones de documentación](../rel
 
 * Para las fuentes de datos externas, ahora se define automáticamente una regla de límite de 15 llamadas por segundo. [Más información](../about/external-systems.md#capping)
 * Los editores de expresiones simples y avanzados ahora admiten el formato de fecha XDM.
-* En la pantalla de la lista de recorridos, se ha añadido un nuevo filtro. Ahora puede filtrar por tipo de recorrido: **[!UICONTROL Unitary event]** o **[!UICONTROL Segment qualification]**. [Más información](../about/user-interface.md#section_lgm_hpz_pgb)
+* En la pantalla de la lista de recorridos, se ha añadido el filtro de tipo de recorrido. Ahora puede filtrar por tipo de recorrido: **[!UICONTROL Unitary event]** o **[!UICONTROL Segment qualification]**. [Más información](../about/user-interface.md#section_lgm_hpz_pgb)
 * En el caso de los recorridos activos, la pantalla de propiedades de recorrido ahora muestra la fecha de publicación y el nombre del usuario que publicó el recorrido. Esta información también está disponible cuando copia los detalles técnicos del recorrido. [Más información](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
 
 ## Lanzamiento de abril de 2021 {#april-2021-release}
 
 ### Mejoras
 
-* En el **Configuración de eventos** del modo de prueba, ahora se muestra un menú desplegable para los campos que esperan una enumeración. Simplemente seleccione uno de los valores disponibles. Esto evitará errores al activar el evento si se define un valor incorrecto. [Más información](../building-journeys/testing-the-journey.md#firing_events)
+* En la pantalla de **Configuración de eventos** del modo de prueba, ahora se muestra un menú desplegable para los campos que esperan una enumeración. Simplemente, seleccione uno de los valores disponibles. Esto evitará errores al activar el evento si se define un valor incorrecto. [Más información](../building-journeys/testing-the-journey.md#firing_events)
 
 ## Lanzamiento de marzo de 2021 {#march-2021-release}
 
 ### Mejoras
 
-* Se ha añadido un nuevo estado a recorrido. Cuando un recorrido termina o se cierra manualmente, su estado cambia de **Cerrado** a **Finalizado** 30 días después de su cierre. Esto le permitirá identificar los recorridos inactivos con mayor facilidad, al tiempo que se asegura de que todas las personas que aún están presentes tengan tiempo para finalizar el recorrido. [Más información](../building-journeys/journey.md#ending_a_journey)
-* En los paneles de la actividad derecha de recorridos borrador, los campos de solo lectura ahora están ocultos de forma predeterminada. Esta simplificación de la interfaz le ayudará a configurar sus actividades con mayor facilidad. Para mostrarlos, haga clic en el botón **Mostrar campos de solo lectura** , disponible en la esquina superior izquierda del panel de configuración de actividad. [Más información](../building-journeys/using-the-journey-designer.md#configuration_pane)
-* En el modo de prueba, en la variable **Configuración de eventos** de **Clave** campo utilizado para definir el ID del perfil de prueba se ha cambiado el nombre **Identificador de perfil** para una mejor experiencia de usuario. [Más información](../building-journeys/testing-the-journey.md).
-* En los eventos de reacción, la duración del tiempo de espera ahora solo se puede establecer entre 40 y 30 días. Al probar un recorrido que utiliza un evento de reacción, el modo de prueba **[!UICONTROL Wait time]** el valor predeterminado y mínimo ahora es de 40 segundos. [Más información](../building-journeys/reaction-events.md).
+* Se ha añadido un nuevo estado a recorridos. Cuando un recorrido termina o se cierra manualmente, su estado cambia de **Cerrado** a **Finalizado** 30 días después de su cierre. Esto le permitirá identificar los recorridos inactivos con mayor facilidad, al tiempo que se asegura de que todas las personas que aún están presentes tengan tiempo para finalizar el recorrido. [Más información](../building-journeys/journey.md#ending_a_journey)
+* En los paneles de la actividad derecha de recorridos borrador, los campos de solo lectura ahora están ocultos de forma predeterminada. Esta simplificación de la interfaz le ayudará a configurar sus actividades con mayor facilidad. Para mostrarlos, haga clic en el icono **Mostrar campos de solo lectura**, disponible en la esquina superior izquierda del panel de configuración de actividad. [Más información](../building-journeys/using-the-journey-designer.md#configuration_pane)
+* En el modo de prueba, en la pantalla **Configuración de eventos** de campo **Clave** utilizado para definir el ID del perfil de prueba se ha cambiado el nombre **Identificador de perfil** para una mejor experiencia de usuario. [Más información](../building-journeys/testing-the-journey.md).
+* En los eventos de reacción, la duración del tiempo de espera ahora solo se puede establecer entre 40 y 30 días. Al probar un recorrido que utiliza un evento de reacción, el modo de prueba **[!UICONTROL Wait time]** del valor predeterminado y mínimo ahora es de 40 segundos. [Más información](../building-journeys/reaction-events.md).
 
 ## Lanzamiento de febrero de 2021 {#february-2021-release}
 
@@ -172,21 +172,21 @@ También puede consultar las últimas [Actualizaciones de documentación](../rel
 * Ahora, al configurar un evento, solo los campos obligatorios para la validación XDM están preseleccionados de forma predeterminada. Estos campos no se pueden anular.
 * En la paleta recorrido, se ha añadido un nuevo filtro. Solo permite mostrar los últimos cinco eventos y acciones utilizados, además de los predeterminados. Esto es específico de cada usuario. De forma predeterminada, se muestran todos los elementos. [Más información](../building-journeys/using-the-journey-designer.md#palette)
 * Al iniciar un nuevo recorrido, ahora se ocultan los elementos que no se pueden soltar en el lienzo como primer paso. Esto se refiere a todas las acciones, la actividad de la condición, la espera y la reacción.
-* En la parte izquierda del editor de expresiones avanzadas, las funciones ahora se reagrupan en un **Funciones** al final de la lista.
+* En la parte izquierda del editor de expresiones avanzadas, las funciones ahora se reagrupan en una sección **Funciones** al final de la lista.
 
 ## Lanzamiento de enero de 2021 {#january-2021-release}
 
-Al seleccionar un esquema en la configuración de evento, solo se seleccionan los campos obligatorios para que el Journey Orchestration reciba el evento correctamente. [Más información](../event/defining-the-payload-fields.md)
+Al seleccionar un esquema en la configuración de evento, solo se seleccionan los campos obligatorios para que Journey Orchestration reciba el evento correctamente. [Más información](../event/defining-the-payload-fields.md)
 
 Los atributos de las propiedades de recorrido ahora están disponibles en el editor de expresiones simple. [Más información](../expression/journey-properties.md)
 
-Se han agregado dos nuevos atributos de propiedades de recorrido (sandboxName y OrganizationId). [Más información](../expression/journey-properties.md)
+Se han agregado dos nuevos atributos de propiedades de recorrido (sandboxName y organizationId). [Más información](../expression/journey-properties.md)
 
 Para alinearse con los SLA de Adobe Campaign Standard, ahora se define automáticamente una regla de límite de 13 llamadas por segundo para las acciones de Adobe Campaign Standard en cuanto se configura la integración de Adobe Campaign Standard. [Más información](../action/working-with-adobe-campaign.md)
 
 La duración del tiempo de espera del evento ahora se especifica con mayor claridad en la ruta de tiempo de espera. [Más información](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
 
-La variable [getListItem](../functions/functiongetlistitem.md) y [split](../functions/functionsplit.md) se han añadido funciones a la lista de funciones disponibles en el editor de expresiones avanzado. Esto ofrecerá más posibilidades en los casos de uso de cálculo de cadenas.
+Las funciones de [getListItem](../functions/functiongetlistitem.md) y [división](../functions/functionsplit.md) se han añadido a la lista de funciones disponibles en el editor de expresiones avanzadas. Esto ofrecerá más posibilidades en los casos de uso de cálculo de cadenas.
 
 ## Versión de noviembre de 2020 {#november-release}
 
@@ -199,7 +199,7 @@ La variable [getListItem](../functions/functiongetlistitem.md) y [split](../func
 <tbody>
 <tr>
 <td>
-<p>Una nueva actividad de acción permite insertar individuos de un recorrido a otro. La variable <strong>Jump</strong> actividad le permite:
+<p>Una nueva actividad de acción permite insertar particulares de un recorrido a otro. La actividad de acción <strong>Saltar</strong> le permite hacer lo siguiente:
 </p>
 <ul>
 <li>simplificar el diseño de recorridos muy complejos dividiéndolos en varios </li>
@@ -220,7 +220,7 @@ La variable [getListItem](../functions/functiongetlistitem.md) y [split](../func
 <tbody>
 <tr>
 <td>
-<p>En el editor de expresiones avanzadas, se ha añadido una nueva categoría en la lista de campos y funciones. Esta es la información recuperada por el sistema de los recorridos activos, como el ID de recorrido o los errores específicos encontrados. Esto le dará más posibilidades al crear sus recorridos. Por ejemplo, puede avisar a sistemas de terceros en caso de errores encontrados en una condición o una acción.
+<p>En el editor de expresiones avanzadas, se ha añadido una nueva categoría en la lista de campos y funciones. Esta es la información recuperada por el sistema de los recorridos activos, como el ID de recorrido o los errores específicos encontrados. Esto le dará más posibilidades para crear sus recorridos. Por ejemplo, puede avisar a sistemas de terceros en caso de errores encontrados en una condición o una acción.
 </p>
 <p>Para obtener más información, consulte la <a href="../expression/journey-properties.md">documentación detallada</a>.</p>
 </td>
@@ -237,7 +237,7 @@ La variable [getListItem](../functions/functiongetlistitem.md) y [split](../func
 <tbody>
 <tr>
 <td>
-<p>Ahora hay disponible un nuevo método para configurar los eventos más fácilmente, sin usar un eventID: los eventos basados en reglas evalúan si el evento debe activarse de acuerdo con una condición. Puede seguir utilizando el método existente, ahora denominado "generado por el sistema". Esta función, que se ha probado entre un conjunto limitado de clientes a través del programa Alpha, ahora está disponible en versión Beta para todos los clientes.
+<p>Ahora hay disponible un nuevo método para configurar los eventos más fácilmente, sin usar un eventID: los eventos basados en reglas evalúan si el evento debe activarse de acuerdo con una condición. Puede seguir utilizando el método existente, ahora denominado “generado por el sistema”. Esta función, que se ha probado entre un conjunto limitado de clientes a través del programa Alpha, ahora está disponible en versión Beta para todos los clientes.
 </p>
 </td>
 </tr>
@@ -248,7 +248,7 @@ La variable [getListItem](../functions/functiongetlistitem.md) y [split](../func
 
 Se han añadido limitaciones al crear nuevas versiones de un recorrido. Estas limitaciones evitan cambios demasiado drásticos en el recorrido para mantener cierta coherencia entre las versiones. [Más información](../about/limitations.md#journey-versions-limitations)
 
-La variable **Clasificación del segmento** ya no se puede usar en un recorrido que incluya actividades de mensajes de Campaign Standard. Esta restricción protege la integridad de las instancias de Adobe Campaign Standard. De hecho, el uso de la calificación de segmentos puede llevar a picos diarios de envío de mensajes que sobrecargarían la mensajería transaccional del Campaign Standard. [Más información](../about/limitations.md#segment-qualification)
+La actividad **Clasificación del segmento** ya no se puede usar en un recorrido que incluya actividades de mensajes de Campaign Standard. Esta restricción protege la integridad de las instancias de Adobe Campaign Standard. De hecho, el uso de la calificación de segmentos puede llevar a picos diarios de envío de mensajes que sobrecargarían la mensajería transaccional del Campaign Standard. [Más información](../about/limitations.md#segment-qualification)
 
 ## Versión de octubre de 2020 {#october-release}
 
@@ -261,7 +261,7 @@ La variable **Clasificación del segmento** ya no se puede usar en un recorrido 
 <tbody>
 <tr>
 <td>
-<p>Ahora puede configurar un tiempo de espera para un evento a fin de que un recorrido escuche un evento solo durante un tiempo determinado. Ya no es necesario añadir una actividad Wait en paralelo a la ruta del evento para conseguirlo.
+<p>Ahora puede configurar un tiempo de espera para un evento a fin de que un recorrido escuche un evento solo durante un tiempo determinado. Ya no es necesario añadir una actividad de Espera en paralelo a la ruta del evento para conseguirlo.
 </p>
 <p>Para obtener más información, consulte la <a href="../building-journeys/event-activities.md#listening-to-events-during-a-specific-time">documentación detallada</a>.</p>
 </td>
@@ -305,7 +305,7 @@ La variable **Clasificación del segmento** ya no se puede usar en un recorrido 
 <tbody>
 <tr>
 <td>
-<p>Se han realizado las siguientes mejoras en el <strong>Leer segmento</strong> actividad:
+<p>Se han realizado las siguientes mejoras en la actividad del <strong>Segmento de lectura</strong>:
 </p>
 <ul>
 <li><p>Los recorridos basados en segmentos ahora muestran, encima del lienzo, un recordatorio del tipo de programación del recorrido. Puede hacer clic en este recordatorio para acceder al menú de configuración de programación.</p>
@@ -449,7 +449,7 @@ El programa Alpha ofrece características que actualmente están siendo probadas
 <li><p>Una nueva actividad permite escuchar las entradas y salidas de segmentos de Adobe Experience Platform para hacer que las personas entren o avancen en un recorrido. <a href="../building-journeys/segment-qualification-events.md">Más información</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>Los segmentos de Adobe Experience Platform ahora se pueden crear y editar sin salir de la interfaz de Journey Orchestration, gracias a la nueva pestaña <strong>Segmentos</strong> . <a href="../segment/about-segments.md">Más información</a></p>
+<li><p>Los segmentos de Adobe Experience Platform ahora se pueden crear y editar sin salir de la interfaz de Journey Orchestration, gracias a la nueva pestaña <strong>Segmentos</strong>. <a href="../segment/about-segments.md">Más información</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
 <li><p>En el editor de expresiones simple, los segmentos de Adobe Experience Platform ahora se muestran directamente en el árbol de navegación para permitir una configuración sencilla de condiciones como "¿Pertenece esta persona al segmento A?". <a href="../segment/using-a-segment.md">Más información</a></p>
@@ -610,5 +610,5 @@ Journey Orchestration permite la orquestación en tiempo real basada en datos co
 
 Recursos adicionales:
 
-* [Tutoriales](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/introduction.html)
+* [Tutoriales](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/introduction.html?lang=es)
 * [Comunidad](https://www.adobe.com/go/journeyorchestrationcommunity)
