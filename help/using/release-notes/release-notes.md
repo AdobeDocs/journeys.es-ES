@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 617915d3f2e62e750c3559424ef4c203891124eb
-workflow-type: ht
-source-wordcount: '3226'
-ht-degree: 100%
+source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
+workflow-type: tm+mt
+source-wordcount: '3274'
+ht-degree: 98%
 
 ---
 
@@ -18,11 +18,15 @@ ht-degree: 100%
 Esta página lista todas las nuevas funciones y mejoras de Journey Orchestration.
 También puede consultar las últimas [Actualizaciones de documentación](../release-notes/documentation-updates.md).
 
-## Lanzamiento de marzo de 2022 {#feb-2022-release}
+## Lanzamiento de mayo de 2022 {#may-2022-release}
 
 ### Mejoras
 
-**Recorridos**
+* **Editor de expresiones** - El [límite](../functions/functionlimit.md) para permitirle limitar el número de elementos de una lista. La variable [sort](../functions/functionsort.md) ahora permite ordenar un objeto de lista. La compatibilidad de listObject también se ha agregado al [disctinct](../functions/functiondistinct.md) y [distinctWithNull](../functions/functiondistinctwithnull.md) funciones.
+
+## Lanzamiento de marzo de 2022 {#feb-2022-release}
+
+### Mejoras
 
 * Para evitar tener campos innecesarios en el esquema de perfil unificado, el esquema de Evento de paso de recorrido ya no está habilitado para perfiles de forma predeterminada. Si es necesario, puede activarlo. [Más información](../building-journeys/sharing-overview.md)
 * Journey Optimizer ahora envía a Adobe Experience Platform nuevos eventos relacionados con los trabajos de exportación. Se han añadido ejemplos de consultas a la documentación. [Más información](../building-journeys/query-examples.md)

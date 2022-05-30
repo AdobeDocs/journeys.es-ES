@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-source-git-commit: 1e9cb572cbebf1434e236f18ce58ce45dc6c0409
+source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 3%
+source-wordcount: '1576'
+ht-degree: 4%
 
 ---
 
@@ -35,7 +35,7 @@ Para utilizar el modo de prueba, siga estos pasos:
 
    >[!NOTE]
    >
-   >Cuando se utiliza un evento de reacción en un recorrido, el tiempo de espera predeterminado y el valor mínimo es de 40 segundos. Consulte [esta sección](../building-journeys/reaction-events.md).
+   >Cuando se utiliza un evento de reacción con tiempo de espera en un recorrido, el valor predeterminado del tiempo de espera y el valor mínimo son 40 segundos. Consulte [esta sección](../building-journeys/reaction-events.md).
 
 1. Haga clic en **[!UICONTROL Trigger an event]** para configurar y enviar eventos al recorrido.
 
@@ -135,7 +135,7 @@ Como requisito previo, debe saber qué perfiles están marcados como perfiles de
 
 >[!NOTE]
 >
->Se muestra un menú desplegable para los campos que esperan una enumeración. Simplemente seleccione uno de los valores disponibles.
+>Se muestra un menú desplegable para los campos que esperan una enumeración. Simplemente, seleccione uno de los valores disponibles.
 
 Si el recorrido contiene varios eventos, utilice la lista desplegable para seleccionar un evento. A continuación, para cada evento, configure los campos pasados y la ejecución del envío del evento. La interfaz le ayuda a pasar la información correcta en la carga útil de evento y a asegurarse de que el tipo de información es correcto. El modo de prueba guarda los últimos parámetros utilizados en una sesión de prueba para su uso posterior.
 
@@ -155,7 +155,7 @@ Cuando selecciona un perfil de prueba diferente en la pantalla de configuración
 
 Al abrir un recorrido en la prueba, la ruta mostrada corresponde a la última prueba ejecutada.
 
-El flujo visual funciona tanto si el evento se activa mediante la interfaz como externamente (por ejemplo, mediante Postman).
+El flujo visual funciona tanto si el evento se activa mediante la interfaz como externamente (mediante Postman, por ejemplo).
 
 ## Modo de prueba para recorridos basados en reglas {#test-rule-based}
 
