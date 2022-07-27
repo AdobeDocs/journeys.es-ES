@@ -6,7 +6,7 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: c0e67849-caa0-4045-94ed-38e483054e1d
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 2%
@@ -24,7 +24,6 @@ Esta zona horaria se utilizará para todas las actividades del recorrido que con
 * [Condición horaria](../building-journeys/condition-activity.md#time_condition)
 * [Condición de fecha](../building-journeys/condition-activity.md#date_condition)
 * [Espera personalizada](../building-journeys/wait-activity.md#custom)
-* [Fecha de espera fija](../building-journeys/wait-activity.md#fixed_date)
 
 Puede seleccionar una zona horaria o elegir usar la zona horaria definida en el perfil del usuario.
 
@@ -42,13 +41,9 @@ Para ello, en **[!UICONTROL Properties]**, seleccione una zona horaria.
 
 ## Uso de perfiles para definir la zona horaria del recorrido {#timezone-from-profiles}
 
-Si el evento de entrada del recorrido tiene un área de nombres, lo que significa que el recorrido puede llegar al servicio Perfil del cliente en tiempo real de Adobe Experience Platform, la zona horaria se predefine con la especificada en el perfil del individuo que fluye en el recorrido.
+Si el evento de entrada del recorrido tiene un área de nombres, lo que significa que el recorrido puede llegar al servicio Perfil del cliente en tiempo real de Adobe Experience Platform, es posible que desee utilizar la zona horaria definida a nivel de perfil. Para ello, en **Propiedades**, compruebe **Usar zona horaria del perfil en espera y condiciones**. Esta opción no está activada de forma predeterminada.
 
-Si se define una zona horaria en el perfil de Adobe Experience Platform, se puede recuperar en el recorrido .
-
-Si el perfil de la persona no contiene una zona horaria, la zona horaria recuperada será la definida en el campo de zona horaria.
-
-Para ello, en **[!UICONTROL Properties]**, compruebe **[!UICONTROL Use Profile timezone in timers and conditions]**.
+Si se ha definido una zona horaria para un perfil, el recorrido la recuperará y utilizará. Si no es así, la zona horaria utilizada será la definida en el campo de zona horaria.
 
 ![](../assets/journey73.png)
 
