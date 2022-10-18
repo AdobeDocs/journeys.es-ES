@@ -5,9 +5,9 @@ title: Guía de Journey Orchestration
 user-guide-description: Proporciona instrucciones prácticas para implementar y construir recorridos.
 index: true
 feature: Journeys
-source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
+source-git-commit: 19760b779c2b105286d502b3bf4edda5bec79194
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '440'
 ht-degree: 99%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 99%
 + Novedades {#release-notes}
    + [Notas de la versión](using/release-notes/release-notes.md)
    + [Actualizaciones de documentación](using/release-notes/documentation-updates.md)
+   + [Migración a Journey Optimizer](using/release-notes/migration-to-ajo.md)
 + Primeros pasos con [!DNL Journey Orchestration] {#starting-with-journeys}
    + [Acerca de  [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [Limitaciones](using/about/limitations.md)
@@ -54,7 +55,7 @@ ht-degree: 99%
       + [Definición de los parámetros del mensaje](using/action/defining-the-message-parameters.md)
 + Uso de segmentos {#configuring-segment}
    + [Acerca de los segmentos](using/segment/about-segments.md)
-   + [Creación de un segmento](using/segment/creating-a-segment.md)
+   + [Creación de segmentos](using/segment/creating-a-segment.md)
    + [Uso de segmentos en condiciones](using/segment/using-a-segment.md)
 + Crear un recorrido {#building-journeys}
    + Acerca de la creación de un recorrido {#about-journey-building}
