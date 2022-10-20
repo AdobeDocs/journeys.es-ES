@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: 'Introducción '
+title: Introducción
 description: Descubra los pasos principales para configurar Journey Orchestration y construir su primer recorrido.
 feature: Journeys
 role: User
