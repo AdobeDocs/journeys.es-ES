@@ -3,7 +3,7 @@ title: Actualización a Adobe Journey Optimizer
 description: Descubra cómo actualizar a Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 235992282b0a05873dc17984e044400dc8de1dd8
+source-git-commit: e7d1b6401f03603a56d963672da1b402d0fe5e80
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 3%
@@ -65,11 +65,11 @@ Obtener el beneficio de otras **Funciones de Adobe Journey Optimizer** y las nue
 
 ## Preguntas frecuentes
 
-## ¿Tengo que planificar algo para pasar de Journey Orchestration a Adobe Journey Optimizer?
+### ¿Tengo que planificar algo para pasar de Journey Orchestration a Adobe Journey Optimizer?
 
 No, no hay migración, no se necesita trabajo, no hay tiempo de inactividad ni inversión adicional. Sólo necesita actualizar su acuerdo con Adobe y nosotros hacemos el resto. Póngase en contacto con su representante de cuentas para obtener instrucciones sobre cómo iniciar este proceso.
 
-## ¿Perderé algo después del cambio?
+### ¿Perderé algo después del cambio?
 
 No, se mantendrán todos los objetos de Adobe Experience Platform y Journey Orchestration existentes: esquemas, conjuntos de datos, recorridos, eventos, fuentes de datos, acciones. Nada se perderá, todos los recorridos en directo seguirán funcionando sin interrupciones.
 
