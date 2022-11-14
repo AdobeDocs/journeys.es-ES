@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '992'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,8 +20,8 @@ También puede consultar las [!DNL Journey Orchestration] [Notas de la versión]
 
 ## Julio de 2022 {#july-2022}
 
-* En las propiedades del recorrido, la variable **Zona horaria del perfil** ahora está desactivada de forma predeterminada. [Más información](../building-journeys/timezone-management.md#timezone-from-profiles)
-* En el **Espera** actividad, **Fecha fija** ya no está disponible. [Más información](../building-journeys/wait-activity.md)
+* En las propiedades del recorrido, la opción **Zona horaria del perfil** ahora está desactivada de forma predeterminada. [Más información](../building-journeys/timezone-management.md#timezone-from-profiles)
+* En la actividad **Espera**, la opción **Fecha fija** ya no está disponible. [Más información](../building-journeys/wait-activity.md)
 
 ## Junio de 2022 {#june-2022}
 
