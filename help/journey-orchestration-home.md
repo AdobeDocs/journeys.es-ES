@@ -2,19 +2,19 @@
 keywords: Recorridos;inicio;temas populares
 product: adobe campaign
 title: Documentación del producto de Journey Orchestration
-description: Siga nuestra Guía del Journey Orchestration de Adobe para obtener instrucciones sencillas sobre cómo implementar y crear recorridos.
+description: Siga nuestra Guía de Adobe Journey Orchestration para obtener instrucciones sencillas sobre cómo implementar y crear recorridos.
 feature: Journeys
 role: User
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
 source-git-commit: b0bf5c12adc6e9c538f2264f79b7c43656424f05
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '260'
+ht-degree: 100%
 
 ---
 
-# guía del Journey Orchestration {#journeys-documentation}
+# Guía de Journey Orchestration {#journeys-documentation}
 
 ![](using/assets/do-not-localize/bannerjourney.png)
 
