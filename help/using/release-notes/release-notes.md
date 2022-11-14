@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3274'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ También puede consultar las últimas [Actualizaciones de documentación](../rel
 
 ### Mejoras
 
-* **Editor de expresiones** - El [límite](../functions/functionlimit.md) para permitirle limitar el número de elementos de una lista. La variable [sort](../functions/functionsort.md) ahora permite ordenar un objeto de lista. La compatibilidad de listObject también se ha agregado al [disctinct](../functions/functiondistinct.md) y [distinctWithNull](../functions/functiondistinctwithnull.md) funciones.
+* **Editor de expresiones**: la función [límite](../functions/functionlimit.md) para permitirle limitar el número de elementos de una lista. La función [ordenar](../functions/functionsort.md) ahora permite ordenar un objeto de lista. La compatibilidad de listObject también se ha agregado a las funciones [disctinct](../functions/functiondistinct.md) y [distinctWithNull](../functions/functiondistinctwithnull.md).
 
 ## Lanzamiento de marzo de 2022 {#feb-2022-release}
 
@@ -77,7 +77,7 @@ También puede consultar las últimas [Actualizaciones de documentación](../rel
 
 * Los esquemas y conjuntos de datos generados por el sistema que se han creado durante el aprovisionamiento para eventos de paso ahora están en modo de solo lectura, lo que protege contra cualquier modificación involuntaria de esquemas críticos. [Más información](../building-journeys/sharing-overview.md)
 * Etiquete claramente la actividad **Espera** con una etiqueta que se mostrará en el lienzo. La etiqueta también se utiliza en los registros de modo de informes y prueba para identificar claramente lo que está haciendo. [Más información](../building-journeys/using-the-journey-designer.md)
-* Busque sus eventos y acciones más rápido filtrando los elementos de las categorías **Eventos** y **Acción** usando la búsqueda. Las actividades de organización ya no se filtran. [Más información](../building-journeys/using-the-journey-designer.md)
+* Busque sus eventos y acciones más rápido filtrando los elementos de las categorías **Eventos** y **Acción** usando la búsqueda. Las actividades de orquestación ya no se filtran. [Más información](../building-journeys/using-the-journey-designer.md)
 * Al definir una condición de ID de evento basado en reglas, el operador “contains” ya está disponible para tipos de cadena de campos. [Más información](../event/about-creating.md)
 
 ## Versión de agosto de 2021 {#august-2021-release}
@@ -148,7 +148,7 @@ También puede consultar las últimas [Actualizaciones de documentación](../rel
 
 ### Mejoras
 
-* Se ha añadido un nuevo estado a recorridos. Cuando un recorrido termina o se cierra manualmente, su estado cambia de **Cerrado** a **Finalizado** 30 días después de su cierre. Esto le permitirá identificar los recorridos inactivos con mayor facilidad, al tiempo que se asegura de que todas las personas que aún están presentes tengan tiempo para finalizar el recorrido. [Más información](../building-journeys/journey.md#ending_a_journey)
+* Se ha añadido un nuevo estado a recorridos. Cuando un recorrido termina o se cierra manualmente, su estado cambia de **Cerrado** a **Finalizado** 30 días después de su cierre. Esto le permitirá identificar los recorridos inactivos con mayor facilidad, al tiempo que se asegura de que todos los individuos que aún están presentes tengan tiempo para finalizar el recorrido. [Más información](../building-journeys/journey.md#ending_a_journey)
 * En los paneles de la actividad derecha de recorridos borrador, los campos de solo lectura ahora están ocultos de forma predeterminada. Esta simplificación de la interfaz le ayudará a configurar sus actividades con mayor facilidad. Para mostrarlos, haga clic en el icono **Mostrar campos de solo lectura**, disponible en la esquina superior izquierda del panel de configuración de actividad. [Más información](../building-journeys/using-the-journey-designer.md#configuration_pane)
 * En el modo de prueba, en la pantalla **Configuración de eventos** de campo **Clave** utilizado para definir el ID del perfil de prueba se ha cambiado el nombre **Identificador de perfil** para una mejor experiencia de usuario. [Más información](../building-journeys/testing-the-journey.md).
 * En los eventos de reacción, la duración del tiempo de espera ahora solo se puede establecer entre 40 y 30 días. Al probar un recorrido que utiliza un evento de reacción, el modo de prueba **[!UICONTROL Wait time]** del valor predeterminado y mínimo ahora es de 40 segundos. [Más información](../building-journeys/reaction-events.md).
@@ -413,7 +413,7 @@ El programa Alpha ofrece características que actualmente están siendo probadas
 <tbody>
 <tr>
 <td>
-<p>La Actividad del activador de segmentos le permite hacer que todas las personas que pertenecen a un segmento de Adobe Experience Platform participen en un recorrido. La entrada en un recorrido puede realizarse una vez o de forma regular. 
+<p>La Actividad del activador de segmentos le permite hacer que todos los individuos que pertenecen a un segmento de Adobe Experience Platform participen en un recorrido. La entrada en un recorrido puede realizarse una vez o de forma regular. 
 </p>
 </td>
 </tr>
@@ -462,7 +462,7 @@ El programa Alpha ofrece características que actualmente están siendo probadas
 <li><p>Ahora Journey Orchestration pasa automáticamente a Adobe Experience Platform los pasos que se ejecutan en los recorridos. Esto incluye los posibles errores encontrados. Esta información se puede utilizar para lograr sistemas de informes y solucionar problemas mediante la ejecución de consultas en los eventos del paso del recorrido para un recorrido determinado o para todos ellos. <a href="../building-journeys/sharing-overview.md">Más información</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
-<li><p>Ahora, Journey Orchestration puede conectarse a los entornos limitados de la Adobe Experience Platform de producción y sin producción. Tenga en cuenta que los entornos limitados son una función beta. <a href="../about/access-management.md#sandboxes">Más información</a></p>
+<li><p>Ahora, Journey Orchestration puede conectarse a las zonas protegidas de la Adobe Experience Platform de producción y sin producción. Tenga en cuenta que las zonas protegidas son una función beta. <a href="../about/access-management.md#sandboxes">Más información</a></p>
 </li>
 </ul>
 </td>
@@ -496,7 +496,7 @@ El programa Alpha ofrece características que actualmente están siendo probadas
 
 **Otras mejoras**
 
-Para evitar el envío de demasiadas llamadas API a sistemas de terceros, estamos introduciendo una nueva API pública para configurar reglas de &quot;restricción&quot;. Las reglas de restricción permiten la definición de un número máximo de llamadas a un extremo de API por milisegundos. [Más información](../api/capping.md)
+Para evitar el envío de demasiadas llamadas API a sistemas de terceros, estamos introduciendo una nueva API pública para configurar reglas de &quot;límite&quot;. Las reglas de límite permiten la definición de un número máximo de llamadas a un extremo de API por milisegundos. [Más información](../api/capping.md)
 
 Control de acceso ahora permite una mayor granularidad en la administración de acceso de los usuarios. Disponibilidad desde: 30 de junio de 2020. [Más información](../about/access-management.md#create-product-profile)
 
@@ -604,7 +604,7 @@ La interfaz de Journey Orchestration está disponible en japonés.
 
 ## Versión de GA: diciembre de 2019 {#ga-release---december-2019}
 
-La organización de recorridos ahora se conoce como GA.
+Journey Ochestration ahora se conoce como GA.
 
 Cree casos de uso de orquestación en tiempo real aprovechando los datos contextuales almacenados en eventos o fuentes de datos.
 
