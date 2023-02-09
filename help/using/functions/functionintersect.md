@@ -13,7 +13,7 @@ ht-degree: 12%
 
 ---
 
-# intersección{#intersect}
+# intersect{#intersect}
 
 Devuelve los valores comunes de las dos listas de entrada. Si una de las dos listas es nula, devuelve una lista vacía.
 

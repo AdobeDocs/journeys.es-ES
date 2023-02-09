@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
 source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '985'
 ht-degree: 93%
 
 ---
@@ -95,7 +95,7 @@ Adobe Experience Platform proporciona las funciones de accesibilidad de Adobe Jo
 * Contraste de color
 * Validación de campos obligatorios
 
-[Más información](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=es){target=&quot;_blank&quot;} en la documentación de Adobe Experience Platform.
+[Más información](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=es){target="_blank"} en la documentación de Adobe Experience Platform.
 
 Puede utilizar estos métodos abreviados del teclado comunes en Adobe Journey Optimizer:
 
@@ -107,7 +107,7 @@ Puede utilizar estos métodos abreviados del teclado comunes en Adobe Journey Op
 | Seleccionar o borrar un elemento que esté enfocado | Intro o barra espaciadora |
 | Cancelar una selección, contraer un panel o cerrar un cuadro de diálogo | ESC |
 
-[Más información](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=es){target=&quot;_blank&quot;} en la documentación de Adobe Experience Platform.
+[Más información](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=es){target="_blank"} en la documentación de Adobe Experience Platform.
 
 Puede utilizar estos métodos abreviados en partes específicas de Journey Optimizer:
 

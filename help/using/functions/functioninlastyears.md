@@ -9,7 +9,7 @@ exl-id: 95ca3d7d-2340-4378-9af4-aa1188bed614
 source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
 source-wordcount: '44'
-ht-degree: 18%
+ht-degree: 20%
 
 ---
 
@@ -30,7 +30,7 @@ Fecha
 | Parámetro | Tipo |
 |-----------|------------------|
 | fecha y hora | dateTime |
-| delta | integer |
+| delta | entero |
 
 ## Firmas y tipo devuelto
 

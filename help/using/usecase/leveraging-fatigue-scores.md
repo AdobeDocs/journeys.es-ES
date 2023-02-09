@@ -5,7 +5,7 @@ description: Aprenda a aprovechar las puntuaciones de fatiga en recorridos
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
@@ -26,7 +26,7 @@ Siga los pasos descritos en [esta página](../event/about-events.md).
 
 Siga estos pasos para seleccionar los campos de puntuación de fatiga en la fuente de datos integrada:
 
-1. En el panel de menú, seleccione **[!UICONTROL Admin]**. En el **[!UICONTROL Data sources]** , haga clic en **[!UICONTROL Manage]**.
+1. En el panel de menú, seleccione **[!UICONTROL Admin]**. En la sección **[!UICONTROL Data sources]**, haga clic en **[!UICONTROL Manage]**.
 1. Seleccione la fuente de datos integrada de Adobe Experience Platform.
 
    ![](../assets/journey23.png)

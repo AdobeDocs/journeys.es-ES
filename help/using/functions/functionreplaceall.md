@@ -32,7 +32,7 @@ Cadena
 | Parámetro | Tipo |
 |-----------|--------------|
 | base | string |
-| Target | string (RegExp) |
+| target | string (RegExp) |
 | reemplazo | string |
 
 ## Firma y tipo devuelto

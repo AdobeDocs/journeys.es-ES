@@ -32,7 +32,7 @@ Para obtener más información sobre la acción o la configuración de orígenes
 >
 >La variable [!DNL Journey Orchestration] La API de restricción se describe dentro de un archivo Swagger disponible [here](https://adobedocs.github.io/JourneyAPI/docs/).
 
-Para usar esta API con su [!DNL Journey Orchestration] , debe utilizar la consola de Adobe I/O. Puede empezar por seguir esta [Introducción a Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) y, a continuación, utilice las secciones de esta página.
+Para usar esta API con su [!DNL Journey Orchestration] , debe utilizar la consola de Adobe I/O. Puede empezar por seguir esta [Introducción a la consola de Adobe Developer](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) y, a continuación, utilice las secciones de esta página.
 
 Para probar y preparar la integración, hay disponible una colección de Postman [here](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
@@ -113,7 +113,7 @@ Esta es la estructura básica de una configuración de extremo:
 }
 ```
 
-### Ejemplo:
+### Por ejemplo:
 
 ```
 `{
@@ -197,7 +197,7 @@ Caso de uso n°3: **Desimplementar y eliminar una configuración de restricción
 
 1. list
 1. anular implementación
-1. delete
+1. eliminar
 
 Caso de uso n°4: **Elimine una configuración de restricción implementada.**
 

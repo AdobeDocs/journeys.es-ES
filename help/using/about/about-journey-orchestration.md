@@ -34,7 +34,7 @@ Con el diseñador de recorridos, un **usuario empresarial** puede arrastrar y so
 
 A continuación, cree condiciones basadas en lo siguiente:
 
-* tiempo
+* hora
 * datos procedentes de la carga útil de evento
 * información procedente de fuentes de datos: fuente de datos del perfil de cliente en tiempo real o fuentes de datos personalizadas
 

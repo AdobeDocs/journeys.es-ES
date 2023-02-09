@@ -9,7 +9,7 @@ exl-id: 2cfa4397-fe8f-44b3-b219-2fd5d3bdd156
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
 source-wordcount: '440'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
@@ -19,7 +19,7 @@ En nuestro caso de uso, queremos utilizar datos de personalización para nuestro
 
 Para obtener información adicional sobre la configuración de la fuente de datos, consulte [esta página](../datasource/about-data-sources.md).
 
-1. En el panel de menú, seleccione **[!UICONTROL Admin]**. En el **[!UICONTROL Data sources]** , haga clic en **[!UICONTROL Manage]**.
+1. En el panel de menú, seleccione **[!UICONTROL Admin]**. En la sección **[!UICONTROL Data sources]**, haga clic en **[!UICONTROL Manage]**.
 1. Seleccione la fuente de datos integrada de Adobe Experience Platform.
 
    ![](../assets/journey23.png)

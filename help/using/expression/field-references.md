@@ -9,7 +9,7 @@ exl-id: 2f317306-9afd-4e9a-88b8-fc66102e1046
 source-git-commit: bb07c0edaae469962ee3bf678664b4a0a83572fe
 workflow-type: tm+mt
 source-wordcount: '557'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -41,7 +41,7 @@ Se utiliza un color de sintaxis para distinguir visualmente los campos de evento
 
 ## Valores predeterminados para referencias de campo {#default-value}
 
-Se puede asociar un valor predeterminado con un nombre de campo. La sintaxis es la siguiente:
+Se puede asociar un valor predeterminado con un nombre de campo. La sintaxis de la es la siguiente:
 
 ```json
 // event field
@@ -99,7 +99,7 @@ Puede añadir cualquier tipo de expresión como valor predeterminado. La única 
 
 Se hace referencia a los elementos definidos dentro de las colecciones mediante las funciones específicas `all`, `first` y `last`. Para obtener más información, consulte [esta página](../expression/collection-management-functions.md).
 
-Ejemplo :
+Por ejemplo :
 
 ```json
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all()
@@ -158,7 +158,7 @@ Utilice la siguiente sintaxis:
 * **`<params-1-name>`**: nombre exacto del primer parámetro de la fuente de datos.
 * **`<params-1-value>`**: el valor del primer parámetro. Puede ser cualquier expresión válida.
 
-Ejemplo:
+Por ejemplo:
 
 ```json
 #{Weather.main.temperature, params: {localisation: @{Profile.address.localisation}}}

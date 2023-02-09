@@ -58,7 +58,7 @@ Para obtener más información sobre los eventos de paso que generan informes a 
 
 ## Integración con Customer Recorrido Analytics{#integration-cja}
 
-Los eventos de paso del Journey Orchestration se pueden vincular a otros conjuntos de datos en [Customer Journey Analytics de Adobe](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es). Este es el flujo de trabajo general:
+Los eventos de paso del Journey Orchestration se pueden vincular a otros conjuntos de datos en [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es). Este es el flujo de trabajo general:
 
 * El Customer Journey Analytics ingesta el conjunto de datos &quot;Evento de paso de Recorrido&quot;.
 * La variable **profileID** en el &quot;esquema de evento de paso de Recorrido para Journey Orchestration&quot; asociado se define como un campo de identidad. En Customer Journey Analytics, puede vincular este conjunto de datos a cualquier otro conjunto de datos que tenga el mismo valor que el identificador basado en personas.

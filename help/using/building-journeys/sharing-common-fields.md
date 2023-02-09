@@ -86,7 +86,7 @@ Estado del paso, que representa el estado del paso, cuándo se ha completado su 
 
 Tipo: cadena
 
-El estado puede ser:
+El estado puede ser el siguiente:
 
 * finalizado: el paso no tiene transición y su procesamiento ha finalizado correctamente.
 * error: el procesamiento de pasos ha generado un error.

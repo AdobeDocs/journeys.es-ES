@@ -69,7 +69,7 @@ Esta es la lista de funciones compatibles.
 | Lista | [serializeList](../functions/functionserializelist.md) |
 | Lista | [sort](../functions/functionsort.md) |
 | Math | [random](../functions/functionrandom.md) |
-| Matemáticas | [round](../functions/functionround.md) |
+| Math | [round](../functions/functionround.md) |
 | Cadena | [concat](../functions/functionconcat.md) |
 | Cadena | [contain](../functions/functioncontain.md) |
 | Cadena | [containIgnoreCase](../functions/functioncontainwithignorecase.md) |

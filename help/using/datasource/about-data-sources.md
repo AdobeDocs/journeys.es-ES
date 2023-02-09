@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: Acerca de las fuentes de datos
-description: 'Obtenga información sobre cómo configurar una fuente de datos '
+description: Obtenga información sobre cómo configurar una fuente de datos
 feature: Journeys
 role: User
 level: Intermediate
@@ -9,7 +9,7 @@ exl-id: 2371d2c9-3035-46ac-9c76-755fb453c24e
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 76%
+ht-degree: 77%
 
 ---
 
@@ -45,7 +45,7 @@ Estos son los pasos principales de la configuración de la fuente de datos:
 >
 >La configuración de la fuente de datos siempre la realiza un **usuario técnico**.
 
-1. En el panel de menú, seleccione **[!UICONTROL Admin]**. En el **[!UICONTROL Data sources]** , haga clic en **[!UICONTROL Manage]**.
+1. En el panel de menú, seleccione **[!UICONTROL Admin]**. En la sección **[!UICONTROL Data sources]**, haga clic en **[!UICONTROL Manage]**.
 
    Se muestra la lista de las fuentes de datos. Consulte [esta página](../about/user-interface.md) para obtener más información sobre la interfaz.
 

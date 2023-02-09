@@ -8,7 +8,7 @@ role: User
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
 source-git-commit: b0bf5c12adc6e9c538f2264f79b7c43656424f05
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 100%
 
@@ -51,7 +51,7 @@ Obtenga más información sobre las últimas versiones.
       <img alt="crear" src="using/assets/do-not-localize/design.png"/>
     </a>
     <div>
-    <a href="using/usecase/building-the-journey.md"><strong>Ejemplo de uso</strong></a>
+    <a href="using/usecase/building-the-journey.md"><strong>Caso de uso</strong></a>
     </div>
     <em>Aprenda a crear un recorrido avanzado paso a paso.</em>
     <br>

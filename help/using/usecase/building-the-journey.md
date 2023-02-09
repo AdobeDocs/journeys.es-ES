@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: 'Creación del recorrido: avanzado'
-description: 'Obtenga información sobre cómo construir el recorrido del caso de uso avanzado '
+description: Obtenga información sobre cómo construir el recorrido del caso de uso avanzado
 feature: Journeys
 role: User
 level: Intermediate

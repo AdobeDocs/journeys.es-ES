@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: Creación de un segmento
+title: Creación de segmentos
 description: Aprenda a utilizar un segmento
 feature: Journeys
 role: User
@@ -13,7 +13,7 @@ ht-degree: 10%
 
 ---
 
-# Creación de un segmento {#creating-a-segment}
+# Creación de segmentos {#creating-a-segment}
 
 Puede crear un segmento utilizando la variable [Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html) o puede acceder a y crearlos directamente en [!DNL Journey Orchestration].
 

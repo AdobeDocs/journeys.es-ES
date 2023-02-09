@@ -9,7 +9,7 @@ exl-id: f6897011-0a5e-4094-a18e-ba2aa25f902c
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '1035'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -45,18 +45,18 @@ La tabla siguiente proporciona la lista de dimensiones de envío utilizadas en l
 
 | Dimensión | Definición |
 |--- |--- |
-| **Browser** | Explorador desde el que se abrió o se hizo clic en el mensaje. |
+| **Explorador** | Explorador desde el que se abrió o se hizo clic en el mensaje. |
 | **Nombre de la entrega** | Etiqueta e ID de la entrega. |
 | **Device** | Dispositivo desde el que se abrió, visualizó o hizo clic en la notificación de correo electrónico/SMS/push. |
 | **Tipo de mensaje** | Canal utilizado para el envío, como correo electrónico, SMS, notificaciones push o en la aplicación. |
-| **Nombre de la aplicación de Mobile** | Nombre de la aplicación móvil |
+| **Nombre de la aplicación móvil** | Nombre de la aplicación móvil |
 | **Plataforma** | Plataforma del dispositivo desde el que se abrió, visualizó o hizo clic en el mensaje. |
 | **[!UICONTROL Push platform]** | Plataforma del dispositivo desde el que se abrió la notificación push, como iOS o Android. |
 | **Dominio de destinatario** | Dominio utilizado para abrir el correo electrónico. |
 | **URL de seguimiento** | Dirección URL en la que el usuario hizo clic desde el mensaje. |
 | **Categoría de URL de seguimiento** | Categoría asignada a la dirección URL de seguimiento. |
 | **Etiqueta de URL de seguimiento** | Etiqueta dada a la dirección URL, como página espejo, póngase en contacto con nosotros o abra. |
-| **Variant** | Variant del correo electrónico en caso de prueba A/B. |
+| **Variante** | Variant del correo electrónico en caso de prueba A/B. |
 
 ## Métricas de recorrido {#MBE_p_p22_c4j_w2b}
 
@@ -91,7 +91,7 @@ La tabla siguiente proporciona la lista de métricas utilizadas en los informes 
 | **tasa de lista de bloqueados** | Número total de mensajes en lista de bloqueados en comparación con los mensajes enviados. |
 | **Devoluciones + errores** | Total de errores acumulados durante la entrega y el procesamiento automático de devoluciones en relación con la cantidad total de mensajes enviados. |
 | **Devoluciones + tasa de error** | Número total de mensajes devueltos en comparación con los mensajes enviados. |
-| **Click** | Número de veces que se hizo clic en un contenido en una entrega. |
+| **Haga clic en** | Número de veces que se hizo clic en un contenido en una entrega. |
 | **Tasa de pulsaciones** | Número total de clics en una entrega en comparación con el número de mensajes enviados. |
 | **Entregados** | Número de mensajes enviados correctamente, en relación con el número total de mensajes enviados. |
 | **Tasa de entrega** | Número total de mensajes enviados correctamente comparados con los mensajes enviados. |

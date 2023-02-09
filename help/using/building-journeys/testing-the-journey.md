@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: Prueba del recorrido
-description: 'Obtenga información sobre las pruebas de recorrido '
+description: Obtenga información sobre las pruebas de recorrido
 feature: Journeys
 role: User
 level: Intermediate

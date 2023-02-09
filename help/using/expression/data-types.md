@@ -9,7 +9,7 @@ exl-id: 343f61b8-2315-4971-8b2b-6aa815bd9ced
 source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
 source-wordcount: '637'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -49,7 +49,7 @@ Formato de serialización: UTF-8
 'hello world'
 ```
 
-## integer {#integer}
+## entero {#integer}
 
 **Descripción**
 

@@ -9,7 +9,7 @@ exl-id: b7568080-b88c-415c-9d3f-cc1361664838
 source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 18%
+ht-degree: 19%
 
 ---
 
@@ -37,7 +37,7 @@ Este grupo de campos se utiliza en el esquema de recorrido (en relación con jou
 | ID | Cadena | Identificador del Recorrido dado |
 | VersionID | Cadena | Id de la versión de recorrido. Este id representa la identidad de un recorrido |
 | name | Cadena | Nombre del recorrido |
-| descripción | Cadena | Descripción del recorrido |
+| description | Cadena | Descripción del recorrido |
 | version | Cadena | versión, representada como `major`.`minor` |
 
 ## perfil

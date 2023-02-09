@@ -6,7 +6,7 @@ exl-id: f1be46a8-04b9-4f40-b18e-9099099d2e1c
 source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
 source-wordcount: '675'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -31,7 +31,7 @@ Primero, debe **crear un esquema**. Siga estos pasos:
 1. Haga clic en **[!UICONTROL Create schema]**, en la parte superior derecha, seleccione un tipo de esquema, por ejemplo **[!UICONTROL XDM Individual Profile]**.
    ![](../assets/test-profiles-1.png)
 1. Elija un nombre para el esquema.
-1. En el **[!UICONTROL Mixins]** , haga clic en **[!UICONTROL Add]**.
+1. En la sección **[!UICONTROL Mixins]**, haga clic en **[!UICONTROL Add]**.
    ![](../assets/test-profiles-1-bis.png)
 1. Seleccione las mezclas adecuadas. Asegúrese de agregar la variable **[!UICONTROL Profile test details]** mixin. Haga clic en **[!UICONTROL Add mixin]**.
    ![](../assets/test-profiles-1-ter.png)
@@ -99,7 +99,7 @@ Se añaden los perfiles de prueba, que ahora se pueden utilizar al probar un rec
 
 ## Creación de perfiles de prueba mediante llamadas a API{#create-test-profiles-api}
 
-También puede crear perfiles de prueba mediante llamadas a la API. Consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
+También puede crear perfiles de prueba mediante llamadas a la API. Consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es).
 
 Debe utilizar un esquema de perfil que contenga la mezcla &quot;Detalles de la prueba del perfil&quot;. El indicador testProfile forma parte de esta mezcla.
 
