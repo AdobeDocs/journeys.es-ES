@@ -7,74 +7,19 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
-source-git-commit: a32a208fcaef9a408c850c0ad74ab44e3eb44709
+source-git-commit: 1f91bae24dfcb291dd354e4bff9eab85afdaf5a1
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '527'
 ht-degree: 4%
 
 ---
 
-# Uso de la API de restricción
 
-## Introducción
-
-[!DNL Journey Orchestration]Las API de admiten 5000 eventos/segundos, pero algunos sistemas externos o API no podían tener un rendimiento equivalente. Por eso [!DNL Journey Orchestration] viene con una función dedicada llamada Capping API para monitorizar y limitar la tasa que imponemos a los sistemas externos.
-
-Durante una configuración de fuente de datos, definirá una conexión con un sistema para recuperar información adicional que se utilizará en sus recorridos o, para una definición de acción, configurará la conexión de un sistema de terceros para enviar mensajes o llamadas API. Cada vez que un Recorrido realiza una llamada a la API, se consulta la API de límite y la llamada se realiza a través del motor de API. Si hay un límite definido, la llamada se rechaza y el sistema externo no se sobrecarga.
-
-Para las fuentes de datos externas, el número máximo de llamadas por segundo se establece en 15. Si el número de llamadas supera los 15 por segundo, se descartan las llamadas restantes. Puede aumentar este límite para las fuentes de datos externas privadas. Póngase en contacto con el Adobe para incluir el punto final en la lista de permitidos. Esto no es posible para las fuentes de datos externas públicas. Para obtener más información sobre las prácticas recomendadas y las advertencias al integrar sistemas externos, consulte esta [página](../about/external-systems.md).
-
-Para obtener más información sobre la acción o la configuración de orígenes de datos, consulte [Acerca de las acciones](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action.html) o [Acerca de las fuentes de datos](https://experienceleague.adobe.com/docs/journeys/using/data-source-journeys/about-data-sources.html)
-
-## Recursos
-
->[!NOTE]
->
->La variable [!DNL Journey Orchestration] La API de restricción se describe dentro de un archivo Swagger disponible [here](https://adobedocs.github.io/JourneyAPI/docs/).
-
-Para usar esta API con su [!DNL Journey Orchestration] , debe utilizar la consola de Adobe I/O. Puede empezar por seguir esta [Introducción a la consola de Adobe Developer](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) y, a continuación, utilice las secciones de esta página.
-
-Para probar y preparar la integración, hay disponible una colección de Postman [here](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
-
-## Autenticación
-
-### Configuración del acceso a API
-
-[!DNL Journey Orchestration] El acceso a la API se configura mediante los pasos a continuación. Cada uno de estos pasos se detalla en la [documentación de Adobe I/O](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
-
->[!CAUTION]
->
->Para administrar certificados en Adobe I/O, asegúrese de que tiene <b>Administrador del sistema</b> derechos sobre la organización o [cuenta de desarrollador](https://helpx.adobe.com/es/enterprise/using/manage-developers.html) en Admin Console.
-
-1. **Comprobar que tiene un certificado digital** o cree uno si es necesario. Las claves pública y privada proporcionadas con el certificado son necesarias en los siguientes pasos.
-1. **Cree una nueva integración para [!DNL Journey Orchestration] Servicio** en Adobe I/O y configúrelo. El acceso al perfil del producto es necesario para [!DNL Journey Orchestration] y Adobe Experience Platform. A continuación, se generarán sus credenciales (clave de API, secreto de cliente...).
-1. **Creación de un token web JSON (JWT)** a partir de las credenciales generadas anteriormente y firme con la clave privada. El JWT codifica toda la información de identidad y seguridad que necesita el Adobe para comprobar su identidad y permitirle acceder a la API. Este paso se detalla en esta [sección](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
-1. **Intercambiar el JWT por un token de acceso** mediante una solicitud del POST o a través de la interfaz de Developer Console. Este token de acceso debe utilizarse en cada encabezado de sus solicitudes de API.
-
-Para establecer una sesión segura de API de Adobe I/O de servicio a servicio, cada solicitud a un servicio de Adobe debe incluir en el encabezado Autorización la información siguiente.
-
-```
-curl -X GET https://journey.adobe.io/authoring/XXX \
- -H 'Authorization: Bearer <ACCESS_TOKEN>' \
- -H 'x-api-key: <API_KEY>' \
- -H 'x-gw-ims-org-id: <ORGANIZATION>'
-```
-
-* **&lt;organization>**: Este es su ID de organización personal, el Adobe proporciona un ID de organización para cada una de sus instancias:
-
-   * &lt;organization> : su instancia de producción
-
-   Para obtener el valor de ID de organización, consulte con el administrador o con el contacto técnico de Adobe. También puede recuperarla en Adobe I/O al crear una nueva integración, en la lista de licencias (consulte la <a href="https://www.adobe.io/authentication.html">documentación de Adobe I/O</a>).
-
-* **&lt;access_token>**: Su token de acceso personal, que se recuperó al intercambiar su JWT a través de una solicitud del POST.
-
-* **&lt;api_key>**: su clave de API personal. Se proporciona en Adobe I/O después de crear una nueva integración a [!DNL Journey Orchestration] Servicio.
-
-
-
-## Captación de la descripción de la API
+# Trabajar con la API de restricción {#work}
 
 La API de restricción le ayuda a crear, configurar y supervisar sus configuraciones de restricción.
+
+## Captación de la descripción de la API
 
 | Método | Ruta | Descripción |
 |---|---|---|
@@ -89,8 +34,6 @@ La API de restricción le ayuda a crear, configurar y supervisar sus configuraci
 
 Cuando se crea o actualiza una configuración, se realiza automáticamente una comprobación para garantizar la sintaxis y la integridad de la carga útil.
 Si se producen algunos problemas, la operación devuelve advertencias o errores para ayudarle a corregir la configuración.
-
-
 
 ## Configuración de extremo
 
@@ -134,7 +77,6 @@ Esta es la estructura básica de una configuración de extremo:
 }
 ```
 
-
 ## Advertencia y errores
 
 Cuando **canDeploy** se llama al método , el proceso valida la configuración y devuelve el estado de validación identificado por su ID único, ya sea:
@@ -156,12 +98,9 @@ Los posibles errores son:
 * **ERR_ENDPOINTCONFIG_112**: configuración de restricción: no se puede crear la configuración de extremo: esperando una carga útil JSON
 * **ERR_AUTHORING_ENDPOINTCONFIG_1**: nombre de servicio no válido `<!--<given value>-->`: debe ser &#39;dataSource&#39; o &#39;action&#39;
 
-
 La advertencia potencial es:
 
 **ERR_ENDPOINTCONFIG_106**: configuración de restricción: conexiones HTTP máximas no definidas: sin limitación de forma predeterminada
-
-
 
 ## Casos de uso
 
@@ -171,7 +110,7 @@ Para ayudarle en las pruebas y la configuración, hay una colección de Postman 
 
 Esta colección de Postman se ha configurado para compartir la colección de variables de Postman generada mediante __[Integraciones de la consola Adobe I/O](https://console.adobe.io/integrations) > Pruébelo > Descargar para Postman__, que genera un archivo de entorno de Postman con los valores de integraciones seleccionados.
 
-Una vez descargado y cargado en Postman, debe añadir tres variables: `{JO_HOST}`,`{Base_Path}` y `{SANDBOX_NAME}`.
+Una vez descargado y cargado en Postman, debe añadir tres variables: `{JO_HOST}`,`{BASE_PATH}` y `{SANDBOX_NAME}`.
 * `{JO_HOST}` : [!DNL Journey Orchestration] URL de puerta de enlace
 * `{BASE_PATH}` : punto de entrada para la API. El valor es &quot;/authoring&quot;
 * `{SANDBOX_NAME}` : el encabezado **x-sandbox-name** (por ejemplo, &quot;prod&quot;) correspondiente al nombre del simulador de pruebas donde se realizarán las operaciones de API. Consulte la [información general sobre los entornos limitados](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es) para obtener más información.

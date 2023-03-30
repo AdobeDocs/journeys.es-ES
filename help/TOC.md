@@ -5,10 +5,10 @@ title: Guía de Journey Orchestration
 user-guide-description: Proporciona instrucciones prácticas para implementar y construir recorridos.
 index: true
 feature: Journeys
-source-git-commit: 235992282b0a05873dc17984e044400dc8de1dd8
+source-git-commit: 137637a753ba44cc4f8e397b77c3fc076ec3de3f
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 100%
+source-wordcount: '447'
+ht-degree: 97%
 
 ---
 
@@ -205,4 +205,6 @@ ht-degree: 100%
    + [Envío de un mensaje mediante Campaign v7/v8](using/usecase/campaign-classic-use-case.md)
    + [Paso de colecciones de forma dinámica mediante acciones personalizadas](using/usecase/collections.md)
 + Uso de API{#working-with-apis}
-   + [API de límite](using/api/capping.md)
+   + [Introducción a las API de recorrido](using/api/journeys-apis.md)
+   + [Captación de API](using/api/capping.md)
+   + [API de restricción](using/api/throttling.md)
