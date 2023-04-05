@@ -6,9 +6,9 @@ products: journeys
 feature: Journeys
 role: User
 level: Intermediate
-source-git-commit: 137637a753ba44cc4f8e397b77c3fc076ec3de3f
+source-git-commit: fa493cf1e856378e4d79a6932c30cebf5e11e028
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '832'
 ht-degree: 3%
 
 ---
@@ -21,7 +21,7 @@ Al configurar una fuente de datos o una acción, se establece una conexión con 
 
 Las API de Recorrido admiten hasta 5000 eventos por segundo, pero es posible que algunos sistemas externos o API no tengan un rendimiento equivalente. Para evitar sobrecargar estos sistemas, puede usar la variable **Restricción** y **Restricción** para limitar el número de eventos enviados por segundo.
 
-Cada vez que recorrido realiza una llamada a la API, esta pasa por el motor de API. Si se alcanza el límite establecido en la API, la llamada de se rechaza si utiliza la API de restricción o se pone en cola y se procesa lo antes posible en el orden en que se recibieron si utiliza la API de restricción.
+Cada vez que recorrido realiza una llamada a la API, esta pasa por el motor de API. Si se alcanza el límite establecido en la API, la llamada de se rechaza si utiliza la API de restricción o se pone en cola hasta 6 horas y se procesa lo antes posible en el orden en que se recibió si utiliza la API de restricción.
 
 Por ejemplo, supongamos que ha definido una regla de límite o restricción de 100 llamadas por segundo para su sistema externo. Una acción personalizada llama al sistema en 10 recorridos diferentes. Si un recorrido recibe 200 llamadas por segundo, utilizará las 100 ranuras disponibles y descartará o pondrá en cola las 100 ranuras restantes. Como la velocidad máxima se ha superado, los otros 9 recorridos no tendrán ninguna ranura. Esta granularidad ayuda a proteger el sistema externo de sobrecargas y caídas.
 

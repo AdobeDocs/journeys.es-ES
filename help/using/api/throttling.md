@@ -6,9 +6,9 @@ products: journeys
 feature: Journeys
 role: User
 level: Intermediate
-source-git-commit: 1f91bae24dfcb291dd354e4bff9eab85afdaf5a1
+source-git-commit: fa493cf1e856378e4d79a6932c30cebf5e11e028
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '788'
 ht-degree: 3%
 
 ---
@@ -22,6 +22,8 @@ La API de restricción le ayuda a crear, configurar y supervisar sus configuraci
 >Actualmente solo se permite una configuración por organización. Se debe definir una configuración en un entorno limitado de producción (se proporciona mediante x-sandbox-name en los encabezados).
 >
 >Se aplica una configuración a nivel de organización.
+>
+>Cuando se alcanza el límite establecido en la API, se ponen en cola otros eventos durante un máximo de 6 horas. Este valor no se puede modificar.
 
 ## Descripción de la API de restricción {#description}
 
