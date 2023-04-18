@@ -93,7 +93,7 @@ La fuente de datos ahora está configurada y lista para utilizarse en sus recorr
 >[!CONTEXTUALHELP]
 >id="jo_authentication_payload"
 >title="Acerca de la autenticación personalizada"
->abstract="El modo de autenticación personalizado se utiliza para la autenticación compleja para llamar a protocolos de ajuste de API como OAuth2. La ejecución de la acción es un proceso de dos pasos. En primer lugar, se realiza una llamada al extremo para generar el token de acceso. A continuación, el token de acceso se inserta en la petición HTTP de la acción."
+>abstract="El modo de autenticación personalizada se utiliza en la autenticación compleja para llamar a protocolos de ajuste de API como OAuth2. La ejecución de la acción es un proceso de dos pasos. En primer lugar, se realiza una llamada al punto final para generar el token de acceso. A continuación, el token de acceso se inserta en la petición HTTP de la acción."
 
 Este modo de autenticación se utiliza para la autenticación compleja, utilizada frecuentemente para llamar a protocolos de ajuste de API como OAuth2, para recuperar un token de acceso que se va a insertar en la petición HTTP real de la acción.
 
