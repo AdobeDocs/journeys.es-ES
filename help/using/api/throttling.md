@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
-title: Trabajar con la API de restricción
-description: Obtenga más información sobre la API de restricción
+title: Uso de la API de limitación
+description: Obtenga más información acerca de la API de limitación
 products: journeys
 feature: Journeys
 role: User
@@ -10,38 +10,38 @@ exl-id: 76afe397-3e18-4e01-9b0b-c21705927ce2
 source-git-commit: 25d8dcd027f3f433759ce97f9a3a1dad85ba1427
 workflow-type: tm+mt
 source-wordcount: '799'
-ht-degree: 3%
+ht-degree: 96%
 
 ---
 
-# Trabajar con la API de restricción
+# Uso de la API de limitación
 
 La API de restricción le ayuda a crear, configurar y supervisar sus configuraciones de restricción para limitar el número de eventos enviados por segundo.
 
 >[!IMPORTANT]
 >
->Actualmente solo se permite una configuración por organización. Se debe definir una configuración en un entorno limitado de producción (se proporciona mediante x-sandbox-name en los encabezados).
+>Actualmente, solo se permite una configuración por organización. Se debe definir una configuración en una zona protegida de producción (se proporciona mediante x-sandbox-name en los encabezados).
 >
->Se aplica una configuración a nivel de organización.
+>La configuración se aplica al nivel de organización.
 >
->Cuando se alcanza el límite establecido en la API, se ponen en cola otros eventos durante un máximo de 6 horas. Este valor no se puede modificar.
+>Cuando se alcanza el límite establecido en la API, los eventos adicionales se ponen en cola durante un máximo de 6 horas. Este valor no se puede modificar.
 
-## Descripción de la API de restricción {#description}
+## Descripción de la API de limitación {#description}
 
 | Método | Ruta | Descripción |
 |---|---|---|
-| [!DNL POST] | list/throttlingConfigs | Obtener una lista de las configuraciones de regulación |
-| [!DNL POST] | /throttlingConfigs | Crear una configuración de restricción |
-| [!DNL POST] | /throttlingConfigs/`{uid}`/deploy | Implementar una configuración de restricción |
-| [!DNL POST] | /throttlingConfigs/`{uid}`/undeploy | Desimplementar una configuración de restricción |
-| [!DNL POST] | /throttlingConfigs/`{uid}`/canDeploy | Compruebe si una configuración de restricción se puede implementar o no |
-| [!DNL PUT] | /throttlingConfigs/`{uid}` | Actualizar una configuración de restricción |
-| [!DNL GET] | /throttlingConfigs/`{uid}` | Recuperar una configuración de restricción |
-| [!DNL DELETE] | /throttlingConfigs/`{uid}` | Eliminar una configuración de restricción |
+| [!DNL POST] | list/throttlingConfigs | Obtención de una lista de las configuraciones de limitación |
+| [!DNL POST] | /throttlingConfigs | Creación de una configuración de limitación |
+| [!DNL POST] | /throttlingConfigs/`{uid}`/deploy | Implementación de una configuración de limitación |
+| [!DNL POST] | /throttlingConfigs/`{uid}`/undeploy | Desimplementación de una configuración de limitación |
+| [!DNL POST] | /throttlingConfigs/`{uid}`/canDeploy | Compruebe si una configuración de limitación se puede implementar o no |
+| [!DNL PUT] | /throttlingConfigs/`{uid}` | Actualización de una configuración de limitación |
+| [!DNL GET] | /throttlingConfigs/`{uid}` | Recuperación de una configuración de limitación |
+| [!DNL DELETE] | /throttlingConfigs/`{uid}` | Eliminación de una configuración de limitación |
 
-## Configuración de restricción {#configuration}
+## Configuración de limitación {#configuration}
 
-Esta es la estructura de una configuración de regulación. **name** y **descripción** los atributos son opcionales.
+Esta es la estructura de una configuración de limitación. Los atributos **name** y **description** son opcionales.
 
 ```
 {
@@ -67,7 +67,7 @@ Por ejemplo:
 
 ## Errores
 
-Al crear o actualizar una configuración, el proceso valida la configuración dada y devuelve el estado de validación identificado por su ID único, ya sea:
+Al crear o actualizar una configuración, el proceso aprueba la dada y devuelve el estado de validación identificado por su ID único, uno de los siguientes:
 
 ```
 "ok" or "error"
@@ -75,34 +75,34 @@ Al crear o actualizar una configuración, el proceso valida la configuración da
 
 >[!IMPORTANT]
 >
->Los atributos **maxThroughput**, **urlPattern** y **métodos** son obligatorios.
+>Los atributos **maxThroughput**, **urlPattern** y **methods** son obligatorios.
 >
->**maxThroughput** debe estar en el rango 200-5000.
+>El valor de **maxThroughput** debe estar en el rango de 200-5000.
 
-Al crear, eliminar o implementar la configuración de restricción, pueden producirse los siguientes errores:
+Al crear, eliminar o implementar la configuración de limitación, pueden producirse los siguientes errores:
 
-* **ERR_THROTTLING_CONFIG_100**: configuración de restricción: `<mandatory attribute>` obligatorio
-* **ERR_THROTTLING_CONFIG_101**: configuración de restricción: maxThroughput es necesario y debe ser bueno o igual a 200 y menor o igual que 5000
-* **ERR_THROTTLING_CONFIG_104**: configuración de restricción: patrón de url incorrecto
-* **ERR_THROTTLING_CONFIG_105**: configuración de restricción: no se permiten comodines en la parte host del patrón de url
-* **ERR_THROTTLING_CONFIG_106**: configuración de restricción: carga útil no válida
-* **THROTTLING_CONFIG_DELETE_FORBIDDEN_ERROR: 1456**, &quot;No se puede eliminar una configuración de restricción implementada. Desimplementarlo antes de eliminarlo&quot;
-* **THROTTLING_CONFIG_DELETE_ERROR: 1457**, &quot;No se puede eliminar la configuración de restricción: se produce un error inesperado&quot;
-* **THROTTLING_CONFIG_DEPLOY_ERROR: 1458**, &quot;No se puede implementar la configuración de restricción: se produce un error inesperado&quot;
-* **THROTTLING_CONFIG_UNDEPLOY_ERROR: 1459**, &quot;No se puede anular la implementación de la configuración de restricción: se produce un error inesperado&quot;
-* **THROTTLING_CONFIG_GET_ERROR: 1460**, &quot;No se puede obtener la configuración de restricción: se produce un error inesperado&quot;
-* **THROTTLING_CONFIG_UPDATE_NOT_ACTIVE_ERROR: 1461**, &quot;No se puede actualizar la configuración de restricción: la versión de tiempo de ejecución no está activa&quot;
-* **THROTTLING_CONFIG_UPDATE_ERROR: 1462**, &quot;No se puede actualizar la configuración de restricción: se produce un error inesperado&quot;
-* **THROTTLING_CONFIG_NON_PROD_SANDBOX_ERROR: 1463**, &quot;Operación no permitida en la configuración de regulación: simulador de pruebas sin producción&quot;
-* **THROTTLING_CONFIG_CREATE_ERROR: 1464**, &quot;No se puede crear la configuración de restricción: se produce un error inesperado&quot;
-* **THROTTLING_CONFIG_CREATE_LIMIT_ERROR: 1465**, &quot;No se puede crear la configuración de restricción: solo se permite una configuración por organización&quot;
-* **THROTTLING_CONFIG_ALREADY_DEPLOYED_ERROR: 14466**, &quot;No se puede implementar la configuración de restricción: ya implementado&quot;
-* **THROTTLING_CONFIG_NOT_FOUND_ERROR: 14467**, &quot;configuración de restricción no encontrada&quot;
-* **THROTTLING_CONFIG_NOT_DEPLOYED_ERROR: 14468**, &quot;No se puede anular la implementación de la configuración de restricción: aún no implementado&quot;
+* **ERR_THROTTLING_CONFIG_100**: configuración de limitación: `<mandatory attribute>` obligatorio
+* **ERR_THROTTLING_CONFIG_101**: configuración de limitación: maxThroughput es obligatorio y debe ser mayor o igual que 200 y menor o igual que 5000.
+* **ERR_THROTTLING_CONFIG_104**: configuración de limitación: patrón de URL incorrecto
+* **ERR_THROTTLING_CONFIG_105**: configuración de limitación: no se permiten comodines en la parte host del patrón de URL
+* **ERR_THROTTLING_CONFIG_106**: configuración de limitación: carga útil no válida
+* **THROTTLING_CONFIG_DELETE_FORBIDDEN_ERROR: 1456**, “No se puede eliminar una configuración de limitación implementada. Debe desimplementarlo antes de eliminarlo”
+* **THROTTLING_CONFIG_DELETE_ERROR: 1457**, “No se puede eliminar la configuración de limitación: se produce un error inesperado”
+* **THROTTLING_CONFIG_DEPLOY_ERROR: 1458**, “No se puede implementar la configuración de limitación: se produce un error inesperado”
+* **THROTTLING_CONFIG_UNDEPLOY_ERROR: 1459**, “No se puede desimplementar la configuración de limitación: se produce un error inesperado”
+* **THROTTLING_CONFIG_GET_ERROR: 1460**, “No se puede obtener la configuración de limitación: se produce un error inesperado”
+* **THROTTLING_CONFIG_UPDATE_NOT_ACTIVE_ERROR: 1461**, “No se puede actualizar la configuración de limitación: la versión de tiempo de ejecución no está activa”
+* **THROTTLING_CONFIG_UPDATE_ERROR: 1462**, “No se puede actualizar la configuración de limitación: se produce un error inesperado”
+* **THROTTLING_CONFIG_NON_PROD_SANDBOX_ERROR: 1463**, “Operación no permitida en la configuración de limitación: la zona protegida no es de producción”
+* **THROTTLING_CONFIG_CREATE_ERROR: 1464**, “No se puede crear la configuración de limitación: se produce un error inesperado”
+* **THROTTLING_CONFIG_CREATE_LIMIT_ERROR: 1465**, “No se puede crear la configuración de limitación: solo se permite una configuración por organización”
+* **THROTTLING_CONFIG_ALREADY_DEPLOYED_ERROR: 14466**, “No se puede implementar la configuración de limitación: ya implementada”
+* **THROTTLING_CONFIG_NOT_FOUND_ERROR: 14467**, “Configuración de limitación no encontrada”
+* **THROTTLING_CONFIG_NOT_DEPLOYED_ERROR: 14468**, “No se puede anular la implementación de la configuración de limitación: aún no implementada”
 
 **Ejemplos de errores**
 
-Al intentar crear una configuración en un entorno limitado que no sea de prod:
+Al intentar crear una configuración en una zona protegida que no es de producción:
 
 ```
 {
@@ -112,7 +112,7 @@ Al intentar crear una configuración en un entorno limitado que no sea de prod:
 }
 ```
 
-En caso de que el sanbox dado no exista:
+En caso de que la zona protegida dada no exista:
 
 ```
 {
@@ -134,66 +134,66 @@ Al intentar crear otra configuración:
 
 ## Casos de uso {#uc}
 
-Para ayudarle en las pruebas y la configuración, hay una colección de Postman disponible [here](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Throttling-API_postman-collection.json).
+Para ayudarle en las pruebas y la configuración, hay una colección de Postman disponible [aquí](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Throttling-API_postman-collection.json).
 
-Esta colección de Postman se ha configurado para compartir la colección de variables de Postman generada mediante __[Integraciones de la consola Adobe I/O](https://console.adobe.io/integrations) > Pruébelo > Descargar para Postman__, que genera un archivo de entorno de Postman con los valores de integraciones seleccionados.
+Esta colección de Postman se ha configurado para compartir la colección de variables de Postman generada mediante __[Integraciones de la consola de Adobe I/O](https://console.adobe.io/integrations) > Pruébelo > Descargar para Postman__, que genera un archivo de entorno de Postman con los valores de integraciones seleccionados.
 
 Una vez descargado y cargado en Postman, debe añadir tres variables: `{JO_HOST}`,`{BASE_PATH}` y `{SANDBOX_NAME}`.
-* `{JO_HOST}` : [!DNL Journey Orchestration] URL de puerta de enlace
-* `{BASE_PATH}` : punto de entrada para la API. El valor es &quot;/authoring&quot;
-* `{SANDBOX_NAME}` : el encabezado **x-sandbox-name** (por ejemplo, &quot;prod&quot;) correspondiente al nombre del simulador de pruebas donde se realizarán las operaciones de API. Consulte la [información general sobre los entornos limitados](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es) para obtener más información.
+* `{JO_HOST}`: URL de puerta de enlace de [!DNL Journey Orchestration]
+* `{BASE_PATH}`: punto de entrada para la API. El valor es “/authoring”
+* `{SANDBOX_NAME}`: el encabezado **x-sandbox-name** (por ejemplo, “prod”) correspondiente al nombre de la zona protegida donde se realizarán las operaciones de API. Consulte la [información general sobre las zonas protegidas](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=es) para obtener más detalles.
 
-En la siguiente sección, encontrará la lista ordenada de llamadas al resto de API para realizar el caso de uso.
+En la siguiente sección, encontrará la lista ordenada de llamadas a la API de REST para ejecutar el caso de uso.
 
-Caso de uso n°1: **Creación e implementación de una nueva configuración de regulación**
+Caso de uso n.º 1: **Creación e implementación de una nueva configuración de limitación**
 
 1. list
-1. crear
+1. create
 1. candeploy
-1. implementar
+1. deploy
 
-Caso de uso n°2: **Actualizar e implementar una configuración de restricción aún no implementada**
+Caso de uso n.º 2: **Actualización e implementación de una configuración de limitación aún no implementada**
 
 1. list
-1. obtener
-1. actualizar
+1. get
+1. update
 1. candeploy
-1. implementar
+1. deploy
 
-Caso de uso n°3: **Desimplementar y eliminar una configuración de restricción implementada**
-
-1. list
-1. anular implementación
-1. eliminar
-
-Caso de uso n°4: **Eliminar una configuración de restricción implementada**
-
-En una sola llamada de API, puede anular la implementación y eliminar la configuración con el uso del parámetro forceDelete .
+Caso de uso n.º 3: **Desimplementación y eliminación de una configuración de limitación implementada**
 
 1. list
-1. delete, con el parámetro forceDelete
+1. undeploy
+1. delete
 
-Caso de uso n°5: **Actualizar una configuración de restricción ya implementada**
+Caso de uso n.º 4: **Eliminación de una configuración de limitación implementada**
+
+En una sola llamada de API, puede anular la implementación y eliminar la configuración con el uso del parámetro forceDelete.
+
+1. list
+1. eliminar, con el parámetro forceDelete
+
+Caso de uso n.º 5: **Actualización de una configuración de limitación ya implementada**
 
 >[!NOTE]
 >
 >No es necesario anular la implementación de la configuración antes de actualizar
 
 1. list
-1. obtener
-1. actualizar
+1. get
+1. update
 
-## Ciclo de vida de configuración a nivel de tiempo de ejecución {#config}
+## Ciclo de vida de configuración en nivel de tiempo de ejecución {#config}
 
-Cuando una configuración no se implementa, se marca como inactiva en el nivel de tiempo de ejecución y los eventos pendientes se siguen procesando durante 24 horas. A continuación, se elimina en el servicio de tiempo de ejecución.
+Cuando una configuración se desimplementa, se marca como inactiva en el nivel de tiempo de ejecución y los eventos pendientes se siguen procesando durante 24 horas. A continuación, se elimina en el servicio de tiempo de ejecución.
 
 Una vez que se ha desimplementado una configuración, es posible actualizarla y volver a implementarla. Esto creará una nueva configuración de tiempo de ejecución que se tendrá en cuenta en la próxima ejecución de acciones.
 
-Al actualizar una configuración ya implementada, los nuevos valores se tienen en cuenta inmediatamente. Los recursos del sistema subyacentes se adaptan automáticamente. Esto es óptimo comparado con anular la implementación y volver a implementar la configuración.
+Al actualizar una configuración ya implementada, los nuevos valores se tienen en cuenta de inmediato. Los recursos del sistema subyacentes se adaptan automáticamente. Esto es óptimo, comparado con desimplementar y volver a implementar la configuración.
 
 ## Ejemplos de respuestas {#responses}
 
-**Creación - POST**
+**Creación: POST**
 
 ```
 {
