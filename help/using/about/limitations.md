@@ -6,16 +6,21 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: fef039ae-c04d-4198-a082-4be27710255f
-source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
+source-git-commit: 18c94897b5cea0d92a83f36845fdda64220b668f
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 63%
+source-wordcount: '572'
+ht-degree: 57%
 
 ---
 
 # Limitaciones {#limitations}
 
 Estas son limitaciones relacionadas con el uso de Journey Orchestration.
+
+## Protecciones generales del recorrido {#journeys-guardrails-journeys}
+
+* El número de actividades de un recorrido está limitado a 50. El número de actividades se muestra en la sección superior izquierda del lienzo de recorrido.
+* El número de **recorridos en directo** en una organización está limitada a 100 por simulador de pruebas. Cuando se alcanza este límite, ya no se puede publicar un nuevo recorrido.
 
 ## Limitaciones generales de acciones
 
