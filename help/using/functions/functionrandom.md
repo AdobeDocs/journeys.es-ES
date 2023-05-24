@@ -29,5 +29,5 @@ Matemáticas
 
 `random()`
 
-Devuelve un decimal.
+Devuelve un valor decimal.
 

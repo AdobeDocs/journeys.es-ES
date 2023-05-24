@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: min
-description: Obtenga información sobre el administrador de funciones
+description: Más información sobre la función min
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 9%
 
 # min {#min}
 
-Devuelve el valor mínimo entre un conjunto de expresiones, dadas como una lista o dos expresiones. Se omiten los valores nulos.
+Devuelve el valor mínimo entre un conjunto de expresiones, dado como una lista o dos expresiones. Los valores nulos se omiten.
 
 ## Categoría
 
@@ -51,7 +51,7 @@ Devuelve una duración.
 
 `min(<listDateTimeOnly>)`
 
-Devuelve una fecha y hora sin tener en cuenta la zona horaria.
+Devuelve una fecha y hora sin considerar la zona horaria.
 
 `min(<listDateTime>)`
 
@@ -63,11 +63,11 @@ Devuelve una fecha.
 
 `min(<listDecimal>)`
 
-Devuelve un decimal.
+Devuelve un valor decimal.
 
 `min(<decimal>,<decimal>)`
 
-Devuelve un decimal.
+Devuelve un valor decimal.
 
 `min(<duration>,<duration>)`
 
@@ -79,11 +79,11 @@ Devuelve una fecha y hora.
 
 `min(<dateTimeOnly>,<dateTimeOnly>)`
 
-Devuelve una fecha y hora sin tener en cuenta la zona horaria.
+Devuelve una fecha y hora sin considerar la zona horaria.
 
 `min(<integer>,<integer>)`
 
-Devuelve un número entero.
+Devuelve un entero.
 
 ## Ejemplos
 

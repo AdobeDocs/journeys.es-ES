@@ -15,7 +15,7 @@ ht-degree: 20%
 
 # inLastDays {#inLastDays}
 
-Devuelve el valor verdadero si una fecha determinada o dateTime está entre ahora y ahora: días delta.
+Devuelve true si una fecha o dateTime determinada está entre ahora y ahora (días delta).
 
 ## Categoría
 

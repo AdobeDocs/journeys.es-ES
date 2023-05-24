@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: lower
-description: Obtenga información sobre la función inferior
+description: Más información sobre la función inferior
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 23%
 
 # lower {#lower}
 
-Devuelve una versión en minúscula del parámetro.
+Devuelve una versión en minúsculas del parámetro.
 
 ## Categoría
 

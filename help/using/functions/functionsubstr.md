@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: substr
-description: Obtenga información sobre el substr de funciones
+description: Obtenga información sobre la subcategoría de funciones
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 18%
 
 # substr {#substr}
 
-Devuelve la subcadena de la expresión de cadena entre el índice de inicio y el índice de finalización. Si el índice final no está definido, entonces está entre el índice inicial y el final.
+Devuelve la subcadena de la expresión de cadena entre el índice inicial y el índice final. Si no se define el índice final, se encuentra entre el índice inicial y el final.
 
 ## Categoría
 
@@ -39,13 +39,13 @@ Cadena
 
 `substr(<string>,<beginIndex>,<endIndex>)`
 
-Devuelve una cadena.
+Devolver una cadena.
 
 ## Ejemplo
 
 `substr("Hello World",6)`
 
-Devuelve &quot;Mundo&quot;.
+Devuelve &quot;World&quot;.
 
 `substr("Hello World", 0, 5)`
 

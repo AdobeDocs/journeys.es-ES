@@ -9,7 +9,7 @@ exl-id: 2371d2c9-3035-46ac-9c76-755fb453c24e
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 77%
+ht-degree: 84%
 
 ---
 
@@ -45,13 +45,13 @@ Estos son los pasos principales de la configuración de la fuente de datos:
 >
 >La configuración de la fuente de datos siempre la realiza un **usuario técnico**.
 
-1. En el panel de menú, seleccione **[!UICONTROL Admin]**. En la sección **[!UICONTROL Data sources]**, haga clic en **[!UICONTROL Manage]**.
+1. En el panel de menús, seleccione **[!UICONTROL Admin]**. En la sección **[!UICONTROL Data sources]**, haga clic en **[!UICONTROL Manage]**.
 
    Se muestra la lista de las fuentes de datos. Consulte [esta página](../about/user-interface.md) para obtener más información sobre la interfaz.
 
    ![](../assets/journey18.png)
 
-1. A continuación, puede agregar grupos de campos a la fuente de datos integrada (consulte [esta página](../datasource/adobe-experience-platform-data-source.md)) o crear una nueva fuente de datos externa (consulte [esta página](../datasource/external-data-sources.md)) y grupos de campos asociados (consulte [esta página](../datasource/field-groups.md)).
+1. A continuación, puede agregar grupos de campos a la fuente de datos integrada (consulte [esta página](../datasource/adobe-experience-platform-data-source.md)) o cree una nueva fuente de datos externa (consulte ) [esta página](../datasource/external-data-sources.md)) y grupos de campos asociados (consulte [esta página](../datasource/field-groups.md)).
 
    ![](../assets/journey23.png)
 

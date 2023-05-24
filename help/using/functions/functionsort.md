@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: sort
-description: Obtenga información sobre la ordenación de funciones
+description: Obtenga información acerca de la ordenación de funciones
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 9%
 
 # sort {#sort}
 
-Ordena una lista de valores u objetos en el orden natural.
+Ordena una lista de valores u objetos en orden natural.
 
 ## Categoría
 
@@ -30,7 +30,7 @@ Lista
 | Parámetro | Tipo | Descripción |
 |-----------|------------------|------------------|
 | listToSort | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly o listObject | Lista para ordenar. Para listObject, debe ser una referencia de campo. |
-| keyAttributeName | string | Este parámetro solo es para listObject. El nombre de atributo de los objetos de la lista dada se utiliza como clave para la ordenación. |
+| keyAttributeName | string | Este parámetro solo es para listObject. El nombre del atributo en los objetos de la lista dada se utiliza como clave para ordenar. |
 | sortingOrder | Booleano | Ascendente (true) o descendente (false) |
 
 ## Firma y tipo devuelto
@@ -49,11 +49,11 @@ Devuelve una lista de cadenas.
 
 `sort(<listDateTimeOnly>,<boolean>)`
 
-Devuelve una lista de tiempos de datos sin tener en cuenta la zona horaria.
+Devuelve una lista de horas de fecha sin tener en cuenta la zona horaria.
 
 `sort(<listDateTime>,<boolean>)`
 
-Devuelve una lista de tiempos de datos.
+Devuelve una lista de fechas y horas.
 
 `sort(<listDateOnly>,<boolean>)`
 
@@ -61,7 +61,7 @@ Devuelve una lista de fechas.
 
 `sort(<listBoolean>,<boolean>)`
 
-Devuelve una lista de booleanos.
+Devuelve una lista de valores booleanos.
 
 `sort(<listObject>,<string>,<boolean>)`
 

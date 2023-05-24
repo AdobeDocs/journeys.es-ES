@@ -15,7 +15,7 @@ ht-degree: 20%
 
 # indexOf {#indexOf}
 
-Comprueba si la primera cadena de argumento termina con una cadena específica (segunda cadena de argumento). Si no se encuentra la cadena, devuelva -1.
+Comprueba si la cadena del primer argumento termina con una cadena específica (cadena del segundo argumento). Si no se encuentra la cadena, devuelve -1.
 
 ## Categoría
 
@@ -36,7 +36,7 @@ Cadena
 
 `indexOf(<string>,<string>)`
 
-Devuelve un número entero.
+Devuelve un entero.
 
 ## Ejemplo
 
@@ -46,4 +46,4 @@ Devuelve 2.
 
 Explicación:
 
-En &quot;Hello&quot;, la primera incidencia de &quot;l&quot; es en la posición 2.
+En &quot;Hello&quot;, la primera aparición de &quot;l&quot; es en la posición 2.

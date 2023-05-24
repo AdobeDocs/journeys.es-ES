@@ -15,7 +15,7 @@ ht-degree: 9%
 
 # setHours {#setHours}
 
-Establece las horas de una fecha, hora u hora únicamente. Por ejemplo, si desea esperar hasta una hora determinada mañana, puede forzar la hora.
+Establece solo las horas de una fecha, hora u hora. Por ejemplo, si desea esperar hasta una hora determinada mañana, puede forzar la hora.
 
 ## Categoría
 
@@ -30,7 +30,7 @@ Fecha
 | Parámetro | Tipo |
 |--- |--- |
 | fecha y hora | dateTime |
-| fecha y hora sin considerar zona horaria | dateTimeOnly |
+| fecha y hora sin considerar la zona horaria | dateTimeOnly |
 | horas | entero |
 
 ## Firmas y tipo devuelto
@@ -41,7 +41,7 @@ Devuelve una fecha y hora.
 
 `setHours(<dateTimeOnly>,<hours>)`
 
-Devuelve una fecha y hora sin tener en cuenta la zona horaria.
+Devuelve una fecha y hora sin considerar la zona horaria.
 
 ## Ejemplos
 
@@ -51,4 +51,4 @@ Devuelve 2010-12-12T04:11:00Z.
 
 `setHours(nowWithDelta(1, "days"), 20)`
 
-Devuelve mañana a las 8:XY PM, siendo XY los minutos en el momento de la evaluación horaria actual. Si la evaluación se realiza a las 2:45 AM, la hora devuelta será a las 20:45.
+Vuelve mañana a las 8:XY PM, siendo XY los minutos en el momento de la evaluación de la hora actual. Si la evaluación se realiza a las 2:45, la hora de retorno será las 8:45 p.m.

@@ -38,10 +38,10 @@ Conversión
 
 `toDateOnly(<string>)`
 
-Devolver una fecha y hora sin considerar la zona horaria.
+Devuelve una fecha y hora sin tener en cuenta la zona horaria.
 
 ## Ejemplos
 
 `toDateOnly("2016-08-18")`
 
-devuelve un objeto dateOnly que representa 2016-08-18.
+devuelve un objeto dateOnly que representa el 18-08-2016.

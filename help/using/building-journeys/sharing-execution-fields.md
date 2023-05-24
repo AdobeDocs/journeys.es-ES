@@ -15,9 +15,9 @@ ht-degree: 14%
 
 # Campos de ejecución de la acción de eventos de journeySteps {#sharing-execution-fields}
 
-Esta mezcla la compartirán journeyStepEvent y journeyStepProfileEvent.
+Este mixin lo compartirán journeyStepEvent y journeyStepProfileEvent.
 
-Si el paso tiene que procesarse una acción, esos campos se añaden a la carga útil de evento.
+Si el paso tiene una acción que procesar, esos campos se añadirán a la carga útil de evento.
 
 ## actionID
 
@@ -27,7 +27,7 @@ Tipo: cadena
 
 ## actionName
 
-Nombre de la acción. Si no se ha establecido ningún nombre, se tomará el valor stepName.
+Nombre de la acción. Si no se ha definido ningún nombre, se tomará el stepName.
 
 Tipo: cadena
 
@@ -57,24 +57,24 @@ Tipo: cadena
 
 Valores:
 * http
-* restricción
+* límite
 * timeout
 * error
 
 ## actionExecutionErrorCode
 
-Código de error de ejecución de acción. Presente si el error tiene un código, como uno HTTP.
+Código para error de ejecución de acción. Está presente si el error tiene un código, como uno HTTP.
 
 Tipo: cadena
 
 ## actionExecutionOriginError
 
-Se puede producir un tiempo de espera, en dos casos:
+Se puede producir un tiempo de espera en dos casos:
 
 * en el primer intento se ejecuta una acción. En este caso, la ejecución no ha finalizado, por lo que no hay ningún error subyacente
 * en un reintento: en este caso, actionExecOrigError/actionExecOrigErrorCode describe el error encontrado en el intento antes del reintento.
 
-Por ejemplo, se envía un correo electrónico y se devuelve un error HTTP 500 en el primer intento. Se vuelve a intentar la recuperación, pero la duración de los 2 intentos supera el tiempo de espera. A continuación, la ejecución de la acción se etiqueta como tiempo de espera. La parte de acción tendrá el siguiente aspecto:
+Por ejemplo, se envía un correo electrónico y se devuelve un error HTTP 500 en el primer intento. Se vuelve a intentar realizar la recuperación, pero la duración de los dos intentos supera el tiempo de espera. A continuación, la ejecución de la acción se etiqueta como timeout. La parte de acción tendrá este aspecto:
 
 ```
     ...
@@ -101,36 +101,36 @@ Indica el tipo de acción.
 
 Valores:
 
-* creación
+* integrado
 * Correo electrónico ACS
-* SMS ACS
-* ACS Push
+* ACS SMS
+* Push de ACS
 * cliente
-* Epsilon
+* Épsilon
 * ...
 
 Tipo: cadena
 
 ## deliveryJobID
 
-Esto describe el Id. de trabajo de entrega para el Recorrido por lotes.
+Se describe el ID de trabajo de envío para el Recorrido por lotes.
 
 Tipo: cadena
 
 ## batchDeliveryID
 
-Esto describe el ID de entrega del Recorrido por lotes.
+Describe la ID de envío del Recorrido por lotes.
 
 Tipo: cadena
 
 ## fromSegmentTrigger
 
-Esto indica si el Recorrido de lotes se activa desde el segmento de audiencia.
+Describe si el Recorrido por lotes se activa desde el segmento de audiencia.
 
 Tipo: booleano
 
 ## actionSchedulerCount
 
-Recuento de solicitudes de notificación del planificador enviadas al servicio del planificador durante el procesamiento de pasos.
+Recuento de solicitudes de notificación del planificador enviadas al servicio del planificador durante el procesamiento del paso.
 
 Tipo: long

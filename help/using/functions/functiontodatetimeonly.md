@@ -40,13 +40,13 @@ Conversión
 <!--`toDateTimeOnly(<integer>,<integer>,<integer>)`
 `toDateTimeOnly(<integer>,<integer>,<integer>,<integer>,<integer>,<integer>)`-->
 
-Devolver una fecha y hora sin considerar la zona horaria.
+Devuelve una fecha y hora sin tener en cuenta la zona horaria.
 
 ## Ejemplos
 
 `toDateTimeOnly ("2016-08-18")`
 
-devuelve un dateTime que representa 2016-08-18T00:00:00 000
+devuelve un valor dateTime que representa el 18T00 de 8 de 2016:00:00,000
 
 `toDateTimeOnly(now())`
 

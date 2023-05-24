@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
-title: Ciclo de datos del evento
-description: Más información sobre el ciclo de datos de evento
+title: Ciclo de datos de evento
+description: Descubra más información sobre el ciclo de datos de eventos
 feature: Journeys
 role: User
 level: Intermediate
@@ -21,4 +21,4 @@ La carga útil contiene la información requerida por las API de ingesta de tran
 
 Después de llegar a través de las API de ingesta de transmisión, los eventos fluyen a un servicio interno llamado Canalización y, a continuación, a Adobe Experience Platform. Si el esquema de evento tiene habilitado el indicador de Servicio de Perfil del cliente en tiempo real y un ID de conjunto de datos que también tiene el indicador de Perfil del cliente en tiempo real, se desplaza al servicio de Perfil del cliente en tiempo real.
 
-Para los eventos generados por el sistema, la canalización filtra los eventos que tienen una carga útil que contiene [!DNL Journey Orchestration] eventIDs (consulte el proceso de creación de eventos a continuación) proporcionado por [!DNL Journey Orchestration] y contenido en la carga útil de evento. En el caso de los eventos basados en reglas, el sistema identifica el evento utilizando la condición eventID . Estos eventos son escuchados por [!DNL Journey Orchestration] y se activa el recorrido correspondiente.
+Para eventos generados por el sistema, la canalización filtra eventos que tienen una carga útil que contiene [!DNL Journey Orchestration] eventIDs (consulte el proceso de creación de eventos que se muestra a continuación) proporcionados por [!DNL Journey Orchestration] y contenido en la carga útil de evento. En el caso de los eventos basados en reglas, el sistema identifica el evento con la condición eventID. Estos eventos son escuchados por [!DNL Journey Orchestration] y se activa el recorrido correspondiente.

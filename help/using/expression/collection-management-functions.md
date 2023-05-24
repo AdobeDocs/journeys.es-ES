@@ -61,29 +61,29 @@ Estas funciones se explican a continuación. En los ejemplos siguientes, vamos a
 
 **La función &quot;all(`<condition>`)&quot;**
 
-La variable **[!UICONTROL all]** activa la definición de un filtro en una colección determinada mediante el uso de una expresión booleana.
+El **[!UICONTROL all]** Esta función habilita la definición de un filtro en una colección determinada utilizando una expresión booleana.
 
 ```json
 <listExpression>.all(<condition>)
 ```
 
-Por ejemplo, entre todos los usuarios de la aplicación, puede obtener los que utilizan IOS 13 (expresión booleana &quot;app used == IOS 13&quot;). El resultado de esta función es la lista filtrada que contiene elementos que coinciden con la expresión booleana (ejemplo: usuario de la aplicación 1, usuario de la aplicación 34, usuario de la aplicación 432).
+Por ejemplo, entre todos los usuarios de la aplicación, puede obtener los que usan IOS 13 (expresión booleana &quot;app used == IOS 13&quot;). El resultado de esta función es la lista filtrada que contiene elementos que coinciden con la expresión booleana (ejemplo: usuario de aplicación 1, usuario de aplicación 34, usuario de aplicación 432).
 
-En una actividad de condición de fuente de datos, puede comprobar si el resultado de la **[!UICONTROL all]** es nula o no. También puede combinar esto **[!UICONTROL all]** función con otras funciones como **[!UICONTROL count]**. Para obtener más información, consulte [Actividad de condición de fuente de datos](../building-journeys/condition-activity.md#data_source_condition).
+En una actividad de Condición de fuente de datos puede comprobar si el resultado de la **[!UICONTROL all]** La función es nula o no. También puede combinar esto **[!UICONTROL all]** con otras funciones como **[!UICONTROL count]**. Para obtener más información, consulte [Actividad de condición de fuente de datos](../building-journeys/condition-activity.md#data_source_condition).
 
 **Ejemplo 1:**
 
-Queremos comprobar si un usuario ha instalado una versión específica de una aplicación. Para ello, obtenemos todos los tokens de notificación push asociados a aplicaciones móviles para las que la versión es 1.0. A continuación, realizamos una condición con la variable **[!UICONTROL count]** para comprobar que la lista devuelta de tokens contiene al menos un elemento.
+Queremos comprobar si un usuario ha instalado una versión específica de una aplicación. Para esto, obtenemos todos los tokens de notificaciones push asociados con aplicaciones móviles para las que la versión es 1.0. Luego, realizamos una condición con el **[!UICONTROL count]** para comprobar que la lista devuelta de tokens contiene al menos un elemento.
 
 ```json
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all(currentEventField.application.version == "1.0").token}) > 0
 ```
 
-El resultado es verdadero.
+El resultado es true.
 
 **Ejemplo 2:**
 
-Aquí usamos el **[!UICONTROL count]** para comprobar si hay tokens de notificación push en la colección.
+Aquí utilizamos el **[!UICONTROL count]** para comprobar si hay tokens de notificaciones push en la colección.
 
 ```json
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) > 0
@@ -116,7 +116,7 @@ earlier timestamp) in order to only consider prior events.-->
 
 >[!NOTE]
 >
->Cuando la condición de filtrado en la variable **all()** está vacía, el filtro devolverá todos los elementos de la lista. **Sin embargo, para contar el número de elementos de una colección, no se requiere la función all .**
+>Cuando la condición de filtrado en **all()** está vacía, el filtro devolverá todos los elementos de la lista. **Sin embargo, para contar el número de elementos de una colección, no es necesaria la función all.**
 
 
 ```json
@@ -127,7 +127,7 @@ El resultado de la expresión es **3**.
 
 **Ejemplo 3:**
 
-Aquí comprobamos si una persona no ha recibido ninguna comunicación en las últimas 24 horas. Filtramos la colección de eventos de experiencia recuperados de la fuente de datos de Experience Platform, utilizando dos expresiones basadas en dos elementos de la colección. En concreto, la marca de tiempo del evento se compara con dateTime devuelta por el **[!UICONTROL nowWithDelta]** función.
+Aquí comprobamos si una persona no ha recibido ninguna comunicación en las últimas 24 horas. Filtramos la colección de eventos de experiencia recuperados de la fuente de datos de Experience Platform, utilizando dos expresiones basadas en dos elementos de la colección. En particular, la marca de tiempo del evento se compara con el dateTime devuelto por el **[!UICONTROL nowWithDelta]** función.
 
 ```json
 count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
@@ -135,11 +135,11 @@ count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
    currentDataPackField.timestamp > nowWithDelta(-1, "days")).timestamp}) == 0
 ```
 
-El resultado será true si no hay ningún evento de experiencia que coincida con las dos condiciones.
+El resultado es true si no hay ningún evento de experiencia que coincida con las dos condiciones.
 
 **Ejemplo 4:**
 
-Aquí queremos comprobar si una persona ha iniciado al menos una vez una aplicación en los últimos 7 días, por ejemplo, para enviar una notificación push invitándolos a iniciar un tutorial.
+Aquí deseamos comprobar si un individuo ha iniciado al menos una aplicación en los últimos 7 días, para, por ejemplo, almacenar en déclencheur una notificación push que le invite a iniciar un tutorial.
 
 ```json
 count(
@@ -168,13 +168,13 @@ The result will be:
 >[!NOTE]
 >
 >**[!UICONTROL currentEventField]** solo está disponible al manipular colecciones de eventos y **currentDataPackField**
->al manipular colecciones de fuentes de datos. Al procesar colecciones con **[!UICONTROL all]**, **[!UICONTROL first]** y **[!UICONTROL last]**,
+>al manipular colecciones de fuentes de datos. Al procesar colecciones con **[!UICONTROL all]**, **[!UICONTROL first]** y **[!UICONTROL last]**, nosotros
 >en cada elemento de la colección uno a uno. **[!UICONTROL currentEventField]** y **currentDataPackField**
 >corresponde al elemento que se está reproduciendo en bucle.
 
 **Las funciones &quot;first(`<condition>`)&quot; y &quot;last(`<condition>`)&quot;**
 
-La variable **[!UICONTROL first]** y **[!UICONTROL last]** también habilitan la definición de un filtro en la colección y devuelven el primer/último elemento de la lista que cumple el filtro.
+El **[!UICONTROL first]** y **[!UICONTROL last]** Las funciones de también habilitan la definición de un filtro en la colección y devuelven el primer/último elemento de la lista que cumple el filtro.
 
 _`<listExpression>.first(<condition>)`_
 
@@ -204,13 +204,13 @@ El resultado es &quot;token_2&quot;.
 >
 >Los eventos de experiencia se recuperan de Adobe Experience Platform como una colección en orden cronológico inverso, por lo tanto:
 >
->* **[!UICONTROL first]** devuelve el evento más reciente
->* **[!UICONTROL last]** devolverá la más antigua.
+>* **[!UICONTROL first]** devolverá el evento más reciente.
+>* **[!UICONTROL last]** La función devolverá la más antigua.
 
 
 **Ejemplo 3:**
 
-Comprobamos si el primer evento (más reciente) de Adobe Analytics con un valor distinto de cero para el ID de DMA tiene un valor igual a 602.
+Comprobamos si el primer evento de Adobe Analytics (el más reciente) con un valor distinto de cero para el ID de DMA tiene un valor igual a 602.
 
 ```json
 #{ExperiencePlatform.AnalyticsProd_EvarsProps.experienceevent.first(
@@ -219,10 +219,10 @@ currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
 
 **La función &quot;at(`<index>`)&quot;**
 
-La variable **[!UICONTROL at]** permite hacer referencia a un elemento específico de una colección según un índice.
+El **[!UICONTROL at]** permite hacer referencia a un elemento específico de una colección según un índice.
 El índice 0 es el primer índice de la colección.
 
-_`<listExpression>`.at(`<index>`)_
+_`<listExpression>`.at()`<index>`)_
 
 **Ejemplo:**
 

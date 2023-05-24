@@ -15,7 +15,7 @@ ht-degree: 18%
 
 # endWithIgnoreCase {#endWithIgnoreCase}
 
-Comprueba si la primera cadena de argumento termina con una cadena específica (segunda cadena de argumento), sin tener en cuenta las mayúsculas y minúsculas.
+Comprueba si la cadena del primer argumento termina con una cadena específica (cadena del segundo argumento), sin tener en cuenta el caso.
 
 ## Categoría
 

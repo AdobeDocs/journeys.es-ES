@@ -47,7 +47,7 @@ El punto de partida de un recorrido es siempre un evento. Puede hacer pruebas co
 
 Puede comprobar si la llamada API que envía a través de estas herramientas se envía correctamente o no. Si vuelve a recibir un error, significa que la llamada tiene un problema. Vuelva a comprobar la carga útil, el encabezado (y especialmente el ID de organización) y la dirección URL de destino. Puede preguntar a su administrador cuál es la dirección URL correcta para visitar.
 
-Los eventos no se insertan directamente del origen a [!DNL Journey Orchestration]. De hecho, [!DNL Journey Orchestration] se basa en las API de ingesta de transmisión de Adobe Experience Platform. Como resultado, en caso de problemas relacionados con eventos, puede hacer referencia a [esta página](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html) para la solución de problemas de las API de ingesta de transmisión.
+Los eventos no se insertan directamente del origen a [!DNL Journey Orchestration]. De hecho, [!DNL Journey Orchestration] se basa en las API de ingesta de transmisión de Adobe Experience Platform. Como resultado, en caso de problemas relacionados con el evento, puede consultar [esta página](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html) para la solución de problemas de API de ingesta de transmisión.
 
 ## Comprobación de si las personas entran en el recorrido{#section_x4v_zzs_dgb}
 

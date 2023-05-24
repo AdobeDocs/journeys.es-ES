@@ -15,7 +15,7 @@ ht-degree: 25%
 
 # endWith {#endWith}
 
-Devuelve el valor verdadero si el segundo parámetro es un sufijo del primero.
+Devuelve true si el segundo parámetro es un sufijo del primero.
 
 ## Categoría
 

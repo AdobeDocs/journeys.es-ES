@@ -102,7 +102,7 @@ Después de la condición se crean dos rutas:
 
    ![](../assets/journeyuc2_18.png)
 
-1. Cuando se selecciona un campo de una fuente de datos externa, la parte derecha de la pantalla muestra la lista de parámetros que se definieron al configurar la fuente de datos externa (consulte [esta página](../usecase/configuring-the-data-sources.md)). Haga clic en el nombre del parámetro y defina el valor de la clave del sistema reservas, la ID de Experience Cloud, en nuestro ejemplo:
+1. Cuando se selecciona un campo de una fuente de datos externa, en la parte derecha de la pantalla se muestra la lista de parámetros que se definieron al configurar la fuente de datos externa (consulte [esta página](../usecase/configuring-the-data-sources.md)). Haga clic en el nombre del parámetro y defina el valor de la clave del sistema reservas, la ID de Experience Cloud, en nuestro ejemplo:
 
    ```
    @{LobbyBeacon.endUserIDs._experience.mcid.id}

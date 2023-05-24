@@ -67,7 +67,7 @@ Puede pasar una colección en parámetros de acción personalizados que se relle
    }
    ```
 
-* Para probar colecciones mediante el modo de prueba, debe utilizar el modo de vista de código. El modo de vista de código no es compatible con eventos empresariales en este momento. Solo puede enviar una colección con un solo elemento.
+* Para probar colecciones con el modo de prueba, debe utilizar el modo de vista de código. El modo de vista de código no es compatible con eventos empresariales en este momento. Solo puede enviar una colección con un solo elemento.
 
 ## Procedimiento general {#general-procedure}
 
@@ -97,47 +97,47 @@ En esta sección, utilizaremos el siguiente ejemplo de carga útil JSON. Es una 
 }
 ```
 
-Se puede ver que &quot;productos&quot; es una matriz de dos objetos. Debe tener al menos un objeto.
+Se puede ver que &quot;products&quot; es una matriz de dos objetos. Debe tener al menos un objeto.
 
 1. Cree su acción personalizada. Consulte [esta página](../action/about-custom-action-configuration.md).
 
-1. En el **[!UICONTROL Action parameters]** , pegue el ejemplo de JSON. La estructura mostrada es estática: al pegar la carga útil, todos los campos se definen como constantes.
+1. En el **[!UICONTROL Action parameters]** , pegue el ejemplo JSON. La estructura mostrada es estática: al pegar la carga útil, todos los campos se definen como constantes.
 
    ![](../assets/uc-collection-1.png)
 
-1. Si es necesario, ajuste los tipos de campo. Los siguientes tipos de campos son compatibles con las colecciones: listString, listInteger, listDecimal, listBoolean, listDateTime, listDateTimeOnly, listDateOnly, listObject
+1. Si es necesario, ajuste los tipos de campo. Se admiten los siguientes tipos de campos para colecciones: listString, listInteger, listDecimal, listBoolean, listDateTime, listDateTimeOnly, listDateOnly, listObject
 
    >[!NOTE]
    >
    >El tipo de campo se infiere automáticamente según el ejemplo de carga útil.
 
-1. Si desea pasar objetos de forma dinámica, debe definirlos como variables. En este ejemplo establecemos &quot;productos&quot; como variable. Todos los campos de objeto incluidos en el objeto se establecen en variables automáticamente.
+1. Si desea pasar objetos de forma dinámica, debe establecerlos como variables. En este ejemplo establecemos &quot;products&quot; como variable. Todos los campos de objeto incluidos en el objeto se establecen en variables automáticamente.
 
    >[!NOTE]
    >
    >El primer objeto del ejemplo de carga útil se utiliza para definir los campos.
 
-1. Para cada campo, defina la etiqueta que se mostrará en el lienzo del recorrido.
+1. Para cada campo, defina la etiqueta que se mostrará en el lienzo de recorrido.
 
    ![](../assets/uc-collection-2.png)
 
 1. Cree el recorrido y añada la acción personalizada que ha creado. Consulte [esta página](../building-journeys/using-custom-actions.md).
 
-1. En el **[!UICONTROL Action parameters]** , defina el parámetro de matriz (&quot;products&quot; en nuestro ejemplo) utilizando el editor de expresiones avanzadas.
+1. En el **[!UICONTROL Action parameters]** En la sección, defina el parámetro de matriz (&quot;productos&quot; en nuestro ejemplo) utilizando el editor de expresiones avanzadas.
 
    ![](../assets/uc-collection-3.png)
 
-1. Para cada uno de los campos de objeto siguientes, escriba el nombre de campo correspondiente del esquema XDM de origen. Si los nombres son idénticos, no es necesario. En nuestro ejemplo, solo necesitamos definir &quot;id de producto&quot; y &quot;color&quot;.
+1. Para cada uno de los siguientes campos de objeto, escriba el nombre del campo correspondiente del esquema XDM de origen. Si los nombres son idénticos, no es necesario. En nuestro ejemplo, solo necesitamos definir &quot;id de producto&quot; y &quot;color&quot;.
 
    ![](../assets/uc-collection-4.png)
 
-Para el campo de matriz, también puede utilizar el editor de expresiones avanzadas para realizar la manipulación de datos. En el siguiente ejemplo, utilizamos la variable [filter](../functions/functionfilter.md) y [intersección](../functions/functionintersect.md) funciones:
+Para el campo de matriz, también puede utilizar el editor de expresiones avanzadas para realizar la manipulación de datos. En el siguiente ejemplo, utilizamos la variable [filter](../functions/functionfilter.md) y [intersect](../functions/functionintersect.md) funciones:
 
 ![](../assets/uc-collection-5.png)
 
 ## Casos particulares{#examples}
 
-Para tipos heterogéneos y matrices de matrices, la matriz se define con el tipo listAny . Solo puede asignar elementos individuales, pero no puede cambiar la matriz a variable.
+Para los tipos y matrices heterogéneos de matrices, la matriz se define con el tipo listAny. Solo puede asignar elementos individuales, pero no puede cambiar la matriz a variable.
 
 ![](../assets/uc-collection-heterogeneous.png)
 

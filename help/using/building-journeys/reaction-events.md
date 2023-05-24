@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: Eventos de reacción
+title: Eventos de reacciones
 description: Más información sobre los eventos de reacción
 feature: Journeys
 role: User
@@ -15,31 +15,31 @@ ht-degree: 2%
 
 # Eventos de reacción {#section_dhx_gss_dgb}
 
-Entre las distintas actividades de evento disponibles en la paleta, se encuentra el complemento **[!UICONTROL Reactions]** evento. Esta actividad le permite reaccionar ante el seguimiento de datos relacionados con un mensaje enviado con actividades de correo electrónico, SMS o push dentro del mismo recorrido. Esta información se obtiene a partir de la mensajería transaccional en Adobe Campaign Standard. Capturamos esta información en tiempo real en el momento en que se comparte con Adobe Experience Platform. Para las notificaciones push, puede reaccionar a mensajes en los que se ha hecho clic, enviados o en los que se han producido errores. En el caso de los mensajes SMS, puede reaccionar ante los mensajes enviados o fallidos. En el caso de los correos electrónicos, puede reaccionar ante los mensajes en los que se ha hecho clic, se han enviado, se han abierto o no se han podido realizar.
+Entre las diferentes actividades de evento disponibles en la paleta, se encuentra la incorporada **[!UICONTROL Reactions]** evento. Esta actividad le permite reaccionar al seguimiento de datos relacionados con un mensaje enviado con actividades de correo electrónico, SMS o push dentro del mismo recorrido. Esta información proviene de la mensajería transaccional de Adobe Campaign Standard. Capturamos esta información en tiempo real en el momento en que se comparte con Adobe Experience Platform. Para las notificaciones push, puede reaccionar a los mensajes en los que se ha hecho clic, enviados o fallidos. En el caso de los mensajes SMS, puede reaccionar a los mensajes enviados o fallidos. En el caso de los correos electrónicos, puede reaccionar a los mensajes en los que se ha hecho clic, enviados, abiertos o fallidos.
 
-También puede utilizar este mecanismo para realizar una acción cuando no haya reacción a sus mensajes. Para ello, cree una segunda ruta paralela a la actividad de reacción y añada una actividad de espera. Si no hay ninguna reacción durante el periodo definido en la actividad de espera, se elige la segunda ruta. Puede optar por enviar, por ejemplo, un mensaje de seguimiento.
+También puede utilizar este mecanismo para realizar una acción cuando no haya ninguna reacción a los mensajes. Para ello, cree una segunda ruta paralela a la actividad de reacción y añada una actividad de espera. Si no hay ninguna reacción durante el periodo definido en la actividad de espera, se elige la segunda ruta. Puede elegir enviar, por ejemplo, un mensaje de seguimiento.
 
-Tenga en cuenta que solo puede utilizar una actividad de reacción en el lienzo si antes hay una actividad de correo electrónico, push o SMS.
+Tenga en cuenta que solo puede utilizar una actividad de reacción en el lienzo si hay una actividad de correo electrónico, push o SMS antes de.
 
 Consulte [Acerca de las actividades de acción](../building-journeys/about-action-activities.md).
 
 ![](../assets/journey45.png)
 
-Estos son los diferentes pasos para configurar los eventos de reacción:
+Estos son los pasos para configurar los eventos de reacción:
 
-1. Agregue un **[!UICONTROL Label]** a la reacción. Este paso es opcional.
-1. En la lista desplegable, seleccione la actividad de acción a la que desee reaccionar. Puede seleccionar cualquier actividad de acción posicionada en los pasos anteriores de la ruta.
-1. En función de la acción seleccionada (un correo electrónico, un SMS o una notificación push), elija a qué desea reaccionar.
+1. Añadir un **[!UICONTROL Label]** a la reacción. Este paso es opcional.
+1. En la lista desplegable, seleccione la actividad de acción a la que desee reaccionar. Puede seleccionar cualquier actividad de acción colocada en los pasos anteriores de la ruta.
+1. Según la acción seleccionada (un correo electrónico, SMS o una notificación push), elija a qué desea reaccionar.
 1. Puede definir un tiempo de espera de evento (entre 40 segundos y 30 días) y una ruta de tiempo de espera. Esto creará una segunda ruta para las personas que no reaccionaron dentro de la duración definida. Al probar un recorrido que utiliza un evento de reacción, el modo de prueba **[!UICONTROL Wait time]** el valor predeterminado y mínimo es de 40 segundos. Consulte [esta sección](../building-journeys/testing-the-journey.md).
 
 >[!NOTE]
 >
->Los eventos de reacción funcionan con Adobe Campaign Standard, tanto si se implementan en servidores de AWS como Azure.
+>Los eventos de reacción funcionan con Adobe Campaign Standard, tanto si se implementa en servidores de AWS como de Azure.
 >
->Los eventos de reacción no pueden rastrear correos electrónicos, SMS o acciones push que se producen en un recorrido diferente.
+>Los eventos de reacción no pueden rastrear acciones de correo electrónico, SMS o push que se produzcan en un recorrido diferente.
 >
->Los eventos de reacción rastrean clics en vínculos del tipo &quot;rastreados&quot; (consulte esta [página](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/links.html#about-tracked-urls)). No se tienen en cuenta los vínculos de páginas espejo y de baja de suscripción.
+>Los eventos de reacción rastrean los clics en vínculos del tipo &quot;rastreado&quot; (consulte esto [página](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/links.html#about-tracked-urls)). No se tienen en cuenta los vínculos de baja de suscripción y de página espejo.
 
 >[!IMPORTANT]
 >
->Los clientes de correo electrónico como Gmail permiten el bloqueo de imágenes. Las aperturas de correo electrónico se rastrean utilizando una imagen de 0 píxeles incluida en el correo electrónico. Si las imágenes están bloqueadas, las aperturas por correo electrónico no se tienen en cuenta.
+>Los clientes de correo electrónico como Gmail permiten el bloqueo de imágenes. El seguimiento de las aperturas de los correos electrónicos se realiza mediante una imagen de 0 píxeles incluida en el correo electrónico. Si las imágenes están bloqueadas, las aperturas de correo electrónico no se tendrán en cuenta.

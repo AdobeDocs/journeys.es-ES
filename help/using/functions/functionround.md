@@ -15,7 +15,7 @@ ht-degree: 20%
 
 # round {#round}
 
-Devuelve el valor entero más cercano al argumento con vínculos redondeados al infinito positivo.
+Devuelve el valor entero más cercano al argumento con vínculos de redondeo al infinito positivo.
 
 ## Categoría
 

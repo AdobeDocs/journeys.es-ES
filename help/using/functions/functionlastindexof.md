@@ -15,7 +15,7 @@ ht-degree: 20%
 
 # lastIndexOf {#lastIndexOf}
 
-Devuelve la posición (en el primer argumento) de la última incidencia del segundo parámetro. Devuelve -1 si no hay coincidencia.
+Devuelve la posición (en el primer argumento) de la última aparición del segundo parámetro. Devuelve -1 si no hay ninguna coincidencia.
 
 ## Categoría
 
@@ -36,7 +36,7 @@ Cadena
 
 `lastIndexOf(<string>,<string>)`
 
-Devuelve un número entero.
+Devuelve un entero.
 
 ## Ejemplo
 
@@ -46,4 +46,4 @@ Devuelve 3.
 
 Explicación:
 
-En &quot;Hello&quot;, la última incidencia de &quot;l&quot; es en la posición 3.
+En &quot;Hello&quot;, la última ocurrencia de &quot;l&quot; está en la posición 3.

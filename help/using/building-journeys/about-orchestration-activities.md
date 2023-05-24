@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: Acerca de las actividades de orquestación
-description: Obtenga información sobre las actividades de organización
+description: Obtenga información sobre las actividades de orquestación
 feature: Journeys
 role: User
 level: Intermediate
@@ -15,7 +15,7 @@ ht-degree: 37%
 
 # Acerca de las actividades de orquestación {#concept_ksq_2rt_52b}
 
-En la paleta, en la parte izquierda de la pantalla, están disponibles las siguientes actividades de organización:
+En la paleta, en el lado izquierdo de la pantalla, están disponibles las siguientes actividades de orquestación:
 
 * [Actividad de condición](../building-journeys/condition-activity.md)
 * [Actividad final](../building-journeys/end-activity.md)

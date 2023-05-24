@@ -30,7 +30,7 @@ Las acciones están disponibles en la paleta izquierda del recorrido, en la **[!
 >
 >La configuración de las acciones personalizadas siempre la realiza un **usuario técnico**.
 
-En la lista de **acciones**, puede pulsar c para crear un nuevo recorrido, acción, fuente de datos o evento. Para obtener más información sobre los métodos abreviados de teclado en [!DNL Journey Orchestration], consulte [esta sección](../about/user-interface.md#section_ksq_zr1_ffb).
+En la lista de **acciones**, puede pulsar c para crear un nuevo recorrido, acción, fuente de datos o evento. Para obtener más información sobre los accesos directos en [!DNL Journey Orchestration], consulte [esta sección](../about/user-interface.md#section_ksq_zr1_ffb).
 
 Para ver la lista de acciones o configurar una nueva acción, haga clic en **[!UICONTROL Actions]** en los menús superiores. Se muestra la lista de acciones. Consulte [esta página](../about/user-interface.md) para obtener más información sobre la interfaz.
 

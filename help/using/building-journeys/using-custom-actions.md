@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: Uso de acciones personalizadas
-description: Descubra más información sobre las actividades de acción
+description: Más información sobre las actividades de acción
 feature: Journeys
 role: User
 level: Intermediate
@@ -21,13 +21,13 @@ El panel de configuración de actividad muestra los parámetros de configuració
 
 ### Ruta dinámica
 
-Si la dirección URL incluye una ruta dinámica, especifique la ruta en la **[!UICONTROL Path]** campo .
+Si la dirección URL incluye una ruta dinámica, especifique la ruta en la variable **[!UICONTROL Path]** field.
 
 >[!NOTE]
 >
->No se puede configurar la parte estática de la URL en el recorrido, sino en la configuración global de la acción personalizada. [Más información](../action/about-custom-action-configuration.md).
+>No se puede configurar la parte estática de la URL en la recorrido, sino en la configuración global de la acción personalizada. [Más información](../action/about-custom-action-configuration.md).
 
-Para concatenar campos y cadenas de texto sin formato, utilice las funciones de cadena o el signo más (+) en el editor de expresiones avanzadas. Escriba cadenas de texto sin formato entre comillas simples (&#39;) o entre comillas dobles (&quot;). [Más información](../expression/expressionadvanced.md).
+Para concatenar campos y cadenas de texto sin formato, utilice las funciones Cadena o el signo Más (+) en el editor de expresiones avanzadas. Escriba las cadenas de texto sin formato entre comillas simples (&#39;) o dobles (&quot;). [Más información](../expression/expressionadvanced.md).
 
 Esta tabla muestra un ejemplo de configuración:
 
@@ -36,7 +36,7 @@ Esta tabla muestra un ejemplo de configuración:
 | URL | `https://xxx.yyy.com:8080/somethingstatic/` |
 | Ruta | `The id of marketingCampaign + '/messages'` |
 
-La dirección URL concatenada tiene este formulario:
+La URL concatenada tiene este formulario:
 
 `https://xxx.yyy.com:8080/somethingstatic/`\&lt;campaign id=&quot;&quot;>`/messages`
 
@@ -44,12 +44,12 @@ La dirección URL concatenada tiene este formulario:
 
 ### Encabezados
 
-La variable **[!UICONTROL URL Configuration]** muestra los campos del encabezado dinámico, pero no los campos del encabezado constante. Los campos de encabezado dinámico son campos de encabezado HTTP cuyo valor está configurado como variable. [Más información](../action/about-custom-action-configuration.md).
+El **[!UICONTROL URL Configuration]** Esta sección muestra los campos de encabezado dinámicos, pero no los campos de encabezado constantes. Los campos de encabezado dinámicos son campos de encabezado HTTP cuyo valor se configura como variable. [Más información](../action/about-custom-action-configuration.md).
 
-Si es necesario, especifique el valor de los campos del encabezado dinámico:
+Si es necesario, especifique el valor de los campos de encabezado dinámico:
 
-1. Seleccione la acción personalizada en el recorrido .
-1. En el panel de configuración, haga clic en el icono de lápiz situado junto al campo de encabezado en la **[!UICONTROL URL Configuration]** para obtener más información.
+1. Seleccione la acción personalizada en el recorrido.
+1. En el panel de configuración, haga clic en el icono de lápiz situado junto al campo de encabezado en la **[!UICONTROL URL Configuration]** sección.
 
    ![](../assets/journey-dynamicheaderfield.png)
 
@@ -57,7 +57,7 @@ Si es necesario, especifique el valor de los campos del encabezado dinámico:
 
 ## Parámetros de acción
 
-En el **[!UICONTROL Action parameters]** , verá los parámetros de mensaje definidos como _&quot;Variable&quot;_. Para estos parámetros, puede definir dónde obtener esta información (por ejemplo: eventos, fuentes de datos), pase valores manualmente o utilice el editor de expresiones avanzadas para casos de uso avanzados. Los casos de uso avanzados pueden ser manipulación de datos y otro uso de funciones. [Más información](../expression/expressionadvanced.md).
+En el **[!UICONTROL Action parameters]** , verá los parámetros de mensaje definidos como _&quot;Variable&quot;_. Para estos parámetros, puede definir de dónde obtener esta información (por ejemplo: eventos, fuentes de datos), pasar valores manualmente o utilizar el editor de expresiones avanzadas para casos de uso avanzados. Los casos de uso avanzados pueden ser manipulación de datos y otro uso de funciones. [Más información](../expression/expressionadvanced.md).
 
 **Temas relacionados**
 

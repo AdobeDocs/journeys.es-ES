@@ -15,23 +15,23 @@ ht-degree: 4%
 
 # Esquemas de ExperienceEvent para [!DNL Journey Orchestration] Eventos
 
-[!DNL Journey Orchestration] los eventos son eventos de experiencia XDM que se envían a Adobe Experience Platform mediante la ingesta de flujo.
+[!DNL Journey Orchestration] Los eventos son eventos de experiencia XDM que se envían a Adobe Experience Platform mediante la ingesta de flujos.
 
-Como tal, un requisito previo importante para configurar eventos para [!DNL Journey Orchestration] es que está familiarizado con el Modelo de datos de experiencia (o XDM) de Adobe Experience Platform y con cómo componer esquemas de eventos de experiencia XDM, así como con cómo transmitir datos con formato XDM a Adobe Experience Platform.
+Como tal, un requisito previo importante para configurar eventos para [!DNL Journey Orchestration] Esto le indica que está familiarizado con el modelo de datos de Experience de Adobe Experience Platform (o XDM) y con cómo componer esquemas de evento de experiencia XDM, así como con cómo transmitir datos con formato XDM a Adobe Experience Platform.
 
 ## Requisitos de esquema para [!DNL Journey Orchestration] Eventos
 
-El primer paso para configurar un evento para [!DNL Journey Orchestration] es para asegurarse de que tiene un esquema XDM definido para representar el evento y un conjunto de datos creado para registrar instancias del evento en Adobe Experience Platform. Tener un conjunto de datos para sus eventos no es estrictamente necesario, pero enviar los eventos a un conjunto de datos específico le permitirá mantener el historial de eventos de los usuarios para futuras referencias y análisis, por lo que siempre es una buena idea. Si aún no tiene un esquema y un conjunto de datos adecuados para el evento, ambas tareas se pueden realizar en la interfaz web de Adobe Experience Platform.
+El primer paso para configurar un evento de [!DNL Journey Orchestration] es garantizar que tiene un esquema XDM definido para representar el evento y un conjunto de datos creado para registrar instancias del evento en Adobe Experience Platform. Tener un conjunto de datos para sus eventos no es estrictamente necesario, pero enviar los eventos a un conjunto de datos específico le permitirá mantener el historial de eventos de los usuarios para referencias y análisis futuros, por lo que siempre es una buena idea. Si aún no tiene un esquema y un conjunto de datos adecuados para su evento, ambas tareas se pueden realizar en la interfaz web de Adobe Experience Platform.
 
 ![](../assets/schema1.png)
 
-Cualquier esquema XDM que se utilice para [!DNL Journey Orchestration] los eventos deben cumplir los siguientes requisitos:
+Cualquier esquema XDM que se vaya a utilizar para [!DNL Journey Orchestration] Los eventos de deben cumplir los siguientes requisitos:
 
-* El esquema debe pertenecer a la clase XDM ExperienceEvent .
+* El esquema debe ser de la clase XDM ExperienceEvent.
 
    ![](../assets/schema2.png)
 
-* Para los eventos generados por el sistema, el esquema debe incluir la mezcla eventID de organización. [!DNL Journey Orchestration] utiliza este campo para identificar eventos utilizados en recorridos.
+* Para los eventos generados por el sistema, el esquema debe incluir el mixin de ID de evento de orquestación. [!DNL Journey Orchestration] utiliza este campo para identificar eventos utilizados en recorridos.
 
    ![](../assets/schema3.png)
 
@@ -45,7 +45,7 @@ Cualquier esquema XDM que se utilice para [!DNL Journey Orchestration] los event
 
    ![](../assets/schema6.png)
 
-* No dude en incluir campos de datos para capturar cualquier otro dato de contexto que desee incluir con el evento, como información sobre el usuario, el dispositivo desde el cual se generó el evento, la ubicación o cualquier otra circunstancia significativa relacionada con el evento.
+* No dude en incluir campos de datos para capturar cualquier otro dato de contexto que desee incluir en el evento, como información sobre el usuario, el dispositivo desde el que se generó el evento, la ubicación o cualquier otra circunstancia significativa relacionada con el evento.
 
    ![](../assets/schema7.png)
 
@@ -55,29 +55,29 @@ Cualquier esquema XDM que se utilice para [!DNL Journey Orchestration] los event
 
 Adobe Experience Platform le permite definir relaciones entre esquemas para utilizar un conjunto de datos como una tabla de búsqueda para otro.
 
-Supongamos que el modelo de datos de marca tiene un esquema que captura las compras. También tiene un esquema para el catálogo de productos. Puede capturar el ID del producto en el esquema de compra y utilizar una relación para buscar detalles de producto más completos en el catálogo de productos. Esto le permite crear un segmento para todos los clientes que compraron un portátil, por ejemplo, sin tener que enumerar explícitamente todos los ID de un portátil ni capturar todos los detalles de producto en sistemas transaccionales.
+Supongamos que el modelo de datos de marca tiene un esquema que captura las compras. También tiene un esquema para el catálogo de productos. Puede capturar el ID de producto en el esquema de compra y utilizar una relación para buscar detalles de producto más completos en el catálogo de productos. Esto le permite crear un segmento para todos los clientes que compraron un portátil, por ejemplo, sin tener que enumerar explícitamente todos los ID de portátil ni capturar todos los detalles del producto en sistemas transaccionales.
 
-Para definir una relación, debe tener un campo dedicado en el esquema de origen, en este caso el campo ID del producto en el esquema de compra. Este campo debe hacer referencia al campo ID del producto en el esquema de destino. Las tablas de origen y destino deben estar habilitadas para perfiles y el esquema de destino debe tener ese campo común definido como su identidad principal.
+Para definir una relación, debe tener un campo dedicado en el esquema de origen, en este caso el campo ID de producto en el esquema de compra. Este campo debe hacer referencia al campo de ID de producto en el esquema de destino. Las tablas de origen y destino deben estar habilitadas para los perfiles y el esquema de destino debe tener ese campo común definido como su identidad principal.
 
-Este es el esquema de catálogo de productos habilitado para perfil con el ID de producto definido como identidad principal.
+Este es el esquema del catálogo de productos habilitado para el perfil con el ID de producto definido como identidad principal.
 
 ![](../assets/schema9.png)
 
-Este es el esquema de compra con la relación definida en el campo ID del producto.
+Este es el esquema de compra con la relación definida en el campo ID de producto.
 
 ![](../assets/schema10.png)
 
 >[!NOTE]
 >
->Obtenga más información sobre las relaciones de esquema en la [documentación del Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en).
+>Obtenga más información sobre las relaciones de esquema en la [Documentación del Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en).
 
 En Journey Orchestration, puede aprovechar todos los campos de las tablas vinculadas:
 
 * al configurar un evento unitario, [Más información](../event/experience-event-schema.md#unitary_event_configuration)
 * cuando se utilizan condiciones en un recorrido, [Más información](../event/experience-event-schema.md#journey_conditions_using_event_context)
-* en personalización de acciones personalizadas, [Más información](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
+* en la personalización de acciones personalizadas, [Más información](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
 
-### Configuración de eventos unitarios{#unitary_event_configuration}
+### Configuración de evento unitario{#unitary_event_configuration}
 
 Los campos de esquema vinculados están disponibles en la configuración de evento unitario:
 
@@ -91,23 +91,23 @@ Los campos vinculados no están disponibles:
 * en la fórmula de clave de evento
 * en la condición de id de evento (eventos basados en reglas)
 
-Para aprender a configurar un evento unitario, consulte esta [página](../event/about-creating.md).
+Para aprender a configurar un evento unitario, consulte [página](../event/about-creating.md).
 
-### condiciones de recorrido mediante el contexto del evento{#journey_conditions_using_event_context}
+### Condiciones de recorrido que utilizan el contexto de evento{#journey_conditions_using_event_context}
 
-Puede utilizar datos de una tabla de consulta vinculada a un evento utilizado en un recorrido para la creación de condiciones (editor de expresiones).
+Puede utilizar datos de una tabla de búsqueda vinculada a un evento utilizado en un recorrido para la creación de condiciones (editor de expresiones).
 
 Añada una condición en un recorrido, edite la expresión y despliegue el nodo de evento en el editor de expresiones.
 
 ![](../assets/schema12.png)
 
-Para aprender a definir las condiciones de recorrido, consulte esta [página](../building-journeys/condition-activity.md).
+Para aprender a definir las condiciones de recorrido, consulte esta sección [página](../building-journeys/condition-activity.md).
 
-### Personalización de la acción con contexto de evento de recorrido{#custom_action_personalization_with_journey_event_context}
+### Personalización de acciones con contexto de evento de recorrido{#custom_action_personalization_with_journey_event_context}
 
 Los campos vinculados están disponibles al configurar los parámetros de acción de una actividad de acción de recorrido.
 
 ![](../assets/schema13.png)
 
-Para aprender a utilizar acciones personalizadas, consulte esta [página](../building-journeys/using-custom-actions.md).
+Para aprender a utilizar acciones personalizadas, consulte esta sección [página](../building-journeys/using-custom-actions.md).
 

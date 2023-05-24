@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: en
-description: Obtenga información sobre la función en
+description: Obtenga información acerca de la función en
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,9 +15,9 @@ ht-degree: 21%
 
 # en {#in}
 
-Comprueba si el primer valor de argumento está en la lista. La comprobación se realiza mediante un valor Equal en cada valor de argumento. Devuelve true si se encuentra el valor del argumento, false en caso contrario.
+Comprueba si el primer valor del argumento está en la lista. La comprobación se realiza mediante un valor Equal en cada argumento value. Devuelve true si se encuentra el valor del argumento; en caso contrario, devuelve false.
 
-El tipo de `<expression>` debe coincidir con elementos de la lista. Los tipos de elementos de la lista, como recordatorio, deben coincidir entre sí.
+El tipo de `<expression>` debe coincidir con los elementos de la lista. Los tipos de elementos de la lista, como recordatorio, deben coincidir entre sí.
 
 ## Categoría
 
@@ -65,7 +65,7 @@ Lista
 
 `in(<duration>,<listDuration>)`
 
-Devuelve un booleano.
+Devuelve un valor booleano.
 
 ## Ejemplo
 

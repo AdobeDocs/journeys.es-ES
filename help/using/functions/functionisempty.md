@@ -15,7 +15,7 @@ ht-degree: 19%
 
 # isEmpty {#isEmpty}
 
-Devuelve true si la cadena del parámetro no tiene ningún carácter.
+Devuelve true si la cadena del parámetro no tiene carácter.
 
 ## Categoría
 

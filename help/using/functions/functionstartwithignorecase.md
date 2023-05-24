@@ -30,13 +30,13 @@ Cadena
 | Parámetro | Tipo |
 |-------------|--------|
 | string | string |
-| prefix | string |
+| prefijo | string |
 
 ## Firma y tipo devuelto
 
 `startWithIgnoreCase(<string>,<string>)`
 
-Devuelve un booleano.
+Devuelve un valor booleano.
 
 ## Ejemplo
 

@@ -15,7 +15,7 @@ ht-degree: 17%
 
 # sum {#sum}
 
-Devuelve la suma de los valores de un conjunto de expresiones. Se omiten los valores nulos.
+Devuelve la suma de los valores de un conjunto de expresiones. Los valores nulos se omiten.
 
 ## Categoría
 
@@ -37,19 +37,19 @@ Agregación
 
 `sum(<listDecimal>)`
 
-Devuelve un decimal.
+Devuelve un valor decimal.
 
 `sum(<listInteger>)`
 
-Devuelve un número entero.
+Devuelve un entero.
 
 `sum(<integer>,<integer>)`
 
-Devuelve un número entero.
+Devuelve un entero.
 
 `sum(<decimal>,<decimal>)`
 
-Devuelve un decimal.
+Devuelve un valor decimal.
 
 ## Ejemplos
 

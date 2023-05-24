@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: Referencias de campo
-description: Obtenga información sobre referencias de campo en expresiones avanzadas
+description: Obtenga información sobre las referencias de campo en expresiones avanzadas
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -21,7 +21,7 @@ Si utiliza caracteres especiales en un campo, debe utilizar comillas dobles o si
 
 * el campo comienza con caracteres numéricos
 * el campo comienza con el carácter &quot;-&quot;
-* el campo contiene cualquier cosa que no sea: _a_-_z_, _A_-_Z_, _0_-_9_, _ , _-_
+* el campo contiene cualquier cosa excepto: _a_-_z_, _A_-_Z_, _0_-_9_, _ , _-_
 
 Por ejemplo, si el campo es _3 h_: _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
 
@@ -35,9 +35,9 @@ Por ejemplo, si el campo es _3 h_: _#{OpenWeather.weatherData.rain.&#39;3h&#39;}
 #{ExperiencePlatform.ProfileFieldGroup.profile.personalEmail.address}
 ```
 
-En la expresión, se hace referencia a los campos de evento con &quot;@&quot; y a los campos de origen de datos con &quot;#&quot;.
+En la expresión, se hace referencia a los campos de evento con &quot;@&quot; y a los campos de fuente de datos con &quot;#&quot;.
 
-Se utiliza un color de sintaxis para distinguir visualmente los campos de eventos (verde) de los grupos de campos (azul).
+Se utiliza un color de sintaxis para distinguir visualmente campos de eventos (verde) de grupos de campos (azul).
 
 ## Valores predeterminados para referencias de campo {#default-value}
 
@@ -54,7 +54,7 @@ Se puede asociar un valor predeterminado con un nombre de campo. La sintaxis de 
 
 >[!NOTE]
 >
->El tipo del campo y el valor predeterminado deben ser los mismos. Por ejemplo, @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2} no será válido porque el valor predeterminado es un número entero, mientras que el valor esperado debe ser una cadena.
+>El tipo de campo y el valor predeterminado deben ser el mismo. Por ejemplo, @{LobbyBeacon.endUserIDs._experience.email.id, defaultValue : 2} no será válido porque el valor predeterminado es un entero, mientras que el valor esperado debe ser una cadena.
 
 Ejemplos:
 
@@ -88,7 +88,7 @@ expression examples:
 - #{ACP.Profile.person.age}                      -> null
 ```
 
-Puede añadir cualquier tipo de expresión como valor predeterminado. La única restricción es que la expresión debe devolver el tipo de datos esperado. Cuando se utiliza una función, es necesario encapsular la función con ().
+Puede agregar cualquier tipo de expresión como valor predeterminado. La única restricción es que la expresión debe devolver el tipo de datos esperado. Cuando se utiliza una función, es necesario encapsular la función con ().
 
 ```
 #{ExperiencePlatform.Subscriptions.profile.consents.marketing.any.time, defaultValue : (now())} 
@@ -97,7 +97,7 @@ Puede añadir cualquier tipo de expresión como valor predeterminado. La única 
 
 ## Referencia a un campo dentro de colecciones
 
-Se hace referencia a los elementos definidos dentro de las colecciones mediante las funciones específicas `all`, `first` y `last`. Para obtener más información, consulte [esta página](../expression/collection-management-functions.md).
+Se hace referencia a los elementos definidos dentro de colecciones utilizando las funciones específicas `all`, `first` y `last`. Para obtener más información, consulte [esta página](../expression/collection-management-functions.md).
 
 Por ejemplo :
 
@@ -109,17 +109,17 @@ Por ejemplo :
 
 ### Función  de `entry`
 
-Para recuperar un elemento en un mapa, utilizamos la función de entrada con una clave determinada. Por ejemplo, se utiliza al definir la clave de un evento, según el espacio de nombres seleccionado. Consulte Selección del área de nombres. Para obtener más información, consulte [esta página](../event/selecting-the-namespace.md).
+Para recuperar un elemento en un mapa, utilizamos la función de entrada con una clave determinada. Por ejemplo, se utiliza al definir la clave de un evento, según el área de nombres seleccionada. Consulte Selección del área de nombres. Para obtener más información, consulte [esta página](../event/selecting-the-namespace.md).
 
 ```json
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-En esta expresión, se obtiene la entrada para la clave &quot;Correo electrónico&quot; del campo &quot;Mapa de identidad&quot; de un evento. La entrada &quot;Correo electrónico&quot; es una colección, de la que tomamos el &quot;id&quot; en el primer elemento utilizando &quot;first()&quot;. Para obtener más información, consulte [esta página](../expression/collection-management-functions.md).
+En esta expresión, se obtiene la entrada para la clave &quot;Email&quot; del campo &quot;IdentityMap&quot; de un evento. La entrada &quot;Correo electrónico&quot; es una colección, de la que tomamos el &quot;id&quot; en el primer elemento utilizando &quot;first()&quot;. Para obtener más información, consulte [esta página](../expression/collection-management-functions.md).
 
 ### Función  de `firstEntryKey`
 
-Para recuperar la primera clave de entrada de un mapa, utilice el `firstEntryKey` función.
+Para recuperar la primera clave de entrada de un mapa, utilice la variable `firstEntryKey` función.
 
 Este ejemplo muestra cómo recuperar la primera dirección de correo electrónico de los suscriptores de una lista específica:
 
@@ -127,13 +127,13 @@ Este ejemplo muestra cómo recuperar la primera dirección de correo electrónic
 #{ExperiencePlatform.Subscriptions.profile.consents.marketing.email.subscriptions.entry('daily-email').subscribers.firstEntryKey()}
 ```
 
-En este ejemplo, la lista de suscripción tiene el nombre `daily-email`. Las direcciones de correo electrónico se definen como claves en la variable `subscribers` , que está vinculado al mapa de lista de suscripción.
+En este ejemplo, la lista de suscripción se denomina `daily-email`. Las direcciones de correo electrónico se definen como claves en la variable `subscribers` map, que está vinculado al mapa de la lista de suscripción.
 
 ### Función  de `keys`
 
 Para recuperar todas las claves de un mapa, utilice el `keys` función.
 
-Este ejemplo muestra cómo recuperar, para un perfil específico, todas las direcciones de correo electrónico asociadas con los suscriptores de una lista específica:
+Este ejemplo muestra cómo recuperar, para un perfil específico, todas las direcciones de correo electrónico asociadas a los suscriptores de una lista específica:
 
 ```json
 #{ExperiencePlatform.Subscriptions.profile.consents.marketing.email.subscriptions.entry('daily-mail').subscribers.keys()
@@ -141,13 +141,13 @@ Este ejemplo muestra cómo recuperar, para un perfil específico, todas las dire
 
 ## Valores de parámetro de una fuente de datos (valores dinámicos de la fuente de datos)
 
-Si selecciona un campo de una fuente de datos externa que requiere que se llame a un parámetro, aparece una nueva pestaña a la derecha para permitirle especificar este parámetro. Consulte [esta página](../expression/expressionadvanced.md).
+Si selecciona un campo de una fuente de datos externa que requiere que se llame a un parámetro, aparecerá una nueva pestaña a la derecha para que pueda especificar este parámetro. Consulte [esta página](../expression/expressionadvanced.md).
 
-Para casos de uso más complejos, si desea incluir los parámetros de la fuente de datos en la expresión principal, puede definir sus valores utilizando la palabra clave _params_. Un parámetro puede ser cualquier expresión válida, incluso desde otra fuente de datos que también incluya otro parámetro.
+Para casos de uso más complejos, si desea incluir los parámetros del origen de datos en la expresión principal, puede definir sus valores con la palabra clave _parámetros_. Un parámetro puede ser cualquier expresión válida incluso desde otra fuente de datos que también incluya otro parámetro.
 
 >[!NOTE]
 >
->Cuando se definen los valores de parámetro en la expresión, la pestaña de la derecha desaparece.
+>Cuando define los valores de parámetro en la expresión, desaparece la pestaña a la derecha.
 
 Utilice la siguiente sintaxis:
 

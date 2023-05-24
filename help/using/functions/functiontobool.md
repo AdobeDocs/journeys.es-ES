@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: toBool
-description: Obtenga información sobre la función aBool
+description: Obtenga información acerca de la función toBool
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -17,8 +17,8 @@ ht-degree: 13%
 
 Convierte un valor de argumento en un valor booleano, según su tipo.
 
-* De cadena: intente convertir el valor de cadena como booleano, de &quot;true&quot; si el valor de cadena es &quot;true&quot;, en &quot;false&quot; en caso contrario
-* De cifras: true si el valor numérico no es igual a 0, false en caso contrario
+* Desde cadena: intente convertir el valor de cadena como booleano, de &quot;true&quot; si el valor de cadena es &quot;true&quot; y de &quot;false&quot; en caso contrario
+* Desde numérico: true si el valor numérico no es igual a 0, false en caso contrario
 
 ## Categoría
 
@@ -45,7 +45,7 @@ Conversión
 
 `toBool(<integer>)`
 
-Devuelve un booleano.
+Devuelve un valor booleano.
 
 ## Ejemplos
 

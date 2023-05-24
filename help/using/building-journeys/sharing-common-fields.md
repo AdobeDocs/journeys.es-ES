@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
-title: campos comunes de los eventos de los recorridos
-description: campos comunes de los eventos de los recorridos
+title: campos comunes de eventos de recorridos
+description: campos comunes de eventos de recorridos
 feature: Journeys
 role: User
 level: Intermediate
@@ -13,17 +13,17 @@ ht-degree: 9%
 
 ---
 
-# campos comunes de los eventos de los recorridos {#sharing-common-fields}
+# campos comunes de eventos de recorridos {#sharing-common-fields}
 
-Esta mezcla la compartirán journeyStepEvent y journeyStepProfileEvent.
+Este mixin lo compartirán journeyStepEvent y journeyStepProfileEvent.
 
-Estos son los campos XDM comunes que [!DNL Journey Orchestration] envía a Adobe Experience Platform. Se enviarán campos comunes para cada paso que se procese en un recorrido. Se utilizan campos más específicos para acciones y enriquecimientos personalizados.
+Estos son los campos XDM comunes que [!DNL Journey Orchestration] envía a Adobe Experience Platform. Se envían campos comunes para cada paso que se procesa en un recorrido. Se utilizan campos más específicos para acciones personalizadas y enriquecimientos.
 
 Algunos de estos campos solo están disponibles en patrones de procesamiento específicos (ejecución de acciones, recuperación de datos, etc.) para limitar el tamaño de los eventos.
 
 ## entrada
 
-Indica si el usuario ha introducido el recorrido. Si no está presente, supongamos que el valor es falso.
+Indica si el usuario ha introducido el recorrido. Si no está presente, suponemos que el valor es falso.
 
 Tipo: booleano
 
@@ -31,7 +31,7 @@ Valores: true/false
 
 ## reentrada
 
-Indica si el usuario ha vuelto a entrar en el recorrido con la misma instancia. Si no está presente, supongamos que el valor es falso.
+Indica si el usuario ha vuelto a entrar en el recorrido con la misma instancia. Si no está presente, suponemos que el valor es falso.
 
 Tipo: booleano
 
@@ -39,19 +39,19 @@ Valores: true/false
 
 ## instanceEnded
 
-Indica si la instancia ha finalizado (con éxito o no).
+Indica si la instancia ha finalizado (correctamente o no).
 
 Tipo: booleano
 
 ## eventID
 
-ID de evento en procesamiento, para el procesamiento de pasos. Si el evento es externo, el valor es eventId. Si el evento es interno, el valor es el eventId interno (como scheduledNotificationReceived, executeAction, etc.).
+ID de evento en procesamiento, para el procesamiento de pasos. Si el evento es externo, el valor es su eventId. Si el evento es interno, el valor es el eventId interno (como scheduledNotificationReceived, executeAction, etc.).
 
 Tipo: cadena
 
 ## nodeID
 
-ID de nodo de cliente (desde el lienzo).
+ID del nodo del cliente (desde el lienzo).
 
 Tipo: cadena
 
@@ -63,13 +63,13 @@ Tipo: cadena
 
 ## stepName
 
-Nombre del paso que se está procesando actualmente.
+Nombre de la etapa que se está procesando actualmente.
 
 Tipo: cadena
 
 ## stepType
 
-Tipo del paso.
+Tipo de paso.
 
 Tipo: cadena
 
@@ -82,18 +82,18 @@ Valores posibles:
 
 ## stepStatus
 
-Estado del paso, que representa el estado del paso, cuándo se ha completado su procesamiento (y el evento de paso se ha activado).
+Estado del paso, que representa el estado del paso, cuando se ha realizado su procesamiento (y se ha activado el evento del paso).
 
 Tipo: cadena
 
 El estado puede ser el siguiente:
 
-* finalizado: el paso no tiene transición y su procesamiento ha finalizado correctamente.
-* error: el procesamiento de pasos ha generado un error.
-* transiciones: el paso está esperando a que un evento pase a otro paso.
-* límite: el paso ha fallado en un error de restricción, producido durante una acción o enriquecimiento.
-* tiempo de espera: el paso ha fallado en un error de tiempo de espera, producido durante una acción o enriquecimiento.
-* instanceTimedout: el paso ha detenido su procesamiento, ya que la instancia ha alcanzado su tiempo de espera.
+* ended: el paso no tiene transición y su procesamiento ha finalizado correctamente.
+* error: el procesamiento de pasos ha producido un error.
+* transiciones: el paso está esperando un evento para pasar a otro paso.
+* límite: el paso ha fallado debido a un error de límite, producido durante una acción o enriquecimiento.
+* timeout: el paso ha fallado en un error de timeout, producido durante una acción o enriquecimiento.
+* instanceTimedout: el paso ha detenido su procesamiento porque la instancia ha alcanzado su tiempo de espera.
 
 ## journeyID
 
@@ -103,19 +103,19 @@ Tipo: cadena
 
 ## journeyVersionID
 
-ID de la versión de recorrido. Este id representa la referencia de identidad al recorrido, en el caso de journeyStepEvent.
+ID de la versión del recorrido. Este ID representa la referencia de identidad al recorrido, en el caso de journeyStepEvent.
 
 Tipo: cadena
 
 ## journeyVersionName
 
-Nombre de la versión de recorrido.
+Nombre de la versión del recorrido.
 
 Tipo: cadena
 
 ## journeyVersion
 
-Versión de la versión de recorrido.
+Versión de la versión del recorrido.
 
 Tipo: cadena
 
@@ -127,13 +127,13 @@ Tipo: cadena
 
 ## externalKey
 
-Clave externa extraída del evento para procesarla.
+Clave externa extraída del evento para procesarlo.
 
 Tipo: cadena
 
 ## parentStepID
 
-ID de paso del paso principal del paso procesado actual en la instancia.
+ID del paso principal del paso procesado actual en la instancia.
 
 Tipo: cadena
 
@@ -145,7 +145,7 @@ Tipo: cadena
 
 ## parentTransitionID
 
-Id de la transición que ha llevado la instancia al paso procesado.
+ID de la transición que ha llevado la instancia al paso procesado.
 
 Tipo: cadena
 
@@ -163,44 +163,44 @@ Tipo: booleano
 
 ## processingTime
 
-Cantidad total de tiempo en milisegundos desde la entrada del paso de la instancia hasta el final del procesamiento.
+Cantidad total de tiempo en milisegundos desde la entrada del paso de instancia hasta el final del procesamiento.
 
 Tipo: long
 
 ## instanceType
 
-Indica el tipo de instancia, si es por lotes o unitarios.
+Indica el tipo de instancia, si es por lotes o unitario.
 
 Tipo: cadena
 
-Valores: lote/unidad
+Valores: lote/unitario
 
 ## recurrenceIndex
 
-Índice de la periodicidad si el recorrido es por lotes y recurrente (la primera ejecución tiene el índice de recurrencia = 1).
+Índice de periodicidad si el recorrido es por lotes y recurrente (la primera ejecución tiene recurrenceIndex = 1).
 
 Tipo: long
 
 ## isBatchToUnitary
 
-Indica si esta instancia unitaria se ha activado desde una instancia por lotes.
+Indica si esta instancia unitaria se ha activado desde una instancia de lote.
 
 Tipo: booleano
 
 ## batchExternalKey
 
-Clave externa para el evento por lotes.
+Clave externa del evento por lotes.
 
 Tipo: cadena
 
 ## batchInstanceID
 
-es el ID de instancia por lotes.
+este es el ID de instancia de lote.
 
 Tipo: cadena
 
 ## batchUnitaryBranchID
 
-si la instancia se ha activado desde una instancia de lote, ID de rama unitaria.
+si la instancia se ha activado desde una instancia de lote, ID de rama unitario.
 
 Tipo: cadena

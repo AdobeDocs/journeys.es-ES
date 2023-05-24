@@ -15,7 +15,7 @@ ht-degree: 20%
 
 # inNextMonths {#inNextMonths}
 
-Devuelve el valor verdadero si una fecha determinada o dateTime está entre ahora y ahora + meses delta.
+Devuelve verdadero si una fecha o fechaHora determinada está entre ahora y ahora + meses delta.
 
 ## Categoría
 

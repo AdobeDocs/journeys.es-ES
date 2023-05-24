@@ -15,7 +15,7 @@ ht-degree: 20%
 
 # inNextYears {#inNextYears}
 
-Devuelve el valor verdadero si una fecha determinada o dateTime está entre ahora y ahora + años delta.
+Devuelve true si una fecha o dateTime determinada está entre ahora y ahora + años delta.
 
 ## Categoría
 

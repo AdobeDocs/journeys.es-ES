@@ -15,7 +15,7 @@ ht-degree: 20%
 
 # inLastMonths {#inLastMonths}
 
-Devuelve el valor verdadero si una fecha determinada o dateTime está entre ahora y ahora: meses delta.
+Devuelve true si una fecha o dateTime determinada está entre ahora y ahora (meses delta).
 
 ## Categoría
 

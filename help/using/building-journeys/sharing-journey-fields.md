@@ -15,17 +15,17 @@ ht-degree: 28%
 
 # campos del recorrido {#sharing-journey-fields}
 
-Esta mezcla se utiliza en el esquema de recorrido (en relación con journeyStepEvent). Contiene los siguientes campos:
+Este mixin se utiliza en el esquema de recorrido (en relación con journeyStepEvent). Contiene los siguientes campos:
 
 ## journeyID
 
-Id del recorrido principal.
+ID del recorrido principal.
 
 Tipo: cadena
 
 ## journeyVersionID
 
-Id de la versión de recorrido. Este id representa la identidad de un recorrido.
+ID de la versión del recorrido. Este ID representa la identidad de un recorrido.
 
 Tipo: cadena
 
@@ -35,7 +35,7 @@ Nombre del recorrido.
 
 Tipo: cadena
 
-## description
+## descripción
 
 Descripción del recorrido.
 

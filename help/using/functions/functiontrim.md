@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: trim
-description: Obtenga información sobre la función trim
+description: Obtenga información sobre la regulación de funciones
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 32%
 
 # trim {#trim}
 
-Elimina los espacios inicial y final.
+Elimina los espacios iniciales y finales.
 
 ## Categoría
 
@@ -35,7 +35,7 @@ Cadena
 
 `trim(<string>)`
 
-Devuelve una cadena.
+Devolver una cadena.
 
 ## Ejemplo
 

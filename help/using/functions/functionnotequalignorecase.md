@@ -15,7 +15,7 @@ ht-degree: 13%
 
 # notEqualIgnoreCase {#notEqualIgnoreCase}
 
-Compruebe si la primera cadena de argumento con la segunda cadena de argumento es diferente, ignorando las consideraciones de mayúsculas y minúsculas.
+Compruebe si la cadena del primer argumento con la cadena del segundo argumento es diferente, ignorando las consideraciones de mayúsculas y minúsculas.
 
 ## Categoría
 

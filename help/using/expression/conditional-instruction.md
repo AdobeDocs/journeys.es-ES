@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
-title: Instrucción condicional (if, then, else)
-description: Más información sobre la instrucción condicional
+title: Instrucción condicional (si, entonces, de lo contrario)
+description: Obtenga información acerca de la instrucción condicional
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -13,17 +13,17 @@ ht-degree: 0%
 
 ---
 
-# Instrucción condicional (if, then, else) {#section_cdz_lsk_w3b}
+# Instrucción condicional (si, entonces, de lo contrario) {#section_cdz_lsk_w3b}
 
-La instrucción condicional (si, entonces, si no) es compatible con el editor avanzado. Permite definir expresiones más complejas. Se compone de los siguientes elementos:
+La instrucción condicional (if, then, else) se admite en el editor avanzado. Permite definir expresiones más complejas. Se compone de los siguientes elementos:
 
-* **[!UICONTROL if]**: la condición que se va a evaluar primero.
+* **[!UICONTROL if]**: condición que se debe evaluar primero.
 * **[!UICONTROL then]**: la expresión que se va a evaluar en caso de que el resultado de la evaluación de la condición sea true.
-* **[!UICONTROL else]**: la expresión que se va a evaluar en caso de que el resultado de la evaluación de la condición sea false.
+* **[!UICONTROL else]**: la expresión que se va a evaluar en caso de que el resultado de la evaluación de la condición sea falso.
 
 >[!NOTE]
 >
->Se requieren paréntesis en todas las expresiones.
+>Se requieren paréntesis alrededor de todas las expresiones.
 
 ```json
 if  (<expression1>)

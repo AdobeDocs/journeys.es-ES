@@ -15,38 +15,38 @@ ht-degree: 16%
 
 # Configuración de las fuentes de datos {#concept_vml_hdy_w2b}
 
-En nuestro caso de uso, queremos utilizar datos de personalización para nuestros mensajes. También tenemos que comprobar si la persona es un miembro socio y no ha sido contactada en las últimas 24 horas. Esta información se almacena en la base de datos Perfil del cliente en tiempo real. La variable **usuario técnico** debe configurar la fuente de datos de Adobe Experience Platform para recuperar esos campos.
+En nuestro caso de uso, queremos utilizar datos de personalización para nuestros mensajes. También debemos comprobar si la persona es un miembro socio y si no se ha contactado en las últimas 24 horas. Esta información se almacena en la base de datos de Perfil del cliente en tiempo real. El **usuario técnico** debe configurar la fuente de datos de Adobe Experience Platform para recuperar esos campos.
 
-Para obtener información adicional sobre la configuración de la fuente de datos, consulte [esta página](../datasource/about-data-sources.md).
+Para obtener más información sobre la configuración de fuentes de datos, consulte [esta página](../datasource/about-data-sources.md).
 
-1. En el panel de menú, seleccione **[!UICONTROL Admin]**. En la sección **[!UICONTROL Data sources]**, haga clic en **[!UICONTROL Manage]**.
+1. En el panel de menús, seleccione **[!UICONTROL Admin]**. En la sección **[!UICONTROL Data sources]**, haga clic en **[!UICONTROL Manage]**.
 1. Seleccione la fuente de datos integrada de Adobe Experience Platform.
 
    ![](../assets/journey23.png)
 
 1. En los campos de grupo preconfigurados, compruebe que los siguientes campos estén seleccionados:
 
-   * _person > name > firstName_
-   * _person > name > lastName_
-   * _personalEmail > dirección_
+   * _persona > nombre > firstName_
+   * _persona > nombre > lastName_
+   * _personalEmail > address_
 
-1. Haga clic en **[!UICONTROL Add a New Field Group]**, seleccione un **[!UICONTROL Profiles]** esquema y añadir **Miembro socio** para nuestra condición. La variable **Miembro socio** El campo es un campo personalizado y se agregó en XDM: &quot;_customer > marlton > loyaltyMember&quot;
+1. Clic **[!UICONTROL Add a New Field Group]**, seleccione una **[!UICONTROL Profiles]** y añada el **Miembro socio** campo para nuestra condición. El **Miembro socio** Este campo es un campo personalizado y se ha añadido en XDM: &quot;_customer > marlton > loyaltyMember&quot;
 
    ![](../assets/journeyuc2_6.png)
 
-1. Haga clic en **[!UICONTROL Add a New Field Group]**, seleccione un **[!UICONTROL ExperienceEvent]** y seleccione los campos necesarios para nuestra condición en el número de mensajes enviados en un periodo determinado: _timestamp_ para la fecha y _directMarketing > envía > valor_ para el número de mensajes enviados.
+1. Clic **[!UICONTROL Add a New Field Group]**, seleccione una **[!UICONTROL ExperienceEvent]** y elija los campos necesarios para su condición en el número de mensajes enviados en un periodo determinado: _timestamp_ para la fecha y _directMarketing > envía > valor_ para el número de mensajes enviados.
 
    ![](../assets/journeyuc2_7.png)
 
 1. Haga clic en **[!UICONTROL Save]**.
 
-También tenemos que comprobar si la persona tiene una reserva en el sistema de reservas de hotel. La variable **usuario técnico** debe configurar una segunda fuente de datos para recuperar este campo.
+También es necesario comprobar si la persona tiene una reserva en el sistema de reserva del hotel. El **usuario técnico** debe configurar una segunda fuente de datos para recuperar este campo.
 
-1. En la lista de fuentes de datos, haga clic en **[!UICONTROL Add]** para agregar una nueva fuente de datos externa para definir la conexión con su sistema de reservas de hotel.
+1. En la lista de fuentes de datos, haga clic en **[!UICONTROL Add]** para añadir una nueva fuente de datos externa para definir la conexión con el sistema de reserva de hoteles.
 
    ![](../assets/journeyuc2_9.png)
 
-1. Introduzca un nombre para la fuente de datos y la URL del servicio externo, por ejemplo: _https://marlton.com/reservation_
+1. Introduzca un nombre para la fuente de datos y la dirección URL del servicio externo, por ejemplo: _https://marlton.com/reservation_
 
    >[!CAUTION]
    >
@@ -56,10 +56,10 @@ También tenemos que comprobar si la persona tiene una reserva en el sistema de 
 
    ![](../assets/journeyuc2_10.png)
 
-1. Haga clic en **[!UICONTROL Add a New Field Group]** para definir la información que se va a recuperar y los parámetros de API. Para nuestro ejemplo, solo hay un parámetro (el id), por lo que necesitamos crear un grupo de campos con la siguiente información:
+1. Clic **[!UICONTROL Add a New Field Group]** para definir la información que se va a recuperar y los parámetros de la API. Para nuestro ejemplo, solo hay un parámetro (el ID), por lo que necesitamos crear un grupo de campos con la siguiente información:
 
    * **[!UICONTROL Method]**: seleccione el método POST o GET. En nuestro caso, seleccionamos el método GET.
-   * **[!UICONTROL Response Payload]**: haga clic dentro de **[!UICONTROL Payload]** y pegue un ejemplo de la carga útil. Compruebe que los tipos de campo son correctos. Cada vez que se llama a la API, el sistema recupera todos los campos incluidos en el ejemplo de carga útil. En nuestro ejemplo, la carga útil solo contiene el estado de reserva:
+   * **[!UICONTROL Response Payload]**: haga clic dentro de **[!UICONTROL Payload]** y pegue un ejemplo de carga útil. Compruebe que los tipos de campo son correctos. Cada vez que se llama a la API, el sistema recupera todos los campos incluidos en el ejemplo de carga útil. En nuestro ejemplo, la carga útil solo contiene el estado de reserva:
 
    ```
    {
@@ -67,10 +67,10 @@ También tenemos que comprobar si la persona tiene una reserva en el sistema de 
    }
    ```
 
-   * **[!UICONTROL Dynamic Values]**: introduzca el parámetro correspondiente a la clave utilizada para identificar a cada cliente, &quot;id&quot; en nuestro ejemplo. El valor de este parámetro se define en el recorrido .
+   * **[!UICONTROL Dynamic Values]**: introduzca el parámetro correspondiente a la clave utilizada para identificar a cada cliente, &quot;id&quot; en nuestro ejemplo. El valor de este parámetro se define en el recorrido.
 
    ![](../assets/journeyuc2_11.png)
 
 1. Haga clic en **[!UICONTROL Save]**.
 
-   Las fuentes de datos ahora están configuradas y listas para utilizarse en el recorrido.
+   Las fuentes de datos están ahora configuradas y listas para utilizarse en el recorrido.

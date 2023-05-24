@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: distinct
-description: Obtenga información sobre la función distinta
+description: Obtenga información acerca de la función distinct
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # distinct {#distinct}
 
-Devuelve los valores u objetos distintos de una lista determinada. Se omiten las entradas nulas.
+Devuelve los distintos valores u objetos de una lista determinada. Las entradas nulas se omiten.
 
 ## Categoría
 
@@ -48,11 +48,11 @@ Devuelve una lista de cadenas.
 
 `distinct(<listDateTimeOnly>)`
 
-Devuelve una lista de tiempos de datos sin tener en cuenta la zona horaria.
+Devuelve una lista de horas de fecha sin tener en cuenta la zona horaria.
 
 `distinct(<listDateTime>)`
 
-Devuelve una lista de tiempos de datos.
+Devuelve una lista de fechas y horas.
 
 `distinct(<listDateOnly>)`
 
@@ -60,7 +60,7 @@ Devuelve una lista de fechas.
 
 `distinct(<listBoolean>)`
 
-Devuelve una lista de booleanos.
+Devuelve una lista de valores booleanos.
 
 `distinct(<listDuration>)`
 

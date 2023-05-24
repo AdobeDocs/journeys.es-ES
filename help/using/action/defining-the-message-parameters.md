@@ -17,19 +17,19 @@ ht-degree: 4%
 
 ![](../assets/messageparameterssection.png)
 
-En el **[!UICONTROL Action parameters]** , pegue un ejemplo de la carga útil JSON para enviarla al servicio externo.
+En el **[!UICONTROL Action parameters]** , pegue un ejemplo de la carga útil JSON para enviar al servicio externo.
 
 ![](../assets/customactionpayloadmessage.png)
 
 >[!NOTE]
 >
->Los nombres de campo de la carga útil no pueden contener &quot;.&quot; carácter. No pueden empezar con un carácter &quot;$&quot;.
+>Los nombres de campo en la carga no pueden contener un &quot;&quot;. carácter. No pueden comenzar con el carácter &quot;$&quot;.
 
-Puede definir el tipo de parámetro (p. ej.: string, integer, etc.).
+Podrá definir el tipo de parámetro (por ejemplo, cadena, entero, etc.).
 
-También tendrá la opción de especificar si un parámetro es una constante o una variable:
+También puede elegir entre especificar si un parámetro es una constante o una variable:
 
-* Constante significa que el valor del parámetro se define en el panel de configuración de acciones mediante un perfil técnico. El valor siempre será el mismo en todos los recorridos. No variará y el especialista en marketing no lo verá al utilizar la acción personalizada en el recorrido. Podría ser, por ejemplo, un ID que el sistema de terceros espera. En ese caso, el campo a la derecha de la constante o variable de alternancia es el valor pasado.
-* Variable significa que el valor del parámetro variará. El especialista en marketing que utilice esta acción personalizada en un recorrido podrá pasar el valor que desee o especificar dónde recuperar el valor para este parámetro (por ejemplo, desde el evento, desde Adobe Experience Platform, etc.). En ese caso, el campo a la derecha de la constante o variable de alternancia es la etiqueta que el especialista en marketing verá en el recorrido para asignar un nombre a este parámetro.
+* Constante significa que el valor del parámetro se define en el panel de configuración de acciones por una persona técnica. El valor siempre será el mismo en todos los recorridos. No variará y el experto en marketing no lo verá al utilizar la acción personalizada en el recorrido. Podría ser, por ejemplo, un ID que espere el sistema de terceros. En ese caso, el campo a la derecha de la constante/variable de alternancia es el valor pasado.
+* Variable significa que el valor del parámetro variará. El experto en marketing que utilice esta acción personalizada en un recorrido podrá transferir libremente el valor que desee o especificar dónde recuperar el valor de este parámetro (por ejemplo, desde el evento, desde Adobe Experience Platform, etc.). En ese caso, el campo a la derecha de la constante/variable de alternancia es la etiqueta que el experto en marketing verá en el recorrido para asignar un nombre a este parámetro.
 
 ![](../assets/customactionpayloadmessage2.png)

@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: replace
-description: Obtenga información sobre la sustitución de funciones
+description: Obtenga información acerca de la sustitución de funciones
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,9 +15,9 @@ ht-degree: 10%
 
 # replace {#replace}
 
-Reemplaza la primera incidencia que coincide con la cadena de destino por la cadena de reemplazo de la cadena base.
+Reemplaza la primera incidencia que coincida con la cadena de destino por la cadena de reemplazo de la cadena base.
 
-La sustitución procede desde el principio de la cadena hasta el final, por ejemplo, reemplazar &quot;aa&quot; por &quot;b&quot; en la cadena &quot;aaa&quot; resultará en &quot;ba&quot; en lugar de &quot;ab&quot;.
+La sustitución se realiza desde el principio de la cadena hasta el final, por ejemplo, si se sustituye &quot;a&quot; por &quot;b&quot; en la cadena &quot;aaa&quot;, el resultado será &quot;ba&quot; en lugar de &quot;ab&quot;.
 
 ## Categoría
 
@@ -31,31 +31,31 @@ Cadena
 
 | Parámetro | Tipo |
 |-----------|--------------|
-| base | string |
-| target | string (RegExp) |
+| basar | string |
+| target | cadena (RegExp) |
 | reemplazo | string |
 
 ## Firma y tipo devuelto
 
 `replace(<base>,<target>,<replacement>)`
 
-Devuelve una cadena.
+Devolver una cadena.
 
 ## Ejemplo 1
 
 `replace("Hello World", "l", "x")`
 
-Devuelve &quot;Hexlo World&quot;.
+Devuelve &quot;Mundo Hexlo&quot;.
 
 ## Ejemplo 2 {#example_2}
 
-Como el parámetro de destino es un RegExp, según la cadena que desee reemplazar, es posible que tenga que escapar algunos caracteres. Vea el siguiente ejemplo:
+Dado que el parámetro de destino es RegExp, en función de la cadena que desee reemplazar, es posible que tenga que omitir algunos caracteres. Vea el siguiente ejemplo:
 
-* cadena que se va a evaluar: `|OFFER_A|OFFER_B`
+* cadena que evaluar: `|OFFER_A|OFFER_B`
 * proporcionado por un atributo de perfil `#{ExperiencePlatform.myFieldGroup.profile.myOffers}`
-* Cadena que se va a reemplazar: `|OFFER_A`
+* Cadena que reemplazar: `|OFFER_A`
 * Cadena reemplazada por: `''`
-* Debe añadir `\\` antes de que `|` carácter.
+* Debe agregar lo siguiente `\\` antes del `|` carácter.
 
 La expresión es:
 
@@ -63,6 +63,6 @@ La expresión es:
 
 La cadena devuelta es: `|OFFER_B`
 
-También puede crear la cadena que desea reemplazar desde un atributo determinado:
+También puede generar la cadena que desea reemplazar desde un atributo determinado:
 
 `replace(#{ExperiencePlatform.myFieldGroup.profile.myOffers}, '\\|' + #{ExperiencePlatform.myFieldGroup.profile.myOfferCode}, '')`

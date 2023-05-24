@@ -40,7 +40,7 @@ En la Admin Console, puede asignar a los usuarios uno de los siguientes perfiles
 
    >[!NOTE]
    >
-   >**[!UICONTROL Administrators]** es el único perfil de productos que permite crear, editar y publicar mensajes transaccionales (o plantillas de mensajería) en Adobe Campaign Standard. Este perfil de producto es necesario si utiliza Adobe Campaign Standard para enviar mensajes en sus recorridos. No se le debe cambiar el nombre en Admin Console.
+   >**[!UICONTROL Administrators]** es el único perfil de productos que permite crear, editar y publicar mensajes transaccionales (o plantillas de mensajería) en Adobe Campaign Standard. Este perfil de producto es necesario si utiliza Adobe Campaign Standard para enviar mensajes en sus recorridos. No se debe cambiar el nombre en Admin Console.
 
 * **[!UICONTROL Standard User]**: usuario con acceso básico, como administración de recorridos. Este perfil de productos incluye los siguientes permisos:
    * Administrar recorridos
@@ -65,11 +65,11 @@ A continuación se muestra la compatibilidad entre los permisos y las diferentes
 
 ## Creación de un perfil de producto {#create-product-profile}
 
-[!DNL Journey Orchestration] le permite crear sus propios perfiles de productos, y asignar un conjunto de permisos y entornos limitados a los usuarios. Con los perfiles del producto, puede autorizar o denegar el acceso a determinadas funcionalidades u objetos de la interfaz.
+[!DNL Journey Orchestration] le permite crear sus propios perfiles de productos, y asignar un conjunto de permisos y zonas protegidas a los usuarios. Con los perfiles del producto, puede autorizar o denegar el acceso a determinadas funcionalidades u objetos de la interfaz.
 
-Para obtener más información sobre cómo crear y administrar entornos limitados, consulte la documentación de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=es).
+Para obtener más información sobre cómo crear y administrar zonas protegidas, consulte la documentación de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=es).
 
-Para crear un perfil de producto, y asignar un conjunto de permisos y entornos limitados haga esto:
+Para crear un perfil de producto, y asignar un conjunto de permisos y zonas protegidas, haga lo siguiente:
 
 1. En Admin Console, seleccione **[!UICONTROL Journey Orchestration]**. En la pestaña **[!UICONTROL Product profile]**, haga clic en **[!UICONTROL New Profile]**.
 
@@ -91,7 +91,7 @@ Para crear un perfil de producto, y asignar un conjunto de permisos y entornos l
 
    ![](../assets/do-not-localize/user_management_7.png)
 
-1. En la categoría de permisos, elija qué simulador de pruebas desea asignar al perfil del producto. **[!UICONTROL Sandboxes]** En **[!UICONTROL Available Permissions Items]**, haga clic en el icono de signo más (+) para asignar entornos limitados al perfil. Para obtener más información sobre los entornos limitados, consulte esta [sección](../about/access-management.md#sandboxes).
+1. En la categoría de permisos **[!UICONTROL Sandboxes]**, elija qué zonas protegidas desea asignar al perfil del producto. En **[!UICONTROL Available Permissions Items]**, haga clic en el icono de signo más (+) para asignar zonas protegidas al perfil. Para obtener más información sobre las zonas protegidas, consulte esta [sección](../about/access-management.md#sandboxes).
 
    ![](../assets/do-not-localize/user_management_8.png)
 
@@ -135,12 +135,12 @@ Para asignar un perfil de producto para que un usuario tenga acceso [!DNL Journe
 
 El usuario debe recibir un correo electrónico que le redirija a su instancia [!DNL Journey Orchestration].
 
-## Uso de entornos limitados {#sandboxes}
+## Uso de zonas protegidas {#sandboxes}
 
-[!DNL Journey Orchestration] le permite particionar la instancia en entornos virtuales separados, llamados entornos limitados.
-Los entornos limitados para pruebas se asignan mediante perfiles de producto en la Admin Console. Para obtener más información sobre cómo asignar entornos limitados, consulte esta [sección](../about/access-management.md#create-product-profile).
+[!DNL Journey Orchestration] le permite particionar la instancia en entornos virtuales separados, llamados zonas protegidas.
+Las zonas protegidas se asignan mediante perfiles de producto en la Admin Console. Para obtener más información sobre cómo asignar zonas protegidas, consulte esta [sección](../about/access-management.md#create-product-profile).
 
-[!DNL Journey Orchestration] refleja los entornos limitados de Adobe Experience Platform creados para una organización determinada.
-Los entornos limitados de Adobe Experience Platform se pueden crear o restablecer desde la instancia de Adobe Experience Platform. Consulte la [guía del usuario de entornos limitados](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=es) para pruebas para conocer los pasos detallados.
+[!DNL Journey Orchestration] refleja las zonas protegidas de Adobe Experience Platform creadas para una organización determinada.
+Las zonas protegidas de Adobe Experience Platform se pueden crear o restablecer desde la instancia de Adobe Experience Platform. Consulte la [guía del usuario de zonas protegidas](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=es) para conocer los pasos detallados.
 
-Encontrará el control del conmutador de simulador de pruebas en la parte superior izquierda de la pantalla. Para cambiar de un simulador de pruebas a otro, haga clic en el simulador de pruebas activo y seleccione otro simulador de pruebas en la lista desplegable.
+Encontrará el control del conmutador de zonas protegidas en la parte superior izquierda de la pantalla. Para cambiar de una zona protegida a otra, haga clic en la zona protegida activa y seleccione otra zona protegida en la lista desplegable.

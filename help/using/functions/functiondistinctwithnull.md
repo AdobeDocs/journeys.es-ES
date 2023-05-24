@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # distinctWithNull {#distinctWithNull}
 
-Devuelve los valores u objetos distintos de una lista determinada. Si la lista tiene al menos una entrada nula, estará presente una entrada nula en la lista devuelta.
+Devuelve los distintos valores u objetos de una lista determinada. Si la lista tiene al menos una entrada nula, aparecerá una entrada nula en la lista devuelta.
 
 ## Categoría
 
@@ -48,11 +48,11 @@ Devuelve una lista de cadenas.
 
 `distinctWithNull(<listDateTimeOnly>)`
 
-Devuelve una lista de tiempos de datos sin tener en cuenta la zona horaria.
+Devuelve una lista de horas de fecha sin tener en cuenta la zona horaria.
 
 `distinctWithNull(<listDateTime>)`
 
-Devuelve una lista de tiempos de datos.
+Devuelve una lista de fechas y horas.
 
 `distinctWithNull(<listDateOnly>)`
 
@@ -60,7 +60,7 @@ Devuelve una lista de fechas.
 
 `distinctWithNull(<listBoolean>)`
 
-Devuelve una lista de booleanos.
+Devuelve una lista de valores booleanos.
 
 `distinctWithNull(<listDuration>)`
 

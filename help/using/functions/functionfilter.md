@@ -15,7 +15,7 @@ ht-degree: 10%
 
 # filter{#filter}
 
-Devuelve un listObject con objetos cuyo atributo clave coincida con uno de los valores de clave determinados.
+Devuelve un listObject con objetos cuyo atributo key coincide con uno de los valores de clave determinados.
 
 ## Categoría
 
@@ -30,8 +30,8 @@ Lista
 | Parámetro | Tipo | Descripción |
 |-----------|------------------|------------------|
 | listToFilter | listObject | lista de objetos que se van a filtrar. Debe ser una referencia de campo. |
-| keyAttributeName | string | nombre de atributo en los objetos de la lista dada, utilizado como clave para filtrar |
-| keyValueList | list | matriz de valores clave para filtrar |
+| keyAttributeName | string | nombre del atributo en los objetos de la lista dada, utilizado como clave para el filtrado |
+| keyValueList | list | matriz de valores clave para el filtrado |
 
 ## Firmas y tipos devueltos
 
@@ -55,7 +55,7 @@ Devuelve un listObject.
 
 ## Ejemplos
 
-Este es un ejemplo de carga útil que se pasa en un evento entrante &quot;myevent&quot;:
+Este es un ejemplo de una carga útil pasada en un evento entrante &quot;myevent&quot;:
 
 ```json
 "productListItems": [{

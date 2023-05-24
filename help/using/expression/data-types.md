@@ -15,7 +15,7 @@ ht-degree: 6%
 
 # Tipos de datos {#concept_gp3_rj5_dgb}
 
-Técnicamente, una constante siempre contiene un tipo de datos. En la expresión literal, solo se especifica el valor. El tipo de datos se puede inferir del valor (por ejemplo, cadena, entero, decimal, etc.). Para casos específicos como la hora de la fecha, utilizamos funciones específicas para la representación.
+Técnicamente, una constante siempre contiene un tipo de datos. En la expresión literal, solo se especifica el valor. El tipo de datos se puede inferir del valor (por ejemplo, cadena, entero, decimal, etc.). Para casos específicos como la fecha y la hora, utilizamos funciones dedicadas para la representación.
 
 Las secciones siguientes proporcionan información sobre las diferentes expresiones de tipo de datos y cómo se representan.
 
@@ -23,9 +23,9 @@ Las secciones siguientes proporcionan información sobre las diferentes expresio
 
 **Descripción**
 
-Secuencia común de caracteres. No tiene ningún tamaño específico excepto el implícito que proviene del entorno, como la cantidad de memoria disponible.
+Secuencia común de caracteres. No tiene ningún tamaño específico, excepto el implícito que proviene del entorno, como la cantidad de memoria disponible.
 
-Formato JSON: Cadena
+Formato JSON: String
 
 Formato de serialización: UTF-8
 
@@ -53,9 +53,9 @@ Formato de serialización: UTF-8
 
 **Descripción**
 
-Valor entero de -2^63 a 2^63-1.
+Valor entero entre -2^63 y 2^63-1.
 
-Formato JSON: Número
+Formato JSON: número
 
 **Representación literal**
 
@@ -76,10 +76,10 @@ Formato JSON: Número
 Número decimal. Representa un valor flotante:
 
 * mayor valor finito positivo de tipo doble, (2-2^-52)x2^1023
-* menor valor normal positivo de tipo doble, 2-1022
-* menor valor positivo distinto de cero del tipo doble, 2 p-1074
+* el menor valor normal positivo del tipo doble, 2-1022
+* el menor valor positivo distinto de cero del tipo double, 2 p-1074
 
-Formato JSON: Número
+Formato JSON: número
 
 Formato de serialización: usando &#39;.&#39; como separador decimal.
 
@@ -101,7 +101,7 @@ Formato de serialización: usando &#39;.&#39; como separador decimal.
 
 Valor booleano escrito en minúsculas: true o false
 
-Formato JSON: Booleano
+Formato JSON: booleano
 
 **Representación literal**
 
@@ -123,17 +123,17 @@ true
 
 **Descripción**
 
-Representa una fecha únicamente sin zona horaria, vista como un año-mes-día.
+Representa solo una fecha sin una zona horaria, vista como un año-mes-día.
 
-Es una descripción de la fecha, como se usa para cumpleaños.
+Es una descripción de la fecha, tal como se utiliza para los cumpleaños.
 
-Formato JSON: Cadena.
+Formato JSON: String.
 
 El formato es: AAAA-MM-DD (ISO-8601), por ejemplo: &quot;2021-03-11&quot;.
 
-Se puede encapsular en una función toDateOnly .
+Se puede encapsular en una función toDateOnly.
 
-Utiliza DateTimeForsubject ISO_LOCAL_DATE_TIME para deserializar y serializar el valor. [Más información](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6)
+Utiliza DateTimeFormatter ISO_LOCAL_DATE_TIME para deserializar y serializar el valor. [Más información](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6)
 
 **Representación literal**
 
@@ -151,19 +151,19 @@ date("2021-02-19")
 
 **Descripción**
 
-Representa una fecha y hora sin zona horaria, vista como año-mes-día-hora-segundo-milisegundo.
+Representa una fecha y hora sin una zona horaria, vista como año-mes-día-hora-minuto-segundo-milisegundo.
 
-Formato JSON: Cadena.
+Formato JSON: String.
 
-No almacena ni representa un huso horario. En su lugar, es una descripción de la fecha, como se usa para cumpleaños, combinada con la hora local como se ve en un reloj de pared.
+No almacena ni representa una zona horaria. En su lugar, es una descripción de la fecha, como se utiliza para los cumpleaños, combinada con la hora local, como se ve en un reloj de pared.
 
-No puede representar un instante en la línea de tiempo sin información adicional, como desplazamiento o zona horaria.
+No puede representar un instante en la línea de tiempo sin información adicional, como un desplazamiento o una zona horaria.
 
-Se puede encapsular en una función toDateTimeOnly .
+Se puede encapsular en una función toDateTimeOnly.
 
-Formato de serialización: Formato de fecha y hora de desvío extendido ISO-8601.
+Formato de serialización: formato de fecha y hora de desplazamiento extendido ISO-8601.
 
-Utiliza DateTimeForsubject ISO_LOCAL_DATE_TIME para deserializar y serializar el valor. [Más información](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
+Utiliza DateTimeFormatter ISO_LOCAL_DATE_TIME para deserializar y serializar el valor. [Más información](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
 
 **Representación literal**
 
@@ -182,21 +182,21 @@ date("2021-02-19T00.00")
 
 **Descripción**
 
-Constante de fecha y hora que también tiene en cuenta la zona horaria. Representa una fecha y hora con un desplazamiento con respecto a UTC.
+Constante de fecha y hora que también considera la zona horaria. Representa una fecha y hora con un desplazamiento con respecto a UTC.
 
-Se puede ver como un instante en el tiempo con la información adicional del desplazamiento. Es una manera de representar un &quot;momento&quot; específico en un lugar determinado del mundo.
+Se puede ver como un instante en el tiempo con la información adicional del offset. Es una manera de representar un &quot;momento&quot; específico en un determinado lugar del mundo.
 
-Formato JSON: Cadena.
+Formato JSON: String.
 
-Se puede encapsular en una función toDateTime .
+Se puede encapsular en una función toDateTime.
 
-Formato de serialización: Formato de fecha y hora de desvío extendido ISO-8601.
+Formato de serialización: formato de fecha y hora de desplazamiento extendido ISO-8601.
 
-Para deserializar y serializar el valor, utiliza DateTimeForsubject ISO_OFFSET_DATE_TIME. [Más información](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
+Utiliza DateTimeFormatter ISO_OFFSET_DATE_TIME para deserializar y serializar el valor. [Más información](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
 
-También puede pasar un entero que pase un valor de epoch. [Más información](https://www.epochconverter.com)
+También puede pasar un entero que pase un valor epoch. [Más información](https://www.epochconverter.com)
 
-La zona horaria se puede especificar mediante un desplazamiento o un código de zona horaria (ejemplo: Europa/París, Z (es decir, UTC).
+La zona horaria se puede especificar mediante un desplazamiento o un código de zona horaria (por ejemplo: Europa/París, Z - que significa UTC).
 
 **Representación literal**
 
@@ -250,13 +250,13 @@ Representa una cantidad de tiempo basada en el tiempo, como &quot;34,5 segundos&
 
 Las unidades temporales admitidas son: milisegundos, segundos, minutos, horas, días en los que un día es igual a 24 horas. No se admiten años y meses porque no son una cantidad de tiempo fija.
 
-Formato JSON: Cadena.
+Formato JSON: String.
 
-Debe encapsularse en una función toDuration .
+Debe encapsularse en una función toDuration.
 
-Formato de serialización: Para deserializar un ID de zona horaria, utiliza la función java java.time.
+Formato de serialización: para deserializar un ID de zona horaria, se utiliza la función java java.time.
 
-Duration.parse: los formatos aceptados se basan en el formato de duración ISO-8601 PnDTnHnMn.nS con días considerados exactamente como 24 horas. [Más información](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
+Duration.parse: los formatos aceptados se basan en el formato de duración ISO-8601 PnDTnHnMn.nS con días considerados exactamente 24 horas. [Más información](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
 
 **Representación literal**
 
@@ -314,9 +314,9 @@ toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
 
 **Descripción**
 
-Lista separada por comas de expresiones utilizando corchetes como delimitadores.
+Lista separada por comas de expresiones con corchetes como delimitadores.
 
-No se admite el polimorfismo, por lo que todas las expresiones incluidas en la lista deben tener el mismo tipo.
+No se admite el polimorfismo, por lo que todas las expresiones contenidas en la lista deben tener el mismo tipo.
 
 **Representación literal**
 

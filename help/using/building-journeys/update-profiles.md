@@ -15,23 +15,23 @@ ht-degree: 3%
 
 # Actualización de perfil {#update-profile}
 
-La variable **[!UICONTROL Update profile]** la actividad de acción le permite actualizar un perfil de Adobe Experience Platform existente con información proveniente del evento, una fuente de datos o con un valor específico.
+El **[!UICONTROL Update profile]** la actividad de acción permite actualizar un perfil de Adobe Experience Platform existente con información proveniente del evento, una fuente de datos o con un valor específico.
 
 ## Notas importantes
 
-* La variable **Actualizar perfil** la acción solo se puede utilizar en recorridos que empiecen por un evento que tenga un área de nombres.
-* La acción solo actualiza los campos existentes, no crea campos de perfil nuevos.
-* No puede usar la variable **Actualizar perfil** acción para generar eventos de experiencia, por ejemplo una compra.
-* Al igual que cualquier otra acción, puede definir una ruta alternativa en caso de error o de tiempo de espera y no puede colocar dos acciones en paralelo.
-* La solicitud de actualización enviada a Platform será rápida, pero no inmediata/en un segundo. Se tardará normalmente unos segundos, pero a veces más sin garantía. Como resultado, por ejemplo, si una acción utiliza el &quot;campo 1&quot; actualizado por una acción Actualizar perfil colocada justo antes, no debería esperar que el &quot;campo 1&quot; se actualice en la acción .
-* En el modo de prueba, la actualización de perfil no se simulará. La actualización se realizará en el perfil de prueba.
-* La variable **Actualizar perfil** la actividad no admite campos XDM definidos como una enumeración.
+* El **Actualizar perfil** la acción solo se puede utilizar en recorridos que comiencen por un evento que tenga un área de nombres.
+* La acción solo actualiza los campos existentes, no crea nuevos campos de perfil.
+* No puede usar el **Actualizar perfil** acción para generar eventos de experiencia, por ejemplo una compra.
+* Al igual que cualquier otra acción, puede definir una ruta alternativa en caso de error o tiempo de espera y no puede colocar dos acciones en paralelo.
+* La solicitud de actualización enviada a Platform será rápida, pero no inmediata/en un segundo. Tardará normalmente unos segundos, pero a veces más sin garantía. Como resultado, por ejemplo, si una acción utiliza &quot;campo 1&quot; actualizado por una acción Actualizar perfil colocada justo antes, no debería esperar que &quot;campo 1&quot; se actualice en la acción.
+* En el modo de prueba, la actualización de perfil no se simula. La actualización se realizará en el perfil de prueba.
+* El **Actualizar perfil** La actividad no admite campos XDM definidos como una enumeración.
 
-## Uso de la actualización de perfil
+## Uso de la actualización de perfiles
 
-1. Diseñe el recorrido empezando por un evento . Consulte esta [sección](../building-journeys/journey.md).
+1. Diseñe su recorrido empezando con un evento. Consulte esta [sección](../building-journeys/journey.md).
 
-1. En el **Acción** de la paleta **Actualizar perfil** actividad en el lienzo.
+1. En el **Acción** de la paleta, suelte el **Actualizar perfil** actividad en el lienzo.
 
    ![](../assets/profileupdate0.png)
 
@@ -45,18 +45,18 @@ La variable **[!UICONTROL Update profile]** la actividad de acción le permite a
 
    >[!NOTE]
    >
-   >La variable **Actualizar perfil** la acción actualiza los datos de perfil en tiempo real, pero no actualiza los conjuntos de datos. La selección del conjunto de datos es necesaria, ya que el perfil es un registro relacionado con un conjunto de datos.
+   >El **Actualizar perfil** esta acción actualiza los datos de perfil en tiempo real, pero no actualiza los conjuntos de datos. La selección del conjunto de datos es necesaria, ya que el perfil es un registro relacionado con un conjunto de datos.
 
-1. Haga clic en el **Valor** para definir el valor que desea utilizar:
+1. Haga clic en **Valor** para definir el valor que desea utilizar:
 
-   * Con el editor de expresiones simple, se puede seleccionar un campo de un origen de datos o del evento entrante.
+   * Con el editor de expresiones simple, puede seleccionar un campo de una fuente de datos o del evento entrante.
 
       ![](../assets/profileupdate4.png)
 
-   * Si desea definir un valor específico o aprovechar las funciones avanzadas, haga clic en **Modo avanzado**.
+   * Si desea definir un valor específico o aprovechar funciones avanzadas, haga clic en **Modo avanzado**.
 
       ![](../assets/profileupdate3.png)
 
-La variable **Actualizar perfil** ya está configurado.
+El **Actualizar perfil** ahora está configurado.
 
 ![](../assets/profileupdate1.png)

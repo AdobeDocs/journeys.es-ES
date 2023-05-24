@@ -15,7 +15,7 @@ ht-degree: 13%
 
 # setDays {#setDays}
 
-Establece el día de una fecha, hora o hora. Por ejemplo, si desea esperar hasta un día determinado del mes, puede forzar el día.
+Establece solo el día de una fecha y hora o la fecha y hora. Por ejemplo, si desea esperar hasta un día determinado del mes, puede forzar el día.
 
 ## Categoría
 
@@ -30,7 +30,7 @@ Fecha
 | Parámetro | Tipo |
 |--- |--- |
 | fecha y hora | dateTime |
-| fecha y hora sin considerar zona horaria | dateTimeOnly |
+| fecha y hora sin considerar la zona horaria | dateTimeOnly |
 | días | entero |
 
 ## Firmas y tipo devuelto
@@ -41,7 +41,7 @@ Devuelve una fecha y hora.
 
 `setDays(<dateTimeOnly>,<days>)`
 
-Devuelve una fecha y hora sin tener en cuenta la zona horaria.
+Devuelve una fecha y hora sin considerar la zona horaria.
 
 ## Ejemplos
 

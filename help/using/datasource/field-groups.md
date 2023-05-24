@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: Grupos de campo
-description: Obtenga información sobre los grupos de campos
+description: Más información sobre los grupos de campos
 feature: Journeys
 role: User
 level: Intermediate
@@ -15,38 +15,38 @@ ht-degree: 0%
 
 # Grupos de campo {#concept_ntl_ypt_52b}
 
-Los grupos de campos son conjuntos de campos que se pueden recuperar de un origen de datos y utilizar en un recorrido.
+Los grupos de campos son conjuntos de campos que se pueden recuperar de una fuente de datos y utilizar en un recorrido.
 
 ## Definición de grupos de campos {#section_dsz_kjd_fjb}
 
 Para cada fuente de datos, se pueden definir varios grupos de campos.
 
-Por ejemplo, puede crear un grupo de campos con el número de teléfono, el correo electrónico, el nombre y la dirección del perfil. A continuación, podrá utilizar estos datos en el recorrido para crear condiciones. Por ejemplo, puede decidir enviar un SMS solo si el número de teléfono del perfil no está vacío. Si está vacío, puede enviar un correo electrónico.
+Por ejemplo, puede crear un grupo de campos con el número de teléfono, el correo electrónico, el nombre y la dirección del perfil. A continuación, podrá utilizar estos datos en su recorrido para crear condiciones. Por ejemplo, puede decidir enviar un SMS solo si el número de teléfono del perfil no está vacío. Si está vacío, puede enviar un correo electrónico.
 
-Aunque se añada automáticamente un nombre predeterminado, le recomendamos que asigne un nombre al grupo de campos. De hecho, el nombre del grupo de campos será visible para otros usuarios en [!DNL Journey Orchestration]. Es recomendable asignar un nombre relevante a los grupos de campos.
+Aunque se añada automáticamente un nombre predeterminado, le recomendamos que asigne un nombre al grupo de campos. De hecho, el nombre del grupo de campos será visible para otros usuarios en [!DNL Journey Orchestration]. Se recomienda asignar un nombre relevante a los grupos de campos.
 
-Cuando se utiliza un campo de origen de datos en un recorrido, el sistema recupera todos los campos definidos para ese grupo de campos. Por lo tanto, es recomendable seleccionar solo los campos que necesita para sus recorridos. Esto reducirá la latencia de las solicitudes en los recorridos, lo que aumenta el rendimiento. Tenga en cuenta que puede agregar fácilmente más campos en grupos de campos más adelante.
+Cuando se utiliza un campo de fuente de datos en un recorrido, el sistema recupera todos los campos definidos para ese grupo de campos. Por lo tanto, se recomienda seleccionar solo los campos que necesite para sus recorridos. Esto reducirá la latencia de la solicitud en los recorridos y, por lo tanto, aumentará el rendimiento. Tenga en cuenta que puede agregar fácilmente más campos en grupos de campos más adelante.
 
-El número de recorridos que utilizan un grupo de campos se muestra en la variable **[!UICONTROL Used in]** campo . Puede hacer clic en el botón **[!UICONTROL View journeys]** para mostrar la lista de recorridos que utilizan este grupo de campos.
+El número de recorridos que utilizan un grupo de campos se muestra en la variable **[!UICONTROL Used in]** field. Puede hacer clic en **[!UICONTROL View journeys]** para mostrar la lista de recorridos que utilizan este grupo de campos.
 
 >[!NOTE]
 >
->Tenga en cuenta que si un grupo de campos no tiene ningún campo, no se mostrará en el editor de expresiones.
+>Tenga en cuenta que si un grupo de campos no tiene ningún campo, no se muestra en el editor de expresiones.
 
 ![](../assets/journey3bis.png)
 
-## Ciclo de vida del grupo de campos {#section_abk_njd_fjb}
+## Ciclo de grupo de campos {#section_abk_njd_fjb}
 
-Puede agregar o quitar campos de un grupo de campos que no se utilice en ningún borrador o recorrido activo.
+Puede agregar o quitar campos de un grupo de campos que no se utilicen en ningún recorrido en borrador o activo.
 
-Puede agregar, pero no puede quitar un campo de un grupo de campos utilizado en uno o varios recorridos en borrador o activo. Esto evitará romper recorridos.
+Puede agregar un campo de un grupo de campos utilizado en uno o varios recorridos en borrador o activos, pero no puede eliminarlo. Esto evitará romper recorridos.
 
 Para eliminar un campo de un grupo de campos utilizado en uno o varios recorridos, siga estos pasos. Veamos un ejemplo de un grupo de campos denominado &quot;Grupo de campos A&quot;.
 
-1. En la lista de grupos de campos, coloque el cursor en &quot;Grupo de campos A&quot; y haga clic en el **[!UICONTROL Duplicate]** en la parte derecha. Asigne un nombre al grupo de campos duplicado &quot;Grupo de campos B&quot;, por ejemplo.
+1. En la lista de grupos de campos, coloque el cursor en &quot;Grupo de campos A&quot; y haga clic en **[!UICONTROL Duplicate]** situado a la derecha. Asigne al grupo de campos duplicado el nombre &quot;Grupo de campos B&quot;, por ejemplo.
 1. En &quot;Grupo de campos B&quot;, elimine los campos que ya no desee.
-1. En &quot;Grupo de campos A&quot;, compruebe dónde se utiliza este grupo de campos. Esta información se muestra en la sección **[!UICONTROL Used in]** campo .
+1. En &quot;Grupo de campos A&quot;, compruebe dónde se utiliza este grupo de campos. Esta información se muestra en la **[!UICONTROL Used in]** field.
 1. Abra todos los recorridos que utilicen &quot;Grupo de campos A&quot;.
 1. Cree nuevas versiones de cada uno de estos recorridos. Edite todas las actividades utilizando &quot;Grupo de campos A&quot; y seleccione &quot;Grupo de campos B&quot;.
-1. Detenga las versiones anteriores de los recorridos que utilizan &quot;Grupo de campos A&quot;. Por lo tanto, no debe tener ningún recorrido usando &quot;Grupo de campos A&quot;.
+1. Detenga las versiones antiguas de los recorridos que utilizan &quot;Grupo de campos A&quot;. Entonces no debería tener ningún recorrido usando &quot;Grupo de campos A&quot;.
 1. Elimine &quot;Grupo de campos A&quot; porque ya no se utiliza.

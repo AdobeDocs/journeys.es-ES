@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
-title: 'Creación del recorrido: simple'
-description: Aprenda a crear el recorrido de casos de uso simple
+title: Construyendo el recorrido - Simple
+description: Aprenda a crear el recorrido de casos de uso sencillo
 feature: Journeys
 role: User
 level: Intermediate
@@ -17,9 +17,9 @@ ht-degree: 37%
 
 El **usuario empresarial** ahora puede compilar el recorrido. Nuestro recorrido solo incluirá una ruta con las siguientes actividades:
 
-* el &quot;SpaBeacon&quot; **[!UICONTROL Event]**: cuando una persona camina cerca de la señalización del spa, el sistema recibirá un evento y el recorrido comenzará para esa persona.
+* el &quot;SpaBeacon&quot; **[!UICONTROL Event]**: cuando una persona camina cerca de la baliza de spa, el sistema recibe un evento y el recorrido comienza para esa persona.
 * a **[!UICONTROL Condition]** actividad para comprobar que la persona es una mujer
-* an **[!UICONTROL Email]** actividad (con Adobe Campaign Standard)
+* un **[!UICONTROL Email]** actividad (con Adobe Campaign Standard)
 * una actividad **[!UICONTROL End]**
 
 >[!NOTE]
@@ -40,7 +40,7 @@ Para obtener información adicional sobre cómo crear un recorrido, consulte [es
 
    ![](../assets/journeyuc1_9.png)
 
-1. Ahora vamos a agregar una condición para verificar que la persona es una mujer. Arrastre y suelte una actividad de condición en el recorrido.
+1. Ahora vamos a agregar una condición para comprobar que la persona es una mujer. Arrastre y suelte una actividad de condición en el recorrido.
 
    ![](../assets/journeyuc1_10.png)
 
@@ -48,19 +48,19 @@ Para obtener información adicional sobre cómo crear un recorrido, consulte [es
 
    ![](../assets/journeyuc1_11.png)
 
-1. Con el editor de expresiones simple, busque el campo gender (_persona > sexo_) y suéltela a la derecha para crear la siguiente condición: &quot;el sexo es igual a &quot;Femenino&quot;.
+1. Con el editor de expresiones simple, busque el campo de género (_persona > sexo_) y suéltelo a la derecha para crear la siguiente condición: &quot;género es igual a &quot;Mujer&quot;.
 
    ![](../assets/journeyuc1_12.png)
 
-1. Suelte un **[!UICONTROL Email]** y seleccione la plantilla de mensajería transaccional &quot;Descuento de spa&quot;. Esta plantilla se diseñó con Adobe Campaign. Consulte [esta página](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=es).
+1. Suelte un **[!UICONTROL Email]** y seleccione su plantilla de mensajería transaccional &quot;Descuento en Spa&quot;. Esta plantilla se ha diseñado con Adobe Campaign. Consulte [esta página](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=es).
 
    ![](../assets/journeyuc1_13.png)
 
-1. Haga clic dentro del **[!UICONTROL Email]** y seleccione la dirección de correo electrónico de la fuente de datos.
+1. Haga clic dentro de **[!UICONTROL Email]** y seleccione la dirección de correo electrónico de la fuente de datos.
 
    ![](../assets/journeyuc1_14.png)
 
-1. Del mismo modo, defina los campos de personalización de nombre y apellido del origen de datos.
+1. Del mismo modo, defina los campos de personalización de nombre y apellido de la fuente de datos.
 
    ![](../assets/journeyuc1_15.png)
 
@@ -68,7 +68,7 @@ Para obtener información adicional sobre cómo crear un recorrido, consulte [es
 
    ![](../assets/journeyuc1_17.png)
 
-1. Haga clic en el **[!UICONTROL Test]** alterne y pruebe el recorrido con perfiles de prueba. Si hay algún error, desactive el modo de prueba, modifique el recorrido y pruebe de nuevo. Para obtener más información sobre el modo de prueba, consulte [esta página](../building-journeys/testing-the-journey.md).
+1. Haga clic en **[!UICONTROL Test]** alterne y pruebe el recorrido con perfiles de prueba. Si hay algún error, desactive el modo de prueba, modifique el recorrido y pruebe de nuevo. Para obtener más información sobre el modo de prueba, consulte [esta página](../building-journeys/testing-the-journey.md).
 
    ![](../assets/journeyuc1_18bis.png)
 
@@ -76,4 +76,4 @@ Para obtener información adicional sobre cómo crear un recorrido, consulte [es
 
    ![](../assets/journeyuc1_18.png)
 
-La próxima vez que una mujer camine cerca de la señalización del spa, recibirá inmediatamente un correo electrónico personalizado de &quot;descuento en spa&quot;.
+La próxima vez que una mujer camine cerca de la baliza del spa, recibirá inmediatamente un &quot;descuento en el spa&quot; por correo electrónico personalizado.

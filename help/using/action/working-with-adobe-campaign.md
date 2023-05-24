@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: Trabajar con Adobe Campaign
-description: Obtenga información sobre las acciones de Adobe Campaign
+description: Más información sobre las acciones de Adobe Campaign
 feature: Journeys
 role: User
 level: Intermediate
@@ -15,39 +15,39 @@ ht-degree: 4%
 
 # Uso de Adobe Campaign Standard {#using_adobe_campaign_standard}
 
-Puede enviar correos electrónicos, notificaciones push y SMS utilizando las funciones de mensajería transaccional de Adobe Campaign Standard.
+Puede enviar correos electrónicos, notificaciones push y SMS mediante las funciones de mensajería transaccional de Adobe Campaign Standard.
 
 [!DNL Journey Orchestration] viene con una acción predeterminada que permite la conexión a Adobe Campaign Standard.
 
-El mensaje transaccional del Campaign Standard y su evento asociado deben publicarse para poder utilizarlo en el Journey Orchestration. Si el evento se publica pero el mensaje no lo es, no será visible en la interfaz del Journey Orchestration. Si el mensaje se publica pero su evento asociado no lo es, será visible en la interfaz del Journey Orchestration, pero no se podrá utilizar.
+El mensaje transaccional del Campaign Standard y su evento asociado deben publicarse para poder utilizarse en Journey Orchestration. Si el evento se publica pero el mensaje no, no será visible en la interfaz del Journey Orchestration. Si el mensaje se publica pero su evento asociado no, estará visible en la interfaz del Journey Orchestration, pero no se podrá utilizar.
 
 >[!NOTE]
 >
->Una regla de límite de 4000 llamadas por 5 minutos se define automáticamente para las acciones de Adobe Campaign Standard en cuanto se configura la integración de Adobe Campaign Standard. Esto corresponde a la escala oficial de la mensajería transaccional de Adobe Campaign Standard.
+>Una regla de límite de 4000 llamadas por 5 minutos se define automáticamente para las acciones de Adobe Campaign Standard en cuanto se configura la integración de Adobe Campaign Standard. Esto corresponde a la escala oficial de Adobe Campaign Standard Transactional Messaging.
 >
 >Obtenga más información sobre los SLA de mensajería transaccional en [Descripción del producto de Adobe Campaign Standard](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html).
 
 Estos son los pasos para configurarlo:
 
-1. En el **[!UICONTROL Actions]** , haga clic en la **[!UICONTROL AdobeCampaignStandard]** acción. El panel de configuración de acciones se abre en el lado derecho de la pantalla.
+1. Desde el **[!UICONTROL Actions]** , haga clic en la lista integrada **[!UICONTROL AdobeCampaignStandard]** acción. El panel de configuración de acción se abre en el lado derecho de la pantalla.
 
    ![](../assets/actioncampaign.png)
 
-1. Copie la dirección URL de la instancia de Adobe Campaign Standard y péguela en el **[!UICONTROL URL]** campo .
+1. Copie la URL de instancia de Adobe Campaign Standard y péguela en **[!UICONTROL URL]** field.
 
-1. Haga clic en el **[!UICONTROL Test the instance URL]** para probar la validez de la instancia.
+1. Haga clic en **[!UICONTROL Test the instance URL]** para probar la validez de la instancia.
 
    >[!NOTE]
    >
-   >Esta prueba comprueba que:
+   >Esta prueba comprueba lo siguiente:
    >
    >El host es &quot;.campaign.adobe.com&quot;, &quot;.campaign-sandbox.adobe.com&quot;, &quot;.campaign-demo.adobe.com&quot;, &quot;.ats.adobe.com&quot; o &quot;.adls.adobe.com&quot;.
    >
-   >La dirección URL empieza por https,
+   >La dirección URL comienza con https,
    >
-   >El ORG asociado a esta instancia de Adobe Campaign Standard es el mismo que el ORG del Journey Orchestration.
+   >La ORG asociada a la instancia de este Adobe Campaign Standard es la misma que la ORG del Journey Orchestration.
 
-Al diseñar el recorrido, habrá tres acciones disponibles en la variable **[!UICONTROL Action]** categoría: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (consulte [Uso de acciones de Adobe Campaign](../building-journeys/using-adobe-campaign-actions.md)). **Reacciones, suceso** también le permite reaccionar en los clics de mensajes, las aperturas, etc. (consulte [Eventos de reacción](../building-journeys/reaction-events.md)).
+Al diseñar el recorrido, habrá tres acciones disponibles en el **[!UICONTROL Action]** categoría: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (consulte [Uso de acciones de Adobe Campaign](../building-journeys/using-adobe-campaign-actions.md)). **Evento de reacciones** también le permitirá reaccionar ante clics, aperturas, etc. de mensajes. (consulte [Eventos de reacciones](../building-journeys/reaction-events.md)).
 
 ![](../assets/journey58.png)
 

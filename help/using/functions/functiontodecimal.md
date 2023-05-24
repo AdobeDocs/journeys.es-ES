@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: toDecimal
-description: Obtenga información sobre la función aDecimal
+description: Obtenga información acerca de la función toDecimal
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -29,10 +29,10 @@ Conversión
 
 | Parámetro | Descripción |
 |--- |--- |
-| string | convierte el valor de cadena en decimal |
-| dateTime | convierte la fecha en el número de milisegundos (epoch miliseconds) |
-| Booleano | convierte el valor booleano en 1 si es verdadero, 0 si es falso |
-| entero | se convierte en decimal (ejemplo.: 1 se convierte en 1.0) |
+| string | convierte el valor de cadena como decimal |
+| dateTime | convierte la fecha como el número de milisegundos (epoch milisegundos) |
+| Booleano | convierte el valor booleano como 1 si es verdadero, 0 si es falso |
+| entero | convierte a decimal (ejemplo).: 1 se convierte en 1,0) |
 
 ## Firmas y tipos devueltos
 

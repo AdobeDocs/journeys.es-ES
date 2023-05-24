@@ -15,22 +15,22 @@ ht-degree: 9%
 
 # Configuración de la fuente de datos{#concept_ax3_bcy_w2b}
 
-En nuestro caso de uso, queremos utilizar datos de personalización para nuestros mensajes. También necesitamos verificar que la persona es una mujer. Esta información se almacena en la base de datos Perfil del cliente en tiempo real. La variable **usuario técnico** debe comprobar que esos campos están definidos en la fuente de datos integrada de Adobe Experience Platform.
+En nuestro caso de uso, queremos utilizar datos de personalización para nuestros mensajes. También tenemos que comprobar si la persona es una mujer. Esta información se almacena en la base de datos de Perfil del cliente en tiempo real. El **usuario técnico** debe comprobar que esos campos están definidos en la fuente de datos integrada de Adobe Experience Platform.
 
-Para obtener información adicional sobre la configuración de la fuente de datos, consulte [esta página](../datasource/about-data-sources.md).
+Para obtener más información sobre la configuración de fuentes de datos, consulte [esta página](../datasource/about-data-sources.md).
 
-1. En el panel de menú, seleccione **[!UICONTROL Admin]**. En la sección **[!UICONTROL Data sources]**, haga clic en **[!UICONTROL Manage]**.
+1. En el panel de menús, seleccione **[!UICONTROL Admin]**. En la sección **[!UICONTROL Data sources]**, haga clic en **[!UICONTROL Manage]**.
 1. Seleccione la fuente de datos integrada de Adobe Experience Platform.
 
    ![](../assets/journey23.png)
 
 1. En los grupos de campos, compruebe que los campos siguientes estén seleccionados:
 
-   * _person > name > firstName_
-   * _person > name > lastName_
+   * _persona > nombre > firstName_
+   * _persona > nombre > lastName_
    * _persona > sexo_
-   * _personalEmail > dirección_
+   * _personalEmail > address_
 
 1. Haga clic en **[!UICONTROL Save]**.
 
-La fuente de datos ya está configurada y lista para utilizarse en el recorrido.
+La fuente de datos está ahora configurada y lista para utilizarse en el recorrido.

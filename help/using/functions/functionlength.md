@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: length
-description: Obtenga información sobre la longitud de la función
+description: Obtenga información acerca de la longitud de la función
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 20%
 
 # length {#length}
 
-Devuelve el número de caracteres de la expresión de cadena en el parámetro .
+Devuelve el número de caracteres de la expresión de cadena en el parámetro.
 
 ## Categoría
 
@@ -33,7 +33,7 @@ Cadena
 
 `length(<string>)`
 
-Devuelve un número entero.
+Devuelve un entero.
 
 ## Ejemplo
 

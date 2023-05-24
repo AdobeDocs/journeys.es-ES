@@ -43,11 +43,11 @@ Lista
 
 `getListItem(<listInteger>,<index>)`
 
-Devuelve un número entero.
+Devuelve un entero.
 
 `getListItem(<listDecimal>,<index>)`
 
-Devuelve un decimal.
+Devuelve un valor decimal.
 
 `getListItem(<listString>,<index>)`
 
@@ -55,7 +55,7 @@ Devuelve una cadena.
 
 `getListItem(<listDateTimeOnly>,<index>)`
 
-Devuelve una fecha y hora sin tener en cuenta la zona horaria.
+Devuelve una fecha y hora sin considerar la zona horaria.
 
 `getListItem(<listDateTime>,<index>)`
 

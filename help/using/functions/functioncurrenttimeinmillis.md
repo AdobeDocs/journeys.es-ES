@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: currentTimeInMillis
-description: Obtenga información sobre la función currentTimeInMillis
+description: Obtenga información acerca de la función currentTimeInMillis
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 12%
 
 # currentTimeInMillis {#currentTimeInMillis}
 
-Devuelve la hora actual en milisegundos de época.
+Devuelve el tiempo actual en milisegundos epoch.
 
 ## Categoría
 
@@ -33,10 +33,10 @@ Esta función no utiliza parámetros.
 
 `currentTimeInMillis()`
 
-Devuelve un número entero.
+Devuelve un entero.
 
 ## Ejemplos
 
 `currentTimeInMillis()`
 
-Devuelve &quot;1544712617131&quot;.
+Devuelve &quot;1544712617131&quot;

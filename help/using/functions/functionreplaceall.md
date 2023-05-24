@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: replaceAll
-description: Obtenga información sobre la función replaceAll
+description: Obtenga información acerca de la función replaceAll
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,9 +15,9 @@ ht-degree: 10%
 
 # replaceAll {#replaceAll}
 
-Reemplaza todas las ocurrencias que coinciden con la cadena de destino por la cadena de reemplazo en la cadena base.
+Reemplaza todas las ocurrencias que coincidan con la cadena de destino por la cadena de reemplazo de la cadena base.
 
-La sustitución procede desde el principio de la cadena hasta el final, por ejemplo, reemplazar &quot;aa&quot; por &quot;b&quot; en la cadena &quot;aaa&quot; resultará en &quot;ba&quot; en lugar de &quot;ab&quot;.
+La sustitución se realiza desde el principio de la cadena hasta el final, por ejemplo, si se sustituye &quot;a&quot; por &quot;b&quot; en la cadena &quot;aaa&quot;, el resultado será &quot;ba&quot; en lugar de &quot;ab&quot;.
 
 ## Categoría
 
@@ -31,8 +31,8 @@ Cadena
 
 | Parámetro | Tipo |
 |-----------|--------------|
-| base | string |
-| target | string (RegExp) |
+| basar | string |
+| target | cadena (RegExp) |
 | reemplazo | string |
 
 ## Firma y tipo devuelto
@@ -47,4 +47,4 @@ Devuelve una cadena.
 
 Devuelve &quot;Hexxo Worxd&quot;.
 
-Como el parámetro de destino es un RegExp, según la cadena que desee reemplazar, es posible que tenga que escapar algunos caracteres. Consulte el ejemplo en [esta página](../functions/functionreplace.md#example_2).
+Dado que el parámetro de destino es RegExp, en función de la cadena que desee reemplazar, es posible que tenga que omitir algunos caracteres. Consulte el ejemplo en [esta página](../functions/functionreplace.md#example_2).

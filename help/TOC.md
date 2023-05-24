@@ -6,7 +6,7 @@ user-guide-description: Proporciona instrucciones prácticas para implementar y 
 index: true
 feature: Journeys
 source-git-commit: 137637a753ba44cc4f8e397b77c3fc076ec3de3f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 100%
 
@@ -71,7 +71,7 @@ ht-degree: 100%
          + [Acerca de las actividades de eventos](using/building-journeys/event-activities.md)
          + [Eventos generales](using/building-journeys/general-events.md)
          + [Reacción de reacción](using/building-journeys/reaction-events.md)
-         + [Eventos de calificación de segmentos](using/building-journeys/segment-qualification-events.md)
+         + [Eventos de cualificación de segmentos](using/building-journeys/segment-qualification-events.md)
       + Actividades de orquestación {#orchestration-activities}
          + [Acerca de las actividades de orquestación](using/building-journeys/about-orchestration-activities.md)
          + [Actividad de condición](using/building-journeys/condition-activity.md)

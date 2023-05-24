@@ -186,4 +186,4 @@ Puede cambiar la duración de caché del token para una fuente de datos de auten
 
 >[!NOTE]
 >
->La duración de la caché ayuda a evitar demasiadas llamadas a los extremos de autenticación. La retención de tokens de autenticación se almacena en caché en los servicios, no hay persistencia. Si se reinicia un servicio, comienza con una caché limpia. La duración de la caché de forma predeterminada es de 1 hora. En la carga de autenticación personalizada, se puede adaptar especificando otra duración de retención.
+>La duración de la caché ayuda a evitar demasiadas llamadas a los extremos de autenticación. La retención del token de autenticación se almacena en caché en los servicios, no hay persistencia. Si se reinicia un servicio, se inicia con una caché limpia. La duración de la caché de forma predeterminada es de 1 hora. En la carga útil de autenticación personalizada, se puede adaptar especificando otra duración de retención.

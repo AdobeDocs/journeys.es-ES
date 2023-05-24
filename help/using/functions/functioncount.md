@@ -42,7 +42,7 @@ Agregación
 
 `count(<listAny>)`
 
-Devuelve un número entero.
+Devuelve un entero.
 
 ## Ejemplo
 

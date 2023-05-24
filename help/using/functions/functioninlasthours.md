@@ -15,7 +15,7 @@ ht-degree: 20%
 
 # inLastHours {#inLastHours}
 
-Devuelve el valor verdadero si la fecha y hora dadas está entre ahora y ahora: horas delta.
+Devuelve verdadero si la fecha y hora dadas son entre ahora y ahora (horas delta).
 
 ## Categoría
 

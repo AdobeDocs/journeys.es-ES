@@ -15,7 +15,7 @@ ht-degree: 22%
 
 # serializeList {#serializeList}
 
-Convierte la lista (cualquier tipo) proporcionada en el primer parámetro en una cadena. El segundo parámetro representa el separador que se va a utilizar. El tercer parámetro es un valor booleano que indica si cada elemento de la expresión debe incluir comillas.
+Convierte la lista (de cualquier tipo) dada en el primer parámetro en una cadena. El segundo parámetro representa el separador que se va a utilizar. El tercer parámetro es un valor booleano que indica si cada elemento de la expresión debe incluir comillas.
 
 ## Categoría
 
@@ -61,7 +61,7 @@ Lista
 
 `serializeList(<listPoint>,<string>,<boolean>)`
 
-Devuelve una cadena.
+Devolver una cadena.
 
 ## Ejemplo
 
@@ -71,4 +71,4 @@ Devuelve &quot;Hello World&quot;.
 
 `serializeList(["Hello", "World"], ",", true)`
 
-Devuelve &quot;Hello&quot;, &quot;World&quot;.
+Devuelve &quot;Hello&quot;,&quot;World&quot;.

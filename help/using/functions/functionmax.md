@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: max
-description: Obtenga información sobre la función max
+description: Más información sobre la función máxima
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 9%
 
 # max{#max}
 
-Devuelve el valor máximo entre un conjunto de expresiones, dadas como una lista o dos expresiones. Se omiten los valores nulos.
+Devuelve el valor máximo entre un conjunto de expresiones, dado como una lista o dos expresiones. Los valores nulos se omiten.
 
 ## Categoría
 
@@ -51,7 +51,7 @@ Devuelve una duración.
 
 `max(<listDateTimeOnly>)`
 
-Devuelve una fecha y hora sin tener en cuenta la zona horaria.
+Devuelve una fecha y hora sin considerar la zona horaria.
 
 `max(<listDateTime>)`
 
@@ -63,11 +63,11 @@ Devuelve una fecha.
 
 `max(<listDecimal>)`
 
-Devuelve un decimal.
+Devuelve un valor decimal.
 
 `max(<decimal>,<decimal>)`
 
-Devuelve un decimal.
+Devuelve un valor decimal.
 
 `max(<duration>,<duration>)`
 
@@ -79,11 +79,11 @@ Devuelve una fecha y hora.
 
 `max(<dateTimeOnly>,<dateTimeOnly>)`
 
-Devuelve una fecha y hora sin tener en cuenta la zona horaria.
+Devuelve una fecha y hora sin considerar la zona horaria.
 
 `max(<integer>,<integer>)`
 
-Devuelve un número entero.
+Devuelve un entero.
 
 ## Ejemplos
 

@@ -32,7 +32,7 @@ Conversión
 | fecha y hora en formato ISO-8601 | string |
 | id de zona horaria | string |
 | fecha y hora sin zona horaria | dateTimeOnly |
-| valor entero de una epoch en milisegundos | entero |
+| valor entero de una época en milisegundos | entero |
 
 >[!NOTE]
 >

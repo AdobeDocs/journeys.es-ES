@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: startWith
-description: Obtenga información sobre la función startWith
+description: Obtenga información acerca de la función startWith
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -30,13 +30,13 @@ Cadena
 | Parámetro | Tipo |
 |-------------|--------|
 | string | string |
-| prefix | string |
+| prefijo | string |
 
 ## Firma y tipo devuelto
 
 `startWith(<string>,<string>)`
 
-Devuelve un booleano.
+Devuelve un valor booleano.
 
 ## Ejemplo
 
