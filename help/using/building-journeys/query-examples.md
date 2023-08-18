@@ -194,7 +194,7 @@ _experience.journeyOrchestration.stepEvents.journeyVersionID = 'ec9efdd0-8a7c-4d
 _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 ```
 
-El resultado debe ser bueno que 0. Esta consulta devuelve el número exacto de veces que un perfil ha introducido un recorrido.
+El resultado debe ser mayor que 0. Esta consulta devuelve el número exacto de veces que un perfil ha introducido un recorrido.
 
 **Busque si un perfil ha enviado un mensaje específico**
 
@@ -220,7 +220,7 @@ _experience.journeyOrchestration.stepEvents.journeyVersionID = '67b14482-143e-4f
 _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 ```
 
-El resultado debe ser bueno que 0. Esta consulta solo indica si la acción del mensaje se ejecutó correctamente en el lado del recorrido.
+El resultado debe ser mayor que 0. Esta consulta solo indica si la acción del mensaje se ejecutó correctamente en el lado del recorrido.
 
 Método 2: si el nombre del mensaje es único en el recorrido.
 

@@ -207,7 +207,6 @@ El resultado es &quot;token_2&quot;.
 >* **[!UICONTROL first]** devolverá el evento más reciente.
 >* **[!UICONTROL last]** La función devolverá la más antigua.
 
-
 **Ejemplo 3:**
 
 Comprobamos si el primer evento de Adobe Analytics (el más reciente) con un valor distinto de cero para el ID de DMA tiene un valor igual a 602.

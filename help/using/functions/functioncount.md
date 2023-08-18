@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: count
-description: Obtenga información sobre el recuento de funciones
+description: Más información sobre el recuento de funciones
 feature: Journeys
 role: Data Engineer
 level: Experienced

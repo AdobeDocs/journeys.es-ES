@@ -38,9 +38,9 @@ En la Admin Console, puede asignar a los usuarios uno de los siguientes perfiles
    * Administrar eventos, fuentes de datos y acciones
    * Administrar informes
 
-   >[!NOTE]
-   >
-   >**[!UICONTROL Administrators]** es el único perfil de productos que permite crear, editar y publicar mensajes transaccionales (o plantillas de mensajería) en Adobe Campaign Standard. Este perfil de producto es necesario si utiliza Adobe Campaign Standard para enviar mensajes en sus recorridos. No se debe cambiar el nombre en Admin Console.
+  >[!NOTE]
+  >
+  >**[!UICONTROL Administrators]** es el único perfil de productos que permite crear, editar y publicar mensajes transaccionales (o plantillas de mensajería) en Adobe Campaign Standard. Este perfil de producto es necesario si utiliza Adobe Campaign Standard para enviar mensajes en sus recorridos. No se debe cambiar el nombre en Admin Console.
 
 * **[!UICONTROL Standard User]**: usuario con acceso básico, como administración de recorridos. Este perfil de productos incluye los siguientes permisos:
    * Administrar recorridos

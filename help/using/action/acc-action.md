@@ -29,9 +29,9 @@ Para cada acción configurada, hay una actividad de acción disponible en la pal
 
 * Debe configurar una acción en el lienzo por plantilla que desee utilizar. Debe configurar una acción en Journey Orchestration para cada plantilla que desee utilizar desde Adobe Campaign.
 
-* Le recomendamos que utilice una instancia del Centro de mensajes dedicada que esté alojada para esta integración para evitar afectar a otras operaciones de Campaign que pueda tener en marcha. El servidor de marketing puede estar alojado o ser local. La compilación necesaria es la versión 21.1 Candidate o una versión buena.
+* Le recomendamos que utilice una instancia del Centro de mensajes dedicada que esté alojada para esta integración para evitar afectar a otras operaciones de Campaign que pueda tener en marcha. El servidor de marketing puede estar alojado o ser local. La versión requerida es 21.1 Release Candidate o superior.
 
-* No se valida que la carga útil o el mensaje de Campaign sean correctos.
+* No se ha validado que la carga útil o el mensaje de Campaign sean correctos.
 
 * No puede utilizar una acción de Campaign con un evento de calificación de segmentos.
 

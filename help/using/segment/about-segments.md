@@ -9,13 +9,13 @@ exl-id: 94e1e3e3-9a46-41ca-bec1-f41287925372
 source-git-commit: e5c0db2e1f85ea72fd54f91e4a26cc287377fb0e
 workflow-type: tm+mt
 source-wordcount: '362'
-ht-degree: 2%
+ht-degree: 12%
 
 ---
 
 # Acerca de los segmentos de Adobe Experience Platform {#about-segments}
 
-Si está utilizando el [Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html) para crear los segmentos, puede aprovecharlos en [!DNL Journey Orchestration]. Gracias a una actividad de evento dedicada, puede hacer que las personas entren o avancen en un recorrido según las entradas y salidas de segmentos de Adobe Experience Platform. Esto también le permite crear condiciones complejas en los recorridos mediante el editor de expresiones simples o avanzadas.
+Si está utilizando el [Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es) para crear los segmentos, puede aprovecharlos en [!DNL Journey Orchestration]. Gracias a una actividad de evento dedicada, puede hacer que las personas entren o avancen en un recorrido según las entradas y salidas de segmentos de Adobe Experience Platform. Esto también le permite crear condiciones complejas en los recorridos mediante el editor de expresiones simples o avanzadas.
 
 Supongamos que tiene un segmento llamado &quot;cliente plata&quot;. Con esta actividad, puede hacer que todos los clientes nuevos de Silver Ingresen a un recorrido y les envíen una serie de mensajes personalizados. También puede generar fácilmente condiciones basadas en este segmento.
 
@@ -39,4 +39,4 @@ Puede ver el método de evaluación para cada segmento en la **[!UICONTROL Evalu
 
 Después de definir un segmento por primera vez, los perfiles se añaden a la audiencia cuando cumplen los requisitos.
 
-Realizar una copia de seguridad de la audiencia a partir de datos anteriores puede tardar hasta 24 horas. Una vez que la audiencia se ha rellenado, se mantiene actualizada continuamente y siempre está lista para la segmentación.
+Rellenar la audiencia a partir de datos anteriores puede tardar hasta 24 horas. Una vez que se ha rellenado la audiencia, se mantiene actualizada continuamente y siempre está lista para la segmentación.

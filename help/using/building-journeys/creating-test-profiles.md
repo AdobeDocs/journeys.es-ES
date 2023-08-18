@@ -36,7 +36,6 @@ En primer lugar, debe **creación de un esquema**. Siga estos pasos:
 1. Seleccione los mixins adecuados. Asegúrese de añadir la variable **[!UICONTROL Profile test details]** mixin. Haga clic en **[!UICONTROL Add mixin]**.
    ![](../assets/test-profiles-1-ter.png)
 La lista de los mixins se muestra en la pantalla de información general del esquema.
-
    ![](../assets/test-profiles-2.png)
 1. En la lista de campos, haga clic en el campo que desee definir como identidad principal.
    ![](../assets/test-profiles-3.png)

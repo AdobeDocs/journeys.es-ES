@@ -44,26 +44,26 @@ Estos son algunos ejemplos de casos de uso:
 
 | Categoría | Nombre del campo | Etiqueta | Descripción |
 |---|---|---|------------|
-| Versión de recorrido | journeyUID | Identificador de recorrido |  |
-|  | journeyVersionUID | Identificador de versión de recorrido |  |
-|  | journeyVersionName | Nombre de versión de recorrido |  |
-|  | journeyVersionDescription | Descripción de versión de recorrido |  |
-|  | journeyVersion | Versión de recorrido |  |
+| Versión de recorrido | journeyUID | Identificador de recorrido | |
+| | journeyVersionUID | Identificador de versión de recorrido | |
+| | journeyVersionName | Nombre de versión de recorrido | |
+| | journeyVersionDescription | Descripción de versión de recorrido | |
+| | journeyVersion | Versión de recorrido | |
 | Instancia de recorrido | instanceUID | Identificador de instancia de recorrido | ID de la instancia |
-|  | externalKey | Clave externa | Identificador individual que activa el recorrido |
-|  | organizationId | Identificador de organización | Organización de la marca |
-|  | sandboxName | Nombre de la zona protegida | Nombre de la zona protegida |
+| | externalKey | Clave externa | Identificador individual que activa el recorrido |
+| | organizationId | Identificador de organización | Organización de la marca |
+| | sandboxName | Nombre de la zona protegida | Nombre de la zona protegida |
 | Identidad | profileId | Identificador de identidad del perfil | Identificador del perfil en el recorrido |
-|  | namespace | Área de nombres de identidad de perfil | Área de nombres del perfil en la recorrido (ejemplo: ECID) |
+| | namespace | Área de nombres de identidad de perfil | Área de nombres del perfil en la recorrido (ejemplo: ECID) |
 | Nodo actual | currentNodeId | Identificador del nodo actual | Identificador de la actividad actual (nodo) |
-|  | currentNodeName | Nombre del nodo actual | Nombre de la actividad actual (nodo) |
+| | currentNodeName | Nombre del nodo actual | Nombre de la actividad actual (nodo) |
 | Nodo anterior | previousNodeId | Identificador de nodo anterior | Identificador de la actividad anterior (nodo) |
-|  | previousNodeName | Nombre de nodo anterior | Nombre de la actividad anterior (nodo) |
+| | previousNodeName | Nombre de nodo anterior | Nombre de la actividad anterior (nodo) |
 | Errores | lastNodeUIDInError | Último identificador de nodo con error | Identificador de la actividad (nodo) más reciente con error |
-|  | lastNodeNameInError | Último nombre de nodo con error | Nombre de la última actividad (nodo) con error |
-|  | lastNodeTypeInError | Último tipo de nodo con error | Tipo de error de la actividad (nodo) más reciente. Tipos posibles:<ul><li>Eventos: Eventos, Reacciones, SQL (ejemplo: Calificación de segmentos)</li><li>Control de flujo: Fin, condición, espera</li><li>Acciones: Acciones de ACS, Salto, Acción personalizada</li></ul> |
-|  | lastErrorCode | Último código de error | Código de error de la última actividad (nodo). Posibles errores: <ul><li>Códigos de error HTTP</li><li>tapado</li><li>timeout</li><li>error (ejemplo: predeterminado en caso de error inesperado. (No debería suceder/muy raramente)</li></ul> |
-|  | lastExecutedActionErrorCode | Código de error de la última acción ejecutada | Código de error de la última acción por error |
-|  | lastDataFetchErrorCode | Último código de error de recuperación de datos | Código de error de la última recuperación de datos de las fuentes de datos |
+| | lastNodeNameInError | Último nombre de nodo con error | Nombre de la última actividad (nodo) con error |
+| | lastNodeTypeInError | Último tipo de nodo con error | Tipo de error de la actividad (nodo) más reciente. Tipos posibles:<ul><li>Eventos: Eventos, Reacciones, SQL (ejemplo: Calificación de segmentos)</li><li>Control de flujo: Fin, condición, espera</li><li>Acciones: Acciones de ACS, Salto, Acción personalizada</li></ul> |
+| | lastErrorCode | Último código de error | Código de error de la última actividad (nodo). Posibles errores: <ul><li>Códigos de error HTTP</li><li>tapado</li><li>timeout</li><li>error (ejemplo: predeterminado en caso de error inesperado. (No debería suceder/muy raramente)</li></ul> |
+| | lastExecutedActionErrorCode | Código de error de la última acción ejecutada | Código de error de la última acción por error |
+| | lastDataFetchErrorCode | Último código de error de recuperación de datos | Código de error de la última recuperación de datos de las fuentes de datos |
 | Fecha | lastActionExecutionElapsedTime | Tiempo transcurrido en la última ejecución de la acción | Tiempo empleado para ejecutar la acción más reciente |
-|  | lastDataFetchElapsedTime | Tiempo transcurrido en la última recuperación de datos | Tiempo empleado para ejecutar la captura de datos más reciente de las fuentes de datos |
+| | lastDataFetchElapsedTime | Tiempo transcurrido en la última recuperación de datos | Tiempo empleado para ejecutar la captura de datos más reciente de las fuentes de datos |

@@ -19,7 +19,7 @@ Si desea esperar antes de ejecutar la siguiente actividad en la ruta, puede util
 
 * [Duración](#duration)
 * [Personalizado](#custom)
-   <!--* [Email send time optimization](#email_send_time_optimization)-->
+  <!--* [Email send time optimization](#email_send_time_optimization)-->
 
 ## Acerca de la actividad Espera{#about_wait}
 
@@ -41,7 +41,7 @@ Seleccione la duración de la espera antes de la ejecución de la siguiente acti
 
 ## Espera personalizada{#custom}
 
-Esta opción le permite definir una fecha personalizada, por ejemplo, el 12 de julio de 2020 a las 17:00, mediante una expresión avanzada basada en un campo proveniente de un evento o una fuente de datos. No permite definir una duración personalizada, por ejemplo, de 7 días. La expresión del editor de expresiones debe proporcionar un formato dateTimeOnly. Consulte [esta página](../expression/expressionadvanced.md). Para obtener más información sobre el formato dateTimeOnly, consulte [esta página](../expression/data-types.md).
+Esta opción le permite definir una fecha personalizada, por ejemplo, el 12 de julio de 2020 a las 17:00, mediante una expresión avanzada basada en un campo proveniente de un evento o una fuente de datos. No permite definir una duración personalizada, por ejemplo, de 7 días. La expresión en el editor de expresiones debe proporcionar un formato dateTimeOnly. Consulte [esta página](../expression/expressionadvanced.md). Para obtener más información sobre el formato dateTimeOnly, consulte [esta página](../expression/data-types.md).
 
 >[!NOTE]
 >

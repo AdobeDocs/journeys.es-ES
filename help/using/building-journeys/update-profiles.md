@@ -51,11 +51,11 @@ El **[!UICONTROL Update profile]** la actividad de acción permite actualizar un
 
    * Con el editor de expresiones simple, puede seleccionar un campo de una fuente de datos o del evento entrante.
 
-      ![](../assets/profileupdate4.png)
+     ![](../assets/profileupdate4.png)
 
    * Si desea definir un valor específico o aprovechar funciones avanzadas, haga clic en **Modo avanzado**.
 
-      ![](../assets/profileupdate3.png)
+     ![](../assets/profileupdate3.png)
 
 El **Actualizar perfil** ahora está configurado.
 

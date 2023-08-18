@@ -25,9 +25,10 @@ Al configurar una acción personalizada, debe definir lo siguiente **[!UICONTROL
 
    * Si la dirección URL incluye una ruta dinámica, introduzca solo la parte estática de la dirección URL, es decir, el esquema, el host, el puerto y, opcionalmente, una parte estática de la ruta.
 
-      Ejemplo: `https://xxx.yyy.com/somethingstatic/`
+     Ejemplo: `https://xxx.yyy.com/somethingstatic/`
 
-      Especifique la ruta dinámica de la URL al agregar la acción personalizada a un recorrido. [Más información](../building-journeys/using-custom-actions.md).
+     Especifique la ruta dinámica de la URL al agregar la acción personalizada a un recorrido. [Más información](../building-journeys/using-custom-actions.md).
+
    >[!NOTE]
    >
    >Por motivos de seguridad, le recomendamos encarecidamente que utilice el esquema HTTPS para la dirección URL. No permitimos el uso de direcciones de Adobe que no sean públicas ni de direcciones IP.
@@ -49,6 +50,7 @@ Al configurar una acción personalizada, debe definir lo siguiente **[!UICONTROL
       ![](../assets/journeyurlconfiguration2.png)
 
    1. Para eliminar un campo de encabezado, seleccione el campo de encabezado y haga clic en **[!UICONTROL Delete]** icono.
+
    El **[!UICONTROL Content-Type]** y **[!UICONTROL Charset]** los campos de encabezado están configurados de forma predeterminada. Estos campos no se pueden modificar ni eliminar.
 
    Después de agregar la acción personalizada a un recorrido, aún puede agregarle campos de encabezado si el recorrido está en estado de borrador. Si no desea que los cambios de configuración afecten al recorrido, duplique la acción personalizada y agregue los campos de encabezado a la nueva acción personalizada.

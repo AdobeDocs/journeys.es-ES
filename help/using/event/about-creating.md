@@ -36,6 +36,7 @@ Estos son los pasos principales para configurar un nuevo evento:
    * Eventos basados **en reglas**: este tipo de evento no genera ningún eventID. En el **Condición de ID de evento** , simplemente defina una regla que el sistema utilizará para identificar los eventos relevantes que almacenarán en déclencheur sus recorridos. Esta regla se puede basar en cualquier campo disponible en la carga útil de evento, por ejemplo, la ubicación del perfil o el número de elementos agregados al carro de compras del perfil.
 
    * **Generado por el sistema** events: este tipo requiere un eventID. Este campo eventID se genera automáticamente al crear el evento y se agrega a la previsualización de carga útil. El sistema que impulsa el evento no debe generar un ID, debe pasar el que está disponible en la previsualización de carga útil. Consulte [esta sección](../event/previewing-the-payload.md).
+
    >[!NOTE]
    >
    >Más información sobre los tipos de eventos en [esta sección](../event/about-events.md).

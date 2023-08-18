@@ -72,7 +72,7 @@ Esta expresión devuelve un valor booleano.
 
 **Ahora vamos a crear una expresión para comprobar que el producto está en stock**
 
-* En Inventory, esta expresión busca el campo de cantidad de un producto y especifica que debe ser bueno que 0.
+* En Inventory, esta expresión busca el campo de cantidad de un producto y especifica que debe ser mayor que 0.
 
 `#{Inventory.fieldgroup3.quantity} > 0`
 
@@ -82,17 +82,17 @@ Esta expresión devuelve un valor booleano.
 
 * Y especifique el SKU, utilizando la función `first` para recuperar la interacción &quot;addToCart&quot; más reciente:
 
-   ```json
-       #{ExperiencePlatformDataSource
-                       .ExperienceEventFieldGroup
-                       .experienceevent
-                       .first(
-                       currentDataPackField
-                       .productData
-                       .productInteraction == "addToCart"
-                       )
-                       .SKU}
-   ```
+  ```json
+      #{ExperiencePlatformDataSource
+                      .ExperienceEventFieldGroup
+                      .experienceevent
+                      .first(
+                      currentDataPackField
+                      .productData
+                      .productInteraction == "addToCart"
+                      )
+                      .SKU}
+  ```
 
 A partir de ahí, puede añadir otra ruta en el recorrido para los casos en los que el producto no esté en la tienda y enviar una notificación con una oferta de participación. Configure los mensajes según corresponda y utilice datos de personalización para mejorar el destinatario de mensajes.
 

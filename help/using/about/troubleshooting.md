@@ -64,10 +64,10 @@ A continuación se indican algunas cosas que el administrador debe comprobar:
 * ¿Ha seguido la estructura de carga útil de las API de inserción de flujo, utilizando la previsualización de estructura de carga útil del panel de configuración de evento? Consulte [esta página](../event/previewing-the-payload.md).
 * ¿Utilizó los pares clave/valor correctos en el encabezado del evento?
 
-   ```
-   X-gw-ims-org-id - your ORGID
-   Content-type - application/json
-   ```
+  ```
+  X-gw-ims-org-id - your ORGID
+  Content-type - application/json
+  ```
 
 ## Comprobación de cómo navegan las personas a través del recorrido {#section_l5y_yzs_dgb}
 
