@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: d759aab70b2a6f6d4897bdd3498a9499dff2899f
+source-git-commit: 77b7979b2023e58298298c88240cb2855b55d56b
 workflow-type: tm+mt
-source-wordcount: '4188'
-ht-degree: 100%
+source-wordcount: '4232'
+ht-degree: 99%
 
 ---
 
@@ -21,11 +21,15 @@ Esta página lista todas las nuevas funciones y mejoras de Journey Orchestration
 >
 >Para las funciones publicadas en 2022 y 2023, los vínculos dirigen a la documentación de Adobe Journey Optimizer.
 
+## Versión de agosto de 2023 {#aug-rn-2023}
+
+### Mejoras {#aug-2023-improvements}
+
+* Ahora puede utilizar las respuestas de llamadas de API en acciones personalizadas y organizar su recorrido en función de estas respuestas. Actualmente, esta función está disponible como una versión beta privada. Consulte la [documentación](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/action-response.html) de Journey Optimizer.
+
 ## Versión de abril de 2023 {#apr-rn-2023}
 
 ### Mejoras {#april-2023-improvements}
-
-**Recorridos**
 
 * Se ha mejorado el diseño del panel de configuración, que aparece en acciones, fuentes de datos, eventos y recorridos.
 * Ahora puede definir parámetros de consulta estáticos o dinámicos en sus acciones personalizadas. Consulte la [documentación](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=es#url-configuration) de Journey Optimizer.
