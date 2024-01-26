@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 3a4ff8b1-bbe7-47c8-9fba-defe4b1d5299
-source-git-commit: 5b09ed456b6a9645dbb7897481317d3904e29d31
+source-git-commit: fca24f7dd0f9170fa209474f270a4c0fb4080c03
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '522'
 ht-degree: 1%
 
 ---
@@ -27,11 +27,11 @@ Al hacer clic en la actividad de evento en el lienzo, se muestra el panel de con
 
 ![](../assets/journey33.png)
 
-## Escucha de eventos durante un tiempo específico
+## Escucha de eventos durante un evento específico {#listening}
 
 Una actividad de evento colocada en el recorrido escucha eventos indefinidamente. Para escuchar un evento solo durante un tiempo determinado, debe configurar un tiempo de espera para el evento.
 
-El recorrido escuchará el evento durante el tiempo especificado en el tiempo de espera. Si se recibe un evento durante ese período, la persona fluirá en la ruta del evento. Si no es así, el cliente fluirá a una ruta de tiempo de espera o finalizará su recorrido.
+El recorrido escuchará el evento durante el tiempo especificado en el tiempo de espera. Si se recibe un evento durante ese período, la persona fluirá en la ruta del evento. Si no es así, el cliente fluirá a la ruta de tiempo de espera si está definida o continuará ese recorrido. Si no se define ninguna ruta de tiempo de espera, la configuración de tiempo de espera actuará como una actividad de espera, lo que hace que el perfil espere durante un período de tiempo, que podría detenerse si se produce un evento antes del final de esa espera. Si desea que los perfiles se excluyan de ese recorrido después del tiempo de espera, deberá establecer una ruta de tiempo de espera.
 
 Para configurar un tiempo de espera para un evento, siga estos pasos:
 
@@ -39,7 +39,7 @@ Para configurar un tiempo de espera para un evento, siga estos pasos:
 
 1. Especifique la cantidad de tiempo que el recorrido esperará el evento.
 
-1. Si desea enviar a las personas a una ruta de tiempo de espera cuando no se reciba ningún evento dentro del tiempo de espera especificado, habilite la opción **[!UICONTROL Set the timeout path]** opción. Si esta opción no está habilitada, el recorrido finalizará para el individuo una vez que se alcance el tiempo de espera.
+1. Si desea enviar a las personas a una ruta de tiempo de espera cuando no se reciba ningún evento dentro del tiempo de espera especificado, habilite la opción **[!UICONTROL Set the timeout path]** opción. Si esta opción no está habilitada, el recorrido continuará para el individuo una vez que se alcance el tiempo de espera.
 
    ![](../assets/event-timeout.png)
 
@@ -50,6 +50,6 @@ En este ejemplo, el recorrido envía una primera notificación push de bienvenid
 
 Tenga en cuenta que si desea configurar un tiempo de espera en varios eventos colocados después de una **[!UICONTROL Wait]** actividad, solo debe configurar el tiempo de espera en uno de estos eventos.
 
-El tiempo de espera se aplicará a todos los eventos colocados después de **[!UICONTROL Wait]** actividad. Si no se recibe ningún evento antes del tiempo de espera especificado, los individuos fluirán a una sola ruta de tiempo de espera o finalizarán su recorrido.
+El tiempo de espera se aplicará a todos los eventos colocados después de **[!UICONTROL Wait]** actividad. Si no se recibe ningún evento antes del tiempo de espera especificado, los individuos fluirán en una sola ruta de tiempo de espera o continuarán ese recorrido a través de la rama que sale de la actividad en la que se han definido esos ajustes de tiempo de espera.
 
 ![](../assets/event-timeout-group.png)
