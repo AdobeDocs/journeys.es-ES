@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: ea4b589755b904007cc4ea8be04f67f8742ff5a0
+source-git-commit: bb74c7dc1ebad0a707b830602a8d0b33e8443a5d
 workflow-type: tm+mt
-source-wordcount: '4352'
-ht-degree: 96%
+source-wordcount: '4418'
+ht-degree: 98%
 
 ---
 
@@ -21,14 +21,26 @@ Esta página lista todas las nuevas funciones y mejoras de Journey Orchestration
 >
 >Para las funciones publicadas en 2022 y 2023, los vínculos dirigen a la documentación de Adobe Journey Optimizer.
 
+## Lanzamiento de marzo de 2024 {#mar-rn-2024}
+
+### Mejoras {#mar-2024-improvements}
+
+Se han añadido nuevos estados intermedios al ciclo vital de creación de recorridos:
+
+* **Publicación** estado entre las variables **Borrador** estado y el **Activo** status
+* **Deteniendo** estado entre las variables **Activo** estado y el **Detenido** status
+* **Activando modo de prueba** o **Desactivando modo de prueba** estados entre los **Borrador** estado y el **Borrador (pruebas)** status
+
+Cuando un recorrido está en un estado intermedio, es de solo lectura. [Más información](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs#filter)
+
 ## Lanzamiento de febrero de 2024 {#feb-rn-2024}
 
 ### Mejoras {#feb-2024-improvements}
 
-* **Filtrar sus recorridos** - Ahora puede utilizar **fechas personalizadas para filtrar los recorridos** inventario, además de los filtros de fecha predefinidos existentes. Esto le permite refinar la lista mostrando los recorridos creados o publicados en una fecha específica, dentro de un mes en particular, a lo largo de un año completo o dentro de intervalos de tiempo especificados. [Más información](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#filter)
-* **Acciones personalizadas** - Ahora puede actualizar el **content-type** encabezado. Esta nueva **content-type** debe hacer referencia al contenido JSON. [Más información](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=es#url-configuration)
-* **Configuración** - El atributo identityMap de stepEvents ya está rellenado previamente. La identidad principal se define como &quot;primary = true&quot;. [Más información](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-field-list.html)
-* **Interfaz de usuario** - La barra superior, en pantallas de recorrido, se ha reorganizado para mejorar la experiencia. Entre las diferentes actualizaciones, observe que el icono de &quot;lápiz&quot; que le permite acceder a las propiedades del recorrido ahora se muestra a la izquierda de la barra superior, junto al nombre del recorrido. [Más información](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#change-properties)
+* **Filtre los recorridos**: ahora puede utilizar **fechas personalizadas para filtrar el inventario de recorridos**, además de los filtros de fecha predefinidos existentes. Esto le permite acotar la lista mostrando recorridos creados o publicados en una fecha específica, en un mes en particular, a lo largo de un año completo o en intervalos de tiempo especificados. [Más información](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#filter)
+* **Acciones personalizadas**: ahora puede actualizar el encabezado **content-type**. Este nuevo **content-type** debe hacer referencia al contenido JSON. [Más información](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=es#url-configuration)
+* **Configuración**: ahora el atributo identityMap de stepEvents se rellena previamente. La identidad principal se define como &quot;primary = true&quot;. [Más información](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-field-list.html)
+* **Interfaz de usuario**: la barra superior, en pantallas de recorrido, se ha reorganizado para mejorar la experiencia. Entre las diferentes actualizaciones, observe que el icono de “lápiz” que le permite acceder a las propiedades del recorrido ahora se muestra a la izquierda de la barra superior, junto al nombre del recorrido. [Más información](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#change-properties)
 
 ## Lanzamiento de enero de 2024 {#jan-rn-2024}
 
