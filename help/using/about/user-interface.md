@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
 source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 93%
+source-wordcount: '959'
+ht-degree: 92%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 93%
 
 ## Acceso a [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-Para acceder a [!DNL Journey Orchestration]En la interfaz de, haga clic en **[!UICONTROL App Selector]** , en la parte superior derecha, y haga clic en **[!UICONTROL Journey Orchestration]**.
+Para acceder a la interfaz de [!DNL Journey Orchestration], haga clic en el icono **[!UICONTROL App Selector]**, en la parte superior derecha, y luego haga clic en **[!UICONTROL Journey Orchestration]**.
 
 ![](../assets/journey1.png)
 
@@ -55,7 +55,7 @@ Se puede acceder a **[!UICONTROL Filters]** haciendo clic en el icono de filtro 
 
 En las listas **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** y **[!UICONTROL Actions]** , use **[!UICONTROL Creation filters]** para filtrar la fecha de creación y el usuario. Puede elegir, por ejemplo, mostrar solo los eventos creados en los últimos 30 días.
 
-En la lista de recorrido (debajo de **[!UICONTROL Home]**), además del **[!UICONTROL Creation filters]**, también puede filtrar los recorridos mostrados según su estado, tipo y versión (**[!UICONTROL Status and version filters]**). El tipo puede ser: **[!UICONTROL Unitary event]** o **[!UICONTROL Segment qualification]**. También puede elegir mostrar únicamente los recorrido que utilizan un evento, un grupo de campos o una acción en particular (**[!UICONTROL Activity filters]** y **[!UICONTROL Data filters]**). **[!UICONTROL Publication filters]** Permite seleccionar una fecha de publicación o un usuario. Puede elegir, por ejemplo, mostrar solo las versiones más recientes de recorridos en directo que se publicaron ayer. Consulte [esta página](../building-journeys/using-the-journey-designer.md).
+En la lista de recorrido (debajo de **[!UICONTROL Home]**), además de **[!UICONTROL Creation filters]**, también puede filtrar los recorridos mostrados según su estado, tipo y versión (**[!UICONTROL Status and version filters]**). El tipo puede ser: **[!UICONTROL Unitary event]** o **[!UICONTROL Segment qualification]**. También puede elegir mostrar únicamente los recorrido que utilizan un evento, un grupo de campos o una acción en particular (**[!UICONTROL Activity filters]** y **[!UICONTROL Data filters]**). **[!UICONTROL Publication filters]** Permite seleccionar una fecha de publicación o un usuario. Puede elegir, por ejemplo, mostrar solo las versiones más recientes de recorridos en directo que se publicaron ayer. Consulte [esta página](../building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
@@ -99,7 +99,7 @@ Adobe Experience Platform proporciona las funciones de accesibilidad de Adobe Jo
 
 Puede utilizar estos métodos abreviados de teclado comunes en Adobe Journey Optimizer:
 
-| Acción | Acceso directo |
+| Acción | Método abreviado |
 | --- | --- |
 | Desplazamiento entre elementos, secciones y grupos de menús de la interfaz de usuario | Tabulación |
 | Retroceder entre elementos, secciones y grupos de menús de la interfaz de usuario | Mayús + Tab |
@@ -116,7 +116,7 @@ Puede utilizar estos métodos abreviados en partes específicas de Journey Optim
     <tr>
       <th>Elemento de interfaz</th>
       <th>Acción</th>
-      <th>Acceso directo</th>
+      <th>Método abreviado</th>
     </tr>
   </thead>
   <tr>

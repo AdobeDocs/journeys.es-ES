@@ -27,7 +27,7 @@ La barra de herramientas superior permite, por ejemplo, modificar, guardar o imp
 
 ![](../assets/dynamic_report_toolbar.png)
 
-Utilice el **[!UICONTROL Project]** a:
+Utilice la ficha **[!UICONTROL Project]** para:
 
 * **[!UICONTROL Open]**: abre un informe o una plantilla creados anteriormente.
 * **[!UICONTROL Save As]**: duplica las plantillas para poder modificarlas.
@@ -35,18 +35,18 @@ Utilice el **[!UICONTROL Project]** a:
 * **[!UICONTROL Download CSV]**: exporta los informes a un archivo CSV.
 * **[!UICONTROL Print]**: imprime el informe.
 
-El **[!UICONTROL Edit]** La pestaña le permite:
+La ficha **[!UICONTROL Edit]** le permite:
 
 * **[!UICONTROL Undo]**: cancela la última acción en el panel.
-* **[!UICONTROL Redo]**: cancela el último **[!UICONTROL Undo]** acción en el tablero.
+* **[!UICONTROL Redo]**: cancela la última acción **[!UICONTROL Undo]** en el panel.
 * **[!UICONTROL Clear all]**: elimina todos los paneles del tablero.
 
-El **[!UICONTROL Insert]** Esta tabla permite personalizar los informes añadiendo gráficos y tablas al tablero:
+La tabla **[!UICONTROL Insert]** le permite personalizar los informes al agregar gráficos y tablas al tablero:
 
 * **[!UICONTROL New Blank Panel]**: agrega un nuevo panel en blanco al panel.
 * **[!UICONTROL New Freeform]**: agrega una nueva tabla de forma libre al panel.
-* **[!UICONTROL New Line]**: añade un nuevo gráfico de líneas al panel.
-* **[!UICONTROL New Bar]**: añade un nuevo gráfico de barras al tablero.
+* **[!UICONTROL New Line]**: agrega un nuevo gráfico de líneas al panel.
+* **[!UICONTROL New Bar]**: agrega un nuevo gráfico de barras al tablero.
 
 Las pestañas de la izquierda le permiten crear el informe y filtrar los datos según sea necesario.
 
@@ -54,14 +54,14 @@ Las pestañas de la izquierda le permiten crear el informe y filtrar los datos s
 
 Estas pestañas le proporcionan acceso a los siguientes elementos:
 
-* **[!UICONTROL Panels]**: agregue un panel en blanco o una forma libre al informe para filtrar los datos. Para obtener más información, consulte [Adición de paneles](../reporting/creating-your-journey-reports.md#adding-panels) sección
-* **[!UICONTROL Visualizations]**: arrastre y suelte una selección de elementos de visualización para darle una dimensión gráfica al informe. Para obtener más información, consulte [Añadir visualizaciones](../reporting/creating-your-journey-reports.md#adding-visualizations) sección.
-* **[!UICONTROL Components]**: personalice los informes con diferentes dimensiones, métricas, segmentos y periodos de tiempo. Para obtener más información, consulte [Añadir componentes](../reporting/creating-your-journey-reports.md#adding-components) sección.
+* **[!UICONTROL Panels]**: agregue un panel en blanco o una forma libre al informe para filtrar los datos. Para obtener más información, consulte la sección [Agregar paneles](../reporting/creating-your-journey-reports.md#adding-panels)
+* **[!UICONTROL Visualizations]**: arrastre y suelte una selección de elementos de visualización para darle una dimensión gráfica al informe. Para obtener más información, consulte la sección [Agregar visualizaciones](../reporting/creating-your-journey-reports.md#adding-visualizations).
+* **[!UICONTROL Components]**: personalice los informes con diferentes dimensiones, métricas, segmentos y períodos de tiempo. Para obtener más información, consulte la sección [Agregar componentes](../reporting/creating-your-journey-reports.md#adding-components).
 
 ## Plantilla de resumen de recorrido {#ootb-template}
 
 Los informes se dividen en dos categorías: una plantilla predeterminada e informes personalizados.
-La plantilla lista para usar, **[!UICONTROL Journey summary]**, le ofrece una visión clara de los datos de seguimiento más importantes.
+La plantilla predeterminada, **[!UICONTROL Journey summary]**, le ofrece una vista clara de los datos de seguimiento más importantes.
 
 ![](../assets/dynamic_report_journey_8.png)
 
@@ -69,9 +69,9 @@ Cada tabla está representada por números de resumen y gráficos. Puede cambiar
 
 Los siguientes KPI están disponibles en la parte superior del informe:
 
-* **[!UICONTROL Journey - Entered]**: número total de personas que llegaron al evento de entrada del recorrido.
-* **[!UICONTROL Journey - Completion rate]**: número total de personas que llegaron al final del recorrido (o en el caso de una persona que no coincide con ninguna condición) comparado con el número total de personas que entraron en el recorrido.
-* **[!UICONTROL Journey - Current]**: número total de personas que están actualmente en el recorrido.
+* **[!UICONTROL Journey - Entered]**: número total de individuos que alcanzaron el evento de entrada del recorrido.
+* **[!UICONTROL Journey - Completion rate]**: número total de individuos que llegaron al final del recorrido (o en el caso de un individuo que no coincide con ninguna condición) comparado con el número total de individuos que ingresaron al recorrido.
+* **[!UICONTROL Journey - Current]**: número total de personas que se encuentran actualmente en el recorrido.
 * **[!UICONTROL Journey - Failed rate]**: número total de recorridos que no se ejecutaron correctamente en comparación con el número de recorridos de ejecución.
 * **[!UICONTROL Delivery - Messages sent]**: número total de mensajes enviados.
 * **[!UICONTROL Delivery rate]**: número total de mensajes entregados correctamente en comparación con los mensajes enviados.
@@ -84,30 +84,30 @@ La visualización del flujo de Recorrido permite ver paso a paso la ruta de los 
 
 ![](../assets/dynamic_report_journey_10.png)
 
-El **[!UICONTROL Journey summary]** contiene los datos disponibles para su recorrido, como:
+La tabla **[!UICONTROL Journey summary]** contiene los datos disponibles para su recorrido, como:
 
-* **[!UICONTROL Entered]**: número total de personas que llegaron al evento de entrada del recorrido.
-* **[!UICONTROL Completion rate]**: número total de personas que llegaron al control de flujo final del recorrido comparado con el número total de personas que entraron en el recorrido.
-* **[!UICONTROL Current]**: número total de personas que están actualmente en el recorrido.
+* **[!UICONTROL Entered]**: número total de individuos que alcanzaron el evento de entrada del recorrido.
+* **[!UICONTROL Completion rate]**: número total de individuos que llegaron al control de flujo final del recorrido en comparación con el número total de individuos que entraron al recorrido.
+* **[!UICONTROL Current]**: número total de personas que se encuentran actualmente en el recorrido.
 * **[!UICONTROL Failed]**: número total de recorridos que no se ejecutaron correctamente.
 * **[!UICONTROL Failed rate]**: número total de recorridos que no se ejecutaron correctamente en comparación con el número de recorridos de ejecución.
 
-El **[!UICONTROL Top events]** La tabla muestra los eventos de mayor éxito y las variables **[!UICONTROL Top action]**, las acciones más exitosas en sus recorridos.
+La tabla **[!UICONTROL Top events]** muestra los eventos con más éxito y **[!UICONTROL Top action]**, las acciones con más éxito en sus recorridos.
 
 ![](../assets/dynamic_report_journey_11.png)
 
-El **[!UICONTROL Delivery - Sending summary]** contiene los datos disponibles para los envíos de su recorrido, como:
+La tabla **[!UICONTROL Delivery - Sending summary]** contiene los datos disponibles para los envíos de su recorrido, como:
 
 * **[!UICONTROL Processed/sent]**: número total de mensajes enviados.
 * **[!UICONTROL Delivered rate]**: número total de mensajes entregados correctamente en comparación con los mensajes enviados.
-* **[!UICONTROL Delivered]**: número de mensajes enviados correctamente en relación con el número total de mensajes enviados.
+* **[!UICONTROL Delivered]**: número de mensajes enviados correctamente en relación con la cantidad total de mensajes enviados.
 * **[!UICONTROL Bounce + error rate]**: número total de mensajes que se rebotaron en comparación con los mensajes enviados.
 * **[!UICONTROL Bounces + errors]**: total de errores acumulados durante el envío y el procesamiento automático de devoluciones en relación con el número total de mensajes enviados.
 
-El **[!UICONTROL Delivery - Tracking summary]** contiene los datos disponibles para realizar un seguimiento del éxito de los envíos de sus recorridos, como:
+La tabla **[!UICONTROL Delivery - Tracking summary]** contiene los datos disponibles para realizar un seguimiento del éxito de los envíos de sus recorridos, como:
 
 * **[!UICONTROL Open Rate]**: porcentaje de mensajes abiertos.
-* **[!UICONTROL Open]**: número de veces que se ha abierto un mensaje en una entrega.
+* **[!UICONTROL Open]**: número de veces que se abrió un mensaje en una entrega.
 * **[!UICONTROL Click trough rate]**: número total de clics en una entrega comparado con el número de mensajes enviados.
 * **[!UICONTROL Click]**: número de veces que se hizo clic en un contenido en una entrega.
 * **[!UICONTROL Unsubscribe rate]**: porcentaje de bajas de suscripción por destinatario comparado con los mensajes enviados.

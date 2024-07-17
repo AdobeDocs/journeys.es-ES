@@ -9,7 +9,7 @@ exl-id: b7568080-b88c-415c-9d3f-cc1361664838
 source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 19%
+ht-degree: 18%
 
 ---
 
@@ -37,7 +37,7 @@ Este grupo de campos se utiliza en el esquema de recorrido (en relación con jou
 | ID | Cadena | Identificador del Recorrido determinado |
 | VersionID | Cadena | ID de la versión del recorrido. Este ID representa la identidad de un recorrido |
 | name | Cadena | Nombre del recorrido |
-| description | Cadena | Descripción del recorrido |
+| descripción | Cadena | Descripción del recorrido |
 | version | Cadena | versión, representada como `major`.`minor` |
 
 ## perfil
@@ -58,10 +58,10 @@ Este mixin contiene todos los campos correspondientes a un trabajo de exportaci�
 | Nombre del campo | Tipo | Descripción |
 |---|---|------------|
 | ID | Cadena | El identificador del trabajo de exportación de segmentos activado |
-| status | Cadena | El estado del trabajo de exportación de segmentos: en cola, iniciado, finalizado |
-| exportCountTotal | Número entero | El valor máximo posible del trabajo de exportación de segmentos |
-| exportCountRealized | Número entero | El número real de segmentos exportados a través del trabajo |
-| exportCountFailed | Número entero | El número de segmentos que fallaron al exportar a través del trabajo |
+| estado | Cadena | El estado del trabajo de exportación de segmentos: en cola, iniciado, finalizado |
+| exportCountTotal | Entero | El valor máximo posible del trabajo de exportación de segmentos |
+| exportCountRealized | Entero | El número real de segmentos exportados a través del trabajo |
+| exportCountFailed | Entero | El número de segmentos que fallaron al exportar a través del trabajo |
 | exportSegmentID | Cadena | El identificador del segmento que se exporta |
 | eventType | Cadena | El tipo de evento que indica si es un evento de error del evento de información: Información, Error |
 | eventCode | Cadena | El código de error que indica el motivo del eventType correspondiente |

@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: c678ba01-c868-49f2-99f3-1abe0302779e
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '1038'
-ht-degree: 97%
+source-wordcount: '1030'
+ht-degree: 95%
 
 ---
 
@@ -47,7 +47,7 @@ El punto de partida de un recorrido es siempre un evento. Puede hacer pruebas co
 
 Puede comprobar si la llamada API que envía a través de estas herramientas se envía correctamente o no. Si vuelve a recibir un error, significa que la llamada tiene un problema. Vuelva a comprobar la carga útil, el encabezado (y especialmente el ID de organización) y la dirección URL de destino. Puede preguntar a su administrador cuál es la dirección URL correcta para visitar.
 
-Los eventos no se insertan directamente del origen a [!DNL Journey Orchestration]. De hecho, [!DNL Journey Orchestration] se basa en las API de ingesta de transmisión de Adobe Experience Platform. Como resultado, en caso de problemas relacionados con el evento, puede consultar [esta página](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html) para la solución de problemas de API de ingesta de transmisión.
+Los eventos no se insertan directamente del origen a [!DNL Journey Orchestration]. De hecho, [!DNL Journey Orchestration] se basa en las API de ingesta de transmisión de Adobe Experience Platform. Como resultado, en caso de problemas relacionados con el evento, puede consultar [esta página](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html) para la solución de problemas de las API de ingesta de transmisión.
 
 ## Comprobación de si las personas entran en el recorrido{#section_x4v_zzs_dgb}
 
@@ -57,7 +57,7 @@ Si se consigue enviar el evento pero no se ve ninguna entrada en el recorrido, h
 
 A continuación se indican algunas cosas que el administrador debe comprobar:
 
-* ¿Está seguro de que el recorrido en el que espera el evento entrante está en modo de prueba o activo?
+* ¿Seguro que el recorrido en el que espera el evento entrante está en modo de prueba o activo?
 * ¿Ha guardado el evento antes de copiar la carga útil de la previsualización de carga útil?
 * ¿Su carga útil de evento contiene un ID de evento?
 * ¿Ha marcado la dirección URL correcta?
@@ -69,7 +69,7 @@ A continuación se indican algunas cosas que el administrador debe comprobar:
   Content-type - application/json
   ```
 
-## Comprobación de cómo navegan las personas a través del recorrido {#section_l5y_yzs_dgb}
+## Comprobación de cómo navegan las personas por el recorrido{#section_l5y_yzs_dgb}
 
 El sistema de informes de [!DNL Journey Orchestration] mide el progreso de las personas en un recorrido. Es fácil identificar dónde y por qué detuvieron a una persona.
 

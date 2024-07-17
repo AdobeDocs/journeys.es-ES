@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 4df471ae-c6b7-452e-8e44-a108d0da276f
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 7%
+source-wordcount: '377'
+ht-degree: 4%
 
 ---
 
@@ -75,7 +75,7 @@ Tipo: cadena
 
 ## fetchOriginErrorCode
 
-El código de error proporcionado por el sistema [!DNL Journey Orchestration] está consultando. Por ejemplo, puede ser un 404, 500, etc.
+Se está consultando el código de error proporcionado por el sistema [!DNL Journey Orchestration]. Por ejemplo, puede ser un 404, 500, etc.
 
 Tipo: cadena
 

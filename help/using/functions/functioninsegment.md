@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 7f756ec5-d787-4024-aaf8-5b4f1d4ddece
 source-git-commit: e56e6f5dcb8a4680851858355ac18a70bd832b73
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '185'
 ht-degree: 6%
 
 ---
@@ -23,7 +23,7 @@ Comprueba si un individuo pertenece a un segmento determinado.
 
 El nombre del segmento debe ser una constante de cadena. No puede ser una referencia de campo ni una expresión.
 
-Los segmentos se definen en la [Adobe Experience Platform](https://platform.adobe.com/segment/overview). El editor de expresiones proporciona una lista autocompletada de segmentos.
+Los segmentos se definen en [Adobe Experience Platform](https://platform.adobe.com/segment/overview). El editor de expresiones proporciona una lista autocompletada de segmentos.
 
 Los segmentos pueden tener tres estados:
 
@@ -31,11 +31,11 @@ Los segmentos pueden tener tres estados:
 * realizado: la entidad se está introduciendo en el segmento.
 * saliente: la entidad sale del segmento.
 
-Solo las personas con el **Realizado** y **Existente** los estados de participación en el segmento se considerarán miembros del mismo. Para obtener más información sobre cómo evaluar un segmento, consulte la [Documentación del Servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
+Solo las personas con los estados de participación en los segmentos **Realized** y **Existing** se considerarán como miembros del segmento. Para obtener más información sobre cómo evaluar un segmento, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
 
-`IF inSegment('segmentName') == true` significa que tiene una pertenencia a segmento con el estado introducido/existente.
+`IF inSegment('segmentName') == true` significa que tiene un segmentMembership con el estado introducido/existente.
 
-`ELSE inSegment('segmentName') == false` significa que tiene un segmentMembership del estado de salida.
+`ELSE inSegment('segmentName') == false` significa que usted tiene un segmentMembership del estado saliente.
 
 ## Categoría
 
@@ -63,4 +63,4 @@ Devuelve un valor booleano.
 
 Explicación:
 
-La función devolverá **[!UICONTROL true]** si el individuo dentro de la instancia de recorrido es parte del segmento de Adobe Experience Platform denominado &quot;hombres mayores de 50 años&quot;, **[!UICONTROL false]** de lo contrario.
+La función devolverá **[!UICONTROL true]** si el individuo de la instancia de recorrido es parte del segmento de Adobe Experience Platform denominado &quot;hombres de más de 50 años&quot;, **[!UICONTROL false]** en caso contrario.

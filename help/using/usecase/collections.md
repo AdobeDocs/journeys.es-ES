@@ -101,7 +101,7 @@ Se puede ver que &quot;products&quot; es una matriz de dos objetos. Debe tener a
 
 1. Cree su acción personalizada. Consulte [esta página](../action/about-custom-action-configuration.md).
 
-1. En el **[!UICONTROL Action parameters]** , pegue el ejemplo JSON. La estructura mostrada es estática: al pegar la carga útil, todos los campos se definen como constantes.
+1. En la sección **[!UICONTROL Action parameters]**, pegue el ejemplo JSON. La estructura mostrada es estática: al pegar la carga útil, todos los campos se definen como constantes.
 
    ![](../assets/uc-collection-1.png)
 
@@ -123,7 +123,7 @@ Se puede ver que &quot;products&quot; es una matriz de dos objetos. Debe tener a
 
 1. Cree el recorrido y añada la acción personalizada que ha creado. Consulte [esta página](../building-journeys/using-custom-actions.md).
 
-1. En el **[!UICONTROL Action parameters]** En la sección, defina el parámetro de matriz (&quot;productos&quot; en nuestro ejemplo) utilizando el editor de expresiones avanzadas.
+1. En la sección **[!UICONTROL Action parameters]**, defina el parámetro de matriz (&quot;products&quot; en nuestro ejemplo) utilizando el editor de expresiones avanzadas.
 
    ![](../assets/uc-collection-3.png)
 
@@ -131,7 +131,7 @@ Se puede ver que &quot;products&quot; es una matriz de dos objetos. Debe tener a
 
    ![](../assets/uc-collection-4.png)
 
-Para el campo de matriz, también puede utilizar el editor de expresiones avanzadas para realizar la manipulación de datos. En el siguiente ejemplo, utilizamos la variable [filter](../functions/functionfilter.md) y [intersect](../functions/functionintersect.md) funciones:
+Para el campo de matriz, también puede utilizar el editor de expresiones avanzadas para realizar la manipulación de datos. En el ejemplo siguiente, utilizamos las funciones [filter](../functions/functionfilter.md) y [intersect](../functions/functionintersect.md):
 
 ![](../assets/uc-collection-5.png)
 

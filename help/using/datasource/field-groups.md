@@ -27,7 +27,7 @@ Aunque se añada automáticamente un nombre predeterminado, le recomendamos que 
 
 Cuando se utiliza un campo de fuente de datos en un recorrido, el sistema recupera todos los campos definidos para ese grupo de campos. Por lo tanto, se recomienda seleccionar solo los campos que necesite para sus recorridos. Esto reducirá la latencia de la solicitud en los recorridos y, por lo tanto, aumentará el rendimiento. Tenga en cuenta que puede agregar fácilmente más campos en grupos de campos más adelante.
 
-El número de recorridos que utilizan un grupo de campos se muestra en la variable **[!UICONTROL Used in]** field. Puede hacer clic en **[!UICONTROL View journeys]** para mostrar la lista de recorridos que utilizan este grupo de campos.
+El número de recorridos que utilizan un grupo de campos se muestra en el campo **[!UICONTROL Used in]**. Puede hacer clic en el botón **[!UICONTROL View journeys]** para mostrar la lista de recorridos mediante este grupo de campos.
 
 >[!NOTE]
 >
@@ -43,9 +43,9 @@ Puede agregar un campo de un grupo de campos utilizado en uno o varios recorrido
 
 Para eliminar un campo de un grupo de campos utilizado en uno o varios recorridos, siga estos pasos. Veamos un ejemplo de un grupo de campos denominado &quot;Grupo de campos A&quot;.
 
-1. En la lista de grupos de campos, coloque el cursor en &quot;Grupo de campos A&quot; y haga clic en **[!UICONTROL Duplicate]** situado a la derecha. Asigne al grupo de campos duplicado el nombre &quot;Grupo de campos B&quot;, por ejemplo.
+1. En la lista de grupos de campos, coloque el cursor en &quot;Grupo de campos A&quot; y haga clic en el icono **[!UICONTROL Duplicate]** ubicado a la derecha. Asigne al grupo de campos duplicado el nombre &quot;Grupo de campos B&quot;, por ejemplo.
 1. En &quot;Grupo de campos B&quot;, elimine los campos que ya no desee.
-1. En &quot;Grupo de campos A&quot;, compruebe dónde se utiliza este grupo de campos. Esta información se muestra en la **[!UICONTROL Used in]** field.
+1. En &quot;Grupo de campos A&quot;, compruebe dónde se utiliza este grupo de campos. Esta información se muestra en el campo **[!UICONTROL Used in]**.
 1. Abra todos los recorridos que utilicen &quot;Grupo de campos A&quot;.
 1. Cree nuevas versiones de cada uno de estos recorridos. Edite todas las actividades utilizando &quot;Grupo de campos A&quot; y seleccione &quot;Grupo de campos B&quot;.
 1. Detenga las versiones antiguas de los recorridos que utilizan &quot;Grupo de campos A&quot;. Entonces no debería tener ningún recorrido usando &quot;Grupo de campos A&quot;.

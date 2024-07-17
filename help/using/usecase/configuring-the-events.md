@@ -15,11 +15,11 @@ ht-degree: 7%
 
 # Configuración de los eventos {#concept_sbp_5cy_w2b}
 
-En nuestro caso, tenemos que recibir un evento cada vez que una persona entre en el hotel Marlton y en el restaurante. El **usuario técnico** necesita configurar los dos eventos que queremos que el sistema escuche en nuestro recorrido.
+En nuestro caso, tenemos que recibir un evento cada vez que una persona entre en el hotel Marlton y en el restaurante. El **usuario técnico** debe configurar los dos eventos que queremos que el sistema escuche en nuestro recorrido.
 
-Para obtener más información sobre la configuración de eventos, consulte [esta página](../event/about-events.md).
+Para obtener información adicional sobre la configuración de eventos, consulte [esta página](../event/about-events.md).
 
-1. En el menú superior, haga clic en **[!UICONTROL Events]** y haga clic en **[!UICONTROL Add]** para crear un nuevo evento.
+1. En el menú superior, haga clic en la ficha **[!UICONTROL Events]** y haga clic en **[!UICONTROL Add]** para crear un nuevo evento.
 
    ![](../assets/journeyuc1_1.png)
 
@@ -31,7 +31,7 @@ Para obtener más información sobre la configuración de eventos, consulte [est
 
    También se necesita el token de registro para enviar mensajes push: &quot;_experience > campaign > message > profile > pushNotificationTokens > token&quot;
 
-   Se genera automáticamente un ID para este evento. Este ID se almacena en el **[!UICONTROL eventID]** field (&quot;_experience > campaign > orchestration > eventID&quot;). El sistema que impulsa el evento no debe generar un ID, debe utilizar el que está disponible en la previsualización de carga útil. En nuestro caso de uso, este ID se utiliza para identificar la ubicación de la señalización. Cada vez que una persona camine cerca de la señalización de vestíbulo, se enviará un evento que contendrá este ID de evento específico. El mismo principio se aplica a los eventos de señalización de restaurante. Esto permite al sistema saber qué señalización activó el envío de eventos.
+   Se genera automáticamente un ID para este evento. Este ID se almacena en el campo **[!UICONTROL eventID]** (&quot;_experience > campaign > orchestration > eventID&quot;). El sistema que impulsa el evento no debe generar un ID, debe utilizar el que está disponible en la previsualización de carga útil. En nuestro caso de uso, este ID se utiliza para identificar la ubicación de la señalización. Cada vez que una persona camine cerca de la señalización de vestíbulo, se enviará un evento que contendrá este ID de evento específico. El mismo principio se aplica a los eventos de señalización de restaurante. Esto permite al sistema saber qué señalización activó el envío de eventos.
 
    ![](../assets/journeyuc2_2.png)
 
@@ -39,7 +39,7 @@ Para obtener más información sobre la configuración de eventos, consulte [est
    >
    >La lista de campos varía según el esquema. Según la definición del esquema, algunos campos pueden ser obligatorios y preseleccionados.
 
-1. Necesitamos seleccionar un área de nombres. Un área de nombres está preseleccionada en función de las propiedades de esquema. Puede mantener la preseleccionada. Para obtener más información sobre áreas de nombres, consulte [esta página](../event/selecting-the-namespace.md).
+1. Necesitamos seleccionar un área de nombres. Un área de nombres está preseleccionada en función de las propiedades de esquema. Puede mantener la preseleccionada. Para obtener más información sobre áreas de nombres, vea [esta página](../event/selecting-the-namespace.md).
 
    ![](../assets/journeyuc2_4.png)
 
@@ -49,7 +49,7 @@ Para obtener más información sobre la configuración de eventos, consulte [est
 
 1. Haga clic en **[!UICONTROL Save]**.
 
-1. Haga clic en **[!UICONTROL View Payload]** para previsualizar la carga útil esperada por el sistema y compartirla con la persona responsable del envío del evento.  Esta carga útil debe configurarse en el postback de la consola de administración de Mobile Services.
+1. Haga clic en el icono **[!UICONTROL View Payload]** para previsualizar la carga útil que espera el sistema y compartirla con la persona responsable del envío del evento.  Esta carga útil debe configurarse en el postback de la consola de administración de Mobile Services.
 
    ![](../assets/journeyuc2_5.png)
 

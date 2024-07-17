@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 77f068fa-678e-49a4-b45f-843c3287390a
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '285'
 ht-degree: 3%
 
 ---
@@ -29,7 +29,7 @@ Conversión
 
 | Parámetro | Descripción |
 |--- |--- |
-| string | formatos basados en el formato de duración ISO-8601 PnDTnHnMn.nS con días considerados exactamente 24 horas |
+| cadena | formatos basados en el formato de duración ISO-8601 PnDTnHnMn.nS con días considerados exactamente 24 horas |
 | entero | número de milisegundos |
 
 Expresión de cadena If: los formatos aceptados se basan en el formato de duración ISO-8601 PnDTnHnMn.nS con días considerados exactamente 24 horas.

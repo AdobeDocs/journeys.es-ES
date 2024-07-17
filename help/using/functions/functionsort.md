@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: sort
+title: ordenar
 description: Obtenga información acerca de la ordenación de funciones
 feature: Journeys
 role: Data Engineer
@@ -9,11 +9,11 @@ exl-id: 8e86b919-41f5-45f9-a6af-9fe290405095
 source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 9%
+ht-degree: 8%
 
 ---
 
-# sort {#sort}
+# ordenar {#sort}
 
 Ordena una lista de valores u objetos en orden natural.
 
@@ -30,7 +30,7 @@ Lista
 | Parámetro | Tipo | Descripción |
 |-----------|------------------|------------------|
 | listToSort | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly o listObject | Lista para ordenar. Para listObject, debe ser una referencia de campo. |
-| keyAttributeName | string | Este parámetro solo es para listObject. El nombre del atributo en los objetos de la lista dada se utiliza como clave para ordenar. |
+| keyAttributeName | cadena | Este parámetro solo es para listObject. El nombre del atributo en los objetos de la lista dada se utiliza como clave para ordenar. |
 | sortingOrder | Booleano | Ascendente (true) o descendente (false) |
 
 ## Firma y tipo devuelto

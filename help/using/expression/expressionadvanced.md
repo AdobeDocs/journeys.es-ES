@@ -9,13 +9,13 @@ exl-id: f6f0004d-8a33-4671-9c16-e56edfe2a45e
 source-git-commit: f0cb883a09d553bb47491b750fabde54c92f3225
 workflow-type: tm+mt
 source-wordcount: '550'
-ht-degree: 91%
+ht-degree: 80%
 
 ---
 
 # Acerca del editor de expresiones avanzadas {#concept_uyj_trt_52b}
 
-Utilice el editor de expresiones avanzadas para crear expresiones avanzadas en varias pantallas de la interfaz. Por ejemplo, se pueden generar expresiones al configurar y utilizar recorridos y al definir una condición de fuente de datos.
+Utilice el editor de expresiones avanzadas para crear expresiones avanzadas en varias pantallas de la interfaz. Por ejemplo, puede generar expresiones al configurar y utilizar recorridos, y al definir una condición de fuente de datos.
 También está disponible cada vez que necesite definir parámetros de acción que requieran manipulaciones de datos específicas. Puede aprovechar los datos procedentes de los eventos o la información adicional recuperada del origen de datos. En un viaje, la lista mostrada de los campos de evento es contextual y varía según los eventos agregados en el recorrido.
 
 El editor de expresiones avanzadas oferta un conjunto de funciones y operadores integrados que le permiten manipular valores, y definir una expresión que se ajuste específicamente a sus necesidades. El editor de expresiones avanzadas también permite definir los valores del parámetro de fuente de datos externo, y manipular los campos y colecciones de mapas, como los eventos de experiencia.
@@ -58,7 +58,7 @@ Esta pantalla le permite escribir manualmente su expresión.
 En la parte izquierda de la pantalla se muestran los campos y las funciones disponibles:
 
 * **[!UICONTROL Events]**: elija uno de los campos recibidos del evento de entrada. La lista mostrada de los campos de evento es contextual y varía según los eventos agregados en el recorrido. [Más información](../event/about-events.md)
-* **[!UICONTROL Segments]**: si se ha caído un **[!UICONTROL Segment qualification]** , elija el segmento que desee utilizar en la expresión. [Más información](../segment/using-a-segment.md)
+* **[!UICONTROL Segments]**: si ha soltado un evento **[!UICONTROL Segment qualification]**, elija el segmento que desee utilizar en la expresión. [Más información](../segment/using-a-segment.md)
 * **[!UICONTROL Data Sources]**: elija entre la lista de campos disponibles en los grupos de campos de las fuentes de datos. [Más información](../datasource/about-data-sources.md)
 * **[!UICONTROL Journey properties]**: esta sección reagrupa los campos técnicos relacionados con el recorrido de un perfil determinado. [Más información](../expression/journey-properties.md)
 * **[!UICONTROL Functions]**: elija entre una lista de funciones integradas que permitan realizar filtros complejos. Las funciones están organizadas por categorías. [Más información](../expression/functions.md)
@@ -75,7 +75,7 @@ Un mecanismo de validación de sintaxis comprueba la integridad del código. Los
 
 **Necesidad de parámetros al crear condiciones con el editor de expresiones avanzadas**
 
-Si selecciona un campo de una fuente de datos externa que requiere que se llame a un parámetro (consulte [esta página](../datasource/external-data-sources.md). Por ejemplo, en una fuente de datos relacionada con el tiempo, un parámetro utilizado frecuentemente será &quot;city&quot; (ciudad). Como resultado, debe seleccionar dónde desea obtener este parámetro de ciudad. Las funciones también se pueden aplicar a parámetros para realizar cambios de formato o concatenaciones.
+Si selecciona un campo de un origen de datos externo que requiere que se llame a un parámetro (consulte [esta página](../datasource/external-data-sources.md). Por ejemplo, en una fuente de datos relacionada con el tiempo, un parámetro utilizado frecuentemente será &quot;city&quot; (ciudad). Como resultado, debe seleccionar dónde desea obtener este parámetro de ciudad. Las funciones también se pueden aplicar a parámetros para realizar cambios de formato o concatenaciones.
 
 ![](../assets/journeyuc2_19.png)
 

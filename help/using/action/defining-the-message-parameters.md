@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: ea9cdb1d-dde6-4080-8f35-7f8cd3cf3644
 source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 4%
+source-wordcount: '226'
+ht-degree: 3%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 ![](../assets/messageparameterssection.png)
 
-En el **[!UICONTROL Action parameters]** , pegue un ejemplo de la carga útil JSON para enviar al servicio externo.
+En la sección **[!UICONTROL Action parameters]**, pegue un ejemplo de la carga útil JSON para enviarla al servicio externo.
 
 ![](../assets/customactionpayloadmessage.png)
 

@@ -9,13 +9,13 @@ exl-id: 798e4207-5bef-4002-9c1f-608bb6243e43
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '586'
-ht-degree: 6%
+ht-degree: 3%
 
 ---
 
 # atributos de propiedades de recorrido {#journey-properties}
 
-En el editor de expresiones avanzadas, encontrará el **Propiedades de recorrido** debajo de las categorías de evento y fuente de datos. Esta categoría contiene campos técnicos relacionados con el recorrido de un perfil determinado. Esta es la información recuperada por el sistema de los recorridos activos, como el ID de recorrido o los errores específicos encontrados.
+En el editor de expresiones avanzadas, encontrará la categoría **Propiedades del Recorrido**, debajo de las categorías de evento y origen de datos. Esta categoría contiene campos técnicos relacionados con el recorrido de un perfil determinado. Esta es la información recuperada por el sistema de las recorridos activas, como el ID de recorrido o los errores específicos encontrados.
 
 >[!NOTE]
 >
@@ -34,11 +34,11 @@ Puede utilizar estos campos para crear expresiones. Durante la ejecución del re
 
 Estos son algunos ejemplos de casos de uso:
 
-* **Registrar perfiles descartados**: puede enviar todos los perfiles excluidos de un mensaje mediante una regla de límite a un sistema de terceros para el registro. Para ello, se configura una ruta en caso de tiempo de espera y error y se añade una condición para filtrar por un tipo de error específico, por ejemplo: &quot;descartar personas por regla de límite&quot;. A continuación, puede insertar los perfiles descartados en un sistema de terceros mediante una acción personalizada.
+* **Registrar perfiles descartados**: puede enviar todos los perfiles excluidos de un mensaje mediante una regla de límite a un sistema de terceros para realizar el registro. Para ello, se configura una ruta en caso de tiempo de espera y error y se añade una condición para filtrar por un tipo de error específico, por ejemplo: &quot;descartar personas por regla de límite&quot;. A continuación, puede insertar los perfiles descartados en un sistema de terceros mediante una acción personalizada.
 
-* **Enviar alertas en caso de errores**: puede enviar una notificación a un sistema de terceros cada vez que se produce un error en un mensaje. Para ello, se configura una ruta en caso de error, se añade una condición y una acción personalizada. Puede enviar una notificación en un canal de Slack, por ejemplo, con la descripción del error encontrado.
+* **Enviar alertas en caso de errores**: puede enviar una notificación a un sistema de terceros cada vez que se produzca un error en un mensaje. Para ello, se configura una ruta en caso de error, se añade una condición y una acción personalizada. Puede enviar una notificación en un canal de Slack, por ejemplo, con la descripción del error encontrado.
 
-* **Refinamiento de errores en informes** : en lugar de tener solo una ruta para los mensajes de error, puede definir una condición por tipo de error. Esto le permitirá refinar los informes y ver todos los datos de tipos de errores.
+* **Refinar errores en los informes** : en lugar de tener una sola ruta para los mensajes erróneos, puede definir una condición por tipo de error. Esto le permitirá refinar los informes y ver todos los datos de tipos de errores.
 
 ## Lista de campos {#journey-properties-fields}
 
@@ -51,8 +51,8 @@ Estos son algunos ejemplos de casos de uso:
 | | journeyVersion | Versión de recorrido | |
 | Instancia de recorrido | instanceUID | Identificador de instancia de recorrido | ID de la instancia |
 | | externalKey | Clave externa | Identificador individual que activa el recorrido |
-| | organizationId | Identificador de organización | Organización de la marca |
-| | sandboxName | Nombre de la zona protegida | Nombre de la zona protegida |
+| | organizationId | Identificador de la organización | Organización de la marca |
+| | sandboxName | Nombre de zona protegida | Nombre de la zona protegida |
 | Identidad | profileId | Identificador de identidad del perfil | Identificador del perfil en el recorrido |
 | | namespace | Área de nombres de identidad de perfil | Área de nombres del perfil en la recorrido (ejemplo: ECID) |
 | Nodo actual | currentNodeId | Identificador del nodo actual | Identificador de la actividad actual (nodo) |

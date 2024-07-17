@@ -29,8 +29,8 @@ Cadena
 
 | Parámetro | Tipo |
 |-------------|--------|
-| string | string |
-| prefijo | string |
+| cadena | cadena |
+| prefijo | cadena |
 
 ## Firma y tipo devuelto
 

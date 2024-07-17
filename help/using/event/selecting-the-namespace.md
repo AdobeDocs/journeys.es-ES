@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 976c6353-797e-40cc-bb90-5d82381bb903
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 12%
+source-wordcount: '190'
+ht-degree: 7%
 
 ---
 
@@ -19,7 +19,7 @@ El área de nombres permite definir el tipo de clave utilizada para identificar 
 
 Puede utilizar uno de los predefinidos o crear uno nuevo mediante el servicio Área de nombres de identidad. Consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=es).
 
-Si selecciona un esquema que tiene una identidad principal, la variable **[!UICONTROL Key]** y **[!UICONTROL Namespace]** los campos están rellenados previamente. Si no se ha definido ninguna identidad, se selecciona _identityMap > id_ como clave principal. A continuación, debe seleccionar un área de nombres y la clave se rellenará previamente (debajo de la etiqueta **[!UICONTROL Namespace]** field) utilizando _identityMap > id_.
+Si selecciona un esquema que tiene una identidad principal, los campos **[!UICONTROL Key]** y **[!UICONTROL Namespace]** se rellenan previamente. Si no se ha definido ninguna identidad, se selecciona _identityMap > id_ como clave principal. A continuación, debe seleccionar un área de nombres y la clave se rellenará previamente (debajo del campo **[!UICONTROL Namespace]**) mediante _identityMap > id_.
 
 Al seleccionar campos, los campos de identidad principales se etiquetan.
 

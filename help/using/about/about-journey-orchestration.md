@@ -8,7 +8,7 @@ level: Beginner
 exl-id: 430bac3a-06da-45a8-af90-1dcd1504d532
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '381'
 ht-degree: 100%
 
 ---
@@ -34,13 +34,13 @@ Con el diseñador de recorridos, un **usuario empresarial** puede arrastrar y so
 
 A continuación, cree condiciones basadas en lo siguiente:
 
-* hora
+* tiempo
 * datos procedentes de la carga útil de evento
 * información procedente de fuentes de datos: fuente de datos del perfil de cliente en tiempo real o fuentes de datos personalizadas
 
 Puede utilizar la condición de división para enviar a las personas en el recorrido a diferentes direcciones.
 
-Mediante actividades de acción, puede enviar un mensaje a través de un sistema de terceros. Si tiene Adobe Campaign Standard, envíe mensajes de texto personalizados en tiempo real, notificaciones push o correos electrónicos.
+Mediante actividades de acción, puede enviar un mensaje a través de un sistema de terceros. Si tiene Adobe Campaign Standard, envíe SMS personalizados en tiempo real, notificaciones push o correos electrónicos.
 
 Como [!DNL Journey Orchestration] es multipaso, puede crear escenarios avanzados. Por ejemplo, después de un primer evento y una primera acción, puede arrastrar otros eventos. A continuación, puede agregar una segunda acción, colocar una actividad de espera para esperar un tiempo, agregar una condición dividida para empujar a las personas a dos rutas diferentes y, a continuación, enviar mensajes diferentes.
 

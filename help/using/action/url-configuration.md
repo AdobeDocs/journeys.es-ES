@@ -8,18 +8,18 @@ level: Intermediate
 exl-id: e7cba6c4-a231-44f9-927a-10115e7ab1dd
 source-git-commit: 2a93bce42ea9f1f21d70c68da3dbc36844dafd1b
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 4%
+source-wordcount: '326'
+ht-degree: 3%
 
 ---
 
 # Configuración de URL {#concept_gbg_1f1_2gb}
 
-Al configurar una acción personalizada, debe definir lo siguiente **[!UICONTROL URL Configuration]** parámetros:
+Al configurar una acción personalizada, debe definir los siguientes **[!UICONTROL URL Configuration]** parámetros:
 
 ![](../assets/journeyurlconfiguration.png)
 
-1. En el **[!UICONTROL URL]** , especifique la URL del servicio externo:
+1. En el campo **[!UICONTROL URL]**, especifique la URL del servicio externo:
 
    * Si la dirección URL es estática, introduzca la dirección URL en este campo.
 
@@ -35,23 +35,23 @@ Al configurar una acción personalizada, debe definir lo siguiente **[!UICONTROL
    >
    >Solo se permiten los puertos predeterminados al definir una acción personalizada: 80 para http y 443 para https.
 
-1. Seleccione la llamada **[!UICONTROL Method]**: puede ser cualquiera de las siguientes **[!UICONTROL POST]** o **[!UICONTROL PUT]**.
-1. En el **[!UICONTROL Headers]** , defina los encabezados HTTP del mensaje de solicitud que se va a enviar al servicio externo:
-   1. Para añadir un campo de encabezado, haga clic en **[!UICONTROL Add a header field]**.
+1. Seleccione la llamada **[!UICONTROL Method]**: puede ser **[!UICONTROL POST]** o **[!UICONTROL PUT]**.
+1. En la sección **[!UICONTROL Headers]**, defina los encabezados HTTP del mensaje de solicitud que se va a enviar al servicio externo:
+   1. Para agregar un campo de encabezado, haga clic en **[!UICONTROL Add a header field]**.
    1. Introduzca la clave del campo de encabezado.
    1. Para establecer un valor dinámico para el par clave-valor, seleccione **[!UICONTROL Variable]**. De lo contrario, seleccione **[!UICONTROL Constant]**.
 
       Por ejemplo, para una marca de tiempo, puede establecer un valor dinámico.
 
-   1. Si ha seleccionado **[!UICONTROL Constant]**, luego introduzca el valor constante.
+   1. Si ha seleccionado **[!UICONTROL Constant]**, introduzca el valor constante.
 
-      Si ha seleccionado **[!UICONTROL Variable]**, entonces especificará esta variable al agregar la acción personalizada a un recorrido. [Más información](../building-journeys/using-custom-actions.md).
+      Si ha seleccionado **[!UICONTROL Variable]**, debe especificar esta variable al agregar la acción personalizada a un recorrido. [Más información](../building-journeys/using-custom-actions.md).
 
       ![](../assets/journeyurlconfiguration2.png)
 
-   1. Para eliminar un campo de encabezado, seleccione el campo de encabezado y haga clic en **[!UICONTROL Delete]** icono.
+   1. Para eliminar un campo de encabezado, elija el campo de encabezado y haga clic en el icono **[!UICONTROL Delete]**.
 
-   El **[!UICONTROL Content-Type]** y **[!UICONTROL Charset]** los campos de encabezado están configurados de forma predeterminada. Estos campos no se pueden modificar ni eliminar.
+   Los campos de encabezado **[!UICONTROL Content-Type]** y **[!UICONTROL Charset]** están establecidos de forma predeterminada. Estos campos no se pueden modificar ni eliminar.
 
    Después de agregar la acción personalizada a un recorrido, aún puede agregarle campos de encabezado si el recorrido está en estado de borrador. Si no desea que los cambios de configuración afecten al recorrido, duplique la acción personalizada y agregue los campos de encabezado a la nueva acción personalizada.
 

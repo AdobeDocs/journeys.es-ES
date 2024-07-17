@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: concat
+title: concatena
 description: Obtenga información acerca de la función concat.
 feature: Journeys
 role: Data Engineer
@@ -13,7 +13,7 @@ ht-degree: 27%
 
 ---
 
-# concat {#concat}
+# concatena {#concat}
 
 Concatena dos parámetros de cadena o una lista de cadenas.
 
@@ -30,7 +30,7 @@ Cadena
 | Parámetro | Tipo |
 |-----------|------------------|
 | Lista | listString |
-| string | string |
+| cadena | cadena |
 
 ## Firma y tipo devuelto
 

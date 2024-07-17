@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 724ae59e-d1b5-4de9-b140-d37064e22ac6
 source-git-commit: a5d063784b278120b61f8d2641264baf40e34a90
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 2%
+source-wordcount: '490'
+ht-degree: 1%
 
 ---
 
@@ -40,7 +40,7 @@ En primer lugar, los clientes de destino que navegaron por la tienda en línea, 
 
 `In (“addToCart”, #{field reference from experience event})`-->
 
-**Esta expresión busca todos los eventos de este usuario especificados en los últimos 7 días:**
+**Esta expresión busca todos los eventos de este usuario especificados en los últimos siete días:**
 
 A continuación, selecciona todos los eventos del carro de compras que no se transformaron en una compra completa.
 
@@ -70,7 +70,7 @@ La marca de tiempo especificada actúa como valor de fecha y hora; la segunda es
 
 Esta expresión devuelve un valor booleano.
 
-**Ahora vamos a crear una expresión para comprobar que el producto está en stock**
+**Ahora vamos a crear una expresión para comprobar que el producto está disponible**
 
 * En Inventory, esta expresión busca el campo de cantidad de un producto y especifica que debe ser mayor que 0.
 
@@ -110,9 +110,9 @@ Esta condición recupera solo los eventos de geovalla activados en &quot;Arlingt
                     .name} == "Arlington"
 ```
 
-Explicación: Es una comparación de cadenas estricta (con distinción de mayúsculas y minúsculas), equivalente a una consulta en modo simple que utiliza `equal to` con `Is sensitive` comprobado.
+Explicación: Se trata de una comparación de cadenas estricta (con distinción de mayúsculas y minúsculas), equivalente a una consulta en modo simple que utiliza `equal to` con `Is sensitive` marcado.
 
-La misma consulta con `Is sensitive` si no se selecciona, se genera la siguiente expresión en modo avanzado:
+La misma consulta con `Is sensitive` sin marcar generará la siguiente expresión en modo avanzado:
 
 ```json
         equalIgnoreCase(@{GeofenceEntry
@@ -143,6 +143,6 @@ substr(
 )
 ```
 
-Explicación: Este ejemplo utiliza `substr` y `lastIndexOf` funciones para eliminar llaves que encierran el ID de CRM pasado con un evento de inicio de aplicación móvil.
+Explicación: Este ejemplo utiliza las funciones `substr` y `lastIndexOf` para eliminar llaves que encierran el ID de CRM pasado con un evento de inicio de aplicación móvil.
 
-Para obtener más información sobre cómo utilizar el editor de expresiones avanzadas, consulte [este vídeo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html).
+Para obtener más información sobre cómo usar el editor de expresiones avanzadas, vea [este vídeo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html).

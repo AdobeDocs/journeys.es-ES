@@ -9,7 +9,7 @@ exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
 source-git-commit: f0cb883a09d553bb47491b750fabde54c92f3225
 workflow-type: tm+mt
 source-wordcount: '177'
-ht-degree: 75%
+ht-degree: 70%
 
 ---
 
@@ -61,15 +61,15 @@ Esta es la lista de funciones compatibles.
 | Fecha | [updateTimeZone](../functions/functionupdatetimezone.md) |
 | Lista | [distinct](../functions/functiondistinct.md) |
 | Lista | [distinctWithNull](../functions/functiondistinctwithnull.md) |
-| Lista | [filter](../functions/functionfilter.md) |
+| Lista | [filtro](../functions/functionfilter.md) |
 | Lista | [getListItem](../functions/functiongetlistitem.md) |
-| Lista | [en](../functions/functionin.md) |
-| Lista | [intersect](../functions/functionintersect.md) |
+| Lista | [in](../functions/functionin.md) |
+| Lista | [intersección](../functions/functionintersect.md) |
 | Lista | [listSize](../functions/functionlistsize.md) |
 | Lista | [serializeList](../functions/functionserializelist.md) |
 | Lista | [sort](../functions/functionsort.md) |
-| Math | [random](../functions/functionrandom.md) |
-| Math | [round](../functions/functionround.md) |
+| Matemáticas | [random](../functions/functionrandom.md) |
+| Matemáticas | [round](../functions/functionround.md) |
 | Cadena | [concat](../functions/functionconcat.md) |
 | Cadena | [contain](../functions/functioncontain.md) |
 | Cadena | [containIgnoreCase](../functions/functioncontainwithignorecase.md) |

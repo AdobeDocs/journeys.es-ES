@@ -9,8 +9,8 @@ level: Beginner
 exl-id: e39218bd-fa6e-443f-9843-92b7a07070fa
 source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 6%
+source-wordcount: '1039'
+ht-degree: 5%
 
 ---
 
@@ -36,7 +36,7 @@ La API de límite integrada ofrece una protección técnica ascendente que ayuda
 
 Para las fuentes de datos externas, el número máximo de llamadas por segundo se establece en 15. Si el número de llamadas supera las 15 por segundo, las llamadas restantes se descartan. Puede aumentar este límite para fuentes de datos externas privadas. Adobe de contacto para incluir el punto final en la lista de permitidos. Esto no es posible para fuentes de datos externas públicas.
 
-Para acciones personalizadas, debe evaluar la capacidad de su API externa. Por ejemplo, si Journey Optimizer envía 1000 llamadas por segundo y su sistema solo admite 100 llamadas por segundo, debe definir una regla de límite para que el sistema no se sature.
+Para las acciones personalizadas, debe evaluar la capacidad de la API externa. Por ejemplo, si Journey Optimizer envía 1000 llamadas por segundo y su sistema solo admite 100 llamadas por segundo, debe definir una regla de límite para que el sistema no se sature.
 
 Las reglas de límite se definen en el nivel de zona protegida para un punto de conexión específico (la dirección URL llamada ). En tiempo de ejecución, Journey Orchestration comprueba si hay una regla de límite definida y aplica la tasa definida durante las llamadas a ese extremo. Si el número de llamadas supera la tasa definida, las llamadas restantes se descartan y se contabilizan como errores en el sistema de informes.
 
@@ -70,7 +70,7 @@ Veamos un ejemplo para un tiempo de espera de 5 segundos.
 
 ## Preguntas frecuentes{#faq}
 
-**¿Cómo puedo configurar una regla de límite? ¿Existe una regla de límite predeterminada?**
+**¿Cómo puedo configurar una regla de límite? ¿Hay una regla de límite predeterminada?**
 
 De forma predeterminada, no hay ninguna regla de límite. Las reglas de límite se definen en el nivel de entorno limitado para un extremo específico (la dirección URL llamada ), mediante la API de límite. Consulte [esta sección](../about/external-systems.md#capping) y [esta página](../api/capping.md).
 

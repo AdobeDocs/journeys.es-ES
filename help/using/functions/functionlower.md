@@ -27,7 +27,7 @@ Cadena
 
 ## Parámetro
 
-* string
+* cadena
 
 ## Firma y tipo devuelto
 

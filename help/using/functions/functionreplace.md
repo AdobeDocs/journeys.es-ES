@@ -8,8 +8,8 @@ level: Experienced
 exl-id: f30377c2-4d5e-4905-a972-8f4ccb272bc0
 source-git-commit: 8980df5cc238a7195f01a1631e418a8de677fbea
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 10%
+source-wordcount: '148'
+ht-degree: 12%
 
 ---
 
@@ -31,9 +31,9 @@ Cadena
 
 | Parámetro | Tipo |
 |-----------|--------------|
-| basar | string |
-| target | cadena (RegExp) |
-| reemplazo | string |
+| basar | cadena |
+| destino | cadena (RegExp) |
+| reemplazo | cadena |
 
 ## Firma y tipo devuelto
 
@@ -55,7 +55,7 @@ Dado que el parámetro de destino es RegExp, en función de la cadena que desee 
 * proporcionado por un atributo de perfil `#{ExperiencePlatform.myFieldGroup.profile.myOffers}`
 * Cadena que reemplazar: `|OFFER_A`
 * Cadena reemplazada por: `''`
-* Debe agregar lo siguiente `\\` antes del `|` carácter.
+* Debe agregar `\\` antes del carácter `|`.
 
 La expresión es:
 

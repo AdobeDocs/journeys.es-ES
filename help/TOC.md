@@ -7,7 +7,7 @@ index: true
 feature: Journeys
 source-git-commit: 137637a753ba44cc4f8e397b77c3fc076ec3de3f
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '446'
 ht-degree: 100%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 100%
       + Actividades de eventos {#events-activities}
          + [Acerca de las actividades de eventos](using/building-journeys/event-activities.md)
          + [Eventos generales](using/building-journeys/general-events.md)
-         + [Reacción de reacción](using/building-journeys/reaction-events.md)
+         + [Eventos de reacción](using/building-journeys/reaction-events.md)
          + [Eventos de cualificación de segmentos](using/building-journeys/segment-qualification-events.md)
       + Actividades de orquestación {#orchestration-activities}
          + [Acerca de las actividades de orquestación](using/building-journeys/about-orchestration-activities.md)
@@ -103,7 +103,7 @@ ht-degree: 100%
       + [Generalidades](using/expression/generalities.md)
       + [Instrucción condicional](using/expression/conditional-instruction.md)
       + [Tipos de datos](using/expression/data-types.md)
-      + [Referencias de campo](using/expression/field-references.md)
+      + [Referencias del campo](using/expression/field-references.md)
       + [Funciones de administración de colecciones](using/expression/collection-management-functions.md)
       + [Operadores](using/expression/operators.md)
       + [Propiedades del recorrido](using/expression/journey-properties.md)
@@ -114,7 +114,7 @@ ht-degree: 100%
          + [inSegment](using/functions/functioninsegment.md)
       + Agregación {#aggregation}
          + [avg](using/functions/functionavg.md)
-         + [count](using/functions/functioncount.md)
+         + [recuento](using/functions/functioncount.md)
          + [countOnlyNull](using/functions/functioncountonlynull.md)
          + [countWithNull](using/functions/functioncountwithnull.md)
          + [distinctCount](using/functions/functiondistinctcount.md)
@@ -132,7 +132,7 @@ ht-degree: 100%
          + [toInteger](using/functions/functiontointeger.md)
          + [toString](using/functions/functiontostring.md)
       + Fecha {#date}
-         + [currentTimeInMillis](using/functions/functioncurrenttimeinmillis.md)
+         + [currentTime&#x200B;InMillis](using/functions/functioncurrenttimeinmillis.md)
          + [inLastDays](using/functions/functioninlastdays.md)
          + [inLastHours](using/functions/functioninlasthours.md)
          + [inLastMonths](using/functions/functioninlastmonths.md)
@@ -156,12 +156,12 @@ ht-degree: 100%
          + [límite](using/functions/functionlimit.md)
          + [listSize](using/functions/functionlistsize.md)
          + [serializeList](using/functions/functionserializelist.md)
-         + [sort](using/functions/functionsort.md)
+         + [ordenar](using/functions/functionsort.md)
       + Math {#math}
          + [random](using/functions/functionrandom.md)
          + [round](using/functions/functionround.md)
       + Cadena {#string}
-         + [concat](using/functions/functionconcat.md)
+         + [concatena](using/functions/functionconcat.md)
          + [contain](using/functions/functioncontain.md)
          + [containIgnoreCase](using/functions/functioncontainwithignorecase.md)
          + [endWith](using/functions/functionendwith.md)
@@ -183,7 +183,7 @@ ht-degree: 100%
          + [substr](using/functions/functionsubstr.md)
          + [trim](using/functions/functiontrim.md)
          + [upper](using/functions/functionupper.md)
-         + [uuid](using/functions/functionuuid.md)
+         + [UUID](using/functions/functionuuid.md)
 + Creación de informes{#journey-reports}
    + [Acerca de los informes de recorrido](using/reporting/about-journey-reports.md)
    + [Creación de informes de recorrido](using/reporting/creating-your-journey-reports.md)

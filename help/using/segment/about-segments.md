@@ -8,23 +8,23 @@ level: Intermediate
 exl-id: 94e1e3e3-9a46-41ca-bec1-f41287925372
 source-git-commit: e5c0db2e1f85ea72fd54f91e4a26cc287377fb0e
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 12%
+source-wordcount: '358'
+ht-degree: 8%
 
 ---
 
 # Acerca de los segmentos de Adobe Experience Platform {#about-segments}
 
-Si está utilizando el [Servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es) para crear los segmentos, puede aprovecharlos en [!DNL Journey Orchestration]. Gracias a una actividad de evento dedicada, puede hacer que las personas entren o avancen en un recorrido según las entradas y salidas de segmentos de Adobe Experience Platform. Esto también le permite crear condiciones complejas en los recorridos mediante el editor de expresiones simples o avanzadas.
+Si usas el [servicio de segmentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=es) para crear tus segmentos, puedes aprovecharlos en [!DNL Journey Orchestration]. Gracias a una actividad de evento dedicada, puede hacer que las personas entren o avancen en un recorrido según las entradas y salidas de segmentos de Adobe Experience Platform. Esto también le permite crear condiciones complejas en los recorridos mediante el editor de expresiones simples o avanzadas.
 
 Supongamos que tiene un segmento llamado &quot;cliente plata&quot;. Con esta actividad, puede hacer que todos los clientes nuevos de Silver Ingresen a un recorrido y les envíen una serie de mensajes personalizados. También puede generar fácilmente condiciones basadas en este segmento.
 
-Estas son las posibilidades [!DNL Journey Orchestration] le ofrecen con segmentos:
+Estas son las posibilidades que [!DNL Journey Orchestration] le ofrece con los segmentos:
 
-* Acceda a la lista de segmentos de Adobe Experience Platform. Consulte [Creación de segmentos](../segment/creating-a-segment.md).
-* Creación de segmentos directamente en [!DNL Journey Orchestration] del mismo modo que se crean mediante el servicio de segmentación. Consulte [Creación de segmentos](../segment/creating-a-segment.md).
-* Aproveche los segmentos en las condiciones de su recorrido mediante el editor de expresiones simples o avanzadas. Consulte [Uso de segmentos en condiciones](../segment/using-a-segment.md).
-* Añadir un **[!UICONTROL Segment qualification]** a su recorrido para escuchar las entradas y salidas de perfiles en segmentos de Adobe Experience Platform. Consulte [Actividades de eventos](../building-journeys/segment-qualification-events.md).
+* Acceda a la lista de segmentos de Adobe Experience Platform. Consulte [Creación de un segmento](../segment/creating-a-segment.md).
+* Cree segmentos directamente en [!DNL Journey Orchestration] de la misma manera que los crea usando el servicio de segmentación. Consulte [Creación de un segmento](../segment/creating-a-segment.md).
+* Aproveche los segmentos en las condiciones de su recorrido mediante el editor de expresiones simples o avanzadas. Ver [Uso de segmentos en condiciones](../segment/using-a-segment.md).
+* Agregue un evento **[!UICONTROL Segment qualification]** al recorrido para escuchar las entradas y salidas de perfiles en segmentos de Adobe Experience Platform. Ver [Actividades de eventos](../building-journeys/segment-qualification-events.md).
 
 ## Método de evaluación en el Journey Orchestration {#evaluation-method-in-journey-orchestration}
 
@@ -35,8 +35,8 @@ En Journey Orchestration, las audiencias se generan a partir de definiciones de 
 
 El sistema determina la segmentación por lotes y la segmentación por flujo continuo para cada definición de segmento en función de la complejidad y el coste de evaluar la regla del segmento.
 
-Puede ver el método de evaluación para cada segmento en la **[!UICONTROL Evaluation method]** de la lista de segmentos.
+Puede ver el método de evaluación de cada segmento en la columna **[!UICONTROL Evaluation method]** de la lista de segmentos.
 
 Después de definir un segmento por primera vez, los perfiles se añaden a la audiencia cuando cumplen los requisitos.
 
-Rellenar la audiencia a partir de datos anteriores puede tardar hasta 24 horas. Una vez que se ha rellenado la audiencia, se mantiene actualizada continuamente y siempre está lista para la segmentación.
+Rellenar el público a partir de datos anteriores puede tardar hasta 24 horas. Una vez que se ha rellenado el público, se mantiene actualizado continuamente y siempre está listo para la segmentación.

@@ -8,14 +8,14 @@ level: Intermediate
 exl-id: c0e67849-caa0-4045-94ed-38e483054e1d
 source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 2%
+source-wordcount: '276'
+ht-degree: 9%
 
 ---
 
 # Administración de husos horarios {#timezone_management}
 
-Puede definir una zona horaria en [propiedades](../building-journeys/changing-properties.md) de tu recorrido.
+Puede definir una zona horaria en las [propiedades](../building-journeys/changing-properties.md) de su recorrido.
 
 Para acceder a Propiedades, haga clic en el icono de lápiz en la parte superior derecha de la pantalla.
 
@@ -29,7 +29,7 @@ Puede seleccionar una zona horaria o elegir utilizar la zona horaria definida en
 
 >[!NOTE]
 >
->La zona horaria del perfil funciona con **timeZone** campo existente en **Detalles de preferencia** grupo de campos.
+>La zona horaria del perfil funciona con el campo **timeZone** existente en el grupo de campos **Detalles de preferencia**.
 
 ## Definición de una zona horaria fija {#fixed-timezone}
 
@@ -41,7 +41,7 @@ Para ello, en **[!UICONTROL Properties]**, seleccione una zona horaria.
 
 ## Uso de perfiles para definir el huso horario del recorrido {#timezone-from-profiles}
 
-Si el evento de entrada del recorrido tiene un área de nombres, lo que significa que el recorrido puede llegar al servicio Perfil del cliente en tiempo real de Adobe Experience Platform, es posible que desee utilizar la zona horaria definida en el nivel de perfil. Para ello, en **Propiedades**, marque **Usar zona horaria del perfil en esperas y condiciones**. Esta opción no está activada de forma predeterminada.
+Si el evento de entrada del recorrido tiene un área de nombres, lo que significa que el recorrido puede llegar al servicio Perfil del cliente en tiempo real de Adobe Experience Platform, es posible que desee utilizar la zona horaria definida en el nivel de perfil. Para ello, en **Properties**, marque **Usar zona horaria del perfil en esperas y condiciones**. Esta opción no está activada de forma predeterminada.
 
 Si se ha definido una zona horaria para un perfil, el recorrido la recuperará y la utilizará. Si no es así, la zona horaria utilizada será la definida en el campo timezone.
 

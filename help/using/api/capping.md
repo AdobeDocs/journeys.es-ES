@@ -9,7 +9,7 @@ level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
 source-git-commit: 861c6bd8ce65793b6009e220d88f105c75ea3008
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '554'
 ht-degree: 29%
 
 ---
@@ -58,7 +58,7 @@ Esta es la estructura básica de una configuración de extremo:
 
 >[!IMPORTANT]
 >
->El **maxHttpConnections** El parámetro es opcional. Permite restringir el número de conexiones que Journey Optimizer abrirá al sistema externo.
+>El parámetro **maxHttpConnections** es opcional. Permite restringir el número de conexiones que Journey Optimizer abrirá al sistema externo.
 >
 >El valor máximo que se puede establecer es 400. Si no se especifica nada, el sistema puede abrir varios miles de conexiones en función del escalado dinámico del sistema.
 
@@ -85,7 +85,7 @@ Esta es la estructura básica de una configuración de extremo:
 
 ## Advertencia y errores
 
-Cuando un **canDeploy** se llama, el proceso valida la configuración y devuelve el estado de validación identificado por su ID único, ya sea:
+Cuando se llama a un método **canDeploy**, el proceso valida la configuración y devuelve el estado de validación identificado por su identificador único, ya sea:
 
 ```
 "ok" or "error"
@@ -93,20 +93,20 @@ Cuando un **canDeploy** se llama, el proceso valida la configuración y devuelve
 
 Los posibles errores son:
 
-* **ERR_ENDPOINTCONFIG_100**: configuración de límite: falta url o no es válida
-* **ERR_ENDPOINTCONFIG_101**: configuración de límite: dirección url mal formada
+* **ERR_ENDPOINTCONFIG_100**: configuración de límite: falta URL o no es válida
+* **ERR_ENDPOINTCONFIG_101**: configuración de límite: URL mal formada
 * **ERR_ENDPOINTCONFIG_102**: configuración de límite: url con formato incorrecto: no se permite el carácter comodín en la dirección URL en host:puerto
 * **ERR_ENDPOINTCONFIG_103**: configuración de límite: faltan métodos HTTP
-* **ERR_ENDPOINTCONFIG_104**: configuración de límite: no se ha definido ninguna clasificación de llamadas
+* **ERR_ENDPOINTCONFIG_104**: configuración de límite: no se definió la clasificación de llamadas
 * **ERR_ENDPOINTCONFIG_107**: configuración de límite: recuento máximo de llamadas no válido (maxCallsCount)
 * **ERR_ENDPOINTCONFIG_108**: configuración de límite: recuento máximo de llamadas no válido (periodInMs)
-* **ERR_ENDPOINTCONFIG_111**: configuración de límite: no se puede crear la configuración del extremo: carga útil no válida
-* **ERR_ENDPOINTCONFIG_112**: configuración de límite: no se puede crear la configuración del extremo: esperando una carga útil JSON
-* **ERR_AUTHORING_ENDPOINTCONFIG_1**: nombre de servicio no válido `<!--<given value>-->`: debe ser &quot;dataSource&quot; o &quot;action&quot;
+* **ERR_ENDPOINTCONFIG_111**: configuración de límite: no se puede crear la configuración de extremo: carga útil no válida
+* **ERR_ENDPOINTCONFIG_112**: configuración de límite: no se puede crear la configuración de extremo: esperando una carga útil JSON
+* **ERR_AUTHORING_ENDPOINTCONFIG_1**: nombre de servicio no válido `<!--<given value>-->`: debe ser &#39;dataSource&#39; o &#39;action&#39;
 
 La advertencia potencial es:
 
-**ERR_ENDPOINTCONFIG_106**: configuración de límite: máximo de conexiones HTTP no definidas: sin limitaciones predeterminadas
+**ERR_ENDPOINTCONFIG_106**: configuración de límite: máximo de conexiones HTTP no definidas: sin limitación de forma predeterminada
 
 ## Casos de uso
 
@@ -130,7 +130,7 @@ Caso de uso n.º 1: **Creación e implementación de una nueva configuración de
 1. candeploy
 1. deploy
 
-Caso de uso nº 2: **Actualizar e implementar una configuración de límite aún no implementada**
+Caso de uso n.º 2: **Actualizar e implementar una configuración de límite aún no implementada**
 
 1. list
 1. get
@@ -138,19 +138,19 @@ Caso de uso nº 2: **Actualizar e implementar una configuración de límite aún
 1. candeploy
 1. deploy
 
-Caso de uso nº 3: **Anular la implementación y eliminar una configuración de límite implementada**
+Caso de uso n.º 3: **Anule la implementación y elimine una configuración de límite implementada**
 
 1. list
 1. undeploy
 1. delete
 
-Caso de uso nº 4: **Elimine una configuración de límite implementada.**
+Caso de uso n.º 4: **Eliminar una configuración de límite implementada.**
 
 En una sola llamada de API, puede anular la implementación y eliminar la configuración con el uso del parámetro forceDelete.
 1. list
 1. eliminar, con el parámetro forceDelete
 
-Caso de uso nº 5: **Actualizar una configuración de límite ya implementada**
+Caso de uso n.º 5: **Actualizar una configuración de límite ya implementada**
 
 1. list
 1. get

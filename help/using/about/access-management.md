@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 98%
+source-wordcount: '828'
+ht-degree: 95%
 
 ---
 
@@ -40,7 +40,7 @@ En la Admin Console, puede asignar a los usuarios uno de los siguientes perfiles
 
   >[!NOTE]
   >
-  >**[!UICONTROL Administrators]** es el único perfil de productos que permite crear, editar y publicar mensajes transaccionales (o plantillas de mensajería) en Adobe Campaign Standard. Este perfil de producto es necesario si utiliza Adobe Campaign Standard para enviar mensajes en sus recorridos. No se debe cambiar el nombre en Admin Console.
+  >**[!UICONTROL Administrators]** es el único perfil de productos que permite crear, editar y publicar mensajes transaccionales (o plantillas de mensajería) en Adobe Campaign Standard. Este perfil de producto es necesario si utiliza Adobe Campaign Standard para enviar mensajes en los recorridos. No se debe cambiar el nombre en Admin Console.
 
 * **[!UICONTROL Standard User]**: usuario con acceso básico, como administración de recorridos. Este perfil de productos incluye los siguientes permisos:
    * Administrar recorridos

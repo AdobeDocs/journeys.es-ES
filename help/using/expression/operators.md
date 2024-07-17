@@ -8,8 +8,8 @@ level: Experienced
 exl-id: fd86b6ab-76cf-4b35-9e87-f441e914f20b
 source-git-commit: a0b6ab595bc16a75aa5a56a858900418e2381ab9
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 7%
+source-wordcount: '459'
+ht-degree: 6%
 
 ---
 
@@ -34,9 +34,9 @@ Existen dos tipos de operadores: operadores unarios y operadores binarios. Hay o
 
 ## Notas importantes{#important-notes}
 
-* Cuando se utiliza una multiplicación (`*`), ambos campos de operación deben tener el mismo tipo, ya sea entero o decimal. Por ejemplo :
+* Al utilizar una multiplicación (`*`), ambos campos de operación deben tener el mismo tipo, ya sea entero o decimal. Ejemplo :
    * el siguiente ejemplo es correcto: `3.0 * 4.0`
-   * `3 * 4.0` dará lugar a un error
+   * `3 * 4.0` generará un error
 
 ## Lógico  {#logical}
 
@@ -46,7 +46,7 @@ Existen dos tipos de operadores: operadores unarios y operadores binarios. Hay o
 <expression1> and <expression2>
 ```
 
-Ambos &lt;expression1> y &lt;expression2> debe ser booleano. El resultado es booleano.
+Tanto &lt;expression1> como &lt;expression2> deben ser booleanas. El resultado es booleano.
 
 Por ejemplo:
 
@@ -62,7 +62,7 @@ Por ejemplo:
 <expression1> or <expression2>
 ```
 
-Ambos &lt;expression1> y &lt;expression2> debe ser booleano. El resultado es booleano.
+Tanto &lt;expression1> como &lt;expression2> deben ser booleanas. El resultado es booleano.
 
 Por ejemplo:
 
@@ -154,7 +154,7 @@ Por ejemplo:
 <expression1> == <expression2>
 ```
 
-Ambos &lt;expression1> y &lt;expression2> debe tener el mismo tipo de datos. El resultado es booleano.
+Tanto &lt;expression1> como &lt;expression2> deben tener el mismo tipo de datos. El resultado es booleano.
 
 Por ejemplo:
 
@@ -174,7 +174,7 @@ Por ejemplo:
 <expression1> != <expression2>
 ```
 
-Ambos &lt;expression1> y &lt;expression2> debe tener el mismo tipo de datos. El resultado es booleano.
+Tanto &lt;expression1> como &lt;expression2> deben tener el mismo tipo de datos. El resultado es booleano.
 
 Por ejemplo:
 
@@ -376,7 +376,7 @@ Por ejemplo:
 3 % 2 -- returns 1.
 ```
 
-## Math {#math}
+## Matemáticas {#math}
 
 ### es numérico
 

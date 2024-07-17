@@ -8,8 +8,8 @@ level: Experienced
 exl-id: ba474219-7c9e-4f93-8e9c-16c317131614
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 5%
+source-wordcount: '224'
+ht-degree: 3%
 
 ---
 
@@ -26,14 +26,14 @@ Las expresiones se evalúan de izquierda a derecha. Se debe aplicar la asociativ
 | Expresión | Evaluación |
 |--- |--- |
 | `4 + 2 * 10` | <ul><li>&#39;*&#39; tiene prioridad sobre &#39;+&#39;: 2 * 10 se evalúa → 20</li><li>4 + 20 → 24</li></ul> |
-| `(4 + 2) * 10` | <ul><li>Los paréntesis cambian la prioridad: (4 + 2) se evalúa → 6</li><li> 6 * 10 → 60</li></ul> |
+| `(4 + 2) * 10` | <ul><li>Los paréntesis cambian la prioridad: (4 + 2) se evalúa → 6</li><li> 10 → 60</li></ul> |
 
-## Distinción entre mayúsculas y minúsculas{#section_lrb_xh5_dgb}
+## Distinción de mayúsculas y minúsculas{#section_lrb_xh5_dgb}
 
 Estas son las diferentes reglas de distinción de mayúsculas y minúsculas:
 
-* Todos los operadores (y, o, etc.) debe escribirse en minúsculas. Por ejemplo, _`<expression1>`y`<expression2>`_ es una expresión válida, mientras que _`<expression1>`Y`<expression2>`_ no es.
-* Todos los nombres de función distinguen entre mayúsculas y minúsculas. Por ejemplo, _inSegment()_ es válida, mientras que la función _INSEGMENT()_ no es.
+* Todos los operadores (y, o, etc.) debe escribirse en minúsculas. Por ejemplo, _`<expression1>`y`<expression2>`_ son una expresión válida, mientras que la expresión _`<expression1>`Y`<expression2>`_ no lo son.
+* Todos los nombres de función distinguen entre mayúsculas y minúsculas. Por ejemplo, _inSegment()_ es válido mientras que la función _INSEGMENT()_ no lo es.
 * Las referencias de campo y los valores constantes distinguen entre mayúsculas y minúsculas: no son elementos integrados del lenguaje (a diferencia de operadores y funciones), son creados por el usuario final.
 
 ## Tipo de expresión devuelto{#section_gyc_435_53b}

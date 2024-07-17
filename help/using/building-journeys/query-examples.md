@@ -7,7 +7,7 @@ level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
 source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1283'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ Conjunto de datos del sistema para la ingesta de eventos de experiencia de segui
 
 El esquema relacionado es el Esquema de evento de experiencia de seguimiento de correo electrónico CJM.
 
-_Caso de uso del informe_
+_Caso de uso de creación de informes_
 
 ```sql
 select
@@ -57,13 +57,13 @@ order by
 limit 100;
 ```
 
-**Conjunto de datos de evento de comentarios** (cjm_message_feedback_event_dataset)
+**Conjunto de datos de evento de comentarios de mensajes** (cjm_message_feedback_event_dataset)
 
 Conjunto de datos para la ingesta de eventos de comentarios de aplicaciones push y de correo electrónico desde Journey Optimizer.
 
 El esquema relacionado es el Esquema de evento de comentarios de mensajes de CJM.
 
-_Caso de uso del informe_
+_Caso de uso de creación de informes_
 
 ```sql
 select
@@ -98,7 +98,7 @@ Conjunto de datos para la ingesta de eventos de experiencia de seguimiento móvi
 
 El esquema relacionado es el esquema de evento de experiencia de seguimiento push de CJM.
 
-_Caso de uso del informe_
+_Caso de uso de creación de informes_
 
 ```sql
 select _experience.customerJourneyManagement.pushChannelContext.platform, sum(pushNotificationTracking.customAction.value)  from cjm_push_tracking_experience_event_dataset
@@ -108,13 +108,13 @@ select  _experience.customerJourneyManagement.pushChannelContext.platform, SUM (
   group by _experience.customerJourneyManagement.pushChannelContext.platform
 ```
 
-**Evento de paso de recorrido** (recorrido_step_events)
+**Evento de paso de Recorrido** (recorrido_step_events)
 
 Conjunto de datos para la ingesta de eventos de paso para el usuario en el recorrido.
 
 El esquema relacionado es el esquema de Evento de paso de Recorrido para el Journey Orchestration.
 
-_Caso de uso del informe_
+_Caso de uso de creación de informes_
 
 ```sql
 select
@@ -146,7 +146,7 @@ group by
 
 ## Errores de mensaje/acción {#message-action-errors}
 
-**Lista de cada error encontrado en los recorridos**
+**Lista de errores encontrados en los recorridos**
 
 Esta consulta le permite enumerar cada error encontrado en recorridos al ejecutar un mensaje o una acción.
 
@@ -174,7 +174,7 @@ Esta consulta devuelve todos los diferentes errores que se han producido al ejec
 
 ## Consultas basadas en perfiles {#profile-based-queries}
 
-**Buscar si un perfil ha introducido un Recorrido específico**
+**Buscar si un perfil especificó un Recorrido**
 
 _Consulta de lago de datos_
 
@@ -196,7 +196,7 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 El resultado debe ser mayor que 0. Esta consulta devuelve el número exacto de veces que un perfil ha introducido un recorrido.
 
-**Busque si un perfil ha enviado un mensaje específico**
+**Buscar si un perfil recibió un mensaje específico**
 
 Método 1: si el nombre del mensaje no es único en el recorrido (se utiliza en varios lugares).
 
@@ -272,7 +272,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
 
 La consulta devuelve la lista de todos los mensajes junto con su recuento invocado para el perfil seleccionado.
 
-**Buscar todos los recorridos introducidos por un perfil en los últimos 30 días**
+**Buscar todos los recorridos que un perfil ha ingresado en los últimos 30 días**
 
 _Consulta de lago de datos_
 
@@ -296,7 +296,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
 
 La consulta devuelve la lista de todos los nombres de recorrido junto con el número de veces que el perfil consultado ha introducido el recorrido.
 
-**Número de perfiles aptos para un recorrido diario**
+**Número de perfiles que cumplen los requisitos para un recorrido diario**
 
 _Consulta de lago de datos_
 
@@ -420,7 +420,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 La consulta devuelve todos los ID de perfil que el recorrido descartó porque faltaba el mapa de identidad.
 
-**Número de perfiles que el recorrido descartó porque el recorrido estaba en el nodo de prueba y el perfil no era de prueba**
+**Número de perfiles que el recorrido descartó porque el recorrido estaba en el nodo de prueba y el perfil no era un perfil de prueba**
 
 _Consulta de lago de datos_
 
@@ -464,7 +464,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 La consulta devuelve todos los ID de perfil que el recorrido descartó debido a algún error interno.
 
-**Descripción general del segmento de lectura para una versión de recorrido determinada**
+**Información general sobre el segmento de lectura para una versión de recorrido determinada**
 
 _Consulta de lago de datos_
 
@@ -557,7 +557,7 @@ Si no se devuelve ningún registro, significa que:
 * se ha producido un error durante la creación del tema o trabajo de exportación
 * el trabajo de exportación aún se está ejecutando
 
-**Obtenga métricas sobre perfiles exportados, incluidos descartes y métricas de trabajos de exportación para cada trabajo de exportación**
+**Obtener métricas en perfiles exportados, incluidos descartes y métricas de trabajos de exportación para cada trabajo de exportación**
 
 _Consulta de lago de datos_
 
@@ -682,7 +682,7 @@ Devuelve las métricas generales de una versión de recorrido determinada, indep
 
 ## Consultas relacionadas con la Calificación de segmentos {#segment-qualification-queries}
 
-**Se ha descartado el perfil debido a que la realización del segmento es diferente a la configurada**
+**Perfil descartado debido a que se ha realizado un segmento diferente al configurado**
 
 _Consulta de lago de datos_
 
@@ -706,7 +706,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEG
 
 Esta consulta devuelve todos los ID de perfil que la versión de recorrido descartó debido a una realización incorrecta del segmento.
 
-**Los eventos de calificación de segmentos se descartan por cualquier otro motivo para un perfil específico**
+**Eventos de calificación de segmentos descartados por cualquier otra razón para un perfil específico**
 
 _Consulta de lago de datos_
 
@@ -734,7 +734,7 @@ Esta consulta devuelve todos los eventos (eventos externos / eventos de califica
 
 ## Consultas basadas en eventos {#event-based-queries}
 
-**Comprobar si se recibió un evento empresarial para un recorrido**
+**Compruebe si se recibió un evento empresarial para un recorrido**
 
 _Consulta de lago de datos_
 
@@ -784,7 +784,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
 
-**Compruebe si un evento externo de un perfil se descartó por algún otro motivo**
+**Compruebe si se descartó un evento externo de un perfil debido a algún otro motivo**
 
 _Consulta de lago de datos_
 
@@ -828,7 +828,7 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
 ```
 
-**Comprobar todos los eventos descartados porque no se permitía la reentrada**
+**Compruebe todos los eventos descartados porque no se permitió la reentrada**
 
 _Consulta de lago de datos_
 
@@ -1026,7 +1026,7 @@ ORDER BY
     DATETIME DESC
 ```
 
-**Cuántos perfiles salieron del recorrido en un período de tiempo específico**
+**Cuántos perfiles salieron del recorrido en un período específico**
 
 _Consulta de lago de datos_
 
@@ -1064,7 +1064,7 @@ ORDER BY
     DATETIME DESC
 ```
 
-**Cuántos perfiles salieron del recorrido en el período de tiempo específico con el nodo o el estado**
+**Cuántos perfiles salieron del recorrido en un período de tiempo específico con nodo/estado**
 
 _Consulta de lago de datos_
 

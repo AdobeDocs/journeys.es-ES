@@ -31,9 +31,9 @@ Cadena
 
 | Parámetro | Tipo |
 |-----------|--------------|
-| basar | string |
-| target | cadena (RegExp) |
-| reemplazo | string |
+| basar | cadena |
+| destino | cadena (RegExp) |
+| reemplazo | cadena |
 
 ## Firma y tipo devuelto
 

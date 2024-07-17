@@ -30,7 +30,7 @@ Lista
 | Parámetro | Tipo | Descripción |
 |-----------|------------------|------------------|
 | listToFilter | listObject | lista de objetos que se van a filtrar. Debe ser una referencia de campo. |
-| keyAttributeName | string | nombre del atributo en los objetos de la lista dada, utilizado como clave para el filtrado |
+| keyAttributeName | cadena | nombre del atributo en los objetos de la lista dada, utilizado como clave para el filtrado |
 | keyValueList | list | matriz de valores clave para el filtrado |
 
 ## Firmas y tipos devueltos

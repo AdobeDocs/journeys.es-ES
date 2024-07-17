@@ -8,14 +8,14 @@ level: Intermediate
 exl-id: 11858c7a-fdb3-43a4-af28-0d5c23fa2468
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 13%
+source-wordcount: '166'
+ht-degree: 9%
 
 ---
 
 # Acerca del caso de uso simple{#concept_grh_vby_w2b}
 
-## Finalidad {#purpose}
+## Objetivo {#purpose}
 
 Veamos el ejemplo de una marca hotelera llamada Marlton. En sus hoteles, han colocado dispositivos de señalización cerca de todas las áreas estratégicas: vestíbulo, pisos, restaurante, gimnasio, piscina, etc.
 
