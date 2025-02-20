@@ -1,15 +1,15 @@
 ---
 product: adobe campaign
 title: Administración de acceso
-description: Más información sobre la administración de acceso
+description: Más información sobre la administración de acceso.
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: cf9bc6db0627eb0dba57e30652bba5ac8783cb55
 workflow-type: tm+mt
 source-wordcount: '828'
-ht-degree: 95%
+ht-degree: 88%
 
 ---
 
@@ -19,14 +19,14 @@ ht-degree: 95%
 
 [!DNL Journey Orchestration] Le permite asignar un conjunto de permisos a los usuarios para definir a qué parte de la interfaz pueden acceder.
 
-Pueden ser administrados por administradores que tengan acceso a la Admin Console. Para obtener más información sobre la Admin Console, consulte esta [documentación](https://helpx.adobe.com/es/enterprise/managing/user-guide.html).
+Pueden ser administrados por administradores que tengan acceso a Admin Console. Para obtener más información sobre Admin Console, consulte la [Guía de administración de empresas y equipos](https://helpx.adobe.com/es/enterprise/managing/user-guide.html).
 
 Para poder acceder a [!DNL Journey Orchestration], un usuario debe cumplir lo siguiente:
 
 * ser parte de un **[!UICONTROL product profile]** de [!DNL Journey Orchestration] asociado a permisos de [!DNL Journey Orchestration].
 * Ser parte de un **[!UICONTROL product profile]** de [!DNL Adobe Experience Platform]. No hay ningún permiso obligatorio que tener. El usuario debe tener el permiso **[!UICONTROL profile management]** para poder crear y editar segmentos de plataforma desde la interfaz de [!DNL Journey Orchestration]. Para obtener más información, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#adobe-admin-console).
 
-En la Admin Console, puede asignar a los usuarios uno de los siguientes perfiles de producto predeterminados:
+En Admin Console, puede asignar a los usuarios uno de los siguientes perfiles de producto predeterminados:
 
 * **[!UICONTROL Limited Access User]**: usuario con acceso de solo lectura a recorridos e informes. Este perfil de productos incluye los siguientes permisos:
    * Leer recorridos
@@ -138,7 +138,7 @@ El usuario debe recibir un correo electrónico que le redirija a su instancia [!
 ## Uso de zonas protegidas {#sandboxes}
 
 [!DNL Journey Orchestration] le permite particionar la instancia en entornos virtuales separados, llamados zonas protegidas.
-Las zonas protegidas se asignan mediante perfiles de producto en la Admin Console. Para obtener más información sobre cómo asignar zonas protegidas, consulte esta [sección](../about/access-management.md#create-product-profile).
+Las zonas protegidas se asignan mediante perfiles de producto en Admin Console. Para obtener más información sobre cómo asignar zonas protegidas, consulte esta [sección](../about/access-management.md#create-product-profile).
 
 [!DNL Journey Orchestration] refleja las zonas protegidas de Adobe Experience Platform creadas para una organización determinada.
 Las zonas protegidas de Adobe Experience Platform se pueden crear o restablecer desde la instancia de Adobe Experience Platform. Consulte la [guía del usuario de zonas protegidas](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=es) para conocer los pasos detallados.
