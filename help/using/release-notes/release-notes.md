@@ -6,14 +6,20 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: bb74c7dc1ebad0a707b830602a8d0b33e8443a5d
+source-git-commit: 6a5226ea0f7b5a87f236eeac108737fc69d4f9c8
 workflow-type: tm+mt
-source-wordcount: '4418'
-ht-degree: 100%
+source-wordcount: '4463'
+ht-degree: 98%
 
 ---
 
 # Notas de la versión {#release-notes}
+
+>[!CAUTION]
+>
+>**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
+>
+>Esta documentación hace referencia a los materiales de Journey Orchestration heredados que se han sustituido por Journey Optimizer. Póngase en contacto con el equipo de su cuenta si tiene preguntas sobre su acceso a Journey Orchestration o Journey Optimizer.
 
 Esta página lista todas las nuevas funciones y mejoras de Journey Orchestration. Para ver las funciones de Experience Platform, consulte las siguientes [Notas de la versión](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=es).
 
@@ -452,7 +458,7 @@ La carga de los eventos de calificación de segmentos ahora contiene la siguient
 <ul>
 <li><p>El nombre de la actividad se cambió a "Leer segmento". </p>
 </li>
-<li><p>La configuración del Planificador de recorrido se ha eliminado de las propiedades de la actividad. Ahora es accesible directamente desde las propiedades del recorrido, en una sección dedicada que se muestra si se ha colocado una actividad Leer segmento en el lienzo. </p>
+<li><p>La configuración del planificador de recorrido se ha eliminado de las propiedades de la actividad. Ahora es accesible directamente desde las propiedades del recorrido, en una sección dedicada que se muestra si se ha colocado una actividad Leer segmento en el lienzo. </p>
 </li>
 <li><p>Ahora puede probar el recorrido en un perfil unitario y rastrear su progreso de recorrido utilizando el flujo visual.</p>
 </li>
