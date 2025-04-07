@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 53e4d6af0e3d5fa2f3870802dc67c6200fec3ce8
+source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
 workflow-type: tm+mt
-source-wordcount: '4462'
+source-wordcount: '4452'
 ht-degree: 96%
 
 ---
@@ -322,7 +322,7 @@ Las funciones de [getListItem](../functions/functiongetlistitem.md) y [división
 <li>simplificar el diseño de recorridos muy complejos dividiéndolos en varios </li>
 <li>generar recorridos basados en patrones de recorrido comunes y reutilizables</li>
 </ul>
-<p>Para obtener más información, consulte la <a href="../building-journeys/jump.md">documentación detallada</a> y el <a href="https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=es">videotutorial</a>.</p>
+<p>Para obtener más información, consulte la <a href="../building-journeys/jump.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -724,8 +724,3 @@ Cree casos de uso de orquestación en tiempo real aprovechando los datos context
 Journey Orchestration permite la orquestación en tiempo real basada en datos contextuales de eventos, información de Adobe Experience Platform o datos de servicios API de terceros. La aplicación determina en los flujos de varios pasos llamados recorridos las siguientes mejores acciones específicas del consumidor, en función de su perfil y comportamiento. Esto incluye tanto el momento óptimo como el tipo de acción, como enviar al consumidor una notificación push a través de las funciones de mensajería transaccional de Adobe Campaign Standard (requiere Adobe Campaign Standard) o la notificación de un sistema de terceros. Estas decisiones se toman en base a reglas y puntuaciones de Sensei.
 
 [](../action/working-with-adobe-campaign.md)Obtenga más información sobre Journey Orchestration.
-
-Recursos adicionales:
-
-* [Tutoriales](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/introduction.html?lang=es)
-* [Comunidad](https://www.adobe.com/go/journeyorchestrationcommunity)

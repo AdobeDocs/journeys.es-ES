@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
-source-git-commit: bb07c0edaae469962ee3bf678664b4a0a83572fe
+source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '473'
 ht-degree: 3%
 
 ---
@@ -54,12 +54,11 @@ Las listas de campos XDM pasados a Adobe Experience Platform se detallan aquí:
 * [Lista de campos de eventos de paso](../building-journeys/sharing-field-list.md)
 * [Campos de eventos de paso heredados](../building-journeys/sharing-legacy-fields.md)
 
-Para obtener más información sobre los eventos de paso que informan a Adobe Experience Platform, vea este [tutorial en vídeo](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html?lang=es).
 
 ## Integración con Customer Recorrido Analytics{#integration-cja}
 
-Los eventos de paso del Journey Orchestration se pueden vincular a otros conjuntos de datos en [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es). Este es un flujo de trabajo general:
+Los eventos de paso de Journey Orchestration se pueden vincular a otros conjuntos de datos en [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es). Este es un flujo de trabajo general:
 
-* Customer Journey Analytics ingiere el conjunto de datos &quot;Evento de paso de Recorrido&quot;.
-* El campo **profileID** del &quot;esquema de evento de paso de Recorrido para el Journey Orchestration&quot; asociado se define como un campo de identidad. En Customer Journey Analytics, puede vincular este conjunto de datos a cualquier otro conjunto de datos que tenga el mismo valor que el identificador basado en persona.
-* Si desea usar este conjunto de datos en Customer Journey Analytics, para el análisis de recorrido en canales múltiples, consulte esta [documentación](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html).
+* Customer Journey Analytics incorpora el conjunto de datos &quot;Evento de paso de Recorrido&quot;.
+* El campo **profileID** del &quot;esquema de evento de paso de Recorrido para Journey Orchestration&quot; asociado se define como un campo de identidad. En Customer Journey Analytics, puede vincular este conjunto de datos a cualquier otro conjunto de datos que tenga el mismo valor que el identificador basado en personas.
+* Si desea usar este conjunto de datos en Customer Journey Analytics para el análisis de recorrido entre canales, consulte esta [documentación](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html).

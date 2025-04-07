@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 520376aa-2cb5-46d6-8f21-3e03544f5da1
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '777'
 ht-degree: 6%
 
 ---
@@ -23,10 +23,6 @@ La actividad de acción **[!UICONTROL Jump]** le permite insertar particulares d
 En el recorrido de origen, simplemente agregue una actividad **[!UICONTROL Jump]** y seleccione un recorrido de destino. Cuando el individuo entra al paso **[!UICONTROL Jump]**, se envía un evento interno al primer evento del recorrido de destino. Si la acción **[!UICONTROL Jump]** se realiza correctamente, la persona continúa avanzando en el recorrido. El comportamiento es similar a otras acciones.
 
 En el recorrido de destino, el primer evento activado internamente por la actividad **[!UICONTROL Jump]** hará que el individuo fluya en el recorrido.
-
->[!NOTE]
->
->Consulte también el tutorial en vídeo [aquí](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=es)
 
 ## Ciclo de vida
 
