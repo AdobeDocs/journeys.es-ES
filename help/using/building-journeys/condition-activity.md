@@ -6,14 +6,24 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 7b44edbe-9d05-4d67-8a64-2a0a553fcb92
-source-git-commit: d09d70a0ec2720c5a75385b9036bf3a6ab74f4ab
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 17%
+source-wordcount: '869'
+ht-degree: 16%
 
 ---
 
 # Actividad de condición{#section_e2n_pft_dgb}
+
+
+>[!CAUTION]
+>
+>**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
+>
+>
+>_Esta documentación hace referencia a materiales Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con el equipo de su cuenta si tiene preguntas sobre su acceso a Journey Orchestration o Journey Optimizer._
+
+
 
 Hay cuatro tipos de condiciones disponibles:
 
@@ -34,7 +44,7 @@ Haga clic en **[!UICONTROL Add a path]** si desea definir varias condiciones. Pa
 
 Tenga en cuenta que el diseño de los recorridos tiene impactos funcionales. Cuando se definen varias rutas después de una condición, solo se ejecuta la primera ruta elegible. Esto significa que puede variar la priorización de las rutas colocándolas una encima o debajo de la otra.
 
-VIP Por ejemplo, veamos el ejemplo de la condición de una primera ruta &quot;La persona es un hombre&quot; y la condición de una segunda ruta &quot;La persona es un hombre&quot;. VIP Si una persona que cumple ambas condiciones (un hombre que es un hombre que es un) pasa este paso, la primera ruta se elegirá incluso si también es elegible para la segunda, porque la primera ruta es &quot;arriba&quot;. Para cambiar esta prioridad, mueva las actividades en otro orden vertical.
+Por ejemplo, veamos el ejemplo de la condición de una primera ruta &quot;La persona es un VIP&quot; y de una segunda ruta &quot;La persona es un hombre&quot;. Si una persona que cumple ambas condiciones (un hombre que es un VIP) pasa este paso, se elegirá la primera ruta aunque también sea elegible para la segunda, porque la primera ruta es &quot;arriba&quot;. Para cambiar esta prioridad, mueva las actividades en otro orden vertical.
 
 ![](../assets/journey48.png)
 

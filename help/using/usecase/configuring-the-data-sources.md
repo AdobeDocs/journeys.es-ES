@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2cfa4397-fe8f-44b3-b219-2fd5d3bdd156
-source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 13%
+source-wordcount: '484'
+ht-degree: 12%
 
 ---
 
 # Configuración de las fuentes de datos {#concept_vml_hdy_w2b}
+
+
+>[!CAUTION]
+>
+>**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
+>
+>
+>_Esta documentación hace referencia a materiales Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con el equipo de su cuenta si tiene preguntas sobre su acceso a Journey Orchestration o Journey Optimizer._
+
 
 En nuestro caso de uso, queremos utilizar datos de personalización para nuestros mensajes. También debemos comprobar si la persona es un miembro socio y si no se ha contactado en las últimas 24 horas. Esta información se almacena en la base de datos de Perfil del cliente en tiempo real. El **usuario técnico** debe configurar el origen de datos de Adobe Experience Platform para recuperar esos campos.
 

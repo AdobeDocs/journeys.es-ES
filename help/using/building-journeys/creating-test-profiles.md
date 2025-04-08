@@ -3,14 +3,23 @@ product: adobe campaign
 title: Creación de un perfil de prueba
 description: Obtenga información acerca de la creación de perfiles de prueba
 exl-id: f1be46a8-04b9-4f40-b18e-9099099d2e1c
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '681'
 ht-degree: 3%
 
 ---
 
 # Creación de perfiles de prueba {#create-test-profiles}
+
+
+>[!CAUTION]
+>
+>**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
+>
+>
+>_Esta documentación hace referencia a materiales Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con el equipo de su cuenta si tiene preguntas sobre su acceso a Journey Orchestration o Journey Optimizer._
+
 
 Los perfiles de prueba son obligatorios al utilizar el modo de prueba en un recorrido. Para aprender a usar el modo de prueba, consulte [esta sección](../building-journeys/testing-the-journey.md).
 

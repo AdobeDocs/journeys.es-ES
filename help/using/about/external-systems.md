@@ -7,14 +7,24 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: e39218bd-fa6e-443f-9843-92b7a07070fa
-source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1084'
 ht-degree: 5%
 
 ---
 
 # Integración con sistemas externos {#external-systems}
+
+
+>[!CAUTION]
+>
+>**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
+>
+>
+>_Esta documentación hace referencia a materiales Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con el equipo de su cuenta si tiene preguntas sobre su acceso a Journey Orchestration o Journey Optimizer._
+
+
 
 Esta página presenta las diferentes protecciones proporcionadas por Journey Orchestration al integrar un sistema externo, así como las prácticas recomendadas: cómo optimizar la protección del sistema externo mediante la API de límite, cómo configurar el tiempo de espera de recorrido y cómo funcionan los reintentos.
 
@@ -24,21 +34,21 @@ Al integrar un sistema externo, puede encontrar varios problemas, el sistema pue
 
 Todos los sistemas externos son diferentes en términos de rendimiento. Debe adaptar la configuración a sus casos de uso.
 
-Cuando el Journey Orchestration ejecuta una llamada a una API externa, las protecciones técnicas se ejecutan de la siguiente manera:
+Cuando Journey Orchestration ejecuta una llamada a una API externa, las protecciones técnicas se ejecutan de la siguiente manera:
 
 1. Se aplican reglas de límite: si se alcanza la tasa máxima, las llamadas restantes se descartan.
 
-2. Tiempo de espera y reintento: si se cumple la regla de límite, el Journey Orchestration intenta realizar la llamada hasta que se alcanza el final del tiempo de espera.
+2. Tiempo de espera y reintento: si se cumple la regla de límite, Journey Orchestration intenta realizar la llamada hasta que se alcanza el final de la duración de tiempo de espera.
 
 ## Límite{#capping}
 
 La API de límite integrada ofrece una protección técnica ascendente que ayuda a proteger el sistema externo.
 
-Para las fuentes de datos externas, el número máximo de llamadas por segundo se establece en 15. Si el número de llamadas supera las 15 por segundo, las llamadas restantes se descartan. Puede aumentar este límite para fuentes de datos externas privadas. Adobe de contacto para incluir el punto final en la lista de permitidos. Esto no es posible para fuentes de datos externas públicas.
+Para las fuentes de datos externas, el número máximo de llamadas por segundo se establece en 15. Si el número de llamadas supera las 15 por segundo, las llamadas restantes se descartan. Puede aumentar este límite para fuentes de datos externas privadas. Póngase en contacto con Adobe para incluir el extremo en la lista de permitidos. Esto no es posible para fuentes de datos externas públicas.
 
 Para las acciones personalizadas, debe evaluar la capacidad de la API externa. Por ejemplo, si Journey Optimizer envía 1000 llamadas por segundo y su sistema solo admite 100 llamadas por segundo, debe definir una regla de límite para que el sistema no se sature.
 
-Las reglas de límite se definen en el nivel de zona protegida para un punto de conexión específico (la dirección URL llamada ). En tiempo de ejecución, Journey Orchestration comprueba si hay una regla de límite definida y aplica la tasa definida durante las llamadas a ese extremo. Si el número de llamadas supera la tasa definida, las llamadas restantes se descartan y se contabilizan como errores en el sistema de informes.
+Las reglas de límite se definen en el nivel de zona protegida para un punto de conexión específico (la dirección URL llamada ). Durante el tiempo de ejecución, Journey Orchestration comprueba si hay una regla de límite definida y aplica la tasa definida durante las llamadas a ese extremo. Si el número de llamadas supera la tasa definida, las llamadas restantes se descartan y se contabilizan como errores en el sistema de informes.
 
 Una regla de límite es específica para un extremo, pero global para todos los recorridos de una zona protegida. Esto significa que las ranuras de límite se comparten entre todos los recorridos de una zona protegida.
 
@@ -54,11 +64,11 @@ En cada recorrido, puede definir una duración de tiempo de espera. Esto le perm
 
 Este tiempo de espera es global para todas las llamadas externas (llamadas a API externas en acciones personalizadas y fuentes de datos personalizadas). De forma predeterminada, se establece en 5 segundos.
 
-Durante el tiempo de espera definido, el Journey Orchestration intenta llamar al sistema externo. Después de la primera llamada, se puede realizar un máximo de tres reintentos hasta que se alcance el final de la duración del tiempo de espera. No se puede cambiar el número de reintentos.
+Durante el tiempo de espera definido, Journey Orchestration intenta llamar al sistema externo. Después de la primera llamada, se puede realizar un máximo de tres reintentos hasta que se alcance el final de la duración del tiempo de espera. No se puede cambiar el número de reintentos.
 
 Cada reintento utiliza una ranura. Si tiene un límite de 100 llamadas por segundo y cada una de las llamadas requiere dos reintentos, la tasa cae a 30 llamadas por segundo (cada llamada utiliza 3 ranuras: la primera llamada y dos reintentos).
 
-El valor de duración del tiempo de espera depende del caso de uso. Si desea enviar el mensaje rápidamente, por ejemplo, cuando el cliente entra en el almacén, no desea configurar un tiempo de espera largo. Además, cuanto más tiempo de espera sea, más elementos se pondrán en cola. Esto puede afectar en gran medida al rendimiento. Si el Journey Orchestration realiza 1000 llamadas por segundo, mantener 5 o 15 segundos de datos puede saturar rápidamente el sistema.
+El valor de duración del tiempo de espera depende del caso de uso. Si desea enviar el mensaje rápidamente, por ejemplo, cuando el cliente entra en el almacén, no desea configurar un tiempo de espera largo. Además, cuanto más tiempo de espera sea, más elementos se pondrán en cola. Esto puede afectar en gran medida al rendimiento. Si Journey Orchestration realiza 1000 llamadas por segundo, mantener 5 o 15 segundos de datos puede saturar rápidamente al sistema.
 
 Veamos un ejemplo para un tiempo de espera de 5 segundos.
 

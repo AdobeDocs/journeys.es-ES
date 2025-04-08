@@ -6,14 +6,24 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: b2e5c333-d0d8-4fe1-a6b8-5f2e6b3624a4
-source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '922'
 ht-degree: 2%
 
 ---
 
 # Uso de Adobe Campaign Standard {#using_campaign_action}
+
+
+>[!CAUTION]
+>
+>**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
+>
+>
+>_Esta documentación hace referencia a materiales Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con el equipo de su cuenta si tiene preguntas sobre su acceso a Journey Orchestration o Journey Optimizer._
+
+
 
 Si tiene Adobe Campaign Standard, están disponibles las siguientes actividades de acción integradas: **[!UICONTROL Email]**, **[!UICONTROL Push]** y **[!UICONTROL SMS]**.
 
@@ -25,7 +35,7 @@ Para cada uno de estos canales, selecciona una **plantilla** de mensaje transacc
 
 >[!NOTE]
 >
->El mensaje transaccional del Campaign Standard y su evento asociado deben publicarse para poder utilizarse en Journey Orchestration. Si el evento se publica pero el mensaje no, no será visible en la interfaz del Journey Orchestration. Si el mensaje se publica pero su evento asociado no, estará visible en la interfaz del Journey Orchestration, pero no se podrá utilizar.
+>El mensaje transaccional de Campaign Standard y su evento asociado deben publicarse para poder utilizarse en Journey Orchestration. Si el evento se publica pero el mensaje no, no será visible en la interfaz de Journey Orchestration. Si el mensaje se publica pero su evento asociado no, estará visible en la interfaz de Journey Orchestration, pero no se podrá utilizar.
 
 ![](../assets/journey59.png)
 
@@ -45,13 +55,13 @@ Para **[!UICONTROL Email]** y **[!UICONTROL SMS]**, los parámetros son idéntic
 
 >[!NOTE]
 >
->En el caso del correo electrónico, si utiliza una plantilla transaccional de perfiles, el Campaign Standard gestiona de forma predeterminada el mecanismo de baja. Simplemente agrega un bloque de contenido **[!UICONTROL Unsubscription link]** en la plantilla ([más información](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=es)). Si utiliza una plantilla basada en eventos (rtEvent), debe añadir en el mensaje un vínculo que pase el correo electrónico de la persona en el parámetro de URL y que apunte a una página de aterrizaje de baja. Debe crear esta página de aterrizaje y asegurarse de que la decisión de cancelación de suscripción de la persona se transmita al Adobe.
+>En el caso del correo electrónico, si utiliza una plantilla transaccional de perfiles, el mecanismo de baja se gestiona de forma predeterminada mediante Campaign Standard. Simplemente agrega un bloque de contenido **[!UICONTROL Unsubscription link]** en la plantilla ([más información](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=es)). Si utiliza una plantilla basada en eventos (rtEvent), debe añadir en el mensaje un vínculo que pase el correo electrónico de la persona en el parámetro de URL y que apunte a una página de aterrizaje de baja. Debe crear esta página de aterrizaje y asegurarse de que la decisión de cancelación de suscripción de la persona se transmita a Adobe.
 
 En primer lugar, debe elegir una plantilla de mensajería transaccional. Consulte [esta página](../building-journeys/about-action-activities.md).
 
 Hay dos categorías disponibles: **[!UICONTROL Address]** y **[!UICONTROL Personalization Data]**.
 
-Puede definir fácilmente dónde recuperar **[!UICONTROL Address]** o **[!UICONTROL Personalization Data]** mediante la interfaz. Puede navegar por los eventos y los campos de la fuente de datos disponibles. También puede utilizar el editor de expresiones avanzadas para casos de uso más avanzados, como el uso de una fuente de datos que requiera el paso de parámetros o la realización de manipulaciones. Consulte [esta página](../expression/expressionadvanced.md).
+Puede definir fácilmente dónde recuperar **[!UICONTROL Address]** o **[!UICONTROL Personalization Data]** mediante la interfaz. Puede examinar los eventos y los campos de la fuente de datos disponible. También puede utilizar el editor de expresiones avanzadas para casos de uso más avanzados, como el uso de una fuente de datos que requiera el paso de parámetros o la realización de manipulaciones. Consulte [esta página](../expression/expressionadvanced.md).
 
 **[!UICONTROL Address]**
 
@@ -75,7 +85,7 @@ Estos son los campos que espera el mensaje de Adobe Campaign Standard. Estos cam
 
 ## Push {#section_im3_hvf_nhb}
 
-Antes de utilizar la actividad push, la aplicación móvil debe configurarse junto con el Campaign Standard para enviar notificaciones push. Use este [artículo](https://helpx.adobe.com/es/campaign/kb/integrate-mobile-sdk.html) para tomar los pasos de implementación necesarios para dispositivos móviles.
+Antes de utilizar la actividad push, la aplicación móvil debe configurarse junto con Campaign Standard para enviar notificaciones push. Use este [artículo](https://helpx.adobe.com/es/campaign/kb/integrate-mobile-sdk.html) para tomar los pasos de implementación necesarios para dispositivos móviles.
 
 En primer lugar, debe elegir una aplicación móvil de la lista desplegable y un mensaje transaccional. Consulte [esta página](../building-journeys/about-action-activities.md).
 

@@ -1,19 +1,29 @@
 ---
 product: adobe campaign
-title: Pasos adicionales para enviar eventos al Journey Orchestration
-description: Obtenga información acerca de los pasos adicionales para enviar eventos al Journey Orchestration
+title: Pasos adicionales para enviar eventos a Journey Orchestration
+description: Obtenga información acerca de los pasos adicionales para enviar eventos a Journey Orchestration
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: 11e337c6-5e05-4898-9953-b6b821af8fd1
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '350'
 ht-degree: 2%
 
 ---
 
 # Pasos adicionales para enviar eventos a [!DNL Journey Orchestration] {#concept_xrz_n1q_y2b}
+
+
+
+>[!CAUTION]
+>
+>**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
+>
+>
+>_Esta documentación hace referencia a materiales Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con el equipo de su cuenta si tiene preguntas sobre su acceso a Journey Orchestration o Journey Optimizer._
+
 
 >[!NOTE]
 >
@@ -26,7 +36,7 @@ Para configurar los eventos que se enviarán a **[!UICONTROL Streaming Ingestion
 
 A continuación, debe configurar el sistema de datos que inserta eventos en las API de ingesta de transmisión mediante la carga útil copiada:
 
-1. Configure una llamada de la API del POST a la URL de las API de ingesta de transmisión (denominada entrada).
+1. Configure una llamada de la API POST a la URL de las API de ingesta de transmisión (denominada entrada).
 1. Utilice la carga que copió de [!DNL Journey Orchestration] en el cuerpo (&quot;sección de datos&quot;) de la llamada de API a las API de ingesta de transmisión. Consulte a continuación un ejemplo
 1. Determine dónde obtener todas las variables presentes en la carga útil. Ejemplo: si el evento debe transmitir la dirección, la carga útil pegada mostrará &quot;dirección&quot;: &quot;cadena&quot;. &quot;cadena&quot; debe reemplazarse por la variable que rellena automáticamente el valor correcto, el correo electrónico de la persona a la que enviar un mensaje. Tenga en cuenta que en la previsualización de carga útil, en la sección **[!UICONTROL Header]**, rellenamos automáticamente muchos valores que se espera que faciliten su trabajo.
 1. Seleccione &quot;application/json&quot; como tipo de cuerpo.

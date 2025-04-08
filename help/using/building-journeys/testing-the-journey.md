@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1574'
+source-wordcount: '1619'
 ht-degree: 4%
 
 ---
 
 # Prueba del recorrido{#testing_the_journey}
+
+
+>[!CAUTION]
+>
+>**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
+>
+>
+>_Esta documentación hace referencia a materiales Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con el equipo de su cuenta si tiene preguntas sobre su acceso a Journey Orchestration o Journey Optimizer._
+
 
 Antes de poder probar el recorrido, debe resolver todos los errores. Consulte [esta sección](../about/troubleshooting.md#section_h3q_kqk_fhb).
 
@@ -169,7 +178,7 @@ Para obtener más información sobre cómo usar el modo de prueba, consulte [est
 
 ## Visualización de los registros {#viewing_logs}
 
-El botón **[!UICONTROL Show log]** le permite ver los resultados de la prueba. Esta página muestra la información actual del recorrido en formato JSON. Un botón permite copiar nodos completos. Debe actualizar manualmente la página para actualizar los resultados de la prueba de la recorrido.
+El botón **[!UICONTROL Show log]** le permite ver los resultados de la prueba. Esta página muestra la información actual del recorrido en formato JSON. Un botón permite copiar nodos completos. Debe actualizar manualmente la página para actualizar los resultados de la prueba del recorrido.
 
 ![](../assets/journeytest3.png)
 
@@ -181,7 +190,7 @@ Se muestra el número de individuos (técnicamente, se denominan instancias) que
 
 * _Id_: el ID interno del individuo en la recorrido. Se puede utilizar con fines de depuración.
 * _currentstep_: el paso en el que se encuentra el individuo en el recorrido. Recomendamos añadir etiquetas a las actividades para identificarlas más fácilmente.
-* _currentstep_ > phase: el estado del recorrido del individuo (en ejecución, terminado, error o tiempo de espera agotado). Consulte a continuación para obtener más información.
+* _currentstep_ > phase: el estado del recorrido del individuo (en ejecución, finalizado, error o tiempo de espera agotado). Consulte a continuación para obtener más información.
 * _currentstep_ > _extraInfo_: descripción del error y otra información contextual.
 * _currentstep_ > _fetchErrors_: información sobre errores de datos de recuperación que se produjeron durante este paso.
 * _externalKeys_: el valor de la fórmula clave definida en el evento.
@@ -200,4 +209,4 @@ Cuando se activa un evento con el modo de prueba, se genera automáticamente un 
 
 Cuando se activa un evento con el modo de prueba, se genera automáticamente un conjunto de datos con el nombre del origen.
 
-El modo de prueba crea automáticamente un Evento de experiencia y lo envía a Adobe Experience Platform. El nombre del origen de este evento de experiencia es &quot;Eventos de prueba del Journey Orchestration&quot;.
+El modo de prueba crea automáticamente un Evento de experiencia y lo envía a Adobe Experience Platform. El nombre de la fuente para este evento de experiencia es &quot;Eventos de prueba de Journey Orchestration&quot;.

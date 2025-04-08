@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2f001e42-46dd-48aa-b3dd-23bfdf97e1c7
-source-git-commit: a7a49113a8b53e9c15123e788d50bb72310d949d
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1474'
 ht-degree: 5%
 
 ---
 
 # Uso del diseñador de recorridos {#concept_m1g_5qt_52b}
+
+
+>[!CAUTION]
+>
+>**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
+>
+>
+>_Esta documentación hace referencia a materiales Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con el equipo de su cuenta si tiene preguntas sobre su acceso a Journey Orchestration o Journey Optimizer._
+
 
 El menú Inicio de recorrido le permite ver la **lista de recorridos**. Cree un nuevo recorrido o haga clic en uno existente para abrir la **interfaz del diseñador de recorridos**. El diseñador se compone de las siguientes zonas: la paleta, el lienzo y el panel de configuración de actividad.
 

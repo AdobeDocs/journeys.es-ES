@@ -6,14 +6,23 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b7568080-b88c-415c-9d3f-cc1361664838
-source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 18%
+source-wordcount: '351'
+ht-degree: 16%
 
 ---
 
 # Lista de campos de eventos de paso {#sharing-field-list}
+
+
+>[!CAUTION]
+>
+>**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
+>
+>
+>_Esta documentación hace referencia a materiales Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con el equipo de su cuenta si tiene preguntas sobre su acceso a Journey Orchestration o Journey Optimizer._
+
 
 Los campos de eventos de paso están organizados por categoría.
 
@@ -26,7 +35,7 @@ Los campos de eventos de paso están organizados por categoría.
 
 | Nombre del campo | Tipo | Descripción |
 |---|---|------------|
-| requestId | Cadena | El ID de solicitud utilizado por el Journey Orchestration para rastrear el flujo de una solicitud. |
+| requestId | Cadena | El ID de solicitud utilizado por Journey Orchestration para rastrear el flujo de una solicitud. |
 
 ## recorrido
 

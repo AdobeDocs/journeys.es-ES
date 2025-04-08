@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 4b321b63-c624-4c2a-ae92-f9a2a95688d4
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 13%
+source-wordcount: '482'
+ht-degree: 12%
 
 ---
 
 # Uso de Adobe Campaign v7/v8 {#integrating-with-adobe-campaign-classic}
+
+
+>[!CAUTION]
+>
+>**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
+>
+>
+>_Esta documentación hace referencia a materiales Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con el equipo de su cuenta si tiene preguntas sobre su acceso a Journey Orchestration o Journey Optimizer._
+
 
 Esta integración está disponible para Adobe Campaign Classic v7 a partir de la versión 21.1 y para Adobe Campaign v8. Permite enviar correos electrónicos, notificaciones push y SMS mediante las funcionalidades de mensajería transaccional de Adobe Campaign.
 
@@ -25,7 +34,7 @@ Para cada acción configurada, hay una actividad de acción disponible en la pal
 
 ## Notas importantes
 
-* No se restringen los mensajes. Reducimos el número de mensajes que se pueden enviar a más de 50 000/hora según nuestro SLA de Campaign actual. Por este motivo, la orquestación de Recorrido solo debe utilizarse en casos de uso unitarios (eventos individuales, no segmentos).
+* No se restringen los mensajes. El número de mensajes que se pueden enviar es de 50 000/hora, según la versión actual de Campaign SLA. Por este motivo, la orquestación de Recorrido solo debe utilizarse en casos de uso unitarios (eventos individuales, no segmentos).
 
 * Debe configurar una acción en el lienzo por plantilla que desee utilizar. Debe configurar una acción en Journey Orchestration para cada plantilla que desee utilizar desde Adobe Campaign.
 
@@ -65,7 +74,7 @@ En Journey Orchestration, debe configurar una acción por mensaje transaccional.
 1. Cree una nueva acción. Consulte esta [sección](../action/action.md).
 1. Introduzca un nombre y una descripción.
 1. En el campo **Tipo de acción**, seleccione **Adobe Campaign Classic**.
-1. Haga clic en el campo **Carga útil** y pegue un ejemplo de la carga útil JSON correspondiente al mensaje de Campaign. Póngase en contacto con el Adobe para obtener esta carga útil.
+1. Haga clic en el campo **Carga útil** y pegue un ejemplo de la carga útil JSON correspondiente al mensaje de Campaign. Póngase en contacto con Adobe para obtener esta carga útil.
 1. Ajuste los distintos campos para que sean estáticos o variables, según si desea asignarlos en el lienzo de Recorrido. Algunos campos, como los parámetros de canal para la dirección de correo electrónico y los campos de personalización (ctx), probablemente desee definirlos como variables para su asignación en el contexto del recorrido.
 1. Haga clic en **Guardar**.
 

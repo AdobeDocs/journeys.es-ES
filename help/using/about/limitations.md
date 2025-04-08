@@ -1,19 +1,29 @@
 ---
 product: adobe campaign
-title: Limitaciones del Journey Orchestration
-description: Más información sobre las limitaciones de los Journey Orchestration
+title: Limitaciones de Journey Orchestration
+description: Más información sobre las limitaciones de Journey Orchestration
 feature: Journeys
 role: User
 level: Beginner
 exl-id: fef039ae-c04d-4198-a082-4be27710255f
-source-git-commit: 861c6bd8ce65793b6009e220d88f105c75ea3008
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 45%
+source-wordcount: '609'
+ht-degree: 42%
 
 ---
 
 # Limitaciones {#limitations}
+
+
+>[!CAUTION]
+>
+>**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
+>
+>
+>_Esta documentación hace referencia a materiales Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con el equipo de su cuenta si tiene preguntas sobre su acceso a Journey Orchestration o Journey Optimizer._
+
+
 
 Estas son las limitaciones relacionadas con el uso de Journey Orchestration.
 
@@ -44,7 +54,7 @@ Estas son las limitaciones relacionadas con el uso de Journey Orchestration.
 * Solo se admiten los métodos de llamada de POST y PUT. 
 * El nombre del parámetro de consulta o del encabezado no debe comenzar con &quot;.&quot; o &quot;$&quot;. 
 * No se permiten direcciones IP. 
-* Las direcciones de Adobe internas (.adobe.) no están permitidas.
+* No se permiten las direcciones de Adobe internas (.adobe.).
  
 ## Limitaciones de acciones de Adobe Campaign
 

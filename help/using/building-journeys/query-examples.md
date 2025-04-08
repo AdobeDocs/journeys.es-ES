@@ -5,14 +5,23 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1283'
+source-wordcount: '1328'
 ht-degree: 2%
 
 ---
 
 # Ejemplos de consultas{#query-examples}
+
+
+>[!CAUTION]
+>
+>**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
+>
+>
+>_Esta documentación hace referencia a materiales Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con el equipo de su cuenta si tiene preguntas sobre su acceso a Journey Orchestration o Journey Optimizer._
+
 
 En esta sección se enumeran varios ejemplos de uso común para consultar los eventos de pasos de Recorrido en Data Lake.
 
@@ -112,7 +121,7 @@ select  _experience.customerJourneyManagement.pushChannelContext.platform, SUM (
 
 Conjunto de datos para la ingesta de eventos de paso para el usuario en el recorrido.
 
-El esquema relacionado es el esquema de Evento de paso de Recorrido para el Journey Orchestration.
+El esquema relacionado es el esquema de Evento de paso de Recorrido para Journey Orchestration.
 
 _Caso de uso de creación de informes_
 

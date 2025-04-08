@@ -4,18 +4,27 @@ solution: Journey Orchestration
 title: Envío de un mensaje mediante Campaign v7/v8
 description: Envío de un mensaje mediante Campaign v7/v8
 exl-id: 717a927a-4357-4058-a626-1b69f4bb46bc
-source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 6%
+source-wordcount: '439'
+ht-degree: 5%
 
 ---
 
 # Envío de un mensaje mediante Campaign v7/v8 {#campaign-classic-use-case}
 
+
+>[!CAUTION]
+>
+>**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
+>
+>
+>_Esta documentación hace referencia a materiales Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con el equipo de su cuenta si tiene preguntas sobre su acceso a Journey Orchestration o Journey Optimizer._
+
+
 Este caso de uso presenta todos los pasos necesarios para enviar un correo electrónico mediante la integración con Adobe Campaign Classic v7 y Adobe Campaign v8.
 
-Primero crearemos una plantilla de correo electrónico transaccional en Campaign. Luego, en Journey Orchestration, crearemos el evento, la acción y diseñaremos el recorrido.
+Primero crearemos una plantilla de correo electrónico transaccional en Campaign. A continuación, en Journey Orchestration, crearemos el evento, la acción y diseñaremos el recorrido.
 
 Para obtener más información sobre la integración de Campaign, consulte estas páginas:
 
@@ -38,11 +47,11 @@ La instancia de Campaign debe estar aprovisionada para esta integración. Es nec
 
    ![](../assets/accintegration-uc-2.png)
 
-1. Diseñe la plantilla. En este ejemplo, utilizamos la personalización del nombre del perfil y el número de pedido. El nombre se encuentra en la fuente de datos de Adobe Experience Platform y el número de pedido es un campo del evento del Journey Orchestration. Asegúrese de utilizar los nombres de campo correctos en Campaign.
+1. Diseñe la plantilla. En este ejemplo, utilizamos la personalización del nombre del perfil y el número de pedido. El nombre está en la fuente de datos de Adobe Experience Platform y el número de pedido es un campo de nuestro evento de Journey Orchestration. Asegúrese de utilizar los nombres de campo correctos en Campaign.
 
    ![](../assets/accintegration-uc-3.png)
 
-1. Publish su plantilla transaccional.
+1. Publique la plantilla transaccional.
 
    ![](../assets/accintegration-uc-4.png)
 

@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 7423f4eb-005d-43a5-a403-97bee1e8d480
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 8%
+source-wordcount: '402'
+ht-degree: 7%
 
 ---
 
 # Configuración del evento{#concept_y44_hcy_w2b}
+
+
+>[!CAUTION]
+>
+>**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
+>
+>
+>_Esta documentación hace referencia a materiales Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con el equipo de su cuenta si tiene preguntas sobre su acceso a Journey Orchestration o Journey Optimizer._
+
 
 En nuestro caso, tenemos que recibir un evento cada vez que una persona camina cerca de una baliza situada junto al spa. El **usuario técnico** debe configurar el evento que el sistema escuchará en nuestro recorrido.
 
@@ -27,7 +36,7 @@ Para obtener información adicional sobre la configuración de eventos, consulte
 
    ![](../assets/journeyuc1_2.png)
 
-1. Luego seleccionamos el esquema y definimos la carga útil esperada para este evento. Se seleccionan los campos necesarios del modelo normalizado de XDM. Necesitamos el ID de Experience Cloud para identificar a la persona en la base de datos del perfil del cliente en tiempo real: _endUserIDs > experiencia > mcid > id_. Se genera automáticamente un ID para este evento. Este ID se almacena en el campo **[!UICONTROL eventID]** (_experiencia > campaña > orquestación > eventID_). El sistema que impulsa el evento no debe generar un ID, debe utilizar el que está disponible en la previsualización de carga útil. En nuestro caso de uso, este ID se utiliza para identificar la ubicación de la señalización. Cada vez que una persona camina cerca de la señalización de spa, se envía un evento que contiene este ID de evento específico. Esto permite al sistema saber qué señalización activó el envío de eventos.
+1. Luego seleccionamos el esquema y definimos la carga útil esperada para este evento. Se seleccionan los campos necesarios del modelo normalizado de XDM. Necesitamos el Experience Cloud ID para identificar a la persona en la base de datos del perfil del cliente en tiempo real: _endUserIDs > experiencia > mcid > id_. Se genera automáticamente un ID para este evento. Este ID se almacena en el campo **[!UICONTROL eventID]** (_experiencia > campaña > orquestación > eventID_). El sistema que impulsa el evento no debe generar un ID, debe utilizar el que está disponible en la previsualización de carga útil. En nuestro caso de uso, este ID se utiliza para identificar la ubicación de la señalización. Cada vez que una persona camina cerca de la señalización de spa, se envía un evento que contiene este ID de evento específico. Esto permite al sistema saber qué señalización activó el envío de eventos.
 
    ![](../assets/journeyuc1_3.png)
 

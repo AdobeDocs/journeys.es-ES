@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 43435aee-572d-4db2-88d5-6124ce074285
-source-git-commit: 579e5a0dbdc11369248c2683c399b090130a7262
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '456'
 ht-degree: 3%
 
 ---
 
 # Acerca del caso de uso avanzado{#concept_vzy_ncy_w2b}
+
+
+>[!CAUTION]
+>
+>**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
+>
+>
+>_Esta documentación hace referencia a materiales Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con el equipo de su cuenta si tiene preguntas sobre su acceso a Journey Orchestration o Journey Optimizer._
+
 
 ## Objetivo {#purpose}
 
@@ -52,7 +61,7 @@ Para nuestro caso de uso, hemos diseñado tres plantillas de mensajería transac
 
 Adobe Campaign Standard está configurado para enviar correos electrónicos y notificaciones push.
 
-El ID de Experience Cloud se utiliza como clave para identificar al cliente en el sistema de reservas de hoteles.
+El Experience Cloud ID se utiliza como clave para identificar al cliente en el sistema de reservas de hoteles.
 
 Los eventos se envían desde el teléfono móvil de los clientes cuando se detectan cerca de una baliza. Debe diseñar una aplicación móvil para enviar eventos desde el teléfono móvil del cliente al SDK móvil.
 

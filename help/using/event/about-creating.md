@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2ae8854a-c3e7-469d-9f89-25b54bc3e894
-source-git-commit: bdc9ac3f54fae1dfd6f24a54a2687a0834f69c36
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 51%
+source-wordcount: '590'
+ht-degree: 47%
 
 ---
 
 # Creación de un nuevo evento {#section_tbk_5qt_pgb}
+
+
+>[!CAUTION]
+>
+>**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
+>
+>
+>_Esta documentación hace referencia a materiales Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con el equipo de su cuenta si tiene preguntas sobre su acceso a Journey Orchestration o Journey Optimizer._
+
 
 Estos son los pasos principales para configurar un nuevo evento:
 
@@ -49,7 +58,7 @@ Estos son los pasos principales para configurar un nuevo evento:
 1. Para los eventos basados en reglas, haga clic dentro del campo **[!UICONTROL Event ID condition]**. Con el editor de expresiones simple, defina la condición que el sistema utilizará para identificar los eventos que almacenarán en déclencheur el recorrido.
    ![](../assets/alpha-event6.png)
 
-   En nuestro ejemplo, escribimos una condición basada en la ciudad del perfil. Esto significa que siempre que el sistema reciba un evento que coincida con esta condición (campo **[!UICONTROL City]** y valor **[!UICONTROL Paris]**), lo pasará al Journey Orchestration.
+   En nuestro ejemplo, escribimos una condición basada en la ciudad del perfil. Esto significa que, cada vez que el sistema reciba un evento que coincida con esta condición (campo **[!UICONTROL City]** y valor **[!UICONTROL Paris]**), lo pasará a Journey Orchestration.
 
    >[!NOTE]
    >

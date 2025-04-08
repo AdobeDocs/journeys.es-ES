@@ -1,19 +1,28 @@
 ---
 product: adobe campaign
 title: Métricas y dimensiones
-description: Obtenga información acerca de las dimensiones y métricas disponibles para el Journey Orchestration
+description: Obtenga información sobre las dimensiones y métricas disponibles para Journey Orchestration
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: f6897011-0a5e-4094-a18e-ba2aa25f902c
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1080'
 ht-degree: 3%
 
 ---
 
 # Métricas y dimensiones {#concept_rfj_wpt_52b}
+
+
+>[!CAUTION]
+>
+>**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
+>
+>
+>_Esta documentación hace referencia a materiales Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con el equipo de su cuenta si tiene preguntas sobre su acceso a Journey Orchestration o Journey Optimizer._
+
 
 >[!NOTE]
 >
@@ -33,8 +42,8 @@ La siguiente tabla le proporciona la lista de dimensiones utilizadas en los info
 |--- |--- |
 | **Acción** | Lista de todas las acciones (**action name - action label**) utilizadas en los recorridos; por ejemplo, Push - Check out confirmation, Correo electrónico - Rewards fidelity. |
 | **Origen de datos** | Lista de orígenes de datos (**nombre de origen de datos**) que se usan para enriquecer datos en un recorrido, por ejemplo, Adobe Experience Platform, Sistema de reservas. |
-| **[!UICONTROL Event]** | Lista de todos los eventos (**nombre del evento - etiqueta de evento**) utilizados en recorridos, por ejemplo: evento de Geometrixx - desprotección de Geometrixx. |
-| **Grupo de campos** | Lista de grupos de campos (**nombre de grupo de campos**) utilizados para enriquecer datos en recorridos, por ejemplo: grupo de campos de perfil, sistema de reserva de Geometrixx. |
+| **[!UICONTROL Event]** | Lista de todos los eventos (**nombre del evento - etiqueta de evento**) utilizados en recorridos, por ejemplo: evento de Geometrixx - Desprotección de Geometrixx. |
+| **Grupo de campos** | Lista de grupos de campos (**nombre de grupo de campos**) utilizados para enriquecer datos en recorridos como, por ejemplo, grupo de campos de perfil, sistema de reserva de Geometrixx. |
 | **Recorrido** | Lista de todos los recorridos (**nombre del recorrido**) en el modo de prueba y activos, por ejemplo: abandono del carro de compras, notificación de reservación de hotel. |
 | **Versión de Recorrido** | Lista de todas las versiones publicadas de un recorrido (**nombre del recorrido + número de versión**), por ejemplo: abandono del carro de compras v1, notificación de reservaciones de hoteles v2. |
 | **Orquestación** | Lista de todas las actividades de orquestación (**Condición, Fin, Espera**) definidas y utilizadas en los recorridos. |
@@ -58,7 +67,7 @@ La siguiente tabla le proporciona la lista de dimensiones de envío utilizadas e
 | **Etiqueta de URL de seguimiento** | Etiqueta proporcionada a la dirección URL, como una página espejo, póngase en contacto con nosotros o abra. |
 | **Variante** | Variante del correo electrónico en el caso de las pruebas A/B. |
 
-## métricas de recorrido {#MBE_p_p22_c4j_w2b}
+## Métricas de recorrido {#MBE_p_p22_c4j_w2b}
 
 La siguiente tabla le proporciona la lista de métricas utilizadas en los informes de recorrido, sus definiciones y fórmulas.
 

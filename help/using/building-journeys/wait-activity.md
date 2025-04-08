@@ -6,14 +6,24 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
-source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '412'
 ht-degree: 8%
 
 ---
 
 # Actividad de espera{#section_rlm_nft_dgb}
+
+
+>[!CAUTION]
+>
+>**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
+>
+>
+>_Esta documentación hace referencia a materiales Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con el equipo de su cuenta si tiene preguntas sobre su acceso a Journey Orchestration o Journey Optimizer._
+
+
 
 Si desea esperar antes de ejecutar la siguiente actividad en la ruta, puede utilizar una actividad **[!UICONTROL Wait]**. Permite definir el momento en el que se ejecutará la siguiente actividad. Hay tres opciones disponibles:
 
@@ -23,7 +33,7 @@ Si desea esperar antes de ejecutar la siguiente actividad en la ruta, puede util
 
 ## Acerca de la actividad Espera{#about_wait}
 
-Así se priorizan las esperas cuando se utilizan varias esperas en paralelo. Si tienen la misma configuración de tiempo y una condición diferente, pero superpuesta, la espera colocada arriba será la priorizada. VIP Por ejemplo, la condición de la primera espera es &quot;ser mujer&quot; y la condición de la segunda espera en paralelo es &quot;ser una mujer&quot; (ser un hombre) o &quot;ser una mujer&quot; (ser un hombre), o &quot;ser una mujer&quot; (ser una mujer). Se dará prioridad a la primera actividad de espera.
+Así se priorizan las esperas cuando se utilizan varias esperas en paralelo. Si tienen la misma configuración de tiempo y una condición diferente, pero superpuesta, la espera colocada arriba será la priorizada. Por ejemplo, la condición de la primera espera es &quot;ser mujer&quot; y la condición de la segunda espera en paralelo es &quot;ser VIP&quot;. Se dará prioridad a la primera actividad de espera.
 
 Tenga en cuenta también que si dos esperas diferentes están en paralelo, la que se produce primero tendrá prioridad, independientemente de su posición vertical. Por ejemplo, si se supera una espera de 1 hora y se reduce una espera de 30 minutos, después de 30 minutos, se procesa la espera de 30 minutos.
 
@@ -57,7 +67,7 @@ Esta opción le permite definir una fecha personalizada, por ejemplo, el 12 de j
 >
 >The email send time optimization capability is only available to customers who use the [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
 
-This type of wait uses a score calculated in the Adobe Experience Platform. The score calculates the propensity to click or open an email in the future based on past behavior. Note that the algorithm calculating the score needs a certain amount of data to work. As a result, when it does not have enough data, the default wait time will apply. At publication time, you’ll be notified that the default time applies.
+This type of wait uses a score calculated in the Adobe Experience Platform. The score calculates the propensity to click or open an email in the future based on past behavior. Note that the algorithm calculating the score needs a certain amount of data to work. As a result, when it does not have enough data, the default wait time will apply. At publication time, you'll be notified that the default time applies.
 
 >[!NOTE]
 >
