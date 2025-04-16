@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4452'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -17,14 +17,14 @@ ht-degree: 96%
 
 >[!CAUTION]
 >
->**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
+>¿**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
 >
 >
->_Esta documentación hace referencia a materiales Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con el equipo de su cuenta si tiene preguntas sobre su acceso a Journey Orchestration o Journey Optimizer._
+>_Esta documentación hace referencia a materiales de Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con su equipo de cuentas si tiene alguna pregunta sobre el acceso a Journey Orchestration o Journey Optimizer._
 
 Esta página lista todas las nuevas funciones y mejoras de Journey Orchestration. Para ver las funciones de Experience Platform, consulte las siguientes [Notas de la versión](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=es).
 
-Para las funciones lanzadas después de 2022, los vínculos dirigen a [documentación de Adobe Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"}.
+Para las funciones publicadas después de 2022, los vínculos dirigen a la [documentación de Adobe Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"}.
 
 ## Lanzamiento de marzo de 2024 {#mar-rn-2024}
 
@@ -67,9 +67,9 @@ Cuando un recorrido está en un estado intermedio, es de solo lectura. [Más inf
 
 * Se ha mejorado el diseño del panel de configuración, que aparece en acciones, fuentes de datos, eventos y recorridos.
 * Ahora puede definir parámetros de consulta estáticos o dinámicos en sus acciones personalizadas. Consulte la [documentación](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=es#url-configuration){target="_blank"} de Journey Optimizer.
-* Nuevas protecciones para administrar el crecimiento de las experiencias que ofrecen los Recorridos:
-   * Le recomendamos que mantenga el número de nodos limitado a 50 o menos para mantener sus recorridos funcionando, fácil de leer, realizar un control de calidad y solucionar problemas. El número de actividades se muestra en la sección superior izquierda del lienzo de recorrido. Consulte la [documentación](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=es#journeys-guardrails-journeys){target="_blank"} de Journey Optimizer.
-   * A medida que desarrolle e inicie recorridos, le notificaremos cuando se aproxime al hito de 100 recorridos activos a la vez. Si sus planes requieren más de 100 recorridos a la vez, cree un ticket para recibir asistencia después de ver la notificación y le ayudaremos. Consulte la [documentación](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=es#journeys-guardrails-journeys){target="_blank"} de Journey Optimizer.
+* Nuevos mecanismos de protección para administrar el crecimiento de las experiencias que ofrecen los recorridos:
+   * Le recomendamos que mantenga el número de nodos limitado a 50 o menos para mantener sus recorridos funcionando, fácil de leer, realizar un control de calidad y solucionar problemas. El número de actividades se muestra en la sección superior izquierda del lienzo del recorrido. Consulte la [documentación](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=es#journeys-guardrails-journeys){target="_blank"} de Journey Optimizer
+   * A medida que desarrolle e inicie recorridos, le notificaremos cuando se aproxime al hito de 100 recorridos activos a la vez. Si sus planes requieren más de 100 recorridos a la vez, cree una entrada para recibir asistencia después de ver la notificación y le ayudaremos. Consulte la [documentación](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=es#journeys-guardrails-journeys){target="_blank"} de Journey Optimizer
 
 ## Lanzamiento de marzo de 2023 {#mar-2023}
 
@@ -154,7 +154,7 @@ Cuando un recorrido está en un estado intermedio, es de solo lectura. [Más inf
 
 ### Mejoras
 
-* Los eventos de paso de Journey Orchestration ahora se pueden vincular a otros conjuntos de datos en [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es){target="_blank"}. El campo **profileID**, en el esquema integrado de Evento de paso de recorrido, ahora se define como un campo de identidad. [Más información](../building-journeys/sharing-overview.md#integration-cja)
+* Los eventos de paso de Journey Orchestration ahora se pueden vincular a otros conjuntos de datos en [Customer Journey Analytics de Adobe](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es){target="_blank"}. El campo **profileID**, en el esquema integrado de Evento de paso de recorrido, ahora se define como un campo de identidad. [Más información](../building-journeys/sharing-overview.md#integration-cja)
 * La regla de límite para las acciones de Adobe Campaign Standard se ha cambiado a 4000 llamadas cada cinco minutos. [Más información](../action/working-with-adobe-campaign.md)
 
 ## Versión de octubre de 2021 {#october-2021-release}
@@ -457,7 +457,7 @@ La carga de los eventos de calificación de segmentos ahora contiene la siguient
 <ul>
 <li><p>El nombre de la actividad se cambió a "Leer segmento". </p>
 </li>
-<li><p>La configuración del planificador de recorrido se ha eliminado de las propiedades de la actividad. Ahora es accesible directamente desde las propiedades del recorrido, en una sección dedicada que se muestra si se ha colocado una actividad Leer segmento en el lienzo. </p>
+<li><p>La configuración del planificador de recorrido se ha quitado de las propiedades de la actividad. Ahora es accesible directamente desde las propiedades del recorrido, en una sección dedicada que se muestra si se ha colocado una actividad Leer segmento en el lienzo. </p>
 </li>
 <li><p>Ahora puede probar el recorrido en un perfil unitario y rastrear su progreso de recorrido utilizando el flujo visual.</p>
 </li>
