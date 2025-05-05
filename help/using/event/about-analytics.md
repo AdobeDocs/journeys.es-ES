@@ -42,4 +42,4 @@ Esto habilita el conector de origen de Analytics para ese grupo de informes. Cad
 
 ![](../assets/alpha-event9.png)
 
-Para obtener más información sobre el conector de origen de Adobe Analytics, consulte [documentación](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) y [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html).
+Para obtener más información sobre el conector de origen de Adobe Analytics, consulte [documentación](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=es) y [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es).

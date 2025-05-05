@@ -16,7 +16,7 @@ Este caso de uso le mostrará cómo aprovechar las puntuaciones de fatiga para e
 
 >[!NOTE]
 >
->La capacidad de puntuación de fatiga predictiva solo está disponible para los clientes que usan [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).
+>La capacidad de puntuación de fatiga predictiva solo está disponible para los clientes que usan [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html?lang=es).
 
 ## Configuración del evento {#section_ptb_ws1_ffb}
 

@@ -46,7 +46,7 @@ Para cada acción configurada, hay una actividad de acción disponible en la pal
 
 ## Requisitos previos
 
-En Campaign, es necesario crear y publicar un mensaje transaccional y su evento asociado. Consulte la [documentación de Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging).
+En Campaign, es necesario crear y publicar un mensaje transaccional y su evento asociado. Consulte la [documentación de Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=es#transactional-messaging).
 
 Puede crear la carga útil JSON correspondiente a cada mensaje siguiendo el patrón siguiente. A continuación, pegue esta carga útil al configurar la acción en Journey Orchestration (a continuación)
 

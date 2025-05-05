@@ -30,16 +30,16 @@ Para probar y preparar la integración, hay una colección de Postman disponible
 
 Recomendamos seguir estos pasos para exportar e importar sus recorridos entre entornos:
 
-1. Cree y parametrice un recorrido en el entorno de inicio. [Más información aquí](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/about-journey-building/journey.html)
-1. Compruebe si la versión del recorrido no tiene ningún error. [Más información aquí](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/testing-the-journey.html)
+1. Cree y parametrice un recorrido en el entorno de inicio. [Más información aquí](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/about-journey-building/journey.html?lang=es)
+1. Compruebe si la versión del recorrido no tiene ningún error. [Más información aquí](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/testing-the-journey.html?lang=es)
 1. Llame a la API **/list/recorrido** para recuperar el recorrido UID y el UID de la última versión del recorrido. Si es necesario, puede llamar a **/recorrido/`{uid}`/latest** para encontrar el UID de la última versión del recorrido.
 1. Llame a la API **export** con sus parámetros de entorno de inicio (orgID y sandboxName).
 1. Abra la carga útil de retorno y compruebe los siguientes elementos:
    * Si la recorrido exportada contiene **credenciales específicas**, debe reemplazarlas por las que correspondan al entorno nuevo.
-   * Si el recorrido exportado contiene **eventos** que apuntan a un **esquema XDM**, debe actualizar manualmente la referencia de ID de esquema con el ID de esquema del nuevo entorno en el nodo xdmEntity si los valores de ID son diferentes. Esta actualización debe realizarse para cada evento. [Más información aquí](https://experienceleague.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html)
+   * Si el recorrido exportado contiene **eventos** que apuntan a un **esquema XDM**, debe actualizar manualmente la referencia de ID de esquema con el ID de esquema del nuevo entorno en el nodo xdmEntity si los valores de ID son diferentes. Esta actualización debe realizarse para cada evento. [Más información aquí](https://experienceleague.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html?lang=es)
    * Si el recorrido contiene acciones de correo electrónico, sms o push, es posible que tenga que actualizar el nombre de la plantilla o el nombre de la aplicación móvil si el nombre en el entorno de destino es diferente del del entorno de inicio.
 1. Llame a la API **Import** con los parámetros de entorno de destino (orgID y sandboxName). Tenga en cuenta que puede llamar a la API de importación tantas veces como desee. El UUID y el nombre de cada objeto contenido en la recorrido se generan cada vez que llama a la API import.
-1. Una vez importado el Recorrido, puede publicarlo en la aplicación de Journey Orchestration. Más información [aquí](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html)
+1. Una vez importado el Recorrido, puede publicarlo en la aplicación de Journey Orchestration. Más información [aquí](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html?lang=es)
 
 
 ## Autenticación
@@ -57,7 +57,7 @@ El acceso a la API de Journey Orchestration se configura mediante los pasos sigu
 
 >[!CAUTION]
 >
->El método JWT para generar tokens de acceso ha quedado obsoleto. Todas las integraciones nuevas deben crearse con el [método de autenticación de servidor a servidor OAuth](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server). Adobe también recomienda migrar las integraciones existentes al método OAuth.
+>El método JWT para generar tokens de acceso ha quedado obsoleto. Todas las integraciones nuevas deben crearse con el [método de autenticación de servidor a servidor OAuth](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=es#select-oauth-server-to-server). Adobe también recomienda migrar las integraciones existentes al método OAuth.
 >
 >Lea la siguiente documentación importante:
 >[Guía de migración para sus aplicaciones de JWT a OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/),

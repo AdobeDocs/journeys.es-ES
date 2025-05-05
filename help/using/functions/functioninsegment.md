@@ -31,7 +31,7 @@ Los segmentos pueden tener tres estados:
 * realizado: la entidad se está introduciendo en el segmento.
 * saliente: la entidad sale del segmento.
 
-Solo las personas con los estados de participación en los segmentos **Realized** y **Existing** se considerarán como miembros del segmento. Para obtener más información sobre cómo evaluar un segmento, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
+Solo las personas con los estados de participación en los segmentos **Realized** y **Existing** se considerarán como miembros del segmento. Para obtener más información sobre cómo evaluar un segmento, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=es#interpret-segment-results).
 
 `IF inSegment('segmentName') == true` significa que tiene un segmentMembership con el estado introducido/existente.
 

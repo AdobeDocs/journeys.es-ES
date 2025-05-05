@@ -26,7 +26,7 @@ ht-degree: 22%
 
 La integración con servicios inteligentes le permite aprovechar el poder de la inteligencia artificial y el aprendizaje automático en casos prácticos de experiencias del cliente. Esto permite a analistas de marketing formular predicciones concretas de las necesidades de una compañía mediante configuraciones de negocio sin necesidad de tener experiencia en la ciencia de datos.
 
-Para obtener más información sobre servicios inteligentes, consulte la [documentación](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html).
+Para obtener más información sobre servicios inteligentes, consulte la [documentación](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html?lang=es).
 
 Esta integración le permite aprovechar las predicciones de los clientes, consulte [Aprovechamiento de la inteligencia artificial aplicada al cliente](../ai-services/leveraging-customer-ai.md)
 

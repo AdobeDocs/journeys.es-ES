@@ -41,6 +41,6 @@ Para utilizar un segmento en una condición de recorrido, siga estos pasos:
 
    >[!NOTE]
    >
-   >Solo las personas con los estados de participación en los segmentos **Realized** y **Existing** se considerarán como miembros del segmento. Para obtener más información sobre cómo evaluar un segmento, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
+   >Solo las personas con los estados de participación en los segmentos **Realized** y **Existing** se considerarán como miembros del segmento. Para obtener más información sobre cómo evaluar un segmento, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=es#interpret-segment-results).
 
 Para obtener más información sobre las condiciones de recorrido y cómo usar el editor de expresiones simple, consulte [Actividad de la condición](../building-journeys/condition-activity.md#about_condition).

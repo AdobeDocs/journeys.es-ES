@@ -71,7 +71,7 @@ Para usar estas API con su instancia de [!DNL Journey Orchestration], debe utili
 
 >[!CAUTION]
 >
->El método JWT para generar tokens de acceso ha quedado obsoleto. Todas las integraciones nuevas deben crearse con el [método de autenticación de servidor a servidor OAuth](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server). Adobe también recomienda migrar las integraciones existentes al método OAuth.
+>El método JWT para generar tokens de acceso ha quedado obsoleto. Todas las integraciones nuevas deben crearse con el [método de autenticación de servidor a servidor OAuth](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=es#select-oauth-server-to-server). Adobe también recomienda migrar las integraciones existentes al método OAuth.
 >
 >Lea la siguiente documentación importante:
 >[Guía de migración para sus aplicaciones de JWT a OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/),

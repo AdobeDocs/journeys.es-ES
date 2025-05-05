@@ -48,7 +48,7 @@ Estos son los pasos para configurar los eventos de reacción:
 >
 >Los eventos de reacción no pueden rastrear acciones de correo electrónico, SMS o push que se produzcan en un recorrido diferente.
 >
->Los eventos de reacción rastrean los clics en vínculos del tipo &quot;rastreados&quot; (consulte esta [página](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/links.html#about-tracked-urls)). No se tienen en cuenta los vínculos de baja de suscripción y de página espejo.
+>Los eventos de reacción rastrean los clics en vínculos del tipo &quot;rastreados&quot; (consulte esta [página](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/links.html?lang=es#about-tracked-urls)). No se tienen en cuenta los vínculos de baja de suscripción y de página espejo.
 
 >[!IMPORTANT]
 >
