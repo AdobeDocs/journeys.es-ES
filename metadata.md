@@ -5,7 +5,7 @@ solution-image: assets/campaign-icon-24.png
 getting-started-title: Community
 getting-started-url: https://adobe.com/go/journeyorchestrationcommunity
 tutorials-title: Tutorials
-tutorials-url: https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html
+tutorials-url: https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html?lang=es
 git-repo: https://github.com/AdobeDocs/journeys.es-ES
 index: true
 feature-set: Journey Orchestration
