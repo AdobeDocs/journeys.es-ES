@@ -3,13 +3,13 @@ product: adobe campaign
 title: Tipos de datos
 description: Obtenga información sobre los tipos de datos en expresiones avanzadas
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 343f61b8-2315-4971-8b2b-6aa815bd9ced
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '656'
-ht-degree: 5%
+ht-degree: 12%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 5%
 
 >[!CAUTION]
 >
->**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
+>¿**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
 >
 >
->_Esta documentación hace referencia a materiales Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con el equipo de su cuenta si tiene preguntas sobre su acceso a Journey Orchestration o Journey Optimizer._
+>_Esta documentación hace referencia a materiales de Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con su equipo de cuentas si tiene alguna pregunta sobre el acceso a Journey Orchestration o Journey Optimizer._
 
 
 Técnicamente, una constante siempre contiene un tipo de datos. En la expresión literal, solo se especifica el valor. El tipo de datos se puede inferir del valor (por ejemplo, cadena, entero, decimal, etc.). Para casos específicos como la fecha y la hora, utilizamos funciones dedicadas para la representación.
@@ -172,7 +172,7 @@ Se puede encapsular en una función toDateTimeOnly.
 
 Formato de serialización: formato de fecha y hora de desplazamiento extendido ISO-8601.
 
-Utiliza DateTimeFormatter ISO_LOCAL_DATE_TIME para deserializar y serializar el valor. [Más información](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
+Utiliza DateTimeFormatter ISO_LOCAL_DATE_TIME para deserializar y serializar el valor. [Más información](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME")
 
 **Representación literal**
 

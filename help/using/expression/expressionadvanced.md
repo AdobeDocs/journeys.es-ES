@@ -3,13 +3,13 @@ product: adobe campaign
 title: Acerca del editor de expresiones avanzadas
 description: Aprenda a crear expresiones avanzadas
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: f6f0004d-8a33-4671-9c16-e56edfe2a45e
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '595'
-ht-degree: 74%
+ht-degree: 81%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 74%
 
 >[!CAUTION]
 >
->**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
+>¿**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
 >
 >
->_Esta documentación hace referencia a materiales Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con el equipo de su cuenta si tiene preguntas sobre su acceso a Journey Orchestration o Journey Optimizer._
+>_Esta documentación hace referencia a materiales de Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con su equipo de cuentas si tiene alguna pregunta sobre el acceso a Journey Orchestration o Journey Optimizer._
 
 
 Utilice el editor de expresiones avanzadas para crear expresiones avanzadas en varias pantallas de la interfaz. Por ejemplo, puede generar expresiones al configurar y utilizar recorridos, y al definir una condición de fuente de datos.
@@ -35,7 +35,7 @@ _Interfaz avanzada del editor de expresiones_
 
 El editor de expresiones avanzadas se puede utilizar para lo siguiente:
 
-* crear [condiciones avanzadas &#x200B;](../building-journeys/condition-activity.md#about_condition) en fuentes de datos e información de evento
+* crear [condiciones avanzadas ](../building-journeys/condition-activity.md#about_condition) en fuentes de datos e información de evento
 * definir [actividades de espera personalizadas](../building-journeys/wait-activity.md#custom)
 * definir asignación de parámetros de acción
 

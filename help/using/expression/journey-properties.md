@@ -3,13 +3,13 @@ product: adobe campaign
 title: Propiedades del recorrido
 description: Más información sobre las propiedades del recorrido
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 798e4207-5bef-4002-9c1f-608bb6243e43
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '631'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 3%
 
 >[!CAUTION]
 >
->**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
+>¿**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
 >
 >
->_Esta documentación hace referencia a materiales Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con el equipo de su cuenta si tiene preguntas sobre su acceso a Journey Orchestration o Journey Optimizer._
+>_Esta documentación hace referencia a materiales de Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con su equipo de cuentas si tiene alguna pregunta sobre el acceso a Journey Orchestration o Journey Optimizer._
 
 
 En el editor de expresiones avanzadas, encontrará la categoría **Propiedades del Recorrido**, debajo de las categorías de evento y origen de datos. Esta categoría contiene campos técnicos relacionados con el recorrido de un perfil determinado. Esta es la información recuperada por el sistema de las recorridos activas, como el ID de recorrido o los errores específicos encontrados.
@@ -60,7 +60,7 @@ Estos son algunos ejemplos de casos de uso:
 | | journeyVersion | Versión de recorrido | |
 | Instancia de recorrido | instanceUID | Identificador de instancia de recorrido | ID de la instancia |
 | | externalKey | Clave externa | Identificador individual que activa el recorrido |
-| | organizationId | Identificador de la organización | Organización de la marca |
+| | organizationId | Identificador de organización | Organización de la marca |
 | | sandboxName | Nombre de zona protegida | Nombre de la zona protegida |
 | Identidad | profileId | Identificador de identidad del perfil | Identificador del perfil en el recorrido |
 | | namespace | Área de nombres de identidad de perfil | Área de nombres del perfil en la recorrido (ejemplo: ECID) |

@@ -3,10 +3,10 @@ product: adobe campaign
 title: inSegment
 description: Obtenga información sobre la función en Segmento
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 7f756ec5-d787-4024-aaf8-5b4f1d4ddece
-source-git-commit: e56e6f5dcb8a4680851858355ac18a70bd832b73
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 6%
@@ -31,7 +31,7 @@ Los segmentos pueden tener tres estados:
 * realizado: la entidad se está introduciendo en el segmento.
 * saliente: la entidad sale del segmento.
 
-Solo las personas con los estados de participación en los segmentos **Realized** y **Existing** se considerarán como miembros del segmento. Para obtener más información sobre cómo evaluar un segmento, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=es#interpret-segment-results).
+Solo las personas con los estados de participación en los segmentos **Realized** y **Existing** se considerarán como miembros del segmento. Para obtener más información sobre cómo evaluar un segmento, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
 
 `IF inSegment('segmentName') == true` significa que tiene un segmentMembership con el estado introducido/existente.
 
