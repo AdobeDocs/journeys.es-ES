@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
-workflow-type: ht
+source-git-commit: 634ba1cb926d20a11539f6262d5c4d0342c6c286
+workflow-type: tm+mt
 source-wordcount: '4452'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -92,7 +92,7 @@ Cuando un recorrido está en un estado intermedio, es de solo lectura. [Más inf
 
 ### Mejoras {#jan-2023-improvements}
 
-* Al añadir **Clasificación de segmentos** en un recorrido, el área de nombres ahora se rellena previamente, de forma predeterminada, con la última utilizada. Consulte la [documentación](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/segment-qualification-events.html?lang=es#about-segment-qualification){target="_blank"} de Journey Optimizer.
+* Al añadir **Calificación de segmentos** en un recorrido, el espacio de nombres ahora se rellena previamente, de forma predeterminada, con la última utilizada. Consulte la [documentación](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/segment-qualification-events.html?lang=es#about-segment-qualification){target="_blank"} de Journey Optimizer.
 * En el lienzo del recorrido, hay un nuevo botón disponible en la barra de herramientas que le permite descargar una captura de pantalla del recorrido.
 
 ## Versión de septiembre de 2022{#sept-2022-release}
@@ -119,7 +119,7 @@ Cuando un recorrido está en un estado intermedio, es de solo lectura. [Más inf
 
 ### Mejoras{#sept-2022-improvements}
 
-* Se ha añadido un nuevo mecanismo de protección a los recorridos unitarios (comenzando por un evento o una calificación de segmento) para evitar que los recorridos se activen varias veces por error para el mismo evento. La reentrada del perfil se bloqueará temporalmente de forma predeterminada durante 5 minutos. Consulte la [documentación](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/quick-start.html?lang=es#events-g){target="_blank"} de Journey Optimizer.
+* Se ha añadido un nuevo mecanismo de protección a los recorridos unitarios (comenzando por un evento o una calificación de segmentos) para evitar que los recorridos se activen varias veces por error para el mismo evento. La reentrada del perfil se bloqueará temporalmente de forma predeterminada durante 5 minutos. Consulte la [documentación](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/quick-start.html?lang=es#events-g){target="_blank"} de Journey Optimizer.
 
 ### Otros cambios{#sept-2022-other}
 
@@ -148,7 +148,7 @@ Cuando un recorrido está en un estado intermedio, es de solo lectura. [Más inf
 
 ### Mejoras
 
-* Para optimizar el rendimiento, todos los recorridos en modo de prueba que no se hayan activado durante una semana volverán al estado Borrador. [Más información](../building-journeys/testing-the-journey.md#important_notes)
+* Para optimizar el rendimiento y evitar el uso de recursos obsoletos, todos los recorridos en modo de prueba que no se hayan activado durante una semana volverán al estado Borrador. [Más información](../building-journeys/testing-the-journey.md#important_notes)
 
 ## Lanzamiento de enero de 2022 {#january-2022-release}
 
@@ -251,7 +251,7 @@ Cuando un recorrido está en un estado intermedio, es de solo lectura. [Más inf
 * En la pantalla de la lista de recorridos, se ha añadido el filtro de tipo de recorrido. Ahora puede filtrar por tipo de recorrido: **[!UICONTROL Unitary event]** o **[!UICONTROL Segment qualification]**. [Más información](../about/user-interface.md#section_lgm_hpz_pgb)
 * En el caso de los recorridos activos, la pantalla de propiedades de recorrido ahora muestra la fecha de publicación y el nombre del usuario que publicó el recorrido. Esta información también está disponible cuando copia los detalles técnicos del recorrido. [Más información](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
 
-## Lanzamiento de abril de 2021 {#april-2021-release}
+## Versión de abril de 2021 {#april-2021-release}
 
 ### Mejoras
 
@@ -365,7 +365,7 @@ Las funciones de [getListItem](../functions/functiongetlistitem.md) y [división
 
 Se han añadido limitaciones al crear nuevas versiones de un recorrido. Estas limitaciones evitan cambios demasiado drásticos en el recorrido para mantener cierta coherencia entre las versiones. [Más información](../about/limitations.md#journey-versions-limitations)
 
-La actividad **Clasificación del segmento** ya no se puede usar en un recorrido que incluya actividades de mensajes de Campaign Standard. Esta restricción protege la integridad de las instancias de Adobe Campaign Standard. De hecho, el uso de la calificación de segmentos puede llevar a picos diarios de envío de mensajes que sobrecargarían la mensajería transaccional del Campaign Standard. [Más información](../about/limitations.md#segment-qualification)
+La actividad **Calificación de segmentos** ya no se puede usar en un recorrido que incluya actividades de mensajes de Campaign Standard. Esta restricción protege la integridad de las instancias de Adobe Campaign Standard. De hecho, el uso de la calificación de segmentos puede llevar a picos diarios de envío de mensajes que sobrecargarían la mensajería transaccional del Campaign Standard. [Más información](../about/limitations.md#segment-qualification)
 
 ## Versión de octubre de 2020 {#october-release}
 
@@ -509,7 +509,7 @@ El programa Alpha ofrece características que actualmente están siendo probadas
 <ul>
 <li><p>Los menús se mueven desde la parte superior hacia la izquierda de la interfaz. </p>
 </li>
-<li><p>Agrupación de funcionalidades administrativas en un solo panel.</p>
+<li><p>Agrupación de funcionalidades administrativas en un solo panel de control.</p>
 </li>
 </ul>
 </td>
@@ -542,7 +542,7 @@ El programa Alpha ofrece características que actualmente están siendo probadas
 <tbody>
 <tr>
 <td>
-<p>Hemos simplificado la forma de configurar el Evento de Experience. Presentamos un nuevo método que no requiere el uso de un ID de evento. Al configurar el evento en Journey Orchestration, ahora puede definir un evento basado en reglas. <a href="../event/about-events.md">Más información</a>
+<p>Hemos simplificado la forma de configurar el evento de experiencia. Presentamos un nuevo método que no requiere el uso de un ID de evento. Al configurar el evento en Journey Orchestration, ahora puede definir un evento basado en reglas. <a href="../event/about-events.md">Más información</a>
 </p>
 </td>
 </tr>
@@ -654,7 +654,7 @@ La interfaz de Journey Orchestration está disponible en japonés.
 <img src="../assets/rn-timezone.png"/>
 <ul>
 <li>La lista desplegable <strong>Zona horaria</strong> permite seleccionar una zona horaria específica. De forma predeterminada, se utiliza la zona horaria del explorador. </li>
-<li>La casilla <strong>Zona horaria del perfil</strong> le permite utilizar la zona horaria del perfil de Adobe Experience Platform de la persona que entra en el recorrido si está disponible. Si no es así, se utiliza la zona horaria definida en la lista desplegable. Esta función no es compatible con los recorridos que utilizan eventos que no tienen área de nombres.</li>
+<li>La casilla <strong>Zona horaria del perfil</strong> le permite utilizar la zona horaria del perfil de Adobe Experience Platform de la persona que entra en el recorrido si está disponible. Si no es así, se utiliza la zona horaria definida en la lista desplegable. Esta función no es compatible con los recorridos que utilizan eventos que no tienen espacio de nombres.</li>
 </ul>
 <p>Para obtener más información, consulte las secciones <a href="../building-journeys/changing-properties.md#timezone">Cambio de las propiedades</a> y <a href="../building-journeys/timezone-management.md">Administración de zonas horarias</a> .</p>
 </td>
@@ -673,7 +673,7 @@ La interfaz de Journey Orchestration está disponible en japonés.
 <td>
 <p>Se ha mejorado la <strong>paleta</strong> de recorrido, situada en la parte izquierda del diseñador de recorridos:</p>
 <ul>
-<li>Un nuevo icono, junto a la barra de <strong>búsqueda</strong>, permite ocultar o mostrar elementos no disponibles en la paleta como eventos que utilizan un área de nombres diferente a la utilizada en el recorrido. De forma predeterminada, los elementos no disponibles están ocultos.</li>
+<li>Un nuevo icono, junto a la barra de <strong>búsqueda</strong>, permite ocultar o mostrar elementos no disponibles en la paleta como eventos que utilizan un espacio de nombres diferente a la utilizada en el recorrido. De forma predeterminada, los elementos no disponibles están ocultos.</li>
 <li>Al utilizar el campo <strong>Buscar</strong>, ahora se muestra el número de resultados de cada categoría de actividad de lienzo.</li>
 <li>Se ha mejorado la navegación entre las distintas categorías de actividad.</li>
 </ul>
@@ -713,7 +713,7 @@ La interfaz de Journey Orchestration está disponible en japonés.
 
 * Ahora puede **eliminar** los recorridos detenidos. Los informes asociados a estos recorridos eliminados no estarán disponibles.
 
-* Al navegar por los **campos de Adobe Experience Platform** (en formato XDM), ahora verá el nombre en pantalla además del nombre de campo. Esta información se recupera de la definición de esquema del modelo de datos de Experience. Cuando está disponible, aparece el nombre para mostrar alternativo. Esta descripción sencilla, especialmente útil en el caso de los campos eVar, permite identificar los campos con mayor facilidad. [Más información](../about/user-interface.md#friendly-names-display)
+* Al navegar por los **campos de Adobe Experience Platform** (en formato XDM), ahora verá el nombre para mostrar además del nombre de campo. Esta información se recupera de la definición de esquema del Modelo de datos de experiencia. Cuando está disponible, aparece el nombre para mostrar alternativo. Esta descripción sencilla, especialmente útil en el caso de los campos eVar, permite identificar los campos con mayor facilidad. [Más información](../about/user-interface.md#friendly-names-display)
 
 ## Versión de GA: diciembre de 2019 {#ga-release---december-2019}
 
@@ -721,6 +721,6 @@ Journey Orchestration ahora se conoce como GA.
 
 Cree casos de uso de orquestación en tiempo real aprovechando los datos contextuales almacenados en eventos o fuentes de datos.
 
-Journey Orchestration permite la orquestación en tiempo real basada en datos contextuales de eventos, información de Adobe Experience Platform o datos de servicios API de terceros. La aplicación determina en los flujos de varios pasos llamados recorridos las siguientes mejores acciones específicas del consumidor, en función de su perfil y comportamiento. Esto incluye tanto el momento óptimo como el tipo de acción, como enviar al consumidor una notificación push a través de las funciones de mensajería transaccional de Adobe Campaign Standard (requiere Adobe Campaign Standard) o la notificación de un sistema de terceros. Estas decisiones se toman en base a reglas y puntuaciones de Sensei.
+Journey Orchestration permite la orquestación en tiempo real basada en datos contextuales de eventos, información de Adobe Experience Platform o datos de servicios API de terceros. La aplicación determina en los flujos de varios pasos llamados recorridos las siguientes mejores acciones específicas del consumidor, en función de su perfil y comportamiento. Esto incluye tanto el momento óptimo como el tipo de acción, como enviar al consumidor una notificación push a través de las funciones de mensajería transaccional de Adobe Campaign Standard (requiere Adobe Campaign Standard) o la notificación de un sistema de terceros. Estas decisiones se toman en base a reglas y puntuaciones de IA.
 
 [](../action/working-with-adobe-campaign.md)Obtenga más información sobre Journey Orchestration.
