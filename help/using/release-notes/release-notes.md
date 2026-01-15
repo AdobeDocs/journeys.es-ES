@@ -723,4 +723,4 @@ Cree casos de uso de orquestación en tiempo real aprovechando los datos context
 
 Journey Orchestration permite la orquestación en tiempo real basada en datos contextuales de eventos, información de Adobe Experience Platform o datos de servicios API de terceros. La aplicación determina en los flujos de varios pasos llamados recorridos las siguientes mejores acciones específicas del consumidor, en función de su perfil y comportamiento. Esto incluye tanto el momento óptimo como el tipo de acción, como enviar al consumidor una notificación push a través de las funciones de mensajería transaccional de Adobe Campaign Standard (requiere Adobe Campaign Standard) o la notificación de un sistema de terceros. Estas decisiones se toman en base a reglas y puntuaciones de IA.
 
-[](../action/working-with-adobe-campaign.md)Obtenga más información sobre Journey Orchestration.
+[&#128279;](../action/working-with-adobe-campaign.md)Obtenga más información sobre Journey Orchestration.
