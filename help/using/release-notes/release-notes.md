@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: 634ba1cb926d20a11539f6262d5c4d0342c6c286
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4452'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Cuando un recorrido está en un estado intermedio, es de solo lectura. [Más inf
 * **Configuración**: ahora el atributo identityMap de stepEvents se rellena previamente. La identidad principal se define como &quot;primary = true&quot;. [Más información](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-field-list.html?lang=es){target="_blank"}
 * **Interfaz de usuario**: la barra superior, en pantallas de recorrido, se ha reorganizado para mejorar la experiencia. Entre las diferentes actualizaciones, observe que el icono de “lápiz” que le permite acceder a las propiedades del recorrido ahora se muestra a la izquierda de la barra superior, junto al nombre del recorrido. [Más información](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=es#change-properties){target="_blank"}
 
-## Lanzamiento de enero de 2024 {#jan-rn-2024}
+## Versión de enero de 2024 {#jan-rn-2024}
 
 ### Mejoras {#jan-2024-improvements}
 
@@ -71,7 +71,7 @@ Cuando un recorrido está en un estado intermedio, es de solo lectura. [Más inf
    * Le recomendamos que mantenga el número de nodos limitado a 50 o menos para mantener sus recorridos funcionando, fácil de leer, realizar un control de calidad y solucionar problemas. El número de actividades se muestra en la sección superior izquierda del lienzo del recorrido. Consulte la [documentación](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=es#journeys-guardrails-journeys){target="_blank"} de Journey Optimizer
    * A medida que desarrolle e inicie recorridos, le notificaremos cuando se aproxime al hito de 100 recorridos activos a la vez. Si sus planes requieren más de 100 recorridos a la vez, cree una entrada para recibir asistencia después de ver la notificación y le ayudaremos. Consulte la [documentación](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=es#journeys-guardrails-journeys){target="_blank"} de Journey Optimizer
 
-## Lanzamiento de marzo de 2023 {#mar-2023}
+## Versión de marzo de 2023 {#mar-2023}
 
 ### Mejoras {#mar-2023-improvements}
 
@@ -81,14 +81,14 @@ Cuando un recorrido está en un estado intermedio, es de solo lectura. [Más inf
 * El tiempo de espera predeterminado y la duración del error en las propiedades del recorrido han cambiado de 5 a 30 segundos. Consulte la [documentación](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/external-systems/external-systems.html?lang=es#timeout){target="_blank"} de Journey Optimizer.
 * Se ha añadido un mecanismo de protección al modo de prueba para escuchar solo los eventos enviados a través de la interfaz. Los eventos enviados a través de una herramienta externa no se tienen en cuenta. Consulte la [documentación](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey.html?lang=es){target="_blank"} de Journey Optimizer.
 
-## Lanzamiento de febrero de 2023 {#feb-2023}
+## Versión de febrero de 2023 {#feb-2023}
 
 ### Mejoras {#feb-2023-improvements}
 
 * El campo **Período de espera de reentrada** se ha añadido a las propiedades del recorrido. Este campo permite definir el tiempo de espera antes de permitir que un perfil vuelva a entrar en el recorrido en recorridos unitarios (empezando por un evento o una calificación de segmentos). Esto evita que los recorridos se activen varias veces por error para el mismo evento. De forma predeterminada, el campo se establece en 5 minutos. Consulte la [documentación](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=es#entrance){target="_blank"} de Journey Optimizer.
 * Se han realizado mejoras para las **fechas de inicio y finalización del recorrido**. Si no ha especificado una fecha de inicio, se añadirá ahora automáticamente en el momento de la publicación. Esto permite que los perfiles salgan automáticamente cuando se alcanza la fecha. Consulte la [documentación](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=es#dates){target="_blank"} de Journey Optimizer.
 
-## Lanzamiento de enero de 2023 {#jan-2023-release}
+## Versión de enero de 2023 {#jan-2023-release}
 
 ### Mejoras {#jan-2023-improvements}
 
@@ -131,7 +131,7 @@ Cuando un recorrido está en un estado intermedio, es de solo lectura. [Más inf
 
 * La opción **Zona horaria del perfil** ahora está desactivada de forma predeterminada en las propiedades del recorrido. [Más información](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/timezone-management..html?lang=es#timezone-from-profiles){target="_blank"}.
 
-## Lanzamiento de mayo de 2022 {#may-2022-release}
+## Versión de mayo de 2022 {#may-2022-release}
 
 ### Mejoras
 
@@ -150,7 +150,7 @@ Cuando un recorrido está en un estado intermedio, es de solo lectura. [Más inf
 
 * Para optimizar el rendimiento y evitar el uso de recursos obsoletos, todos los recorridos en modo de prueba que no se hayan activado durante una semana volverán al estado Borrador. [Más información](../building-journeys/testing-the-journey.md#important_notes)
 
-## Lanzamiento de enero de 2022 {#january-2022-release}
+## Versión de enero de 2022 {#january-2022-release}
 
 ### Mejoras
 
@@ -225,7 +225,7 @@ Cuando un recorrido está en un estado intermedio, es de solo lectura. [Más inf
 
 * El campo **Duración de la caché** se ha eliminado del panel de configuración de la fuente de datos. [Más información](../datasource/about-data-sources.md)
 
-## Lanzamiento de junio de 2021 {#june-2021-release}
+## Versión de junio de 2021 {#june-2021-release}
 
 <table>
 <thead>
@@ -257,7 +257,7 @@ Cuando un recorrido está en un estado intermedio, es de solo lectura. [Más inf
 
 * En la pantalla de **Configuración de eventos** del modo de prueba, ahora se muestra un menú desplegable para los campos que esperan una enumeración. Simplemente, seleccione uno de los valores disponibles. Esto evitará errores al activar el evento si se define un valor incorrecto. [Más información](../building-journeys/testing-the-journey.md#firing_events)
 
-## Lanzamiento de marzo de 2021 {#march-2021-release}
+## Versión de marzo de 2021 {#march-2021-release}
 
 ### Mejoras
 
@@ -266,7 +266,7 @@ Cuando un recorrido está en un estado intermedio, es de solo lectura. [Más inf
 * En el modo de prueba, en la pantalla **Configuración de eventos** de campo **Clave** utilizado para definir el ID del perfil de prueba se ha cambiado el nombre **Identificador de perfil** para una mejor experiencia de usuario. [Más información](../building-journeys/testing-the-journey.md).
 * En los eventos de reacción, la duración del tiempo de espera ahora solo se puede establecer entre 40 y 30 días. Al probar un recorrido que utiliza un evento de reacción, el modo de prueba **[!UICONTROL Wait time]** del valor predeterminado y mínimo ahora es de 40 segundos. [Más información](../building-journeys/reaction-events.md).
 
-## Lanzamiento de febrero de 2021 {#february-2021-release}
+## Versión de febrero de 2021 {#february-2021-release}
 
 <table>
 <thead>
@@ -291,7 +291,7 @@ Cuando un recorrido está en un estado intermedio, es de solo lectura. [Más inf
 * Al iniciar un nuevo recorrido, ahora se ocultan los elementos que no se pueden soltar en el lienzo como primer paso. Esto se refiere a todas las acciones, la actividad de la condición, la espera y la reacción.
 * En la parte izquierda del editor de expresiones avanzadas, las funciones ahora se reagrupan en una sección **Funciones** al final de la lista.
 
-## Lanzamiento de enero de 2021 {#january-2021-release}
+## Versión de enero de 2021 {#january-2021-release}
 
 Al seleccionar un esquema en la configuración de evento, solo se seleccionan los campos obligatorios para que Journey Orchestration reciba el evento correctamente. [Más información](../event/defining-the-payload-fields.md)
 
@@ -723,4 +723,4 @@ Cree casos de uso de orquestación en tiempo real aprovechando los datos context
 
 Journey Orchestration permite la orquestación en tiempo real basada en datos contextuales de eventos, información de Adobe Experience Platform o datos de servicios API de terceros. La aplicación determina en los flujos de varios pasos llamados recorridos las siguientes mejores acciones específicas del consumidor, en función de su perfil y comportamiento. Esto incluye tanto el momento óptimo como el tipo de acción, como enviar al consumidor una notificación push a través de las funciones de mensajería transaccional de Adobe Campaign Standard (requiere Adobe Campaign Standard) o la notificación de un sistema de terceros. Estas decisiones se toman en base a reglas y puntuaciones de IA.
 
-[&#128279;](../action/working-with-adobe-campaign.md)Obtenga más información sobre Journey Orchestration.
+[Obtenga más información](../action/working-with-adobe-campaign.md) sobre Journey Orchestration.
