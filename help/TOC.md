@@ -5,10 +5,10 @@ title: Guía de Journey Orchestration
 user-guide-description: Proporciona instrucciones prácticas para implementar y construir recorridos.
 index: true
 feature: Journeys
-source-git-commit: 137637a753ba44cc4f8e397b77c3fc076ec3de3f
+source-git-commit: 517aedc8568a9988a56fe5a0ebd08cf4bf593bb8
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 100%
+source-wordcount: '450'
+ht-degree: 87%
 
 ---
 
@@ -18,12 +18,12 @@ ht-degree: 100%
 + [Documentación del producto](journey-orchestration-home.md)
 + Novedades {#release-notes}
    + [Notas de la versión](using/release-notes/release-notes.md)
-   + [Actualizaciones de documentación](using/release-notes/documentation-updates.md)
+   + [Actualizaciones de la documentación](using/release-notes/documentation-updates.md)
    + [Actualización a Journey Optimizer](using/release-notes/upgrade-to-ajo.md)
-+ Primeros pasos con [!DNL Journey Orchestration] {#starting-with-journeys}
++ Comenzando por [!DNL Journey Orchestration] {#starting-with-journeys}
    + [Acerca de  [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [Limitaciones](using/about/limitations.md)
-   + [Introducción ](using/about/get-started.md)
+   + [Introducción](using/about/get-started.md)
    + [Interfaz de usuario](using/about/user-interface.md)
    + [Administración de acceso](using/about/access-management.md)
    + [Resolución de problemas](using/about/troubleshooting.md)
@@ -37,7 +37,7 @@ ht-degree: 100%
       + [Acerca de los esquemas de ExperienceEvent](using/event/experience-event-schema.md)
       + [Pasos adicionales para enviar eventos](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
    + [Definición de los campos de carga útil](using/event/defining-the-payload-fields.md)
-   + [Selección del área de nombres](using/event/selecting-the-namespace.md)
+   + [Selección del espacio de nombres](using/event/selecting-the-namespace.md)
    + [Definición de la clave del evento](using/event/defining-the-event-key.md)
    + [Previsualización de la carga útil](using/event/previewing-the-payload.md)
 + Configuración de una fuente de datos {#data-source-journeys}
@@ -57,8 +57,8 @@ ht-degree: 100%
    + [Acerca de los segmentos](using/segment/about-segments.md)
    + [Creación de segmentos](using/segment/creating-a-segment.md)
    + [Uso de segmentos en condiciones](using/segment/using-a-segment.md)
-+ Crear un recorrido {#building-journeys}
-   + Acerca de la creación de un recorrido {#about-journey-building}
++ Creación de un recorrido {#building-journeys}
+   + Acerca de la creación de recorridos {#about-journey-building}
       + [Creación de un recorrido](using/building-journeys/journey.md)
       + [Uso del diseñador de recorridos](using/building-journeys/using-the-journey-designer.md)
       + [Cambio de las propiedades](using/building-journeys/changing-properties.md)
@@ -71,12 +71,12 @@ ht-degree: 100%
          + [Acerca de las actividades de eventos](using/building-journeys/event-activities.md)
          + [Eventos generales](using/building-journeys/general-events.md)
          + [Eventos de reacción](using/building-journeys/reaction-events.md)
-         + [Eventos de cualificación de segmentos](using/building-journeys/segment-qualification-events.md)
+         + [Eventos de calificación de segmentos](using/building-journeys/segment-qualification-events.md)
       + Actividades de orquestación {#orchestration-activities}
          + [Acerca de las actividades de orquestación](using/building-journeys/about-orchestration-activities.md)
          + [Actividad de condición](using/building-journeys/condition-activity.md)
-         + [Actividad final](using/building-journeys/end-activity.md)
-         + [Actividad de espera](using/building-journeys/wait-activity.md)
+         + [Actividad Finalizar](using/building-journeys/end-activity.md)
+         + [Actividad Esperar](using/building-journeys/wait-activity.md)
       + Actividades de acción {#action-activities}
          + [Acerca de las actividades de acción](using/building-journeys/about-action-activities.md)
          + [Uso de Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-actions.md)
@@ -86,10 +86,10 @@ ht-degree: 100%
          + [Actualización de perfil](using/building-journeys/update-profiles.md)
    + [Prueba del recorrido](using/building-journeys/testing-the-journey.md)
    + [Publicación del recorrido](using/building-journeys/publishing-the-journey.md)
-   + Uso compartido de los pasos del recorrido con Adobe Experience Platform {#sharing-journey-steps}
+   + Uso compartido de los pasos de recorrido con Adobe Experience Platform {#sharing-journey-steps}
       + [Información general sobre el uso compartido de los pasos del recorrido](using/building-journeys/sharing-overview.md)
       + [Lista de campos de eventos de paso](using/building-journeys/sharing-field-list.md)
-      + Campos de eventos de paso heredados {#legacy-step-event-fields}
+      + Campos de eventos de pasos heredados {#legacy-step-event-fields}
          + [Acerca de los campos heredados](using/building-journeys/sharing-legacy-fields.md)
          + [Campos comunes de los eventos de journeySteps](using/building-journeys/sharing-common-fields.md)
          + [Campos de ejecución de la acción de eventos de journeySteps](using/building-journeys/sharing-execution-fields.md)
@@ -157,7 +157,7 @@ ht-degree: 100%
          + [listSize](using/functions/functionlistsize.md)
          + [serializeList](using/functions/functionserializelist.md)
          + [ordenar](using/functions/functionsort.md)
-      + Math {#math}
+      + Matemáticas {#math}
          + [random](using/functions/functionrandom.md)
          + [round](using/functions/functionround.md)
       + Cadena {#string}
@@ -197,7 +197,7 @@ ht-degree: 100%
       + [Configuración del evento](using/usecase/configuring-the-event.md)
       + [Configuración de la fuente de datos](using/usecase/configuring-the-data-source.md)
       + [Construcción del recorrido](using/usecase/simple-uc-building-the-journey.md)
-   + Creación de un recorrido en canales múltiples{#use-case-advanced}
+   + Creación de un recorrido multicanal{#use-case-advanced}
       + [Acerca del caso de uso avanzado](using/usecase/about-the-advanced-use-case.md)
       + [Configuración de los eventos](using/usecase/configuring-the-events.md)
       + [Configuración de las fuentes de datos](using/usecase/configuring-the-data-sources.md)

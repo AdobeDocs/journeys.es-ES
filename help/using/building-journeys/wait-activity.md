@@ -1,27 +1,27 @@
 ---
 product: adobe campaign
-title: Actividad de espera
+title: Actividad Esperar
 description: Descubra más información sobre la actividad de espera
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+source-git-commit: 58514d6757f9705f5baa71cfbbe0bdfe65c8e16c
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 8%
+source-wordcount: '421'
+ht-degree: 20%
 
 ---
 
-# Actividad de espera{#section_rlm_nft_dgb}
+# Actividad Esperar{#section_rlm_nft_dgb}
 
 
 >[!CAUTION]
 >
->**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
+>¿**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
 >
 >
->_Esta documentación hace referencia a materiales Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con el equipo de su cuenta si tiene preguntas sobre su acceso a Journey Orchestration o Journey Optimizer._
+>_Esta documentación hace referencia a materiales de Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con su equipo de cuentas si tiene alguna pregunta sobre el acceso a Journey Orchestration o Journey Optimizer._
 
 
 
@@ -51,7 +51,7 @@ Seleccione la duración de la espera antes de la ejecución de la siguiente acti
 
 ## Espera personalizada{#custom}
 
-Esta opción le permite definir una fecha personalizada, por ejemplo, el 12 de julio de 2020 a las 17:00, mediante una expresión avanzada basada en un campo proveniente de un evento o una fuente de datos. No permite definir una duración personalizada, por ejemplo, de 7 días. La expresión en el editor de expresiones debe proporcionar un formato dateTimeOnly. Ver [esta página](../expression/expressionadvanced.md). Para obtener más información sobre el formato dateTimeOnly, vea [esta página](../expression/data-types.md).
+Esta opción le permite definir una fecha personalizada, por ejemplo, el 12 de julio de 2020 a las 17:00, mediante una expresión avanzada basada en un campo proveniente de un evento o una fuente de datos. No permite definir una duración personalizada, por ejemplo, de 7 días. La expresión en el editor de expresiones debe proporcionar un formato dateTimeOnly. Consulte [esta página](../expression/expressionadvanced.md). Para obtener más información sobre el formato dateTimeOnly, vea [esta página](../expression/data-types.md).
 
 >[!NOTE]
 >
@@ -61,7 +61,8 @@ Esta opción le permite definir una fecha personalizada, por ejemplo, el 12 de j
 
 ![](../assets/journey57.png)
 
-<!--## Email send time optimization{#email_send_time_optimization}
+<!--
+## Email send time optimization{#email_send_time_optimization}
 
 >[!CAUTION]
 >
@@ -83,4 +84,5 @@ This type of wait uses a score calculated in the Adobe Experience Platform. The 
     >
     >Note that the send time score can be unavailable because there is not enough data to perform the calculation. In this case, you will be informed, at publication time, that the default time applies.
 
-![](../assets/journey57bis.png)-->
+![](../assets/journey57bis.png)
+-->
