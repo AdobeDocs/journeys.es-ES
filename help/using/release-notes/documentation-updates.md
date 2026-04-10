@@ -1,21 +1,20 @@
 ---
 product: adobe campaign
-title: Actualizaciones de documentación
+title: Actualizaciones de la documentación
 description: Más información sobre las actualizaciones de documentación
 feature: Journeys
 role: User
 level: Beginner
 hide: true
-hidefromtoc: true
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
-workflow-type: ht
-source-wordcount: '992'
-ht-degree: 100%
+source-git-commit: ecdfc92fc1516c55b2d16d270094e637a4245483
+workflow-type: tm+mt
+source-wordcount: '994'
+ht-degree: 99%
 
 ---
 
-# Actualizaciones de documentación
+# Actualizaciones de la documentación
 
 Esta página enumera todas las actualizaciones de documentación de [!DNL Journey Orchestration].
 También puede consultar las [!DNL Journey Orchestration] [Notas de la versión](../release-notes/release-notes.md).
@@ -101,7 +100,7 @@ También puede consultar las [!DNL Journey Orchestration] [Notas de la versión]
 * Se añadió información sobre cómo cambiar la duración de caché del token para una fuente de datos de autenticación personalizada. [Más información](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
 * Capturas de pantalla y texto actualizados para reflejar el cambio de nombre del estado del recorrido **[!UICONTROL Finished]** , que se ha cambiado a **[!UICONTROL Closed (no entrance)]**.
 * Se añadió información sobre cómo se define el idioma para la interfaz. [Más información](../about/user-interface.md)
-* La lista de los estados del recorrido de un individuo se ha trasladado a la sección de [registros del modo de prueba ](../building-journeys/testing-the-journey.md#viewing_logs).
+* La lista de los estados del recorrido de un individuo se ha trasladado a la sección de [registros del modo de prueba &#x200B;](../building-journeys/testing-the-journey.md#viewing_logs).
 
 ## Abril de 2020 {#april-2020}
 
