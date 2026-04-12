@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1350'
-ht-degree: 88%
+source-wordcount: '1390'
+ht-degree: 91%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 88%
 
 >[!CAUTION]
 >
->**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
+>¿**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
 >
 >
->_Esta documentación hace referencia a materiales Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con el equipo de su cuenta si tiene preguntas sobre su acceso a Journey Orchestration o Journey Optimizer._
+>_Esta documentación hace referencia a materiales de Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con su equipo de cuentas si tiene alguna pregunta sobre el acceso a Journey Orchestration o Journey Optimizer._
 
 
 Las fuentes de datos externas permiten definir una conexión a sistemas de terceros, por ejemplo, si utiliza un sistema de reserva de hoteles para comprobar si la persona ha registrado una habitación. A diferencia de la fuente de datos integrada de Adobe Experience Platform, puede crear tantas fuentes de datos externas como necesite.
@@ -39,7 +39,7 @@ La llamada se compone de una dirección URL principal (_https://api.adobeweather
 
 Estos son los pasos principales para crear y configurar una nueva fuente de datos externa:
 
-1. En la lista de orígenes de datos, haga clic en **[!UICONTROL Create data source]** para crear un nuevo origen de datos externo.
+1. From the list of data sources, click **[!UICONTROL Create data source]** to create a new external data source.
 
    ![](../assets/journey25.png)
 
@@ -62,7 +62,7 @@ Estos son los pasos principales para crear y configurar una nueva fuente de dato
 
    ![](../assets/journey27.png)
 
-1. Configure la autenticación según la configuración del servicio externo: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** o **[!UICONTROL API key]**. Para obtener más información sobre el modo de autenticación personalizada, vea [esta sección](../datasource/external-data-sources.md#section_wjp_nl5_nhb). En nuestro ejemplo, elegimos:
+1. Configure la autenticación según la configuración del servicio externo: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** o **[!UICONTROL API key]**. For more information on the custom authentication mode, see [this section](../datasource/external-data-sources.md#section_wjp_nl5_nhb). En nuestro ejemplo, elegimos:
 
 
    * **[!UICONTROL Type]**: &quot;clave de API&quot;
@@ -84,8 +84,8 @@ Para el conjunto de parámetros &quot;long/lat&quot;, creamos un grupo de campos
 
 En el caso de una llamada GET que requiera parámetros, introduzca los parámetros en **[!UICONTROL Dynamic Values]** y se añadirán automáticamente al final de la llamada. En caso de una llamada POST, debe hacer esto:
 
-* enumere los parámetros que desea pasar en el momento de la llamada en el campo **[!UICONTROL Dynamic Values]** (en el ejemplo siguiente: &quot;identificador&quot;).
-* Especificarlos también con la misma sintaxis en el cuerpo de la carga útil enviada. Para ello, debe agregar: &quot;param&quot;: &quot;nombre del parámetro&quot; (en el ejemplo siguiente: &quot;identificador&quot;). Siga esta sintaxis:
+* list the parameters to be passed at call time in the **[!UICONTROL Dynamic Values]** field (in the example below: &quot;identifier&quot;).
+* Especificarlos también con la misma sintaxis en el cuerpo de la carga útil enviada. To do so, you need to add: &quot;param&quot;: &quot;name of your parameter&quot; (in the example below: &quot;identifier&quot;). Siga esta sintaxis:
 
   ```
   {"id":{"param":"identifier"}}
@@ -140,7 +140,7 @@ Definición de la forma en que se debe insertar el token de acceso en la petici�
 
 * tokenInResponse: indica cómo extraer el token de acceso de la llamada de autenticación. Esta propiedad puede ser:
    * &#39;response&#39;: indica que la respuesta HTTP es el token de acceso
-   * un selector en un json (suponiendo que la respuesta es un json, no se admiten otros formatos como XML). El formato de este selector es _json://&lt;ruta a la propiedad token de acceso>_. Por ejemplo, si la respuesta de la llamada es: _{ &quot;access_token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_, tokenInResponse será: _json: //access_token_
+   * un selector en un json (suponiendo que la respuesta es un json, no se admiten otros formatos como XML). El formato de este selector es _json://&lt;ruta a la propiedad token de acceso>_. Por ejemplo, si la respuesta de la llamada es: _{ &quot;access_ token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_, tokenInResponse será:_ json: //access_token_
 
 El formato de esta autenticación es:
 
@@ -195,4 +195,4 @@ Puede cambiar la duración de caché del token para una fuente de datos de auten
 
 >[!NOTE]
 >
->La duración de la caché ayuda a evitar demasiadas llamadas a los extremos de autenticación. La retención del token de autenticación se almacena en caché en los servicios, no hay persistencia. Si se reinicia un servicio, se inicia con una caché limpia. La duración de la caché de forma predeterminada es de 1 hora. En la carga útil de autenticación personalizada, se puede adaptar especificando otra duración de retención.
+>Cache duration helps to avoid too many calls to the authentication endpoints. Authentication token retention is cached in services, there is no persistence. If a service is restarted, it starts with a clean cache. The cache duration by default is 1 hour. In the custom authentication payload, it can be adapted by specifying another retention duration.
