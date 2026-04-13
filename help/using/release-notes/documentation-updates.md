@@ -100,7 +100,7 @@ También puede consultar las [!DNL Journey Orchestration] [Notas de la versión]
 * Se añadió información sobre cómo cambiar la duración de caché del token para una fuente de datos de autenticación personalizada. [Más información](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
 * Capturas de pantalla y texto actualizados para reflejar el cambio de nombre del estado del recorrido **[!UICONTROL Finished]** , que se ha cambiado a **[!UICONTROL Closed (no entrance)]**.
 * Se añadió información sobre cómo se define el idioma para la interfaz. [Más información](../about/user-interface.md)
-* La lista de los estados del recorrido de un individuo se ha trasladado a la sección de [registros del modo de prueba ](../building-journeys/testing-the-journey.md#viewing_logs).
+* La lista de los estados del recorrido de un individuo se ha trasladado a la sección de [registros del modo de prueba &#x200B;](../building-journeys/testing-the-journey.md#viewing_logs).
 
 ## Abril de 2020 {#april-2020}
 
