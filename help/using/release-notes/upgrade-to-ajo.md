@@ -3,7 +3,7 @@ title: Actualización a Adobe Journey Optimizer
 description: Obtenga información sobre la actualización a Adobe Journey Optimizer
 hide: true
 exl-id: 887fd3bb-bcd3-4a6d-9817-43049c51ecba
-source-git-commit: ecdfc92fc1516c55b2d16d270094e637a4245483
+source-git-commit: 331d2797093c7287c317fd398c74e04613896f01
 workflow-type: tm+mt
 source-wordcount: '772'
 ht-degree: 3%
@@ -22,7 +22,7 @@ Journey Orchestration es un servicio creado en Adobe Experience Platform que le 
 
 ## ¿Por qué debería pasarme a Adobe Journey Optimizer?
 
-**Acceso a una interfaz optimizada** con funciones de Experience Platform que brinda acceso rápido a recorridos, conjuntos de datos, perfiles, alertas y más. Ya no es necesario realizar interacciones entre Adobe Experience Platform y Journey Orchestration para acceder a esquemas o conjuntos de datos, todo está disponible directamente desde Adobe Journey Optimizer. Para obtener más información, consulte esta [página](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/user-interface.html?lang=es).
+**Acceso a una interfaz optimizada** con funciones de Experience Platform que brinda acceso rápido a recorridos, conjuntos de datos, perfiles, alertas y más. Ya no es necesario realizar interacciones entre Adobe Experience Platform y Journey Orchestration para acceder a esquemas o conjuntos de datos, todo está disponible directamente desde Adobe Journey Optimizer. Para obtener más información, consulte esta [página](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/user-interface.html).
 
 <table>
 <tr>
@@ -93,8 +93,8 @@ Sí, es normal. Es posible que siga viendo el elemento de Journey Orchestration 
 
 Al pasar a Adobe Journey Optimizer, aún podrá utilizar la integración entre Recorrido y Adobe Campaign Standard diseñando el recorrido del cliente en Adobe Journey Optimizer y permitiendo que Adobe Campaign Standard realice la entrega.
 
-Sin embargo, debido al funcionamiento de la pila de informes de Adobe Journey Optimizer, el sistema de informes no combinará datos de Recorrido y de Campaign Standard. La información de recorrido estará disponible en los informes de Adobe Journey Optimizer y la información de envío en Adobe Campaign Standard. Se puede configurar Experience Platform para que devuelva los datos de Adobe Campaign Standard a Adobe Experience Platform, de modo que estén disponibles para Customer Journey Analytics ([más información](https://business.adobe.com/es/products/experience-platform/customer-journey-analytics.html)) u otras herramientas de informes de terceros, como Tableau o Power BI.
+Sin embargo, debido al funcionamiento de la pila de informes de Adobe Journey Optimizer, el sistema de informes no combinará datos de Recorrido y de Campaign Standard. La información de recorrido estará disponible en los informes de Adobe Journey Optimizer y la información de envío en Adobe Campaign Standard. Se puede configurar Experience Platform para que devuelva los datos de Adobe Campaign Standard a Adobe Experience Platform, de modo que estén disponibles para Customer Journey Analytics ([más información](https://business.adobe.com/products/experience-platform/customer-journey-analytics.html)) u otras herramientas de informes de terceros, como Tableau o Power BI.
 
-Los informes de Adobe Journey Optimizer funcionan mejor cuando se utilizan las funciones de mensajería integradas de Adobe Journey Optimizer (disponibles en ofertas de Adobe Journey Optimizer dedicadas). Para obtener más información sobre cómo crear mensajes en el lienzo de recorrido, consulte esta [página](https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/messages-in-journeys.html?lang=es).
+Los informes de Adobe Journey Optimizer funcionan mejor cuando se utilizan las funciones de mensajería integradas de Adobe Journey Optimizer (disponibles en ofertas de Adobe Journey Optimizer dedicadas). Para obtener más información sobre cómo crear mensajes en el lienzo de recorrido, consulte esta [página](https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/messages-in-journeys.html).
 
 Póngase en contacto con el equipo de su cuenta para obtener más información.
