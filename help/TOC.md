@@ -8,7 +8,7 @@ feature: Journeys
 source-git-commit: ecdfc92fc1516c55b2d16d270094e637a4245483
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 86%
+ht-degree: 99%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 86%
    + [Selección del espacio de nombres](using/event/selecting-the-namespace.md)
    + [Definición de la clave del evento](using/event/defining-the-event-key.md)
    + [Previsualización de la carga útil](using/event/previewing-the-payload.md)
-+ Configuración de una fuente de datos {#data-source-journeys}
++ Configuración de un fuente de datos {#data-source-journeys}
    + [Acerca de las fuentes de datos](using/datasource/about-data-sources.md)
    + [Grupos de campo](using/datasource/field-groups.md)
    + [Fuente de datos de Adobe Experience Platform](using/datasource/adobe-experience-platform-data-source.md)
@@ -188,7 +188,7 @@ ht-degree: 86%
    + [Acerca de los informes de recorrido](using/reporting/about-journey-reports.md)
    + [Creación de informes de recorrido](using/reporting/creating-your-journey-reports.md)
    + [Métricas y dimensiones](using/reporting/metrics-and-dimensions.md)
-+ Integración con servicios inteligentes{#use-case-advanced}
++ Integración con los servicios inteligentes{#use-case-advanced}
    + [Acerca de la integración de inteligencia artificial](using/ai-services/ai-services-overview.md)
    + [Aprovechamiento de la inteligencia artificial aplicada al cliente](using/ai-services/leveraging-customer-ai.md)
 + Casos de uso{#use-cases-journeys}
@@ -197,14 +197,14 @@ ht-degree: 86%
       + [Configuración del evento](using/usecase/configuring-the-event.md)
       + [Configuración de la fuente de datos](using/usecase/configuring-the-data-source.md)
       + [Construcción del recorrido](using/usecase/simple-uc-building-the-journey.md)
-   + Creación de un recorrido multicanal{#use-case-advanced}
+   + Creación de un recorrido de canales múltiples{#use-case-advanced}
       + [Acerca del caso de uso avanzado](using/usecase/about-the-advanced-use-case.md)
       + [Configuración de los eventos](using/usecase/configuring-the-events.md)
       + [Configuración de las fuentes de datos](using/usecase/configuring-the-data-sources.md)
       + [Construcción del recorrido](using/usecase/building-the-journey.md)
    + [Envío de un mensaje mediante Campaign v7/v8](using/usecase/campaign-classic-use-case.md)
    + [Paso de colecciones de forma dinámica mediante acciones personalizadas](using/usecase/collections.md)
-+ Uso de API{#working-with-apis}
++ Uso de las API{#working-with-apis}
    + [Introducción a las API de recorridos](using/api/journeys-apis.md)
    + [API de límite](using/api/capping.md)
    + [API de limitación](using/api/throttling.md)

@@ -10,7 +10,7 @@ exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: 331d2797093c7287c317fd398c74e04613896f01
 workflow-type: tm+mt
 source-wordcount: '994'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -100,7 +100,7 @@ También puede consultar las [!DNL Journey Orchestration] [Notas de la versión]
 * Se añadió información sobre cómo cambiar la duración de caché del token para una fuente de datos de autenticación personalizada. [Más información](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
 * Capturas de pantalla y texto actualizados para reflejar el cambio de nombre del estado del recorrido **[!UICONTROL Finished]** , que se ha cambiado a **[!UICONTROL Closed (no entrance)]**.
 * Se añadió información sobre cómo se define el idioma para la interfaz. [Más información](../about/user-interface.md)
-* La lista de los estados del recorrido de un individuo se ha trasladado a la sección de [registros del modo de prueba &#x200B;](../building-journeys/testing-the-journey.md#viewing_logs).
+* La lista de los estados del recorrido de un individuo se ha trasladado a la sección de [registros del modo de prueba ](../building-journeys/testing-the-journey.md#viewing_logs).
 
 ## Abril de 2020 {#april-2020}
 
@@ -136,7 +136,7 @@ También puede consultar las [!DNL Journey Orchestration] [Notas de la versión]
 
 * Todas las capturas de pantalla se han actualizado para reflejar los cambios en la interfaz.
 * Se ha actualizado la sección del modo de prueba. [Más información](../building-journeys/testing-the-journey.md)
-  <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html?lang=es).-->
+  <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).-->
 * Ahora se pueden eliminar los recorridos interrumpidos. Se han actualizado las páginas de documentación relacionadas.
 * Ahora se muestran dos colores cuando se detectan problemas en un recorrido. Rojo para errores y naranja para advertencias. [Más información](../about/troubleshooting.md)
 * Se ha actualizado la sección del editor de expresiones avanzado. [Más información](../expression/expressionadvanced.md).
