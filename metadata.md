@@ -16,11 +16,11 @@ type: Documentation
 feature: Journeys
 dummy: false
 source-git-commit: 4085d43f84bc195c0aca5d62a13833ed3af5979c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# Metadatos de Recorridos
+# Metadatos de los recorridos
