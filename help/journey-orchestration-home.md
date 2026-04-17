@@ -7,8 +7,8 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
-source-git-commit: 9fb1f031df4084b78cfca8a693098a36bfb51435
-workflow-type: ht
+source-git-commit: 9154a81a257f51820e71334880e58b56ec39676e
+workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 100%
 
@@ -19,7 +19,6 @@ ht-degree: 100%
 >[!CAUTION]
 >
 >¿**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
->
 >
 >_Esta documentación hace referencia a materiales de Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con su equipo de cuentas si tiene alguna pregunta sobre el acceso a Journey Orchestration o Journey Optimizer._
 
@@ -69,7 +68,7 @@ Descubra todos los detalles sobre las últimas versiones.
     <div>
     <a href="using/expression/expressionadvanced.md"><strong>Creación de expresiones avanzadas</strong></a>
     </div>
-    <em>Aprenda a crear expresiones complejas aprovechando los datos de los eventos y las fuentes de datos. </em> 
+    <em>Aprenda a crear expresiones complejas aprovechando los datos de los eventos y las fuentes de datos. </em>
     <br>
   </td>
 </tr>
