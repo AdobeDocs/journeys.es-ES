@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: ffec0d42-8632-4806-97df-da2a2372ca53
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 1%
+source-wordcount: '786'
+ht-degree: 10%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
+>¿**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
 >
 >
->_Esta documentación hace referencia a materiales Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con el equipo de su cuenta si tiene preguntas sobre su acceso a Journey Orchestration o Journey Optimizer._
+>_Esta documentación hace referencia a materiales de Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con su equipo de cuentas si tiene alguna pregunta sobre el acceso a Journey Orchestration o Journey Optimizer._
 
 
 
@@ -63,7 +63,7 @@ Cualquier esquema XDM que se vaya a utilizar para [!DNL Journey Orchestration] e
 
 ## Aprovechamiento de las relaciones de esquema{#leverage_schema_relationships}
 
-Adobe Experience Platform permite definir relaciones entre esquemas para utilizar un conjunto de datos como una tabla de búsqueda para otro.
+Adobe Experience Platform le permite definir relaciones entre esquemas para utilizar un conjunto de datos como una tabla de búsqueda para otro.
 
 Supongamos que el modelo de datos de marca tiene un esquema que captura las compras. También tiene un esquema para el catálogo de productos. Puede capturar el ID de producto en el esquema de compra y utilizar una relación para buscar detalles de producto más completos en el catálogo de productos. Esto le permite crear un segmento para todos los clientes que compraron un portátil, por ejemplo, sin tener que enumerar explícitamente todos los ID de portátil ni capturar todos los detalles del producto en sistemas transaccionales.
 
@@ -79,7 +79,7 @@ Este es el esquema de compra con la relación definida en el campo ID de product
 
 >[!NOTE]
 >
->Obtenga más información sobre las relaciones de esquema en la [documentación de Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=es).
+>Obtenga más información sobre las relaciones de esquema en la [documentación de Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en).
 
 En Journey Orchestration, puede aprovechar todos los campos de las tablas vinculadas:
 

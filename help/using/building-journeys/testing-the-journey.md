@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1619'
-ht-degree: 4%
+source-wordcount: '1641'
+ht-degree: 10%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 4%
 
 >[!CAUTION]
 >
->**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
+>¿**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
 >
 >
->_Esta documentación hace referencia a materiales Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con el equipo de su cuenta si tiene preguntas sobre su acceso a Journey Orchestration o Journey Optimizer._
+>_Esta documentación hace referencia a materiales de Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con su equipo de cuentas si tiene alguna pregunta sobre el acceso a Journey Orchestration o Journey Optimizer._
 
 
 Antes de poder probar el recorrido, debe resolver todos los errores. Consulte [esta sección](../about/troubleshooting.md#section_h3q_kqk_fhb).
@@ -32,7 +32,7 @@ Solo los perfiles de prueba pueden introducir un recorrido en el modo de prueba.
 
 Para utilizar el modo de prueba, siga estos pasos:
 
-1. Antes de probar el recorrido, compruebe que es válido y que no hay error. No podrá iniciar una prueba de un recorrido con errores. Ver [esta sección](../about/troubleshooting.md#section_h3q_kqk_fhb). Se muestra un símbolo de advertencia cuando hay errores.
+1. Antes de probar el recorrido, compruebe que es válido y que no hay error. No podrá iniciar una prueba de un recorrido con errores. Consulte [esta sección](../about/troubleshooting.md#section_h3q_kqk_fhb). Se muestra un símbolo de advertencia cuando hay errores.
 
 1. Para activar el modo de prueba, haga clic en la opción **[!UICONTROL Test]**, que se encuentra en la esquina superior derecha.
 
@@ -146,7 +146,7 @@ Como requisito previo, debe saber qué perfiles están marcados como perfiles de
 >
 >Se muestra un menú desplegable para los campos que esperan una enumeración. Simplemente, seleccione uno de los valores disponibles.
 
-Si el recorrido contiene varios eventos, utilice el menú desplegable para seleccionar un evento. A continuación, para cada evento, configure los campos pasados y la ejecución del envío del evento. La interfaz de le ayuda a pasar la información correcta en la carga útil de evento y a asegurarse de que el tipo de información es correcto. El modo de prueba guarda los últimos parámetros utilizados en una sesión de prueba para su uso posterior.
+Si el recorrido contiene varios eventos, utilice el menú desplegable para seleccionar un evento. A continuación, configure para cada evento los campos pasados y la ejecución del envío del evento. La interfaz de le ayuda a pasar la información correcta en la carga útil de evento y a asegurarse de que el tipo de información es correcto. El modo de prueba guarda los últimos parámetros utilizados en una sesión de prueba para su uso posterior.
 
 ![](../assets/journeytest4.png)
 
