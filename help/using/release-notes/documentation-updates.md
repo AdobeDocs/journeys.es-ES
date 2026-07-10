@@ -7,17 +7,16 @@ role: User
 level: Beginner
 hide: true
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: 331d2797093c7287c317fd398c74e04613896f01
+source-git-commit: 855c5b5dd83cf8d132c71f5ed02dd6fe0c10dcfa
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1001'
 ht-degree: 100%
 
 ---
 
 # Actualizaciones de la documentación
 
-Esta página enumera todas las actualizaciones de documentación de [!DNL Journey Orchestration].
-También puede consultar las [!DNL Journey Orchestration] [Notas de la versión](../release-notes/release-notes.md).
+Esta página enumera todas las actualizaciones de documentación de [!DNL Journey Orchestration].También puede consultar las [!DNL Journey Orchestration] [Notas de la versión](../release-notes/release-notes.md).
 
 ## Julio de 2022 {#july-2022}
 
@@ -40,15 +39,10 @@ También puede consultar las [!DNL Journey Orchestration] [Notas de la versión]
 ## Septiembre de 2021
 
 * Se han actualizado las siguientes páginas de funciones: [sethours](../functions/functionsethours.md), [getListItem](../functions/functiongetlistitem.md), [inSegment](../functions/functioninsegment.md)
-
 * Se han añadido las siguientes funciones: [filter](../functions/functionfilter.md), [intersect](../functions/functionintersect.md), [toDateOnly](../functions/functiontodateonly.md)
-
 * El tipo de fecha dateOnly se ha añadido a la documentación del editor de expresiones. [Más información](../expression/data-types.md)
-
 * Se han añadido detalles sobre la duración de la caché de acciones personalizada. [Más información](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
-
 * Se ha añadido información sobre los puertos predeterminados de acciones personalizadas. [Más información](../action/url-configuration.md)
-
 * Se han añadido ejemplos de uso común para consultar eventos de pasos de recorrido en un lago de datos. [Más información](../building-journeys/query-examples.md)
 
 ## Agosto de 2021
@@ -135,8 +129,7 @@ También puede consultar las [!DNL Journey Orchestration] [Notas de la versión]
 ## Diciembre de 2019 {#december-2019}
 
 * Todas las capturas de pantalla se han actualizado para reflejar los cambios en la interfaz.
-* Se ha actualizado la sección del modo de prueba. [Más información](../building-journeys/testing-the-journey.md)
-  <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html?lang=es).-->
+* Se ha actualizado la sección del modo de prueba. [Más información  <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).-->
 * Ahora se pueden eliminar los recorridos interrumpidos. Se han actualizado las páginas de documentación relacionadas.
 * Ahora se muestran dos colores cuando se detectan problemas en un recorrido. Rojo para errores y naranja para advertencias. [Más información](../about/troubleshooting.md)
 * Se ha actualizado la sección del editor de expresiones avanzado. [Más información](../expression/expressionadvanced.md).
