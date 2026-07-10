@@ -22,7 +22,7 @@ Journey Orchestration es un servicio creado en Adobe Experience Platform que le 
 
 ## ¿Por qué debería pasarme a Adobe Journey Optimizer?
 
-**Acceso a una interfaz optimizada** con funciones de Experience Platform que brinda acceso rápido a recorridos, conjuntos de datos, perfiles, alertas y más. Ya no es necesario realizar interacciones entre Adobe Experience Platform y Journey Orchestration para acceder a esquemas o conjuntos de datos, todo está disponible directamente desde Adobe Journey Optimizer. Para obtener más información, consulte esta [página](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/user-interface.html).
+**Acceso a una interfaz optimizada** con funciones de Experience Platform que brinda acceso rápido a recorridos, conjuntos de datos, perfiles, alertas y más. Ya no es necesario realizar interacciones entre Adobe Experience Platform y Journey Orchestration para acceder a esquemas o conjuntos de datos, todo está disponible directamente desde Adobe Journey Optimizer. Para obtener más información, consulte esta [página](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/user-interface.html?lang=es).
 
 <table>
 <tr>
@@ -90,8 +90,8 @@ Sí, es normal. Es posible que siga viendo el elemento de Journey Orchestration 
 
 Al pasar a Adobe Journey Optimizer, aún podrá utilizar la integración entre Recorrido y Adobe Campaign Standard diseñando el recorrido del cliente en Adobe Journey Optimizer y permitiendo que Adobe Campaign Standard realice la entrega.
 
-Sin embargo, debido al funcionamiento de la pila de informes de Adobe Journey Optimizer, el sistema de informes no combinará datos de Recorrido y de Campaign Standard. La información de recorrido estará disponible en los informes de Adobe Journey Optimizer y la información de envío en Adobe Campaign Standard. Se puede configurar Experience Platform para que devuelva los datos de Adobe Campaign Standard a Adobe Experience Platform, de modo que estén disponibles para Customer Journey Analytics ([más información](https://business.adobe.com/products/experience-platform/customer-journey-analytics.html)) u otras herramientas de informes de terceros, como Tableau o Power BI.
+Sin embargo, debido al funcionamiento de la pila de informes de Adobe Journey Optimizer, el sistema de informes no combinará datos de Recorrido y de Campaign Standard. La información de recorrido estará disponible en los informes de Adobe Journey Optimizer y la información de envío en Adobe Campaign Standard. Se puede configurar Experience Platform para que devuelva los datos de Adobe Campaign Standard a Adobe Experience Platform, de modo que estén disponibles para Customer Journey Analytics ([más información](https://business.adobe.com/es/products/experience-platform/customer-journey-analytics.html)) u otras herramientas de informes de terceros, como Tableau o Power BI.
 
-Los informes de Adobe Journey Optimizer funcionan mejor cuando se utilizan las funciones de mensajería integradas de Adobe Journey Optimizer (disponibles en ofertas de Adobe Journey Optimizer dedicadas). Para obtener más información sobre cómo crear mensajes en el lienzo de recorrido, consulte esta [página](https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/messages-in-journeys.html).
+Los informes de Adobe Journey Optimizer funcionan mejor cuando se utilizan las funciones de mensajería integradas de Adobe Journey Optimizer (disponibles en ofertas de Adobe Journey Optimizer dedicadas). Para obtener más información sobre cómo crear mensajes en el lienzo de recorrido, consulte esta [página](https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/messages-in-journeys.html?lang=es).
 
 Póngase en contacto con el equipo de su cuenta para obtener más información.
