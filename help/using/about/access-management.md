@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '873'
-ht-degree: 83%
+source-wordcount: '933'
+ht-degree: 88%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 83%
 
 >[!CAUTION]
 >
->**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
+>¿**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
 >
 >
->_Esta documentación hace referencia a materiales Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con el equipo de su cuenta si tiene preguntas sobre su acceso a Journey Orchestration o Journey Optimizer._
+>_Esta documentación hace referencia a materiales de Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con su equipo de cuentas si tiene alguna pregunta sobre el acceso a Journey Orchestration o Journey Optimizer._
 
 
 
@@ -34,7 +34,7 @@ Pueden ser administrados por administradores que tengan acceso a Admin Console. 
 Para poder acceder a [!DNL Journey Orchestration], un usuario debe cumplir lo siguiente:
 
 * ser parte de un **[!UICONTROL product profile]** de [!DNL Journey Orchestration] asociado a permisos de [!DNL Journey Orchestration].
-* Ser parte de un **[!UICONTROL product profile]** de [!DNL Adobe Experience Platform]. No hay ningún permiso obligatorio que tener. El usuario debe tener el permiso **[!UICONTROL profile management]** para poder crear y editar segmentos de plataforma desde la interfaz de [!DNL Journey Orchestration]. Para obtener más información, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=es#adobe-admin-console).
+* Ser parte de un **[!UICONTROL product profile]** de [!DNL Adobe Experience Platform]. No hay ningún permiso obligatorio que tener. El usuario debe tener el permiso **[!UICONTROL profile management]** para poder crear y editar segmentos de plataforma desde la interfaz de [!DNL Journey Orchestration]. Para obtener más información, consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#adobe-admin-console).
 
 En Admin Console, puede asignar a los usuarios uno de los siguientes perfiles de producto predeterminados:
 
@@ -93,7 +93,7 @@ Para crear un perfil de producto, y asignar un conjunto de permisos y zonas prot
 
    ![](../assets/do-not-localize/user_management_1.png)
 
-1. Seleccione el nuevo perfil de productos para empezar a administrar permisos. En la pestaña **[!UICONTROL Users]**, agregue usuarios al perfil del producto. Para obtener más información, consulte [esta página](../about/access-management.md#assigning-product-profile).
+1. Seleccione el nuevo perfil de productos para empezar a administrar permisos. En la pestaña **[!UICONTROL Users]**, agregue usuarios al perfil del producto. Para obtener más información, consulte esta [página](../about/access-management.md#assigning-product-profile).
 
 1. Lleve a cabo los mismos pasos que se detallan arriba para agregar **[!UICONTROL Admin]** a su perfil de productos.
 
@@ -135,7 +135,7 @@ Para asignar un perfil de producto para que un usuario tenga acceso [!DNL Journe
 
 1. Haga clic en **[!UICONTROL Add user]**.
 
-   También puede agregar el nuevo usuario a un grupo de usuarios para ajustar el conjunto compartido de permisos. Para obtener más información, consulte [esta página](https://helpx.adobe.com/es/enterprise/using/user-groups.html).
+   También puede agregar el nuevo usuario a un grupo de usuarios para ajustar el conjunto compartido de permisos. Para obtener más información, consulte esta [página](https://helpx.adobe.com/es/enterprise/using/user-groups.html).
 
    ![](../assets/do-not-localize/user_management_3.png)
 
