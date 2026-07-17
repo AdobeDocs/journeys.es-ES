@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: Eventos de cualificación de segmentos
+title: Eventos de calificación de segmentos
 description: Obtenga información sobre los eventos de calificación de segmentos
 feature: Journeys
 role: User
@@ -8,20 +8,20 @@ level: Intermediate
 exl-id: e8e54dbd-8178-4c70-907c-68eb4dc54da7
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 1%
+source-wordcount: '854'
+ht-degree: 7%
 
 ---
 
-# Eventos de cualificación de segmentos {#segment-qualification}
+# Eventos de calificación de segmentos {#segment-qualification}
 
 
 >[!CAUTION]
 >
->**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
+>¿**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
 >
 >
->_Esta documentación hace referencia a materiales Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con el equipo de su cuenta si tiene preguntas sobre su acceso a Journey Orchestration o Journey Optimizer._
+>_Esta documentación hace referencia a materiales de Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con su equipo de cuentas si tiene alguna pregunta sobre el acceso a Journey Orchestration o Journey Optimizer._
 
 
 
@@ -64,7 +64,7 @@ Este tipo de evento se puede colocar como primer paso o más tarde en el recorri
 
    >[!NOTE]
    >
-   >Tenga en cuenta que **[!UICONTROL Enter]** y **[!UICONTROL Exit]** corresponden a los estados de participación de segmentos **Realizado** y **Salido** de Adobe Experience Platform. Para obtener más información sobre cómo evaluar un segmento, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=es#interpret-segment-results).
+   >Tenga en cuenta que **[!UICONTROL Enter]** y **[!UICONTROL Exit]** corresponden a los estados de participación de segmentos **Realizado** y **Salido** de Adobe Experience Platform. Para obtener más información sobre cómo evaluar un segmento, consulte la [documentación del servicio de segmentación](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
 
 1. Seleccione un área de nombres. Esto solo es necesario si el evento se coloca como el primer paso del recorrido.
 
@@ -100,7 +100,7 @@ Además, si el segmento de lote se crea recientemente y se utiliza inmediatament
 
 Cuando se utiliza la calificación de segmentos para segmentos transmitidos, hay menos riesgo de obtener grandes picos de entradas/salidas debido a la evaluación continua del segmento. Sin embargo, si la definición del segmento conduce a que un gran volumen de clientes cumpla los requisitos al mismo tiempo, puede haber un pico también.
 
-Para obtener más información sobre la segmentación de transmisión, consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=es#api)
+Para obtener más información sobre la segmentación de transmisión, consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
 
 ### Cómo evitar sobrecargas{#overloads-speed-segment-qualification}
 
