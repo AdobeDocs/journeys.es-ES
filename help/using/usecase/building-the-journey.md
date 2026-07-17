@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: cca6ed3c-e151-4494-9e2d-9ed504bfc54b
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 85%
+source-wordcount: '912'
+ht-degree: 90%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 85%
 
 >[!CAUTION]
 >
->**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
+>¿**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
 >
 >
->_Esta documentación hace referencia a materiales Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con el equipo de su cuenta si tiene preguntas sobre su acceso a Journey Orchestration o Journey Optimizer._
+>_Esta documentación hace referencia a materiales de Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con su equipo de cuentas si tiene alguna pregunta sobre el acceso a Journey Orchestration o Journey Optimizer._
 
 
 El **usuario empresarial** ahora puede compilar el recorrido. El recorrido incluirá las siguientes actividades:
@@ -52,11 +52,11 @@ Para obtener información adicional sobre cómo generar un recorrido, consulte [
 
    ![](../assets/journeyuc2_13.png)
 
-1. Ahora vamos a agregar una condición para verificar que la persona no haya sido contactada en las últimas 24 horas y verificar si es un miembro socio. Arrastre y suelte una actividad de condición en el recorrido.
+1. Ahora vamos a agregar una condición para verificar que la persona no haya sido contactada en las últimas 24 horas y verificar si es un miembro fiel. Arrastre y suelte una actividad de condición en el recorrido.
 
    ![](../assets/journeyuc2_14.png)
 
-1. Elija el tipo **[!UICONTROL Data Source Condition]** y haga clic en el campo **[!UICONTROL Expression]** . También puede definir una etiqueta de condición que aparecerá en la flecha del lienzo. En nuestro ejemplo, reemplazamos &quot;Condición 1&quot; por &quot;Miembro socio&quot;.
+1. Elija el tipo **[!UICONTROL Data Source Condition]** y haga clic en el campo **[!UICONTROL Expression]** . También puede definir una etiqueta de condición que aparecerá en la flecha del lienzo. En nuestro ejemplo, reemplazamos &quot;Condición 1&quot; por &quot;Miembro fiel&quot;.
 
    ![](../assets/journeyuc2_15.png)
 
@@ -72,7 +72,7 @@ Para obtener información adicional sobre cómo generar un recorrido, consulte [
 
    ![](../assets/journeyuc2_30.png)
 
-1. Haga clic en el botón **[!UICONTROL Add a path]** y cree una segunda ruta para los clientes a los que no hayan sido contactados en las últimas 24 horas y que no son miembros socio. Asigne a la ruta el nombre &quot;No es miembro socio&quot;. La sintaxis de la expresión es:
+1. Haga clic en el botón **[!UICONTROL Add a path]** y cree una segunda ruta para los clientes a los que no hayan sido contactados en las últimas 24 horas y que no son miembros leales. Asigne a la ruta el nombre &quot;No es miembro fiel&quot;. La sintaxis de la expresión es:
 
    ```
    count(#{ExperiencePlatformDataSource.MarltonExperience.experienceevent.all(
@@ -86,14 +86,14 @@ Para obtener información adicional sobre cómo generar un recorrido, consulte [
    >
    >En la segunda parte de la expresión, el &quot;Perfil&quot; es opcional.
 
-1. Necesitamos seleccionar un área de nombres. Un área de nombres está preseleccionada en función de las propiedades de esquema. Puede mantener la preseleccionada. Para obtener más información sobre áreas de nombres, vea [esta página](../event/selecting-the-namespace.md).
+1. Necesitamos seleccionar un espacio de nombres. Un espacio de nombres está preseleccionado en función de las propiedades de esquema. Puede mantener la preseleccionada. Para obtener más información sobre áreas de nombres, vea [esta página](../event/selecting-the-namespace.md).
 
 En nuestro caso de uso, solo queremos reaccionar a esas dos condiciones, así que no marcamos la casilla **[!UICONTROL Show path for other cases than the one(s) above]**.
 
 Después de la condición se crean dos rutas:
 
-* _Clientes que no hayan sido contactados en las últimas 24 horas y que son miembros socio._
-* _Clientes que no hayan sido contactados en las últimas 24 horas y que no son miembros socio._
+* _Clientes que no hayan sido contactados en las últimas 24 horas y que son miembros leales._
+* _Clientes que no hayan sido contactados en las últimas 24 horas y que no son miembros leales._
 
 ![](../assets/journeyuc2_16.png)
 
@@ -149,7 +149,7 @@ Después de la condición se crean dos rutas:
 
    ![](../assets/journeyuc2_23.png)
 
-1. Añada una nueva actividad **[!UICONTROL Push]** , seleccione la plantilla &quot;Descuento en la comida&quot; y defina los campos **[!UICONTROL Address]** y **[!UICONTROL Personalization]** . Añada una actividad **[!UICONTROL End]**. 
+1. Añada una nueva actividad **[!UICONTROL Push]** , seleccione la plantilla &quot;Descuento en la comida&quot; y defina los campos **[!UICONTROL Address]** y **[!UICONTROL Personalization]** . Añada una actividad **[!UICONTROL End]**.
 
    ![](../assets/journeyuc2_24.png)
 
@@ -157,13 +157,13 @@ Después de la condición se crean dos rutas:
 
    ![](../assets/journeyuc2_31.png)
 
-1. En la segunda ruta que sigue la condición de reserva (sin habitación reservada), añada una actividad **[!UICONTROL Push]** y seleccione la plantilla &quot;Tarifas de habitación&quot;. Añada una actividad **[!UICONTROL End]**. 
+1. En la segunda ruta que sigue la condición de reserva (sin habitación reservada), añada una actividad **[!UICONTROL Push]** y seleccione la plantilla &quot;Tarifas de habitación&quot;. Añada una actividad **[!UICONTROL End]**.
 
    ![](../assets/journeyuc2_25.png)
 
 ## Segunda ruta: el cliente no es un miembro socio{#section_ptb_ws1_ffb}
 
-1. En la segunda ruta que sigue a la primera condición (el cliente no es un miembro socio), añada una actividad **[!UICONTROL Email]** y seleccione la plantilla &quot;Membresía de socios&quot;.
+1. En la segunda ruta que sigue a la primera condición (el cliente no es un miembro fiel), añada una actividad **[!UICONTROL Email]** y seleccione la plantilla &quot;Membresía de socios&quot;.
 
    ![](../assets/journeyuc2_26.png)
 
@@ -175,7 +175,7 @@ Después de la condición se crean dos rutas:
 
    ![](../assets/journeyuc2_28.png)
 
-1. Añada una actividad **[!UICONTROL End]**. 
+1. Añada una actividad **[!UICONTROL End]**.
 
 Haga clic en la opción **[!UICONTROL Test]** y pruebe el recorrido. Si hay algún error, desactive el modo de prueba, modifique el recorrido y pruebe de nuevo. Para obtener más información sobre el modo de prueba, consulte [esta página](../building-journeys/testing-the-journey.md).
 

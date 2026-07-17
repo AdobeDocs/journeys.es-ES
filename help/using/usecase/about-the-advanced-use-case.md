@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 43435aee-572d-4db2-88d5-6124ce074285
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 3%
+source-wordcount: '482'
+ht-degree: 17%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 3%
 
 >[!CAUTION]
 >
->**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
+>¿**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
 >
 >
->_Esta documentación hace referencia a materiales Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con el equipo de su cuenta si tiene preguntas sobre su acceso a Journey Orchestration o Journey Optimizer._
+>_Esta documentación hace referencia a materiales de Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con su equipo de cuentas si tiene alguna pregunta sobre el acceso a Journey Orchestration o Journey Optimizer._
 
 
 ## Objetivo {#purpose}
@@ -40,8 +40,8 @@ Luego comprobamos dos condiciones:
 
 * Si esta persona no es un miembro socio, le enviamos un correo electrónico para que se una a la oferta de membresía socio.
 * Si esta persona ya es un miembro socio, comprobamos si tiene una reserva de habitación:
-   * Si no lo hace, les enviamos una notificación push con las tarifas de las habitaciones.
-   * Si lo hace, les enviamos una notificación push de bienvenida. Y si entra en el restaurante dentro de las próximas 6 horas, les enviamos una notificación push con un descuento en una comida.
+  * Si no lo hace, les enviamos una notificación push con las tarifas de las habitaciones.
+  * Si lo hace, les enviamos una notificación push de bienvenida. Y si entra en el restaurante dentro de las próximas 6 horas, les enviamos una notificación push con un descuento en una comida.
 
 ![](../assets/journeyuc2_29.png)
 
