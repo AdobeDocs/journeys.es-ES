@@ -8,8 +8,8 @@ level: Beginner
 exl-id: fef039ae-c04d-4198-a082-4be27710255f
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 42%
+source-wordcount: '564'
+ht-degree: 54%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 42%
 
 >[!CAUTION]
 >
->**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
+>¿**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
 >
 >
->_Esta documentación hace referencia a materiales Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con el equipo de su cuenta si tiene preguntas sobre su acceso a Journey Orchestration o Journey Optimizer._
+>_Esta documentación hace referencia a materiales de Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con su equipo de cuentas si tiene alguna pregunta sobre el acceso a Journey Orchestration o Journey Optimizer._
 
 
 
@@ -44,9 +44,9 @@ Estas son las limitaciones relacionadas con el uso de Journey Orchestration.
 * El segmento y el área de nombres elegidos en **Calificación de segmentos** (primer nodo) no se puede cambiar en las nuevas versiones.
 * La regla de reentrada debe ser la misma en todas las versiones del recorrido.
 
-## Clasificación del segmento {#segment-qualification}
+## Calificación de segmentos {#segment-qualification}
 
-* La actividad **Calificación de segmentos** no se puede usar junto con la mensajería transaccional de Adobe Campaign Standard debido a restricciones de rendimiento. Ver [Descripción del producto de Adobe Campaign Standard](https://helpx.adobe.com/es/legal/product-descriptions/campaign-standard.html). 
+* La actividad **Calificación de segmentos** no se puede usar junto con la mensajería transaccional de Adobe Campaign Standard debido a restricciones de rendimiento. Ver [Descripción del producto Adobe Campaign Standard](https://helpx.adobe.com/es/legal/product-descriptions/campaign-standard.html). 
  
 
 ## Limitaciones de acciones personalizadas

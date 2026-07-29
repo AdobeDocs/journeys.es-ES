@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 90139c72-8fae-4e6e-a79b-7c510f41fe38
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 7%
+source-wordcount: '451'
+ht-degree: 18%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 7%
 
 >[!CAUTION]
 >
->**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
+>¿**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
 >
 >
->_Esta documentación hace referencia a materiales Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con el equipo de su cuenta si tiene preguntas sobre su acceso a Journey Orchestration o Journey Optimizer._
+>_Esta documentación hace referencia a materiales de Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con su equipo de cuentas si tiene alguna pregunta sobre el acceso a Journey Orchestration o Journey Optimizer._
 
 
 En nuestro caso, tenemos que recibir un evento cada vez que una persona entre en el hotel Marlton y en el restaurante. El **usuario técnico** debe configurar los dos eventos que queremos que el sistema escuche en nuestro recorrido.
@@ -48,7 +48,7 @@ Para obtener información adicional sobre la configuración de eventos, consulte
    >
    >La lista de campos varía según el esquema. Según la definición del esquema, algunos campos pueden ser obligatorios y preseleccionados.
 
-1. Necesitamos seleccionar un área de nombres. Un área de nombres está preseleccionada en función de las propiedades de esquema. Puede mantener la preseleccionada. Para obtener más información sobre áreas de nombres, vea [esta página](../event/selecting-the-namespace.md).
+1. Necesitamos seleccionar un espacio de nombres. Un espacio de nombres está preseleccionado en función de las propiedades de esquema. Puede mantener la preseleccionada. Para obtener más información sobre áreas de nombres, vea [esta página](../event/selecting-the-namespace.md).
 
    ![](../assets/journeyuc2_4.png)
 

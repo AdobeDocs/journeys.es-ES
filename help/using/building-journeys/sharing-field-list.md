@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: b7568080-b88c-415c-9d3f-cc1361664838
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 16%
+source-wordcount: '360'
+ht-degree: 31%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 16%
 
 >[!CAUTION]
 >
->**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
+>¿**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
 >
 >
->_Esta documentación hace referencia a materiales Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con el equipo de su cuenta si tiene preguntas sobre su acceso a Journey Orchestration o Journey Optimizer._
+>_Esta documentación hace referencia a materiales de Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con su equipo de cuentas si tiene alguna pregunta sobre el acceso a Journey Orchestration o Journey Optimizer._
 
 
 Los campos de eventos de paso están organizados por categoría.
@@ -68,9 +68,9 @@ Este mixin contiene todos los campos correspondientes a un trabajo de exportaci�
 |---|---|------------|
 | ID | Cadena | El identificador del trabajo de exportación de segmentos activado |
 | estado | Cadena | El estado del trabajo de exportación de segmentos: en cola, iniciado, finalizado |
-| exportCountTotal | Entero | El valor máximo posible del trabajo de exportación de segmentos |
-| exportCountRealized | Entero | El número real de segmentos exportados a través del trabajo |
-| exportCountFailed | Entero | El número de segmentos que fallaron al exportar a través del trabajo |
+| exportCountTotal | Número entero | El valor máximo posible del trabajo de exportación de segmentos |
+| exportCountRealized | Número entero | El número real de segmentos exportados a través del trabajo |
+| exportCountFailed | Número entero | El número de segmentos que fallaron al exportar a través del trabajo |
 | exportSegmentID | Cadena | El identificador del segmento que se exporta |
 | eventType | Cadena | El tipo de evento que indica si es un evento de error del evento de información: Información, Error |
 | eventCode | Cadena | El código de error que indica el motivo del eventType correspondiente |
