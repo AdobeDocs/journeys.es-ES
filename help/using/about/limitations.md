@@ -8,8 +8,8 @@ level: Beginner
 exl-id: fef039ae-c04d-4198-a082-4be27710255f
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 42%
+source-wordcount: '564'
+ht-degree: 54%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 42%
 
 >[!CAUTION]
 >
->**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
+>¿**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
 >
 >
->_Esta documentación hace referencia a materiales Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con el equipo de su cuenta si tiene preguntas sobre su acceso a Journey Orchestration o Journey Optimizer._
+>_Esta documentación hace referencia a materiales de Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con su equipo de cuentas si tiene alguna pregunta sobre el acceso a Journey Orchestration o Journey Optimizer._
 
 
 
@@ -44,11 +44,10 @@ Estas son las limitaciones relacionadas con el uso de Journey Orchestration.
 * El segmento y el área de nombres elegidos en **Calificación de segmentos** (primer nodo) no se puede cambiar en las nuevas versiones.
 * La regla de reentrada debe ser la misma en todas las versiones del recorrido.
 
-## Clasificación del segmento {#segment-qualification}
+## Calificación de segmentos {#segment-qualification}
 
-* La actividad **Calificación de segmentos** no se puede usar junto con la mensajería transaccional de Adobe Campaign Standard debido a restricciones de rendimiento. Ver [Descripción del producto de Adobe Campaign Standard](https://helpx.adobe.com/es/legal/product-descriptions/campaign-standard.html). 
+* La actividad **Calificación de segmentos** no se puede usar junto con la mensajería transaccional de Adobe Campaign Standard debido a restricciones de rendimiento. Ver [Descripción del producto Adobe Campaign Standard](https://helpx.adobe.com/es/legal/product-descriptions/campaign-standard.html). 
  
-
 ## Limitaciones de acciones personalizadas
 
 * La URL de acción personalizada no admite parámetros dinámicos. 
@@ -57,17 +56,14 @@ Estas son las limitaciones relacionadas con el uso de Journey Orchestration.
 * No se permiten direcciones IP. 
 * No se permiten las direcciones de Adobe internas (.adobe.).
  
-
 ## Limitaciones de acciones de Adobe Campaign
 
 * La mensajería transaccional de Adobe Campaign Standard tiene una escala de 50 000 mensajes por hora como máximo entre canales para una instancia determinada. Ver [Descripción del producto de Adobe Campaign Standard](https://helpx.adobe.com/es/legal/product-descriptions/campaign-standard.html). 
  
-
 ## Limitaciones de eventos
 
 * En el caso de los eventos generados por el sistema, los datos de streaming utilizados para iniciar un recorrido de cliente deben configurarse primero en Journey Orchestration para obtener un ID de orquestación único. Este ID de orquestación debe añadirse a la carga útil de streaming que llega a Adobe Experience Platform. Esta limitación no se aplica a los eventos basados en reglas.
  
-
 ## Limitaciones de fuentes de datos
 
 * Las fuentes de datos externas se pueden aprovechar dentro de un recorrido de cliente para buscar datos externos en tiempo real. Estas fuentes deben utilizarse mediante la API de REST, admiten JSON y pueden gestionar el volumen de solicitudes.
