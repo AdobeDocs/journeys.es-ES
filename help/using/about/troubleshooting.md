@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: c678ba01-c868-49f2-99f3-1abe0302779e
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1075'
-ht-degree: 81%
+source-wordcount: '1091'
+ht-degree: 85%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 81%
 
 >[!CAUTION]
 >
->**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
+>¿**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
 >
 >
->_Esta documentación hace referencia a materiales Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con el equipo de su cuenta si tiene preguntas sobre su acceso a Journey Orchestration o Journey Optimizer._
+>_Esta documentación hace referencia a materiales de Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con su equipo de cuentas si tiene alguna pregunta sobre el acceso a Journey Orchestration o Journey Optimizer._
 
 
 
@@ -49,7 +49,7 @@ Se pueden mostrar dos colores diferentes en el signo situado junto al botón de 
 
 Los errores y las advertencias que son globales para el recorrido aparecen primero en la lista. Los errores y las advertencias relacionados con actividades específicas se enumeran después, por orden de actividad o por su apariencia en el recorrido de izquierda a derecha. El botón **[!UICONTROL Copy details]** copia información técnica sobre el recorrido que el equipo de asistencia puede utilizar para solucionar problemas.
 
-Cuando se produce un error en una acción o condición, se detiene el recorrido de un individuo. La única manera para continuar es marcar la casilla **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Consulte [esta sección](../building-journeys/using-the-journey-designer.md#paths).
+Cuando se produce un error en una acción o condición, se detiene el recorrido de una persona. La única manera para continuar es marcar la casilla **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Consulte [esta sección](../building-journeys/using-the-journey-designer.md#paths).
 
 ## Comprobación de que los eventos se envían correctamente{#section_rqz_11t_dgb}
 
@@ -71,7 +71,7 @@ A continuación se indican algunas cosas que el administrador debe comprobar:
 * ¿Ha guardado el evento antes de copiar la carga útil de la previsualización de carga útil?
 * ¿Su carga útil de evento contiene un ID de evento?
 * ¿Ha marcado la dirección URL correcta?
-* ¿Ha seguido la estructura de carga útil de las API de inserción de flujo, utilizando la previsualización de estructura de carga útil del panel de configuración de evento? Consulte [esta página](../event/previewing-the-payload.md).
+* ¿Ha seguido la estructura de carga útil de las API de ingesta de streaming, utilizando la previsualización de estructura de carga útil del panel de configuración de evento? Consulte [esta página](../event/previewing-the-payload.md).
 * ¿Utilizó los pares clave/valor correctos en el encabezado del evento?
 
   ```
