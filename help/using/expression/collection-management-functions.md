@@ -6,13 +6,11 @@ feature: Journeys
 role: Developer
 level: Experienced
 exl-id: e80b04fe-b2d3-4c1b-ba22-7e37a9ad1d57
-source-git-commit: 58514d6757f9705f5baa71cfbbe0bdfe65c8e16c
+source-git-commit: c80acc261853108edccb40d120c8fe16023770e8
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '610'
 ht-degree: 3%
-
 ---
-
 # Funciones de administración de colecciones {#collection-management-functions}
 
 El lenguaje de expresión también introduce un conjunto de funciones para consultar colecciones.
@@ -172,7 +170,8 @@ The result will be:
 >[!NOTE]
 >
 >**[!UICONTROL currentEventField]** solo está disponible al manipular colecciones de eventos y **currentDataPackField**
->al manipular colecciones de fuentes de datos. Al procesar colecciones con **[!UICONTROL all]**, **[!UICONTROL first]** y **[!UICONTROL last]**, se recomienda>en cada elemento de la colección uno a uno. **[!UICONTROL currentEventField]** y **currentDataPackField**
+>al manipular colecciones de fuentes de datos. Al procesar colecciones con **[!UICONTROL all]**, **[!UICONTROL first]** y **[!UICONTROL last]**, se recomienda
+>en cada elemento de la colección uno a uno. **[!UICONTROL currentEventField]** y **currentDataPackField**
 >corresponde al elemento que se está reproduciendo en bucle.
 
 **Las funciones &quot;first(`<condition>`)&quot; y &quot;last(`<condition>`)&quot;**
@@ -244,6 +243,6 @@ _aepgdcdevenablement2.purchase_event.productListItems. all(currentDataPackField.
 ```
 
 ```json
- #{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.last(
+#{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.last(
 currentDataPackField.eventType == "commerce.productListAdds").productListItems.last(currentDataPackField.priceTotal >= 150).name}
 ```
