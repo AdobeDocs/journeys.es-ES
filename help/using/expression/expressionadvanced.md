@@ -45,7 +45,7 @@ _Interfaz avanzada del editor de expresiones_
 
 El editor de expresiones avanzadas se puede utilizar para lo siguiente:
 
-* crear [condiciones avanzadas ](../building-journeys/condition-activity.md#about_condition) en fuentes de datos e información de evento
+* crear [condiciones avanzadas &#x200B;](../building-journeys/condition-activity.md#about_condition) en fuentes de datos e información de evento
 * definir [actividades de espera personalizadas](../building-journeys/wait-activity.md#custom)
 * definir asignación de parámetros de acción
 
