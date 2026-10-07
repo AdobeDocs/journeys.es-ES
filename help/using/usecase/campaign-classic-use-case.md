@@ -4,7 +4,10 @@ solution: Journey Orchestration
 title: Envío de un mensaje mediante Campaign v7/v8
 description: Envío de un mensaje mediante Campaign v7/v8
 exl-id: 717a927a-4357-4058-a626-1b69f4bb46bc
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 17%

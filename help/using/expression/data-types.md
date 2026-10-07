@@ -6,13 +6,23 @@ feature: Journeys
 role: Developer
 level: Experienced
 exl-id: 343f61b8-2315-4971-8b2b-6aa815bd9ced
-source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '719'
 ht-degree: 12%
-
 ---
-
 # Tipos de datos {#concept_gp3_rj5_dgb}
 
 
@@ -90,7 +100,7 @@ Número decimal. Representa un valor flotante:
 
 Formato JSON: número
 
-Formato de serialización: usando &#39;.&#39; como separador decimal.
+Formato de serialización: utilizando &#39;.&#39; como separador decimal.
 
 **Representación literal**
 

@@ -3,13 +3,14 @@ product: adobe campaign
 title: Importar descripción de API de exportación
 description: Obtenga más información sobre la API de exportación de importación.
 products: journeys
-source-git-commit: 8f409fe6e37a3b80527d9a5514b066e539dcd9f3
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '1027'
-ht-degree: 17%
-
+source-wordcount: '1162'
+ht-degree: 19%
 ---
-
 
 # Uso de la API Export-Import
 
@@ -19,7 +20,7 @@ Esta función le permite administrar los recorridos en varias instancias o para 
 
 ## Recursos
 
-La API Export-Import de Journey Orchestration se describe en un archivo Swagger disponible [aquí](https://adobedocs.github.io/JourneyAPI/docs/).
+La API de exportación e importación de Journey Orchestration se describe en un archivo Swagger disponible [aquí](https://adobedocs.github.io/JourneyAPI/docs/).
 
 Para utilizar esta API con la instancia de Journey Orchestration, debe utilizar la consola de Adobe I/O. Puede empezar siguiendo esta [Introducción a Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) y luego usar las secciones de esta página.
 
@@ -30,16 +31,16 @@ Para probar y preparar la integración, hay una colección de Postman disponible
 
 Recomendamos seguir estos pasos para exportar e importar sus recorridos entre entornos:
 
-1. Cree y parametrice un recorrido en el entorno de inicio. [Más información aquí](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/about-journey-building/journey.html?lang=es)
-1. Compruebe si la versión del recorrido no tiene ningún error. [Más información aquí](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/testing-the-journey.html?lang=es)
-1. Llame a la API **/list/recorrido** para recuperar el recorrido UID y el UID de la última versión del recorrido. Si es necesario, puede llamar a **/recorrido/`{uid}`/latest** para encontrar el UID de la última versión del recorrido.
+1. Cree y parametrice un recorrido en el entorno de inicio. [Más información aquí](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/about-journey-building/journey.html)
+1. Compruebe si la versión del recorrido no tiene ningún error. [Más información aquí](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/testing-the-journey.html)
+1. Llame a la API **/list/recorrido** para recuperar el recorrido de UID y el UID de la última versión del recorrido. Si es necesario, puede llamar a **/recorrido/`{uid}`/latest** para buscar el UID de la última versión del recorrido.
 1. Llame a la API **export** con sus parámetros de entorno de inicio (orgID y sandboxName).
 1. Abra la carga útil de retorno y compruebe los siguientes elementos:
    * Si la recorrido exportada contiene **credenciales específicas**, debe reemplazarlas por las que correspondan al entorno nuevo.
-   * Si el recorrido exportado contiene **eventos** que apuntan a un **esquema XDM**, debe actualizar manualmente la referencia de ID de esquema con el ID de esquema del nuevo entorno en el nodo xdmEntity si los valores de ID son diferentes. Esta actualización debe realizarse para cada evento. [Más información aquí](https://experienceleague.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html?lang=es)
+   * Si el recorrido exportado contiene **eventos** que apuntan a un **esquema XDM**, debe actualizar manualmente la referencia de ID de esquema con el ID de esquema del nuevo entorno en el nodo xdmEntity si los valores de ID son diferentes. Esta actualización debe realizarse para cada evento. [Más información aquí](https://experienceleague.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html)
    * Si el recorrido contiene acciones de correo electrónico, sms o push, es posible que tenga que actualizar el nombre de la plantilla o el nombre de la aplicación móvil si el nombre en el entorno de destino es diferente del del entorno de inicio.
 1. Llame a la API **Import** con los parámetros de entorno de destino (orgID y sandboxName). Tenga en cuenta que puede llamar a la API de importación tantas veces como desee. El UUID y el nombre de cada objeto contenido en la recorrido se generan cada vez que llama a la API import.
-1. Una vez importado el Recorrido, puede publicarlo en la aplicación de Journey Orchestration. Más información [aquí](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html?lang=es)
+1. Una vez importado el Recorrido, puede publicarlo en la aplicación de Journey Orchestration. Más información [aquí](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html)
 
 
 ## Autenticación
@@ -57,12 +58,12 @@ El acceso a la API de Journey Orchestration se configura mediante los pasos sigu
 
 >[!CAUTION]
 >
->El método JWT para generar tokens de acceso ha quedado obsoleto. Todas las integraciones nuevas deben crearse con el [método de autenticación de servidor a servidor OAuth](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=es#select-oauth-server-to-server). Adobe también recomienda migrar las integraciones existentes al método OAuth.
+>El método JWT para generar tokens de acceso ha quedado obsoleto. Todas las integraciones nuevas deben crearse con el [método de autenticación de servidor a servidor OAuth](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server). Adobe también recomienda migrar las integraciones existentes al método OAuth.
 >
 >Lea la siguiente documentación importante:
 >[Guía de migración para sus aplicaciones de JWT a OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/),
 >[Guía de implementación para aplicaciones nuevas y antiguas con OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/),
->[Ventajas de utilizar el método de credenciales de servidor a servidor OAuth &#x200B;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
+>[Ventajas de utilizar el método de credenciales de servidor a servidor OAuth ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
 
 
 Para establecer una sesión segura de API de Adobe I/O de servicio a servicio, cada solicitud a un servicio de Adobe debe incluir la información siguiente en el encabezado Autorización.
@@ -74,9 +75,9 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
  -H 'x-gw-ims-org-id: <ORGANIZATION>'
 ```
 
-* **&lt;ORGANIZATION>**: Este es su ID de ORGANIZACIÓN personal; el Adobe proporciona un ID de ORGANIZACIÓN para cada una de sus instancias:
+* **&lt;ORGANIZATION>**: Este es su ID de ORGANIZACIÓN personal; Adobe proporciona un ID de ORGANIZACIÓN para cada una de sus instancias:
 
-   * &lt;ORGANIZATION> : su instancia de producción
+  * &lt;ORGANIZATION> : su instancia de producción
 
   Para obtener el valor del ID de organización, consulte con su administrador o contacto técnico de Adobe. También puede recuperarlo en Adobe I/O al crear una nueva integración, en la lista de licencias (consulte la [documentación de Adobe I/O](https://www.adobe.io/authentication.html)).
 
@@ -88,7 +89,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 ## Descripción de la API Export-Import
 
-Esta API le permite exportar una versión de recorrido identificada por su UUID y todos los objetos relacionados (recorrido, eventos, fuentes de datos, grupos de campos, acciones personalizadas) por su uid.
+Esta API le permite exportar una versión de recorrido identificada por su UID y todos los objetos relacionados (recorrido, eventos, fuentes de datos, grupos de campos, acciones personalizadas) por su uid.
 La carga útil resultante se puede utilizar para importar la versión de recorrido en otro entorno (entorno limitado o instancia de ).
 
 | Método | Ruta | Descripción |
@@ -106,17 +107,17 @@ La carga útil resultante se puede utilizar para importar la versión de recorri
 * Las credenciales no se exportan y se inserta un marcador de posición (por ejemplo, INSERT_SECRET_HERE) en la carga útil de respuesta.
 Después de la llamada de exportación, debe insertar manualmente las nuevas credenciales (correspondientes al entorno de destino) antes de importar la carga útil en el entorno de destino.
 
-* Los objetos siguientes se exportan, pero nunca se importan en el entorno de destino. Son recursos del sistema que el Journey Orchestration administra automáticamente. No es necesario reemplazar &quot;INSERT_SECRET_HERE&quot;.
-   * **DataProviders**: &quot;Adobe Campaign Standard Data Provider&quot; (acsDataProvider) y &quot;Experience Platform&quot; (acppsDataProvider)
-   * **Grupos de campos** (dataEntities): &quot;ProfileFieldGroup&quot; (acppsDataPack)
+* Los objetos siguientes se exportan, pero nunca se importan en el entorno de destino. Son recursos del sistema que Journey Orchestration administra automáticamente. No es necesario reemplazar &quot;INSERT_SECRET_HERE&quot;.
+  * **DataProviders**: &quot;Adobe Campaign Standard Data Provider&quot; (acsDataProvider) y &quot;Experience Platform&quot; (acpsDataProvider)
+  * **Grupos de campos** (dataEntities): &quot;ProfileFieldGroup&quot; (acppsDataPack)
 
 
 
 ### Importar características
 
-* Durante la importación, los objetos de recorrido se crean con un nuevo UID y un nuevo nombre para garantizar la exclusividad en el entorno de destino (instancia o zona protegida).
+* Durante la importación, los objetos de recorrido se crean con un nuevo UID y un nuevo nombre para garantizar su exclusividad en el entorno de destino (instancia o zona protegida).
 
-* Si la carga útil de importación contiene marcadores de posición secretos, se genera un error. Debe reemplazar la información de credenciales antes de la llamada al POST para importar el recorrido.
+* Si la carga útil de importación contiene marcadores de posición secretos, se genera un error. Debe reemplazar la información de credenciales antes de la llamada de POST para importar el recorrido.
 
 ## Advertencia y errores
 
@@ -126,4 +127,4 @@ Los posibles errores son:
 
 * A las **hora de importación**, si la carga no es válida después de realizar modificaciones o si las credenciales no están bien definidas en la carga útil: error 400
 
-* Después del paso de importación, si el ID de esquema XDM para los eventos no es válido en el entorno de destino, aparece un error en la aplicación Journey Orchestration. En este caso, no es posible publicar el recorrido.
+* Después del paso de importación, si el ID de esquema XDM para los eventos no es válido en el entorno de destino, aparece un error en la aplicación de Journey Orchestration. En este caso, no es posible publicar el recorrido.

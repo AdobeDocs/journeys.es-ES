@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 634ba1cb926d20a11539f6262d5c4d0342c6c286
-workflow-type: ht
-source-wordcount: '4452'
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
+workflow-type: tm+mt
+source-wordcount: '4770'
 ht-degree: 100%
-
 ---
-
 # Notas de la versión {#release-notes}
 
 >[!CAUTION]
@@ -68,8 +78,8 @@ Cuando un recorrido está en un estado intermedio, es de solo lectura. [Más inf
 * Se ha mejorado el diseño del panel de configuración, que aparece en acciones, fuentes de datos, eventos y recorridos.
 * Ahora puede definir parámetros de consulta estáticos o dinámicos en sus acciones personalizadas. Consulte la [documentación](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=es#url-configuration){target="_blank"} de Journey Optimizer.
 * Nuevos mecanismos de protección para administrar el crecimiento de las experiencias que ofrecen los recorridos:
-   * Le recomendamos que mantenga el número de nodos limitado a 50 o menos para mantener sus recorridos funcionando, fácil de leer, realizar un control de calidad y solucionar problemas. El número de actividades se muestra en la sección superior izquierda del lienzo del recorrido. Consulte la [documentación](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=es#journeys-guardrails-journeys){target="_blank"} de Journey Optimizer
-   * A medida que desarrolle e inicie recorridos, le notificaremos cuando se aproxime al hito de 100 recorridos activos a la vez. Si sus planes requieren más de 100 recorridos a la vez, cree una entrada para recibir asistencia después de ver la notificación y le ayudaremos. Consulte la [documentación](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=es#journeys-guardrails-journeys){target="_blank"} de Journey Optimizer
+  * Le recomendamos que mantenga el número de nodos limitado a 50 o menos para mantener sus recorridos funcionando, fácil de leer, realizar un control de calidad y solucionar problemas. El número de actividades se muestra en la sección superior izquierda del lienzo del recorrido. Consulte la [documentación](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=es#journeys-guardrails-journeys){target="_blank"} de Journey Optimizer
+  * A medida que desarrolle e inicie recorridos, le notificaremos cuando se aproxime al hito de 100 recorridos activos a la vez. Si sus planes requieren más de 100 recorridos a la vez, cree una entrada para recibir asistencia después de ver la notificación y le ayudaremos. Consulte la [documentación](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=es#journeys-guardrails-journeys){target="_blank"} de Journey Optimizer
 
 ## Versión de marzo de 2023 {#mar-2023}
 
@@ -316,7 +326,7 @@ Las funciones de [getListItem](../functions/functiongetlistitem.md) y [división
 <tbody>
 <tr>
 <td>
-<p>Una nueva actividad de acción permite insertar particulares de un recorrido a otro. La actividad de acción <strong>Saltar</strong> le permite hacer lo siguiente:
+<p>Una nueva actividad de acción permite insertar personas de un recorrido a otro. La actividad de acción <strong>Saltar</strong> le permite hacer lo siguiente:
 </p>
 <ul>
 <li>simplificar el diseño de recorridos muy complejos dividiéndolos en varios </li>
@@ -526,7 +536,7 @@ El programa Alpha ofrece características que actualmente están siendo probadas
 <tbody>
 <tr>
 <td>
-<p>La Actividad del activador de segmentos le permite hacer que todos los individuos que pertenecen a un segmento de Adobe Experience Platform participen en un recorrido. La entrada en un recorrido puede realizarse una vez o de forma regular. 
+<p>La Actividad del activador de segmentos le permite hacer que todas las personas que pertenecen a un segmento de Adobe Experience Platform participen en un recorrido. La entrada en un recorrido puede realizarse una vez o de forma regular. 
 </p>
 </td>
 </tr>
