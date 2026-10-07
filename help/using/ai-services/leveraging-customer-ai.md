@@ -34,7 +34,7 @@ ht-degree: 34%
 >_Esta documentación hace referencia a materiales de Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con su equipo de cuentas si tiene alguna pregunta sobre el acceso a Journey Orchestration o Journey Optimizer._
 
 
-La inteligencia artificial aplicada al cliente forma parte de Servicios inteligentes. Ayuda a predecir qué es lo más probable que haga un cliente. Consulte la [documentación](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html).
+La inteligencia artificial aplicada al cliente forma parte de Servicios inteligentes. Ayuda a predecir qué es lo más probable que haga un cliente. Consulte la [documentación](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html?lang=es).
 
 La inteligencia artificial aplicada al cliente permite a las marcas crear puntuaciones de aprendizaje automático de pérdida o conversión que estarán disponibles como atributos de perfil en los perfiles de Adobe Experience Platform (perfil del cliente en tiempo real).
 
