@@ -6,23 +6,33 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9d385b64-46cd-489b-9c18-352fa2a2dbba
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 3%
-
+source-wordcount: '355'
+ht-degree: 20%
 ---
-
 # Definición de los campos de carga útil {#concept_yrw_3qt_52b}
 
 
 
 >[!CAUTION]
 >
->**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
+>¿**Busca Adobe Journey Optimizer**? Haga clic [aquí](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/ajo-home){target="_blank"} para obtener la documentación de Journey Optimizer.
 >
 >
->_Esta documentación hace referencia a materiales Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con el equipo de su cuenta si tiene preguntas sobre su acceso a Journey Orchestration o Journey Optimizer._
+>_Esta documentación hace referencia a materiales de Journey Orchestration heredados que han sido reemplazados por Journey Optimizer. Póngase en contacto con su equipo de cuentas si tiene alguna pregunta sobre el acceso a Journey Orchestration o Journey Optimizer._
 
 
 La definición de carga útil permite elegir la información que el sistema espera recibir del evento en su recorrido y la clave para identificar a qué persona está asociada al evento. La carga útil se basa en la definición del campo XDM de Experience Cloud. Para obtener más información sobre XDM, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es).

@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '933'
 ht-degree: 88%
-
 ---
-
 # Administración de acceso{#concept_rfj_wpt_52b}
 
 
@@ -39,24 +49,24 @@ Para poder acceder a [!DNL Journey Orchestration], un usuario debe cumplir lo si
 En Admin Console, puede asignar a los usuarios uno de los siguientes perfiles de producto predeterminados:
 
 * **[!UICONTROL Limited Access User]**: usuario con acceso de solo lectura a recorridos e informes. Este perfil de productos incluye los siguientes permisos:
-   * Leer recorridos
-   * Leer informes
+  * Leer recorridos
+  * Leer informes
 
 * **[!UICONTROL Administrators]**: usuario con acceso a los menús de administración con la posibilidad de administrar recorridos, eventos e informes. Este perfil de productos incluye los siguientes permisos:
-   * Administrar recorridos
-   * Publicar recorridos
-   * Administrar eventos, fuentes de datos y acciones
-   * Administrar informes
+  * Administrar recorridos
+  * Publicar recorridos
+  * Administrar eventos, fuentes de datos y acciones
+  * Administrar informes
 
   >[!NOTE]
   >
   >**[!UICONTROL Administrators]** es el único perfil de productos que permite crear, editar y publicar mensajes transaccionales (o plantillas de mensajería) en Adobe Campaign Standard. Este perfil de producto es necesario si utiliza Adobe Campaign Standard para enviar mensajes en los recorridos. No se debe cambiar el nombre en Admin Console.
 
 * **[!UICONTROL Standard User]**: usuario con acceso básico, como administración de recorridos. Este perfil de productos incluye los siguientes permisos:
-   * Administrar recorridos
-   * Publicar recorridos
-   * Administrar informes
-   * Lea eventos, fuentes de datos y acciones
+  * Administrar recorridos
+  * Publicar recorridos
+  * Administrar informes
+  * Lea eventos, fuentes de datos y acciones
 
 También puede crear sus propios perfiles de producto si los perfiles predeterminados no son suficientes para administrar a los usuarios.
 Los usuarios siempre deben estar vinculados a un perfil de producto que le permita asignarles permisos de integración específicos como:

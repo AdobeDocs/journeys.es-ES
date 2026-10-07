@@ -2,13 +2,14 @@
 product: adobe campaign
 title: Aprovechamiento de puntuaciones de fatiga
 description: Aprenda a aprovechar las puntuaciones de fatiga en recorrido
-source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 4%
-
+source-wordcount: '262'
+ht-degree: 7%
 ---
-
 
 # Aprovechamiento de la IA de Recorrido {#concept_dsh_1ry_wfb}
 
@@ -50,7 +51,7 @@ Siga estos pasos para aprovechar el nivel de fatiga en el recorrido:
 
    ![](../assets/journeyuc2_14.png)
 
-1. Elija el tipo **[!UICONTROL Data Source Condition]** y haga clic en el campo **[!UICONTROL Expression]**.
+1. Elija el tipo **[!UICONTROL Data Source Condition]** y haga clic en el campo **[!UICONTROL Expression]** .
 
    ![](../assets/journeyuc3_2.png)
 

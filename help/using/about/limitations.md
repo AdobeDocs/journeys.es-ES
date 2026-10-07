@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: fef039ae-c04d-4198-a082-4be27710255f
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 54%
-
+source-wordcount: '637'
+ht-degree: 60%
 ---
-
 # Limitaciones {#limitations}
 
 
@@ -46,16 +56,16 @@ Estas son las limitaciones relacionadas con el uso de Journey Orchestration.
 
 ## Calificación de segmentos {#segment-qualification}
 
-* La actividad **Calificación de segmentos** no se puede usar junto con la mensajería transaccional de Adobe Campaign Standard debido a restricciones de rendimiento. Ver [Descripción del producto Adobe Campaign Standard](https://helpx.adobe.com/es/legal/product-descriptions/campaign-standard.html). 
+* La actividad **Calificación de segmentos** no se puede usar junto con la mensajería transaccional de Adobe Campaign Standard debido a restricciones de rendimiento. Ver [Descripción del producto de Adobe Campaign Standard](https://helpx.adobe.com/es/legal/product-descriptions/campaign-standard.html). 
  
 
 ## Limitaciones de acciones personalizadas
 
 * La URL de acción personalizada no admite parámetros dinámicos. 
 * Solo se admiten los métodos de llamada de POST y PUT. 
-* El nombre del parámetro de consulta o del encabezado no debe comenzar con &quot;.&quot; o &quot;$&quot;. 
+* El nombre del parámetro de consulta o del encabezado no debe comenzar con &quot;.&quot; o “$”. 
 * No se permiten direcciones IP. 
-* No se permiten las direcciones de Adobe internas (.adobe.).
+* Las direcciones internas de Adobe (.adobe.) no están permitidas.
  
 
 ## Limitaciones de acciones de Adobe Campaign

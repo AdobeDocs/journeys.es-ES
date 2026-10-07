@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
-source-git-commit: 58514d6757f9705f5baa71cfbbe0bdfe65c8e16c
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 87%
-
 ---
-
 # Interfaz de usuario{#concept_rcq_lqt_52b}
 
 
@@ -26,7 +36,7 @@ ht-degree: 87%
 
 ## Acceso [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-To access the [!DNL Journey Orchestration]&#39;s interface, click the **[!UICONTROL App Selector]** icon, in the top right, then click **[!UICONTROL Journey Orchestration]**.
+Para acceder a la interfaz de [!DNL Journey Orchestration], haga clic en el icono **[!UICONTROL App Selector]**, en la parte superior derecha, y luego haga clic en **[!UICONTROL Journey Orchestration]**.
 
 ![](../assets/journey1.png)
 
@@ -50,7 +60,7 @@ Haga clic en ![](../assets/icon-context.png), en la esquina superior derecha de 
 
 ![](../assets/journey2bis.png)
 
-## Searching and filtering{#section_lgm_hpz_pgb}
+## Búsqueda y filtrado{#section_lgm_hpz_pgb}
 
 En las listas **[!UICONTROL Home]**,**[!UICONTROL Data Sources]**,**[!UICONTROL Events]** y **[!UICONTROL Actions]** , una barra de búsqueda permite buscar un elemento.
 
@@ -58,7 +68,7 @@ Se puede acceder a **[!UICONTROL Filters]** haciendo clic en el icono de filtro 
 
 En las listas **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** y **[!UICONTROL Actions]** , use **[!UICONTROL Creation filters]** para filtrar la fecha de creación y el usuario. Puede elegir, por ejemplo, mostrar solo los eventos creados en los últimos 30 días.
 
-In the journey list (under **[!UICONTROL Home]**), in addition to the **[!UICONTROL Creation filters]**, you can also filter the displayed journeys according to their status, type and version (**[!UICONTROL Status and version filters]**). The type can be: **[!UICONTROL Unitary event]** or **[!UICONTROL Segment qualification]**. También puede elegir mostrar únicamente los recorrido que utilizan un evento, un grupo de campos o una acción en particular (**[!UICONTROL Activity filters]** y **[!UICONTROL Data filters]**). **[!UICONTROL Publication filters]** Permite seleccionar una fecha de publicación o un usuario. Puede elegir, por ejemplo, mostrar solo las versiones más recientes de recorridos en directo que se publicaron ayer. Consulte [esta página](../building-journeys/using-the-journey-designer.md).
+En la lista de recorrido (debajo de **[!UICONTROL Home]**), además de **[!UICONTROL Creation filters]**, también puede filtrar los recorridos mostrados según su estado, tipo y versión (**[!UICONTROL Status and version filters]**). El tipo puede ser: **[!UICONTROL Unitary event]** o **[!UICONTROL Segment qualification]**. También puede elegir mostrar únicamente los recorrido que utilizan un evento, un grupo de campos o una acción en particular (**[!UICONTROL Activity filters]** y **[!UICONTROL Data filters]**). **[!UICONTROL Publication filters]** Permite seleccionar una fecha de publicación o un usuario. Puede elegir, por ejemplo, mostrar solo las versiones más recientes de recorridos en directo que se publicaron ayer. Consulte [esta página](../building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
@@ -76,11 +86,11 @@ En las diferentes listas, puede realizar acciones básicas por cada elemento. Po
 
 ![](../assets/journey4.png)
 
-## Browsing through Adobe Experience Platform fields {#friendly-names-display}
+## Navegación por los campos de Adobe Experience Platform {#friendly-names-display}
 
 Al definir la [carga útil de evento](../event/defining-the-payload-fields.md), la [carga útil de grupo de campos](../datasource/field-groups.md) y seleccionar los campos en el [editor de expresiones](../expression/expressionadvanced.md), se muestra el nombre para mostrar además del nombre del campo. Esta información se recupera de la definición de esquema del Modelo de datos de experiencia.
 
-If descriptors such as &quot;xdm:alternateDisplayInfo&quot; are provided while setting up schemas, the user-friendly names will replace display names. It is especially useful when working with &quot;eVars&quot; and generic fields.Puede configurar descriptores de nombres descriptivos mediante una llamada a API. Para obtener más información, consulte la [Guía para desarrolladores de Schema Registry](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=es).
+Si se proporcionan descriptores como &quot;xdm:alternateDisplayInfo&quot; al configurar esquemas, los nombres descriptivos reemplazarán los nombres para mostrar. Resulta especialmente útil cuando se trabaja con eVars y campos genéricos.Puede configurar descriptores de nombres descriptivos mediante una llamada a API. Para obtener más información, consulte la [Guía para desarrolladores de Schema Registry](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=es).
 
 ![](../assets/xdm-from-descriptors.png)
 
@@ -92,15 +102,15 @@ Si hay un nombre descriptivo disponible, el campo se mostrará como `<friendly-n
 
 ## Accesibilidad{#accessibility}
 
-The accessibility features in Adobe Journey Optimizer are provided by Adobe Experience Platform:
+Adobe Experience Platform proporciona las funciones de accesibilidad de Adobe Journey Optimizer:
 
 * Accesibilidad del teclado
 * Contraste de color
 * Validación de campos obligatorios
 
-[Learn more](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=es){target="_blank"} in Adobe Experience Platform documentation.
+[Obtenga más información](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=es){target="_blank"} en la documentación de Adobe Experience Platform.
 
-You can use these common keyboard shortcuts in Adobe Journey Optimizer:
+Puede utilizar estos métodos abreviados de teclado comunes en Adobe Journey Optimizer:
 
 | Acción | Método abreviado |
 | --- | --- |
@@ -110,7 +120,7 @@ You can use these common keyboard shortcuts in Adobe Journey Optimizer:
 | Seleccionar o borrar un elemento que esté enfocado | Intro o barra espaciadora |
 | Cancelar una selección, contraer un panel o cerrar un cuadro de diálogo | ESC |
 
-[Learn more](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=es){target="_blank"} in Adobe Experience Platform documentation.
+[Obtenga más información](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=es){target="_blank"} en la documentación de Adobe Experience Platform.
 
 Puede utilizar estos métodos abreviados en partes específicas de Journey Optimizer:
 

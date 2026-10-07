@@ -6,13 +6,23 @@ feature: Journeys
 role: Developer
 level: Experienced
 exl-id: 2f317306-9afd-4e9a-88b8-fc66102e1046
-source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 10%
-
+source-wordcount: '614'
+ht-degree: 12%
 ---
-
 # Referencias del campo {#concept_fkj_ll5_dgb}
 
 
@@ -30,9 +40,9 @@ Si utiliza caracteres especiales en un campo, debe utilizar comillas dobles o si
 
 * el campo comienza con caracteres numéricos
 * el campo comienza con el carácter &quot;-&quot;
-* el campo contiene cualquier cosa que no sea: _a_-_z_, _A_-_Z_, _0_-_9_, _, _-_
+* el campo contiene cualquier cosa que no sea: _a_-_z_, _A_-_Z_, _0_-_9_, _,_-_
 
-Por ejemplo, si su campo es _3h_: _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
+Por ejemplo, si el campo es _3h_: _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
 
 ```json
 // event field
@@ -63,7 +73,7 @@ Se puede asociar un valor predeterminado con un nombre de campo. La sintaxis es 
 
 >[!NOTE]
 >
->El tipo de campo y el valor predeterminado deben ser el mismo. Por ejemplo, @{LobbyBeacon.endUserIDs._experience.email.id, defaultValue : 2} no será válido porque el valor predeterminado es un entero, mientras que el valor esperado debe ser una cadena.
+>El tipo de campo y el valor predeterminado deben ser el mismo. Por ejemplo, @{LobbyBeacon.endUserIDs.experience.email.id, defaultValue : 2} no será válido porque el valor predeterminado es un número entero, mientras que el valor esperado debe ser una cadena.
 
 Ejemplos:
 
@@ -167,7 +177,7 @@ Utilice la siguiente sintaxis:
 * **`<params-1-name>`**: nombre exacto del primer parámetro del origen de datos.
 * **`<params-1-value>`**: valor del primer parámetro. Puede ser cualquier expresión válida.
 
-Por ejemplo:
+Ejemplo:
 
 ```json
 #{Weather.main.temperature, params: {localisation: @{Profile.address.localisation}}}

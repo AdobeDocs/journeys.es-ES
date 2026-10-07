@@ -3,13 +3,14 @@ title: Actualización a Adobe Journey Optimizer
 description: Obtenga información sobre la actualización a Adobe Journey Optimizer
 hide: true
 exl-id: 887fd3bb-bcd3-4a6d-9817-43049c51ecba
-source-git-commit: 855c5b5dd83cf8d132c71f5ed02dd6fe0c10dcfa
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '772'
 ht-degree: 3%
-
 ---
-
 # Actualizar el entorno de Journey Orchestration a Adobe Journey Optimizer{#ugrade-ajo}
 
 ## ¿Qué es Adobe Journey Optimizer?
