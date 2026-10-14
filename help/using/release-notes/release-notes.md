@@ -69,7 +69,7 @@ Cuando un recorrido está en un estado intermedio, es de solo lectura. [Más inf
 
 ### Mejoras {#aug-2023-improvements}
 
-* Ahora puede utilizar las respuestas de llamadas de API en acciones personalizadas y organizar su recorrido en función de estas respuestas. Actualmente, esta función está disponible como una versión beta privada. Consulte la [documentación](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/action-response.html?lang=es){target="_blank"} de Journey Optimizer.
+* Ahora puede utilizar las respuestas de llamadas API en acciones personalizadas y organizar su recorrido en función de estas respuestas. Actualmente, esta función está disponible como una versión beta privada. Consulte la [documentación](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/action-response.html?lang=es){target="_blank"} de Journey Optimizer.
 
 ## Versión de abril de 2023 {#apr-rn-2023}
 
