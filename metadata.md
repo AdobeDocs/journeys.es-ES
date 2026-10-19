@@ -12,6 +12,7 @@ feature-set: Journey Orchestration
 solution: Journey Orchestration
 product_v2:
   - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: "Journey Orchestration"
 usetq: true
 landing-page-name: journey-orchestration
 landing-page-breadcrumb-title: Journey Orchestration
@@ -20,10 +21,8 @@ feature: Journeys
 dummy: false
 source-git-commit: 4114fe6aba455764b4acf1e5363fd7aca9c8a73b
 workflow-type: tm+mt
-source-wordcount: 7
+source-wordcount: '3'
 ht-degree: 100%
-
 ---
-
 
 # Metadatos de los recorridos
